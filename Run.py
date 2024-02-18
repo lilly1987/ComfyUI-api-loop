@@ -6,6 +6,7 @@ from fileRead import *
 from updateLib import *
 from queue_prompt import *
 from GetLib import *
+from minmax import *
 
 required  = {'json5','torch'}
 installed = {pkg.key for pkg in pkg_resources.working_set}
@@ -18,35 +19,37 @@ import torch
 
 
 
+
+
+
+
 def promptSetInt(prompt,setup,type,key,v=None):
-    if key in setup[type]:
-        #print(f"{type}.{key} : true1")
-        prompt[type]["inputs"][key]= setup[type][key]
-    elif f"{key}_min" in setup[type] and f"{key}_max" in setup[type]:
-        #print(f"{type}.{key} : true2")
-        prompt[type]["inputs"][key]= random.randint(setup[type][f"{key}_min"],setup[type][f"{key}_max"])
+    v2=minmax(setup.get(type,setup),key)
+    if v2:
+        prompt[type]["inputs"][key]= v2
     elif v:
         prompt[type]["inputs"][key]= v
         
-
-def promptSetUniform(prompt,setup,type,key):
+def promptSetUniform(prompt,setup,type,key,v=None):
+    v2=minmaxf(setup.get(type,setup),key)
+    if v2:
+        prompt[type]["inputs"][key]= v2
+    elif v:
+        prompt[type]["inputs"][key]= v
+        
+def promptSetList(prompt,setup,type,key,v=None):
+    v2=setup.get(type,setup).get(key)
+    if v2:
+        prompt[type]["inputs"][key]= randList(v2)
+    elif v:
+        prompt[type]["inputs"][key]= v
     
-    if key in setup[type]:
-        #print(f"{type}.{key} : true1")
-        prompt[type]["inputs"][key]= setup[type][key]
-    elif f"{key}_min" in setup[type] and f"{key}_max" in setup[type]:
-        #print(f"{type}.{key} : true2")
-        prompt[type]["inputs"][key]= round(random.uniform(setup[type][f"{key}_min"],setup[type][f"{key}_max"]),2)
-
-def promptSetList(prompt,setup,type,key):
-    if key in setup[type]:
-        #print(f"{type}.{key} : true")
-        prompt[type]["inputs"][key]= randList(setup[type][key])
 
 
 try:
 
     ckptCnt=0
+    ckptMax=0
 
     while True:
         
@@ -56,7 +59,7 @@ try:
         
         # -------------------------------------------------
         cuda=torch.cuda.is_available()
-        print(f"[{ccolor}]cuda : [/{ccolor}]",cuda)
+        #print(f"[{ccolor}]cuda : [/{ccolor}]",cuda)
         if cuda and "cuda" in setup:
             update(setup,setup["cuda"])
         elif not cuda and "cpu" in setup:
@@ -64,7 +67,7 @@ try:
         
         # -------------------------------------------------
         if ckptCnt<=0:
-            ckptCnt=setup.get("ckptCnt",8)
+            ckptMax=ckptCnt=setup.get("ckptCnt",8)
             ckptList=getFileList(setup["ckptPath"])
             ckpt_path=random.choice(ckptList)
             ckpt_path=pathRemove(ckpt_path,setup["ckptPathSplit"])
@@ -74,6 +77,7 @@ try:
             vaeList=getFileList(setup["vaePath"])
             vae_path=random.choice(vaeList)
             vae_path=pathRemove(vae_path,setup["vaePathSplit"])
+            vae_name=os.path.splitext(os.path.split(vae_path)[1])[0]
             #print("vae_path  : ",vae_path)
             
         
@@ -97,58 +101,51 @@ try:
             )
         
         # -------------------------------------------------
+        scheduler=None
         if setup.get("scheduler"):
-            #print(f"scheduler : true")
             scheduler=randList(setup["scheduler"])
-            prompt["KSampler"]["inputs"]["scheduler"]= scheduler
-            prompt["DetailerForEachDebug"]["inputs"]["scheduler"]= scheduler
             
+        sampler_name=None
         if setup.get("sampler_name"):
-            #print(f"sampler_name : true")
-            sampler_name=randList(setup["sampler_name"])
-            prompt["KSampler"]["inputs"]["sampler_name"]= sampler_name
-            prompt["DetailerForEachDebug"]["inputs"]["sampler_name"]= sampler_name
+            sampler_name=randList(setup["sampler_name"])            
+        
+        #steps=None
+        #if setup.get("steps"):
+        steps=minmax(setup,"steps")
+            
+        #cfg=None
+        #if setup.get("cfg"):
+        cfg=minmaxf(setup,"cfg")
+
         # -------------------------------------------------
         type="KSampler"
-        if setup.get(type):
-            #print(f"{type} : true")
-            promptSetInt(prompt,setup,type,"seed",setup.get("seed",random.randint(0, 0xffffffffffffffff )))
-            promptSetInt(prompt,setup,type,"steps")
-            promptSetUniform(prompt,setup,type,"cfg")
-            promptSetList(prompt,setup,type,"sampler_name")
-            promptSetList(prompt,setup,type,"karras")
-        else:
-            prompt[type]["inputs"]["seed"]= setup.get("seed",random.randint(0, 0xffffffffffffffff ))
+
+        promptSetInt(prompt,setup,type,"seed",random.randint(0, 0xffffffffffffffff ))
+        promptSetInt(prompt,setup,type,"steps",steps)
+        promptSetUniform(prompt,setup,type,"cfg",cfg)
+        promptSetList(prompt,setup,type,"sampler_name",sampler_name)
+        promptSetList(prompt,setup,type,"scheduler",scheduler)
+
         
         # -------------------------------------------------
         type="DetailerForEachDebug"
-        if setup.get(type):
-            #print(f"{type} : true")
-            promptSetInt(prompt,setup,type,"seed",setup.get("seed",random.randint(0, 0xffffffffffffffff )))
-            promptSetInt(prompt,setup,type,"steps")
-            promptSetUniform(prompt,setup,type,"cfg")
-            promptSetUniform(prompt,setup,type,"denoise")
-            promptSetList(prompt,setup,type,"sampler_name")
-            promptSetList(prompt,setup,type,"karras")
-        else:
-            prompt[type]["inputs"]["seed"]= setup.get("seed",random.randint(0, 0xffffffffffffffff ))
+
+        promptSetInt(prompt,setup,type,"seed",random.randint(0, 0xffffffffffffffff ))
+        promptSetInt(prompt,setup,type,"steps",steps)
+        promptSetUniform(prompt,setup,type,"cfg",cfg)
+        promptSetUniform(prompt,setup,type,"denoise")
+        promptSetList(prompt,setup,type,"sampler_name",sampler_name)
+        promptSetList(prompt,setup,type,"scheduler",scheduler)
+
         
         # -------------------------------------------------
         type="ImpactWildcardEncode1"
-        if setup.get(type):
-            #print(f"{type} : true")
-            promptSetInt(prompt,setup,type,"seed",setup.get("seed",random.randint(0, 0xffffffffffffffff )))
-        else:
-            prompt[type]["inputs"]["seed"]= setup.get("seed",random.randint(0, 0xffffffffffffffff ))
-        
+        promptSetInt(prompt,setup,type,"seed",random.randint(0, 0xffffffffffffffff ))
+
         # -------------------------------------------------
         type="ImpactWildcardEncode2"
-        if setup.get(type):
-            #print(f"{type} : true")
-            promptSetInt(prompt,setup,type,"seed",setup.get("seed",random.randint(0, 0xffffffffffffffff )))
-        else:
-            prompt[type]["inputs"]["seed"]= setup.get("seed",random.randint(0, 0xffffffffffffffff ))
-        
+        promptSetInt(prompt,setup,type,"seed",random.randint(0, 0xffffffffffffffff ))
+
         # -------------------------------------------------
         Save_name=f"{ckpt_name}-{time.strftime('%Y%m%d-%H%M%S')}"
         
@@ -163,11 +160,26 @@ try:
             del prompt["SaveImage2"]
         
         # -------------------------------------------------
-        print("prompt : ",prompt)
+        if setup.get("prompt show"):
+            print("prompt : ",prompt)
+        #print( prompt["ImpactWildcardEncode1"]["inputs"]["seed"])
+        #print( prompt["ImpactWildcardEncode2"]["inputs"]["seed"])
+        #print( prompt["KSampler"]["inputs"]["seed"])
+        #print( prompt["DetailerForEachDebug"]["inputs"]["seed"])
+        #print( prompt["KSampler"]["inputs"]["steps"])
+        #print( prompt["DetailerForEachDebug"]["inputs"]["steps"])
+        #print( prompt["KSampler"]["inputs"]["cfg"])
+        #print( prompt["DetailerForEachDebug"]["inputs"]["cfg"])
+        #print( prompt["KSampler"]["inputs"]["sampler_name"])
+        #print( prompt["DetailerForEachDebug"]["inputs"]["sampler_name"])
+        #print( prompt["KSampler"]["inputs"]["scheduler"])
+        #print( prompt["DetailerForEachDebug"]["inputs"]["scheduler"])
+        print(f"[{ccolor}]ckpt : [/{ccolor}]{ckpt_name} ; [{ccolor}]Cnt : [/{ccolor}]{ckptCnt}/{ckptMax} ; [{ccolor}]vae : [/{ccolor}]{vae_name} ; [{ccolor}]cuda : [/{ccolor}]{cuda} ;")
+
         url=setup["url"]
-        queue_prompt(prompt,url=url)
+        if setup.get("queue_prompt"):
+            queue_prompt(prompt,url=url)
         # -------------------------------------------------
-        print(f"[{ccolor}]ckpt_name : [/{ccolor}]{ckpt_name} ; [{ccolor}]ckptCnt : [/{ccolor}]{ckptCnt} ;")
         ckptCnt-=1
         
 except Exception:
