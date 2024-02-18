@@ -5,6 +5,7 @@ import glob,os
 import shutil, time
 import subprocess
 import pkg_resources
+from pathlib import Path
 from ConsoleColor import print, console
 
 required  = {'json5'}
@@ -67,5 +68,25 @@ def getFileList(path,filelist=[]):
         print("filelist : ",filelist,style="reset")
         console.print_exception()
         print("path : ",path,style="reset")
+        quit()
+        
+def pathRemove(opath,rpath):
+    try:
+        #opath=os.path.normpath(opath)
+        #rpath=os.path.normpath(rpath)
+        opath=Path(opath)
+        rpath=Path(rpath)
+        opath=opath.as_posix()
+        rpath=rpath.as_posix()
+        opath=opath.replace(rpath+'/','')
+        opath=os.path.normpath(opath)
+        #print(opath)
+        #print(rpath)
+        #print(type(filelist))
+        return opath
+    except Exception:
+        print("opath : ",opath,style="reset")
+        print("rpath : ",rpath,style="reset")
+        console.print_exception()
         quit()
         
