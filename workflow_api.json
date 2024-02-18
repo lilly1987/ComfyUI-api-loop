@@ -10,7 +10,7 @@
   },
   "KSampler": {
     "inputs": {
-      "seed": 890115323374972,
+      "seed": 0,
       "steps": 20,
       "cfg": 3,
       "sampler_name": "dpmpp_3m_sde",
@@ -85,7 +85,7 @@
       "mode": true,
       "Select to add LoRA": "Select the LoRA to add to the text",
       "Select to add Wildcard": "Select the Wildcard to add to the text",
-      "seed": 387677219282618,
+      "seed": 0,
       "model": [
         "CheckpointLoaderSimple",
         0
@@ -107,7 +107,7 @@
       "mode": true,
       "Select to add LoRA": "Select the LoRA to add to the text",
       "Select to add Wildcard": "Select the Wildcard to add to the text",
-      "seed": 757989997184339,
+      "seed": 0,
       "model": [
         "CheckpointLoaderSimple",
         0
@@ -136,7 +136,7 @@
       "guide_size": 256,
       "guide_size_for": true,
       "max_size": 512,
-      "seed": 647318466108458,
+      "seed": 0,
       "steps": 20,
       "cfg": 3,
       "sampler_name": "dpmpp_3m_sde",

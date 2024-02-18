@@ -6,12 +6,65 @@
     "ckptPathSplit":"../ComfyUI/models/checkpoints/",
     "ckptPath":"../ComfyUI/models/checkpoints/2d/*.safetensors",
     "ckptCnt":16,
+    "workflow":"workflow_api.json",
+    "sampler_name": [
+        "euler", "euler_ancestral", "heun", "heunpp2","dpm_2", "dpm_2_ancestral",
+        "lms", "dpm_fast", "dpm_adaptive", "dpmpp_2s_ancestral", "dpmpp_sde", "dpmpp_sde_gpu",
+        "dpmpp_2m", "dpmpp_2m_sde", "dpmpp_2m_sde_gpu", "dpmpp_3m_sde", "dpmpp_3m_sde_gpu", 
+        "ddpm", "lcm", "ddim", "uni_pc", "uni_pc_bh2"
+    ],
+    "scheduler": ["normal", "karras", "exponential", "sgm_uniform", "simple", "ddim_uniform"],
+    #"seed": 890115323374972,
+    "KSampler":{
+        #"seed": 890115323374972,
+        "steps": 30,
+        "cfg": 3,
+        "sampler_name": ["euler", "euler_ancestral", "heun", "heunpp2","dpm_2", "dpm_2_ancestral",
+            "lms", "dpm_fast", "dpm_adaptive", "dpmpp_2s_ancestral", "dpmpp_sde", "dpmpp_sde_gpu",
+            "dpmpp_2m", "dpmpp_2m_sde", "dpmpp_2m_sde_gpu", "dpmpp_3m_sde", "dpmpp_3m_sde_gpu", 
+            "ddpm", "lcm", "ddim", "uni_pc", "uni_pc_bh2"
+        ],
+        "scheduler": ["normal", "karras", "exponential", "sgm_uniform", "simple", "ddim_uniform"],
+    },
+    "DetailerForEachDebug":{
+        #"seed": 890115323374972,
+        "steps": 30,
+        "cfg": 3,
+        "sampler_name": [
+            "euler", "euler_ancestral", "heun", "heunpp2","dpm_2", "dpm_2_ancestral",
+            "lms", "dpm_fast", "dpm_adaptive", "dpmpp_2s_ancestral", "dpmpp_sde", "dpmpp_sde_gpu",
+            "dpmpp_2m", "dpmpp_2m_sde", "dpmpp_2m_sde_gpu", "dpmpp_3m_sde", "dpmpp_3m_sde_gpu", 
+            "ddpm", "lcm", "ddim", "uni_pc", "uni_pc_bh2"
+        ],
+        "scheduler": ["normal", "karras", "exponential", "sgm_uniform", "simple", "ddim_uniform"],
+        "denoise_min": 0.25,
+        "denoise_max": 0.4,
+    },
     "cuda" : {
         "ckptCnt":32,
     },
     "cpu" : {
         "ckptCnt":8,
     },
+    "shuffle":true,
     "positive": "masterpiece , best quality , detailed_face, cowboy shot, {from side,|9::} looking at viewer,1girl,  __char__, __chest__ , __exposure__,  thin waist,sex, large insertion, dildo riding , dildo, object insertion,{arms behind back, bound arms, bound bdsm, bdsm, |}{(open_dress:1.0), (Undressing:1.1), Nipples, (Pussy:1.1), (navel:1.0),|2::}__shoulder__,{See Through,|}__concept__,__insertion__, {<lora:microwaistV05:{0.75|0.875|1.0}:1.0>,|3::} , ",
-    "negative" : "lowres, worst quality, low quality,cropped, (multiple views), (multiple viewer), (cropped), face only, facial, lower body, from torso down,{-$$embedding:FastNegativeV2.pt|embedding:NGH.safetensors|embedding:bad_prompt_version2-neg.pt|embedding:negative_hand-neg|embedding:nncursedV0-neg.pt|embedding:badquality.pt|embedding:bad-picture-chill-75v.pt|embedding:neg_grapefruit.pt|embedding:ParaNegative.safetensors|embedding:easynegative.safetensors|embedding:EasyNegativeV2.safetensors},(monochrome:1.1), ",
+    "positive": {
+        
+        "quality":"masterpiece , best quality , detailed_face,",
+        "view":"cowboy shot, {from side,|9::} looking at viewer,",
+        "char":"1girl,  __char__, ",
+        "body":"__chest__ , __exposure__,  thin waist,",
+        "sex":"sex, large insertion, dildo riding , dildo, object insertion,{arms behind back, bound arms, bound bdsm, bdsm, |} {__insertion__,|} ",
+        "dress":"{(open_dress:1.0), (Undressing:1.1), Nipples, (Pussy:1.1), (navel:1.0),|2::}",
+        "shoulder":"__shoulder__,{See Through,|}",
+        "concept":"__concept__, {<lora:microwaistV05:{0.75|0.875|1.0}:1.0>,|3::} , "
+    },
+    "negative" : {
+        "quality":"lowres, worst quality, low quality,cropped,  from torso down,(monochrome:1.1), ",
+        "view":"(multiple views), (multiple viewer),  (cropped), face only,  lower body,  facial,",
+        "embedding":"{-$$embedding:FastNegativeV2.pt|embedding:NGH.safetensors|embedding:bad_prompt_version2-neg.pt|embedding:negative_hand-neg|embedding:nncursedV0-neg.pt|embedding:badquality.pt|embedding:bad-picture-chill-75v.pt|embedding:neg_grapefruit.pt|embedding:ParaNegative.safetensors|embedding:easynegative.safetensors|embedding:EasyNegativeV2.safetensors},",
+    },
+    "SaveImage1":true,
+    "SaveImage1":false,
+    "SaveImage2":true,
 }
