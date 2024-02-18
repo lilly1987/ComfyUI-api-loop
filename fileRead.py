@@ -21,7 +21,7 @@ comment = re.compile(r"#.*")
 def jsonFileRead(path,text=""):
     try:
         text=""
-        print("jsonFileRead : ",path)
+        #print("jsonFileRead : ",path)
         with open(path, 'r', encoding='utf-8') as file:
             text=file.read()
             #comment.sub("", text)
@@ -31,7 +31,7 @@ def jsonFileRead(path,text=""):
             #text=json.load(file)
             #text=json.loads(file)
             #text=json.dumps(file)
-            print(type(text))
+            #print(type(text))
         return text
     except Exception:
         print("text : ",text,style="reset")
@@ -42,7 +42,7 @@ def jsonFileRead(path,text=""):
 def dicFileRead(path,text=""):
     try:
         text=""
-        print("jsonFileRead : ",path)
+        #print("dicFileRead : ",path)
         with open(path, 'r', encoding='utf-8') as file:
             text=file.read()
             comment.sub("", text)
@@ -54,6 +54,17 @@ def dicFileRead(path,text=""):
         return text
     except Exception:
         print("text : ",text,style="reset")
+        console.print_exception()
+        print("path : ",path,style="reset")
+        quit()
+        
+def getFileList(path,filelist=[]):
+    try:
+        filelist=glob.glob(path,recursive=True)
+        #print(type(filelist))
+        return filelist
+    except Exception:
+        print("filelist : ",filelist,style="reset")
         console.print_exception()
         print("path : ",path,style="reset")
         quit()

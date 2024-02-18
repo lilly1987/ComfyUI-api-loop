@@ -1,0 +1,13 @@
+{
+    "vaePathSplit":"../ComfyUI/models/checkpoints/",
+    "vaePath":"../ComfyUI/models/checkpoints/2d/*.safetensors",
+    "ckptPathSplit":"../ComfyUI/models/checkpoints/",
+    "ckptPath":"../ComfyUI/models/checkpoints/2d/*.safetensors",
+    "ckptCnt":16,
+    "GPU" : {
+        "ckptCnt":32,
+    },
+    "CPU" : {
+        "ckptCnt":8,
+    },
+}
