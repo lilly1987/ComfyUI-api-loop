@@ -147,15 +147,20 @@ try:
         promptSetInt(prompt,setup,type,"seed",random.randint(0, 0xffffffffffffffff ))
 
         # -------------------------------------------------
-        Save_name=f"{ckpt_name}-{time.strftime('%Y%m%d-%H%M%S')}"
+        tm=time.strftime('%Y%m%d-%H%M%S')
+        # Save_name=f"{ckpt_name}-{time.strftime('%Y%m%d-%H%M%S')}"
         
         if setup.get("SaveImage1",True):
-            prompt["SaveImage1"]["inputs"]["filename_prefix"]= Save_name
+            sampler_name1=prompt["KSampler"]["inputs"]["sampler_name"]
+            scheduler1=prompt["KSampler"]["inputs"]["scheduler"]
+            prompt["SaveImage1"]["inputs"]["filename_prefix"]= f"{ckpt_name}-{sampler_name1}-{scheduler1}-{tm}"
         else:
             del prompt["SaveImage1"]
             
         if setup.get("SaveImage2",True):
-            prompt["SaveImage2"]["inputs"]["filename_prefix"]= Save_name
+            sampler_name1=prompt["DetailerForEachDebug"]["inputs"]["sampler_name"]
+            scheduler1=prompt["DetailerForEachDebug"]["inputs"]["scheduler"]
+            prompt["SaveImage2"]["inputs"]["filename_prefix"]= f"{ckpt_name}-{sampler_name1}-{scheduler1}-{tm}"
         else:
             del prompt["SaveImage2"]
         
