@@ -1,5 +1,7 @@
 {
     "positive": {
-        "char":"1girl,  <lora:tomoyo_V1Epoch6:__0.75__:1.0>, daidouji_tomoyo, tomoyo, black long hair, blunt bangs, cardcaptor sakura \(style\), ",
+        "char":"1girl,  <lora:tomoyo_V1Epoch6:__0.75__:1.0>, daidouji_tomoyo, tomoyo,",
+        "hair":"black long hair, blunt bangs,",
+        "style":"cardcaptor sakura \(style\), ",
     },
 }

@@ -50,6 +50,8 @@ try:
 
     ckptCnt=0
     ckptMax=0
+    jitemCnt=0
+    jitemMax=0
 
     while True:
         
@@ -64,6 +66,15 @@ try:
             update(setup,setup["cuda"])
         elif not cuda and "cpu" in setup:
             update(setup,setup["cpu"])
+            
+        # -------------------------------------------------
+        if jitemCnt<=0:
+            jitemMax=jitemCnt=setup.get("itemCnt",8)
+            jlist=getFileList("list/**/*.json")
+            jchoice=random.choice(jlist)
+            jitem=dicFileRead(jchoice)
+            jitem_name=os.path.splitext(os.path.split(jchoice)[1])[0]
+        update(setup,jitem)
         
         # -------------------------------------------------
         if ckptCnt<=0:
@@ -88,17 +99,7 @@ try:
         prompt["CheckpointLoaderSimple"]["inputs"]["ckpt_name"]= ckpt_path
         
         prompt["VAELoader"]["inputs"]["vae_name"]= vae_path        
-        
-        # -------------------------------------------------
-        prompt["ImpactWildcardEncode1"]["inputs"]["wildcard_text"]= textJoin(
-                setup["positive"],
-                shuffle=setup.get("shufflepositive",setup.get("shuffle",False))
-            )
-      
-        prompt["ImpactWildcardEncode2"]["inputs"]["wildcard_text"]= textJoin(
-                setup["negative"],
-                shuffle=setup.get("shufflenegative",setup.get("shuffle",False))
-            )
+
         
         # -------------------------------------------------
         scheduler=None
@@ -153,18 +154,33 @@ try:
         if setup.get("SaveImage1",True):
             sampler_name1=prompt["KSampler"]["inputs"]["sampler_name"]
             scheduler1=prompt["KSampler"]["inputs"]["scheduler"]
-            prompt["SaveImage1"]["inputs"]["filename_prefix"]= f"{ckpt_name}-{sampler_name1}-{scheduler1}-{tm}"
+            prompt["SaveImage1"]["inputs"]["filename_prefix"]= f"{ckpt_name}-{sampler_name1}-{scheduler1}-{jitem_name}-{tm}"
         else:
             del prompt["SaveImage1"]
             
         if setup.get("SaveImage2",True):
             sampler_name1=prompt["DetailerForEachDebug"]["inputs"]["sampler_name"]
             scheduler1=prompt["DetailerForEachDebug"]["inputs"]["scheduler"]
-            prompt["SaveImage2"]["inputs"]["filename_prefix"]= f"{ckpt_name}-{sampler_name1}-{scheduler1}-{tm}"
+            prompt["SaveImage2"]["inputs"]["filename_prefix"]= f"{ckpt_name}-{sampler_name1}-{scheduler1}-{jitem_name}-{tm}"
         else:
             del prompt["SaveImage2"]
         
         # -------------------------------------------------
+        prompt["ImpactWildcardEncode1"]["inputs"]["wildcard_text"]= textJoin(
+                setup["positive"],
+                shuffle=setup.get("shufflepositive",setup.get("shuffle",False))
+            )
+      
+        prompt["ImpactWildcardEncode2"]["inputs"]["wildcard_text"]= textJoin(
+                setup["negative"],
+                shuffle=setup.get("shufflenegative",setup.get("shuffle",False))
+            )
+            
+            
+        # -------------------------------------------------
+        
+        if setup.get("jitem show"):
+            print("jitem : ",jitem)
         if setup.get("prompt show"):
             print("prompt : ",prompt)
         #print( prompt["ImpactWildcardEncode1"]["inputs"]["seed"])
@@ -179,14 +195,18 @@ try:
         #print( prompt["DetailerForEachDebug"]["inputs"]["sampler_name"])
         #print( prompt["KSampler"]["inputs"]["scheduler"])
         #print( prompt["DetailerForEachDebug"]["inputs"]["scheduler"])
-        print(f"[{ccolor}]ckpt : [/{ccolor}]{ckpt_name} ; [{ccolor}]Cnt : [/{ccolor}]{ckptCnt}/{ckptMax} ; [{ccolor}]vae : [/{ccolor}]{vae_name} ; [{ccolor}]cuda : [/{ccolor}]{cuda} ;")
-
+        
+        # -------------------------------------------------s
         url=setup["url"]
-        if setup.get("queue_prompt"):
-            queue_prompt(prompt,url=url)
+        queue_cnt=setup.get("queue_cnt",1)
+        for i in range(queue_cnt):
+            print(f"{ckpt_name} ; {ckptCnt}/{ckptMax} ; {jitemCnt}/{jitemMax} ; {queue_cnt-i}/{queue_cnt} ; {vae_name} ; {cuda} ; {jitem_name} ;")
+            if setup.get("queue_prompt"):
+                queue_prompt(prompt,url=url)
         # -------------------------------------------------
         ckptCnt-=1
-        
+        jitemCnt-=1
+        # -------------------------------------------------
 except Exception:
     console.print_exception()
     quit()

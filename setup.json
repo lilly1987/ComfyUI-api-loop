@@ -50,9 +50,13 @@
     },
     "cuda" : {
         "ckptCnt":32,
+        #"queue_cnt":4,
+        "itemCnt":6,
     },
     "cpu" : {
         "ckptCnt":8,
+        #"queue_cnt":2,
+        "itemCnt":3,
     },
     "shuffle":true,
     "positive": "masterpiece , best quality , detailed_face, cowboy shot, {from side,|9::} looking at viewer,1girl,  __char__, __chest__ , __exposure__,  thin waist,sex, large insertion, dildo riding , dildo, object insertion,{arms behind back, bound arms, bound bdsm, bdsm, |}{(open_dress:1.0), (Undressing:1.1), Nipples, (Pussy:1.1), (navel:1.0),|2::}__shoulder__,{See Through,|}__concept__,__insertion__, {<lora:microwaistV05:{0.75|0.875|1.0}:1.0>,|3::} , ",
@@ -78,6 +82,9 @@
     "SaveImage2":true,
     "prompt show":false,
     "prompt show":true,
+    "jitem show":true,
+    "jitem show":false,
     "queue_prompt":false,
     "queue_prompt":true,
+    
 }
