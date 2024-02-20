@@ -1,7 +1,7 @@
 {
     "positive": {
-        "char":" <lora:yurisa chan_v1:__0.75__:1.0>, yurisa_chan,",
-        #"hair":"black hair, blunt bangs, long hair, ",
+        "char":" <lora:pr-rainbow_otoha_v1.0b:__0.75__:1.0>, pretty-rainbow-otoha-1,",
+        "hair":" hair bow, twin braids,",
         #"dress":"{__Marianne_Vi_Britannia_dress__,|}",
         #"style":"cardcaptor sakura \(style\), ",
     },

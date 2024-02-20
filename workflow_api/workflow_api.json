@@ -1,0 +1,277 @@
+{
+  "CheckpointLoaderSimple": {
+    "inputs": {
+      "ckpt_name": "2d\\xFlareMixS2_anime.safetensors"
+    },
+    "class_type": "CheckpointLoaderSimple",
+    "_meta": {
+      "title": "Load Checkpoint"
+    }
+  },
+  "KSampler": {
+    "inputs": {
+      "seed": 0,
+      "steps": 20,
+      "cfg": 3,
+      "sampler_name": "dpmpp_3m_sde",
+      "scheduler": "karras",
+      "denoise": 1,
+      "model": [
+        "CheckpointLoaderSimple",
+        0
+      ],
+      "positive": [
+        "ImpactWildcardEncode1",
+        2
+      ],
+      "negative": [
+        "ImpactWildcardEncode2",
+        2
+      ],
+      "latent_image": [
+        "EmptyLatentImage",
+        0
+      ]
+    },
+    "class_type": "KSampler",
+    "_meta": {
+      "title": "KSampler"
+    }
+  },
+  "EmptyLatentImage": {
+    "inputs": {
+      "width": 384,
+      "height": 768,
+      "batch_size": 1
+    },
+    "class_type": "EmptyLatentImage",
+    "_meta": {
+      "title": "Empty Latent Image"
+    }
+  },
+  "VAEDecode": {
+    "inputs": {
+      "samples": [
+        "KSampler",
+        0
+      ],
+      "vae": [
+        "VAELoader",
+        0
+      ]
+    },
+    "class_type": "VAEDecode",
+    "_meta": {
+      "title": "VAE Decode"
+    }
+  },
+  "SaveImage1": {
+    "inputs": {
+      "filename_prefix": "ComfyUI",
+      "images": [
+        "VAEDecode",
+        0
+      ]
+    },
+    "class_type": "SaveImage",
+    "_meta": {
+      "title": "Save Image"
+    }
+  },
+  "ImpactWildcardEncode1": {
+    "inputs": {
+      "wildcard_text": "",
+      "populated_text": "",
+      "mode": true,
+      "Select to add LoRA": "Select the LoRA to add to the text",
+      "Select to add Wildcard": "Select the Wildcard to add to the text",
+      "seed": 0,
+      "model": [
+        "CheckpointLoaderSimple",
+        0
+      ],
+      "clip": [
+        "CheckpointLoaderSimple",
+        1
+      ]
+    },
+    "class_type": "ImpactWildcardEncode",
+    "_meta": {
+      "title": "ImpactWildcardEncode"
+    }
+  },
+  "ImpactWildcardEncode2": {
+    "inputs": {
+      "wildcard_text": "",
+      "populated_text": "",
+      "mode": true,
+      "Select to add LoRA": "Select the LoRA to add to the text",
+      "Select to add Wildcard": "Select the Wildcard to add to the text",
+      "seed": 0,
+      "model": [
+        "CheckpointLoaderSimple",
+        0
+      ],
+      "clip": [
+        "CheckpointLoaderSimple",
+        1
+      ]
+    },
+    "class_type": "ImpactWildcardEncode",
+    "_meta": {
+      "title": "ImpactWildcardEncode"
+    }
+  },
+  "VAELoader": {
+    "inputs": {
+      "vae_name": "Anything-V3.0.vae.pt"
+    },
+    "class_type": "VAELoader",
+    "_meta": {
+      "title": "Load VAE"
+    }
+  },
+  "DetailerForEachDebug": {
+    "inputs": {
+      "guide_size": 256,
+      "guide_size_for": true,
+      "max_size": 512,
+      "seed": 0,
+      "steps": 20,
+      "cfg": 3,
+      "sampler_name": "dpmpp_3m_sde",
+      "scheduler": "karras",
+      "denoise": 0.38,
+      "feather": 5,
+      "noise_mask": true,
+      "force_inpaint": true,
+      "wildcard": "",
+      "cycle": 1,
+      "inpaint_model": false,
+      "noise_mask_feather": 0,
+      "image": [
+        "VAEDecode",
+        0
+      ],
+      "segs": [
+        "BboxDetectorSEGS",
+        0
+      ],
+      "model": [
+        "CheckpointLoaderSimple",
+        0
+      ],
+      "clip": [
+        "CheckpointLoaderSimple",
+        1
+      ],
+      "vae": [
+        "VAELoader",
+        0
+      ],
+      "positive": [
+        "ImpactWildcardEncode1",
+        2
+      ],
+      "negative": [
+        "ImpactWildcardEncode2",
+        2
+      ]
+    },
+    "class_type": "DetailerForEachDebug",
+    "_meta": {
+      "title": "DetailerDebug (SEGS)"
+    }
+  },
+  "BboxDetectorSEGS": {
+    "inputs": {
+      "threshold": 0.38,
+      "dilation": 10,
+      "crop_factor": 3,
+      "drop_size": 10,
+      "labels": "",
+      "bbox_detector": [
+        "UltralyticsDetectorProvider",
+        0
+      ],
+      "image": [
+        "VAEDecode",
+        0
+      ]
+    },
+    "class_type": "BboxDetectorSEGS",
+    "_meta": {
+      "title": "BBOX Detector (SEGS)"
+    }
+  },
+  "SaveImage2": {
+    "inputs": {
+      "filename_prefix": "ComfyUI",
+      "images": [
+        "DetailerForEachDebug",
+        0
+      ]
+    },
+    "class_type": "SaveImage",
+    "_meta": {
+      "title": "Save Image"
+    }
+  },
+  "UltralyticsDetectorProvider": {
+    "inputs": {
+      "model_name": "bbox/face_yolov8m.pt"
+    },
+    "class_type": "UltralyticsDetectorProvider",
+    "_meta": {
+      "title": "UltralyticsDetectorProvider"
+    }
+  },
+  "PreviewImage1": {
+    "inputs": {
+      "images": [
+        "DetailerForEachDebug",
+        1
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "Preview Image"
+    }
+  },
+  "PreviewImage2": {
+    "inputs": {
+      "images": [
+        "DetailerForEachDebug",
+        2
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "Preview Image"
+    }
+  },
+  "PreviewImage3": {
+    "inputs": {
+      "images": [
+        "DetailerForEachDebug",
+        3
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "Preview Image"
+    }
+  },
+  "PreviewImage4": {
+    "inputs": {
+      "images": [
+        "DetailerForEachDebug",
+        4
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "Preview Image"
+    }
+  }
+}

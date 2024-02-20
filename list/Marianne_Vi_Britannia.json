@@ -1,8 +1,8 @@
 {
     "positive": {
-        "char":"1girl, <lora:Marianne_Vi_Britannia:__0.75__:1.0>, Marianne_Vi_Britannia, purple eyes, {lipstick,|} {makeup,|} ",
+        "char":" <lora:Marianne_Vi_Britannia:__0.75__:1.0>, Marianne_Vi_Britannia, purple eyes, {lipstick,|} {makeup,|} ",
         "hair":"black hair, blunt bangs, long hair, ",
         "dress":"{__Marianne_Vi_Britannia_dress__,|}",
-        #"style":"cardcaptor sakura \(style\), ",
+        "style":"anime style, ",
     },
 }

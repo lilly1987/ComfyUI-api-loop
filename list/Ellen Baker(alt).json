@@ -1,7 +1,7 @@
 {
     "positive": {
-        "char":" <lora:yurisa chan_v1:__0.75__:1.0>, yurisa_chan,",
-        #"hair":"black hair, blunt bangs, long hair, ",
+        "char":" <lora:Ellen Baker(alt):__0.75__:1.0>, ellen baker,",
+        #"hair":"hairclip,two-tone_hair,hair_ornament,",
         #"dress":"{__Marianne_Vi_Britannia_dress__,|}",
         #"style":"cardcaptor sakura \(style\), ",
     },

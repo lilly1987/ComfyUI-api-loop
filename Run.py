@@ -79,9 +79,16 @@ try:
         # -------------------------------------------------
         if ckptCnt<=0:
             ckptMax=ckptCnt=setup.get("ckptCnt",8)
-            ckptList=getFileList(setup["ckptPath"])
+            
+            if random.random() < setup.get("ckptPer",0) :
+                ckptList=dicFileRead("ckpt.json")
+            else:
+                ckptList=getFileList(setup["ckptPath"])
+            
             ckpt_path=random.choice(ckptList)
             ckpt_path=pathRemove(ckpt_path,setup["ckptPathSplit"])
+            
+            
             #print("ckpt_path : ",ckpt_path)
             ckpt_name=os.path.splitext(os.path.split(ckpt_path)[1])[0]
             
@@ -118,6 +125,10 @@ try:
         #if setup.get("cfg"):
         cfg=minmaxf(setup,"cfg")
 
+        # -------------------------------------------------
+        type="CLIPSetLastLayer"
+
+        promptSetInt(prompt,setup,type,"stop_at_clip_layer")
         # -------------------------------------------------
         type="KSampler"
 

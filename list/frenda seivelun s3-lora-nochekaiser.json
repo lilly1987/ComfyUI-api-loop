@@ -1,0 +1,8 @@
+{
+    "positive": {
+        "char":" <lora:frenda seivelun s3-lora-nochekaiser:__0.75__:1.0>, frenda seivelun, blue eyes,",
+        "hair":" long hair, blonde hair,",
+        #"dress":"{__Marianne_Vi_Britannia_dress__,|}",
+        #"style":"cardcaptor sakura \(style\), ",
+    },
+}
