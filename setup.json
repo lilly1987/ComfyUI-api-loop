@@ -67,7 +67,7 @@
         "char":"1girl,  __char__, ",
         "body":"__chest__, thin waist, {<lora:microwaistV05:{0.75|0.875|1.0}:1.0>,|3::}",
         #"sex":"sex, large insertion, dildo riding , dildo, object insertion,{arms behind back, bound arms, bound bdsm, bdsm, |} {__insertion__,|} ",
-        "dress":"{(open_dress:1.0), (Undressing:1.1), Nipples, (Pussy:1.1), (navel:1.0),|2::}",
+        "dress":"{__dress__,|} {(open_dress:1.0), (Undressing:1.1), Nipples, (Pussy:1.1), (navel:1.0),|2::}",
         "exposure":"__exposure__, ",
         "shoulder":"__shoulder__,{See Through,|}",
         "concept":"__concept__,  "
