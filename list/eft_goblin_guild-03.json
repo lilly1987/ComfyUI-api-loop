@@ -1,7 +1,7 @@
 {
     "positive": {
         "char":" <lora:eft_goblin_guild-03:__0.75__:1.0>, Eft_goblin_guild,",
-        "hair":" braid,",
+        "hair":"blonde hair, braid, long hair, hair between eyes, bangs,",
         #"dress":"{__Marianne_Vi_Britannia_dress__,|}",
         #"style":"cardcaptor sakura \(style\), ",
     },

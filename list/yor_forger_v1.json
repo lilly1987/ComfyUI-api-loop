@@ -1,0 +1,8 @@
+{
+    "positive": {
+        "char":" <lora:yor_forger_v1:__0.75__:1.0>, {aayorf|bbyorf}, red eyes, ",
+        "hair":"{sidelocks, gold hairband, hair ornament,|short hair with long locks, white hairband,}",
+        #"dress":"{__Marianne_Vi_Britannia_dress__,|}",
+        #"style":"cardcaptor sakura \(style\), ",
+    },
+}
