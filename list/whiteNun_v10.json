@@ -1,0 +1,8 @@
+{
+    "positive": {
+        "char":" <lora:whiteNun_v10:__0.75__:1.0>, nun, ",
+        "hair":"long hair,",
+        #"dress":"{__Marianne_Vi_Britannia_dress__,|}",
+        #"style":"cardcaptor sakura \(style\), ",
+    },
+}
