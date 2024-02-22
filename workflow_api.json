@@ -50,14 +50,14 @@
       "title": "CLIP Set Last Layer"
     }
   },
-  "ImpactWildcardEncode1": {
+  "ImpactWildcardEncode2": {
     "inputs": {
-      "wildcard_text": "__shoulder__,{See Through,|},{__dress__,|} {(open_dress:1.0), (Undressing:1.1), Nipples, (Pussy:1.1), (navel:1.0),|2::},__exposure__, ,cowboy shot, {from side,|9::} looking at viewer,,__chest__, thin waist, {<lora:microwaistV05:{0.75|0.875|1.0}:1.0>,|3::},__concept__,  ,masterpiece , best quality , detailed_face,,1girl, <lora:daidoujiTomoyo_v01:__0.75__:1.0>, daidouji tomoyo,,black hair, {long hair,|}",
-      "populated_text": "cowboy shot, from side, looking at viewer,,black long hair, blunt bangs,,cardcaptor sakura \\(style\\), ,1girl,  <lora:tomoyo_V1Epoch6:0.75:1.0>, daidouji_tomoyo, tomoyo,,off shoulder, bare shoulder, Droptop, strapless dress, chest open, ,See Through,,small chest, flat chest,, thin waist, ,masterpiece , best quality , detailed_face,,<lora:conceptLargerInsertion_v10:0.75:1.0> , (large penis:1.1), thick penis, cowgirl position, (large insertion:1.1), vaginal,,  ,exposure, breasts exposure, breasts out, nipples exposure, pussy exposure,, ,lace dress, ",
+      "wildcard_text": "lowres, worst quality, low quality,cropped,  from torso down,(monochrome:1.1), ,{-$$embedding:FastNegativeV2.pt|embedding:NGH.safetensors|embedding:bad_prompt_version2-neg.pt|embedding:negative_hand-neg|embedding:nncursedV0-neg.pt|embedding:badquality.pt|embedding:bad-picture-chill-75v.pt|embedding:neg_grapefruit.pt|embedding:ParaNegative.safetensors|embedding:easynegative.safetensors|embedding:EasyNegativeV2.safetensors},,(multiple views), (multiple viewer),  (cropped), face only,  lower body,  facial,",
+      "populated_text": "",
       "mode": true,
       "Select to add LoRA": "Select the LoRA to add to the text",
       "Select to add Wildcard": "Select the Wildcard to add to the text",
-      "seed": 12873873881283394000,
+      "seed": 6820499765610905000,
       "model": [
         "CheckpointLoaderSimple",
         0
@@ -72,14 +72,14 @@
       "title": "ImpactWildcardEncode"
     }
   },
-  "ImpactWildcardEncode2": {
+  "ImpactWildcardEncode1": {
     "inputs": {
-      "wildcard_text": "lowres, worst quality, low quality,cropped,  from torso down,(monochrome:1.1), ,{-$$embedding:FastNegativeV2.pt|embedding:NGH.safetensors|embedding:bad_prompt_version2-neg.pt|embedding:negative_hand-neg|embedding:nncursedV0-neg.pt|embedding:badquality.pt|embedding:bad-picture-chill-75v.pt|embedding:neg_grapefruit.pt|embedding:ParaNegative.safetensors|embedding:easynegative.safetensors|embedding:EasyNegativeV2.safetensors},,(multiple views), (multiple viewer),  (cropped), face only,  lower body,  facial,",
+      "wildcard_text": "__shoulder__,{See Through,|},{__dress__,|} {(open_dress:1.0), (Undressing:1.1), Nipples, (Pussy:1.1), (navel:1.0),|2::},__exposure__, ,cowboy shot, {from side,|9::} looking at viewer,,__chest__, thin waist, {<lora:microwaistV05:{0.75|0.875|1.0}:1.0>,|3::},__concept__,  ,masterpiece , best quality , detailed_face,,1girl, <lora:daidoujiTomoyo_v01:__0.75__:1.0>, daidouji tomoyo,,black hair, {long hair,|}",
       "populated_text": "",
       "mode": true,
       "Select to add LoRA": "Select the LoRA to add to the text",
       "Select to add Wildcard": "Select the Wildcard to add to the text",
-      "seed": 6820499765610905000,
+      "seed": 12873873881283394000,
       "model": [
         "CheckpointLoaderSimple",
         0

@@ -1,6 +1,6 @@
 {
     "positive": {
-        "char":" <lora:yor_briar_spyxfamily:__0.75__:1.0>, yor_briar_spyxfamily, red_eyes,",
+        "char":" <lora:yor_briar_spyxfamily:__0.75__:__1.0_1.5__>, (yor_briar_spyxfamily:__1.0_1.5__), red_eyes,",
         "hair":"black_hair, hairband, sidelocks,  white_hairband, earrings, bangs, long_hair,",
         #"dress":"{__Marianne_Vi_Britannia_dress__,|}",
         #"style":"cardcaptor sakura \(style\), ",

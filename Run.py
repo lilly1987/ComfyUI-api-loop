@@ -7,6 +7,8 @@ from updateLib import *
 from queue_prompt import *
 from GetLib import *
 from minmax import *
+#sys.path.append("../ComfyUI/custom_nodes/ComfyUI-Impact-Pack/modules/impact")
+#import wildcards
 
 required  = {'json5','torch'}
 installed = {pkg.key for pkg in pkg_resources.working_set}
@@ -199,13 +201,21 @@ try:
                 setup["positive"],
                 shuffle=setup.get("shufflepositive",setup.get("shuffle",False))
             )
-      
+       
         prompt["ImpactWildcardEncode2"]["inputs"]["wildcard_text"]= textJoin(
                 setup["negative"],
                 shuffle=setup.get("shufflenegative",setup.get("shuffle",False))
             )
-            
-            
+        
+        #prompt["ImpactWildcardEncode2"]["inputs"]["wildcard_text"]= wildcards.process(textJoin(
+        #        setup["negative"],
+        #        shuffle=setup.get("shufflenegative",setup.get("shuffle",False))
+        #    ), prompt["ImpactWildcardEncode2"]["inputs"]["seed"])
+        #    
+        #prompt["ImpactWildcardEncode1"]["inputs"]["wildcard_text"]= wildcards.process(textJoin(
+        #        setup["positive"],
+        #        shuffle=setup.get("shufflepositive",setup.get("shuffle",False))
+        #    ),  prompt["ImpactWildcardEncode1"]["inputs"]["seed"])
         # -------------------------------------------------
         
         if setup.get("jitem show"):
