@@ -2,10 +2,11 @@ import sys
 import ast
 import re
 import glob,os
+#from wcmatch import pathlib
+from pathlib import Path,PurePosixPath
 import shutil, time
 import subprocess
 import pkg_resources
-from pathlib import Path
 from ConsoleColor import print, console
 
 required  = {'json5'}
@@ -62,7 +63,8 @@ def dicFileRead(path,text=""):
         
 def getFileList(path,filelist=[]):
     try:
-        filelist=glob.glob(path,recursive=True)
+        filelist=list(Path().rglob(path))
+        #print(filelist)
         #print(type(filelist))
         return filelist
     except Exception:

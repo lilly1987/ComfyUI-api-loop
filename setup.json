@@ -5,10 +5,10 @@
     "vaePath":"../ComfyUI/models/vae/*.safetensors",
     "ckptPathSplit":"../ComfyUI/models/checkpoints/",
     "ckptPath":"../ComfyUI/models/checkpoints/2d/*.safetensors",
+    "workflow":"workflow_api.json",
     "ckptPer":1.0,
     "ckptPer":0.0,
     "ckptCnt":16,
-    "workflow":"workflow_api.json",
     "sampler_name": [
         "euler", "euler_ancestral", "heun", "heunpp2","dpm_2", "dpm_2_ancestral",
         "lms", "dpm_fast", "dpm_adaptive", "dpmpp_2s_ancestral", "dpmpp_sde", "dpmpp_sde_gpu",
@@ -16,6 +16,10 @@
         "ddpm", "lcm", "ddim", "uni_pc", "uni_pc_bh2"
     ],
     "scheduler": ["normal", "karras", "exponential", "sgm_uniform", "simple", "ddim_uniform"],
+    "listMatch": [
+        #"*",
+        "YOR*",
+    ],
     #"seed": 890115323374972,
     "stop_at_clip_layer_min": -3,
     "stop_at_clip_layer_max": -1,

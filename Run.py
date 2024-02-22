@@ -69,11 +69,29 @@ try:
             
         # -------------------------------------------------
         if jitemCnt<=0:
-            jitemMax=jitemCnt=setup.get("itemCnt",8)
+            
             jlist=getFileList("list/**/*.json")
+            #print("jlist1 : ",jlist)
+            
+            listMatchs=setup.get("listMatch",["*"])
+            listMatch=random.choice(listMatchs)
+            #print("listMatch : ",listMatch)
+            
+            jlist=[ i for i in jlist if i.match(f"list/{listMatch}.json")]
+            #print("jlist2 : ",jlist)
+            if len(jlist)==0:
+                print("no listMatchs : ", listMatchs)
+                continue
+            
             jchoice=random.choice(jlist)
+            #print("jchoice : ",jchoice)
             jitem=dicFileRead(jchoice)
             jitem_name=os.path.splitext(os.path.split(jchoice)[1])[0]
+            
+            #print("jitem_name : ",jitem_name)
+            
+            jitemMax=jitemCnt=setup.get("itemCnt",8)
+            
         update(setup,jitem)
         
         # -------------------------------------------------
