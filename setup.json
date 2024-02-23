@@ -45,7 +45,7 @@
         #    "ddpm", "lcm", "ddim", "uni_pc", "uni_pc_bh2"
         #],
         #"scheduler": ["normal", "karras", "exponential", "sgm_uniform", "simple", "ddim_uniform"],
-        "denoise_min": 0.25,
+        "denoise_min": 0.20,
         "denoise_max": 0.4,
     },
     "cuda" : {
@@ -59,7 +59,7 @@
         "itemCnt":2,
     },
     "shuffle":False,
-    "stop_at_clip_layer_min": -24,
+    "stop_at_clip_layer_min": -3,
     "stop_at_clip_layer_max": -1,
     "steps_min": 25,
     "steps_max": 35,
