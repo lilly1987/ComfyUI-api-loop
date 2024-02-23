@@ -132,11 +132,17 @@ try:
         # -------------------------------------------------
         
         #prompt["LoraLoader"]["inputs"]["lora_name"]=""
-        ttLora=copy.deepcopy(prompt["LoraLoader"])
-        prompt["LoraLoader"]["inputs"]["strength_model"]=0
-        prompt["LoraLoader"]["inputs"]["strength_clip"]=0
-        
+        #aLora=copy.deepcopy(prompt["LoraLoader"])
         loraList=getFileList(setup["loraPath"]+"**/*.safetensors")
+        
+        tchoice=random.choice(loraList)
+        tname=pathRemove(tchoice,setup["loraPath"])
+        lora1="CheckpointLoaderSimple"
+        lora2="LoraLoader"
+        prompt[lora2]["inputs"]["lora_name"]=tname
+        prompt[lora2]["inputs"]["strength_model"]=0
+        prompt[lora2]["inputs"]["strength_clip"]=0
+        
         #print("loraList : ",loraList)
         for k, v in setup.get("loras",{}).items():
             #print(f"{k} : ", v)
@@ -152,14 +158,17 @@ try:
             tchoice=random.choice(tloraList)
             tname=pathRemove(tchoice,setup["loraPath"])
             
-            tLora=copy.deepcopy(ttLora)
+            tLora=copy.deepcopy(prompt[lora2])
             tLora["inputs"]["lora_name"]=tname
             tLora["inputs"]["strength_model"]=minmaxft(v[1])
             tLora["inputs"]["strength_clip"]=minmaxft(v[2])
-            tname=f"LoraLoader-{k}"
-            prompt["LoraLoader"]["inputs"]["model"][0]=tname
-            prompt["LoraLoader"]["inputs"]["clip"][0]=tname
-            prompt[tname]=tLora
+            tLora["inputs"]["model"][0]=lora1
+            tLora["inputs"]["clip"][0]=lora1
+            
+            lora1=f"LoraLoader-{k}"
+            prompt[lora1]=tLora
+            prompt[lora2]["inputs"]["model"][0]=lora1
+            prompt[lora2]["inputs"]["clip"][0]=lora1
             
             dupdate(setup["positive"],v[3])
             if len(v) >4 :

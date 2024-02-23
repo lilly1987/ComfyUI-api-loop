@@ -19,12 +19,6 @@
     ],
     "scheduler": ["normal", "karras", "exponential", "sgm_uniform", "simple", "ddim_uniform"],
     #"seed": 890115323374972,
-    "stop_at_clip_layer_min": -2,
-    "stop_at_clip_layer_max": -1,
-    "steps_min": 25,
-    "steps_max": 35,
-    "cfg_min": 1.0,
-    "cfg_max": 8.0,
     "KSampler":{
         #"seed": 890115323374972,
         #"steps_min": 30,
@@ -65,6 +59,12 @@
         "itemCnt":2,
     },
     "shuffle":False,
+    "stop_at_clip_layer_min": -24,
+    "stop_at_clip_layer_max": -1,
+    "steps_min": 25,
+    "steps_max": 35,
+    "cfg_min": 1.0,
+    "cfg_max": 8.0,
     "listMatch": [
         "frenda_seivelun",
         "Yor_Briar",
@@ -79,10 +79,6 @@
         #"cyan_30-000003",
         #"CHAR-DianaCavendish",
     ],
-    "loras":{
-        
-    },
-    "positive": "masterpiece , best quality , detailed_face, cowboy shot, {from side,|9::} looking at viewer,1girl,  __char__, __chest__ , __exposure__,  thin waist,sex, large insertion, dildo riding , dildo, object insertion,{arms behind back, bound arms, bound bdsm, bdsm, |}{(open_dress:1.0), (Undressing:1.1), Nipples, (Pussy:1.1), (navel:1.0),|2::}__shoulder__,{See Through,|}__concept__,__insertion__, {<lora:microwaistV05:__0.25_0.75__:1.0>,|3::} , ",
     "positive": {
         
         "sex":"{sex,|}",
@@ -91,8 +87,8 @@
         "face":"{ahegao,|}{orgasm ,|}",
         "quality":"masterpiece , best quality , detailed_face,",
         "view":"cowboy shot, {from side,|9::} looking at viewer,",
-        "char":"1girl,  __char__, ",
-        "body":"__chest__, thin waist, {<lora:microwaistV05:__0.25_0.75__:1.0>,|3::}",
+        #"char":"1girl,  __char__, ",
+        #"body":"__chest__, thin waist, {<lora:microwaistV05:__0.25_0.75__:1.0>,|3::}",
         #"sex":"sex, large insertion, dildo riding , dildo, object insertion,{arms behind back, bound arms, bound bdsm, bdsm, |} {__insertion__,|} ",
         "dress":"{__dress__,|} {(open_dress:1.0), (Undressing:1.1), Nipples, (Pussy:1.1), (navel:1.0),|2::}",
         "exposure":"__exposure__, ",
@@ -104,11 +100,14 @@
         "view":"(multiple views), (multiple viewer),  (cropped), face only,  lower body,  facial,",
         "embedding":"{-$$embedding:FastNegativeV2.pt|embedding:NGH.safetensors|embedding:bad_prompt_version2-neg.pt|embedding:negative_hand-neg|embedding:nncursedV0-neg.pt|embedding:badquality.pt|embedding:bad-picture-chill-75v.pt|embedding:neg_grapefruit.pt|embedding:ParaNegative.safetensors|embedding:easynegative.safetensors|embedding:EasyNegativeV2.safetensors},",
     },
+    "loras":{
+        
+    },
     "SaveImage1":false,
     "SaveImage1":true,
     "SaveImage2":true,
-    "prompt show":true,
     "prompt show":false,
+    "prompt show":true,
     "setup show":true,
     "setup show":false,
     "jitem show":true,

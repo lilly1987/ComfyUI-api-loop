@@ -1,4 +1,13 @@
 {
+    "body": 
+        (
+            "microwaistV05",
+            (0.25,0.75),
+            1.0,
+            {
+                "body":"__chest__, thin waist, ",
+            },
+        ),
     "concept": [
         (
             "obp-000050",
@@ -30,6 +39,22 @@
             1.0,
             {
                 "concept":"doggystyle, from side, 1girl, 1boy, sex from behind,",
+            },
+        ),
+        (
+            "bdsm_pissoir-000002",
+            (0.25,0.75),
+            1.0,
+            {
+                "concept":" bdsm, bdsm pissoir, ",
+            },
+        ),
+        (
+            "hugeDildos_v10",
+            (0.25,0.75),
+            1.0,
+            {
+                "concept":"Dildo , dildo riding , Dildo sex , dildo insertion , large insertion, sex toy, huge_dildo, object_insertion, ",
             },
         ),
     ],
