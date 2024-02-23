@@ -1,0 +1,15 @@
+{
+    "loras":{
+        "char": (
+            "PamelaAtelier",
+            (0.75,1.0),
+            1.0,
+            {
+                "char":"pamela,",
+                "hair":"purple hair, ",
+                "dress":"dress, veil,",
+                #"style":"cardcaptor sakura \(style\), ",
+            },
+        ),
+    },
+}

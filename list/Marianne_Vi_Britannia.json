@@ -1,8 +1,15 @@
 {
-    "positive": {
-        "char":" <lora:Marianne_Vi_Britannia:__0.75__:1.0>, Marianne_Vi_Britannia, purple eyes, {lipstick,|} {makeup,|} ",
-        "hair":"black hair, blunt bangs, long hair, ",
-        "dress":"{__Marianne_Vi_Britannia_dress__,|}",
-        "style":"anime style, ",
+    "loras":{
+        "char": (
+            "Marianne_Vi_Britannia",
+            (0.75,1.0),
+            1.0,
+            {
+                "char":"Marianne_Vi_Britannia, purple eyes, {lipstick,|} {makeup,|} ",
+                "hair":"black hair, blunt bangs, long hair, ",
+                "dress":"{__Marianne_Vi_Britannia_dress__,|}",
+                "style":"anime style, ",
+            },
+        ),
     },
 }

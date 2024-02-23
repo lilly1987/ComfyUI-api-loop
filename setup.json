@@ -69,6 +69,9 @@
         "frenda_seivelun",
         "Yor_Briar",
         "weiss_schnee",
+        "Marianne_Vi_Britannia",
+        "tomoyo_V1Epoch6",
+        "PamelaAtelier",
         #"*",
         #"YOR*",
         #"yor_briar_spyxfamily",
@@ -90,7 +93,8 @@
         #"char":"1girl,  __char__, ",
         #"body":"__chest__, thin waist, {<lora:microwaistV05:__0.25_0.75__:1.0>,|3::}",
         #"sex":"sex, large insertion, dildo riding , dildo, object insertion,{arms behind back, bound arms, bound bdsm, bdsm, |} {__insertion__,|} ",
-        "dress":"{__dress__,|} {(open_dress:1.0), (Undressing:1.1), Nipples, (Pussy:1.1), (navel:1.0),|2::}",
+        "dress":"{__dress__,|} ",
+        "open_dress":"{(open_dress:1.0), (Undressing:1.1), Nipples, (Pussy:1.1), (navel:1.0),|2::}",
         "exposure":"__exposure__, ",
         "shoulder":"__shoulder__,{See Through,|}",
         #"concept":"{3::__concept__,|1::__concept__,__concept__,}  "
@@ -98,7 +102,7 @@
     "negative" : {
         "quality":"lowres, worst quality, low quality,cropped,  from torso down,(monochrome:1.1), ",
         "view":"(multiple views), (multiple viewer),  (cropped), face only,  lower body,  facial,",
-        "embedding":"{-$$embedding:FastNegativeV2.pt|embedding:NGH.safetensors|embedding:bad_prompt_version2-neg.pt|embedding:negative_hand-neg|embedding:nncursedV0-neg.pt|embedding:badquality.pt|embedding:bad-picture-chill-75v.pt|embedding:neg_grapefruit.pt|embedding:ParaNegative.safetensors|embedding:easynegative.safetensors|embedding:EasyNegativeV2.safetensors},",
+        "embedding":"{-4$$embedding:FastNegativeV2.pt|embedding:NGH.safetensors|embedding:bad_prompt_version2-neg.pt|embedding:negative_hand-neg|embedding:nncursedV0-neg.pt|embedding:badquality.pt|embedding:bad-picture-chill-75v.pt|embedding:neg_grapefruit.pt|embedding:ParaNegative.safetensors|embedding:easynegative.safetensors|embedding:EasyNegativeV2.safetensors},",
     },
     "loras":{
         
