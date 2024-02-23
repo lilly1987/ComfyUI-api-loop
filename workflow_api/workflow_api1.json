@@ -1,79 +1,11 @@
 {
-  "positiveWildcard": {
+  "UltralyticsDetectorProvider": {
     "inputs": {
-      "wildcard_text": "",
-      "populated_text": "",
-      "mode": true,
-      "seed": 539932358333012,
-      "Select to add Wildcard": "Select the Wildcard to add to the text"
+      "model_name": "bbox/face_yolov8m.pt"
     },
-    "class_type": "ImpactWildcardProcessor",
+    "class_type": "UltralyticsDetectorProvider",
     "_meta": {
-      "title": "ImpactWildcardProcessor"
-    }
-  },
-  "LoraLoader": {
-    "inputs": {
-      "lora_name": "yor_forger_v1.safetensors",
-      "strength_model": 1,
-      "strength_clip": 1,
-      "model": [
-        "CheckpointLoaderSimple",
-        0
-      ],
-      "clip": [
-        "CheckpointLoaderSimple",
-        1
-      ]
-    },
-    "class_type": "LoraLoader",
-    "_meta": {
-      "title": "Load LoRA"
-    }
-  },
-  "positive": {
-    "inputs": {
-      "text": [
-        "positiveWildcard",
-        0
-      ],
-      "clip": [
-        "CLIPSetLastLayer",
-        0
-      ]
-    },
-    "class_type": "CLIPTextEncode",
-    "_meta": {
-      "title": "CLIP Text Encode (Prompt)"
-    }
-  },
-  "negativeWildcard": {
-    "inputs": {
-      "wildcard_text": "",
-      "populated_text": "",
-      "mode": true,
-      "seed": 539932358333012,
-      "Select to add Wildcard": "Select the Wildcard to add to the text"
-    },
-    "class_type": "ImpactWildcardProcessor",
-    "_meta": {
-      "title": "ImpactWildcardProcessor"
-    }
-  },
-  "negative": {
-    "inputs": {
-      "text": [
-        "negativeWildcard",
-        0
-      ],
-      "clip": [
-        "CLIPSetLastLayer",
-        0
-      ]
-    },
-    "class_type": "CLIPTextEncode",
-    "_meta": {
-      "title": "CLIP Text Encode (Prompt)"
+      "title": "UltralyticsDetectorProvider"
     }
   },
   "EmptyLatentImage": {
@@ -89,25 +21,16 @@
   },
   "VAELoader": {
     "inputs": {
-      "vae_name": "kl-f8-anime2.vae.safetensors"
+      "vae_name": "clearvae_v23.safetensors"
     },
     "class_type": "VAELoader",
     "_meta": {
       "title": "Load VAE"
     }
   },
-  "UltralyticsDetectorProvider": {
-    "inputs": {
-      "model_name": "bbox/face_yolov8m.pt"
-    },
-    "class_type": "UltralyticsDetectorProvider",
-    "_meta": {
-      "title": "UltralyticsDetectorProvider"
-    }
-  },
   "CheckpointLoaderSimple": {
     "inputs": {
-      "ckpt_name": "2d\\lemonmixV2_v30.safetensors"
+      "ckpt_name": "2d\\matrixHentaiPlus_v30.safetensors"
     },
     "class_type": "CheckpointLoaderSimple",
     "_meta": {
@@ -118,7 +41,7 @@
     "inputs": {
       "stop_at_clip_layer": -1,
       "clip": [
-        "LoraLoader",
+        "CheckpointLoaderSimple",
         1
       ]
     },
@@ -127,25 +50,69 @@
       "title": "CLIP Set Last Layer"
     }
   },
+  "ImpactWildcardEncode2": {
+    "inputs": {
+      "wildcard_text": "lowres, worst quality, low quality,cropped,  from torso down,(monochrome:1.1), ,{-$$embedding:FastNegativeV2.pt|embedding:NGH.safetensors|embedding:bad_prompt_version2-neg.pt|embedding:negative_hand-neg|embedding:nncursedV0-neg.pt|embedding:badquality.pt|embedding:bad-picture-chill-75v.pt|embedding:neg_grapefruit.pt|embedding:ParaNegative.safetensors|embedding:easynegative.safetensors|embedding:EasyNegativeV2.safetensors},,(multiple views), (multiple viewer),  (cropped), face only,  lower body,  facial,",
+      "populated_text": "",
+      "mode": true,
+      "Select to add LoRA": "Select the LoRA to add to the text",
+      "Select to add Wildcard": "Select the Wildcard to add to the text",
+      "seed": 6820499765610905000,
+      "model": [
+        "CheckpointLoaderSimple",
+        0
+      ],
+      "clip": [
+        "CLIPSetLastLayer",
+        0
+      ]
+    },
+    "class_type": "ImpactWildcardEncode",
+    "_meta": {
+      "title": "ImpactWildcardEncode"
+    }
+  },
+  "ImpactWildcardEncode1": {
+    "inputs": {
+      "wildcard_text": "__shoulder__,{See Through,|},{__dress__,|} {(open_dress:1.0), (Undressing:1.1), Nipples, (Pussy:1.1), (navel:1.0),|2::},__exposure__, ,cowboy shot, {from side,|9::} looking at viewer,,__chest__, thin waist, {<lora:microwaistV05:{0.75|0.875|1.0}:1.0>,|3::},__concept__,  ,masterpiece , best quality , detailed_face,,1girl, <lora:daidoujiTomoyo_v01:__0.75__:1.0>, daidouji tomoyo,,black hair, {long hair,|}",
+      "populated_text": "",
+      "mode": true,
+      "Select to add LoRA": "Select the LoRA to add to the text",
+      "Select to add Wildcard": "Select the Wildcard to add to the text",
+      "seed": 12873873881283394000,
+      "model": [
+        "CheckpointLoaderSimple",
+        0
+      ],
+      "clip": [
+        "CLIPSetLastLayer",
+        0
+      ]
+    },
+    "class_type": "ImpactWildcardEncode",
+    "_meta": {
+      "title": "ImpactWildcardEncode"
+    }
+  },
   "KSampler": {
     "inputs": {
-      "seed": 450939316198565,
-      "steps": 30,
-      "cfg": 2.99,
-      "sampler_name": "dpmpp_2m",
-      "scheduler": "karras",
+      "seed": 10344468455139183000,
+      "steps": 28,
+      "cfg": 3.2,
+      "sampler_name": "dpm_2_ancestral",
+      "scheduler": "exponential",
       "denoise": 1,
       "model": [
-        "LoraLoader",
+        "CheckpointLoaderSimple",
         0
       ],
       "positive": [
-        "positive",
-        0
+        "ImpactWildcardEncode1",
+        2
       ],
       "negative": [
-        "negative",
-        0
+        "ImpactWildcardEncode2",
+        2
       ],
       "latent_image": [
         "EmptyLatentImage",
@@ -175,7 +142,7 @@
   },
   "SaveImage1": {
     "inputs": {
-      "filename_prefix": "osenayanMix_21-dpmpp_2m-karras-yor_briar_spyxfamily-20240223-043029",
+      "filename_prefix": "matrixHentaiPlus_v30-dpm_2_ancestral-exponential-daidoujiTomoyo_v01-20240220-230323",
       "images": [
         "VAEDecode",
         0
@@ -212,12 +179,12 @@
       "guide_size": 256,
       "guide_size_for": true,
       "max_size": 512,
-      "seed": 757590294814225,
-      "steps": 30,
-      "cfg": 3,
-      "sampler_name": "dpmpp_2m",
-      "scheduler": "karras",
-      "denoise": 0.33,
+      "seed": 10832080066856923000,
+      "steps": 28,
+      "cfg": 3.2,
+      "sampler_name": "dpm_2_ancestral",
+      "scheduler": "exponential",
+      "denoise": 0.4,
       "feather": 5,
       "noise_mask": true,
       "force_inpaint": true,
@@ -234,7 +201,7 @@
         0
       ],
       "model": [
-        "LoraLoader",
+        "CheckpointLoaderSimple",
         0
       ],
       "clip": [
@@ -246,12 +213,12 @@
         0
       ],
       "positive": [
-        "positive",
-        0
+        "ImpactWildcardEncode1",
+        2
       ],
       "negative": [
-        "negative",
-        0
+        "ImpactWildcardEncode2",
+        2
       ]
     },
     "class_type": "DetailerForEachDebug",
@@ -261,7 +228,7 @@
   },
   "SaveImage2": {
     "inputs": {
-      "filename_prefix": "osenayanMix_21-dpmpp_2m-karras-yor_briar_spyxfamily-20240223-043029",
+      "filename_prefix": "matrixHentaiPlus_v30-dpm_2_ancestral-exponential-daidoujiTomoyo_v01-20240220-230323",
       "images": [
         "DetailerForEachDebug",
         0

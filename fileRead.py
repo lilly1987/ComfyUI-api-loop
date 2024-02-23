@@ -42,9 +42,8 @@ def jsonFileRead(path,text=""):
         print("path : ",path,style="reset")
         quit()
         
-def dicFileRead(path,text=""):
+def dicFileRead(path):
     try:
-        text=""
         #print("dicFileRead : ",path)
         with open(path, 'r', encoding='utf-8') as file:
             text=file.read()

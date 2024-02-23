@@ -65,15 +65,10 @@ try:
         cuda=torch.cuda.is_available()
         #print(f"[{ccolor}]cuda : [/{ccolor}]",cuda)
         if cuda and "cuda" in setup:
-            dupdate(setup,setup["cuda"])
+            update(setup,setup["cuda"])
         elif not cuda and "cpu" in setup:
-            dupdate(setup,setup["cpu"])
+            update(setup,setup["cpu"])
             
-        # -------------------------------------------------
-        
-        loras=dicFileRead("loras.json")
-        dupdate(setup["loras"],loras)
-        
         # -------------------------------------------------
         if jitemCnt<=0:
             
@@ -99,8 +94,7 @@ try:
             
             jitemMax=jitemCnt=setup.get("itemCnt",8)
             
-        dupdate(setup,jitem)
-
+        update(setup,jitem)
         
         # -------------------------------------------------
         if ckptCnt<=0:
@@ -125,48 +119,9 @@ try:
             #print("vae_path  : ",vae_path)
             
         
-        # -------------------------------------------------
         
         prompt=jsonFileRead(setup.get("workflow","workflow_api.json"))
-            
-        # -------------------------------------------------
         
-        #prompt["LoraLoader"]["inputs"]["lora_name"]=""
-        ttLora=copy.deepcopy(prompt["LoraLoader"])
-        prompt["LoraLoader"]["inputs"]["strength_model"]=0
-        prompt["LoraLoader"]["inputs"]["strength_clip"]=0
-        
-        loraList=getFileList(setup["loraPath"]+"**/*.safetensors")
-        #print("loraList : ",loraList)
-        for k, v in setup.get("loras",{}).items():
-            #print(f"{k} : ", v)
-            if isinstance(v, list):
-                v=random.choice(v)
-            
-            #print("loraList : ",loraList)
-            tloraList=[ i for i in loraList if i.match(f"{v[0]}.safetensors")]
-            if len(tloraList)==0:
-                print("no loraList : ", v[0])
-                continue
-            
-            tchoice=random.choice(tloraList)
-            tname=pathRemove(tchoice,setup["loraPath"])
-            
-            tLora=copy.deepcopy(ttLora)
-            tLora["inputs"]["lora_name"]=tname
-            tLora["inputs"]["strength_model"]=minmaxft(v[1])
-            tLora["inputs"]["strength_clip"]=minmaxft(v[2])
-            tname=f"LoraLoader-{k}"
-            prompt["LoraLoader"]["inputs"]["model"][0]=tname
-            prompt["LoraLoader"]["inputs"]["clip"][0]=tname
-            prompt[tname]=tLora
-            
-            dupdate(setup["positive"],v[3])
-            if len(v) >4 :
-                dupdate(setup["negative"],v[4])
-            
-        #print("setup : ",setup)
-        #print("prompt : ",prompt)
         # -------------------------------------------------
         prompt["CheckpointLoaderSimple"]["inputs"]["ckpt_name"]= ckpt_path
         
@@ -215,6 +170,13 @@ try:
         promptSetList(prompt,setup,type,"scheduler",scheduler)
 
         
+        # -------------------------------------------------
+        type="ImpactWildcardEncode1"
+        promptSetInt(prompt,setup,type,"seed",random.randint(0, 0xffffffffffffffff ))
+
+        # -------------------------------------------------
+        type="ImpactWildcardEncode2"
+        promptSetInt(prompt,setup,type,"seed",random.randint(0, 0xffffffffffffffff ))
 
         # -------------------------------------------------
         tm=time.strftime('%Y%m%d-%H%M%S')
@@ -235,24 +197,15 @@ try:
             del prompt["SaveImage2"]
         
         # -------------------------------------------------
-        type="positiveWildcard"
-        promptSetInt(prompt,setup,type,"seed",random.randint(0, 0xffffffffffffffff ))
-        prompt[type]["inputs"]["wildcard_text"]= textJoin(
+        prompt["ImpactWildcardEncode1"]["inputs"]["wildcard_text"]= textJoin(
                 setup["positive"],
                 shuffle=setup.get("shufflepositive",setup.get("shuffle",False))
-        )
-
-        # -------------------------------------------------
-        type="negativeWildcard"
-        promptSetInt(prompt,setup,type,"seed",random.randint(0, 0xffffffffffffffff ))
-        prompt[type]["inputs"]["wildcard_text"]= textJoin(
+            )
+       
+        prompt["ImpactWildcardEncode2"]["inputs"]["wildcard_text"]= textJoin(
                 setup["negative"],
                 shuffle=setup.get("shufflenegative",setup.get("shuffle",False))
-        )
-        
-        
-        # -------------------------------------------------
-       
+            )
         
         #prompt["ImpactWildcardEncode2"]["inputs"]["wildcard_text"]= wildcards.process(textJoin(
         #        setup["negative"],
@@ -267,8 +220,6 @@ try:
         
         if setup.get("jitem show"):
             print("jitem : ",jitem)
-        if setup.get("setup show"):
-            print("setup : ",setup)
         if setup.get("prompt show"):
             print("prompt : ",prompt)
         #print( prompt["ImpactWildcardEncode1"]["inputs"]["seed"])

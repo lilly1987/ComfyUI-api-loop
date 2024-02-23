@@ -1,8 +1,14 @@
 {
-    "positive": {
-        "char":" <lora:weiss_schnee:__0.75__:__1.0_1.5__>, weiss schne,blue eyes,",
-        "hair":"long hair, white hair, ",
-        #"dress":"{__Marianne_Vi_Britannia_dress__,|}",
-        #"style":"cardcaptor sakura \(style\), ",
+    "loras":{
+        "char": (
+            "weiss_schnee",
+            (0.75,1.0),
+            1.0,
+            {
+                "char":"weiss schne,blue eyes,",
+                "hair":"long hair, white hair, ",
+                #"style":"cardcaptor sakura \(style\), ",
+            },
+        ),
     },
 }

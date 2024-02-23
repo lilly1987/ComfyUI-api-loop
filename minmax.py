@@ -1,5 +1,12 @@
-import os, sys, glob, json, random, time, copy, string, collections
+import os, sys, glob, json, random, time, copy, string, collections, numbers
 
+def minmaxft(t,v=1,r=2):
+    if type(t) is tuple :
+        v=round(random.uniform(t[0],t[1]),r)
+    elif isinstance(t, numbers.Number):
+        v=t
+    return v
+    
 def minmaxf(dic,key,v=None,r=2):
     if key in dic:
         v=dic[key]
