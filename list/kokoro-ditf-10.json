@@ -1,0 +1,15 @@
+{
+    "loras":{
+        "char": (
+            "kokoro-ditf-10",
+            (0.75,1.0),
+            1.0,
+            {
+                "char":"kokoro,",
+                "hair":"long hair, ",
+                #"dress":"dress, veil,",
+                #"style":"cardcaptor sakura \(style\), ",
+            },
+        ),
+    },
+}
