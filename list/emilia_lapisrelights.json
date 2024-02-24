@@ -1,0 +1,15 @@
+{
+    "loras":{
+        "char": (
+            "emilia_lapisrelights",
+            (0.75,1.0),
+            1.0,
+            {
+                "char":"emilia_lapisrelights, red_eyes, purple_eyes, ",
+                "hair":" long_hair, purple_hair, hair_between_eyes, bangs, ",
+                #"dress":"dress, veil,",
+                #"style":"cardcaptor sakura \(style\), ",
+            },
+        ),
+    },
+}
