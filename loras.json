@@ -10,6 +10,14 @@
         ),
     "concept": [
         (
+            "LargeInsertion-v1",
+            (0.25,0.75),
+            1.0,
+            {
+                "concept":"large insertion, missionary,",
+            },
+        ),
+        (
             "obp-000050",
             (0.25,0.75),
             1.0,
@@ -47,6 +55,38 @@
             1.0,
             {
                 "concept":" bdsm, bdsm pissoir, ",
+            },
+        ),
+        (
+            "hyper_penetration_stomach_bulge_v8pectoral-000006",
+            (0.25,0.75),
+            1.0,
+            {
+                "concept":" vaginal, stomach bulge, pectoral bulge, vaginal object insertion, (impossible object insertion:1.2), (absurd stomach bulge:1.1), gaping pussy,",
+            },
+        ),
+        (
+            "hyper_penetration_stomach_bulge_v8absurd-000006",
+            (0.25,0.75),
+            1.0,
+            {
+                "concept":" vaginal, stomach bulge, pectoral bulge, vaginal object insertion, (impossible object insertion:1.2), (absurd stomach bulge:1.1), gaping pussy,",
+            },
+        ),
+        (
+            "hyper_penetration_stomach_bulge_v8nice-000006",
+            (0.25,0.75),
+            1.0,
+            {
+                "concept":" vaginal, stomach bulge, pectoral bulge, vaginal object insertion, (impossible object insertion:1.2), (absurd stomach bulge:1.1), gaping pussy,",
+            },
+        ),
+        (
+            "hyper_penetration_stomach_bulge_v8all-000004",
+            (0.25,0.75),
+            1.0,
+            {
+                "concept":"vaginal, stomach bulge, pectoral bulge, vaginal object insertion, (impossible object insertion:1.2), (absurd stomach bulge:1.1), gaping pussy,",
             },
         ),
         (
