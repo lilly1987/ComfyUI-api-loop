@@ -1,4 +1,4 @@
-import os, sys, glob, random, time, copy, string, re
+import os, sys, glob, random, time, copy, string, re, numbers
 sys.path.append(os.getcwd())
 from ConsoleColor import print, console
 from JoinLib import *
@@ -143,12 +143,27 @@ try:
         prompt[lora2]["inputs"]["strength_model"]=0
         prompt[lora2]["inputs"]["strength_clip"]=0
         
-        #print("loraList : ",loraList)
+        print("loraList : ",len(loraList))
         for k, v in setup.get("loras",{}).items():
             #print(f"{k} : ", v)
+            if isinstance(v, tuple) :
+                if isinstance(v[0], numbers.Number) :
+                    if minmaxft(v[0]) > random.random() :
+                        v=v[1]
+                    else:
+                        print(f"loras :[yellow] {k} skip [/yellow]")
+                        continue
+                else:
+                    print(f"loras :[yellow] {k} not num [/yellow]")
+            else:
+                print(f"loras :[red]no tuple  {k} : [/red]", v)
+                continue
             if isinstance(v, list):
                 v=random.choice(v)
-            
+            if v is None:
+                print(f"loras :[red] None {k} : [/red]", v)
+                continue
+                
             #print("loraList : ",loraList)
             tloraList=[ i for i in loraList if i.match(f"{v[0]}.safetensors")]
             if len(tloraList)==0:
@@ -244,11 +259,13 @@ try:
             del prompt["SaveImage2"]
         
         # -------------------------------------------------
+        s=setup.get("textJoin",", BREAK ")
         type="positiveWildcard"
         promptSetInt(prompt,setup,type,"seed",random.randint(0, 0xffffffffffffffff ))
         prompt[type]["inputs"]["wildcard_text"]= textJoin(
                 setup["positive"],
-                shuffle=setup.get("shufflepositive",setup.get("shuffle",False))
+                shuffle=setup.get("shufflepositive",setup.get("shuffle",False)),
+                s=s
         )
 
         # -------------------------------------------------
@@ -256,7 +273,8 @@ try:
         promptSetInt(prompt,setup,type,"seed",random.randint(0, 0xffffffffffffffff ))
         prompt[type]["inputs"]["wildcard_text"]= textJoin(
                 setup["negative"],
-                shuffle=setup.get("shufflenegative",setup.get("shuffle",False))
+                shuffle=setup.get("shufflenegative",setup.get("shuffle",False)),
+                s=s
         )
         
         

@@ -1,0 +1,15 @@
+{
+    "loras":{
+        "char": (
+            "[hikari]janus_uniform_v2",
+            (0.75,1.0),
+            1.0,
+            {
+                "char":"green eyes, white beret, one eye covered,",
+                "hair":"blue hair, very long hair, ",
+                #"dress":"(shirt:1.4),(white bowtie:1.3),long sleeves,(skirt:1.2),(black pantyhose:1.2),black footwear,",
+                #"style":"cardcaptor sakura \(style\), ",
+            },
+        ),
+    },
+}

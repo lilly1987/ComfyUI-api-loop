@@ -1,0 +1,14 @@
+{
+    "loras":{
+        "char": (
+            "SeeThroughMaid_v1",
+            (0.75,1.0),
+            1.0,
+            {
+                "char":"see_through_maid,",
+                "hair":"black hair, long hair, ",
+                "dress":" ",
+            },
+        ),
+    },
+}

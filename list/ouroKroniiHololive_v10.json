@@ -1,0 +1,15 @@
+{
+    "loras":{
+        "char": (
+            "ouroKroniiHololive_v10",
+            (0.75,1.0),
+            1.0,
+            {
+                "char":"ouro kronii,",
+                #"hair":"black hair, blunt bangs, long hair, ",
+                #"dress":"{__Marianne_Vi_Britannia_dress__,|}",
+                #"style":"anime style, ",
+            },
+        ),
+    },
+}

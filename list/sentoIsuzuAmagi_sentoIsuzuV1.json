@@ -1,0 +1,15 @@
+{
+    "loras":{
+        "char": (
+            "sentoIsuzuAmagi_sentoIsuzuV1",
+            (0.6,1.0),
+            1.0,
+            {
+                "char":"brown eyes, ",
+                "hair":"antenna hair, long hair, brown hair, ",
+                #"dress":" long sleeves, collared shirt, neck ribbon, socks, long skirt, ",
+                #"style":"cardcaptor sakura \(style\), ",
+            },
+        ),
+    },
+}

@@ -1,8 +1,13 @@
 {
-    "positive": {
-        "char":" <lora:cyan_30-000003:__0.75__:1.0>, cyan, tail, maid headdress, blue eyes,",
-        "hair":"black hair, curly hair, ",
-        #"dress":"{__Marianne_Vi_Britannia_dress__,|}",
-        #"style":"cardcaptor sakura \(style\), ",
+    "loras":{
+        "char": (
+            "cyan_30-000003",
+            (0.75,1.0),
+            1.0,
+            {
+                "char":"cyan, tail, maid headdress, blue eyes,",
+                "hair":"black hair, curly hair, ",
+            },
+        ),
     },
 }

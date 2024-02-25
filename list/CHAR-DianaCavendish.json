@@ -1,7 +1,13 @@
 {
-    "positive": {
-        "char":" <lora:CHAR-DianaCavendish:__0.75__:1.0>, DianaCavendish, DianaCavendishBase, ",
-        "hair":"long hair,",
-        #"style":"cardcaptor sakura \(style\), ",
+    "loras":{
+        "char": (
+            "CHAR-DianaCavendish",
+            (0.75,1.0),
+            1.0,
+            {
+                "char":"DianaCavendish, DianaCavendishBase, ",
+                "hair":"long hair,",
+            },
+        ),
     },
 }

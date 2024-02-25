@@ -1,101 +1,211 @@
 {
-    "body": 
-        (
-            "microwaistV05",
-            (0.25,0.75),
-            1.0,
-            {
-                "body":"__chest__, thin waist, ",
-            },
-        ),
-    "concept": [
-        (
-            "LargeInsertion-v1",
-            (0.25,0.75),
-            1.0,
-            {
-                "concept":"large insertion, missionary,",
-            },
-        ),
-        (
-            "obp-000050",
-            (0.25,0.75),
-            1.0,
-            {
-                "concept":"one-bar prison,",
-            },
-        ),
-        (
-            "conceptLargerInsertion_v10",
-            (0.25,0.75),
-            1.0,
-            {
-                "concept":"(large penis:1.1), thick penis, cowgirl position, (large insertion:1.1), vaginal,",
-            },
-        ),
-        (
-            "sex_toy_transformation",
-            (0.25,0.75),
-            1.0,
-            {
-                "concept":"transformation, limbless, armless,",
-            },
-        ),
-        (
-            "doggystyleFromSide_dsv02",
-            (0.25,0.75),
-            1.0,
-            {
-                "concept":"doggystyle, from side, 1girl, 1boy, sex from behind,",
-            },
-        ),
-        (
-            "bdsm_pissoir-000002",
-            (0.25,0.75),
-            1.0,
-            {
-                "concept":" bdsm, bdsm pissoir, ",
-            },
-        ),
-        (
-            "hyper_penetration_stomach_bulge_v8pectoral-000006",
-            (0.25,0.75),
-            1.0,
-            {
-                "concept":" vaginal, stomach bulge, pectoral bulge, vaginal object insertion, (impossible object insertion:1.2), (absurd stomach bulge:1.1), gaping pussy,",
-            },
-        ),
-        (
-            "hyper_penetration_stomach_bulge_v8absurd-000006",
-            (0.25,0.75),
-            1.0,
-            {
-                "concept":" vaginal, stomach bulge, pectoral bulge, vaginal object insertion, (impossible object insertion:1.2), (absurd stomach bulge:1.1), gaping pussy,",
-            },
-        ),
-        (
-            "hyper_penetration_stomach_bulge_v8nice-000006",
-            (0.25,0.75),
-            1.0,
-            {
-                "concept":" vaginal, stomach bulge, pectoral bulge, vaginal object insertion, (impossible object insertion:1.2), (absurd stomach bulge:1.1), gaping pussy,",
-            },
-        ),
-        (
-            "hyper_penetration_stomach_bulge_v8all-000004",
-            (0.25,0.75),
-            1.0,
-            {
-                "concept":"vaginal, stomach bulge, pectoral bulge, vaginal object insertion, (impossible object insertion:1.2), (absurd stomach bulge:1.1), gaping pussy,",
-            },
-        ),
-        (
-            "hugeDildos_v10",
-            (0.25,0.75),
-            1.0,
-            {
-                "concept":"Dildo , dildo riding , Dildo sex , dildo insertion , large insertion, sex toy, huge_dildo, object_insertion, ",
-            },
-        ),
-    ],
+    "body": (
+        0.5,
+        [
+            (
+                "microwaistV05",
+                (0.25,0.75),
+                1.0,
+                {
+                    "body":"__chest__, thin waist, ",
+                },
+            ),
+            (
+                "sex_toy_transformation",
+                (0.25,0.75),
+                1.0,
+                {
+                    "body":"transformation, limbless, armless,",
+                },
+            ),
+            (
+                "ahys_v2",
+                (0.25,0.75),
+                1.0,
+                {
+                    "body" :"ahys, ribs,",
+                },
+            ),
+        ],
+    ),
+    "hang": (
+        0.5,
+        [
+            (
+                "hunged_girl",
+                (0.25,0.75),
+                1.0,
+                {
+                    "hang":"hunged_girl, {noose,|} {asphyxiation,|} {rolling eyes,|} {open mouth,{tongue,|}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
+                },
+            ),
+        ],
+    ),
+    "skirt": (
+        0.5,
+        [
+            (
+                "lpskirtV1",
+                (0.25,0.75),
+                1.0,
+                {
+                    "skirt" :"{hobble_lpskirt|lp_skirt|lpskirt|medium_lpskirt|long_lpskirt|longest_lpskirt|hobble_lpskirt}.",
+                },
+            ),
+        ],
+    ),
+    "concept": (
+        1.0,
+        [
+            (
+                "tentacles",
+                (0.25,0.75),
+                1.0,
+                {
+                    "concept":"multiple insertions, large insertion, (fucked by many tentacles:1,4), (tentacle-sex:1.2), (multiple vaginal insertions:1.4), (vaginal insertion:1.3),",
+                    "boy":"tentacles, ",
+                },
+            ),
+            (
+                "LargeInsertion-v1",
+                (0.25,0.75),
+                1.0,
+                {
+                    "concept":"large insertion, missionary,",
+                },
+            ),
+            (
+                "obp-000050",
+                (0.25,0.75),
+                1.0,
+                {
+                    "concept":"one-bar prison,",
+                },
+            ),
+            (
+                "conceptLargerInsertion_v10",
+                (0.25,0.75),
+                1.0,
+                {
+                    "concept":"(large penis:1.1), thick penis, cowgirl position, (large insertion:1.1), vaginal,",
+                },
+            ),
+            (
+                "sex_toy_transformation",
+                (0.25,0.75),
+                1.0,
+                {
+                    "concept":"transformation, limbless, armless,",
+                },
+            ),
+            (
+                "doggystyleFromSide_dsv02",
+                (0.25,0.75),
+                1.0,
+                {
+                    "concept":"doggystyle, from side, 1girl, 1boy, sex from behind,",
+                },
+            ),
+            (
+                "bdsm_pissoir-000002",
+                (0.25,0.75),
+                1.0,
+                {
+                    "concept":" bdsm, bdsm pissoir, ",
+                },
+            ),
+            (
+                "dildoV1",
+                (0.25,0.75),
+                1.0,
+                {
+                    "concept":" vaginal, stomach bulge, pectoral bulge, vaginal object insertion, (impossible object insertion:1.2), (absurd stomach bulge:1.1), gaping pussy,",
+                },
+            ),
+            (
+                "hyper_penetration_stomach_bulge_v8pectoral-000006",
+                (0.25,0.75),
+                1.0,
+                {
+                    "concept":" vaginal, stomach bulge, pectoral bulge, vaginal object insertion, (impossible object insertion:1.2), (absurd stomach bulge:1.1), gaping pussy,",
+                },
+            ),
+            (
+                "hyper_penetration_stomach_bulge_v8absurd-000006",
+                (0.25,0.75),
+                1.0,
+                {
+                    "concept":" vaginal, stomach bulge, pectoral bulge, vaginal object insertion, (impossible object insertion:1.2), (absurd stomach bulge:1.1), gaping pussy,",
+                },
+            ),
+            (
+                "hyper_penetration_stomach_bulge_v8nice-000006",
+                (0.25,0.75),
+                1.0,
+                {
+                    "concept":" vaginal, stomach bulge, pectoral bulge, vaginal object insertion, (impossible object insertion:1.2), (absurd stomach bulge:1.1), gaping pussy,",
+                },
+            ),
+            (
+                "hyper_penetration_stomach_bulge_v8all-000004",
+                (0.25,0.75),
+                1.0,
+                {
+                    "concept":"vaginal, stomach bulge, pectoral bulge, vaginal object insertion, (impossible object insertion:1.2), (absurd stomach bulge:1.1), gaping pussy,",
+                },
+            ),
+            (
+                "hugeDildos_v10",
+                (0.25,0.75),
+                1.0,
+                {
+                    "concept":"Dildo , dildo riding , Dildo sex , dildo insertion , large insertion, sex toy, huge_dildo, object_insertion, ",
+                },
+            ),
+            (
+                "chushou",
+                (0.25,0.75),
+                1.0,
+                {
+                    "boy" :"tentacles,",
+                    "sex" :"tentacle sex,",
+                    "concept":"Suspension, {sex from behind,|} ",
+                    "pose":"hentai sex pose, spread legs,",
+                },
+            ),
+            (
+                "cowgirl-2.0",
+                (0.25,0.75),
+                1.0,
+                {
+                    #"boy" :"tentacles,",
+                    "sex" :" pussy cock deep penetration,",
+                    "pose" :" revcowgirl,",
+                    "concept":"",
+                },
+            ),
+            (
+                "strappado ratio p30",
+                (0.25,0.75),
+                1.0,
+                {
+                    #"boy" :"tentacles,",
+                    #"sex" :" pussy cock deep penetration,",
+                    #"pose" :" revcowgirl,",
+                    "concept":"strappado",
+                },
+            ),
+            (
+                "sexmachine",
+                (0.25,0.75),
+                1.0,
+                {
+                    #"boy" :"tentacles,",
+                    #"sex" :" pussy cock deep penetration,",
+                    #"pose" :" revcowgirl,",
+                    "concept":"dildo, (sex machine:1.25),",
+                },
+            ),
+        ],
+    ),
 }
