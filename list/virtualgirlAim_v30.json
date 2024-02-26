@@ -1,12 +1,12 @@
 {
     "loras":{
         "char": (
-            "sentoIsuzuAmagi_sentoIsuzuV1",
+            "virtualgirlAim_v30",
             (0.6,1.0),
             1.0,
             {
-                "char":"brown eyes, ",
-                "hair":"antenna hair, long hair, brown hair, ",
+                "char":"virtualgirl-aim, black eyes,",
+                "hair":"bangs, straight hair, long hair, black hair,",
                 #"dress":" long sleeves, collared shirt, neck ribbon, socks, long skirt, ",
                 #"style":"cardcaptor sakura \(style\), ",
             },

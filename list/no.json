@@ -1,0 +1,13 @@
+{
+    "loras":{
+        "char": (
+            "*",
+            0,
+            0,
+            {
+        #"char":" hood_\(azur_lane\), blue eyes,",
+        #"hair":" blonde hair,",
+            }
+        ),
+    },
+}

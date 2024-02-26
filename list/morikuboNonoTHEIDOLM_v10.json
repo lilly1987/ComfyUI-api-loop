@@ -1,0 +1,15 @@
+{
+    "loras":{
+        "char": (
+            "morikuboNonoTHEIDOLM_v10",
+            (0.6,1.0),
+            1.0,
+            {
+                "char":"morikubo nono, brown eyes,",
+                "hair":"blonde hair, drill hair,",
+                #"dress":" long sleeves, collared shirt, neck ribbon, socks, long skirt, ",
+                #"style":"cardcaptor sakura \(style\), ",
+            },
+        ),
+    },
+}

@@ -107,15 +107,16 @@ try:
             ckptMax=ckptCnt=setup.get("ckptCnt",8)
             
             if random.random() < setup.get("ckptPer",0) :
-                ckptList=dicFileRead("ckpt.json")
+                ckpt_path=setup["ckptPathSplit"]+"**/"+random.choice(dicFileRead("ckpt.json"))+".safetensors"
             else:
-                ckptList=getFileList(setup["ckptPath"])
+                ckpt_path=setup["ckptPath"]
             
+            ckptList=getFileList(ckpt_path)
             ckpt_path=random.choice(ckptList)
             ckpt_path=pathRemove(ckpt_path,setup["ckptPathSplit"])
             
             
-            #print("ckpt_path : ",ckpt_path)
+            print("ckpt_path : ",ckpt_path)
             ckpt_name=os.path.splitext(os.path.split(ckpt_path)[1])[0]
             
             vaeList=getFileList(setup["vaePath"])
@@ -163,11 +164,15 @@ try:
             if v is None:
                 print(f"loras :[red] None {k} : [/red]", v)
                 continue
-                
+            if isinstance(v[0], list):
+                vl=random.choice(v[0])
+                print(f"loras :[green] list {k} : [/green]", v[0])
+            else:
+                vl=v[0]
             #print("loraList : ",loraList)
-            tloraList=[ i for i in loraList if i.match(f"{v[0]}.safetensors")]
+            tloraList=[ i for i in loraList if i.match(f"{vl}.safetensors")]
             if len(tloraList)==0:
-                print("no loraList : ", v[0])
+                print("no loraList : ",vl)
                 continue
             
             tchoice=random.choice(tloraList)

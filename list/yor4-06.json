@@ -1,0 +1,13 @@
+{
+    "loras":{
+        "char": (
+            "yor4-06",
+            (0.25,1.0),
+            1.0,
+            {
+        "char":"yor, ",
+        "hair":"black hair, short hair, short hair with long locks, bangs, sidelocks, white hairband. (Only works the sidelocks hairstyle),",
+            },
+        ),
+    },
+}

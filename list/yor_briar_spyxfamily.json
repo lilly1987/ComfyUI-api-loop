@@ -1,8 +1,13 @@
 {
-    "positive": {
-        "char":" <lora:yor_briar_spyxfamily:__0.75__:__1.0_1.5__>, (yor_briar_spyxfamily:__1.0_1.5__), red_eyes,",
-        "hair":"black_hair, hairband, sidelocks,  white_hairband, earrings, bangs, long_hair,",
-        #"dress":"{__Marianne_Vi_Britannia_dress__,|}",
-        #"style":"cardcaptor sakura \(style\), ",
+    "loras":{
+        "char": (
+            "yor_briar_spyxfamily",
+            (0.25,1.0),
+            1.0,
+            {
+                "char":"(yor_briar_spyxfamily:__1.0_1.5__), red_eyes,",
+                "hair":"black_hair, hairband, sidelocks,  white_hairband, earrings, bangs, long_hair,",
+            },
+        ),
     },
 }

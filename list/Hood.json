@@ -1,8 +1,13 @@
 {
-    "positive": {
-        "char":" <lora:Hood:__0.75__:1.0>, blue_eyes,",
+    "loras":{
+        "char": (
+            "Hood",
+            (0.25,1.0),
+            1.0,
+            {
+        "char":"blue_eyes,",
         "hair":"blonde_hair,long_hair,hair_over_shoulder,bangs,",
-        #"dress":"{__Marianne_Vi_Britannia_dress__,|}",
-        #"style":"cardcaptor sakura \(style\), ",
+            },
+        ),
     },
 }
