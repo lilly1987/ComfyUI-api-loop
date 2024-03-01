@@ -1,0 +1,13 @@
+{
+    "loras":{
+        "char": (
+            "Puddingcess_YGO-10",
+            (0.25,1.0),
+            1.0,
+            {
+        "char":"puddingcess_ygo, ",
+        "hair":"long hair, ",
+            },
+        ),
+    },
+}

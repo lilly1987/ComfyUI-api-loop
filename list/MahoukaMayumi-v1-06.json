@@ -1,0 +1,16 @@
+{
+    "loras":{
+        "char": (
+            "MahoukaMayumi-v1-06",
+            (0.25,1.0),
+            1.0,
+            {
+        "char":" ChopioMayumi, ",
+        "hair":"black hair, long hair, wavy hair, sidelocks, hair ribbon, red eyes, ",
+        #"dress": ("outfit_1, green jacket, cropped jacket, open jacket, black necktie, white dress, collared dress, see-through, long dress, grey tights, black boots, BREAK, ",0.5,false),
+            },
+        ),
+        #"hang": "hang",
+    },
+    #"lorasUpdate":false,
+}

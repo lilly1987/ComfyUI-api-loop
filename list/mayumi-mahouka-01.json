@@ -1,0 +1,16 @@
+{
+    "loras":{
+        "char": (
+            "mayumi-mahouka-01",
+            (0.25,1.0),
+            1.0,
+            {
+                "char" :"mayumi saegusa,",
+                "hair":"long hair,,",
+                "dress":"{school uniform, jacket, necktie,|__dress_set__}",
+            },
+        ),
+        #"hang": "hang",
+    },
+    #"lorasUpdate":false,
+}

@@ -1,0 +1,16 @@
+{
+    "loras":{
+        "char": (
+            "shinshuu_maru_kantaicollection",
+            (0.5,1.0),
+            1.0,
+            {
+        "char":" shinshuu_maru_kantaicollection,   brown_eyes, ",
+        "hair":"brown_hair, long_hair, braid, twin_braids,  ribbon, red_ribbon, hair_ribbon,",
+        #"dress": " white dress, cleavage, bare shoulders,",
+            },
+        ),
+        #"hang": "hang",
+    },
+    #"lorasUpdate":false,
+}

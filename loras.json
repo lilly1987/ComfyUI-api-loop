@@ -1,28 +1,6 @@
 {
-    "microwaistV05": (
-        0.125,
+    "ahys_v2": (        0.0,
         [
-            (
-                "microwaistV05",
-                (0.75,1.25),
-                1.0,
-                {
-                    "body":"__chest__, thin waist, ",
-                },
-            ),
-        ],
-    ),
-    "body": (
-        0.125,
-        [
-            (
-                "sex_toy_transformation",
-                (0.25,0.75),
-                1.0,
-                {
-                    "body":"transformation, limbless, armless,",
-                },
-            ),
             (
                 "ahys_v2",
                 (0.25,0.75),
@@ -33,62 +11,109 @@
             ),
         ],
     ),
-    "hang": (
-        0.125,
+    "Luoxuan_V2": (        0.0,
         [
-            (
-                "execution_on_gallows",
-                (0.25,0.75),
-                1.0,
-                {
-                    "hang":"execution_on_gallows, {noose,|} {asphyxiation,|} {rolling eyes,|} {open mouth,{tongue,|}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
-                },
-            ),
-            (
-                "hunged_girl",
-                (0.25,0.75),
-                1.0,
-                {
-                    "hang":"hunged_girl, {noose,|} {asphyxiation,|} {rolling eyes,|} {open mouth,{tongue,|}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
-                },
-            ),
+            "Luoxuan_V2",
         ],
     ),
-    "obp": (
-        0.125,
+    "LR-All the way through(epoch20)": (        0.0,
         [
+            "LR-All the way through(epoch20)",
+        ],
+    ),
+    "face": (        0.1250,
+        [
+            "ahegao_v2.5",
+        ],
+    ),
+    "microwaistV05": (        0.125,
+        [
+            "microwaistV05",
+        ],
+    ),
+    "sex_toy_transformation": (        0.125,
+        [
+            #"mermaid",
+            "sex_toy_transformation",
+            "onahole_personality_v17",
+        ],
+    ),
+    "hang": (        0.250,
+        [
+            "execution_on_gallows",
+            "aki",
+            "hunged_girl",
+        ],
+    ),
+    "obp": (        0.125,
+        [
+            "obp-000050",
+        ],
+    ),
+    "Insertion": (        0.125,
+        [
+            "LargeInsertion-v1",
+            "koonagoConcept_v1",
+            "hyper_penetration_stomach_bulge_v8pectoral",
+            "hyper_penetration_stomach_bulge_v8absurd",
+            "hyper_penetration_stomach_bulge_v8nice",
+            "hyper_penetration_stomach_bulge_v8all,"
+        ],
+    ),
+    "bondage": (        0.125,
+        [
+            "boundsittinglegstogether-03",
+            "bdsm_v3",
+            "bdsm_frame",
+            "bdsm_pissoir-000002",
+            "BondagePoleV1",
+            "Luoxuan_V2",
+        ],
+    ),
+    "fellatio": (        0.1250,
+        [   
+            "GloryHolev2 1024-000048",
+            "side-deepthroat-v3-wasabiya",
+            "side-fellatio-b3-v3-wasabiya",
+            "Deepthroat",
+            "ddkb_v1",
+            "SideFellatio",
+        ],
+    ),
+    "concept": (        01.1250,
+        [   
+            "Luoxuan_V2",
+            "boundsittinglegstogether-03",
+            "GloryHolev2 1024-000048",
+            "side-deepthroat-v3-wasabiya",
+            "side-fellatio-b3-v3-wasabiya",
+            "Deepthroat",
+            "ddkb_v1",
+            "SideFellatio",
+            "monsterSexActLora79_v10",
+            "largebulg1-000012",
+            "hilichurl2-000006",
+            "standsex",
+            "Saya-fingering from behind",
+            "bondage-v11-p20",
+            "one bar prison-amateurV2",
+            "bteman",
+            "LR-All the way through(epoch20)",
             (
-                "obp-000050",
+                "tentacles-003",
                 (0.25,0.75),
                 1.0,
                 {
-                    "obp":"one-bar prison,",
+                    "concept":"tentacle sex, transparent tentacles, girl, multiple insertions, large insertion, (fucked by many tentacles:1,4), (tentacle sex:1.0), (multiple vaginal insertions:1.0), (vaginal insertion:1.3),",
+                    "boy":"tentacles, ",
                 },
             ),
-        ],
-    ),
-    "skirt": (
-        0.125,
-        [
-            (
-                "lpskirtV1",
-                (0.25,0.75),
-                1.0,
-                {
-                    "skirt" :"{hobble_lpskirt|lp_skirt|lpskirt|medium_lpskirt|long_lpskirt|longest_lpskirt|hobble_lpskirt}.",
-                },
-            ),
-        ],
-    ),
-    "concept": (
-        1.0,
-        [
             (
                 "tentacles",
                 (0.25,0.75),
                 1.0,
                 {
-                    "concept":"multiple insertions, large insertion, (fucked by many tentacles:1,4), (tentacle-sex:1.2), (multiple vaginal insertions:1.4), (vaginal insertion:1.3),",
+                    "concept":"multiple insertions, large insertion, (fucked by many tentacles:1,4), (tentacle sex:1.2), (multiple vaginal insertions:1.4), (vaginal insertion:1.3),",
                     "boy":"tentacles, ",
                 },
             ),
@@ -108,30 +133,9 @@
                     "concept":"(multiple insertions:1.25), large insertion, missionary,",
                 },
             ),
-            (
-                "LargeInsertion-v1",
-                (0.25,0.75),
-                1.0,
-                {
-                    "concept":"large insertion, missionary,",
-                },
-            ),
-            (
-                "obp-000050",
-                (0.25,0.75),
-                1.0,
-                {
-                    "concept":"one-bar prison,",
-                },
-            ),
-            (
-                "BondagePoleV1",
-                (0.25,0.75),
-                1.0,
-                {
-                    "concept":"standing by wooden pole, arms chained to pole, chained to pole, fitting,",
-                },
-            ),
+            "LargeInsertion-v1",
+            "obp-000050",
+            "BondagePoleV1",
             (
                 "conceptLargerInsertion_v10",
                 (0.25,0.75),
@@ -148,22 +152,8 @@
                     "concept":"earfuck,",
                 },
             ),
-            (
-                "onahole_personality_v17",
-                (0.25,0.75),
-                1.0,
-                {
-                    "concept":"onahole, {holding onahole,|} limbless, armless, legsless,",
-                },
-            ),
-            (
-                "sex_toy_transformation",
-                (0.25,0.75),
-                1.0,
-                {
-                    "concept":"transformation, limbless, armless, legsless,",
-                },
-            ),
+            "onahole_personality_v17",
+            "sex_toy_transformation",
             (
                 "doggystyleFromSide_dsv02",
                 (0.25,0.75),
@@ -172,30 +162,9 @@
                     "concept":"doggystyle, from side, 1girl, 1boy, sex from behind,",
                 },
             ),
-            (
-                "bdsm_v3",
-                (0.25,0.75),
-                1.0,
-                {
-                    "concept":" bdsm,bondage,",
-                },
-            ),
-            (
-                "bdsm_frame",
-                (0.25,0.75),
-                1.0,
-                {
-                    "concept":" bdsm frame , bondage,",
-                },
-            ),
-            (
-                "bdsm_pissoir-000002",
-                (0.25,0.75),
-                1.0,
-                {
-                    "concept":" bdsm, bdsm pissoir, ",
-                },
-            ),
+            "bdsm_v3",
+            "bdsm_frame",
+            "bdsm_pissoir-000002",
             (
                 "dildoV1",
                 (0.25,0.75),
@@ -213,46 +182,11 @@
                     "concept":"pussy , penis in pussy , sex , dildo_in_vagina,",
                 },
             ),
-            (
-                "koonagoConcept_v1",
-                (0.25,0.75),
-                1.0,
-                {
-                    "concept":"koonago, minigirl, large insertion, sex,",
-                },
-            ),
-            (
-                "hyper_penetration_stomach_bulge_v8pectoral-000006",
-                (0.25,0.75),
-                1.0,
-                {
-                    "concept":" vaginal, stomach bulge, pectoral bulge, vaginal object insertion, (impossible object insertion:1.2), (absurd stomach bulge:1.1), gaping pussy,",
-                },
-            ),
-            (
-                "hyper_penetration_stomach_bulge_v8absurd-000006",
-                (0.25,0.75),
-                1.0,
-                {
-                    "concept":" vaginal, stomach bulge, pectoral bulge, vaginal object insertion, (impossible object insertion:1.2), (absurd stomach bulge:1.1), gaping pussy,",
-                },
-            ),
-            (
-                "hyper_penetration_stomach_bulge_v8nice-000006",
-                (0.25,0.75),
-                1.0,
-                {
-                    "concept":" vaginal, stomach bulge, pectoral bulge, vaginal object insertion, (impossible object insertion:1.2), (absurd stomach bulge:1.1), gaping pussy,",
-                },
-            ),
-            (
-                "hyper_penetration_stomach_bulge_v8all-000004",
-                (0.25,0.75),
-                1.0,
-                {
-                    "concept":"vaginal, stomach bulge, pectoral bulge, vaginal object insertion, (impossible object insertion:1.2), (absurd stomach bulge:1.1), gaping pussy,",
-                },
-            ),
+            "koonagoConcept_v1",
+            "hyper_penetration_stomach_bulge_v8pectoral",
+            "hyper_penetration_stomach_bulge_v8absurd",
+            "hyper_penetration_stomach_bulge_v8nice",
+            "hyper_penetration_stomach_bulge_v8all,",
             (
                 "tableSex_v10",
                 (0.25,0.75),
@@ -332,17 +266,7 @@
                     "concept":"dildo, (sex machine:1.25),",
                 },
             ),
-            (
-                "standsex",
-                (0.25,0.75),
-                1.0,
-                {
-                    #"boy" :"tentacles,",
-                    #"sex" :" pussy cock deep penetration,",
-                    #"pose" :" revcowgirl,",
-                    "concept":"Standing Missionary, sex, Can be applied to activities other than sex, such as changing from the word sex to Hug, Kiss or activities that interest you.",
-                },
-            ),
+            "standsex",
             (
                 "vibrator_in_thighhighs",
                 (0.25,0.75),
@@ -354,6 +278,11 @@
                     "concept":"vibrator on nipple, vibrator under clothes, vibrator in thighhighs, vibrator cord, egg vibrator,",
                 },
             ),
+        ],
+    ),
+    "skirt": (        0.0,
+        [
+            "lpskirtV1",
         ],
     ),
 }

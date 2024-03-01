@@ -1,0 +1,16 @@
+{
+    "loras":{
+        "char": (
+            "YayoiKancolle",
+            (0.25,1.0),
+            1.0,
+            {
+                "char" :"blue eyes, hair between eyes,",
+                "hair":"(short hair with long locks:1.1),  white purple hair,",
+                #"dress":"{bare shoulders, collarbone, dress, long sleeves, off shoulder, off-shoulder dress, off-shoulder sweater, pantyhose, red sweater, sweater, sweater dress, thighs,|__dress_set__}",
+            },
+        ),
+        #"hang": "hang",
+    },
+    #"lorasUpdate":false,
+}

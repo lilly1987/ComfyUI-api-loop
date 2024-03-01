@@ -1,0 +1,16 @@
+{
+    "loras":{
+        "char": (
+            "Ayami_nee",
+            (0.25,1.0),
+            1.0,
+            {
+                "char" :"ayaminee, blue eyes,",
+                "hair":"long hair, brown hair, ",
+                #"dress":"{ thighhighs, pantyhose, hood, fingerless gloves,|__dress_set__,}",
+            },
+        ),
+        #"hang": "hang",
+    },
+    #"lorasUpdate":false,
+}

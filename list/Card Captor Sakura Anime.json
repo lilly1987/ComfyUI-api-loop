@@ -1,0 +1,13 @@
+{
+    "loras":{
+        "char": (
+            "Card Captor Sakura Anime",
+            (0.25,1.0),
+            1.0,
+            {
+        "char":"daidouji tomoyo, ",
+        "hair":"black hair, long hair, bangs,",
+            },
+        ),
+    },
+}

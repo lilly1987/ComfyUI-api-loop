@@ -1,0 +1,16 @@
+{
+    "loras":{
+        "char": (
+            "YorLora-10",
+            (0.25,1.0),
+            1.0,
+            {
+        "char":" Yor,  (red eyes, shining red eyes:1.3),",
+        "hair":"(Black hair, Black colored hair, bangs, sidelocks, long flowing hair, long hair with long sidelocks, long sidelocks, headband:1.2), ",
+        #"dress": ("outfit_1, green jacket, cropped jacket, open jacket, black necktie, white dress, collared dress, see-through, long dress, grey tights, black boots, BREAK, ",0.5,false),
+            },
+        ),
+        #"hang": "hang",
+    },
+    #"lorasUpdate":false,
+}

@@ -69,10 +69,7 @@ try:
         elif not cuda and "cpu" in setup:
             dupdate(setup,setup["cpu"])
             
-        # -------------------------------------------------
-        
-        loras=dicFileRead("loras.json")
-        dupdate(setup["loras"],loras)
+
         
         # -------------------------------------------------
         if jitemCnt<=0:
@@ -81,13 +78,17 @@ try:
             #print("jlist1 : ",jlist)
             
             listMatchs=setup.get("listMatch",["*"])
+            if len(listMatchs)==0:
+                print("[red] no listMatchs : [/red]", listMatchs)
+                listMatchs=["*"]
+            
             listMatch=random.choice(listMatchs)
             #print("listMatch : ",listMatch)
             
             jlist=[ i for i in jlist if i.match(f"list/{listMatch}.json")]
             #print("jlist2 : ",jlist)
             if len(jlist)==0:
-                print("no listMatchs : ", listMatchs)
+                print("[red] no jlist : [/red]", listMatch)
                 continue
             
             jchoice=random.choice(jlist)
@@ -99,8 +100,8 @@ try:
             
             jitemMax=jitemCnt=setup.get("itemCnt",8)
             
+        
         dupdate(setup,jitem)
-
         
         # -------------------------------------------------
         if ckptCnt<=0:
@@ -132,6 +133,14 @@ try:
             
         # -------------------------------------------------
         
+        loras=dicFileRead("loras.json")
+        if setup.get("lorasUpdate",True):
+            dupdate(setup["loras"],loras)
+        
+        lorasDic=dicFileRead("lorasDic.json")
+        dupdate(setup["lorasDic"],lorasDic)
+        
+        # -------------------------------------------------
         #prompt["LoraLoader"]["inputs"]["lora_name"]=""
         #aLora=copy.deepcopy(prompt["LoraLoader"])
         loraList=getFileList(setup["loraPath"]+"**/*.safetensors")
@@ -145,8 +154,20 @@ try:
         prompt[lora2]["inputs"]["strength_clip"]=0
         
         print("loraList : ",len(loraList))
+        
         for k, v in setup.get("loras",{}).items():
             #print(f"{k} : ", v)
+            if isinstance(v, str) :
+                v=lorasDic.get(v)
+                if isinstance(v, list):
+                    v=random.choice(v)
+                    v=lorasDic.get(v)
+                if v is None:
+                    print(f"loras :[red] None {k} : [/red]", v)
+                    continue
+            if setup.get("lora show"):
+                print(f"loras :[cyan] {k} : [/cyan]", v)
+                #setup["loras"][k]=glora
             if isinstance(v, tuple) :
                 if isinstance(v[0], numbers.Number) :
                     if minmaxft(v[0]) > random.random() :
@@ -154,29 +175,38 @@ try:
                     else:
                         print(f"loras :[yellow] {k} skip [/yellow]")
                         continue
-                else:
-                    print(f"loras :[yellow] {k} not num [/yellow]")
+                #else:
+                #    print(f"loras :[yellow] {k} not num [/yellow]")
             else:
                 print(f"loras :[red]no tuple  {k} : [/red]", v)
                 continue
+                
             if isinstance(v, list):
                 v=random.choice(v)
+            if isinstance(v, str):
+                v=lorasDic.get(v)
             if v is None:
                 print(f"loras :[red] None {k} : [/red]", v)
                 continue
+                
             if isinstance(v[0], list):
                 vl=random.choice(v[0])
                 print(f"loras :[green] list {k} : [/green]", v[0])
-            else:
+            elif isinstance(v[0], str):
                 vl=v[0]
+            else:
+                print(f"loras :[red] unknown {k} : [/red]", vl)
+                continue
+                
             #print("loraList : ",loraList)
             tloraList=[ i for i in loraList if i.match(f"{vl}.safetensors")]
             if len(tloraList)==0:
-                print("no loraList : ",vl)
+                print("[red] no loraList : [/red]",vl)
                 continue
             
             tchoice=random.choice(tloraList)
             tname=pathRemove(tchoice,setup["loraPath"])
+            print(f"loras : [green]{tname}[/green]")
             
             tLora=copy.deepcopy(prompt[lora2])
             tLora["inputs"]["lora_name"]=tname
@@ -196,6 +226,8 @@ try:
             
         #print("setup : ",setup)
         #print("prompt : ",prompt)
+        
+        dupdate(setup,jitem)
         # -------------------------------------------------
         prompt["CheckpointLoaderSimple"]["inputs"]["ckpt_name"]= ckpt_path
         
@@ -252,14 +284,16 @@ try:
         if setup.get("SaveImage1",True):
             sampler_name1=prompt["KSampler"]["inputs"]["sampler_name"]
             scheduler1=prompt["KSampler"]["inputs"]["scheduler"]
-            prompt["SaveImage1"]["inputs"]["filename_prefix"]= f"{ckpt_name}-{sampler_name1}-{scheduler1}-{jitem_name}-{tm}"
+            cfg1=int(prompt["KSampler"]["inputs"]["cfg"])
+            prompt["SaveImage1"]["inputs"]["filename_prefix"]= f"{ckpt_name}/{sampler_name1}/{scheduler1}/{jitem_name}/{ckpt_name}-{sampler_name1}-{scheduler1}-{cfg1}-{jitem_name}-{tm}"
         else:
             del prompt["SaveImage1"]
             
         if setup.get("SaveImage2",True):
             sampler_name1=prompt["DetailerForEachDebug"]["inputs"]["sampler_name"]
             scheduler1=prompt["DetailerForEachDebug"]["inputs"]["scheduler"]
-            prompt["SaveImage2"]["inputs"]["filename_prefix"]= f"{ckpt_name}-{sampler_name1}-{scheduler1}-{jitem_name}-{tm}"
+            cfg1=int(prompt["DetailerForEachDebug"]["inputs"]["cfg"])
+            prompt["SaveImage2"]["inputs"]["filename_prefix"]= f"{ckpt_name}/{sampler_name1}/{scheduler1}/{jitem_name}/{ckpt_name}-{sampler_name1}-{scheduler1}-{cfg1}-{jitem_name}-{tm}"
         else:
             del prompt["SaveImage2"]
         

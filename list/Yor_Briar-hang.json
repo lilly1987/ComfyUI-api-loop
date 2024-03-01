@@ -1,0 +1,17 @@
+{
+    "loras":{
+        "char": (
+            "Yor_Briar",
+            (0.75,1.0),
+            1.0,
+            {
+                "char":"(yor_briar:__1.0_1.5__), red_eyes,",
+                "hair":"black hair, golden hairband, golden hair flowers,",
+                #"dress":"{__Marianne_Vi_Britannia_dress__,|}",
+                #"style":"cardcaptor sakura \(style\), ",
+            },
+        ),
+        "hang": "hang",
+    },
+    "lorasUpdate":false,
+}

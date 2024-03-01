@@ -1,0 +1,16 @@
+{
+    "loras":{
+        "char": (
+            "YunaFloralFallal-10",
+            (0.25,1.0),
+            1.0,
+            {
+        "char":" YunaFloralFallal,  green eyes, ",
+        "hair":"white hair,",
+        #"dress": " white dress, cleavage, bare shoulders,",
+            },
+        ),
+        #"hang": "hang",
+    },
+    #"lorasUpdate":false,
+}

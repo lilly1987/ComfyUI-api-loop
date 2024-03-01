@@ -1,0 +1,15 @@
+{
+    "loras":{
+        "char": (
+            "Golding",
+            (0.25,1.0),
+            1.0,
+            {
+        "char":" golding, black hairband, cat ears, blue ribbon,",
+        "hair":" grey hair, long hair, ",
+            },
+        ),
+        #"hang": "hang",
+    },
+    #"lorasUpdate":false,
+}

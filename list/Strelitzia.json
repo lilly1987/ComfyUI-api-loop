@@ -1,0 +1,16 @@
+{
+    "loras":{
+        "char": (
+            "Strelitzia",
+            (0.25,1.0),
+            1.0,
+            {
+                "char" :"khstrelitzia,",
+                "hair":"low twintails, hairclip,",
+                #"dress":"{bare shoulders, collarbone, dress, long sleeves, off shoulder, off-shoulder dress, off-shoulder sweater, pantyhose, red sweater, sweater, sweater dress, thighs,|__dress_set__}",
+            },
+        ),
+        #"hang": "hang",
+    },
+    #"lorasUpdate":false,
+}

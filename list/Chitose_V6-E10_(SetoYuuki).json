@@ -1,0 +1,16 @@
+{
+    "loras":{
+        "char": (
+            "Chitose_V6-E10_(SetoYuuki)",
+            (0.5,1.0),
+            1.0,
+            {
+        "char":" chitoseni,  ",
+        "hair":"long hair,",
+        #"dress": " white dress, cleavage, bare shoulders,",
+            },
+        ),
+        #"hang": "hang",
+    },
+    #"lorasUpdate":false,
+}

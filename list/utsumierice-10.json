@@ -1,0 +1,16 @@
+{
+    "loras":{
+        "char": (
+            "utsumierice-10",
+            (0.25,1.0),
+            1.0,
+            {
+                "char" :"utsumiericeFA,  ,",
+                "hair":"long hair,streaked hair,",
+                "dress":"long sleeves, bare shoulders, jewelry, puffy sleeves, necklace, white dress, short dress, blue ribbon, puffy long sleeves,magatama,",
+            },
+        ),
+        #"hang": "hang",
+    },
+    #"lorasUpdate":false,
+}

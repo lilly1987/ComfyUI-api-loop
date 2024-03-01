@@ -1,0 +1,17 @@
+{
+    "loras":{
+        "char": (
+            "约尔4V",
+            (0.25,1.0),
+            1.0,
+            {
+                "char":"约尔,gold earrings,red eyes,, ",
+                "hair":"greeen hair,long hair,bangs, sidelocks,",
+                #"dress":"{bare shoulders, collarbone, dress, long sleeves, off shoulder, off-shoulder dress, off-shoulder sweater, pantyhose, red sweater, sweater, sweater dress, thighs,|__dress_set__}",
+            },
+        ),
+        #"hang": "hang",
+    },
+    #"lorasUpdate":false,
+}
+#black hair, sidelocks, bangs, long hair, short hair with long locks, red eyes, breasts, large breasts, white hairband, earrings, pantyhose, hairband, sweater, red sweater, sweater dress, black pantyhose, dress, jewelry, off shoulder, collarbone, off-shoulder sweater, long sleeves

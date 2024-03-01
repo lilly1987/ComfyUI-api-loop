@@ -1,0 +1,14 @@
+{
+    "loras":{
+        "char": (
+            "ZoeKyonyuu-10",
+            (0.5,1.0),
+            1.0,
+            {
+                "char":"ZoeKyonyuu, purple eyes, earrings,",
+                "hair":"very long hair, brown hair,",
+                #"dress":"navel, cleavage, jewelry, midriff, necklace, bracelet, circlet,",
+            },
+        ),
+    },
+}
