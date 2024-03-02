@@ -157,21 +157,22 @@ try:
         
         for k, v in setup.get("loras",{}).items():
             #print(f"{k} : ", v)
-            if isinstance(v, str) :
-                v=lorasDic.get(v)
-                if isinstance(v, list):
-                    v=random.choice(v)
-                    v=lorasDic.get(v)
-                if v is None:
-                    print(f"loras :[red] None {k} : [/red]", v)
+            tmp=v
+            if isinstance(tmp, str) :
+                tmp=lorasDic.get(tmp)
+                if isinstance(tmp, list):
+                    tmp=random.choice(tmp)
+                    tmp=lorasDic.get(tmp)
+                if tmp is None:
+                    print(f"loras :[red] None1 {k} : [/red]", v)
                     continue
             if setup.get("lora show"):
                 print(f"loras :[cyan] {k} : [/cyan]", v)
                 #setup["loras"][k]=glora
-            if isinstance(v, tuple) :
-                if isinstance(v[0], numbers.Number) :
-                    if minmaxft(v[0]) > random.random() :
-                        v=v[1]
+            if isinstance(tmp, tuple) :
+                if isinstance(tmp[0], numbers.Number) :
+                    if minmaxft(tmp[0]) > random.random() :
+                        tmp=tmp[1]
                     else:
                         print(f"loras :[yellow] {k} skip [/yellow]")
                         continue
@@ -180,20 +181,31 @@ try:
             else:
                 print(f"loras :[red]no tuple  {k} : [/red]", v)
                 continue
-                
-            if isinstance(v, list):
-                v=random.choice(v)
-            if isinstance(v, str):
-                v=lorasDic.get(v)
-            if v is None:
-                print(f"loras :[red] None {k} : [/red]", v)
+            tmp2=tmp
+            if isinstance(tmp2, list):
+                tmp3=random.choice(tmp2)
+            else:
+                tmp3=tmp2
+            if tmp3 is None:
+                print(f"loras :[red] None2 {k} : [/red]", v)
+                print(f"loras :[red] None2 {k} : [/red]", tmp2)
+                print(f"loras :[red] None2 {k} : [/red]", tmp3)
                 continue
-                
-            if isinstance(v[0], list):
-                vl=random.choice(v[0])
-                print(f"loras :[green] list {k} : [/green]", v[0])
-            elif isinstance(v[0], str):
-                vl=v[0]
+            if isinstance(tmp3, str):
+                tmp4=lorasDic.get(tmp3)
+            else:
+                tmp4=tmp3
+            if tmp4 is None:
+                print(f"loras :[red] None3 {k} : [/red]", v)
+                print(f"loras :[red] None3 {k} : [/red]", tmp3)
+                print(f"loras :[red] None3 {k} : [/red]", tmp4)
+                continue
+            tmp=tmp4
+            if isinstance(tmp[0], list):
+                vl=random.choice(tmp[0])
+                print(f"loras :[green] list {k} : [/green]", tmp[0])
+            elif isinstance(tmp[0], str):
+                vl=tmp[0]
             else:
                 print(f"loras :[red] unknown {k} : [/red]", vl)
                 continue
@@ -210,8 +222,8 @@ try:
             
             tLora=copy.deepcopy(prompt[lora2])
             tLora["inputs"]["lora_name"]=tname
-            tLora["inputs"]["strength_model"]=minmaxft(v[1])
-            tLora["inputs"]["strength_clip"]=minmaxft(v[2])
+            tLora["inputs"]["strength_model"]=minmaxft(tmp[1])
+            tLora["inputs"]["strength_clip"]=minmaxft(tmp[2])
             tLora["inputs"]["model"][0]=lora1
             tLora["inputs"]["clip"][0]=lora1
             
@@ -220,9 +232,9 @@ try:
             prompt[lora2]["inputs"]["model"][0]=lora1
             prompt[lora2]["inputs"]["clip"][0]=lora1
             
-            dupdate(setup["positive"],v[3])
-            if len(v) >4 :
-                dupdate(setup["negative"],v[4])
+            dupdate(setup["positive"],tmp[3])
+            if len(tmp) >4 :
+                dupdate(setup["negative"],tmp[4])
             
         #print("setup : ",setup)
         #print("prompt : ",prompt)

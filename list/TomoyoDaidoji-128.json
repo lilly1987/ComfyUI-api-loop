@@ -2,7 +2,7 @@
     "loras":{
         "char": (
             "TomoyoDaidoji-128",
-            (0.25,1.0),
+            (0.5,1.0),
             1.0,
             {
                 "char":"tomoyo{-e|},",

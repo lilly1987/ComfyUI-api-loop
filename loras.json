@@ -50,14 +50,14 @@
             "obp-000050",
         ],
     ),
-    "Insertion": (        0.125,
+    "Insertion": (        01.125,
         [
             "LargeInsertion-v1",
             "koonagoConcept_v1",
             "hyper_penetration_stomach_bulge_v8pectoral",
             "hyper_penetration_stomach_bulge_v8absurd",
             "hyper_penetration_stomach_bulge_v8nice",
-            "hyper_penetration_stomach_bulge_v8all,"
+            "hyper_penetration_stomach_bulge_v8all",
         ],
     ),
     "bondage": (        0.125,
@@ -115,14 +115,6 @@
                 {
                     "concept":"multiple insertions, large insertion, (fucked by many tentacles:1,4), (tentacle sex:1.2), (multiple vaginal insertions:1.4), (vaginal insertion:1.3),",
                     "boy":"tentacles, ",
-                },
-            ),
-            (
-                "murkysDangling_1",
-                (0.25,0.75),
-                1.0,
-                {
-                    "concept":"murkysDangling_1,",
                 },
             ),
             (

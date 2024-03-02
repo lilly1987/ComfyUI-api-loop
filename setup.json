@@ -11,7 +11,7 @@
     "workflow":"workflow_api.json",
     "lorasFile":"loras.json",
     "ckptPer":1.0,
-    "ckptPer":01.1250,
+    "ckptPer":0.1250,
     "ckptCnt":16,
     "sampler_name": [
         "euler", "euler_ancestral", "heun", "heunpp2","dpm_2", "dpm_2_ancestral",
@@ -68,7 +68,7 @@
     "stop_at_clip_layer_max": -1,
     "steps_min": 20,
     "steps_max": 20,
-    "steps": 25,
+    "steps": 30,
     "cfg_min": 2.0,
     "cfg_max": 6.0,
     "listMatch": [
@@ -83,6 +83,7 @@
         "magia-sulfur",
         "KaliDN-10",
         "Mari-10",
+        "yuGiOhTraptrixNepenthes_v10",
         "carolMalusDienheimSenki_v11",
         "carolMalusDienheimSenki_v14",
         "tokisaki_kurumi_v1",
@@ -137,9 +138,11 @@
         "YunaFloralFallal-10",
         "Estelle",
         "MahoukaMayumi-v1-06",
+        "mahjongsoul_fuji",
         "YayoiKancolle",
         "Araragi Tsukihi",
         "shinshuu_maru_kantaicollection",
+        "kohinaHirukoBlack_v10",
         "Strelitzia",
         "Strelitzia-10",
         "xiaolv_v10",
@@ -213,7 +216,7 @@
     "setup show":false,
     "jitem show":true,
     "jitem show":false,
-    "queue_prompt":false,
     "queue_prompt":true,
+    "queue_prompt":false,
     
 }
