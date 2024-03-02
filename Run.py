@@ -297,7 +297,7 @@ try:
             sampler_name1=prompt["KSampler"]["inputs"]["sampler_name"]
             scheduler1=prompt["KSampler"]["inputs"]["scheduler"]
             cfg1=int(prompt["KSampler"]["inputs"]["cfg"])
-            prompt["SaveImage1"]["inputs"]["filename_prefix"]= f"{ckpt_name}/{sampler_name1}/{scheduler1}/{cfg1}/{jitem_name}/{ckpt_name}-{sampler_name1}-{scheduler1}-{cfg1}-{jitem_name}-{tm}"
+            prompt["SaveImage1"]["inputs"]["filename_prefix"]= f"{ckpt_name}/{jitem_name}/{ckpt_name}-{sampler_name1}-{scheduler1}-{cfg1}-{jitem_name}-{tm}"
         else:
             del prompt["SaveImage1"]
             
@@ -305,7 +305,8 @@ try:
             sampler_name1=prompt["DetailerForEachDebug"]["inputs"]["sampler_name"]
             scheduler1=prompt["DetailerForEachDebug"]["inputs"]["scheduler"]
             cfg1=int(prompt["DetailerForEachDebug"]["inputs"]["cfg"])
-            prompt["SaveImage2"]["inputs"]["filename_prefix"]= f"{ckpt_name}/{sampler_name1}/{scheduler1}/{cfg1}/{jitem_name}/{ckpt_name}-{sampler_name1}-{scheduler1}-{cfg1}-{jitem_name}-{tm}"
+            #prompt["SaveImage2"]["inputs"]["filename_prefix"]= f"{ckpt_name}/{sampler_name1}/{scheduler1}/{cfg1}/{jitem_name}/{ckpt_name}-{sampler_name1}-{scheduler1}-{cfg1}-{jitem_name}-{tm}"
+            prompt["SaveImage2"]["inputs"]["filename_prefix"]= f"{ckpt_name}/{jitem_name}/{ckpt_name}-{sampler_name1}-{scheduler1}-{cfg1}-{jitem_name}-{tm}"
         else:
             del prompt["SaveImage2"]
         

@@ -2,7 +2,7 @@
     "loras":{
         "char": (
             "tokisaki_kurumi_v1",
-            (0.25,1.0),
+            (0.5,1.0),
             1.0,
             {
 			"char": "bbkurumi,",
