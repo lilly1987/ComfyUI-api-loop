@@ -1,0 +1,16 @@
+{
+    "loras":{
+        "char": (
+            "seolhyunFromAOA_v10",
+            (0.5,1.0),
+            1.0,
+            {
+			"char": "seolhyun,",
+			#"hair": "long hair, low twintails, hair over one eye,",
+			#"dress":"school uniform, blazer, black jacket,",
+			#"skirt":"pleated skirt, blue skirt,",
+			#"thighhighs":"black pantyhose,",
+            },
+        ),
+    },
+}

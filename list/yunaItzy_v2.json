@@ -1,0 +1,16 @@
+{
+    "loras":{
+        "char": (
+            "yunaItzy_v2",
+            (0.5,1.0),
+            1.0,
+            {
+			"char": "Yuna Itzy,",
+			#"hair": "long hair, low twintails, hair over one eye,",
+			#"dress":"school uniform, blazer, black jacket,",
+			#"skirt":"pleated skirt, blue skirt,",
+			#"thighhighs":"black pantyhose,",
+            },
+        ),
+    },
+}

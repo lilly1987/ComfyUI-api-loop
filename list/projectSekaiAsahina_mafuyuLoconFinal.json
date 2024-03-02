@@ -1,0 +1,16 @@
+{
+    "loras":{
+        "char": (
+            "projectSekaiAsahina_mafuyuLoconFinal",
+            (0.5,1.0),
+            1.0,
+            {
+			"char": "iom, blue_eyes,",
+			"hair": "long hair, purple hair ,",
+			#"dress":"school uniform, blazer, black jacket,",
+			#"skirt":"pleated skirt, blue skirt,",
+			#"thighhighs":"black pantyhose,",
+            },
+        ),
+    },
+}
