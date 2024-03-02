@@ -50,7 +50,12 @@
             "obp-000050",
         ],
     ),
-    "Insertion": (        01.125,
+    "vibrator": (        01.125,
+        [
+            "vibrator_in_thighhighs",
+        ],
+    ),
+    "Insertion": (        0.125,
         [
             "LargeInsertion-v1",
             "koonagoConcept_v1",
@@ -259,17 +264,7 @@
                 },
             ),
             "standsex",
-            (
-                "vibrator_in_thighhighs",
-                (0.25,0.75),
-                1.0,
-                {
-                    #"boy" :"tentacles,",
-                    #"sex" :" pussy cock deep penetration,",
-                    #"pose" :" revcowgirl,",
-                    "concept":"vibrator on nipple, vibrator under clothes, vibrator in thighhighs, vibrator cord, egg vibrator,",
-                },
-            ),
+            "vibrator_in_thighhighs",
         ],
     ),
     "skirt": (        0.0,
