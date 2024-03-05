@@ -1,0 +1,16 @@
+{
+    "loras":{
+        "char": (
+            "TheIrregularatMagicHighSchool_Girlpack_v1",
+            (0.5,1.0),
+            1.0,
+            {
+        "char":"ayako, red_eyes,",
+        "hair":"long hair, black_hair, bangs, blunt_bangs, drill_hair,",
+        #"dress": " blue dress, long dress, blue sleeves, frilled choker, blue hat, ",
+            },
+        ),
+        #"hang": "hang",
+    },
+    #"lorasUpdate":false,
+}

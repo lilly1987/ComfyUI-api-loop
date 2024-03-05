@@ -1,0 +1,17 @@
+{
+    "loras":{
+        "char": (
+            "hornet-10",
+            (0.5,1.0),
+            1.0,
+            {
+       # "hat":" hat, witch hat, ",
+        "char":" hornetKC, grey eyes,   ",
+        "hair":" long hair, ",
+        "dress": "{ skirt,  white shirt, pantyhose, necktie,  dress shirt, black belt, {jacket,black jacket,bomber jacket, long sleeves,|}|__dress_set__,} ",
+            },
+        ),
+        #"hang": "hang",
+    },
+    #"lorasUpdate":false,
+}

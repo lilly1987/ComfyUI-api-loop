@@ -1,10 +1,42 @@
 {
+    "0263 Florence Dream_v1": (
+                "0263 Florence Dream_v1",
+                (0.25,0.75),
+                1.0,
+                {
+                    "dress":"ruanyi0263,bridal veil,wedding dress,veil,white dress,bride,lace,,",
+                },
+            ),
+    "blu3m3r": (
+                "blu3m3r",
+                (0.25,0.75),
+                1.0,
+                {
+                    "dress":"blu3m3r, bare shoulders, strapless, long dress, tight dress,",
+                },
+            ),
+    "Sl1tM3rm41d": (
+                "Sl1tM3rm41d",
+                (0.25,0.75),
+                1.0,
+                {
+                    "dress":"Sl1tM3rm41d,long sleeves,puffy sleeves,juliet sleeves,",
+                },
+            ),
+    "dildoRiding2-000005": (
+                "dildoRiding2-000005",
+                (0.25,0.75),
+                1.0,
+                {
+                    #"concept":"vibrator on nipple, vibrator under clothes, vibrator in thighhighs, vibrator cord, egg vibrator,",
+                },
+            ),
     "vibrator_in_thighhighs": (
                 "vibrator_in_thighhighs",
                 (0.25,0.75),
                 1.0,
                 {
-                    "concept":"vibrator on nipple, vibrator under clothes, vibrator in thighhighs, vibrator cord, egg vibrator,",
+                    "vibrator":"vibrator on nipple, vibrator under clothes, vibrator in thighhighs, vibrator cord, egg vibrator,",
                 },
             ),
     "monsterSexActLora79_v10": (
@@ -205,7 +237,7 @@
     "side-deepthroat-v3-wasabiya": (
                 "side-deepthroat-v3-wasabiya",
                 (0.25,0.75),
-                1.0,
+                (1.0,1.25),
                 {
                     "1boy":"1boy,",
                     "fellatio":"deepthroat, penis, fellatio,",
@@ -216,7 +248,7 @@
     "side-fellatio-b3-v3-wasabiya": (
                 "side-fellatio-b3-v3-wasabiya",
                 (0.25,0.75),
-                1.0,
+                (1.0,1.25),
                 {
                     "1boy":"1boy,",
                     "fellatio":"fellatio, penis, ",
@@ -281,7 +313,7 @@
                 1.0,
                 {
                     "monster" :" monster,",
-                    "concept":"hilichurl, blush, held up, nipples, nude, open mouth, pussy, pussy juice, spread legs, sweat, tears, huge penis, medium breasts, large insertion, monster sex, uncensored, monster,",
+                    "concept":"hilichurl, blush, held up, nipples, open mouth, pussy, pussy juice, spread legs, sweat, tears, huge penis, medium breasts, large insertion, monster sex, uncensored, monster,",
                 },
             ),
     "largebulg1-000012": (
@@ -330,6 +362,22 @@
                 1.0,
                 {
                     "concept":"vaginal, stomach bulge, pectoral bulge, vaginal object insertion, (impossible object insertion:1.2), (absurd stomach bulge:1.1), gaping pussy,",
+                },
+            ),
+    "huge_dildo_v1_goofy":(
+                "huge_dildo_v1_goofy",
+                (0.25,0.75),
+                1.0,
+                {
+                    "Insertion":"huge dildo, sex toy,large insertion, vaginal, stomach bulge, pectoral bulge, vaginal object insertion, (impossible object insertion:1.2), (absurd stomach bulge:1.1), gaping pussy,",
+                },
+            ),
+    "DildoRiding":(
+                "DildoRiding",
+                (0.25,0.75),
+                1.0,
+                {
+                    "Insertion":"kneeling, anal, anal object insertion,  pussy juice, pussy, clit, drooling, rolling eyes, motion lines, ahegao, naughty face, clothes lift, skirt lift, clothing aside, clothed masturbation, heavy breathing), dildo_riding, object_insertion, dildo, vaginal_object_insertion, sex_toy, vaginal, large_insertion, uncensored, masturbation, female_masturbation,",
                 },
             ),
     "hang": 

@@ -1,0 +1,16 @@
+{
+    "loras":{
+        "char": (
+            "MasterArtoria-10",
+            (0.5,1.0),
+            1.0,
+            {
+        "char":"MasterArtoria,  green eyes,  ,", 
+        "hair":" short hair,  blonde hair, hair ribbon, braid,  sidelocks,",
+        #"dress": " pleated skirt, blue skirt,school uniform,collarbone,  blue serafuku,   red neckerchief, blue ribbon,",
+            },
+        ),
+        #"hang": "hang",
+    },
+    #"lorasUpdate":false,
+}
