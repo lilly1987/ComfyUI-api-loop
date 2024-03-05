@@ -11,7 +11,7 @@
     "workflow":"workflow_api.json",
     "lorasFile":"loras.json",
     "ckptPer":1.0,
-    "ckptPer":01.1250,
+    "ckptPer":0.1250,
     "ckptCnt":16,
     "sampler_name": [
         "euler", "euler_ancestral", "heun", "heunpp2","dpm_2", "dpm_2_ancestral",
@@ -68,7 +68,7 @@
     "stop_at_clip_layer_max": -1,
     "steps_min": 20,
     "steps_max": 20,
-    "steps": 30,
+    "steps": 20,
     "cfg_min": 2.0,
     "cfg_max": 6.0,
     "listMatch": [
@@ -187,13 +187,13 @@
         "Chitose_V6-E10_(SetoYuuki)",
         "Dorothy-10",
         "YueAyase-v1",
-    ],"listMatch": [
+    #],"listMatch": [
         "WitchFateEOD-10-b4ll3th33ls",
     ],"listMatch1": [
         "FushikawaKokoroXL-000096",
     ],
     "positive": {
-        "kneeling":"kneeling,kneeling pose,",
+        "pose":"{kneeling,kneeling pose|sit},",
         "nsfw":"nsfw,",
         "style":"anime style, 2D, anime,",
         "insertion":"(multiple insertions, large insertion, {vaginal|anal|} object insertion, impossible object insertion, object insertion:1.25), {Pregnant,|7:: }",
@@ -206,9 +206,9 @@
         "quality":"masterpiece , best quality , detailed face,",
         "looking":"looking at viewer,",
         #"view":"{cowboy shot,|} {from side,|9::}",
-        #"shot":"{cowboy shot,|} ",
         #"shot":"full body, ",
         "shot":"cowboy shot, ",
+        "shot":"{cowboy shot,|} ",
         "view":"{from side,|9::}",
         "chest":"__chest__, thin waist,",
         #"char":"1girl,  __char__, ",

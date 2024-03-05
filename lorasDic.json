@@ -5,18 +5,18 @@
                 (1.0,1.5),
                 {
                     "heels":"(b4ll3th33ls), high heels, ",
-                    "shot":"full body, ",
-                    "kneeling":"{kneeling,|}",
+                    #"shot":"full body, ",
+                    "pose":"{{sit holding both knees|Bring both knees together},|}",
                 },
             ),
     "k1tt3nh33ls": (
                 "k1tt3nh33ls",
                 (0.25,0.75),
-                1.0,
+                (1.0,1.5),
                 {
                     "heels":"(k1tt3nh33ls), bow, shoes, high heels,,",
-                    "shot":"full body, ",
-                    "kneeling":"{kneeling,|}",
+                    #"shot":"full body, ",
+                    "pose":"{{sit holding both knees|Bring both knees together},|}",
                 },
             ),
     "0263 Florence Dream_v1": (
