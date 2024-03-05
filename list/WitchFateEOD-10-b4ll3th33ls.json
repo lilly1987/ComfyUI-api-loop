@@ -1,0 +1,18 @@
+{
+    "loras":{
+        "obp":"obp-000050",
+        "microwaistV05":"microwaistV05",
+        "heels": "b4ll3th33ls",
+        "char": (
+            "WitchFateEOD-10",
+            (0.5,1.0),
+            1.0,
+            {
+                "char":"WitchFateEOD,  blue eyes, hair between eyes, ",
+                "hair":"{short hair,|}",
+                "dress":"{hat, dress, bare shoulders, detached sleeves, belt, wide sleeves, torn clothes, black headwear, witch hat, detached collar,|__dress_set__,}",
+            },
+        ),
+    },
+    "lorasUpdate":false,
+}

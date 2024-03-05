@@ -11,7 +11,7 @@
     "workflow":"workflow_api.json",
     "lorasFile":"loras.json",
     "ckptPer":1.0,
-    "ckptPer":0.1250,
+    "ckptPer":01.1250,
     "ckptCnt":16,
     "sampler_name": [
         "euler", "euler_ancestral", "heun", "heunpp2","dpm_2", "dpm_2_ancestral",
@@ -98,6 +98,7 @@
         "PamelaAtelier",
         "cyrille-nvwls-v1",
         "Marina_Fear__Hunger_2_Termina",
+        "佩琳·H·克洛斯特曼--强袭魔女_v1.0",
         "Naruse_Maria",
         "SisterCleaire_v10",
         "makina69_tzuyu_v1.0",
@@ -185,13 +186,14 @@
         "miyuki-mahouka-01",
         "Chitose_V6-E10_(SetoYuuki)",
         "Dorothy-10",
-    #],"listMatch": [
         "YueAyase-v1",
+    ],"listMatch": [
+        "WitchFateEOD-10-b4ll3th33ls",
     ],"listMatch1": [
         "FushikawaKokoroXL-000096",
     ],
     "positive": {
-        
+        "kneeling":"kneeling,kneeling pose,",
         "nsfw":"nsfw,",
         "style":"anime style, 2D, anime,",
         "insertion":"(multiple insertions, large insertion, {vaginal|anal|} object insertion, impossible object insertion, object insertion:1.25), {Pregnant,|7:: }",
@@ -203,8 +205,9 @@
         "face":"{ahegao,|}{orgasm ,|}",
         "quality":"masterpiece , best quality , detailed face,",
         "looking":"looking at viewer,",
-        "view":"{cowboy shot,|} {from side,|9::}",
-        "shot":"{cowboy shot,|} ",
+        #"view":"{cowboy shot,|} {from side,|9::}",
+        #"shot":"{cowboy shot,|} ",
+        #"shot":"full body, ",
         "shot":"cowboy shot, ",
         "view":"{from side,|9::}",
         "chest":"__chest__, thin waist,",
@@ -219,13 +222,15 @@
         #"concept":"{3::__concept__,|1::__concept__,__concept__,}  "
     },
     "negative" : {
-        "quality":"lowres, worst quality, low quality, cropped, from torso down, (monochrome:1.1), blurry,",
+        "quality":"lowres, worst quality, low quality, (cropped:1.25), from torso down, (monochrome:1.1), blurry,",
         "view":"(multiple views:1.25), (multiple viewer:1.25),  (cropped:1.25), face only,  lower body,  facial,",
         "nude":"(nude:1.25),",
         "embedding":"{-4$$embedding:FastNegativeV2.pt|embedding:NGH.safetensors|embedding:bad_prompt_version2-neg.pt|embedding:negative_hand-neg|embedding:nncursedV0-neg.pt|embedding:badquality.pt|embedding:bad-picture-chill-75v.pt|embedding:neg_grapefruit.pt|embedding:ParaNegative.safetensors|embedding:easynegative.safetensors|embedding:EasyNegativeV2.safetensors},",
     },
     "loras":{    },
     "lorasDic":{    },
+    #"lorasUpdate":false,
+    #"lorasUpdate":true,
     "SaveImage1":false,
     "SaveImage1":true,
     "SaveImage2":false,

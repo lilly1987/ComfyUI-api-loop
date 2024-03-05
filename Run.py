@@ -105,7 +105,6 @@ try:
         
         # -------------------------------------------------
         if ckptCnt<=0:
-            ckptMax=ckptCnt=setup.get("ckptCnt",8)
             
             if random.random() < setup.get("ckptPer",0) :
                 ckpt_path=setup["ckptPathSplit"]+"**/"+random.choice(dicFileRead("ckpt.json"))+".safetensors"
@@ -113,9 +112,14 @@ try:
                 ckpt_path=setup["ckptPath"]
             
             ckptList=getFileList(ckpt_path)
-            ckpt_path=random.choice(ckptList)
+            if  isinstance(ckptList, list):
+                ckpt_path=random.choice(ckptList)
+            else:
+                print("[res]ckpt_path[/res] : ",ckpt_path)
+                continue
             ckpt_path=pathRemove(ckpt_path,setup["ckptPathSplit"])
             
+            ckptMax=ckptCnt=setup.get("ckptCnt",8)
             
             print("ckpt_path : ",ckpt_path)
             ckpt_name=os.path.splitext(os.path.split(ckpt_path)[1])[0]
