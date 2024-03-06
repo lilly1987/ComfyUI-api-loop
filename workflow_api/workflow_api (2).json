@@ -96,13 +96,13 @@
       "title": "Load VAE"
     }
   },
-  "UltralyticsDetectorProvider": {
+  "ONNXDetectorProvider": {
     "inputs": {
       "model_name": "bbox/face_yolov8m.pt"
     },
-    "class_type": "UltralyticsDetectorProvider",
+    "class_type": "ONNXDetectorProvider",
     "_meta": {
-      "title": "UltralyticsDetectorProvider"
+      "title": "ONNXDetectorProvider"
     }
   },
   "CheckpointLoaderSimple": {
@@ -194,7 +194,7 @@
       "drop_size": 10,
       "labels": "",
       "bbox_detector": [
-        "UltralyticsDetectorProvider",
+        "ONNXDetectorProvider",
         0
       ],
       "image": [
