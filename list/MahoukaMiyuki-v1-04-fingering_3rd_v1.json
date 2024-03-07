@@ -1,0 +1,16 @@
+{
+    "loras":{
+        "char": (
+            "MahoukaMiyuki-v1-04",
+            (0.5,1.0),
+            1.0,
+            {
+        "char":"ChopioMiyuki, blue eyes,",
+        "hair":"black hair, sidelocks, blunt bangs, long hair, hairband, ",
+        #"dress": " outfit_5, pink dress, frilled dress, juliet sleeves, layered sleeves, layered dress, white tights,",
+            },
+        ),
+        "fingering_3rd_v1":"fingering_3rd_v1",
+    },
+    "lorasUpdate":false,
+}

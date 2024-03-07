@@ -1,0 +1,16 @@
+{
+    "loras":{
+        "char": (
+            "ranalora-10",
+            (0.25,1.0),
+            1.0,
+            {
+                "char" :"rana, blue eyes,",
+                "hair":"long hair, pink hair, ",
+                #"dress":"{ thighhighs, pantyhose, hood, fingerless gloves,|__dress_set__,}",
+            },
+        ),
+        #"hang": "hang",
+    },
+    #"lorasUpdate":false,
+}

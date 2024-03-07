@@ -112,7 +112,7 @@ try:
                 ckpt_path=setup["ckptPath"]
             
             ckptList=getFileList(ckpt_path)
-            if  isinstance(ckptList, list):
+            if  isinstance(ckptList, list) and len(ckptList)>0:
                 ckpt_path=random.choice(ckptList)
             else:
                 print("[res]ckpt_path[/res] : ",ckpt_path)
