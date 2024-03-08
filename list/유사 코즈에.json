@@ -1,0 +1,17 @@
+{
+    "loras":{
+        "char": (
+            "유사 코즈에",
+            (0.25,1.0),
+            1.0,
+            {
+                "char" :"green_eyes,",
+                "hair":"long_hair, blonde_hair, twintails, low_twintails,",
+                #"dress":"{ thighhighs, pantyhose, hood, fingerless gloves,|__dress_set__,}",
+            },
+        ),
+		#"fingering_3rd_v1":"fingering_3rd_v1",
+        #"hang": "hang",
+    },
+    #"lorasUpdate":false,
+}

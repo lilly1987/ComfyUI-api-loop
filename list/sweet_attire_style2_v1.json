@@ -1,0 +1,17 @@
+{
+    "loras":{
+        "char": (
+            "sweet_attire_style2_v1",
+            (0.25,1.0),
+            1.0,
+            {
+                #"char" :" rabbit ears, hair bow, ",
+                #"hair":" multi-tied hair, ",
+                "dress":"cyb dress, frilled dress, layered dress, long sleeves,",
+            },
+        ),
+		#"fingering_3rd_v1":"fingering_3rd_v1",
+        #"hang": "hang",
+    },
+    #"lorasUpdate":false,
+}

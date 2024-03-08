@@ -1,0 +1,17 @@
+{
+    "loras":{
+        "char": (
+            "포켓몬_봄이",
+            (0.25,1.0),
+            1.0,
+            {
+                "char" :"selene_\(pokemon\), blue_eyes,",
+                "hair":"bangs, black_hair,",
+                #"dress":"{ thighhighs, pantyhose, hood, fingerless gloves,|__dress_set__,}",
+            },
+        ),
+		#"fingering_3rd_v1":"fingering_3rd_v1",
+        #"hang": "hang",
+    },
+    #"lorasUpdate":false,
+}
