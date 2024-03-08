@@ -15,10 +15,11 @@
     "ckptCnt":16,
     "sampler_name": [
         "euler", "euler_ancestral", "heun", "heunpp2","dpm_2", "dpm_2_ancestral",
-        "lms", "dpm_fast", "dpm_adaptive", "dpmpp_2s_ancestral", "dpmpp_sde", "dpmpp_sde_gpu",
+        "lms", "dpm_fast", "dpm_adaptive", "dpmpp_2s_ancestral", "dpmpp_sde", 
         "dpmpp_2m", "dpmpp_2m_sde", "dpmpp_2m_sde_gpu", "dpmpp_3m_sde", "dpmpp_3m_sde_gpu", 
         "ddpm", "lcm", "ddim", "uni_pc", "uni_pc_bh2"
     ],
+	#"dpmpp_sde_gpu",
     "scheduler": [
         "normal", "karras", "exponential", "sgm_uniform", "simple", "ddim_uniform"],
     "textJoin":", ",
@@ -68,7 +69,7 @@
     "stop_at_clip_layer_max": -1,
     "steps_min": 20,
     "steps_max": 20,
-    "steps": 25,
+    "steps": 30,
     "cfg_min": 2.0,
     "cfg_max": 6.0,
     "listMatch": [
@@ -211,7 +212,7 @@
     "positive": {
         "pose":"{kneeling,kneeling pose|sit|man behind girl},",
         "nsfw":"nsfw,",
-        "style":"anime style, 2D, anime,",
+        "style":"{1-3$$anime style|2D|anime},",
         "insertion":"(multiple insertions, large insertion, {vaginal|anal|} object insertion, impossible object insertion, object insertion:1.25), {Pregnant,|7:: }",
         "sex":"{(sex:1.25),|}",
         "boy":"1boy,",
