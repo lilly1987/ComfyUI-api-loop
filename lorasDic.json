@@ -452,7 +452,7 @@
     "Luoxuan_V2": 
             (
                 "Luoxuan_V2*",
-                (0.0,0.5),
+                (0.250,0.75),
                 1.0,
                 {
                     "luoxuan" :"luoxuan,",
@@ -475,6 +475,8 @@
                 {
                     "face" :"rolling eyes,",
                 },
+				{},
+				"rnd",
             ),
     "side-deepthroat-v3-wasabiya": (
                 "side-deepthroat-v3-wasabiya",
@@ -508,6 +510,8 @@
                     "pose":"kneeling,",
                     "looking":",",
                 },
+				{},
+				"rnd",
             ),
     "ddkb_v1": (
                 "ddkb_v1",
@@ -519,6 +523,8 @@
                     "pose":"kneeling,",
                     "looking":",",
                 },
+				{},
+				"rnd",
             ),
     "SideFellatio": (
                 "SideFellatio",
@@ -530,6 +536,8 @@
                     "pose":"kneeling,",
                     "looking":",",
                 },
+				{},
+				"rnd",
             ),
     "GloryHolev2 1024-000048": (
                 "GloryHolev2 1024-000048",
