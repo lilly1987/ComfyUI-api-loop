@@ -230,6 +230,15 @@ try:
             tLora["inputs"]["strength_clip"]=minmaxft(tmp[2])
             tLora["inputs"]["model"][0]=lora1
             tLora["inputs"]["clip"][0]=lora1
+            if len(tmp) >5 :
+                t5=tmp[5]
+                if isinstance(t5, list):
+                    t5=random.choice(t5)
+                if  isinstance(t5, str) :
+                    tLora["inputs"]["block_vector"]=t5
+                    print("[green] t5 : [/green]",t5)
+                else:
+                    print("[red] no str t5 : [/red]",t5)
             
             lora1=f"LoraLoader-{k}"
             prompt[lora1]=tLora
@@ -239,6 +248,7 @@ try:
             dupdate(setup["positive"],tmp[3])
             if len(tmp) >4 :
                 dupdate(setup["negative"],tmp[4])
+                
             
         #print("setup : ",setup)
         #print("prompt : ",prompt)

@@ -294,7 +294,7 @@
                 (1.0,1.25),
                 {
                     "hang":"hunged_girl, {noose,|} {asphyxiation,|} {rolling eyes,|} {open mouth,{tongue,|}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
-                    "hang":"hanging, (hunged_girl:1.25), noose, asphyxiation, rolling eyes, {open mouth,{tongue,|}|} {gore,|} {guro,|} {arms_behind_back, bound_arms, arms bound,|} {hang in the air,|} bdsm, bound,",
+                    "hang":"hanging, (hunged_girl:1.25),rope on neck, noose, asphyxiation, rolling eyes, {open mouth,{tongue,|}|} {gore,|} {guro,|} {arms_behind_back, bound_arms, arms bound,|} {hang in the air,|} bdsm, bound,",
                 },
             ),
     "execution_on_gallows":(
@@ -303,7 +303,7 @@
                 (1.0,1.25),
                 {
                     "hang":"(execution_on_gallows:1.25), noose, asphyxiation, rolling eyes, open mouth,{tongue,|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
-                    "hang":"(execution_on_gallows:1.25), {noose,|} {asphyxiation,|} rolling eyes, {open mouth,{tongue,|}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
+                    "hang":"(execution_on_gallows:1.25),rope on neck, {noose,|} {asphyxiation,|} rolling eyes, {open mouth,{tongue,|}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
                 },
             ),
     "hunged_girl": (
@@ -312,8 +312,24 @@
                 (1.0,1.25),
                 {
                     "hang":"hunged_girl, {noose,|} {asphyxiation,|} {rolling eyes,|} {open mouth,{tongue,|}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
-                    "hang":"(hunged_girl:1.25), noose, asphyxiation, rolling eyes, {open mouth,{tongue,|}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
+                    "hang":"(hunged_girl:1.25),rope on neck, noose, asphyxiation, rolling eyes, {open mouth,{tongue,|}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
                 },
+    ),
+    "leheng_re": (
+                "leheng_re",
+                (0.25,0.75),
+                (1.0,1.25),
+                {
+                    "hang":"(hunged_girl:1.25), rope on neck, noose, asphyxiation, rolling eyes, {open mouth,{tongue,|}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|} ",
+                },
+				{},
+				[
+					"1,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0",
+					"1,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0",
+					"1,0,0,0,0,0,1,1,1,1,1,1,1,1,0.5,0,0",
+					"1,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0",
+					"1,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1",
+				],
     ),
     "onahole_personality_v17":(
                 "onahole_personality_v17",

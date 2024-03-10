@@ -11,15 +11,15 @@
     "workflow":"workflow_api.json",
     "lorasFile":"loras.json",
     "ckptPer":1.0,
-    "ckptPer":0.1250,
+    "ckptPer":0.0625,
     "ckptCnt":16,
     "sampler_name": [
         "euler", "euler_ancestral", "heun", "heunpp2","dpm_2", "dpm_2_ancestral",
         "lms", "dpm_fast", "dpm_adaptive", "dpmpp_2s_ancestral", "dpmpp_sde", 
-        "dpmpp_2m", "dpmpp_2m_sde", "dpmpp_2m_sde_gpu", "dpmpp_3m_sde", "dpmpp_3m_sde_gpu", 
+        "dpmpp_2m", "dpmpp_2m_sde",  "dpmpp_3m_sde", "dpmpp_3m_sde_gpu", 
         "ddpm", "lcm", "ddim", "uni_pc", "uni_pc_bh2"
     ],
-	#"dpmpp_sde_gpu",
+	#"dpmpp_sde_gpu","dpmpp_2m_sde_gpu",
     "scheduler": [
         "normal", "karras", "exponential", "sgm_uniform", "simple", "ddim_uniform"],
     "textJoin":", ",
@@ -204,8 +204,13 @@
         "2ke_v10",
         "mzdl",
         "mitsukiV1",
+        "Chkuriyama",
         "ilu_fluor_v1",
+        "Frederica Bernkastel anything45pruned46r75r-000006",
     #],"listMatch": [
+        "Frederica Bernkastel anything45pruned46r75r-000006-Luoxuan_V2-BondagePoleV1",
+        "MayaYotsuba-10-Luoxuan_V2-BondagePoleV1",
+        "MayaYotsuba-10",
     ],"listMatch1": [
         "FushikawaKokoroXL-000096",
     ],
@@ -215,6 +220,8 @@
         "style":"{1-3$$anime style|2D|anime},",
         "insertion":"(multiple insertions, large insertion, {vaginal|anal|} object insertion, impossible object insertion, object insertion:1.25), {Pregnant,|7:: }",
         "sex":"{(sex:1.25),|}",
+        "asphyxiation":"{(asphyxiation:1.0),|}",
+        "rolling eyes":"{(rolling eyes:1.0),|}",
         "boy":"1boy,",
         "boy":"{2boy,|1boy,|}",
         "girl":"1girl,",
@@ -242,8 +249,9 @@
     "negative" : {
         "quality":"lowres, worst quality, low quality, (cropped:1.25), from torso down, (monochrome:1.1), zombie , blurry,",
         "view":"(multiple views:1.25), (multiple viewer:1.25),  (cropped:1.25), face only,  lower body,  facial,",
+        "bad":" bad anatomy, bad hands,   missing fingers, extra digit, fewer digits, speech bubble, ",
         "nude":"(nude:1.25),",
-        "etc":"(text, sinature, stamp, watermark:1.5),",
+        "etc":"text, sinature, stamp, watermark, error, jpeg artifacts, signature,  username,",
         "realistic":"(realistic:1.25),",
         "embedding":"{-4$$embedding:FastNegativeV2.pt|embedding:NGH.safetensors|embedding:bad_prompt_version2-neg.pt|embedding:negative_hand-neg|embedding:nncursedV0-neg.pt|embedding:badquality.pt|embedding:bad-picture-chill-75v.pt|embedding:neg_grapefruit.pt|embedding:ParaNegative.safetensors|embedding:easynegative.safetensors|embedding:EasyNegativeV2.safetensors},",
     },

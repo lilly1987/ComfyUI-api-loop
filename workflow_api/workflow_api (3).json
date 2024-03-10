@@ -1,31 +1,4 @@
 {
-  "LoraLoader": {
-    "inputs": {
-      "category_filter": "All",
-      "lora_name": "02Zerotwo_v10.safetensors",
-      "strength_model": 1,
-      "strength_clip": 1,
-      "inverse": false,
-      "seed": 0,
-      "A": 1,
-      "B": 1,
-      "preset": "SD-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
-      "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
-      "bypass": false,
-      "model": [
-        "CheckpointLoaderSimple",
-        0
-      ],
-      "clip": [
-        "CheckpointLoaderSimple",
-        1
-      ]
-    },
-    "class_type": "LoraLoaderBlockWeight //Inspire",
-    "_meta": {
-      "title": "Lora Loader (Block Weight)"
-    }
-  },
   "positiveWildcard": {
     "inputs": {
       "wildcard_text": "",
@@ -39,6 +12,41 @@
       "title": "ImpactWildcardProcessor"
     }
   },
+  "LoraLoader": {
+    "inputs": {
+      "lora_name": "yor_forger_v1.safetensors",
+      "strength_model": 1,
+      "strength_clip": 1,
+      "model": [
+        "CheckpointLoaderSimple",
+        0
+      ],
+      "clip": [
+        "CheckpointLoaderSimple",
+        1
+      ]
+    },
+    "class_type": "LoraLoader",
+    "_meta": {
+      "title": "Load LoRA"
+    }
+  },
+  "positive": {
+    "inputs": {
+      "text": [
+        "positiveWildcard",
+        0
+      ],
+      "clip": [
+        "CLIPSetLastLayer",
+        0
+      ]
+    },
+    "class_type": "CLIPTextEncode",
+    "_meta": {
+      "title": "CLIP Text Encode (Prompt)"
+    }
+  },
   "negativeWildcard": {
     "inputs": {
       "wildcard_text": "",
@@ -50,6 +58,22 @@
     "class_type": "ImpactWildcardProcessor",
     "_meta": {
       "title": "ImpactWildcardProcessor"
+    }
+  },
+  "negative": {
+    "inputs": {
+      "text": [
+        "negativeWildcard",
+        0
+      ],
+      "clip": [
+        "CLIPSetLastLayer",
+        0
+      ]
+    },
+    "class_type": "CLIPTextEncode",
+    "_meta": {
+      "title": "CLIP Text Encode (Prompt)"
     }
   },
   "EmptyLatentImage": {
@@ -101,38 +125,6 @@
     "class_type": "CLIPSetLastLayer",
     "_meta": {
       "title": "CLIP Set Last Layer"
-    }
-  },
-  "positive": {
-    "inputs": {
-      "text": [
-        "positiveWildcard",
-        0
-      ],
-      "clip": [
-        "CLIPSetLastLayer",
-        0
-      ]
-    },
-    "class_type": "CLIPTextEncode",
-    "_meta": {
-      "title": "CLIP Text Encode (Prompt)"
-    }
-  },
-  "negative": {
-    "inputs": {
-      "text": [
-        "negativeWildcard",
-        0
-      ],
-      "clip": [
-        "CLIPSetLastLayer",
-        0
-      ]
-    },
-    "class_type": "CLIPTextEncode",
-    "_meta": {
-      "title": "CLIP Text Encode (Prompt)"
     }
   },
   "KSampler": {
