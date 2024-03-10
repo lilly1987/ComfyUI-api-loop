@@ -1,0 +1,20 @@
+{
+    "loras":{
+        "char": (
+            "Jasminka_Antonenko",
+            (0.25,0.75),
+            1.0,
+            {
+                "char" :" Jasminka_Antonenko,",
+                "hair":"   long hair, pink hair, twin braids, braid, bangs,",
+                #"dress":"long sleeves, purple dress, cleavage,  collarbone, frills, long dress, ",
+            },
+        ),
+		#"fingering_3rd_v1":"fingering_3rd_v1",
+        #"hang": "hang",
+        #"Luoxuan_V2": "Luoxuan_V2",
+		#"BondagePoleV1": "BondagePoleV1",
+    },
+    #"lorasUpdate":false,
+}
+#Luoxuan_V2-BondagePoleV1

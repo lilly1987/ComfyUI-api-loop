@@ -1,4 +1,55 @@
 {
+    "multiple_insertions_v0.2": (
+                "multiple_insertions_v0.2",
+                (0.25,0.75),
+                1.0,
+                {
+                    "concept":"(multiple insertions:1.25), large insertion, missionary,",
+                },
+            ),
+    "tentacles": (
+                "tentacles",
+                (0.25,0.75),
+                1.0,
+                {
+                    "concept":"multiple insertions, large insertion, (fucked by many tentacles:1,4), (tentacle sex:1.2), (multiple vaginal insertions:1.4), (vaginal insertion:1.3),",
+                    "boy":"tentacles, ",
+                },
+            ),
+    "tentacles-003": (
+                "tentacles-003",
+                (0.25,0.75),
+                1.0,
+                {
+                    "concept":"tentacle sex, transparent tentacles, girl, multiple insertions, large insertion, (fucked by many tentacles:1,4), (tentacle sex:1.0), (multiple vaginal insertions:1.0), (vaginal insertion:1.3),",
+                    "boy":"tentacles, ",
+                },
+            ),
+    "hugandSuckConcept_v1": (
+                "hugandSuckConcept_v1",
+                (0.25,0.5),
+                1.0,
+                {
+                    "boy" :"1boy, large penis , thick penis,",
+                    "fellatio":"hug , suck , fellatio, ",
+                },
+            ),
+    "tableSex_v10": (
+                "tableSex_v10",
+                (0.25,0.75),
+                1.0,
+                {
+                    "concept":"table sex, crotch rub,  masturbation,",
+                },
+            ),
+    "dildoV1": (
+                "dildoV1",
+                (0.25,0.75),
+                1.0,
+                {
+                    "dildoV1":" vaginal, stomach bulge, pectoral bulge, vaginal object insertion, (impossible object insertion:1.2), (absurd stomach bulge:1.1), gaping pussy,",
+                },
+            ),
     "[hikari]masturbation_v1": (
                 "[[]hikari[]]masturbation_v1",
                 (0.25,0.75),
@@ -147,6 +198,8 @@
                 {
                     "dress":"bride, ",
                 },
+				{},
+				"rnd",
             ),
     "Large_object_insertions-000009": (
                 "Large_object_insertions-000009",
@@ -179,6 +232,15 @@
                 {
                     "concept":"standing by wooden pole, arms chained to pole, chained to pole, fitting,",
                 },
+				{},
+				[
+				"SD-MIDD",
+				"SD-MIDD1",
+				"SD-MIDD2",
+				"SD-MIDD0.8",
+				#"SD-MIDD0.2",
+				"SD-OUTD",
+				],
             ),
     "bdsm_pissoir-000002": (
                 "bdsm_pissoir-000002",
@@ -290,12 +352,21 @@
             ),
     "aki":(
                 "aki-*",
-                (0.25,0.5),
+                (0.25,0.75),
                 (1.0,1.25),
                 {
                     "hang":"hunged_girl, {noose,|} {asphyxiation,|} {rolling eyes,|} {open mouth,{tongue,|}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
                     "hang":"hanging, (hunged_girl:1.25),rope on neck, noose, asphyxiation, rolling eyes, {open mouth,{tongue,|}|} {gore,|} {guro,|} {arms_behind_back, bound_arms, arms bound,|} {hang in the air,|} bdsm, bound,",
                 },
+				{},
+				[
+					"SD-MIDD",
+					"SD-MIDD1",
+					"SD-MIDD2",
+					"SD-MIDD0.8",
+					#"SD-MIDD0.2",
+					"SD-OUTD",
+				],
             ),
     "execution_on_gallows":(
                 "execution_on_gallows*",
@@ -305,6 +376,15 @@
                     "hang":"(execution_on_gallows:1.25), noose, asphyxiation, rolling eyes, open mouth,{tongue,|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
                     "hang":"(execution_on_gallows:1.25),rope on neck, {noose,|} {asphyxiation,|} rolling eyes, {open mouth,{tongue,|}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
                 },
+				{},
+				[
+					"SD-MIDD",
+					"SD-MIDD1",
+					"SD-MIDD2",
+					"SD-MIDD0.8",
+					#"SD-MIDD0.2",
+					"SD-OUTD",
+				],
             ),
     "hunged_girl": (
                 "hunged_girl",
@@ -314,6 +394,15 @@
                     "hang":"hunged_girl, {noose,|} {asphyxiation,|} {rolling eyes,|} {open mouth,{tongue,|}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
                     "hang":"(hunged_girl:1.25),rope on neck, noose, asphyxiation, rolling eyes, {open mouth,{tongue,|}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
                 },
+				{},
+				[
+					"SD-MIDD",
+					"SD-MIDD1",
+					"SD-MIDD2",
+					"SD-MIDD0.8",
+					#"SD-MIDD0.2",
+					"SD-OUTD",
+				],
     ),
     "leheng_re": (
                 "leheng_re",
@@ -324,11 +413,15 @@
                 },
 				{},
 				[
-					"1,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0",
-					"1,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0",
-					"1,0,0,0,0,0,1,1,1,1,1,1,1,1,0.5,0,0",
-					"1,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0",
-					"1,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1",
+					"SD-IND",
+					"SD-MIDD",
+					"SD-MIDD1",
+					"SD-MIDD2",
+					"SD-MIDD0.8",
+					#"SD-MIDD0.2",
+					"SD-MOUT",
+					"SD-OUTALL",
+					"SD-OUTD",
 				],
     ),
     "onahole_personality_v17":(
@@ -364,6 +457,15 @@
                 {
                     "luoxuan" :"luoxuan,",
                 },
+				{},
+				[
+				"SD-MIDD",
+				"SD-MIDD1",
+				"SD-MIDD2",
+				"SD-MIDD0.8",
+				#"SD-MIDD0.2",
+				"SD-OUTD",
+				],
             ),
     "ahegao_v2.5": 
             (
@@ -551,6 +653,8 @@
                     "girl":"1girl,",
                     "fingering":"fingering,",
                 },
+				{},
+				"rnd",
             ),
     "hang": 
         [

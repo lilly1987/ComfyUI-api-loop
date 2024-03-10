@@ -144,6 +144,7 @@ try:
         lorasDic=dicFileRead("lorasDic.json")
         dupdate(setup["lorasDic"],lorasDic)
         
+        lbw=dicFileRead("lbw.json")
         # -------------------------------------------------
         #prompt["LoraLoader"]["inputs"]["lora_name"]=""
         #aLora=copy.deepcopy(prompt["LoraLoader"])
@@ -235,6 +236,10 @@ try:
                 if isinstance(t5, list):
                     t5=random.choice(t5)
                 if  isinstance(t5, str) :
+                    if "rnd" == t5.lower() : 
+                        t5=random.choice(list(lbw.values()))
+                    else:
+                        t5=lbw.get(t5.upper(),t5)
                     tLora["inputs"]["block_vector"]=t5
                     print("[green] t5 : [/green]",t5)
                 else:
