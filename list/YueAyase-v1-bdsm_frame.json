@@ -9,7 +9,7 @@
 				"hair" :"twin braids, purple hair/blue hair (either color will work), long hair, bell, ahoge, ",
             },
         ),
-        "hang": "hang",
+        "bdsm_frame": "bdsm_frame",
     },
     "lorasUpdate":false,
 }

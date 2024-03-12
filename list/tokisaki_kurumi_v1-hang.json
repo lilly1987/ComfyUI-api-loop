@@ -1,0 +1,18 @@
+{
+    "loras":{
+        "char": (
+            "tokisaki_kurumi_v1",
+            (0.5,1.0),
+            1.0,
+            {
+			"char": "bbkurumi,",
+			"hair": "long hair, low twintails, hair over one eye,",
+			"dress":"school uniform, blazer, black jacket,",
+			"skirt":"pleated skirt, blue skirt,",
+			"thighhighs":"black pantyhose,",
+            },
+		),
+        "hang": "hang",
+    },
+	"lorasUpdate":false,
+}

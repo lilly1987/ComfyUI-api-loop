@@ -49,6 +49,8 @@
                 {
                     "dildoV1":" vaginal, stomach bulge, pectoral bulge, vaginal object insertion, (impossible object insertion:1.2), (absurd stomach bulge:1.1), gaping pussy,",
                 },
+				{},
+				"rnd",
             ),
     "[hikari]masturbation_v1": (
                 "[[]hikari[]]masturbation_v1",
@@ -155,9 +157,25 @@
                 (0.25,0.75),
                 1.0,
                 {
+					"boy":"1boy,monster,",
                     "concept":"huge penis, large insertion, cum in pussy,",
                     "pose":"spread legs, sex from behind,",
                 },
+				{},
+				"rnd",
+            ),
+    "osofel": (
+                "osofel",
+                (0.25,0.75),
+                1.0,
+                {
+					"boy":"penis,1boy,huge penis,",
+                    "fellatio":" large insertion,  fellatio,  cum, cum in pussy, oral,",
+                    "pose":"osofel,  after sex,",
+					"pose":"kneeling,",
+                },
+				{},
+				"rnd",
             ),
     "bailu_cosplay_costume_v1": (
                 "bailu_cosplay_costume_v1",
@@ -190,6 +208,16 @@
                 {
                     "dress":"bride, ",
                 },
+            ),
+    "lolitaFashionDress_v10": (
+                "lolitaFashionDress_v10",
+                (0.25,0.75),
+                1.0,
+                {
+                    "dress":"lolita_dress, lolitafashiondress1,",
+                },
+				{},
+				"rnd",
             ),
     "2bBride2b_v10": (
                 "2bBride2b_v10",
@@ -240,8 +268,12 @@
 				"SD-MIDD0.8",
 				#"SD-MIDD0.2",
 				"SD-OUTD",
+				"1,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0",
 				],
             ),
+    "bdsm_pissoir": [
+                "bdsm_pissoir-000002",
+                ],
     "bdsm_pissoir-000002": (
                 "bdsm_pissoir-000002",
                 (0.25,0.75),
@@ -249,6 +281,8 @@
                 {
                     "concept":" bdsm, bdsm pissoir, ",
                 },
+				{},
+				"rnd",
             ),
     "bdsm_v3": (
                 "bdsm_v3",
@@ -257,6 +291,8 @@
                 {
                     "concept":" bdsm,bondage,",
                 },
+				{},
+				"rnd",
             ),
     "bdsm_frame":            (
                 "bdsm_frame",
@@ -265,6 +301,18 @@
                 {
                     "concept":" bdsm frame , bondage,",
                 },
+				{},
+				"rnd",
+            ),
+    "X-ray Fellatio 1.5_1-000042":            (
+                "X-ray Fellatio 1.5_1-000042",
+                (0.25,0.75),
+                1.0,
+                {
+                    "fellatio":"fellatio, x-ray, penis, 1girl, 1boy,",
+                },
+				{},
+				"rnd",
             ),
     "mermaid":(
                 "mermaid-1_mermaid-2--mermaid-3_mermaid-4--retro_ham_avas_jun_rifl--09-01",
@@ -308,6 +356,8 @@
                 {
                     "through":"all the way through,",
                 },
+				{},
+				"rnd",
             ),
     "Saya-fingering from behind":(
                 "Saya-fingering from behind",
@@ -350,6 +400,26 @@
                     "skirt" :"{hobble_lpskirt|lp_skirt|lpskirt|medium_lpskirt|long_lpskirt|longest_lpskirt|hobble_lpskirt}.",
                 },
             ),
+    "aki-000024":(
+                "aki-000024",
+                (0.25,0.75),
+                (1.0,1.25),
+                {
+                    "hang":"hunged_girl, {noose,|} {asphyxiation,|} {rolling eyes,|} {open mouth,{tongue,|}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
+                    "hang":"hanging, (hunged_girl:1.25),rope on neck, noose, asphyxiation, rolling eyes, {open mouth,{tongue,|}|} {gore,|} {guro,|} {arms_behind_back, bound_arms, arms bound,|} {hang in the air,|} bdsm, bound,",
+                },
+				{},
+				[
+					"SD-MIDD",
+					"SD-MIDD1",
+					"SD-MIDD2",
+					"SD-MIDD0.8",
+					#"SD-MIDD0.2",
+					"SD-OUTD",
+					"1,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0",
+					"1,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0",
+				],
+            ),
     "aki":(
                 "aki-*",
                 (0.25,0.75),
@@ -366,6 +436,7 @@
 					"SD-MIDD0.8",
 					#"SD-MIDD0.2",
 					"SD-OUTD",
+					"1,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0",
 				],
             ),
     "execution_on_gallows":(
@@ -396,6 +467,7 @@
                 },
 				{},
 				[
+					"1,0,0,0,0,0.5,0.8,0.8,0.4,0,0,0,0,0,0,0,0",
 					"SD-MIDD",
 					"SD-MIDD1",
 					"SD-MIDD2",
@@ -449,6 +521,25 @@
                     "body":"__chest__, thin waist, ",
                 },
             ),
+    "Luoxuan_V2-000028": 
+            (
+                "Luoxuan_V2-000028",
+                (0.250,0.75),
+                1.0,
+                {
+                    "luoxuan" :"luoxuan,",
+                },
+				{},
+				[
+				"SD-MIDD",
+				"SD-MIDD1",
+				"SD-MIDD2",
+				"SD-MIDD0.8",
+				#"SD-MIDD0.2",
+				"SD-OUTD",
+				"1,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0",
+				],
+            ),
     "Luoxuan_V2": 
             (
                 "Luoxuan_V2*",
@@ -488,6 +579,8 @@
                     "pose":"kneeling,",
                     "looking":",",
                 },
+				{},
+				"rnd",
             ),
     "side-fellatio-b3-v3-wasabiya": (
                 "side-fellatio-b3-v3-wasabiya",
@@ -550,6 +643,8 @@
                     "pose":"kneeling,",
                     "looking":",",
                 },
+				{},
+				"rnd",
             ),
     "LargeInsertion-v1": (
                 "LargeInsertion-v1",
@@ -558,6 +653,8 @@
                 {
                     "concept":"large insertion, missionary,",
                 },
+				{},
+				["rnd","1,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0",],
             ),
     "hilichurl2-000006": (
                 "hilichurl2-000006",
@@ -567,6 +664,8 @@
                     "monster" :" monster,",
                     "concept":"hilichurl, blush, held up, nipples, open mouth, pussy, pussy juice, spread legs, sweat, tears, huge penis, medium breasts, large insertion, monster sex, uncensored, monster,",
                 },
+				{},
+				"rnd",
             ),
     "largebulg1-000012": (
                 "largebulg1-000012",
@@ -575,6 +674,8 @@
                 {
                     "concept":"crown, blush, held up, nipples, open mouth, pussy, pussy juice, spread legs, sweat, tears, huge penis, large insertion, monster sex, uncensored, monster, stomach bulge,",
                 },
+				{},
+				"rnd",
             ),
     "koonagoConcept_v1": (
                 "koonagoConcept_v1",
@@ -583,6 +684,8 @@
                 {
                     "concept":"koonago, minigirl, large insertion, sex,",
                 },
+				{},
+				"rnd",
             ),
     "hyper_penetration_stomach_bulge_v8pectoral":(
                 "hyper_penetration_stomach_bulge_v8pectoral-000006",
@@ -591,6 +694,8 @@
                 {
                     "concept":" vaginal, stomach bulge, pectoral bulge, vaginal object insertion, (impossible object insertion:1.2), (absurd stomach bulge:1.1), gaping pussy,",
                 },
+				{},
+				"rnd",
             ),
     "hyper_penetration_stomach_bulge_v8absurd":(
                 "hyper_penetration_stomach_bulge_v8absurd-000006",
@@ -599,6 +704,8 @@
                 {
                     "concept":" vaginal, stomach bulge, pectoral bulge, vaginal object insertion, (impossible object insertion:1.2), (absurd stomach bulge:1.1), gaping pussy,",
                 },
+				{},
+				"rnd",
             ),
     "hyper_penetration_stomach_bulge_v8nice":(
                 "hyper_penetration_stomach_bulge_v8nice-000006",
@@ -607,6 +714,10 @@
                 {
                     "concept":" vaginal, stomach bulge, pectoral bulge, vaginal object insertion, (impossible object insertion:1.2), (absurd stomach bulge:1.1), gaping pussy,",
                 },
+				{},
+				["rnd",
+				"1,1,1,1,1,1,1,1,R,R,R,R,R,R,R,R,R",
+				]
             ),
     "hyper_penetration_stomach_bulge_v8all":(
                 "hyper_penetration_stomach_bulge_v8all-000004",
@@ -615,6 +726,8 @@
                 {
                     "concept":"vaginal, stomach bulge, pectoral bulge, vaginal object insertion, (impossible object insertion:1.2), (absurd stomach bulge:1.1), gaping pussy,",
                 },
+				{},
+				"rnd",
             ),
     "huge_dildo_v1_goofy":(
                 "huge_dildo_v1_goofy",
@@ -631,6 +744,8 @@
                 {
                     "Insertion":"kneeling, anal, anal object insertion,  pussy juice, pussy, clit, drooling, rolling eyes, motion lines, ahegao, naughty face, clothes lift, skirt lift, clothing aside, clothed masturbation, heavy breathing), dildo_riding, object_insertion, dildo, vaginal_object_insertion, sex_toy, vaginal, large_insertion, uncensored, masturbation, female_masturbation,",
                 },
+				{},
+				"rnd",
             ),
     "qqq-spitroast-v2":(
                 "qqq-spitroast-v2",
@@ -642,17 +757,21 @@
                     "sex":"sex from behind,",
                     "fellatio":"fellatio,",
                 },
+				{},
+				"rnd",
             ),
     "sex from behind":(
                 "sex from behind",
                 (0.25,0.5),
                 1.0,
                 {
-                    "boy":"1boy,",
+                    "boy":"{1boy|2boys},",
                     "girl":"1girl,",
                     "sex":"sex from behind, double penetration, spitroast,",
                     "mmf":"mmf threesome,",
                 },
+				{},
+				"rnd",
             ),
     "fingering_3rd_v1":(
                 "fingering_3rd_v1",

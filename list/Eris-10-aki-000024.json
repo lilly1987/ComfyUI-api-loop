@@ -1,0 +1,17 @@
+{
+    "loras":{
+        "char": (
+            "Eris-10",
+            (0.75,1.0),
+            1.0,
+            {
+                "char":"blue eyes,Ahoge, ",
+                "hair":"white hair,hair between eyes, very long hair,",
+                "dress":"collarbone, frills, nun,long sleeves,dress,",
+                #"style":"cardcaptor sakura \(style\), ",
+            },
+        ),
+		"aki-000024": "aki-000024",
+    },
+    "lorasUpdate":false,
+}

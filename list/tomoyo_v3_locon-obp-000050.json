@@ -1,0 +1,15 @@
+{
+    "loras":{
+        "char": (
+            "tomoyo_v3_locon",
+            (0.25,1.0),
+            1.0,
+            {
+        "char":"daidouji tomoyo, ",
+        "hair":"black hair, long hair, bangs,",
+            },
+        ),
+		"obp-000050": "obp-000050",
+    },
+	"lorasUpdate":false,
+}

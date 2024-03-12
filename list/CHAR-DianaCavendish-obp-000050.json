@@ -1,0 +1,15 @@
+{
+    "loras":{
+        "char": (
+            "CHAR-DianaCavendish",
+            (0.75,1.0),
+            (1.0,1.250),
+            {
+                "char":"DianaCavendish, DianaCavendishBase, ",
+                "hair":"long hair,",
+            },
+        ),
+        "obp-000050": "obp-000050",
+    },
+    "lorasUpdate":false,
+}
