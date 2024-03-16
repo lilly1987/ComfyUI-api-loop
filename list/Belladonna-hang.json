@@ -1,0 +1,16 @@
+{
+    "loras":{
+        "char": (
+            "Belladonna",
+            (0.75,1.0),
+            1.0,
+            {
+                "char":"Belladonna, cat ears,  yellow eyes,",
+                "hair":"long hair,  black hair, ",
+                #"style":"cardcaptor sakura \(style\), ",
+            },
+        ),
+		"hang": "hang",
+    },
+    "lorasUpdate":false,
+}

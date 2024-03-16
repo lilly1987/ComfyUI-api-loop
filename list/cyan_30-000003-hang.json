@@ -1,14 +1,6 @@
 {
     "loras":{
-        "char": (
-            "cyan_30-000003",
-            (0.75,1.0),
-            1.0,
-            {
-                "char":"cyan, tail, maid headdress, blue eyes,",
-                "hair":"black hair, curly hair, ",
-            },
-        ),
+        "char":  "cyan_30-000003",
         "hang": "hang",
     },
     "lorasUpdate":false,

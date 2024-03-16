@@ -1,0 +1,16 @@
+{
+    "loras":{
+        "char": (
+            "Shiba MiyukiV1",
+            (0.75,1.0),
+            (1.0,1.250),
+            {
+                "char":"siboshenxie,black eyes,blue eyes, ",
+                "hair":"black hair,long hair,blunt bangs,snowflake hair ornament,yellow x hair ornament,",
+                #"dress":"",
+            },
+        ),
+        #"aki-000024": "aki-000024",
+    },
+    #"lorasUpdate":false,
+}

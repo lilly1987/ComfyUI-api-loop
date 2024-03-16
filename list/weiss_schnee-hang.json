@@ -1,0 +1,16 @@
+{
+    "loras":{
+        "char": (
+            "weiss_schnee",
+            (0.75,1.0),
+            1.0,
+            {
+                "char":"weiss schne,blue eyes,",
+                "hair":"long hair, white hair, ",
+                #"style":"cardcaptor sakura \(style\), ",
+            },
+        ),
+		"hang": "hang",
+    },
+    "lorasUpdate":false,
+}

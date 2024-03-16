@@ -1,0 +1,17 @@
+{
+    "loras":{
+        "char": (
+            "GishanV4-10",
+            (0.25,0.75),
+            1.0,
+            {
+                "char" :" GishanV4,  thighhighs, hat, jewelry, earrings, detached sleeves, white thighhighs, see-through, witch hat, white headwear, crescent, broom, witch, broom riding, see-through sleeves, crescent earrings, sidesaddle,, ",
+                #"hair":" long hair, braid, multicolored hair, streaked hair, maid headdress, hair ornament, hair over one eye, , ",
+                "dress":",",
+            },
+        ),
+		#"fingering_3rd_v1":"fingering_3rd_v1",
+        #"hang": "hang",
+    },
+    #"lorasUpdate":false,
+}

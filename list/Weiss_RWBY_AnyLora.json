@@ -1,0 +1,14 @@
+{
+    "loras":{
+        "char": (
+            "Weiss_RWBY_AnyLora",
+            (0.75,1.0),
+            1.0,
+            {
+                "char":"Weiss_RWBY,  ",
+                "hair":"long hair, white hair, ",
+                #"style":"cardcaptor sakura \(style\), ",
+            },
+        ),
+    },
+}

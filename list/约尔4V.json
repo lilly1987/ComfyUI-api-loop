@@ -2,7 +2,7 @@
     "loras":{
         "char": (
             "约尔4V",
-            (0.25,1.0),
+            (0.75,1.0),
             1.0,
             {
                 "char":"约尔,gold earrings,red eyes,, ",

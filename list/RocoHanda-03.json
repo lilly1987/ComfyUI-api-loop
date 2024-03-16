@@ -1,0 +1,17 @@
+{
+    "loras":{
+        "char": (
+            "RocoHanda-03",
+            (0.25,0.75),
+            1.0,
+            {
+                "char" :"rocomltd,  ",
+                #"hair":" short hair, brown hair, ",
+                #"dress":",",
+            },
+        ),
+		#"fingering_3rd_v1":"fingering_3rd_v1",
+        #"hang": "hang",
+    },
+    #"lorasUpdate":false,
+}

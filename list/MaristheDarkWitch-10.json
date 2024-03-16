@@ -1,0 +1,16 @@
+{
+    "loras":{
+        "char": (
+            "MaristheDarkWitch-10",
+            (0.75,1.0),
+            (1.0,1.250),
+            {
+                "char":"sMaristheDarkWitch,  black eyes, black headwear,  ",
+                "hair":" short hair, black hair, hair over one eye,",
+                "dress":" witch hat, black dress, ",
+            },
+        ),
+        #"aki-000024": "aki-000024",
+    },
+    #"lorasUpdate":false,
+}

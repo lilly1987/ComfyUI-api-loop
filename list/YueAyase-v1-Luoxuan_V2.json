@@ -1,14 +1,6 @@
 {
     "loras":{
-        "char": (
-            "YueAyase-v1",
-            (0.25,1.0),
-            1.0,
-            {
-				"char":"ayase yue, flat chest,",
-				"hair" :"twin braids, purple hair/blue hair (either color will work), long hair, bell, ahoge, ",
-            },
-        ),
+        "char": "YueAyase-v1",
         "Luoxuan_V2": "Luoxuan_V2",
     },
     "lorasUpdate":false,

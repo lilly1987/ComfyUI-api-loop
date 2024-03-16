@@ -1,15 +1,6 @@
 {
     "loras":{
-        "char": (
-            "tomoyo_V1Epoch6",
-            (0.75,1.0),
-            1.0,
-            {
-                "char":"daidouji_tomoyo, tomoyo,",
-                "hair":"black long hair, blunt bangs,",
-                "style":"cardcaptor sakura \(style\), ",
-            },
-        ),
+        "char": "tomoyo_V1Epoch6",
 		"Luoxuan_V2-000028": "Luoxuan_V2-000028",
     },
     "lorasUpdate":false,

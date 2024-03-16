@@ -1,13 +1,5 @@
 {
     "loras":{
-        "char": (
-            "CHAR-DianaCavendish",
-            (0.75,1.0),
-            1.0,
-            {
-                "char":"DianaCavendish, DianaCavendishBase, ",
-                "hair":"long hair,",
-            },
-        ),
+        "char": "CHAR-DianaCavendish",
     },
 }

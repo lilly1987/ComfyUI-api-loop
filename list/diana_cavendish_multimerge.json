@@ -1,0 +1,15 @@
+{
+    "loras":{
+        "char": (
+            "diana_cavendish_multimerge",
+            (0.75,1.0),
+            (1.0,1.250),
+            {
+                "char":"Diana Cavendish,  ",
+                "hair":"long hair,",
+            },
+        ),
+        #"aki-000024": "aki-000024",
+    },
+    #"lorasUpdate":false,
+}

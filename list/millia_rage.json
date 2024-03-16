@@ -1,0 +1,16 @@
+{
+    "loras":{
+        "char": (
+            "millia_rage",
+            (0.75,1.0),
+            1.0,
+            {
+                "char":" millia rage, ",
+                "hair":"absurdly long hair, prehensile hair,",
+                "dress":"office lady, white shirt, see-through shirt, pencil skirt, see-through skirt,  ",
+            },
+        ),
+		#"hang": "hang",
+    },
+    #"lorasUpdate":false,
+}
