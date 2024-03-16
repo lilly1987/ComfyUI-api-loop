@@ -251,15 +251,17 @@
 	"rnd",
 	),
 	"hugandSuckConcept_v1": (
-	"hugandSuckConcept_v1",
-	(0.25,0.5),
-	1.0,
-	{
-	"boy" :"1boy, large penis , thick penis,",
-	"fellatio":"hug , suck , fellatio, ",
-	},
-	{},
-	"rnd",
+		"hugandSuckConcept_v1",
+		(0.25,0.5),
+		1.0,
+		{
+		"boy" :"1boy, large penis , thick penis,",
+		"fellatio":"hug , suck , fellatio, ",
+		},
+		{},
+		["rnd",
+		"1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0",
+		]
 	),
 	"ss pencil skirt_V1.1": (
 	"ss pencil skirt_V1.1",
