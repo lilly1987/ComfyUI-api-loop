@@ -1,4 +1,14 @@
-{	
+{	"yor4-06": (
+		"yor4-06",
+		(0.25,1.0),
+		1.0,
+		{
+        "char":"yor, ",
+        "hair":"black hair, short hair, short hair with long locks, bangs, sidelocks, white hairband. (Only works the sidelocks hairstyle),",
+		},
+		{},
+		"rnd",
+        ),
 	"RedYor": (
 		"RedYor",
 		(0.75,1.0),
@@ -156,7 +166,7 @@
 	"SD-ROUT" 	
 	"SD-AOUT" 	
 	"SD-AB" 		
-	"SD-ALL0.5" 
+	#"SD-ALL0.5" 
 	]
 	
 	),
@@ -180,13 +190,31 @@
 	"char":"DianaCavendish, DianaCavendishBase, ",
 	"hair":"long hair, wavy hair,",
 	"hat":"witch hat,",
-	"dress":"luna nova school uniform, school uniform, long sleeves,",
+	"dress":"luna nova school uniform, school uniform, long sleeves, long skirt, pencil skirt",
 	},
 	{},
-	["rnd",
-	"1,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0",
-	"1,0,0,0,0,0,1,1,1,1,1,1,1,1,0.5,0,0",
-	"1,0,0,0,0,0,1,1,1,1,1,1,1,1,0.5,0,0", 
+	[#"rnd",
+	#"1,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0",
+	#"1,0,0,0,0,0,1,1,1,1,1,1,1,1,0.5,0,0",
+	#"1,0,0,0,0,0,1,1,1,1,1,1,1,1,0.5,0,0", 
+	#"1,0,0,0,0,0,1,1,1,1,1,1,1,1,0.5,0,0",
+	"SD-ALL"   		
+	#"SD-INS"   	
+	##"SD-INALL" 		
+	#"SD-IND"   		
+	#"SD-MIDD"   
+	#"SD-MIDD1"  
+	#"SD-MIDD2"  
+	#"SD-MIDD0.8"
+	#"SD-MIDD0.2"	
+	#"SD-MOUT"   
+	#"SD-OUTD"   
+	#"SD-OUTS"   	
+	#"SD-OUTALL" 	
+	#"SD-ROUT" 	
+	#"SD-AOUT" 	
+	#"SD-AB" 		
+	##"SD-ALL0.5" 
 	]
 	),
 
@@ -229,6 +257,17 @@
 	{
 	"boy" :"1boy, large penis , thick penis,",
 	"fellatio":"hug , suck , fellatio, ",
+	},
+	{},
+	"rnd",
+	),
+	"ss pencil skirt_V1.1": (
+	"ss pencil skirt_V1.1",
+	(0.25,0.5),
+	1.0,
+	{
+	#"boy" :"1boy, large penis , thick penis,",
+	"skirt":"ss pencil skirt, pencil skirt, ",
 	},
 	{},
 	"rnd",
@@ -896,18 +935,35 @@
 			"rnd",
 		],
 	),
-	"microwaistV05": 
-	(
-	"microwaistV05",
-	(0.25,0.75),
-	(1.0,1.5),
-	{
-	"body":"__chest__, thin waist, ",
-	},
-	{},
-	[
-	"rnd",
-	],
+	"microwaist 0.2b Lora": (
+		"microwaist 0.2b Lora",
+		#(0.25,0.75),
+		#(0.5,0.875),
+		(0.5,01.5),
+		(1.0,1.5),
+		{
+		"body":"__chest__, thin waist, ",
+		},
+		{},
+		[
+		"rnd",
+		"A,1,1,1,1,1,1,1,1,1,1,1,A,A,A,A,A",
+		],
+	),
+	"microwaistV05": (
+		"microwaistV05",
+		#(0.25,0.75),
+		#(0.5,0.875),
+		(0.5,01.5),
+		(1.0,1.5),
+		{
+		"body":"__chest__, thin waist, ",
+		},
+		{},
+		[
+		"rnd",
+		"A,1,1,1,1,1,1,1,1,1,1,1,A,A,A,A,A",
+		],
 	),
 	"Luoxuan_V2-000020": 
 	(
@@ -1249,6 +1305,16 @@
 		1.0,
 		{
 			"concept":"earfuck,",
+		},
+		{},
+		"rnd",
+	),
+	"Armbinder":(
+		"Armbinder",
+		(0.25,0.75),
+		1.0,
+		{
+			"armbinder":"armbinder, arms behind back, bdsm, bondage, bound,",
 		},
 		{},
 		"rnd",

@@ -1,13 +1,35 @@
 {
-    "sex from behind": (        0.1250,
+    "sex from behind": (        0.0,
         [
             "sex from behind",
 			"qqq-spitroast-v2",
         ],
     ),
-    "fingering_3rd_v1": (        0.1250,
+    "Luoxuan_V2": (        0.0,
+        [
+            "Luoxuan_V2",
+        ],
+    ),
+    "fingering_3rd_v1": (        0.0,
         [
             "fingering_3rd_v1",
+        ],
+    ),
+    "ahys_v2": (        0.0,
+        [
+            (
+                "ahys_v2",
+                (0.25,0.75),
+                1.0,
+                {
+                    "body" :"ahys, ribs,",
+                },
+            ),
+        ],
+    ),
+    "LR-All the way through(epoch20)": (        0.0,
+        [
+            "LR-All the way through(epoch20)",
         ],
     ),
     "heels": (        0.1250,
@@ -31,29 +53,8 @@
             "0263 Florence Dream_v1",
             "lpskirtV1",
             "0263 Florence Dream_v1",
+            "ss pencil skirt_V1.1",
             "lolitaFashionDress_v10",
-        ],
-    ),
-    "ahys_v2": (        0.0,
-        [
-            (
-                "ahys_v2",
-                (0.25,0.75),
-                1.0,
-                {
-                    "body" :"ahys, ribs,",
-                },
-            ),
-        ],
-    ),
-    "Luoxuan_V2": (        0.1250,
-        [
-            "Luoxuan_V2",
-        ],
-    ),
-    "LR-All the way through(epoch20)": (        0.1250,
-        [
-            "LR-All the way through(epoch20)",
         ],
     ),
     "face": (        0.1250,
@@ -61,9 +62,10 @@
             "ahegao_v2.5",
         ],
     ),
-    "microwaistV05": (        0.125,
+    "microwaist": (        01.125,
         [
             "microwaistV05",
+			"microwaist 0.2b Lora",
         ],
     ),
     "transformation": (        0.125,
@@ -118,6 +120,7 @@
             "bdsm_pissoir-000002",
             "BondagePoleV1",
             "Luoxuan_V2",
+			"Armbinder",
         ],
     ),
     "fellatio": (        0.1250,
@@ -132,9 +135,11 @@
             "X-ray Fellatio 1.5_1-000042",
         ],
     ),
-    "concept": (        0.50,
+    "concept": (        0.8750,
         [  
             "GloryHolev2 1024-000048",
+			"Armbinder",
+			"fingering_3rd_v1",
 			"raised-doggystyle-v3-wasabiya",
             "side-deepthroat-v3-wasabiya",
             "side-fellatio-b3-v3-wasabiya",

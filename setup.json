@@ -64,6 +64,9 @@
         "queue_cnt":1,
         "itemCnt":2,
 		"steps": 20,
+		"DetailerForEachDebug":{
+			"steps": 10,
+		}
     },
     "shuffle":False,
     "shuffle":true,
@@ -150,17 +153,13 @@
         "Card Captor Sakura Anime",
         "?hikari?saros_eresh_kurnugias_v1",
         "cyan_30-000003-hang",
-
+        
         "yor_forger_v1-hang",
         "Yor_Briar-hang",
         "RedYor-hang",
         "yor_briar_spyxfamily-hang",
         "yor_briar_spyxfamily-hunged_girl",
-        "yor4-06-hang",
-        "Eris-10",
-        
-        "cyan_30-000003",
-        
+        "yor4-06-hang",         
         "TomoyoDaidoji-128",
         "tomoyo_v3_locon",
         "tomoyo_v3_locon-hang",
@@ -196,7 +195,6 @@
         "Golding",
         "Karin-CC",
         "WitchFateEOD-10",
-        "YueAyase-v1-hang",
         "yor_briar_spyxfamily",
         "Yor_Briar",
         "yor4-06",
@@ -211,7 +209,6 @@
         "miyuki-mahouka-01",
         "Chitose_V6-E10_(SetoYuuki)",
         "Dorothy-10",
-        "YueAyase-v1",
         "WitchFateEOD-10-b4ll3th33ls",
         "MahoukaMiyuki-v1-04-fingering_3rd_v1",
         "02Zerotwo_v10",
@@ -266,9 +263,8 @@
 		"YueAyase-v1-dildoV1",
 		"YueAyase-v1-Luoxuan_V2",
 		"YueAyase-v1-LargeInsertion-v1",
+        "YueAyase-v1-hang",
 		"tomoyo_V1Epoch6-Luoxuan_V2-000028",
-    #],"listMatch": [
-        "CHAR-DianaCavendish",
         "CHAR-DianaCavendish-hang",
         "CHAR-DianaCavendish-Deepthroat",
         "CHAR-DianaCavendish-osofel",
@@ -280,6 +276,14 @@
 		"CHAR-DianaCavendish-sex from behind",
 		"CHAR-DianaCavendish-obp-000050",
 		"CHAR-DianaCavendish-LargeInsertion-v1",
+		"Hood",
+		"yor4-06",
+		"yor_forger_v1",
+        "YueAyase-v1",
+		"Eris-10",
+		"cyan_30-000003",       
+    ],"listMatch": [
+        "CHAR-DianaCavendish",
     ],"listMatch1": [
         "FushikawaKokoroXL-000096",
     ],
@@ -311,7 +315,7 @@
         "frills":"{frills,|} ",
         "revealing":"",
         #"open_dress":"{(open_dress:1.0), (Undressing:1.1), Nipples, (Pussy:1.1), {(navel:1.0),|}|2::}",
-        "exposure":"(exposure:1.25), breasts exposure, breasts out, nipples exposure, pussy exposure, {revealing clothes,|} ",
+        "exposure":"(exposure:1.0), breasts exposure, breasts out, nipples exposure, pussy exposure, {revealing clothes,|} ",
         "shoulder":"off shoulder, bare shoulder, Droptop, strapless dress, chest open, {See Through,|7::}",
         #"concept":"{3::__concept__,|1::__concept__,__concept__,}  "
     },
