@@ -1,14 +1,6 @@
 {
     "loras":{
-        "char": (
-            "RedYor",
-            (0.25,1.0),
-            1.0,
-            {
-                "char":"(pikkyyor:__1.0_1.5__), red_eyes,",
-                "hair":"black_hair, hairband, sidelocks,  white_hairband, earrings, bangs,  long hair, short hair with long locks, ",
-            },
-        ),
+        "char": "RedYor",
         "hang": "hang",
     },
     "lorasUpdate":false,

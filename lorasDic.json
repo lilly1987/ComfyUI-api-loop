@@ -1,4 +1,87 @@
-{
+{	
+	"RedYor": (
+		"RedYor",
+		(0.75,1.0),
+		1.0,
+		{
+			"char":"(pikkyyor:__1.0_1.5__), red_eyes,",
+			"hair":"black hair, hairband, sidelocks,  white_hairband, earrings, bangs,  long hair, short hair with long locks, ",
+		},
+		{},
+		"rnd",
+	),
+	"weiss_schnee": (
+		"weiss_schnee",
+		(0.75,1.0),
+		1.0,
+		{
+			"char":"weiss schne,blue eyes,",
+			"hair":"long hair, white hair, ",
+			#"style":"cardcaptor sakura \(style\), ",
+		},
+		{},
+		"rnd",
+	),
+	"weiss_schnee-10": (
+		"weiss_schnee-10",
+		(0.75,1.0),
+		1.0,
+		{
+			"char":"weiss_schnee,  ",
+			"hair":"long hair, side ponytail, ponytail,",
+			#"style":"cardcaptor sakura \(style\), ",
+		},
+		{},
+		"rnd",
+	),
+	"mayumi-mahouka-01": (
+		"mayumi-mahouka-01",
+		(0.25,1.0),
+		1.0,
+		{
+			"char" :"mayumi saegusa,",
+			"hair":"long hair,,",
+			"dress":"{school uniform, jacket, necktie,|__dress_set__}",
+		},
+		{},
+		"rnd",
+	),
+	"JiaranDianaLoraASOUL_v20SingleCostume": (
+		"JiaranDianaLoraASOUL_v20SingleCostume",
+		(0.75,1.0),
+		1.0,
+		{
+			"char":"jiaran,blue eyes, ",
+			"hair" :"brown hair, long hair, red hair bow, ",
+		},
+	),
+	"iseriaEpicSeven_v1": (
+		"iseriaEpicSeven_v1",
+		(0.75,1.0),
+		1.0,
+		{
+			"char":"xyzstiseria,",
+			#"hair" :"brown hair, ",
+		},
+	),
+	"itzyYuna_v10": (
+		"itzyYuna_v10",
+		(0.75,1.0),
+		1.0,
+		{
+			"char":"Yuna Itzy, Yuna,",
+			#"hair" :"brown hair, ",
+		},
+	),
+	"serenaPokemon_v10": (
+		"serenaPokemon_v10",
+		(0.75,1.0),
+		1.0,
+		{
+			"char":"serena1, serena \(pokemon\), blue eyes,grey eyes,",
+			"hair" :"brown hair, ",
+		},
+	),
 	"YueAyase-v1": (
 		"YueAyase-v1",
 		(0.75,1.0),
@@ -7,6 +90,27 @@
 			"char":"ayase yue, flat chest,",
 			"hair" :"twin braids, purple hair/blue hair (either color will work), long hair, bell, ahoge, ",
 		},
+		{},
+		[#"rnd",
+		#- "1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0",
+		"SD-ALL"   		
+		"SD-INS"   	
+		#"SD-INALL" 		
+		"SD-IND"   		
+		"SD-MIDD"   
+		"SD-MIDD1"  
+		"SD-MIDD2"  
+		"SD-MIDD0.8"
+		"SD-MIDD0.2"	
+		"SD-MOUT"   
+		"SD-OUTD"   
+		"SD-OUTS"   	
+		"SD-OUTALL" 	
+		"SD-ROUT" 	
+		"SD-AOUT" 	
+		"SD-AB" 		
+		"SD-ALL0.5" 
+		]
 	),
 	"magia-sulfur": (
 	"magia-sulfur",
@@ -34,7 +138,27 @@
 	{
 	"hair":"twin tail hair,",				
 	},
-	"rnd",
+	[#"rnd",
+	#- "1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0",
+	"SD-ALL"   		
+	"SD-INS"   	
+	#"SD-INALL" 		
+	"SD-IND"   		
+	"SD-MIDD"   
+	"SD-MIDD1"  
+	"SD-MIDD2"  
+	"SD-MIDD0.8"
+	"SD-MIDD0.2"	
+	"SD-MOUT"   
+	"SD-OUTD"   
+	"SD-OUTS"   	
+	"SD-OUTALL" 	
+	"SD-ROUT" 	
+	"SD-AOUT" 	
+	"SD-AB" 		
+	"SD-ALL0.5" 
+	]
+	
 	),
 	"cyan_30-000003": (
 	"cyan_30-000003",
@@ -54,10 +178,16 @@
 	1.0,
 	{
 	"char":"DianaCavendish, DianaCavendishBase, ",
-	"hair":"long hair,",
+	"hair":"long hair, wavy hair,",
+	"hat":"witch hat,",
+	"dress":"luna nova school uniform, school uniform, long sleeves,",
 	},
 	{},
-	"rnd",
+	["rnd",
+	"1,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0",
+	"1,0,0,0,0,0,1,1,1,1,1,1,1,1,0.5,0,0",
+	"1,0,0,0,0,0,1,1,1,1,1,1,1,1,0.5,0,0", 
+	]
 	),
 
 	"multiple_insertions_v0.2": (
@@ -625,6 +755,28 @@
 	"1,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0",
 	],
 	),
+	"aki-000012":(
+	"aki-000012",
+	(0.25,0.75),
+	(1.0,1.125),
+	{
+	"hang":"hunged_girl, {noose,|} {asphyxiation,|} {rolling eyes,|} {open mouth,{tongue,|}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
+	"hang":"hanging, (hunged_girl:1.0),rope on neck, noose, asphyxiation, rolling eyes, {open mouth,{tongue,|}|} {gore,|} {guro,|} {arms_behind_back, bound_arms, arms bound,|} {hang in the air,|} bdsm, bound,",
+	},
+	{},
+	[
+	"rnd",
+	"SD-MIDD",
+	"SD-MIDD1",
+	"SD-MIDD2",
+	"SD-MIDD0.8",
+	#"SD-MIDD0.2",
+	"SD-OUTD",
+	#"1,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0",
+	#"1,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0",
+	"1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0",
+	],
+	),
 	"aki":(
 	"aki-*",
 	(0.25,0.75),
@@ -720,17 +872,29 @@
 	"concept":"onahole, {holding onahole,|} limbless, armless, legsless,",
 	},
 	),
+	"0263 Florence Dream_v1":(
+		"0263 Florence Dream_v1",
+		(0.25,0.75),
+		1.0,
+		{
+			"dress":"ruanyi0263, bridal veil, wedding dress, veil, white dress, bride, lace ,",
+		},
+		{},
+		[
+			"rnd",
+		],
+	),
 	"sex_toy_transformation":(
-	"sex_toy_transformation",
-	(0.25,0.75),
-	1.0,
-	{
-	"body":"transformation, limbless, armless,",
-	},
-	{},
-	[
-	"rnd",
-	],
+		"sex_toy_transformation",
+		(0.25,0.75),
+		1.0,
+		{
+			"body":"transformation, limbless, armless,",
+		},
+		{},
+		[
+			"rnd",
+		],
 	),
 	"microwaistV05": 
 	(
@@ -1055,18 +1219,59 @@
 	{},
 	"rnd",
 	),
-	"fingering_3rd_v1":(
-	"fingering_3rd_v1",
-	(0.25,0.5),
-	1.0,
-	{
-	"boy":"1boy,",
-	"girl":"1girl,",
-	"fingering":"fingering,",
-	},
-	{},
-	"rnd",
+	"arm_grab_doggy":(
+		"arm_grab_doggy",
+		(0.25,0.75),
+		1.0,
+		{
+		"boy":"1boy,",
+		"girl":"1girl,",
+		"arm_grab":"arm_grab,",
+		},
+		{},
+		"rnd",
 	),
+	"fingering_3rd_v1":(
+		"fingering_3rd_v1",
+		(0.25,0.75),
+		1.0,
+		{
+		"boy":"1boy,",
+		"girl":"1girl,",
+		"fingering":"fingering,",
+		},
+		{},
+		"rnd",
+	),
+	"earPenetration":(
+		["earPenetration_v1e5","earPenetration_v1e11","earPenetration_v1e9"],
+		(0.25,0.75),
+		1.0,
+		{
+			"concept":"earfuck,",
+		},
+		{},
+		"rnd",
+	),
+	"raised-doggystyle-v3-wasabiya":(
+		"raised-doggystyle-v3-wasabiya",
+		(0.25,0.75),
+		1.0,
+		{
+		"boy":"1boy,",
+		"girl":"1girl,",
+		"sexfb":"sexfb,",
+		},
+		{},
+		"rnd",
+	),
+	"hyper_penetration_stomach_bulge_v8": 
+	[
+	"hyper_penetration_stomach_bulge_v8pectoral",
+	"hyper_penetration_stomach_bulge_v8absurd",
+	"hyper_penetration_stomach_bulge_v8nice",
+	"hyper_penetration_stomach_bulge_v8all",
+	],
 	"hang": 
 	[
 	"execution_on_gallows",

@@ -1,14 +1,5 @@
 {
     "loras":{
-        "char": (
-            "weiss_schnee-10",
-            (0.75,1.0),
-            1.0,
-            {
-                "char":"weiss_schnee,  ",
-                "hair":"long hair, side ponytail, ponytail,",
-                #"style":"cardcaptor sakura \(style\), ",
-            },
-        ),
+        "char": "weiss_schnee-10",
     },
 }
