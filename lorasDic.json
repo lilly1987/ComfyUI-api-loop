@@ -1,4 +1,29 @@
-{	"yor4-06": (
+{
+	"frenda_seivelun": (
+		"frenda_seivelun",
+		(0.75,1.0),
+		1.0,
+		{
+			"char":"aafrenda,beret,small breasts,",
+			"hair":" long hair, blonde hair,",
+			"dress":"(shirt:1.4),(white bowtie:1.3),long sleeves,(skirt:1.2),(black pantyhose:1.2),black footwear,",
+			#"style":"cardcaptor sakura \(style\), ",
+		},
+		{},
+		"rnd",
+	),
+	"Dorothy-10": (
+		"Dorothy-10",
+		(0.25,1.0),
+		1.0,
+		{
+		"hat":" hat, witch hat, ",
+		"char":" Dorothy, green eyes, ",
+		"hair":"   orange hair, ",
+		"dress": "{an anime girl in purple dress,dressed like a witch,dress, cleavage, detached sleeves, bare shoulders, purple dress, strapless, strapless dress, |__dress_set__,} ",
+		},
+	),
+	"yor4-06": (
 		"yor4-06",
 		(0.25,1.0),
 		1.0,
@@ -85,12 +110,14 @@
 	),
 	"serenaPokemon_v10": (
 		"serenaPokemon_v10",
-		(0.75,1.0),
+		(0.5,1.0),
 		1.0,
 		{
 			"char":"serena1, serena \(pokemon\), blue eyes,grey eyes,",
 			"hair" :"brown hair, ",
 		},
+		{},
+		"rnd",
 	),
 	"YueAyase-v1": (
 		"YueAyase-v1",
@@ -426,7 +453,9 @@
 	"vibrator":"vibrator on nipple, vibrator under clothes, vibrator in thighhighs, vibrator cord, egg vibrator,",
 	},
 	{},
-	"rnd",
+	["rnd",
+	"A,1,1,1,1,1,1,1,1,1,1,1,A,A,A,A,A",
+	]
 	),
 	"monsterSexActLora79_v10": (
 	"monsterSexActLora79_v10",
@@ -707,7 +736,9 @@
 	"obp":"one-bar prison,",
 	},
 	{},
-	"rnd",
+	["rnd",
+	"1,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1",
+	],
 	),
 	"bteman":(
 	"bteman",
@@ -858,30 +889,30 @@
 	],
 	),
 	"hunged_girl": (
-	"hunged_girl",
-	(0.25,0.75),
-	(1.0,1.25),
-	{
-	"hang":"hunged_girl, {noose,|} {asphyxiation,|} {rolling eyes,|} {open mouth,{tongue,|}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
-	"hang":"(hunged_girl:1.25),rope on neck, noose, asphyxiation, rolling eyes, {open mouth,{tongue,|}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
-	},
-	{},
-	[
-	"1,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0",
-	"1,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0",
-	"1,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0", 
-	"1,0,0,0,0,0.5,0.8,0.8,0.4,0,0,0,0,0,0,0,0",
-	"1,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0",
-	"1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0",
-	"1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0",
-	"SD-MIDD",
-	"SD-MIDD1",
-	"SD-MIDD2",
-	"SD-MIDD0.8",
-	#"SD-MIDD0.2",
-	"SD-OUTD",
-	"rnd",
-	],
+		"hunged_girl",
+		(0.25,0.75),
+		(1.0,1.5),
+		{
+		"hang":"hunged_girl, {noose,|} {asphyxiation,|} {rolling eyes,|} {open mouth,{tongue,|}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
+		"hang":"(hunged_girl:1.0),rope on neck, noose, asphyxiation, rolling eyes, {open mouth,{tongue,|}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
+		},
+		{},
+		[
+		"1,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0",
+		"1,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0",
+		"1,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0", 
+		"1,0,0,0,0,0.5,0.8,0.8,0.4,0,0,0,0,0,0,0,0",
+		"1,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0",
+		"1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0",
+		"1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0",
+		"SD-MIDD",
+		"SD-MIDD1",
+		"SD-MIDD2",
+		"SD-MIDD0.8",
+		#"SD-MIDD0.2",
+		"SD-OUTD",
+		"rnd",
+		],
 	),
 	"leheng_re": (
 	"leheng_re",
@@ -927,14 +958,21 @@
 	),
 	"sex_toy_transformation":(
 		"sex_toy_transformation",
-		(0.25,0.75),
-		1.0,
+		(0.25,01.25),
+		(1.0,1.5),
 		{
 			"body":"transformation, limbless, armless,",
 		},
 		{},
 		[
 			"rnd",
+		
+            "leheng_re",
+            "dildoRiding2-000005",
+            "sex from behind",
+			"qqq-spitroast-v2",
+            "[hikari]back_holding_wrist_v1",
+            "[hikari]masturbation_v1",	"1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0",
 		],
 	),
 	"microwaist 0.2b Lora": (
@@ -967,25 +1005,43 @@
 		"A,1,1,1,1,1,1,1,1,1,1,1,A,A,A,A,A",
 		],
 	),
-	"Luoxuan_V2-000020": 
-	(
-	"Luoxuan_V2-000020",
-	(0.250,0.75),
-	1.0,
-	{
-	"luoxuan" :"luoxuan,",
-	},
-	{},
-	[
-	"SD-MIDD",
-	"SD-MIDD1",
-	"SD-MIDD2",
-	"SD-MIDD0.8",
-	#"SD-MIDD0.2",
-	"SD-OUTD",
-	"1,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0",
-	#"1,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0",
-	],
+	"Luoxuan_V2-000024": (
+		"Luoxuan_V2-000024",
+		(0.250,0.75),
+		1.0,
+		{
+		"luoxuan" :"luoxuan,",
+		},
+		{},
+		[
+		"SD-MIDD",
+		"SD-MIDD1",
+		"SD-MIDD2",
+		"SD-MIDD0.8",
+		#"SD-MIDD0.2",
+		"SD-OUTD",
+		"1,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0",
+		#"1,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0",
+		],
+	),
+	"Luoxuan_V2-000020": (
+		"Luoxuan_V2-000020",
+		(0.250,0.75),
+		1.0,
+		{
+		"luoxuan" :"luoxuan,",
+		},
+		{},
+		[
+		"SD-MIDD",
+		"SD-MIDD1",
+		"SD-MIDD2",
+		"SD-MIDD0.8",
+		#"SD-MIDD0.2",
+		"SD-OUTD",
+		"1,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0",
+		#"1,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0",
+		],
 	),
 	"Luoxuan_V2-000036": 
 	(
@@ -1010,8 +1066,8 @@
 	"Luoxuan_V2-000028": 
 	(
 	"Luoxuan_V2-000028",
-	(0.250,0.75),
-	1.0,
+	(0.250,01.0),
+	(1.0,1.5),
 	{
 	"luoxuan" :"luoxuan,",
 	},
@@ -1067,7 +1123,8 @@
 	"looking":",",
 	},
 	{},
-	"rnd",
+	["rnd",
+	],
 	),
 	"side-fellatio-b3-v3-wasabiya": (
 	"side-fellatio-b3-v3-wasabiya",
@@ -1093,7 +1150,9 @@
 	"looking":",",
 	},
 	{},
-	"rnd",
+	["rnd",
+	"1,1,1,1,1,1,1,1,R,R,R,R,R,R,R,R,R",
+	],
 	),
 	"ddkb_v1": (
 	"ddkb_v1",
@@ -1199,8 +1258,8 @@
 	),
 	"hyper_penetration_stomach_bulge_v8nice":(
 	"hyper_penetration_stomach_bulge_v8nice-000006",
-	(0.25,0.75),
-	1.0,
+	(0.5,01.25),
+	(1.0,1.5),
 	{
 	"concept":" vaginal, stomach bulge, pectoral bulge, vaginal object insertion, (impossible object insertion:1.2), (absurd stomach bulge:1.1), gaping pussy,",
 	},
@@ -1208,6 +1267,7 @@
 	[
 	"rnd",
 	"1,1,1,1,1,1,1,1,R,R,R,R,R,R,R,R,R",
+	"A,1,1,1,1,1,1,1,1,1,1,1,A,A,A,A,A",
 	"A,1,1,1,1,1,1,1,1,1,1,1,A,A,A,A,A",
 	]
 	),
@@ -1253,17 +1313,20 @@
 	"rnd",
 	),
 	"sex from behind":(
-	"sex from behind",
-	(0.25,0.5),
-	1.0,
-	{
-	"boy":"{1boy|2boys},",
-	"girl":"1girl,",
-	"sex":"sex from behind, double penetration, spitroast,",
-	"mmf":"mmf threesome,",
-	},
-	{},
-	["rnd","1,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0",],
+		"sex from behind",
+		(0.25,0.75),
+		(1.0,01.5),
+		{
+		"boy":"{1boy|2boys},",
+		"girl":"1girl,",
+		"sex":"sex from behind, double penetration, spitroast,",
+		"mmf":"mmf threesome,",
+		},
+		{},
+		["rnd",
+		"1,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0",
+		"1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0",
+		],
 	),
 	"marunomiv1.5":(
 	"marunomiv1.5",
@@ -1317,6 +1380,19 @@
 		1.0,
 		{
 			"armbinder":"armbinder, arms behind back, bdsm, bondage, bound,",
+		},
+		{},
+		"rnd",
+	),
+	"sexmachine":(
+		"sexmachine",
+		(0.25,0.75),
+		1.0,
+		{
+			#"boy" :"tentacles,",
+			#"sex" :" pussy cock deep penetration,",
+			#"pose" :" revcowgirl,",
+			"concept":"dildo, (sex machine:1.25),",
 		},
 		{},
 		"rnd",

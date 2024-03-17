@@ -1,16 +1,6 @@
 {
     "loras":{
-        "char": (
-            "Dorothy-10",
-            (0.5,1.0),
-            1.0,
-            {
-        "hat":" hat, witch hat, ",
-        "char":" Dorothy, green eyes, ",
-        "hair":"   orange hair, ",
-        "dress": "{an anime girl in purple dress,dressed like a witch,dress, cleavage, detached sleeves, bare shoulders, purple dress, strapless, strapless dress, |__dress_set__,} ",
-            },
-        ),
+        "char": "Dorothy-10",
         #"hang": "hang",
     },
     #"lorasUpdate":false,
