@@ -1,10 +1,155 @@
-{	"MahoukaMayumi-v1-06": (
+{	
+	"reines_v2": (
+		"reines_v2",
+		(0.75,1.0),
+		1.0,
+		{
+			"char":" reines\(normal\), ",
+			"hair":" headwear,  hair flower, ",
+			"dress":"hat, long sleeves, scarf, gloves, jacket, brown boots, fur collar, fur trim, black pantyhose, ",
+		},
+	),
+	"miyuki-mahouka-01": (
+		"miyuki-mahouka-01",
+		(0.75,1.0),
+		1.0,
+		{
+			"char" :"miyuki shiba,",
+			"hair":"long hair,,",
+			"dress":"{school uniform, jacket, necktie,|__dress_set__}",
+		},
+	),
+	"Hood": (
+		"Hood",
+		(0.75,1.0),
+		1.0,
+		{
+			"char":"blue_eyes,",
+			"hair":"blonde_hair,long_hair,hair_over_shoulder,bangs,",
+		},
+	),
+	"sharon_holygrail": (
+		"sharon_holygrail",
+		(0.75,1.0),
+		1.0,
+		{
+			"char":"sharon holygrail, ",
+			#"hair":"blonde_hair,long_hair,hair_over_shoulder,bangs,",
+			"dress":"nun capelet blue dress long sleeves long skirt blue skirt necklace earrings purple bowtie,",
+		},
+	),
+	"yor_forger_v1": (
+		"yor_forger_v1",
+		(0.25,1.0),
+		1.0,
+		{
+	"char":" {aayorf|bbyorf}, red eyes, ",
+	"hair":"{sidelocks, gold hairband, hair ornament,|short hair with long locks, white hairband,}",
+		},
+	),
+	"佩琳·H·克洛斯特曼--强袭魔女_v1.0": (
+		"佩琳·H·克洛斯特曼--强袭魔女_v1.0",
+		(0.75,1.0),
+		1.0,
+		{
+			#"char":"blue_eyes,",
+			#"hair":"blonde_hair,long_hair,hair_over_shoulder,bangs,",
+		},
+	),
+	"Frederica Bernkastel anything45pruned46r75r-000006": (
+		"Frederica Bernkastel anything45pruned46r75r-000006",
+		(0.75,01.0),
+		1.0,
+		{
+			"char" :" frederica bernkastel,  purple eyes,",
+			"hair":" long hair, blue hair, ",
+			"dress":"dress, layered sleeves, long sleeves, bow, puffy sleeves, short over long sleeves, short sleeves, black dress, sleeves past wrists, frills, purple bow,",
+		},
+	),
+	"tokisaki_kurumi_v1": (
+		"tokisaki_kurumi_v1",
+		(0.75,1.0),
+		1.0,
+		{
+		"char": "bbkurumi,",
+		"hair": "long hair, low twintails, hair over one eye,",
+		"dress":"school uniform, blazer, black jacket,",
+		"skirt":"pleated skirt, blue skirt,",
+		"thighhighs":"black pantyhose,",
+		},
+		{
+			"hair":"twintails,  ",
+		},
+	),
+	"Eris-10": (
+		"Eris-10",
+		(0.75,1.0),
+		1.0,
+		{
+			"char":"eris, blue eyes, {Ahoge,|} ",
+			"hair":"white hair, hair between eyes, very long hair,",
+			"dress":"collarbone, frills, nun,{long sleeves,|} dress,",
+			#"style":"cardcaptor sakura \(style\), ",
+		},
+	),
+	"Toki_V2.0": (
+		"Toki_V2.0",
+		(0.75,1.0),
+		1.0,
+		{
+			"char":"maid, blue eyes,",
+			"hair":"blonde hair, maid headdress, ",
+			"dress":"maid apron, long sleeves, pantyhose, ",
+		},
+	),
+	"Inagaki Sae(sk)": (
+		"Inagaki Sae(sk)",
+		(0.75,1.0),
+		1.0,
+		{
+			"char":" Inagaki Sae, ",
+			"hair":"long hair,black hair,white hairband,sidelocks,bangs,blue eyes, ",
+		},
+	),
+	"MahoukaMayumi-v1-06": (
 		"MahoukaMayumi-v1-06",
 		(0.75,1.0),
 		1.0,
 		{
 			"char":" ChopioMayumi, ",
 			"hair":"black hair, long hair, wavy hair, sidelocks, hair ribbon, red eyes, ",
+		},
+	),
+	"YaeKokonoe-10": (
+		"YaeKokonoe-10",
+		(0.75,1.25),
+		1.0,
+		{
+			"char" :"YaeKokonoe, red bow, black eyes, sash, hair tubes, ,  ",
+			"hair":" long hair, black hair, hair bow,  ponytail,",
+			"dress":" wide sleeves, pink kimono, blue hakama, hakama skirt,",
+		},
+	),
+	"silentMagicianYuGiOh_v10": (
+		"silentMagicianYuGiOh_v10",
+		(0.75,1.25),
+		1.0,
+		{
+			"char" :",  ",
+			"hair":"  white hair,  ",
+			"hat":"white witch hat,",
+			#"dress":",",
+		},
+	),
+	"raidenShogunGenshin_raidenv1": (
+		"raidenShogunGenshin_raidenv1",
+		(0.75,1.25),
+		1.0,
+		{
+			"char" :"raiden_genshin,  ",
+			#"hair":"  white hair,  ",
+			#"hat":"white witch hat,",
+			"dress":"{default_dress,|__dress_set__}",
 		},
 	),
 	"kozueYusa": (
@@ -15,6 +160,16 @@
 			"char" :"kozue,  ",
 			"hair":"  white hair, green eyes,  ",
 			#"dress":",",
+		},
+	),
+	"ShiLuHonkai": (
+		"ShiLuHonkai",
+		(0.5,1.0),
+		1.0,
+		{
+		"char":"ShiLuHonkai,  grey eyes,",
+        "hair":"blonde hair, short hair, ",
+        "dress": "long sleeves, white dress, black jacket, ahoge, black pantyhose, open jacket,",
 		},
 	),
 	"MahoukaMiyuki-v1-04-kimono": (
@@ -325,23 +480,23 @@
 		{},
 		[#"rnd",
 		#- "1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0",
-		"SD-ALL"   		
-		"SD-INS"   	
-		#"SD-INALL" 		
-		"SD-IND"   		
-		"SD-MIDD"   
-		"SD-MIDD1"  
-		"SD-MIDD2"  
-		"SD-MIDD0.8"
-		"SD-MIDD0.2"	
-		"SD-MOUT"   
-		"SD-OUTD"   
-		"SD-OUTS"   	
-		"SD-OUTALL" 	
-		"SD-ROUT" 	
-		"SD-AOUT" 	
-		"SD-AB" 		
-		"SD-ALL0.5" 
+		"SD-ALL"   	,	
+		"SD-INS"   	,
+		#"SD-INALL" ,		
+		"SD-IND"   	,	
+		"SD-MIDD"   ,
+		"SD-MIDD1"  ,
+		"SD-MIDD2"  ,
+		"SD-MIDD0.8",
+		"SD-MIDD0.2",	
+		"SD-MOUT"   ,
+		"SD-OUTD"   ,
+		"SD-OUTS"   ,	
+		"SD-OUTALL" ,	
+		"SD-ROUT" 	,
+		"SD-AOUT" 	,
+		"SD-AB" 	,	
+		"SD-ALL0.5" ,
 		]
 	),
 	"magia-sulfur": (
@@ -373,35 +528,54 @@
 	[#"rnd",
 	#- "1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0",
 	"SD-ALL"   		
-	"SD-INS"   	
-	#"SD-INALL" 		
-	"SD-IND"   		
-	"SD-MIDD"   
-	"SD-MIDD1"  
-	"SD-MIDD2"  
-	"SD-MIDD0.8"
-	"SD-MIDD0.2"	
-	"SD-MOUT"   
-	"SD-OUTD"   
-	"SD-OUTS"   	
-	"SD-OUTALL" 	
-	"SD-ROUT" 	
-	"SD-AOUT" 	
-	"SD-AB" 		
+	,"SD-INS"   	
+	#,"SD-INALL" 		
+	,"SD-IND"   		
+	,"SD-MIDD"   
+	,"SD-MIDD1"  
+	,"SD-MIDD2"  
+	,"SD-MIDD0.8"
+	,"SD-MIDD0.2"	
+	,"SD-MOUT"   
+	,"SD-OUTD"   
+	,"SD-OUTS"   	
+	,"SD-OUTALL" 	
+	,"SD-ROUT" 	
+	,"SD-AOUT" 	
+	,"SD-AB" 		
 	#"SD-ALL0.5" 
 	]
 	
 	),
 	"cyan_30-000003": (
-	"cyan_30-000003",
-	(0.875,1.0),
-	1.0,
-	{
-	"char":"cyan, tail, maid headdress, blue eyes,",
-	"hair":"black hair, curly hair, ",
-	},
-	{},
-	"rnd",
+		"cyan_30-000003",
+		(0.875,1.0),
+		1.0,
+		{
+		"char":"cyan, tail, maid headdress, blue eyes,",
+		"hair":"black hair, curly hair, ",
+		},
+		{},
+		[#"rnd",
+		#- "1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0",
+		"SD-ALL"   		
+		#,"SD-INS"   	
+		#,"SD-INALL" 		
+		,"SD-IND"   		
+		,"SD-MIDD"   
+		,"SD-MIDD1"  
+		,"SD-MIDD2"  
+		,"SD-MIDD0.8"
+		,"SD-MIDD0.2"	
+		,"SD-MOUT"   
+		,"SD-OUTD"   
+		,"SD-OUTS"   	
+		,"SD-OUTALL" 	
+		,"SD-ROUT" 	
+		,"SD-AOUT" 	
+		,"SD-AB" 		
+		#,"SD-ALL0.5" 
+		]
 	),
 
 	"CHAR-DianaCavendish": (
@@ -411,7 +585,7 @@
 	{
 	"char":"DianaCavendish, DianaCavendishBase, ",
 	"hair":"long hair, wavy hair,",
-	"hat":"witch hat,",
+	"hat":"{{witch |}hat,|}",
 	"dress":"{luna nova school uniform, school uniform, long sleeves, long skirt, pencil skirt,|__dres_set__|}",
 	},
 	{},
@@ -420,23 +594,23 @@
 	#"1,0,0,0,0,0,1,1,1,1,1,1,1,1,0.5,0,0",
 	#"1,0,0,0,0,0,1,1,1,1,1,1,1,1,0.5,0,0", 
 	#"1,0,0,0,0,0,1,1,1,1,1,1,1,1,0.5,0,0",
-	"SD-ALL"   		
-	#"SD-INS"   	
-	##"SD-INALL" 		
-	#"SD-IND"   		
-	#"SD-MIDD"   
-	#"SD-MIDD1"  
-	#"SD-MIDD2"  
-	#"SD-MIDD0.8"
-	#"SD-MIDD0.2"	
-	#"SD-MOUT"   
-	#"SD-OUTD"   
-	#"SD-OUTS"   	
-	#"SD-OUTALL" 	
-	#"SD-ROUT" 	
-	#"SD-AOUT" 	
-	#"SD-AB" 		
-	##"SD-ALL0.5" 
+	"SD-ALL"   	,
+	#"SD-INS"   ,
+	##"SD-INALL" ,	
+	#"SD-IND"   ,	
+	#"SD-MIDD"    ,
+	#"SD-MIDD1"   ,
+	#"SD-MIDD2"   ,
+	#"SD-MIDD0.8" ,
+	#"SD-MIDD0.2",
+	#"SD-MOUT"    ,
+	#"SD-OUTD"    ,
+	#"SD-OUTS"   ,
+	#"SD-OUTALL" ,
+	#"SD-ROUT" 	  ,
+	#"SD-AOUT" 	  ,
+	#"SD-AB" 	,
+	##"SD-ALL0.5" ,
 	]
 	),
 
@@ -737,6 +911,16 @@
 	1.0,
 	{
 	"dress":"lolita_dress, lolitafashiondress1,",
+	},
+	{},
+	"rnd",
+	),
+	"amzn-000019": (
+	"amzn-000019",
+	(0.25,0.75),
+	1.0,
+	{
+	"dress":"bride, ",
 	},
 	{},
 	"rnd",
@@ -1198,6 +1382,7 @@
 		[
 			"rnd",
 			"1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0",
+			"1,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0",
 			"SD-ALL"    ,
 			"SD-INS"    ,
 			"SD-INALL"  ,
@@ -1222,7 +1407,7 @@
 		(0.75,01.25),
 		(1.0,1.5),
 		{
-		"concept":"onahole, {holding onahole,|} limbless, armless, legsless,",
+			"onahole":"onahole, {holding onahole,|} {transparent onahole,|} limbless, armless, legsless,",
 		},
 		{
 			"embedding":"",
@@ -1445,17 +1630,17 @@
 	"rnd",
 	),
 	"SideFellatio": (
-	"SideFellatio",
-	(0.25,0.75),
-	1.0,
-	{
-	"1boy":"1boy,",
-	"fellatio":"sidefellatio, penis, fellatio,",
-	"pose":"kneeling,",
-	"looking":",",
-	},
-	{},
-	"rnd",
+		"SideFellatio",
+		(0.25,0.75),
+		1.0,
+		{
+		"1boy":"1boy,",
+		"fellatio":"sidefellatio, penis, fellatio,",
+		"pose":"kneeling,",
+		"looking":",",
+		},
+		{},
+		"rnd",
 	),
 	"GloryHolev2 1024-000048": (
 	"GloryHolev2 1024-000048",
@@ -1491,7 +1676,7 @@
 	1.0,
 	{
 	"monster" :" monster,",
-	"concept":"hilichurl, blush, held up, nipples, {open mouth,|} pussy, pussy juice, {spread legs,|} sweat, tears, huge penis, medium breasts, large insertion, monster sex, uncensored, monster,",
+	"monster":"hilichurl, blush, held up, nipples, {open mouth,|} pussy, pussy juice, {spread legs,|} sweat, tears, huge penis, medium breasts, large insertion, monster sex, uncensored, monster,",
 	},
 	{},
 	["rnd",
@@ -1503,7 +1688,7 @@
 	(0.25,0.75),
 	1.0,
 	{
-	"concept":"crown, blush, held up, nipples, open mouth, pussy, pussy juice, spread legs, sweat, tears, huge penis, large insertion, monster sex, uncensored, monster, stomach bulge,",
+	"largebulg1":"crown, blush, held up, nipples, open mouth, pussy, pussy juice, spread legs, sweat, tears, huge penis, large insertion, monster sex, uncensored, monster, stomach bulge,",
 	},
 	{},
 	"rnd",
@@ -1513,7 +1698,7 @@
 	(0.25,0.75),
 	1.0,
 	{
-	"concept":"koonago, minigirl, large insertion, sex,",
+	"koonagoConcept_v1":"koonago, minigirl, large insertion, sex,",
 	},
 	{},
 	"rnd",
@@ -1523,7 +1708,7 @@
 	(0.25,0.75),
 	1.0,
 	{
-	"concept":" vaginal, stomach bulge, pectoral bulge, vaginal object insertion, (impossible object insertion:1.2), (absurd stomach bulge:1.1), gaping pussy,",
+	"hyper_penetration_stomach_bulge_v8pectoral":" vaginal, stomach bulge, pectoral bulge, vaginal object insertion, (impossible object insertion:1.2), (absurd stomach bulge:1.1), gaping pussy,",
 	},
 	{},
 	["rnd",
@@ -1535,7 +1720,7 @@
 	(0.25,0.75),
 	1.0,
 	{
-	"concept":" vaginal, stomach bulge, pectoral bulge, vaginal object insertion, (impossible object insertion:1.2), (absurd stomach bulge:1.1), gaping pussy,",
+	"hyper_penetration_stomach_bulge_v8absurd":" vaginal, stomach bulge, pectoral bulge, vaginal object insertion, (impossible object insertion:1.2), (absurd stomach bulge:1.1), gaping pussy,",
 	},
 	{},
 	"rnd",
@@ -1545,7 +1730,7 @@
 	(0.75,01.25),
 	(1.0,1.5),
 	{
-	"concept":" vaginal, stomach bulge, pectoral bulge, vaginal object insertion, (impossible object insertion:1.2), (absurd stomach bulge:1.1), gaping pussy,",
+	"hyper_penetration_stomach_bulge_v8nice":" vaginal, stomach bulge, pectoral bulge, vaginal object insertion, (impossible object insertion:1.2), (absurd stomach bulge:1.1), gaping pussy,",
 	},
 	{},
 	[
@@ -1560,7 +1745,7 @@
 	(0.25,0.75),
 	1.0,
 	{
-	"concept":"vaginal, stomach bulge, pectoral bulge, vaginal object insertion, (impossible object insertion:1.2), (absurd stomach bulge:1.1), gaping pussy,",
+	"hyper_penetration_stomach_bulge_v8all":"vaginal, stomach bulge, pectoral bulge, vaginal object insertion, (impossible object insertion:1.2), (absurd stomach bulge:1.1), gaping pussy,",
 	},
 	{},
 	"rnd",
@@ -1658,12 +1843,32 @@
 		{},
 		"rnd",
 	),
+	"spreadPussyLORA_spreadPussy":(
+		"spreadPussyLORA_spreadPussy",
+		(0.25,0.75),
+		1.0,
+		{
+			"spreadPussyLORA_spreadPussy":"armbinder, arms behind back, bdsm, bondage, bound,",
+		},
+		{},
+		"rnd",
+	),
 	"Armbinder":(
 		"Armbinder",
 		(0.25,0.75),
 		1.0,
 		{
-			"armbinder":"armbinder, arms behind back, bdsm, bondage, bound,",
+			"spread_pussy":"spread_pussy,",
+		},
+		{},
+		"rnd",
+	),
+	"tprolapse":(
+		"tprolapse",
+		(0.25,0.75),
+		1.0,
+		{
+			"tprolapse":"tprolapse,uterine prolapse,",
 		},
 		{},
 		"rnd",
@@ -1710,5 +1915,11 @@
 	[
 		"microwaistV05",
 		"microwaist 0.2b Lora",
+	],
+    "transformation": 
+	[
+		#"mermaid",
+		"sex_toy_transformation",
+		"onahole_personality_v17",
 	],
 }

@@ -283,6 +283,11 @@ try:
         cfg=minmaxf(setup,"cfg")
 
         # -------------------------------------------------
+        type="EmptyLatentImage"
+
+        promptSetInt(prompt,setup,type,"width")
+        promptSetInt(prompt,setup,type,"height")
+        # -------------------------------------------------
         type="CLIPSetLastLayer"
 
         promptSetInt(prompt,setup,type,"stop_at_clip_layer")

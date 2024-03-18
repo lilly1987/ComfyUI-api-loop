@@ -1,13 +1,5 @@
 {
     "loras":{
-        "char": (
-            "yor_forger_v1",
-            (0.25,1.0),
-            1.0,
-            {
-        "char":" {aayorf|bbyorf}, red eyes, ",
-        "hair":"{sidelocks, gold hairband, hair ornament,|short hair with long locks, white hairband,}",
-            },
-        ),
+        "char": "yor_forger_v1",
     },
 }
