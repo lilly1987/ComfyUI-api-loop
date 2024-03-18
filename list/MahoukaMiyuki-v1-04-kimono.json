@@ -1,15 +1,6 @@
 {
     "loras":{
-        "char": (
-            "MahoukaMiyuki-v1-04",
-            (0.25,0.75),
-            1.0,
-            {
-        "char":"ChopioMiyuki, blue eyes,",
-        "hair":"black hair, sidelocks, blunt bangs, short hair, single hair bun, hair flower, hair ornament, ",
-        "dress": "outfit_3, red kimono, print kimono, wide sleeves, purple obi, purple sash,",
-            },
-        ),
+        "char": "MahoukaMiyuki-v1-04-kimono",
         #"hang": "hang",
     },
     #"lorasUpdate":false,

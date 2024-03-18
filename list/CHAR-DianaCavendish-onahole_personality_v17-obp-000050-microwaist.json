@@ -1,0 +1,9 @@
+{
+    "loras":{
+        "char": "CHAR-DianaCavendish",
+        "onahole_personality_v17": "onahole_personality_v17",
+        "obp-000050": "obp-000050",
+        "microwaist": "microwaist",
+    },
+    "lorasUpdate":false,
+}

@@ -62,13 +62,13 @@
             "ahegao_v2.5",
         ],
     ),
-    "microwaist": (        0.25,
+    "microwaist": (        0.125,
         [
             "microwaistV05",
 			"microwaist 0.2b Lora",
         ],
     ),
-    "transformation": (        0.125,
+    "transformation": (        01.125,
         [
             #"mermaid",
             "sex_toy_transformation",
@@ -79,6 +79,11 @@
         [
             "execution_on_gallows",
             "aki",
+			"aki-000012",
+			"aki-000014",
+			"aki-000018",
+			"aki-000020",
+			"aki-000024",
             "hunged_girl",
             "leheng_re",
         ],
@@ -97,6 +102,7 @@
         [
             "LargeInsertion-v1",
             "dildoRiding2-000005",
+            "DbDildo",
             "DildoRiding",
             "arm_grab_doggy",
             "monsterSexActLora79_v10",
@@ -142,6 +148,7 @@
     "concept": (        0.8750,
         [  
             "GloryHolev2 1024-000048",
+			"DbDildo",
 			"Armbinder",
 			"fingering_3rd_v1",
 			"raised-doggystyle-v3-wasabiya",
