@@ -9,14 +9,114 @@
 			"dress":"hat, long sleeves, scarf, gloves, jacket, brown boots, fur collar, fur trim, black pantyhose, ",
 		},
 	),
+	"Erispheria": (
+		"Erispheria",
+		(0.75,1.0),
+		1.0,
+		{
+			"char":"erispheria,  red eyes, ",
+			"hair":" long hair, white hair,  hair ornament, x hair ornament,",
+			#"dress":"hat, long sleeves, scarf, gloves, jacket, brown boots, fur collar, fur trim, black pantyhose, ",
+		},
+	),
+	"konosuba_eris-09": (
+		"konosuba_eris-09",
+		(0.75,1.0),
+		1.0,
+		{
+			"char":" kseris,  ",
+			"hair":"long hair, white hair,",
+			"dress":"{habit, dress, long sleeves, necklace,|__dress_set__} ",
+		},
+	),
+	"Eris0.32-000008": (
+		"Eris0.32-000008",
+		(0.75,1.0),
+		1.0,
+		{
+			"char":"  [blue eyes:purple eyes:0.5],  ",
+			"hair":"long hair, [purple hair: silver hair:0.5],",
+			"dress":"hood, veil, nun,frills, ",
+		},
+	),
+	"Eris-10": (
+		"Eris-10",
+		(0.75,1.0),
+		1.0,
+		{
+			"char":"eris, blue eyes, {Ahoge,|} ",
+			"hair":"white hair, hair between eyes, very long hair,",
+			"dress":"collarbone, frills, nun,{long sleeves,|} dress,",
+			#"style":"cardcaptor sakura \(style\), ",
+		},
+	),
+	"Wiz - Konosuba v1": (
+		"Wiz - Konosuba v1",
+		(0.75,1.0),
+		1.0,
+		{
+			"char":" {wizdef, dress, purple dress, long sleeves, long dress, cross,|wizrnd}, ",
+			"hair":"brown hair, long hair, hair over one eye, brown eyes, ",
+			#"dress":"hat, long sleeves, scarf, gloves, jacket, brown boots, fur collar, fur trim, black pantyhose, ",
+		},
+	),
+	"konosuba_wiz-10": (
+		"konosuba_wiz-10",
+		(0.75,1.0),
+		1.0,
+		{
+			"char":" kswiz, hair over one eye, ahoge, ",
+			"hair":"long hair,  brown hair, ",
+			#"dress":"hat, long sleeves, scarf, gloves, jacket, brown boots, fur collar, fur trim, black pantyhose, ",
+		},
+	),
+	"wiz_(konosuba)_v1": (
+		"wiz_(konosuba)_v1",
+		(0.75,1.0),
+		1.0,
+		{
+			"char":" aawiz, ",
+			"hair":"long hair,  hair over one eye, ",
+			#"dress":"hat, long sleeves, scarf, gloves, jacket, brown boots, fur collar, fur trim, black pantyhose, ",
+		},
+	),
 	"miyuki-mahouka-01": (
 		"miyuki-mahouka-01",
 		(0.75,1.0),
 		1.0,
 		{
 			"char" :"miyuki shiba,",
-			"hair":"long hair,,",
+			"hair":"long hair,black hair,,",
 			"dress":"{school uniform, jacket, necktie,|__dress_set__}",
+		},
+		{},
+		[
+ "SD-ALL"    ,
+ "SD-INS"    ,
+ "SD-INALL"  ,
+ "SD-IND"    ,
+ "SD-MIDD"   ,
+ "SD-MIDD1"  ,
+ "SD-MIDD2"  ,
+ "SD-MIDD0.8",
+ "SD-MIDD0.2",
+ "SD-MOUT"   ,
+ "SD-OUTD"   ,
+ "SD-OUTS"   ,
+ "SD-OUTALL" ,
+ "SD-ROUT"   ,
+ "SD-AOUT"   ,
+ "SD-AB" 	,
+ "SD-ALL0.5" ,
+		],
+	),
+	"zs_NagiPQ2": (
+		"zs_NagiPQ2",
+		(0.75,1.0),
+		1.0,
+		{
+			"char":"nagipq2, green eyes, ",
+			"hair":"very long hair, black hair,  hair flower,",
 		},
 	),
 	"Hood": (
@@ -79,17 +179,6 @@
 		},
 		{
 			"hair":"twintails,  ",
-		},
-	),
-	"Eris-10": (
-		"Eris-10",
-		(0.75,1.0),
-		1.0,
-		{
-			"char":"eris, blue eyes, {Ahoge,|} ",
-			"hair":"white hair, hair between eyes, very long hair,",
-			"dress":"collarbone, frills, nun,{long sleeves,|} dress,",
-			#"style":"cardcaptor sakura \(style\), ",
 		},
 	),
 	"Toki_V2.0": (
@@ -527,23 +616,24 @@
 	},
 	[#"rnd",
 	#- "1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0",
-	"SD-ALL"   		
-	,"SD-INS"   	
+	"SD-ALL"  , 		
+	"SD-INS"  , 	
 	#,"SD-INALL" 		
-	,"SD-IND"   		
-	,"SD-MIDD"   
-	,"SD-MIDD1"  
-	,"SD-MIDD2"  
-	,"SD-MIDD0.8"
-	,"SD-MIDD0.2"	
-	,"SD-MOUT"   
-	,"SD-OUTD"   
-	,"SD-OUTS"   	
-	,"SD-OUTALL" 	
-	,"SD-ROUT" 	
-	,"SD-AOUT" 	
-	,"SD-AB" 		
+	"SD-IND"   	,	
+	"SD-MIDD"   ,
+	"SD-MIDD1"  ,
+	"SD-MIDD2"  ,
+	"SD-MIDD0.8",
+	"SD-MIDD0.2",	
+	"SD-MOUT"   ,
+	"SD-OUTD"   ,
+	"SD-OUTS"   ,	
+	"SD-OUTALL" ,	
+	"SD-ROUT" 	,
+	"SD-AOUT" 	,
+	"SD-AB" 	,	
 	#"SD-ALL0.5" 
+	"1,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0",
 	]
 	
 	),
@@ -1383,6 +1473,7 @@
 			"rnd",
 			"1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0",
 			"1,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0",
+			"A,B,B,B,B,B,B,B,B,B,B,B,A,A,A,A,A",
 			"SD-ALL"    ,
 			"SD-INS"    ,
 			"SD-INALL"  ,
@@ -1798,16 +1889,16 @@
 		],
 	),
 	"marunomiv1.5":(
-	"marunomiv1.5",
-	(0.25,0.5),
-	1.0,
-	{
-	#"boy":"1boy,",
-	"girl":"1girl,",
-	"tentacles":"mtp,  tentacles, slime \(substance\),monster, restrained, {torn clothes,|}",
-	},
-	{},
-	"rnd",
+		"marunomiv1.5",
+		(0.25,0.75),
+		1.0,
+		{
+		#"boy":"1boy,",
+		"girl":"1girl,",
+		"tentacles":"mtp,  tentacles, slime \(substance\),monster, restrained, {torn clothes,|}",
+		},
+		{},
+		"rnd",
 	),
 	"arm_grab_doggy":(
 		"arm_grab_doggy",
