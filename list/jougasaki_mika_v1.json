@@ -1,13 +1,13 @@
 {
 "loras":{
 	"char": (
-		"rwby_weissschnee-12",
+		"jougasaki_mika_v1",
 		(0.75,1.0),
 		1.0,
 		{
-			"char":" {weissvale|weissmistral}, ",
-			"hair":"long hair, white hair, ",
-			#"style":"cardcaptor sakura \(style\), ",
+			"char":" aamika,   ",
+			"hair":"ponytail, hair bow, ",
+			"dress":"collarbone, school uniform, striped, bowtie, collared shirt, white shirt, sleeves rolled up, wrist scrunchie, clothes around waist, plaid skirt, purple skirt, ",
 		},
 	{},
 	[

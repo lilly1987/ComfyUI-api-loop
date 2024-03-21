@@ -73,12 +73,10 @@
 			"steps": 10,
 		},
 		"EmptyLatentImage":{
-			"width": 352,
-			"height": 702,
+			"width": 360,
+			"height": 720,
 		},
     },
-    "shuffle":False,
-    "shuffle":true,
     "stop_at_clip_layer_min": -2,
     "stop_at_clip_layer_max": -1,
     #"steps_min": 20,
@@ -161,6 +159,9 @@
         "Card Captor Sakura Anime",
         "?hikari?saros_eresh_kurnugias_v1",
         "cyan_30-000003-hang",
+        "hoodAzurLane_v10-sex_toy_transformation",
+        "hoodAzurLane_v10-sex_toy_transformation-obp-000050",
+        "hoodAzurLane_v10-obp-000050",
         
         "yor_forger_v1-hang",
         "Yor_Briar-hang",
@@ -232,6 +233,7 @@
 		"JAV_Rina_I_v1.0",
         "eiko-10",
         "ShibaMiyuki",
+        "jougasaki_mika_v1",
         "Shiba MiyukiV1",
         "MaristheDarkWitch-10",
         "GishanV4-10",
@@ -340,7 +342,9 @@
     ],"listMatch1": [
         "FushikawaKokoroXL-000096",
     ],
-    "positive": {
+	"shuffle":False,
+    "shuffle":true,
+	"positive": {
         "pose":"{kneeling,kneeling pose|sit|man behind girl|7::},",
         "nsfw":"nsfw,",
         "style":"{1-3$$anime style|2D|anime},",

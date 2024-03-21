@@ -2,7 +2,7 @@
     "loras":{
         "char": (
             "plana-blue-archive",
-            (0.25,1.0),
+            (0.75,1.0),
             1.0,
             {
                 "char" :",",

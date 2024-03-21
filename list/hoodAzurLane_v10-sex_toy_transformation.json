@@ -1,0 +1,15 @@
+{
+    "loras":{
+        "char": (
+            "hoodAzurLane_v10",
+            (0.875,1.0),
+            1.0,
+            {
+        "char":" hood_\(azur_lane\), blue eyes,",
+        "hair":" blonde hair,",
+            },
+        ),
+		"sex_toy_transformation": "sex_toy_transformation",
+    },
+	"lorasUpdate":false,
+}
