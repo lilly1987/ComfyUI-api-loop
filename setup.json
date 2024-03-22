@@ -56,13 +56,25 @@
     },
     "cuda" : {
         "ckptCnt":32,
+        "itemCnt":4,
         "queue_cnt":1,
-        "itemCnt":2,
+		"KSampler":{
+			#"steps": 10,
+			"steps_min": 30,
+			"steps_max": 30,
+		},
+		"DetailerForEachDebug":{
+			"steps": 15
+		},
+		"EmptyLatentImage":{
+			"width": 384,
+			"height": 768,
+		},
     },
     "cpu" : {
         "ckptCnt":16,
-        "queue_cnt":1,
         "itemCnt":2,
+        "queue_cnt":1,
 		#"steps": 25,
 		"KSampler":{
 			#"steps": 10,
@@ -109,6 +121,7 @@
         "tokisaki_kurumi_v1-hang",
         "tokisaki_kurumi_v1-obp-000050",
         "majoNoTabitabiElaina_v20",
+        "millia_rage",
         "SeeThroughMaid_v1",
         "virtualgirlAim_v30",
         "satonoDiamond_v10",
@@ -127,7 +140,6 @@
         "makina69_tzuyu_v1.0",
         "utsumierice-10",
         "EmiKino-10",
-        "liyuuLora_liyuuV1",
         "seolhyunFromAOA_v10",
         "Ayami_nee",
         "nailin_wizard",
@@ -395,6 +407,8 @@
     "SaveImage2":true,
     "lora show":true,
     "lora show":false,
+    "skip show":true,
+    "skip show":false,
     "prompt show":true,
     "prompt show":false,
     "setup show":true,

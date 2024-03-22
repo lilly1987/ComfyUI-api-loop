@@ -179,7 +179,8 @@ try:
                     if minmaxft(tmp[0]) > random.random() :
                         tmp=tmp[1]
                     else:
-                        print(f"loras :[yellow] {k} skip [/yellow]")
+                        if setup.get("skip show",False) :
+                            print(f"loras :[yellow] {k} skip [/yellow]")
                         continue
                 #else:
                 #    print(f"loras :[yellow] {k} not num [/yellow]")

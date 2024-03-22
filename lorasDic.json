@@ -617,7 +617,7 @@
 		#"SD-INALL" ,		
 		"SD-IND"   	,	
 		"SD-MIDD"   ,
-		"SD-MIDD1"  ,
+		#"SD-MIDD1"  ,
 		"SD-MIDD2"  ,
 		"SD-MIDD0.8",
 		#"SD-MIDD0.2",	
@@ -629,6 +629,7 @@
 		"SD-AOUT" 	,
 		"SD-AB" 	,	
 		"SD-ALL0.5" ,
+        "1,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0",
 		]
 	),
 	"magia-sulfur": (

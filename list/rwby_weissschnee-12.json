@@ -12,7 +12,7 @@
 	{},
 	[
 	"SD-ALL"    ,
-	"SD-INS"    ,
+	#"SD-INS"    ,
 	"SD-INALL"  ,
 	"SD-IND"    ,
 	"SD-MIDD"   ,
@@ -22,7 +22,7 @@
 	"SD-MIDD0.2",
 	"SD-MOUT"   ,
 	"SD-OUTD"   ,
-	"SD-OUTS"   ,
+	#"SD-OUTS"   ,
 	"SD-OUTALL" ,
 	"SD-ROUT"   ,
 	"SD-AOUT"   ,
