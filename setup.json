@@ -17,9 +17,9 @@
         "euler", "euler_ancestral", "heun", "heunpp2","dpm_2", "dpm_2_ancestral",
          "dpm_fast", "dpm_adaptive", "dpmpp_2s_ancestral", "dpmpp_sde", 
         "dpmpp_2m", "dpmpp_2m_sde",    
-        "ddpm", "lcm", "ddim", "uni_pc", "uni_pc_bh2"
+        "ddpm",  "ddim", 
     ],
-	#"dpmpp_sde_gpu","dpmpp_2m_sde_gpu", "dpmpp_3m_sde_gpu", "dpmpp_3m_sde","lms",
+	#"dpmpp_sde_gpu","dpmpp_2m_sde_gpu", "dpmpp_3m_sde_gpu", "dpmpp_3m_sde","lms","uni_pc", "uni_pc_bh2" "lcm",
     "scheduler": [
         "normal", "karras", "exponential",  "simple", ],
 		#"sgm_uniform","ddim_uniform"
@@ -108,7 +108,6 @@
         "SougetsuEli_v10",
         "shiromiIoriLora_v1",
         "ranalora-10",
-        "magia-sulfur",
         "KaliDN-10",
 		"celine_(fire_emblem)_v1",
         "Mari-10",
@@ -136,7 +135,6 @@
         "Marina_Fear__Hunger_2_Termina",
         "佩琳·H·克洛斯特曼--强袭魔女_v1.0",
         "Naruse_Maria",
-        "SisterCleaire_v10",
         "makina69_tzuyu_v1.0",
         "utsumierice-10",
         "EmiKino-10",
