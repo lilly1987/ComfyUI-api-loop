@@ -11,7 +11,7 @@
     "workflow":"workflow_api.json",
     "lorasFile":"loras.json",
     "ckptPer":1.0,
-    "ckptPer":0.0625,
+    "ckptPer":0.0,
     "ckptCnt":16,
     "sampler_name": [
         "euler", "euler_ancestral", "heun", "heunpp2","dpm_2", "dpm_2_ancestral",
