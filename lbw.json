@@ -26,7 +26,7 @@
 }
 
 # "SD-ALL"    ,
-# "SD-INS"    ,
+# #"SD-INS"    ,
 # "SD-INALL"  ,
 # "SD-IND"    ,
 # "SD-MIDD"   ,
@@ -42,3 +42,24 @@
 # "SD-AOUT"   ,
 # "SD-AB" 	,
 # "SD-ALL0.5" ,
+
+# [
+# "SD-ALL"    ,
+# "SD-INS"    ,
+# "SD-INALL"  ,
+# "SD-IND"    ,
+# "SD-MIDD"   ,
+# "SD-MIDD1"  ,
+# "SD-MIDD2"  ,
+# "SD-MIDD0.8",
+# "SD-MIDD0.2",
+# "SD-MOUT"   ,
+# "SD-OUTD"   ,
+# "SD-OUTS"   ,
+# "SD-OUTALL" ,
+# "SD-ROUT"   ,
+# "SD-ROUT"   ,
+# "SD-AOUT"   ,
+# "SD-AB" 	,
+# "SD-ALL0.5" ,
+# ],
