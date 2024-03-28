@@ -79,7 +79,7 @@
 		"KSampler":{
 			#"steps": 10,
 			"steps_min": 20,
-			"steps_max": 30,
+			"steps_max": 20,
 		},
 		"DetailerForEachDebug":{
 			"steps": 10,

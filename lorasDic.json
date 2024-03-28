@@ -477,6 +477,7 @@
 		(0.75,1.0),
 		1.0,
 		{
+			
 			"char":"(yor_briar_spyxfamily:__1.0_1.5__), red_eyes,",
 			"hair":"black hair, hairband, sidelocks,  white_hairband, earrings, bangs, {long hair,|}",
 		},
@@ -1319,23 +1320,35 @@
 	"tentacle sex":"shokusyu, tentacle sex, tentacles pit, vaginal, restrained, fellatio,cum,",
 	},
 	),
+	"liquid_dress-1.0": (
+		"liquid_dress-1.0",
+		(0.5,01.0),
+		1.0,
+		{
+		"dress concept":"liquid dress,",
+		},
+		{},
+		[
+		"rnd",
+		],
+	),
 	"BondagePoleV1": (
-	"BondagePoleV1",
-	(0.25,0.75),
-	1.0,
-	{
-	"concept":"standing by wooden pole, arms chained to pole, chained to pole, fitting,",
-	},
-	{},
-	[
-	"SD-MIDD",
-	"SD-MIDD1",
-	"SD-MIDD2",
-	"SD-MIDD0.8",
-	#"SD-MIDD0.2",
-	"SD-OUTD",
-	"1,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0",
-	],
+		"BondagePoleV1",
+		(0.25,0.75),
+		1.0,
+		{
+		"concept":"standing by wooden pole, arms chained to pole, chained to pole, fitting,",
+		},
+		{},
+		[
+		"SD-MIDD",
+		"SD-MIDD1",
+		"SD-MIDD2",
+		"SD-MIDD0.8",
+		#"SD-MIDD0.2",
+		"SD-OUTD",
+		"1,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0",
+		],
 	),
 	"bdsm_pissoir": [
 	"bdsm_pissoir-000002",
