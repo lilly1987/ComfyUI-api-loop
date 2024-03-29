@@ -27,7 +27,7 @@ import shutil
 try:
 
     p1="../ComfyUI/models/loras"
-    p2="R:/loras"
+    p2="U:/models/loras"
     fs=filecmp.dircmp(p1, p2)
 
     fsl=fs.left_only
