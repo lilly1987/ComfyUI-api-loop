@@ -141,7 +141,9 @@ try:
         if setup.get("lorasUpdate",True):
             dupdate(setup["loras"],loras)
         
-        lorasDic=dicFileRead("lorasDic.json")
+        #lorasDic=dicFileRead("lorasDic.json")
+        lorasDic=dicFilesRead("lorasDics/*.json")
+        #print("lorasDics  : ",lorasDic)
         dupdate(setup["lorasDic"],lorasDic)
         
         lbw=dicFileRead("lbw.json")

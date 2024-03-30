@@ -48,7 +48,7 @@
 # {},
 # [
 # "SD-ALL"    ,
-# "SD-INS"    ,
+# #"SD-INS"    ,
 # "SD-INALL"  ,
 # #"SD-IND"    ,
 # "SD-MIDD"   ,
