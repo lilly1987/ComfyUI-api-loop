@@ -1,0 +1,34 @@
+{
+"loras":{
+	"char": (
+		"6thNekomusumeGegegeNo_v10",
+		(0.875,1.0),
+		1.0,
+		{
+			"char":"nmm1, nekomusume, nekomusume \(gegege no kitarou 6\),  yellow eyes,   pointy ears,  bangs, ",
+			"hair":" purple hair,hair bow, short hair, ",
+			"dress":"red dress, red choker,,white shirt, long sleeves, red bow, collarbone, brooch, jewelry, ",
+		},
+	{},
+	[
+	"SD-ALL"    ,
+	"SD-INS"    ,
+	"SD-INALL"  ,
+	"SD-IND"    ,
+	"SD-MIDD"   ,
+	"SD-MIDD1"  ,
+	"SD-MIDD2"  ,
+	"SD-MIDD0.8",
+	"SD-MIDD0.2",
+	"SD-MOUT"   ,
+	"SD-OUTD"   ,
+	"SD-OUTS"   ,
+	"SD-OUTALL" ,
+	"SD-ROUT"   ,
+	"SD-AOUT"   ,
+	"SD-AB" 	,
+	"SD-ALL0.5" ,
+	],
+	),
+},
+}

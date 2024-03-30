@@ -1,0 +1,34 @@
+{
+"loras":{
+	"char": (
+		"3DXingtong_v01Test1",
+		(0.875,1.0),
+		1.0,
+		{
+			"char":"lips, ",
+			"hair":"long hair,  ",
+			#"dress":"uniform, ",
+		},
+	{},
+	[
+	"SD-ALL"    ,
+	"SD-INS"    ,
+	"SD-INALL"  ,
+	"SD-IND"    ,
+	"SD-MIDD"   ,
+	"SD-MIDD1"  ,
+	"SD-MIDD2"  ,
+	"SD-MIDD0.8",
+	"SD-MIDD0.2",
+	"SD-MOUT"   ,
+	"SD-OUTD"   ,
+	"SD-OUTS"   ,
+	"SD-OUTALL" ,
+	"SD-ROUT"   ,
+	"SD-AOUT"   ,
+	"SD-AB" 	,
+	"SD-ALL0.5" ,
+	],
+	),
+},
+}

@@ -1,8 +1,5 @@
 {
-    "positive": {
-        "char":" <lora:ClaraStarRailV1:__0.75__:1.0>, starclara,",
-        #"hair":" braid,",
-        #"dress":"{__Marianne_Vi_Britannia_dress__,|}",
-        #"style":"cardcaptor sakura \(style\), ",
+    "loras": {
+        "char":"ClaraStarRailV1",
     },
 }

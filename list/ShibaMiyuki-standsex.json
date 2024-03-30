@@ -1,0 +1,8 @@
+{
+    "loras":{
+        "char": "ShibaMiyuki",
+        #"BondagePoleV1": "BondagePoleV1",
+        "standsex": "standsex",
+    },
+    "lorasUpdate":false,
+}

@@ -1,15 +1,6 @@
 {
     "loras":{
-        "char": (
-            "yuGiOhTraptrixNepenthes_v10",
-            (0.5,1.0),
-            1.0,
-            {
-        "char":"traptrixnepenthes, ",
-        #"hair":"short hair,silver hair,white hair,",
-        #"dress": " white dress, cleavage, bare shoulders,",
-            },
-        ),
+        "char":"yuGiOhTraptrixNepenthes_v10",
         #"hang": "hang",
     },
     #"lorasUpdate":false,

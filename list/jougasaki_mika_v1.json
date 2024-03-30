@@ -1,34 +1,5 @@
 {
 "loras":{
-	"char": (
-		"jougasaki_mika_v1",
-		(0.875,1.0),
-		1.0,
-		{
-			"char":" aamika,   ",
-			"hair":"ponytail, hair bow, ",
-			"dress":"collarbone, school uniform, striped, bowtie, collared shirt, white shirt, sleeves rolled up, wrist scrunchie, clothes around waist, plaid skirt, purple skirt, ",
-		},
-	{},
-	[
-	"SD-ALL"    ,
-	"SD-INS"    ,
-	"SD-INALL"  ,
-	"SD-IND"    ,
-	"SD-MIDD"   ,
-	"SD-MIDD1"  ,
-	"SD-MIDD2"  ,
-	"SD-MIDD0.8",
-	"SD-MIDD0.2",
-	"SD-MOUT"   ,
-	"SD-OUTD"   ,
-	"SD-OUTS"   ,
-	"SD-OUTALL" ,
-	"SD-ROUT"   ,
-	"SD-AOUT"   ,
-	"SD-AB" 	,
-	"SD-ALL0.5" ,
-	],
-	),
+	"char": "jougasaki_mika_v1",
 },
 }

@@ -8,6 +8,7 @@ import shutil, time
 import subprocess
 import pkg_resources
 from ConsoleColor import print, console
+from updateLib import *
 
 required  = {'json5'}
 installed = {pkg.key for pkg in pkg_resources.working_set}
@@ -38,13 +39,37 @@ def jsonFileRead(path,text=""):
         return text
     except Exception:
         print("text : ",text,style="reset")
-        console.print_exception()
+        #console.print_exception()
         print("path : ",path,style="reset")
-        quit()
+        #quit()
+        raise
+        
+def dicFilesRead(path):
+    try:
+        #print("dicFilesRead : ",path)
+        files=getFileList(path)
+        d={}
+        u={}
+        f=None
+        for f in files:
+            #print("dicFilesRead : ",f)
+            #dupdate(d,dicFileRead(f))
+            u=dicFileRead(f)
+            d.update(u)
+        return d
+    except Exception:
+        print("d : ",d,style="reset")
+        print("u : ",u,style="reset")
+        #console.print_exception()
+        print("path : ",path,style="reset")
+        print("f : ",f,style="reset")
+        #quit()        
+        raise
         
 def dicFileRead(path):
     try:
         #print("dicFileRead : ",path)
+        text=""
         with open(path, 'r', encoding='utf-8') as file:
             text=file.read()
             comment.sub("", text)
@@ -56,9 +81,10 @@ def dicFileRead(path):
         return text
     except Exception:
         print("text : ",text,style="reset")
-        console.print_exception()
+        #console.print_exception()
         print("path : ",path,style="reset")
-        quit()
+        #quit()
+        raise
         
 def getFileList(path,filelist=[]):
     try:
@@ -68,9 +94,10 @@ def getFileList(path,filelist=[]):
         return filelist
     except Exception:
         print("filelist : ",filelist,style="reset")
-        console.print_exception()
+        #console.print_exception()
         print("path : ",path,style="reset")
-        quit()
+        #quit()
+        raise
         
 def pathRemove(opath,rpath):
     try:
@@ -89,6 +116,7 @@ def pathRemove(opath,rpath):
     except Exception:
         print("opath : ",opath,style="reset")
         print("rpath : ",rpath,style="reset")
-        console.print_exception()
-        quit()
+        #console.print_exception()
+        #quit()
+        raise
         

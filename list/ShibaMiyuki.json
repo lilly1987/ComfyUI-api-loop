@@ -1,15 +1,6 @@
 {
     "loras":{
-        "char": (
-            "ShibaMiyuki",
-            (0.75,1.0),
-            (1.0,1.250),
-            {
-                "char":"shibamiyuki,  ",
-                "hair":"long hair,",
-                "dress":"school uniform, black necktie, white dress, green jacket, long sleeves, open jacket, high heels,",
-            },
-        ),
+        "char": "ShibaMiyuki",
         #"aki-000024": "aki-000024",
     },
     #"lorasUpdate":false,
