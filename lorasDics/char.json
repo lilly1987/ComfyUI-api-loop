@@ -9,6 +9,26 @@
             #"dress":"{bare shoulders, collarbone, dress, long sleeves, off shoulder, off-shoulder dress, off-shoulder sweater, pantyhose, red sweater, sweater, sweater dress, thighs,|__dress_set__}",
         },
     ),
+    "PrincessConnect_Hatsune": (
+        "PrincessConnect_Hatsune",
+        (0.825,1.0),
+        1.0,
+        {
+            "char" :"Hatsune,",
+            "hair":"pink hair, long hair, purple eyes, hair rings, star hair ornament, pointy ears,",
+            "dress":"dress, bare shoulders, detached sleeves, skirt, frills,",
+        },
+    ),
+    "MitsuruKirijo": (
+        "MitsuruKirijo",
+        (0.825,1.0),
+        1.0,
+        {
+            "char" :"MitsuruKirijou,  ",
+            "hair":"long hair,hair over one eye,",
+            "dress":"skirt, white shirt,",
+        },
+    ),
     "yurisa chan_v1": (
         "yurisa chan_v1",
         (0.825,1.0),
