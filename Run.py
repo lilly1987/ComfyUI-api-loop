@@ -10,6 +10,7 @@ from minmax import *
 #sys.path.append("../ComfyUI/custom_nodes/ComfyUI-Impact-Pack/modules/impact")
 #import wildcards
 
+
 required  = {'json5','torch'}
 installed = {pkg.key for pkg in pkg_resources.working_set}
 missing   = required - installed
@@ -48,13 +49,14 @@ def promptSetList(prompt,setup,type,key,v=None):
     
 
 
+#with console.status("[bold green]Working on tasks...") as status:
 try:
-
     ckptCnt=0
     ckptMax=0
     jitemCnt=0
     jitemMax=0
-
+    tm=time.strftime('%Y%m%d-%H%M%S')
+    logFile=f"log/{tm}.html"
     while True:
         
         setup=dicFileRead("setup.json")
@@ -403,7 +405,15 @@ try:
         ckptCnt-=1
         jitemCnt-=1
         # -------------------------------------------------
+except KeyboardInterrupt:
+    print('Interrupted')
+    console.save_html(logFile)
+    try:
+        sys.exit(130)
+    except SystemExit:
+        os._exit(130)
 except Exception:
+    #console.print_exception(show_locals=True)
     console.print_exception()
-    console.save_html("log.html")
+    console.save_html(logFile)
     quit()

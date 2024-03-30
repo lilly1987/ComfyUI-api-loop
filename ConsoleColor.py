@@ -3,6 +3,7 @@ import sys
 #-----------------------------------
 import subprocess
 import pkg_resources
+import logging
 
 required  = {'rich'}
 installed = {pkg.key for pkg in pkg_resources.working_set}
@@ -16,6 +17,8 @@ from rich.console import Console
 #from rich import print 
 from rich.theme import Theme
 from rich.traceback import install
+from rich.logging import RichHandler
+#install(show_locals=True)
 install()
 #console=Console(style="reset")
 custom_theme = Theme({

@@ -9,6 +9,16 @@
             #"dress":"{bare shoulders, collarbone, dress, long sleeves, off shoulder, off-shoulder dress, off-shoulder sweater, pantyhose, red sweater, sweater, sweater dress, thighs,|__dress_set__}",
         },
     ),
+    "yurisa chan_v1": (
+        "yurisa chan_v1",
+        (0.825,1.0),
+        1.0,
+        {
+            "char" :"yurisa_chan,",
+            #"hair":"long hair,",
+            #"dress":"{bare shoulders, collarbone, dress, long sleeves, off shoulder, off-shoulder dress, off-shoulder sweater, pantyhose, red sweater, sweater, sweater dress, thighs,|__dress_set__}",
+        },
+    ),
     "ClaraStarRailV1": (
         "ClaraStarRailV1",
         (0.825,1.0),
