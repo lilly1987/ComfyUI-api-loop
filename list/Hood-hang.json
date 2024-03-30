@@ -1,14 +1,6 @@
 {
     "loras":{
-        "char": (
-            "Hood",
-            (0.25,1.0),
-            1.0,
-            {
-        "char":"blue_eyes,",
-        "hair":"blonde_hair,long_hair,hair_over_shoulder,bangs,",
-            },
-        ),
+        "char": "Hood",
 		"hang": "hang",
     },
 	"lorasUpdate":false,

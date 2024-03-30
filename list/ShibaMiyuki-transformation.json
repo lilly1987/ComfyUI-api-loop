@@ -1,0 +1,10 @@
+{
+    "loras":{
+        "char": "ShibaMiyuki",
+        #"BondagePoleV1": "BondagePoleV1",
+        #"standsex": "standsex",
+        #"monsterSexActLora79_v10": "monsterSexActLora79_v10",
+        "transformation": "transformation",
+    },
+    "lorasUpdate":false,
+}

@@ -2,7 +2,7 @@
     "loras":{
         "char": (
             "emilia_lapisrelights",
-            (0.75,1.0),
+            (0.5,0.875),
             1.0,
             {
                 "char":"emilia_lapisrelights, red_eyes, purple_eyes, ",
