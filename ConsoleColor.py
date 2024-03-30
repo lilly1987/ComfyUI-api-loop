@@ -12,8 +12,11 @@ if missing:
     python = sys.executable
     subprocess.check_call([python, '-m', 'pip', 'install', *missing], stdout=subprocess.DEVNULL)
 #-----------------------------------
-from rich.console import Console
+from rich.console import Console 
+#from rich import print 
 from rich.theme import Theme
+from rich.traceback import install
+install()
 #console=Console(style="reset")
 custom_theme = Theme({
     "repr.path": "bright_blue",
@@ -21,13 +24,15 @@ custom_theme = Theme({
     "markdown.block_quote": "bright_blue",
     "iso8601.time": "bright_blue"
 })
-console = Console(theme=custom_theme)
+console = Console(theme=custom_theme,record=True)
 print=console.log
 ccolor="bright_yellow"
 """
 print("test", style="bold white on blue")
 print("test", style="bold green")
 print("test", style="bold CYAN")
+print("test", style="bold CYAN", log_locals=True)
+console.save_html("log.html")
 """
 """
 import os
@@ -58,5 +63,6 @@ try:
 except Exception:
     #console.print_exception(show_locals=True)
     console.print_exception()
+    raise
     
 """

@@ -405,4 +405,5 @@ try:
         # -------------------------------------------------
 except Exception:
     console.print_exception()
+    console.save_html("log.html")
     quit()

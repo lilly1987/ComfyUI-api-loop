@@ -39,9 +39,10 @@ def jsonFileRead(path,text=""):
         return text
     except Exception:
         print("text : ",text,style="reset")
-        console.print_exception()
+        #console.print_exception()
         print("path : ",path,style="reset")
-        quit()
+        #quit()
+        raise
         
 def dicFilesRead(path):
     try:
@@ -59,10 +60,11 @@ def dicFilesRead(path):
     except Exception:
         print("d : ",d,style="reset")
         print("u : ",u,style="reset")
-        console.print_exception()
+        #console.print_exception()
         print("path : ",path,style="reset")
         print("f : ",f,style="reset")
-        quit()        
+        #quit()        
+        raise
         
 def dicFileRead(path):
     try:
@@ -79,9 +81,10 @@ def dicFileRead(path):
         return text
     except Exception:
         print("text : ",text,style="reset")
-        console.print_exception()
+        #console.print_exception()
         print("path : ",path,style="reset")
-        quit()
+        #quit()
+        raise
         
 def getFileList(path,filelist=[]):
     try:
@@ -91,9 +94,10 @@ def getFileList(path,filelist=[]):
         return filelist
     except Exception:
         print("filelist : ",filelist,style="reset")
-        console.print_exception()
+        #console.print_exception()
         print("path : ",path,style="reset")
-        quit()
+        #quit()
+        raise
         
 def pathRemove(opath,rpath):
     try:
@@ -112,6 +116,7 @@ def pathRemove(opath,rpath):
     except Exception:
         print("opath : ",opath,style="reset")
         print("rpath : ",rpath,style="reset")
-        console.print_exception()
-        quit()
+        #console.print_exception()
+        #quit()
+        raise
         
