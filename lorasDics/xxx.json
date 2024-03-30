@@ -1148,13 +1148,15 @@
 	),
 	"largebulg1-000012": (
 	"largebulg1-000012",
-	(0.25,0.75),
+	(0.5,01.00),
 	1.0,
 	{
 	"largebulg1":"crown, blush, held up, nipples, open mouth, pussy, pussy juice, spread legs, sweat, tears, huge penis, large insertion, monster sex, uncensored, monster, stomach bulge,",
 	},
 	{},
-	"rnd",
+	["rnd",
+    "1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0",
+    ],
 	),
 	"koonagoConcept_v1": (
 	"koonagoConcept_v1",
