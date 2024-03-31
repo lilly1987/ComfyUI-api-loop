@@ -9,6 +9,66 @@
             #"dress":"{bare shoulders, collarbone, dress, long sleeves, off shoulder, off-shoulder dress, off-shoulder sweater, pantyhose, red sweater, sweater, sweater dress, thighs,|__dress_set__}",
         },
     ),
+    "morinoRinzeTHEIDOLMSTER_v10": (
+        "morinoRinzeTHEIDOLMSTER_v10",
+        (0.825,1.0),
+        1.0,
+        {
+            "char" :"morino rinze,  ",
+            #"hair":"{long|short} hair, multicolored hair, pink hair,black hair, hair between eyes,bangs,  x hair ornament, long hair, streaked hair, hairclip, ",
+            #"dress":" white dress, brown dress, brown jacket, jewelry, long sleeves,bracelet, ",
+        },
+    ),
+    "AZKi_v10": (
+        "AZKi_v10",
+        (0.825,1.0),
+        1.0,
+        {
+            "char" :"azki_\(hololive\),  purple eyes,  ",
+            "hair":"{long|short} hair, multicolored hair, pink hair,black hair, hair between eyes,bangs,  x hair ornament, long hair, streaked hair, hairclip, ",
+            #"dress":" white dress, brown dress, brown jacket, jewelry, long sleeves,bracelet, ",
+        },
+    ),
+    "azki diva2": (
+        "azki diva2",
+        (0.825,1.0),
+        1.0,
+        {
+            "char" :",",
+            #"hair":"long hair,",
+            #"dress":"{bare shoulders, collarbone, dress, long sleeves, off shoulder, off-shoulder dress, off-shoulder sweater, pantyhose, red sweater, sweater, sweater dress, thighs,|__dress_set__}",
+        },
+    ),
+    "azki diva1": (
+        "azki diva1",
+        (0.825,1.0),
+        1.0,
+        {
+            "char" :",",
+            #"hair":"long hair,",
+            #"dress":"{bare shoulders, collarbone, dress, long sleeves, off shoulder, off-shoulder dress, off-shoulder sweater, pantyhose, red sweater, sweater, sweater dress, thighs,|__dress_set__}",
+        },
+    ),
+    "FireflyHSR-07": (
+        "FireflyHSR-07",
+        (0.825,1.0),
+        1.0,
+        {
+            "char" :"ffhsr,",
+            #"hair":"long hair,",
+            #"dress":"{bare shoulders, collarbone, dress, long sleeves, off shoulder, off-shoulder dress, off-shoulder sweater, pantyhose, red sweater, sweater, sweater dress, thighs,|__dress_set__}",
+        },
+    ),
+    "Lou": (
+        "Lou",
+        (0.825,1.0),
+        1.0,
+        {
+            "char" :"Lou,",
+            #"hair":"long hair,",
+            #"dress":"{bare shoulders, collarbone, dress, long sleeves, off shoulder, off-shoulder dress, off-shoulder sweater, pantyhose, red sweater, sweater, sweater dress, thighs,|__dress_set__}",
+        },
+    ),
     "araragiTsukihiLora_v1": (
         "araragiTsukihiLora_v1",
         (0.825,1.0),
