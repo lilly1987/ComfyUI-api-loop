@@ -44,11 +44,18 @@ def dircmp(p1,p2):
         else:
             shutil.copy(p, p1)
             
-            
-try:
-    dircmp("../ComfyUI/models/checkpoints/2d","U:/models/checkpoints/2d")
-    dircmp("../ComfyUI/models/loras","U:/models/loras")
+print(sys.argv)
 
+if len(sys.argv) != 3:
+    print("Insufficient arguments")
+    sys.exit()
+    
+try:
+    print("[green]run[/green]")
+    dircmp(sys.argv[1],sys.argv[2])
+    #dircmp("../ComfyUI/models/checkpoints/2d","U:/models/checkpoints/2d")
+    #dircmp("../ComfyUI/models/loras","U:/models/loras")
+    
             
 except Exception:
     console.print_exception()
