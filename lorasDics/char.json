@@ -9,6 +9,27 @@
             #"dress":"{bare shoulders, collarbone, dress, long sleeves, off shoulder, off-shoulder dress, off-shoulder sweater, pantyhose, red sweater, sweater, sweater dress, thighs,|__dress_set__}",
         },
     ),
+     
+    "OldrinZevon-10": (
+        "OldrinZevon-10",
+        (0.825,1.0),
+        1.0,
+        {
+            "char" :"OldrinZevon,  green eyes,  ,",
+            "hair":" long hair, blonde hair,twintails,hair ribbon,",
+           # "dress":" white thighhighs, white gloves,elbow gloves, highleg leotard,",
+        },
+    ), 
+	"lilianna_centostella": (
+        "lilianna_centostella",
+        (0.825,1.0),
+        1.0,
+        {
+            "char" :",",
+            #"hair":"long hair,",
+            "dress":"choker flower red dress bare shoulders puffy sleeves juliet sleeves,",
+        },
+    ),
     "morinoRinzeTHEIDOLMSTER_v10": (
         "morinoRinzeTHEIDOLMSTER_v10",
         (0.825,1.0),
