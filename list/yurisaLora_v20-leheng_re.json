@@ -11,6 +11,8 @@
                 #"style":"cardcaptor sakura \(style\), ",
             },
         ),
-		#"leheng_re":"leheng_re",
+		"leheng_re":"leheng_re",
+		
     },
+	"lorasUpdate":false,
 }

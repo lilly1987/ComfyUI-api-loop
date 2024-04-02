@@ -5,6 +5,86 @@
         1.0,
         {
             "char" :"richelieu_azurlane,",
+            #"hair":"",
+            #"dress":"",
+        },
+    ),
+    "KallenNun-10": (
+        "KallenNun-10",
+        (0.825,1.0),
+        1.0,
+        {
+            "char" :"KallenNun, long hair, blue eyes, black thighhighs, white gloves, long sleeves, black dress, hair between eyes, braid, white hair, pelvic curtain, braided ponytail, nun, habit,",
+            "hair":"",
+            "dress":"",
+        },
+    ),
+    "RitaRQ-10": (
+        "RitaRQ-10",
+        (0.825,1.0),
+        1.0,
+        {
+            "char" :"RitaRQ, short hair, miniskirt, large breasts, light brown hair, red eyes, thighhighs, fingerless gloves, cleavage, bare shoulders, collarbone, black choker, midriff, belt, hair over one eye, red crop top, thigh strap, red skirt, red gloves, rita rossweisse,",
+            "hair":"",
+            "dress":"",
+        },
+    ),
+    "kalliope-000022": (
+        "kalliope-000022",
+        (0.825,1.0),
+        1.0,
+        {
+            "char" :"blue eyes,bangs,round eyewear,long hair,white hair,holding_quill,quill,bowtie,white shirt,black skirt,high-waist skirt,long sleeves,kneehighs,black footwear,animal on head,owl,,",
+            "hair":"",
+            "dress":"",
+        },
+    ),
+    "PrincessConnect_Karyl": (
+        "PrincessConnect_Karyl",
+        (0.825,1.0),
+        1.0,
+        {
+            "char" :"Karyl,",
+            "hair":"black hair, streaked hair, white hair, low twintails, very long hair, green eyes, cat ears, cat tail,",
+            "dress":"KarylDress, detached sleeves, black thighhighs, purple skirt, frills, brooch,",
+        },
+    ),
+    "PekoMamaLora-10": (
+        "PekoMamaLora-10",
+        (0.825,1.0),
+        1.0,
+        {
+            "char" :" wide hips, mature female, squinting, pekomama, bunny girl, bunny ears, animal ear fluff, light blue hair, braid, single braid, bangs, white streaked hair, red eyes,",
+            "hair":",",
+            #"dress":"{bare shoulders, collarbone, dress, long sleeves, off shoulder, off-shoulder dress, off-shoulder sweater, pantyhose, red sweater, sweater, sweater dress, thighs,|__dress_set__}",
+        },
+    ),
+    "mousse_arknights": (
+        "mousse_arknights",
+        (0.825,1.0),
+        1.0,
+        {
+            "char" :"mousse_arknights,",
+            "hair":"animal ears, cat ears, multicolored hair, green eyes, short hair, white hair, hat, cat girl, two-tone hair, black headwear, tail, cat tail, blonde hair, brown hair, animal ear fluff, mini hat, multiple tails, two tails, orange hair",
+            #"dress":"{bare shoulders, collarbone, dress, long sleeves, off shoulder, off-shoulder dress, off-shoulder sweater, pantyhose, red sweater, sweater, sweater dress, thighs,|__dress_set__}",
+        },
+    ),
+    "ceylon_arknights": (
+        "ceylon_arknights",
+        (0.825,1.0),
+        1.0,
+        {
+            "char" :"ceylon_arknights,",
+            "hair":"long hair, pink hair, feather hair, hair bun, hat, white headwear, yellow eyes, bow, hat bow, black bow, very long hair",
+            #"dress":"{bare shoulders, collarbone, dress, long sleeves, off shoulder, off-shoulder dress, off-shoulder sweater, pantyhose, red sweater, sweater, sweater dress, thighs,|__dress_set__}",
+        },
+    ),
+    "MiriaBaccano-08": (
+        "MiriaBaccano-08",
+        (0.825,1.0),
+        1.0,
+        {
+            "char" :"MiriaBaccano,",
             #"hair":"long hair,",
             #"dress":"{bare shoulders, collarbone, dress, long sleeves, off shoulder, off-shoulder dress, off-shoulder sweater, pantyhose, red sweater, sweater, sweater dress, thighs,|__dress_set__}",
         },
