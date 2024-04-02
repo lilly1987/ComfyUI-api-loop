@@ -9,6 +9,26 @@
             #"dress":"",
         },
     ),
+    "黑金": (
+        "黑金",
+        (0.825,1.0),
+        1.0,
+        {
+            "char" :"黑金,",
+            #"hair":"",
+            #"dress":"",
+        },
+    ),
+    "Kai_Dai no Daibouken_Leona_20240331": (
+        "Kai_Dai no Daibouken_Leona_20240331",
+        (0.825,1.0),
+        1.0,
+        {
+            "char" :"Leona, ginger blonde hair, long hair, brown eyes, hair ornament, earrings, white dress, golden collar, golden armband,,",
+            "hair":"",
+            "dress":"",
+        },
+    ),
     "KallenNun-10": (
         "KallenNun-10",
         (0.825,1.0),

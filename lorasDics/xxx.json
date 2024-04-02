@@ -9,6 +9,16 @@
 		{},
 		"rnd",
 	),
+	"pose_StandingRestraintSplitSex-18": (
+		"pose_StandingRestraintSplitSex-18",
+		(0.25,0.75),
+		1.0,
+		{
+		"pose_StandingRestraintSplitSex-18":"standing_restraint_split,",
+		},
+		{},
+		"rnd",
+	),
 	"1731579037439156565": (
 		"1731579037439156565",
 		(0.25,0.75),
