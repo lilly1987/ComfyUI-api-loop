@@ -1378,11 +1378,12 @@
         "SD-INALL"  ,
         #"SD-IND"    ,
         "SD-MIDD"   ,
-        "SD-MIDD1"  ,
+        #"SD-MIDD1"  ,
         "SD-MIDD2"  ,
         "SD-MIDD0.8",
         #"SD-MIDD0.2",
         "SD-MOUT"   ,
+        "SD-OUTD"   ,
         "SD-OUTD"   ,
         "SD-OUTD"   ,
         "SD-OUTS"   ,
@@ -1739,5 +1740,24 @@
 	##"SD-ALL0.5" ,
 	]
 ),
-
+        "makina69_tzuyu_v1.0": (
+            "makina69_tzuyu_v1.0",
+            (0.75,1.0),
+            1.0,
+            {
+                #"char":"cyrille, long hair,",
+                "hair":"very long hair, ",
+                #"dress":"{hair ribbon, white coat, long sleeves, black dress, black thighhighs, white boots,|__dress__,}",
+                #"style":"cardcaptor sakura \(style\), ",
+            },
+        ),
+"shijou_takane_v1": (
+            "shijou_takane_v1",
+            (0.75,1.0),
+            (1.0,1.250),
+            {
+                "char":"aatakane,  hairband,  ",
+                "hair":"long hair,",
+            },
+        ),
 }

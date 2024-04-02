@@ -1,14 +1,6 @@
 {
     "loras":{
-        "char": (
-            "shijou_takane_v1",
-            (0.75,1.0),
-            (1.0,1.250),
-            {
-                "char":"aatakane,  hairband,  ",
-                "hair":"long hair,",
-            },
-        ),
+        "char":"shijou_takane_v1",
         #"aki-000024": "aki-000024",
     },
     #"lorasUpdate":false,

@@ -14,6 +14,7 @@ rem pip install aiohttp
 rem pip install kornia
 rem pip install segment_anything
 rem pip install cv2
+rem pip install gitpython
 C:\Users\lilly\AppData\Local\miniconda3\envs\py3.10.14\python.exe -s ComfyUI\main.py --windows-standalone-build --directml --port 8288  --lowvram --use-split-cross-attention
 
 REM .\python_embeded\python.exe -s ComfyUI\main.py --windows-standalone-build --directml --use-split-cross-attention --force-fp16 --fp16-unet --fp16-vae

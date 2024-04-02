@@ -398,7 +398,9 @@
 	"concept":"doggystyle, from side, 1girl, 1boy, sex from behind,",
 	},
 	{},
-	"rnd",
+	["rnd",
+	"SD-MIDD"
+	],
 	),
 	"conceptLargerInsertion_v10": (
 	"conceptLargerInsertion_v10",
@@ -662,6 +664,7 @@
 	"SD-MIDD2",
 	"SD-MIDD0.8",
 	#"SD-MIDD0.2",
+	"SD-OUTD",
 	"SD-OUTD",
 	"1,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0",
 	"1,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0",
