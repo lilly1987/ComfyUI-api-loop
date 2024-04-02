@@ -9,6 +9,16 @@
             #"dress":"",
         },
     ),
+    "KannagiLokiLora-10v2": (
+        "KannagiLokiLora-10v2",
+        (0.825,1.0),
+        1.0,
+        {
+            "char" :"thick thighs, KannagiLoki, black hair, bangs, short hair, heterochromia, red eyes, yellow eyes, hair ornament, multicolored hair, blonde streaked hair, earrings,",
+            "hair":"",
+            #"dress":"",
+        },
+    ),
     "黑金": (
         "黑金",
         (0.825,1.0),
@@ -1424,13 +1434,63 @@
 			"hair" :"brown hair, long hair, red hair bow, ",
 		},
 	),
+	"monogatari_all_v2-tsukihi": (
+		"monogatari_all_v2",
+		(0.75,1.0),
+		1.0,
+		{
+			"char":"tsukihi,",
+			"hair" :", ",
+			#"dress" :", ",
+		},
+	),
+	"monogatari_all_v2-sengoku nadeko": (
+		"monogatari_all_v2",
+		(0.75,1.0),
+		1.0,
+		{
+			"char":"sengoku nadeko,",
+			"hair" :", ",
+			#"dress" :", ",
+		},
+	),
+	"Amagamine Renna(rr)": (
+		"Amagamine Renna(rr)",
+		(0.75,1.0),
+		1.0,
+		{
+			"char":"Amagamine Renna",
+			"hair" :"black beret,short hair,brown hair,hair rings,hair ornament,sidelocks,hair between eyes,bangs,red eyes,blush, ",
+			"dress" :"school uniform,pink jacket,cropped jacket,open jacket,wing collar,red bowtie,frilled shirt,center frills,white shirt,collared shirt,dress shirt,long sleeves,large breasts,high-waist skirt,grey skirt,plaid skirt,pleated skirt,white socks,loafers,black footwear, ",
+		},
+	),
+	"VioletFate-10": (
+		"VioletFate-10",
+		(0.75,1.0),
+		1.0,
+		{
+			"char":"VioletFate,  very long hair, hair ribbon, cleavage, bare shoulders, medium breasts, purple eyes, purple hair, detached sleeves, black bodysuit, skintight, glasses,,",
+			"hair" :", ",
+			"dress" :", ",
+		},
+	),
+	"lemrina": (
+		"lemrina",
+		(0.75,1.0),
+		1.0,
+		{
+			"char":"hairband,pink hair,short hair,blunt bangs, bob cut,blue eyes,dress,long sleeves,puffy sleeves,,",
+			"hair" :", ",
+			"dress" :", ",
+		},
+	),
 	"iseriaEpicSeven_v1": (
 		"iseriaEpicSeven_v1",
 		(0.75,1.0),
 		1.0,
 		{
 			"char":"xyzstiseria,",
-			#"hair" :"brown hair, ",
+			#"hair" :"hair, ",
 		},
 	),
 	"itzyYuna_v10": (
@@ -1441,6 +1501,85 @@
 			"char":"Yuna Itzy, Yuna,",
 			#"hair" :"brown hair, ",
 		},
+	),
+	"serena_(yu-gi-oh!)_v1": (
+		"serena_(yu-gi-oh!)_v1",
+		(0.75,1.0),
+		1.0,
+		{
+			"char":"aaserena, ponytail, multicolored hair,",
+			"hair" :", ",
+		},
+	),
+	"pokemon serena-lora-nochekaiser": (
+		"pokemon serena-lora-nochekaiser",
+		(0.75,1.0),
+		1.0,
+		{
+			"char":"serena, long hair, blue eyes, brown hair,,",
+			"hair" :", ",
+			#"dress" :"eyewear on head, hat, skirt, sunglasses, shirt, black shirt, sleeveless, red skirt, pink hat, ",
+		},
+	),
+	"serena_(pokemon)_v2-eeserena": (
+		"serena_(pokemon)_v2",
+		(0.5,1.0),
+		1.0,
+		{
+			"char":"eeserena, solo, long hair, ponytail, hair bow, sidelocks, eyelashes, blue eyes, brown dress, shoulder cutout, long sleeves,",
+			"hair" :", ",
+			"dress" :", ",
+		},
+		{},
+		"rnd",
+	),
+	"serena_(pokemon)_v2-ddserena": (
+		"serena_(pokemon)_v2",
+		(0.5,1.0),
+		1.0,
+		{
+			"char":"ddserena, solo, short hair, hair ornament, hair ribbon, eyelashes, blue eyes, white ascot, multicolored dress, black dress, green dress, long sleeves, white pantyhose,",
+			"hair" :", ",
+			"dress" :", ",
+		},
+		{},
+		"rnd",
+	),
+	"serena_(pokemon)_v2-ccserena": (
+		"serena_(pokemon)_v2",
+		(0.5,1.0),
+		1.0,
+		{
+			"char":"ccserena, solo, short hair, (grey headwear:1.2), earrings, eyelashes, blue eyes, grey sweater, sweater vest, sleeveless turtleneck, bare arms, plaid skirt, red skirt, black thighhighs,",
+			"hair" :", ",
+			"dress" :", ",
+		},
+		{},
+		"rnd",
+	),
+	"serena_(pokemon)_v2-bbserena": (
+		"serena_(pokemon)_v2",
+		(0.5,1.0),
+		1.0,
+		{
+			"char":"bbserena, solo, short hair, pink headwear, eyelashes, blue eyes, neck ribbon, blue ribbon, (pink dress:1.2), sleeveless, bare arms, pink skirt, black thighhighs,",
+			"hair" :", ",
+			"dress" :", ",
+		},
+		{},
+		"rnd",
+	),
+	"serena_(pokemon)_v2-aaserena": (
+		"serena_(pokemon)_v2",
+		(0.5,1.0),
+		1.0,
+		{
+			"char":"aaserena, solo, long hair, eyewear on headwear, pink headwear, eyelashes, blue eyes, sleeveless shirt, black shirt, bracelet, high-waist skirt, red skirt, black thighhighs,",
+			"hair" :", ",
+			"dress" :", ",
+		},
+		{},
+		"rnd",
 	),
 	"serenaPokemon_v10": (
 		"serenaPokemon_v10",
