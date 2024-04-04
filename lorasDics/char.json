@@ -1,4 +1,14 @@
 {	 
+    "daidouji_tomoyo_v1": (
+        "daidouji_tomoyo_v1",
+        (0.825,1.0),
+        1.0,
+        {
+            "char" :" purple eyes, small breasts, ",
+            "hair":"long hair, black hair, beret, white headwear, blunt bangs,",
+            "dress":"serafuku, sailor collar, neckerchief, black shirt, long sleeves, pleated skirt, white skirt,",
+        },
+    ),
     "richelieu_azurlane": (
         "richelieu_azurlane",
         (0.825,1.0),
@@ -583,7 +593,7 @@
         ),
     "tomoyo_v3_locon": (
         "tomoyo_v3_locon",
-        (0.5,1.0),
+        (0.875,1.0),
         1.0,
         {
         "char":"daidouji tomoyo, ",
@@ -762,7 +772,7 @@
 	),
 	"佩琳·H·克洛斯特曼--强袭魔女_v1.0": (
 		"佩琳·H·克洛斯特曼--强袭魔女_v1.0",
-		(0.75,1.0),
+		(0.875,1.0),
 		1.0,
 		{
 			#"char":"blue_eyes,",
