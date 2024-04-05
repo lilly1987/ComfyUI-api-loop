@@ -19,6 +19,16 @@
             #"dress":"serafuku, sailor collar, neckerchief, black shirt, long sleeves, pleated skirt, white skirt,",
         },
     ),
+    "MidzuiVT-10": (
+        "MidzuiVT-10",
+        (0.825,1.25),
+        1.25,
+        {
+            "char" :" MidzuiVT, yellow eyes,  , ",
+            "hair":"purple hair, {long ponytail|long hair, hair ornament},",
+            #"dress":"serafuku, sailor collar, neckerchief, black shirt, long sleeves, pleated skirt, white skirt,",
+        },
+    ),
     "Elly (Tonari no Kyuuketsuki-san)": (
         "Elly (Tonari no Kyuuketsuki-san)",
         (0.825,1.25),
