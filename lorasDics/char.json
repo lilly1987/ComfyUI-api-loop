@@ -1,12 +1,82 @@
 {	 
     "daidouji_tomoyo_v1": (
         "daidouji_tomoyo_v1",
-        (0.825,1.0),
-        1.0,
+        (0.825,1.25),
+        1.25,
         {
             "char" :" purple eyes, small breasts, ",
             "hair":"long hair, black hair, beret, white headwear, blunt bangs,",
             "dress":"serafuku, sailor collar, neckerchief, black shirt, long sleeves, pleated skirt, white skirt,",
+        },
+    ),
+    "AnnV1": (
+        "AnnV1",
+        (0.825,1.25),
+        1.25,
+        {
+            "char" :" ellydef, ",
+            #"hair":"long hair, blonde hair,twintails ,",
+            #"dress":"serafuku, sailor collar, neckerchief, black shirt, long sleeves, pleated skirt, white skirt,",
+        },
+    ),
+    "Elly (Tonari no Kyuuketsuki-san)": (
+        "Elly (Tonari no Kyuuketsuki-san)",
+        (0.825,1.25),
+        1.25,
+        {
+            "char" :" ann_persona5, long hair, blue eyes,takamaki anne, ",
+            "hair":"long hair, blonde hair,twintails ,",
+            #"dress":"serafuku, sailor collar, neckerchief, black shirt, long sleeves, pleated skirt, white skirt,",
+        },
+    ),
+    "sawako-bokuben-01": (
+        "sawako-bokuben-01",
+        (0.825,1.25),
+        1.25,
+        {
+            "char" :" sawako sekijou, ",
+            #"hair":"long hair, black hair, beret, white headwear, blunt bangs,",
+            #"dress":"serafuku, sailor collar, neckerchief, black shirt, long sleeves, pleated skirt, white skirt,",
+        },
+    ),
+    "OkitaAccel-10": (
+        "OkitaAccel-10",
+        (0.825,1.25),
+        1.25,
+        {
+            "char" :"OkitaAccel,   pink eyes, ahoge, , ",
+            "hair":"short hair, blonde hair,  hair between eyes,",
+            "dress":"black thighhighs,detached sleeves, black shorts, belt, black sleeves, sleeveless kimono, pink kimono,",
+        },
+    ),
+    "CureSunset-10": (
+        "CureSunset-10",
+        (0.825,1.25),
+        1.25,
+        {
+            "char" :"CureSunset, jewelry, earrings,  dark skin, pink eyes, dark-skinned female,  ",
+            "hair":"long hair, orange hair, hair ornament,hair flower,",
+            "dress":"wrist cuffs, magical girl, heart brooch, yellow skirt, bare shoulders, detached collar,",
+        },
+    ),
+    "ViviLora-10": (
+        "ViviLora-10",
+        (0.825,1.25),
+        1.25,
+        {
+            "char" :"victoriabrightshield,  , aqua eyes, ",
+            "hair":" white hair, bangs, straight hair, long hair,hair between eyes, double bun, hair bun, black headband, blue hair ribbon,",
+            "dress":"black dress, black elbow gloves, thigh highs, white pelvic curtain, bare shoulders,",
+        },
+    ),
+    "gushing over magical girls_v1_05": (
+        "gushing over magical girls_v1_05",
+        (0.825,1.0),
+        1.0,
+        {
+            "char" :"gushing over magical girls, ",
+            #"hair":"long hair, black hair, beret, white headwear, blunt bangs,",
+            "dress":"school uniform, serafuku, sailor collar, pleated skirt, neckerchief,,",
         },
     ),
     "richelieu_azurlane": (
