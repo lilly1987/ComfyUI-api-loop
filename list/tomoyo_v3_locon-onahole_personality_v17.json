@@ -1,0 +1,7 @@
+{
+    "loras":{
+        "char": "tomoyo_v3_locon",
+        "1": "onahole_personality_v17",
+    },
+    "lorasUpdate":false,
+}

@@ -1,11 +1,10 @@
 {
     "loras":{
-        "char": "sharon_holygrail",
-        #"1": "SideFellatio",
-		"2": "Deepthroat",
+        "char": "tomoyo_v3_locon",
         #"obp-000050": "obp-000050",
+        #"monsterSexActLora79_v10": "monsterSexActLora79_v10",
         #"transformation": "transformation",
-        #"hyper_penetration_stomach_bulge_v8": "hyper_penetration_stomach_bulge_v8",
+        "1": "hyper_penetration_stomach_bulge_v8",
         #"microwaist": "microwaist",
         #"hang": "hang",
     },

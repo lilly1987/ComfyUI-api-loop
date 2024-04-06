@@ -1,0 +1,8 @@
+{
+    "loras":{
+        "char": "MahoukaMiyuki-v1-04-Mirage Bat",
+        "1": "obp-000050",
+        #"face": "ahegao_v2.5",
+    },
+    "lorasUpdate":false,
+}

@@ -606,6 +606,26 @@
             "hair":"long hair,",
             #"dress":"{bare shoulders, collarbone, dress, long sleeves, off shoulder, off-shoulder dress, off-shoulder sweater, pantyhose, red sweater, sweater, sweater dress, thighs,|__dress_set__}",
         },
+        {},
+        [
+        "SD-ALL"    ,
+        #"SD-INS"    ,
+        "SD-INALL"  ,
+        #"SD-IND"    ,
+        "SD-MIDD"   ,
+        "SD-MIDD1"  ,
+        "SD-MIDD2"  ,
+        #"SD-MIDD0.8",
+        #"SD-MIDD0.2",
+        "SD-MOUT"   ,
+        "SD-OUTD"   ,
+        #"SD-OUTS"   ,
+        #"SD-OUTALL" ,
+        #"SD-ROUT"   ,
+        #"SD-AOUT"   ,
+        "SD-AB" 	,
+        #"SD-ALL0.5" ,
+        ],
     ),
     "ShibaMiyuki": (
         "ShibaMiyuki",
@@ -639,7 +659,7 @@
 	[
 	"SD-ALL"    ,
 	#"SD-INS"    ,
-	"SD-INALL"  ,
+	#"SD-INALL"  ,
 	"SD-IND"    ,
 	"SD-MIDD"   ,
 	"SD-MIDD"   ,
@@ -953,15 +973,15 @@
         "SD-MIDD1"  ,
         "SD-MIDD2"  ,
         "SD-MIDD0.8",
-        "SD-MIDD0.2",
+        #"SD-MIDD0.2",
         "SD-MOUT"   ,
         "SD-OUTD"   ,
         #"SD-OUTS"   ,
-        "SD-OUTALL" ,
+        #"SD-OUTALL" ,
         "SD-ROUT"   ,
         "SD-AOUT"   ,
         "SD-AB" 	,
-        "SD-ALL0.5" ,
+        #"SD-ALL0.5" ,
         ],
     ),
 	"reines_v2": (
@@ -996,8 +1016,8 @@
 	),
 	"Eris0.32-000008": (
 		"Eris0.32-000008",
-		(0.75,1.0),
-		1.0,
+		(0.875,1.25),
+		(1.0,1.25),
 		{
 			"char":"  [blue eyes:purple eyes:0.5],  ",
 			"hair":"long hair, [purple hair: silver hair:0.5],",
@@ -1162,6 +1182,26 @@
 			#"char":"blue_eyes,",
 			#"hair":"blonde_hair,long_hair,hair_over_shoulder,bangs,",
 		},
+        {},
+        [
+        "SD-ALL"    ,
+        #"SD-INS"    ,
+        "SD-INALL"  ,
+        #"SD-IND"    ,
+        "SD-MIDD"   ,
+        "SD-MIDD1"  ,
+        "SD-MIDD2"  ,
+        #"SD-MIDD0.8",
+        #"SD-MIDD0.2",
+        "SD-MOUT"   ,
+        "SD-OUTD"   ,
+        #"SD-OUTS"   ,
+        #"SD-OUTALL" ,
+        #"SD-ROUT"   ,
+        #"SD-AOUT"   ,
+        "SD-AB" 	,
+        #"SD-ALL0.5" ,
+        ],
 	),
 	"Frederica Bernkastel anything45pruned46r75r-000006": (
 		"Frederica Bernkastel anything45pruned46r75r-000006",
@@ -1695,7 +1735,7 @@
 	),
 	"frenda_seivelun": (
 		"frenda_seivelun",
-		(0.75,1.0),
+		(0.875,1.0),
 		1.0,
 		{
 			"char":"aafrenda,beret,small breasts,",
@@ -1718,7 +1758,7 @@
         "SD-OUTD"   ,
         "SD-OUTS"   ,
         #"SD-OUTALL" ,
-        "SD-ROUT"   ,
+        #"SD-ROUT"   ,
         #"SD-AOUT"   ,
         "SD-AB" 	,
         #"SD-ALL0.5" ,
@@ -2124,13 +2164,14 @@
         #"SD-MIDD1"  ,
         "SD-MIDD2"  ,
         "SD-MIDD0.8",
-        "SD-MIDD0.2",	
+        #"SD-MIDD0.2",	
         "SD-MOUT"   ,
         "SD-OUTD"   ,
-        "SD-OUTS"   ,	
+        #"SD-OUTS"   ,	
         "SD-OUTALL" ,	
         "SD-ROUT" 	,
         "SD-AOUT" 	,
+        "SD-AB" 	,	
         "SD-AB" 	,	
         #"SD-ALL0.5" 
         "1,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0",
@@ -2154,14 +2195,14 @@
 		,"SD-MIDD"   
 		#,"SD-MIDD1"  
 		,"SD-MIDD2"  
-		,"SD-MIDD0.8"
-		,"SD-MIDD0.2"	
+		#,"SD-MIDD0.8"
+		#,"SD-MIDD0.2"	
 		,"SD-MOUT"   
 		,"SD-OUTD"   
-		,"SD-OUTS"   	
-		,"SD-OUTALL" 	
-		,"SD-ROUT" 	
-		,"SD-AOUT" 	
+		#,"SD-OUTS"   	
+		#,"SD-OUTALL" 	
+		#,"SD-ROUT" 	
+		#,"SD-AOUT" 	
 		,"SD-AB" 		
 		#,"SD-ALL0.5" 
 		]
