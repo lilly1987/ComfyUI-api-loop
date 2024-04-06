@@ -9,12 +9,52 @@
             "dress":"serafuku, sailor collar, neckerchief, black shirt, long sleeves, pleated skirt, white skirt,",
         },
     ),
+    "mayumi_v1.0": (
+        "mayumi_v1.0",
+        (0.825,1.25),
+        1.25,
+        {
+            "char" :"mayumi, ",
+            "hair":"long hair, ",
+            "dress":"mahouka_uniform, green_jacket, white_sleeveless_dress, necktie,",
+        },
+    ),
+    "KarenLora-10": (
+        "KarenLora-10",
+        (0.825,1.25),
+        1.25,
+        {
+            "char" :" karen /(pokemon/), ",
+            #"hair":"long hair, blonde hair,twintails ,",
+            #"dress":"serafuku, sailor collar, neckerchief, black shirt, long sleeves, pleated skirt, white skirt,",
+        },
+    ),
+    "Kongou_Aoki": (
+        "Kongou_Aoki",
+        (0.825,1.25),
+        1.25,
+        {
+            "char" :" kongou_aoki, ",
+            #"hair":"long hair, blonde hair,twintails ,",
+            #"dress":"serafuku, sailor collar, neckerchief, black shirt, long sleeves, pleated skirt, white skirt,",
+        },
+    ),
+    "takao_v10": (
+        "takao_v10",
+        (0.825,1.25),
+        1.25,
+        {
+            "char" :" takao_aoki, ",
+            #"hair":"long hair, blonde hair,twintails ,",
+            #"dress":"serafuku, sailor collar, neckerchief, black shirt, long sleeves, pleated skirt, white skirt,",
+        },
+    ),
     "kayoko": (
         "kayoko",
         (0.825,1.25),
         1.25,
         {
-            "char" :" kayoko(blue archive), ",
+            "char" :" kayoko_\(blue_archive\), ",
             #"hair":"long hair, blonde hair,twintails ,",
             #"dress":"serafuku, sailor collar, neckerchief, black shirt, long sleeves, pleated skirt, white skirt,",
         },
