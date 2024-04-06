@@ -31,17 +31,17 @@ def dircmp(p1,p2):
     fsl=fs.left_only
     for f in fsl:
         p=Path(p1,f)
-        print(f"del f : ",p)
+        print(f"remove : ",p)
         os.remove(p)
     
     fsl=fs.right_only
     for f in fsl:
         p=Path(p2,f)
-        print(f"add f : ",p)
         if os.path.islink(p):
-            print(f"[red] false [/red]",p)
+            print(f"remove",p)
             os.remove(p)
         else:
+            print(f"add : ",p1)
             shutil.copy(p, p1)
             
 print(sys.argv)

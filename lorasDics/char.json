@@ -19,6 +19,86 @@
             #"dress":"serafuku, sailor collar, neckerchief, black shirt, long sleeves, pleated skirt, white skirt,",
         },
     ),
+    "mahjongsoul_lily": (
+        "mahjongsoul_lily",
+        (0.825,1.25),
+        1.25,
+        {
+            "char" :"KitaharaLily, ",
+            #"hair":"long hair, blonde hair,twintails ,",
+            #"dress":"serafuku, sailor collar, neckerchief, black shirt, long sleeves, pleated skirt, white skirt,",
+        },
+    ),
+    "mahjongsoul_miki": (
+        "mahjongsoul_miki",
+        (0.825,1.25),
+        1.25,
+        {
+            "char" :"NikaidouMiki, ",
+            #"hair":"long hair, blonde hair,twintails ,",
+            #"dress":"serafuku, sailor collar, neckerchief, black shirt, long sleeves, pleated skirt, white skirt,",
+        },
+    ),
+    "mahjongsoul_mikami": (
+        "mahjongsoul_mikami",
+        (0.825,1.25),
+        1.25,
+        {
+            "char" :"ChioriMikami, ",
+            #"hair":"long hair, blonde hair,twintails ,",
+            #"dress":"serafuku, sailor collar, neckerchief, black shirt, long sleeves, pleated skirt, white skirt,",
+        },
+    ),
+    "mahjongsoul_kitami": (
+        "mahjongsoul_kitami",
+        (0.825,1.25),
+        1.25,
+        {
+            "char" :"SawakoKitami, ",
+            #"hair":"long hair, blonde hair,twintails ,",
+            #"dress":"serafuku, sailor collar, neckerchief, black shirt, long sleeves, pleated skirt, white skirt,",
+        },
+    ),
+    "mahjongsoul_kazuha": (
+        "mahjongsoul_kazuha",
+        (0.825,1.25),
+        1.25,
+        {
+            "char" :"SaionjiKazuha, ",
+            #"hair":"long hair, blonde hair,twintails ,",
+            #"dress":"serafuku, sailor collar, neckerchief, black shirt, long sleeves, pleated skirt, white skirt,",
+        },
+    ),
+    "mahjongsoul_hinamomo": (
+        "mahjongsoul_hinamomo",
+        (0.825,1.25),
+        1.25,
+        {
+            "char" :"HinaMomo, ",
+            #"hair":"long hair, blonde hair,twintails ,",
+            #"dress":"serafuku, sailor collar, neckerchief, black shirt, long sleeves, pleated skirt, white skirt,",
+        },
+    ),
+    "mahjongsoul_eliisa": (
+        "mahjongsoul_eliisa",
+        (0.825,1.25),
+        1.25,
+        {
+            "char" :"Eliisa, ",
+            #"hair":"long hair, blonde hair,twintails ,",
+            #"dress":"serafuku, sailor collar, neckerchief, black shirt, long sleeves, pleated skirt, white skirt,",
+        },
+    ),
+    "mahjongsoul_ayane": (
+        "mahjongsoul_ayane",
+        (0.825,1.25),
+        1.25,
+        {
+            "char" :"KisaragiAyane, ",
+            #"hair":"long hair, blonde hair,twintails ,",
+            #"dress":"serafuku, sailor collar, neckerchief, black shirt, long sleeves, pleated skirt, white skirt,",
+        },
+    ),
     "Nasya-000015": (
         "Nasya-000015",
         (0.875,1.0),
@@ -315,7 +395,7 @@
         1.0,
         {
             "char" :" araragi tsukihi,  blue eyes,black eyes,",
-            "hair":"egg hair ornament, long_hair, hair ornament, food-themed hair ornament, black hair, bangs, fried egg, egg (food), food,",
+            "hair":"egg hair ornament, long hair, hair ornament, food-themed hair ornament, black hair, bangs, fried egg, egg (food), food,",
             "dress":"kimono, japanese clothes,obi, wide sleeves, long sleeves,  green kimono, yellow sash, blue kimono,sleeves past wrists, short kimono,  ",
         },
         {},
@@ -1562,7 +1642,7 @@
         #"SD-MIDD0.2",
         "SD-MOUT"   ,
         "SD-OUTD"   ,
-        "SD-OUTS"   ,
+        #"SD-OUTS"   ,
         #"SD-OUTALL" ,
         "SD-ROUT"   ,
         #"SD-AOUT"   ,
