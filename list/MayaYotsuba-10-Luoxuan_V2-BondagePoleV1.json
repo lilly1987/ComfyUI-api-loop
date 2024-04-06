@@ -1,15 +1,6 @@
 {
     "loras":{
-        "char": (
-            "MayaYotsuba-10",
-            (0.25,0.75),
-            1.0,
-            {
-                "char" :" MayaYotsuba,  purple eyes,braid,,",
-                "hair":"  purple hair, long hair, drill hair, ",
-                "dress":"long sleeves, purple dress, cleavage,  collarbone, frills, long dress, ",
-            },
-        ),
+        "char":  "MayaYotsuba-10",
 		#"fingering_3rd_v1":"fingering_3rd_v1",
         #"hang": "hang",
         "Luoxuan_V2": "Luoxuan_V2",

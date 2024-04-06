@@ -1,16 +1,7 @@
 {
     "loras":{
-        "char": (
-            "feiyufuV1",
-            (0.5,1.0),
-            1.0,
-            {
-			"char": "feiyufuV1,",
-			#"hair": "long hair, low twintails, hair over one eye,",
-			#"dress":"school uniform, blazer, black jacket,",
-			#"skirt":"pleated skirt, blue skirt,",
-			#"thighhighs":"black pantyhose,",
-            },
-        ),
+        "char": "feiyufuV1",
+        #"1":"cowgirl-2.0",
     },
+    #"lorasUpdate":false,
 }

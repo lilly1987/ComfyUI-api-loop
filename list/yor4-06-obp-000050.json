@@ -1,0 +1,8 @@
+{
+    "loras":{
+        "char": "yor4-06",
+        "1": "obp-000050",
+        #"face": "ahegao_v2.5",
+    },
+    "lorasUpdate":false,
+}

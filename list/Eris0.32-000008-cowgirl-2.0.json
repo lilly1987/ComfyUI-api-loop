@@ -1,0 +1,13 @@
+{
+    "loras":{
+        "Hood": "Eris0.32-000008",
+        #"SideFellatio": "SideFellatio",
+		#"monsterSexActLora79_v10": "monsterSexActLora79_v10",
+        #"obp-000050": "obp-000050",
+        #"transformation": "transformation",
+        "1": "cowgirl-2.0",
+        #"microwaist": "microwaist",
+        #"hang": "hang",
+    },
+    "lorasUpdate":false,
+}

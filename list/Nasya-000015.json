@@ -1,13 +1,5 @@
 {
     "loras":{
-        "char": (
-            "Nasya-000015",
-            (0.25,1.0),
-            1.0,
-            {
-        "char":"Nasya, ",
-        "hair":"long hair, ",
-            },
-        ),
+        "char": "Nasya-000015",
     },
 }

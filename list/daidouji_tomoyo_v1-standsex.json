@@ -1,0 +1,10 @@
+{
+    "loras": {
+        "char":"daidouji_tomoyo_v1",
+        #"hair":"long hair,",
+        #"dress":"{__Marianne_Vi_Britannia_dress__,|}",
+        #"style":"cardcaptor sakura \(style\), ",
+        "1": "standsex",
+    },
+    "lorasUpdate":false,
+}
