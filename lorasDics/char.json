@@ -480,6 +480,16 @@
             #"dress":"{bare shoulders, collarbone, dress, long sleeves, off shoulder, off-shoulder dress, off-shoulder sweater, pantyhose, red sweater, sweater, sweater dress, thighs,|__dress_set__}",
         },
     ),
+    "浊心斯卡蒂v3-000011": (
+        "浊心斯卡蒂v3-000011",
+        (0.825,1.0),
+        1.0,
+        {
+            "char" :"BREAK a girl named skadi,skadi,1girl,red dress,official alternate costume,ascot,hat,ribbon,navel,wide sleeves, BREAK ",
+            #"hair":"long hair,",
+            #"dress":"{bare shoulders, collarbone, dress, long sleeves, off shoulder, off-shoulder dress, off-shoulder sweater, pantyhose, red sweater, sweater, sweater dress, thighs,|__dress_set__}",
+        },
+    ),
     "Lou": (
         "Lou",
         (0.825,1.0),
