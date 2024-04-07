@@ -1,15 +1,6 @@
 {
     "loras":{
-        "char": (
-            "sakagami tomoyo_v1_04",
-            (0.75,1.0),
-            1.0,
-            {
-                "char":"sakagami tomoyo, ,",
-                "hair":"long hair,",
-                "dress":" hikarizaka private high school uniform, ",
-            },
-        ),
+        "char": "sakagami tomoyo_v1_04",
 		#"hang": "hang",
     },
     #"lorasUpdate":false,

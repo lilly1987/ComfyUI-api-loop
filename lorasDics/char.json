@@ -597,6 +597,16 @@
             #"dress":"{bare shoulders, collarbone, dress, long sleeves, off shoulder, off-shoulder dress, off-shoulder sweater, pantyhose, red sweater, sweater, sweater dress, thighs,|__dress_set__}",
         },
     ),
+    "sakagami tomoyo_v1_04": (
+            "sakagami tomoyo_v1_04",
+            (0.75,1.0),
+            1.0,
+            {
+                "char":"sakagami tomoyo, ,",
+                "hair":"long hair,",
+                "dress":" hikarizaka private high school uniform, ",
+            },
+        ),
     "Araragi Tsukihi": (
         "Araragi Tsukihi",
         (0.825,1.0),
@@ -1261,7 +1271,6 @@
 		{
 			"hair":"twintails,  ",
 		},
-        {},
         [
         "SD-ALL"    ,
         #"SD-INS"    ,
@@ -1282,6 +1291,16 @@
         #"SD-ALL0.5" ,
         ],
 	),
+    "EmiKino-10": (
+        "EmiKino-10",
+        (0.75,1.0),
+        1.0,
+        {
+            "char" :"EmiKino,  pink eyes,,",
+            "hair":"long hair, pink hair,",
+            "dress":"{ thighhighs, pantyhose, hood, fingerless gloves,|__dress_set__,}",
+        },
+    ),
 	"Toki_V2.0": (
 		"Toki_V2.0",
 		(0.75,1.0),
@@ -1500,7 +1519,7 @@
  "SD-OUTD"   ,
  "SD-OUTS"   ,
  "SD-OUTALL" ,
- "SD-ROUT"   ,
+ "SD-ROUT"   , #
  "SD-AOUT"   ,
  "SD-AB" 	,
  #"SD-ALL0.5" ,

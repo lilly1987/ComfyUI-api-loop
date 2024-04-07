@@ -1,7 +1,7 @@
 {
-    "lorasUpdate":false,
     "loras":{
         "char": "yor_briar_spyxfamily",
         "hunged_girl": "hunged_girl",
     },
+    "lorasUpdate":false,
 }
