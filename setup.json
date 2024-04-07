@@ -64,7 +64,7 @@
 			"steps_max": 40,
 		},
 		"DetailerForEachDebug":{
-            "steps": 15,
+            "steps": 20,
 			"steps_min": 15,
 			"steps_max": 20,
 		},
