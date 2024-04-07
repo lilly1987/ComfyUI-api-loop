@@ -59,14 +59,14 @@
         "itemCnt":4,
         "queue_cnt":1,
 		"KSampler":{
-			"steps": 30,
-			"steps_min": 30,
-			"steps_max": 40,
+			#"steps": 30,
+			"steps_min": 25,
+			"steps_max": 35,
 		},
 		"DetailerForEachDebug":{
-            "steps": 20,
+            #"steps": 20,
 			"steps_min": 15,
-			"steps_max": 20,
+			"steps_max": 25,
 		},
 		"EmptyLatentImage":{
 			"width": 360,
@@ -79,12 +79,14 @@
         "queue_cnt":1,
 		#"steps": 25,
 		"KSampler":{
-			"steps": 25,
-			"steps_min": 20,
-			"steps_max": 20,
+			#"steps": 30,
+			"steps_min": 25,
+			"steps_max": 35,
 		},
 		"DetailerForEachDebug":{
-			"steps": 15,
+            #"steps": 20,
+			"steps_min": 15,
+			"steps_max": 25,
 		},
 		"EmptyLatentImage":{
 			"width": 360,
