@@ -72,13 +72,31 @@
 	),
 	"multiple_insertions_v0.2": (
 	"multiple_insertions_v0.2",
-	(0.25,0.75),
+	(0.5,01.25),
 	1.0,
 	{
 	"concept":"(multiple insertions:1.25), large insertion, missionary,",
 	},
 	{},
-	"rnd",
+	[
+	"SD-ALL"    ,
+	#"SD-INS"    ,
+	"SD-INALL"  ,
+	"SD-IND"    ,
+	"SD-MIDD"   ,
+	"SD-MIDD1"  ,
+	"SD-MIDD2"  ,
+	"SD-MIDD0.8",
+	#"SD-MIDD0.2",
+	"SD-MOUT"   ,
+	"SD-OUTD"   ,
+	"SD-OUTS"   ,
+	#"SD-OUTALL" ,
+	"SD-ROUT"   ,
+	"SD-AOUT"   ,
+	"SD-AB" 	,
+	#"SD-ALL0.5" ,
+	],
 	),
 	"tentacles": (
 		"tentacles",
@@ -295,16 +313,33 @@
 	"rnd",
 	),
 	"vibrator_in_thighhighs": (
-	"vibrator_in_thighhighs",
-	(0.25,0.75),
-	1.0,
-	{
-	"vibrator":"vibrator on nipple, vibrator under clothes, vibrator in thighhighs, vibrator cord, egg vibrator,",
-	},
-	{},
-	["rnd",
-	"A,1,1,1,1,1,1,1,1,1,1,1,A,A,A,A,A",
-	]
+		"vibrator_in_thighhighs",
+		(0.5,01.25),
+		1.0,
+		{
+		"vibrator":"vibrator on nipple, vibrator under clothes, vibrator in thighhighs, vibrator cord, egg vibrator,",
+		},
+		{},
+		[
+		"SD-ALL"    ,
+		#"SD-INS"    ,
+		"SD-INALL"  ,
+		"SD-IND"    ,
+		"SD-MIDD"   ,
+		"SD-MIDD1"  ,
+		"SD-MIDD2"  ,
+		"SD-MIDD0.8",
+		#"SD-MIDD0.2",
+		"SD-MOUT"   ,
+		"SD-OUTD"   ,
+		"SD-OUTS"   ,
+		#"SD-OUTALL" ,
+		"SD-ROUT"   ,
+		"SD-AOUT"   ,
+		"SD-AOUT"   ,
+		"SD-AB" 	,
+		#"SD-ALL0.5" ,
+		]
 	),
 	"monsterSexActLora79_v10": (
 	"monsterSexActLora79_v10",
@@ -1491,7 +1526,7 @@
 	),
 	"DildoRiding":(
 	"DildoRiding",
-	(0.25,0.75),
+	(0.5,01.25),
 	1.0,
 	{
 	"Insertion":"kneeling, anal, anal object insertion,  pussy juice, pussy, clit, drooling, rolling eyes, motion lines, ahegao, naughty face, clothes lift, skirt lift, clothing aside, clothed masturbation, heavy breathing), dildo_riding, object_insertion, dildo, vaginal_object_insertion, sex_toy, vaginal, large_insertion, uncensored, masturbation, female_masturbation,",
@@ -1585,7 +1620,7 @@
 	),
 	"fingering_3rd_v1":(
 		"fingering_3rd_v1",
-		(0.25,0.75),
+		(0.25,01.25),
 		1.0,
 		{
 		"boy":"1boy,",
@@ -1666,7 +1701,7 @@
 	),
 	"tprolapse":(
 		"tprolapse",
-		(0.25,0.75),
+		(0.25,01.25),
 		1.0,
 		{
 			"tprolapse":"tprolapse,uterine prolapse,",

@@ -1,5 +1,7 @@
 {
     "loras":{
         "char":"tokisaki_kurumi_v1",
+		"1": "tprolapse",
     },
+    "lorasUpdate":false,
 }

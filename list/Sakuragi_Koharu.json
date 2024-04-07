@@ -1,8 +1,5 @@
 {
-    "positive": {
-        "char":" <lora:Sakuragi_Koharu:__0.75__:1.0>, koharu,",
-        #"hair":"hairclip,two-tone_hair,hair_ornament,",
-        #"dress":"{__Marianne_Vi_Britannia_dress__,|}",
-        #"style":"cardcaptor sakura \(style\), ",
+    "loras": {
+        "char":"Sakuragi_Koharu"
     },
 }
