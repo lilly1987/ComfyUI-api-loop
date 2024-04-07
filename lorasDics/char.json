@@ -460,12 +460,42 @@
             #"dress":"{bare shoulders, collarbone, dress, long sleeves, off shoulder, off-shoulder dress, off-shoulder sweater, pantyhose, red sweater, sweater, sweater dress, thighs,|__dress_set__}",
         },
     ),
+    "蓝毒-000008": (
+        "蓝毒-000008",
+        (0.825,1.0),
+        1.0,
+        {
+            "char" :"BREAK a girl named arklandu,arklandu,1girl,earrings,low twintails,twin braids, BREAK",
+            #"hair":"long hair,",
+            #"dress":"{bare shoulders, collarbone, dress, long sleeves, off shoulder, off-shoulder dress, off-shoulder sweater, pantyhose, red sweater, sweater, sweater dress, thighs,|__dress_set__}",
+        },
+    ),
     "azki diva1": (
         "azki diva1",
         (0.825,1.0),
         1.0,
         {
+            "char" :"lysithea,",
+            #"hair":"long hair,",
+            #"dress":"{bare shoulders, collarbone, dress, long sleeves, off shoulder, off-shoulder dress, off-shoulder sweater, pantyhose, red sweater, sweater, sweater dress, thighs,|__dress_set__}",
+        },
+    ),
+    "PONY_Lysithea": (
+        "PONY_Lysithea",
+        (0.825,1.0),
+        1.0,
+        {
             "char" :",",
+            #"hair":"long hair,",
+            #"dress":"{bare shoulders, collarbone, dress, long sleeves, off shoulder, off-shoulder dress, off-shoulder sweater, pantyhose, red sweater, sweater, sweater dress, thighs,|__dress_set__}",
+        },
+    ),
+    "wyndia s3-lora-ivnaqn": (
+        "wyndia s3-lora-ivnaqn",
+        (0.825,1.0),
+        1.0,
+        {
+            "char" :"BREAK wyndia, 1girl, short hair, light orange hair, animal ears, dog ears, dog tail, brown eyes, shirt, white shirt, hoodie, blue hoodie, long sleeves, skirt, brown skirt, brown boots, BREAK",
             #"hair":"long hair,",
             #"dress":"{bare shoulders, collarbone, dress, long sleeves, off shoulder, off-shoulder dress, off-shoulder sweater, pantyhose, red sweater, sweater, sweater dress, thighs,|__dress_set__}",
         },
@@ -478,6 +508,16 @@
             "char" :"ffhsr,",
             #"hair":"long hair,",
             #"dress":"{bare shoulders, collarbone, dress, long sleeves, off shoulder, off-shoulder dress, off-shoulder sweater, pantyhose, red sweater, sweater, sweater dress, thighs,|__dress_set__}",
+        },
+    ),
+    "Yor Briar(sf)": (
+        "Yor Briar(sf)",
+        (0.825,1.0),
+        1.0,
+        {
+            "char" :"BREAK long hair,black hair,short hair with long locks,straight hair,white hairband,jewelry,earrings,sidelocks,hair between eyes,bangs,red eyes,upper teeth only, BREAK ",
+            #"hair":"long hair,",
+            #"dress":"collarbone,bare shoulders,red dress,sweater dress,long sleeves,medium breasts,black pantyhose,high heel boots",
         },
     ),
     "浊心斯卡蒂v3-000011": (
