@@ -59,7 +59,7 @@
         "itemCnt":4,
         "queue_cnt":1,
 		"KSampler":{
-			"steps": 25,
+			"steps": 30,
 			"steps_min": 30,
 			"steps_max": 40,
 		},
