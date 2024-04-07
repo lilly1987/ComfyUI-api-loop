@@ -1,10 +1,31 @@
 {
+	"hugeDildos_v10": (
+		"hugeDildos_v10",
+        (0.25,0.75),
+        1.0,
+        {
+            "concept":"Dildo , dildo riding , Dildo sex , dildo insertion , large insertion, sex toy, huge_dildo, object_insertion, ",
+        },
+		{},
+		"rnd",
+	),
 	"waterdress_real_v1": (
 		"waterdress_real_v1",
 		(0.25,0.75),
 		1.0,
 		{
 		"waterdress_real_v1":"waterdress,",
+		},
+		{},
+		"rnd",
+	),
+	"hugAndSuckConcept_v1-18": (
+		"hugAndSuckConcept_v1-18",
+		(0.5,01.0),
+		1.0,
+		{
+            "hugAndSuckConcept_v1":"hug and suck,1boy,1girl,fellatio,hetero,oral,{waist hug|}",
+            "from side":"from side,",
 		},
 		{},
 		"rnd",
@@ -648,8 +669,8 @@
 	(0.25,0.75),
 	(1.0,1.25),
 	{
-	"hang":"hunged_girl, {noose,|} {asphyxiation,|} {rolling eyes,|} {open mouth,{tongue,|}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
-	"hang":"hanging, (hunged_girl:1.25),rope on neck, noose, asphyxiation, rolling eyes, {open mouth,{tongue,|}|} {gore,|} {guro,|} {arms_behind_back, bound_arms, arms bound,|} {hang in the air,|} bdsm, bound,",
+	"hang":"hunged_girl, {noose,|} {asphyxiation,|} {rolling eyes,|} {open mouth,{tongue,|3::}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
+	"hang":"hanging, (hunged_girl:1.25),rope on neck, noose, asphyxiation, rolling eyes, {open mouth,{tongue,|3::}|} {gore,|} {guro,|} {arms_behind_back, bound_arms, arms bound,|} {hang in the air,|} bdsm, bound,",
 	},
 	{},
 	[
@@ -672,8 +693,8 @@
 	(0.25,0.75),
 	(1.0,1.25),
 	{
-	"hang":"hunged_girl, {noose,|} {asphyxiation,|} {rolling eyes,|} {open mouth,{tongue,|}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
-	"hang":"hanging, (hunged_girl:1.25),rope on neck, noose, asphyxiation, rolling eyes, {open mouth,{tongue,|}|} {gore,|} {guro,|} {arms_behind_back, bound_arms, arms bound,|} {hang in the air,|} bdsm, bound,",
+	"hang":"hunged_girl, {noose,|} {asphyxiation,|} {rolling eyes,|} {open mouth,{tongue,|3::}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
+	"hang":"hanging, (hunged_girl:1.25),rope on neck, noose, asphyxiation, rolling eyes, {open mouth,{tongue,|3::}|} {gore,|} {guro,|} {arms_behind_back, bound_arms, arms bound,|} {hang in the air,|} bdsm, bound,",
 	},
 	{},
 	[
@@ -695,8 +716,8 @@
 	(0.25,0.75),
 	(1.0,1.125),
 	{
-	"hang":"hunged_girl, {noose,|} {asphyxiation,|} {rolling eyes,|} {open mouth,{tongue,|}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
-	"hang":"hanging, (hunged_girl:1.0),rope on neck, noose, asphyxiation, rolling eyes, {open mouth,{tongue,|}|} {gore,|} {guro,|} {arms_behind_back, bound_arms, arms bound,|} {hang in the air,|} bdsm, bound,",
+	"hang":"hunged_girl, {noose,|} {asphyxiation,|} {rolling eyes,|} {open mouth,{tongue,|3::}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
+	"hang":"hanging, (hunged_girl:1.0),rope on neck, noose, asphyxiation, rolling eyes, {open mouth,{tongue,|3::}|} {gore,|} {guro,|} {arms_behind_back, bound_arms, arms bound,|} {hang in the air,|} bdsm, bound,",
 	},
 	{},
 	[
@@ -716,8 +737,8 @@
 	(0.5,0.75),
 	(1.0,1.125),
 	{
-	"hang":"hunged_girl, {noose,|} {asphyxiation,|} {rolling eyes,|} {open mouth,{tongue,|}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
-	"hang":"hanging, (hunged_girl:1.0),rope on neck, noose, asphyxiation, rolling eyes, {open mouth,{tongue,|}|} {gore,|} {guro,|} {arms_behind_back, bound_arms, arms bound,|} {hang in the air,|} bdsm, bound,",
+	"hang":"hunged_girl, {noose,|} {asphyxiation,|} {rolling eyes,|} {open mouth,{tongue,|3::}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
+	"hang":"hanging, (hunged_girl:1.0),rope on neck, noose, asphyxiation, rolling eyes, {open mouth,{tongue,|3::}|} {gore,|} {guro,|} {arms_behind_back, bound_arms, arms bound,|} {hang in the air,|} bdsm, bound,",
 	},
 	{},
 	[
@@ -739,8 +760,8 @@
 	(0.25,0.75),
 	(1.0,1.125),
 	{
-	"hang":"hunged_girl, {noose,|} {asphyxiation,|} {rolling eyes,|} {open mouth,{tongue,|}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
-	"hang":"hanging, (hunged_girl:1.0),rope on neck, noose, asphyxiation, rolling eyes, {open mouth,{tongue,|}|} {gore,|} {guro,|} {arms_behind_back, bound_arms, arms bound,|} {hang in the air,|} bdsm, bound,",
+	"hang":"hunged_girl, {noose,|} {asphyxiation,|} {rolling eyes,|} {open mouth,{tongue,|3::}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
+	"hang":"hanging, (hunged_girl:1.0),rope on neck, noose, asphyxiation, rolling eyes, {open mouth,{tongue,|3::}|} {gore,|} {guro,|} {arms_behind_back, bound_arms, arms bound,|} {hang in the air,|} bdsm, bound,",
 	},
 	{},
 	[
@@ -761,8 +782,8 @@
 		(0.25,0.75),
 		(1.0,1.125),
 		{
-		"hang":"hunged_girl, {noose,|} {asphyxiation,|} {rolling eyes,|} {open mouth,{tongue,|}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
-		"hang":"hanging, (hunged_girl:1.0),rope on neck, noose, asphyxiation, rolling eyes, {open mouth,{tongue,|}|} {gore,|} {guro,|} {arms_behind_back, bound_arms, arms bound,|} {hang in the air,|} bdsm, bound,",
+		"hang":"hunged_girl, {noose,|} {asphyxiation,|} {rolling eyes,|} {open mouth,{tongue,|3::}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
+		"hang":"hanging, (hunged_girl:1.0),rope on neck, noose, asphyxiation, rolling eyes, {open mouth,{tongue,|3::}|} {gore,|} {guro,|} {arms_behind_back, bound_arms, arms bound,|} {hang in the air,|} bdsm, bound,",
 		},
 		{},
 		[
@@ -781,8 +802,8 @@
         (0.75,01.0),
         (1.0,1.25),
         {
-            "hang":"(execution_on_gallows:1.25), noose, asphyxiation, rolling eyes, open mouth,{tongue,|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
-            "hang":"(execution_on_gallows:1.25),rope on neck, {noose,|} {asphyxiation,|} rolling eyes, {open mouth,{tongue,|}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
+            "hang":"(execution_on_gallows:1.25), noose, asphyxiation, rolling eyes, open mouth,{tongue,|3::} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
+            "hang":"(execution_on_gallows:1.25),rope on neck, {noose,|} {asphyxiation,|} rolling eyes, {open mouth,{tongue,|3::}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
         },
         {},
         [
@@ -800,8 +821,8 @@
 		(0.75,01.0),
 		(1.0,1.5),
 		{
-		"hang":"hunged_girl, {noose,|} {asphyxiation,|} {rolling eyes,|} {open mouth,{tongue,|}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
-		"hang":"(hunged_girl:1.0),rope on neck, noose, asphyxiation, rolling eyes, {open mouth,{tongue,|}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
+		"hang":"hunged_girl, {noose,|} {asphyxiation,|} {rolling eyes,|} {open mouth,{tongue,|3::}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
+		"hang":"(hunged_girl:1.0),rope on neck, noose, asphyxiation, rolling eyes, {open mouth,{tongue,|3::}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
 		},
 		{},
 		[
@@ -845,7 +866,7 @@
 	(0.25,0.75),
 	(1.0,1.25),
 	{
-	"hang":"(hunged_girl:1.25), rope on neck, noose, asphyxiation, rolling eyes, {open mouth,{tongue,|}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|} ",
+	"hang":"(hunged_girl:1.25), rope on neck, noose, asphyxiation, rolling eyes, {open mouth,{tongue,|3::}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|} ",
 	},
 	{},
 	[
@@ -919,6 +940,7 @@
 		(1.0,1.5),
 		{
             "boy":"{1boy|2boys},",
+            "cowgirl-2.0" :" pussy cock deep penetration,",
 			"revcowgirl":"revcowgirl,",
 		},
 		{
