@@ -1044,7 +1044,7 @@
 	"onahole_personality_v17":(
 		"onahole_personality_v17",
 		(0.75,01.25),
-		(1.0,1.25),
+		(0.75,01.25),
 		{
 			"onahole":"onahole, {holding onahole,|} {transparent onahole,|} limbless, armless, legsless,",
 		},
@@ -1068,6 +1068,7 @@
 			"SD-OUTS"   ,
 			"SD-OUTALL" ,
 			#"SD-ROUT"   ,
+			"SD-AOUT"   ,
 			"SD-AOUT"   ,
 			"SD-AOUT"   ,
 			"SD-AB" 	,

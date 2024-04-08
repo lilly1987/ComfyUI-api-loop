@@ -29,6 +29,16 @@
             #"dress":"serafuku, sailor collar, neckerchief, black shirt, long sleeves, pleated skirt, white skirt,",
         },
     ),
+    "emilia_krt_girls-30": (
+        "emilia_krt_girls-30",
+        (0.825,1.25),
+        1.25,
+        {
+            "char" :"BREAK emilia_krt_girls, 1girl, solo, long hair, blonde hair, hair ornament, ribbon, twintails, green eyes, hair ribbon, hairclip, black ribbon, low twintails, BREAK ",
+            #"hair":"long hair, blonde hair,twintails ,",
+            "dress":"BREAK skirt, shirt, gloves, long sleeves, hat, standing, jacket, pantyhose, necktie, shoes, striped, white gloves, miniskirt, uniform, blue skirt, black pantyhose, blue jacket, armband, blue headwear, pencil skirt, blue necktie, striped necktie, BREAK",
+        },
+    ),
     "Kongou_Aoki": (
         "Kongou_Aoki",
         (0.825,1.25),
@@ -2258,7 +2268,8 @@
 		#"SD-INS"   	,
 		#"SD-INALL" ,		
 		"SD-IND"   	,	
-		"SD-IND"   	,	
+		#"SD-IND"   	,	
+		"SD-MIDD"   ,
 		"SD-MIDD"   ,
 		#"SD-MIDD1"  ,
 		"SD-MIDD2"  ,
@@ -2270,10 +2281,10 @@
 		#"SD-OUTALL" ,	
 		"SD-ROUT" 	,
 		"SD-ROUT" 	,
+		"SD-ROUT" 	,
 		#"SD-AOUT" 	,
 		"SD-AB" 	,	
 		#"SD-ALL0.5" ,
-        "1,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0",
 		]
 	),
 	"magia-sulfur": (
