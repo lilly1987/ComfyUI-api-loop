@@ -37,4 +37,4 @@ Get-ChildItem -Recurse -LiteralPath $fin |
 			'--- YES ---'
 		}
 	} { '--- END ---' }
-#Read-Host "End"
+Read-Host "End"

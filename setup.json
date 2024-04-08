@@ -80,13 +80,13 @@
 		#"steps": 25,
 		"KSampler":{
 			#"steps": 30,
-			"steps_min": 25,
-			"steps_max": 35,
+			"steps_min": 20,
+			"steps_max": 30,
 		},
 		"DetailerForEachDebug":{
             #"steps": 20,
-			"steps_min": 15,
-			"steps_max": 25,
+			"steps_min": 10,
+			"steps_max": 20,
 		},
 		"EmptyLatentImage":{
 			"width": 360,
@@ -148,6 +148,10 @@
     "*transformation*",
     "*SideFellatio*",
     "*Deepthroat*",
+    "*AoyuMillionLives-10*",
+    "*1732915898190268077*",
+    "*PrincessConnect_Ameth*",
+    "*安洁*",
     "*Deepthroats*",
     "*DildoRiding*",
     #"araragiTsukihiLora_v1-transformation",
