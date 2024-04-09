@@ -593,7 +593,7 @@
     "araragiTsukihiLora_v1": (
         "araragiTsukihiLora_v1",
         (0.825,1.0),
-        1.0,
+        (1.0,1.25),
         {
             "char" :" araragi tsukihi,  blue eyes,black eyes,",
             "hair":"egg hair ornament, long hair, hair ornament, food-themed hair ornament, black hair, bangs, fried egg, egg (food), food,",
@@ -611,6 +611,8 @@
         #"SD-MIDD0.8",
         #"SD-MIDD0.2",
         "SD-MOUT"   ,
+        "SD-OUTD"   ,
+        "SD-OUTD"   ,
         "SD-OUTD"   ,
         #"SD-OUTS"   ,
         #"SD-OUTALL" ,
@@ -822,8 +824,8 @@
 	),
     "jougasaki_mika_v1": (
 		"jougasaki_mika_v1",
-		(0.875,1.0),
-		1.0,
+		(0.75,1.0),
+		(0.75,1.0),
 		{
 			"char":" aamika, yellow eyes,  ",
 			"hair":"ponytail, hair bow,  pink hair,",
@@ -1558,7 +1560,7 @@
              "SD-INALL"  ,
              #"SD-IND"    ,
              "SD-MIDD"   ,
-             "SD-MIDD1"  ,
+             #"SD-MIDD1"  ,
              "SD-MIDD2"  ,
              #"SD-MIDD0.8",
              #"SD-MIDD0.2",
@@ -1589,7 +1591,7 @@
  "SD-INALL"  ,
  #"SD-IND"    ,
  "SD-MIDD"   ,
- "SD-MIDD1"  ,
+ #"SD-MIDD1"  ,
  "SD-MIDD2"  ,
  #"SD-MIDD0.8",
  #"SD-MIDD0.2",
@@ -1600,6 +1602,7 @@
  "SD-OUTALL" ,
  "SD-ROUT"   ,
  "SD-AOUT"   ,
+ "SD-AB" 	,
  "SD-AB" 	,
  "SD-AB" 	,
  #"SD-ALL0.5" ,
@@ -1620,7 +1623,7 @@
  "SD-INALL"  ,
  #"SD-IND"    ,
  "SD-MIDD"   ,
- "SD-MIDD1"  ,
+ #"SD-MIDD1"  ,
  "SD-MIDD2"  ,
  #"SD-MIDD0.8",
  #"SD-MIDD0.2",
@@ -2380,7 +2383,7 @@
 	"cyan_30-000003": (
 		"cyan_30-000003",
 		(0.875,1.0),
-		1.0,
+		(0.875,1.0),
 		{
 		"char":"cyan, tail, maid headdress, blue eyes,",
 		"hair":"black hair, curly hair, ",
@@ -2398,6 +2401,7 @@
 		#,"SD-MIDD0.8"
 		#,"SD-MIDD0.2"	
 		,"SD-MOUT"   
+		,"SD-OUTD"   
 		,"SD-OUTD"   
 		#,"SD-OUTS"   	
 		#,"SD-OUTALL" 	

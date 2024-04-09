@@ -8,5 +8,5 @@
         #"microwaist": "microwaist",
         #"hang": "hang",
     },
-    #"lorasUpdate":false,
+    "lorasUpdate":false,
 }
