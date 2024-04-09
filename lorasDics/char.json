@@ -24,9 +24,9 @@
         (0.825,1.25),
         (01.0,1.25),
         {
-            "char" :"mayumi, ",
-            "hair":"long hair, ",
-            "dress":"mahouka_uniform, green_jacket, white_sleeveless_dress, necktie,",
+            "char" :"BREAK mayumi, long hair, mahouka_uniform, green_jacket, white_sleeveless_dress, necktie, BREAK",
+            "hair":" ",
+            "dress":"",
         },
     ),
     "1732915898190268077": (
