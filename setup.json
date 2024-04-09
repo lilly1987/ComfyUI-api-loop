@@ -60,13 +60,13 @@
         "queue_cnt":1,
 		"KSampler":{
 			#"steps": 30,
-			"steps_min": 25,
-			"steps_max": 35,
+			"steps_min": 30,
+			"steps_max": 60,
 		},
 		"DetailerForEachDebug":{
             #"steps": 20,
-			"steps_min": 15,
-			"steps_max": 25,
+			"steps_min": 20,
+			"steps_max": 40,
 		},
 		"EmptyLatentImage":{
 			"width": 360,
