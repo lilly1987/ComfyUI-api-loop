@@ -1,0 +1,11 @@
+{
+    "loras":{
+        "char":  "MayaYotsuba-10",
+		#"fingering_3rd_v1":"fingering_3rd_v1",
+        #"hang": "hang",
+        "1": "koonagoConcept_v1",
+		#"BondagePoleV1": "BondagePoleV1",
+    },
+    "lorasUpdate":false,
+}
+#Luoxuan_V2-BondagePoleV1

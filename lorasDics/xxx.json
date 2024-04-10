@@ -1290,6 +1290,7 @@
      "SD-AOUT"   ,
      "SD-AB" 	,
      "SD-AB" 	,
+     "SD-AB" 	,
      #"SD-ALL0.5" ,
      ],
 	),
@@ -1509,8 +1510,8 @@
 	),
 	"koonagoConcept_v1": (
 	"koonagoConcept_v1",
-	(0.25,0.75),
-	1.0,
+	(0.25,01.0),
+	(0.25,01.250),
 	{
 	"koonagoConcept_v1":"koonago, minigirl, large insertion, sex,",
 	},

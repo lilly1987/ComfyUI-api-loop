@@ -813,9 +813,11 @@
 	#"SD-MIDD0.2",
 	#"SD-MOUT"   ,
 	"SD-OUTD"   ,
+	"SD-OUTD"   ,
 	#"SD-OUTS"   ,
 	"SD-OUTALL" ,
 	"SD-OUTALL" ,
+	"SD-ROUT"   ,
 	"SD-ROUT"   ,
 	"SD-ROUT"   ,
 	"SD-AOUT"   ,
@@ -1148,6 +1150,7 @@
         {},
         [
         "SD-ALL"    ,
+        "SD-ALL"    ,
         #"SD-INS"    ,
         "SD-INALL"  ,
         "SD-IND"    ,
@@ -1471,7 +1474,7 @@
 	"MahoukaMayumi-v1-06": (
 		"MahoukaMayumi-v1-06",
 		(0.875,1.0),
-		1.0,
+		(1.0,1.5),
 		{
 			"char":" ChopioMayumi, ",
 			"hair":"black hair, long hair, wavy hair, sidelocks, hair ribbon, red eyes, ",
@@ -1483,7 +1486,8 @@
         "SD-INALL"  ,
         "SD-IND"    ,
         "SD-MIDD"   ,
-        #"SD-MIDD1"  ,
+        "SD-MIDD1"  ,
+        "SD-MIDD2"  ,
         "SD-MIDD2"  ,
         "SD-MIDD0.8",
         #"SD-MIDD0.2",
