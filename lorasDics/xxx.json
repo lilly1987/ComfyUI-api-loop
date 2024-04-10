@@ -1009,10 +1009,10 @@
 	
 	"sex_toy_transformation":(
 		"sex_toy_transformation",
-		(0.5,01.0),
+		(0.75,01.250),
 		(01.0,1.5),
 		{
-			"body":"transformation, limbless, armless, legsless,",
+			"body":"BREAK transformation, limbless, armless, legsless, BREAK",
 		},
 		{
 			"embedding":"",
@@ -1030,8 +1030,8 @@
 			"SD-MIDD1"  ,
 			"SD-MIDD2"  ,
 			"SD-MIDD2"  ,
-			"SD-MIDD0.8",
-			"SD-MIDD0.2",
+			#"SD-MIDD0.8",
+			#"SD-MIDD0.2",
 			"SD-MOUT"   ,
 			"SD-MOUT"   ,
 			"SD-MOUT"   ,
@@ -1042,6 +1042,7 @@
 			"SD-ROUT"   ,
 			"SD-AOUT"   ,
 			"SD-AOUT"   ,
+			"SD-AB" 	,
 			"SD-AB" 	,
 			"SD-AB" 	,
 			# "SD-ALL0.5" ,
