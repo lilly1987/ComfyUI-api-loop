@@ -1,6 +1,6 @@
 {
     "loras":{
-        #"char":"OldrinZevon-10",
+        "char":"OldrinZevon-10",
         "1": "hyper_penetration_stomach_bulge_v8",
     },
     "lorasUpdate":false,

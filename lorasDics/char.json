@@ -592,8 +592,8 @@
     ),
     "araragiTsukihiLora_v1": (
         "araragiTsukihiLora_v1",
-        (0.825,1.0),
-        (1.0,1.25),
+        (0.75,1.0),
+        (0.75,1.25),
         {
             "char" :" araragi tsukihi,  blue eyes,black eyes,",
             "hair":"egg hair ornament, long hair, hair ornament, food-themed hair ornament, black hair, bangs, fried egg, egg (food), food,",
@@ -2244,7 +2244,7 @@
 	),
 	"serena_(pokemon)_v2-eeserena": (
 		"serena_(pokemon)_v2",
-		(0.5,1.0),
+		(0.75,1.0),
 		1.0,
 		{
 			"char":"eeserena, solo, long hair, ponytail, hair bow, sidelocks, eyelashes, blue eyes, brown dress, shoulder cutout, long sleeves,",
@@ -2256,7 +2256,7 @@
 	),
 	"serena_(pokemon)_v2-ddserena": (
 		"serena_(pokemon)_v2",
-		(0.5,1.0),
+		(0.75,1.0),
 		1.0,
 		{
 			"char":"ddserena, solo, short hair, hair ornament, hair ribbon, eyelashes, blue eyes, white ascot, multicolored dress, black dress, green dress, long sleeves, white pantyhose,",
@@ -2268,7 +2268,7 @@
 	),
 	"serena_(pokemon)_v2-ccserena": (
 		"serena_(pokemon)_v2",
-		(0.5,1.0),
+		(0.75,1.0),
 		1.0,
 		{
 			"char":"ccserena, solo, short hair, (grey headwear:1.2), earrings, eyelashes, blue eyes, grey sweater, sweater vest, sleeveless turtleneck, bare arms, plaid skirt, red skirt, black thighhighs,",
@@ -2280,7 +2280,7 @@
 	),
 	"serena_(pokemon)_v2-bbserena": (
 		"serena_(pokemon)_v2",
-		(0.5,1.0),
+		(0.75,1.0),
 		1.0,
 		{
 			"char":"bbserena, solo, short hair, pink headwear, eyelashes, blue eyes, neck ribbon, blue ribbon, (pink dress:1.2), sleeveless, bare arms, pink skirt, black thighhighs,",
@@ -2292,7 +2292,7 @@
 	),
 	"serena_(pokemon)_v2-aaserena": (
 		"serena_(pokemon)_v2",
-		(0.5,1.0),
+		(0.75,1.0),
 		1.0,
 		{
 			"char":"aaserena, solo, long hair, eyewear on headwear, pink headwear, eyelashes, blue eyes, sleeveless shirt, black shirt, bracelet, high-waist skirt, red skirt, black thighhighs,",

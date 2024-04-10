@@ -1,0 +1,11 @@
+{
+    "loras":{
+        "cyan_30-000003": "OldrinZevon-10",
+        "2": "multiple_insertions_v0.2",
+        #"transformation": "transformation",
+        #"hyper_penetration_stomach_bulge_v8": "hyper_penetration_stomach_bulge_v8",
+        #"microwaist": "microwaist",
+        #"hang": "hang",
+    },
+    "lorasUpdate":false,
+}
