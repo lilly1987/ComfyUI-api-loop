@@ -627,9 +627,9 @@
         (0.825,1.0),
         1.0,
         {
-            "char" :"Araragi Tsukihi,",
-            "hair":"long hair,",
-            "dress":"kimono, japanese clothes,",
+            "char" :"BREAK Araragi Tsukihi, long hair, kimono, japanese clothes, BREAK",
+            "hair":"",
+            "dress":"",
         },
         {},
         [
@@ -638,6 +638,7 @@
         #"SD-INALL"  ,
         #"SD-IND"    ,
         "SD-MIDD"   ,
+        "SD-MIDD1"  ,
         "SD-MIDD1"  ,
         "SD-MIDD2"  ,
         #"SD-MIDD0.8",
@@ -824,8 +825,8 @@
 	),
     "jougasaki_mika_v1": (
 		"jougasaki_mika_v1",
-		(0.75,1.0),
-		(0.75,1.0),
+		(0.75,0.875),
+		(01.0,1.0),
 		{
 			"char":" aamika, yellow eyes,  ",
 			"hair":"ponytail, hair bow,  pink hair,",
@@ -833,6 +834,8 @@
 		},
 	{},
 	[
+	"SD-ALL"    ,
+	"SD-ALL"    ,
 	"SD-ALL"    ,
 	#"SD-INS"    ,
 	#"SD-INALL"  ,
@@ -842,7 +845,7 @@
 	#"SD-MIDD1"  ,
 	"SD-MIDD2"  ,
 	"SD-MIDD2"  ,
-	"SD-MIDD0.8",
+	#"SD-MIDD0.8",
 	#"SD-MIDD0.2",
 	#"SD-MOUT"   ,
 	"SD-OUTD"   ,
@@ -934,6 +937,7 @@
         #"SD-INS"    ,
         #"SD-INALL"  ,
         "SD-IND"    ,
+        "SD-MIDD"   ,
         "SD-MIDD"   ,
         "SD-MIDD1"  ,
         "SD-MIDD2"  ,
