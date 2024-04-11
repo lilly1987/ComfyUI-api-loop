@@ -1,15 +1,5 @@
 {
     "loras":{
-        "char": (
-            "hood_azurlane",
-            (0.75,1.0),
-            1.0,
-            {
-                "char":"hood_azurlane, blue_eyes,",
-                "hair":"blonde_hair,long_hair,hair_over_shoulder,bangs,",
-                #"dress":"necklace, bare shoulders, dress, gloves, sorasaki hina (dress), elbow gloves, sidelocks,",
-                #"style":"cardcaptor sakura \(style\), ",
-            },
-        ),
+        "char": "hood_azurlane",
     },
 }

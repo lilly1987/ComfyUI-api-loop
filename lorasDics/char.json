@@ -685,9 +685,9 @@
         (0.75,1.0),
         (0.75,1.25),
         {
-            "char" :" araragi tsukihi,  blue eyes,black eyes,",
-            "hair":"egg hair ornament, long hair, hair ornament, food-themed hair ornament, black hair, bangs, fried egg, egg (food), food,",
-            "dress":"kimono, japanese clothes,obi, wide sleeves, long sleeves,  green kimono, yellow sash, blue kimono,sleeves past wrists, short kimono,  ",
+            "char" :"BREAK araragi tsukihi,  blue eyes,black eyes, egg hair ornament, long hair, hair ornament, food-themed hair ornament, black hair, bangs, fried egg, egg (food), food, kimono, japanese clothes,obi, wide sleeves, long sleeves,  green kimono, yellow sash, blue kimono,sleeves past wrists, short kimono, BREAK",
+            "hair":"",
+            "dress":"  ",
         },
         {},
         [
@@ -697,6 +697,7 @@
         #"SD-IND"    ,
         "SD-MIDD"   ,
         "SD-MIDD1"  ,
+        "SD-MIDD2"  ,
         "SD-MIDD2"  ,
         #"SD-MIDD0.8",
         #"SD-MIDD0.2",
@@ -915,10 +916,31 @@
 	#"SD-ALL0.5" ,
 	],
 	),
+	"Shiba MiyukiV1": (
+		"Shiba MiyukiV1",
+		(0.75,1.0),
+		(1.0,1.250),
+		{
+			"char":"siboshenxie,black eyes,blue eyes, ",
+			"hair":"black hair,long hair,blunt bangs,snowflake hair ornament,yellow x hair ornament,",
+			#"dress":"",
+		},
+	),
+	"Naruse_Maria": (
+		"Naruse_Maria",
+		(0.75,1.0),
+		1.0,
+		{
+			"char":"maria,",
+			"hair":"long_hair,",
+			#"dress":"necklace, bare shoulders, dress, gloves, sorasaki hina (dress), elbow gloves, sidelocks,",
+			#"style":"cardcaptor sakura \(style\), ",
+		},
+	),
     "jougasaki_mika_v1": (
 		"jougasaki_mika_v1",
 		(0.75,01.0),
-		(01.0,1.0),
+		(0.75,01.250),
 		{
 			"char":" aamika, yellow eyes,  ",
 			"hair":"ponytail, hair bow,  pink hair,",
@@ -931,6 +953,7 @@
 	"SD-ALL"    ,
 	#"SD-INS"    ,
 	#"SD-INALL"  ,
+	"SD-IND"    ,
 	"SD-IND"    ,
 	"SD-MIDD"   ,
 	"SD-MIDD"   ,
@@ -1229,6 +1252,17 @@
         "SD-ALL0.5" ,
         ],
         ),
+	"hood_azurlane": (
+            "hood_azurlane",
+            (0.75,1.0),
+            1.0,
+            {
+                "char":"hood_azurlane, blue_eyes,",
+                "hair":"blonde_hair,long_hair,hair_over_shoulder,bangs,",
+                #"dress":"necklace, bare shoulders, dress, gloves, sorasaki hina (dress), elbow gloves, sidelocks,",
+                #"style":"cardcaptor sakura \(style\), ",
+            },
+        ),
     "tomoyo_v3_locon": (
         "tomoyo_v3_locon",
         (0.875,1.0),
@@ -1253,7 +1287,7 @@
         "SD-OUTD"   ,
         #"SD-OUTS"   ,
         #"SD-OUTALL" ,
-        "SD-ROUT"   ,
+        "SD-ROUT"   ,#
         "SD-AOUT"   ,
         "SD-AB" 	,
         #"SD-ALL0.5" ,
