@@ -1,0 +1,7 @@
+{
+    "loras":{
+        "char":"MeilingLi",
+		#"1": "bdsm_v3",
+    },
+    #"lorasUpdate":false,
+}

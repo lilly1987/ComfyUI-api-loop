@@ -19,6 +19,96 @@
             "dress":",",
         },
     ),
+    "CHAR-Yuna": (
+        "CHAR-Yuna",
+        (0.825,1.25),
+        (01.0,1.25),
+        {
+            "char" :"BREAK YunaFFX, heterochromia, short hair, YunaOutfit, hair ornament, detached sleeves, hakama, sash, hakama skirt, long skirt, BREAK",
+            "hair":" ",
+            #"dress":"",
+        },
+    ),
+    "fujimiya_shihoko_otonarinotenshisamaniitsunomanikadameningennisareteitaken": (
+        "fujimiya_shihoko_otonarinotenshisamaniitsunomanikadameningennisareteitaken",
+        (0.825,1.25),
+        (01.0,1.25),
+        {
+            "char" :"BREAK fujimiya_shihoko_otonarinotenshisamaniitsunomanikadameningennisareteitaken,  long hair, brown hair, black hair, brown eyes, blunt bangs BREAK",
+            "hair":" ",
+            #"dress":"",
+        },
+    ),
+    "AphroditeFate-10": (
+        "AphroditeFate-10",
+        (0.825,1.25),
+        (01.0,1.25),
+        {
+            "char" :"BREAK AphroditeFate, 1girl, solo, very long hair, orange hair, long sleeves, white dress, navel, bare shoulders, jewelry, yellow eyes, ahoge, red hair, red wings, wide sleeves, orange eyes, makeup, detached collar, feathered wings, colored inner hair, center opening, heart hair ornament, red lips, heart earrings, multiple wings, BREAK",
+            "hair":" ",
+            "dress":"",
+        },
+    ),
+    "Albelda-10": (
+        "Albelda-10",
+        (0.825,1.25),
+        (01.0,1.25),
+        {
+            "char" :"BREAK Albelda, 1girl, solo, very long hair, large breasts, red eyes, black dress, red ribbon, white hair, hairband, frills, sleeveless, sash, sleeveless dress, short dress, crown, BREAK",
+            "hair":" ",
+            "dress":"",
+        },
+    ),
+    "lailahTalesOfZestiria_v11": (
+        "lailahTalesOfZestiria_v11",
+        (0.825,1.25),
+        (01.0,1.25),
+        {
+            "char" :"BREAK lailah \(tales\), (white hair:1.4), long hair, ponytail, bangs, (blue eyes:1.2), blunt bangs, hairband, sidelocks, hair ornament, narrow waist, slim waist, red dress, BREAK",
+            "hair":" ",
+            "dress":" ",
+        },
+    ),
+    "Imoo Nanami(omsks)": (
+        "Imoo Nanami(omsks)",
+        (0.825,1.25),
+        (01.0,1.25),
+        {
+            "char" :"BREAK Imoo Nanami, short hair,brown hair,hair ornament,hairclip,blunt bangs,brown eyes, school uniform,white sailor collar,yellow ribbon,white shirt,sleeveless,small breasts,miniskirt,green skirt,pleated skirt,white pantyhose,loafers BREAK",
+            "hair":" ",
+            "dress":" ",
+        },
+    ),
+    "luotianyi zhimahu_v1_03": (
+        "luotianyi zhimahu_v1_03",
+        (0.825,1.25),
+        (01.0,1.25),
+        {
+            "char" :"BREAK luotianyi, zhimahu, tangzhuang, chinese clothes, china dress, pleated skirt, socks, BREAK",
+            "hair":" ",
+            "dress":" ",
+        },
+    ),
+    "Lailah": (
+        "Lailah",
+        (0.825,1.25),
+        (01.0,1.25),
+        {
+            "char" :"BREAK 1girl,long hair,white hair,green eyes, dress,gloves, BREAK",
+            "hair":" ",
+            "dress":" ",
+        },
+    ),
+    "MeilingLi": (
+        "MeilingLi",
+        (0.825,1.25),
+        (01.0,1.25),
+        {
+            "char" :"BREAK 1girl, meilingli, black hair, blunt bangs, double bun, twintails, long hair, red eyes, BREAK",
+            "hair":" ",
+            #"dress":"",
+        },
+    ),
     "mayumi_v1.0": (
         "mayumi_v1.0-000002",
         (0.825,1.25),
