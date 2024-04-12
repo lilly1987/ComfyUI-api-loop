@@ -19,6 +19,26 @@
             "dress":",",
         },
     ),
+    "under_heorine": (
+        "under_heorine",
+        (0.825,1.25),
+        1.25,
+        {
+            "char" :"under_heroine,",
+            #"hair":",",
+            #"dress":",",
+        },
+    ),
+    "cyanHijirikawaShowBy_cyanshowbyrock": (
+        "cyanHijirikawaShowBy_cyanshowbyrock",
+        (0.825,1.25),
+        1.25,
+        {
+            "char" :"BREAK green eyes, curly hair, curls, show_by_rock, cat ears, cat tail, cat girl BREAK",
+            "hair":",",
+            "dress":",",
+        },
+    ),
     "rosalina-lyco-nochekaiser": (
         "rosalina-lyco-nochekaiser",
         (0.825,1.25),
