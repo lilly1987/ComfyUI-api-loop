@@ -74,8 +74,8 @@ while True:
             dupdate(setup,setup["cpu"])
             
         # -------------------------------------------------
-        prompt=jsonFileRead(setup.get("workflow","workflow_api.json"))  
         
+
         # -------------------------------------------------
         
         if jitemCnt<=0:
@@ -84,17 +84,15 @@ while True:
             
             tchoice=random.choice(loraList)
             tname=pathRemove(tchoice,setup["loraPath"])
-            prompt[lora2]["inputs"]["lora_name"]=tname
+            
 
             if random.random() < setup.get("onlyLoraPer",0) :
                 onlyLoraPer=True
-                prompt[lora2]["inputs"]["strength_model"]=1
-                prompt[lora2]["inputs"]["strength_clip"]=1
+
                 jitem_name=os.path.splitext(os.path.split(tname)[1])[0]
             else:
                 onlyLoraPer=False
-                prompt[lora2]["inputs"]["strength_model"]=0
-                prompt[lora2]["inputs"]["strength_clip"]=0
+
                 
                 jlist=getFileList("list/**/*.json")
                 #print("jlist1 : ",jlist)
@@ -150,11 +148,16 @@ while True:
             #print("vae_path  : ",vae_path)
             
         # -------------------------------------------------
-
+        prompt=jsonFileRead(setup.get("workflow","workflow_api.json"))  
+        prompt[lora2]["inputs"]["lora_name"]=tname
         # -------------------------------------------------
         if onlyLoraPer:
             print("[green]onlyLoraPer [/green]: ",tname)
+            prompt[lora2]["inputs"]["strength_model"]=1
+            prompt[lora2]["inputs"]["strength_clip"]=1
         else:        
+            prompt[lora2]["inputs"]["strength_model"]=0
+            prompt[lora2]["inputs"]["strength_clip"]=0
             dupdate(setup,jitem)
             # -------------------------------------------------
             loras=dicFileRead("loras.json")

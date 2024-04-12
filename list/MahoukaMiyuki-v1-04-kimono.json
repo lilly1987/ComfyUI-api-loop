@@ -1,7 +1,5 @@
 {
     "loras":{
         "char": "MahoukaMiyuki-v1-04-kimono",
-        #"hang": "hang",
     },
-    #"lorasUpdate":false,
 }

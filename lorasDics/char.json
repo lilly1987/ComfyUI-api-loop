@@ -992,9 +992,9 @@
 		(0.75,01.0),
 		(0.75,01.250),
 		{
-			"char":" aamika, yellow eyes,  ",
-			"hair":"ponytail, hair bow,  pink hair,",
-			"dress":"collarbone, school uniform, striped, bowtie, collared shirt, white shirt, sleeves rolled up, wrist scrunchie, clothes around waist, plaid skirt, purple skirt, ",
+			"char":"BREAK aamika, yellow eyes,  ponytail, hair bow,  pink hair, collarbone, school uniform, striped, bowtie, collared shirt, white shirt, sleeves rolled up, wrist scrunchie, clothes around waist, plaid skirt, purple skirt, BREAK",
+			"hair":"",
+			"dress":"",
 		},
 	{},
 	[
@@ -1118,6 +1118,46 @@
         #"SD-ALL0.5" ,
         ],
     ),
+	"71TT0OP": (
+		"71TT0OP",
+		(0.875,1.0),
+		1.0,
+		{
+			"char":", ",
+			"hair":"long hair, ",
+			#"dress":"red dress, red choker,,white shirt, long sleeves, red bow, collarbone, brooch, jewelry, ",
+		},
+	{},
+	[
+	"SD-ALL"    ,
+	"SD-INS"    ,
+	"SD-INALL"  ,
+	"SD-IND"    ,
+	"SD-MIDD"   ,
+	"SD-MIDD1"  ,
+	"SD-MIDD2"  ,
+	#"SD-MIDD0.8",
+	#"SD-MIDD0.2",
+	"SD-MOUT"   ,
+	"SD-OUTD"   ,
+	"SD-OUTS"   ,
+	"SD-OUTALL" ,
+	"SD-ROUT"   ,
+	"SD-AOUT"   ,
+	"SD-AB" 	,
+	#"SD-ALL0.5" ,
+	],
+	),
+        "Chitose_V6": (
+            "Chitose_V6-E10_(SetoYuuki)",
+            (0.5,1.0),
+            1.0,
+            {
+        "char":" chitoseni,  ",
+        "hair":"long hair,",
+        #"dress": " white dress, cleavage, bare shoulders,",
+            },
+        ),
 	"TokisakiKurumi-10": (
 		"TokisakiKurumi-10",
 		(0.75,1.0),
@@ -1131,7 +1171,7 @@
         [
         "SD-ALL"    ,
         #"SD-INS"    ,
-        "SD-INALL"  ,
+        #"SD-INALL"  ,
         "SD-IND"    ,
         "SD-MIDD"   ,
         "SD-MIDD1"  ,
@@ -1835,12 +1875,11 @@
 		1.0,
 		{
 			
-			"char":"(yor_briar_spyxfamily:__1.0_1.5__), red_eyes,",
-			"hair":"black hair, hairband, sidelocks,  white_hairband, earrings, bangs, {long hair,|}",
+			"char":"BREAK yor_briar_spyxfamily, red_eyes, black hair, hairband, sidelocks,  white_hairband, earrings, bangs, {long hair,|} BREAK",
+			"hair":"",
 		},
 		{},
-		["rnd",
-
+		[
  "SD-ALL"    ,
  #"SD-INS"    ,
 # "SD-INALL"  ,
@@ -1853,6 +1892,7 @@
  "SD-MOUT"   ,
  "SD-OUTD"   ,
  "SD-OUTS"   ,
+ "SD-OUTALL" ,
  "SD-OUTALL" ,
  "SD-ROUT"   , #
  "SD-AOUT"   ,
