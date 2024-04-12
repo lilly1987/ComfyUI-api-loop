@@ -9,6 +9,36 @@
             "dress":"serafuku, sailor collar, neckerchief, black shirt, long sleeves, pleated skirt, white skirt,",
         },
     ),
+    "morino_rinze_v1": (
+        "morino_rinze_v1",
+        (0.825,1.25),
+        1.25,
+        {
+            "char" :"BREAK aarinze, short hair, single hair bun, hair flower, japanese clothes, blue kimono, print kimono, floral print, long sleeves, wide sleeves, sash, obi, BREAK",
+            "hair":",",
+            "dress":",",
+        },
+    ),
+    "rosalina-lyco-nochekaiser": (
+        "rosalina-lyco-nochekaiser",
+        (0.825,1.25),
+        1.25,
+        {
+            "char" :"BREAK rosalina, blonde hair, blue eyes, hair over one eye, long hair, blue dress, crown, dress, earrings, jewelry, princess, robe, star earrings, BREAK",
+            "hair":",",
+            "dress":",",
+        },
+    ),
+    "rosalina-lora-nochekaiser": (
+        "rosalina-lora-nochekaiser",
+        (0.825,1.25),
+        1.25,
+        {
+            "char" :"BREAK rosalina, blonde hair, blue eyes, hair over one eye, long hair, blue dress, crown, dress, earrings, jewelry, princess, robe, star earrings, BREAK",
+            "hair":",",
+            "dress":",",
+        },
+    ),
     "AoyuMillionLives-10": (
         "AoyuMillionLives-10",
         (0.825,1.25),
