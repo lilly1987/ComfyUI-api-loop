@@ -2,11 +2,11 @@
     "daidouji_tomoyo_v1": (
         "daidouji_tomoyo_v1",
         (0.825,1.25),
-        1.25,
+        (0.825,1.25),
         {
-            "char" :" purple eyes, small breasts, ",
-            "hair":"long hair, black hair, beret, white headwear, blunt bangs,",
-            "dress":"serafuku, sailor collar, neckerchief, black shirt, long sleeves, pleated skirt, white skirt,",
+            "char" :"BREAK purple eyes, small breasts, long hair, black hair, beret, white headwear, blunt bangs, serafuku, sailor collar, neckerchief, black shirt, long sleeves, pleated skirt, white skirt, BREAK",
+            "hair":"",
+            "dress":"",
         },
     ),
     "morino_rinze_v1": (

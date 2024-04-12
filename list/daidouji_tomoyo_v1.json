@@ -1,8 +1,12 @@
 {
-    "loras": {
-        "char":"daidouji_tomoyo_v1",
-        #"hair":"long hair,",
-        #"dress":"{__Marianne_Vi_Britannia_dress__,|}",
-        #"style":"cardcaptor sakura \(style\), ",
+    "loras":{
+        "char": "daidouji_tomoyo_v1",
+        #"obp-000050": "obp-000050",
+        #"monsterSexActLora79_v10": "monsterSexActLora79_v10",
+        #"transformation": "transformation",
+        #"hyper_penetration_stomach_bulge_v8": "hyper_penetration_stomach_bulge_v8",
+        #"microwaist": "microwaist",
+        #"hang": "hang",
     },
+    #"lorasUpdate":false,
 }

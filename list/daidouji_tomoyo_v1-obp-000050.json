@@ -1,0 +1,8 @@
+{
+    "loras":{
+        "char": "daidouji_tomoyo_v1",
+        "1": "obp-000050",
+        #"face": "ahegao_v2.5",
+    },
+    "lorasUpdate":false,
+}
