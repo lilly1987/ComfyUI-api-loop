@@ -1,8 +1,11 @@
 {
     "loras":{
         "char": "MikaJougasaki",
-       "1": "transformation",
+        #"obp-000050": "obp-000050",
+        "transformation": "transformation",
+        #"hyper_penetration_stomach_bulge_v8": "hyper_penetration_stomach_bulge_v8",
+        #"microwaist": "microwaist",
+        #"hang": "hang",
     },
     "lorasUpdate":false,
 }
-#daidouji_tomoyo_v1-sex_toy_transformation

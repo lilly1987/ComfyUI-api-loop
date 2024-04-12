@@ -2466,7 +2466,7 @@
 			"dress" :", ",
 		},
 		{},
-		"rnd",
+		#"rnd",
 	),
 	"serena_(pokemon)_v2-ddserena": (
 		"serena_(pokemon)_v2",
@@ -2478,7 +2478,7 @@
 			"dress" :", ",
 		},
 		{},
-		"rnd",
+		#"rnd",
 	),
 	"serena_(pokemon)_v2-ccserena": (
 		"serena_(pokemon)_v2",
@@ -2490,7 +2490,7 @@
 			"dress" :", ",
 		},
 		{},
-		"rnd",
+		#"rnd",
 	),
 	"serena_(pokemon)_v2-bbserena": (
 		"serena_(pokemon)_v2",
@@ -2502,7 +2502,7 @@
 			"dress" :", ",
 		},
 		{},
-		"rnd",
+		#"rnd",
 	),
 	"serena_(pokemon)_v2-aaserena": (
 		"serena_(pokemon)_v2",
@@ -2514,7 +2514,7 @@
 			"dress" :", ",
 		},
 		{},
-		"rnd",
+		#"rnd",
 	),
 	"serenaPokemon_v10": (
 		"serenaPokemon_v10",

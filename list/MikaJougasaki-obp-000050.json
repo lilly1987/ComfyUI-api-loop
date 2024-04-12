@@ -1,8 +1,8 @@
 {
     "loras":{
         "char": "MikaJougasaki",
-       "1": "sex_toy_transformation",
+        "1": "obp-000050",
+        #"face": "ahegao_v2.5",
     },
     "lorasUpdate":false,
 }
-#MikaJougasaki-sex_toy_transformation
