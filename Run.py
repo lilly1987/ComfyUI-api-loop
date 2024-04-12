@@ -58,6 +58,7 @@ jitemMax=0
 tm=time.strftime('%Y%m%d-%H%M%S')
 logFile=f"log/{tm}.html"
 onlyLoraPer=True
+lora2="LoraLoader"
 while True:
     try:
         setup=dicFileRead("setup.json")
@@ -76,14 +77,13 @@ while True:
         prompt=jsonFileRead(setup.get("workflow","workflow_api.json"))  
         
         # -------------------------------------------------
+        
         if jitemCnt<=0:
             loraList=getFileList(setup["loraPath"]+"**/*.safetensors")
             print("loraList : ",len(loraList))
             
             tchoice=random.choice(loraList)
             tname=pathRemove(tchoice,setup["loraPath"])
-            lora1="CheckpointLoaderSimple"
-            lora2="LoraLoader"
             prompt[lora2]["inputs"]["lora_name"]=tname
 
             if random.random() < setup.get("onlyLoraPer",0) :
@@ -168,6 +168,7 @@ while True:
             
             lbw=dicFileRead("lbw.json")
             # -------------------------------------------------
+            lora1="CheckpointLoaderSimple"
             for k, v in setup.get("loras",{}).items():
                 #print(f"{k} : ", v)
                 try:
