@@ -1470,6 +1470,7 @@
             "SD-ROUT"   ,
             "SD-AOUT"   ,
             "SD-AB" 	,
+            "SD-AB" 	,
             #"SD-ALL0.5" ,
         ]
 	),
