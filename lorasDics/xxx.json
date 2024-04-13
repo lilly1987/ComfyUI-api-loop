@@ -1921,6 +1921,16 @@
 		{},
 		"rnd",
 	),
+	"hairjob_v10":(
+		"hairjob_v10",
+		(0.75,01.25),
+		1.0,
+		{
+			"hairjob_v10":"hairjob,",
+		},
+		{},
+		#"rnd",
+	),
 	"Reverseupright2":(
 		"Reverseupright2",
 		(0.75,01.25),

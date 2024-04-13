@@ -241,8 +241,8 @@
     ),
     "takao_v10": (
         "takao_v10",
-        (0.825,1.25),
-        (0.825,1.25),
+        (0.5,1.25),
+        (0.5,1.25),
         {
             "char" :" takao_aoki, ",
             #"hair":"long hair, blonde hair,twintails ,",
