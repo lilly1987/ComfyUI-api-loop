@@ -10,7 +10,7 @@
     "loraPath":"../ComfyUI/models/loras/",
     "workflow":"workflow_api.json",
     "lorasFile":"loras.json",
-    "onlyLoraPer":0.250,
+    "onlyLoraPer":0.50,
     "ckptPer":1.0,
     "ckptPer":0.0,
     "ckptCnt":16,
