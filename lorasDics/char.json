@@ -2532,8 +2532,8 @@
 		(0.875,1.0),
 		1.0,
 		{
-			"char":"ayase yue, flat chest,",
-			"hair" :"twin braids, purple hair/blue hair (either color will work), long hair, bell, ahoge, ",
+			"char":"BREAK 1girl, ayase yue, flat chest, twin braids, purple hair/blue hair (either color will work), long hair, bell, ahoge, BREAK",
+			"hair" :" ",
 		},
 		{},
 		[#"rnd",

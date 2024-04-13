@@ -1,6 +1,7 @@
 import os, sys, glob, random, time, copy, string, re, numbers
 sys.path.append(os.getcwd())
 from ConsoleColor import print, console
+import mpu.io
 
 #required  = {'json5'}
 #installed = {pkg.key for pkg in pkg_resources.working_set}
@@ -87,10 +88,15 @@ xl=[
 ]
 
 
+print(os.getcwd())
 
 for c in cl :
     for x in xl :
-        print(c,x)
         fm["loras"]["char"]=c
         fm["loras"]["xxx"]=x
+        print(c,x)
         print(fm)
+        fn=f"tmp/{c}-{x}.json"
+        mpu.io.write(fn, fm)
+        #with open(fn, 'w', encoding='utf-8') as f:
+        #     f.write(json.dumps(fm,indent="\t"))
