@@ -1,7 +1,7 @@
 {
-    "loras":{
-        "char": "tomoyo_v3_locon",
-		"hang": "hang",
+    "loras": {
+        "1": "tomoyo_v3_locon",
+        "2": "hang"
     },
-	"lorasUpdate":false,
+    "lorasUpdate": false
 }

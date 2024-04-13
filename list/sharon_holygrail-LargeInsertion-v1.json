@@ -1,7 +1,7 @@
 {
-    "loras":{
-        "char":"sharon_holygrail",
-		"1": "LargeInsertion-v1",
+    "loras": {
+        "1": "sharon_holygrail",
+        "2": "LargeInsertion-v1"
     },
-    "lorasUpdate":false,
+    "lorasUpdate": false
 }

@@ -1,7 +1,7 @@
 {
-    "loras":{
-        "char": "sharon_holygrail",
-		"1": "hunged_girl",
+    "loras": {
+        "1": "sharon_holygrail",
+        "2": "hunged_girl"
     },
-    "lorasUpdate":false,
+    "lorasUpdate": false
 }

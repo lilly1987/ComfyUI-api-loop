@@ -1,11 +1,7 @@
 {
-    "loras":{
-        "char":  "sharon_holygrail",
-		#"fingering_3rd_v1":"fingering_3rd_v1",
-        "1": "hang",
-        #"1": "Luoxuan_V2",
-		#"2": "hyper_penetration_stomach_bulge_v8",
+    "loras": {
+        "1": "sharon_holygrail",
+        "2": "hang"
     },
-    "lorasUpdate":false,
+    "lorasUpdate": false
 }
-#Luoxuan_V2-BondagePoleV1

@@ -1,7 +1,7 @@
 {
-    "loras":{
-        "char": "frenda_seivelun",
-		"1": "hang",
+    "loras": {
+        "1": "frenda_seivelun",
+        "2": "hang"
     },
-    "lorasUpdate":false,
+    "lorasUpdate": false
 }

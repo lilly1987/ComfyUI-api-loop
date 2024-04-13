@@ -1,5 +1,5 @@
 {
-    "loras":{
-        "char": "tomoyo_v3_locon",
-    },
+    "loras": {
+        "1": "tomoyo_v3_locon"
+    }
 }

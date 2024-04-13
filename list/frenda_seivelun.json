@@ -1,5 +1,5 @@
 {
-    "loras":{
-        "char": "frenda_seivelun",
-    },
+    "loras": {
+        "1": "frenda_seivelun"
+    }
 }

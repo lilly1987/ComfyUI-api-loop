@@ -1,7 +1,7 @@
 {
-    "loras":{
-        "char":"sharon_holygrail",
-		"1": "huge_dildo_v1_goofy",
+    "loras": {
+        "1": "sharon_holygrail",
+        "2": "huge_dildo_v1_goofy"
     },
-    "lorasUpdate":false,
+    "lorasUpdate": false
 }

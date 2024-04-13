@@ -1,8 +1,7 @@
 {
-    "loras":{
-        "char": "tomoyo_v3_locon",
-       "1": "transformation",
+    "loras": {
+        "1": "tomoyo_v3_locon",
+        "2": "transformation"
     },
-    "lorasUpdate":false,
+    "lorasUpdate": false
 }
-#daidouji_tomoyo_v1-sex_toy_transformation
