@@ -60,12 +60,12 @@
         "itemCnt":4,
         "queue_cnt":1,
 		"KSampler":{
-			#"steps": 30,
-			"steps_min": 40,
+			"steps": 30,
+			"steps_min": 30,
 			"steps_max": 60,
 		},
 		"DetailerForEachDebug":{
-            #"steps": 20,
+            "steps": 20,
 			"steps_min": 20,
 			"steps_max": 40,
 		},
