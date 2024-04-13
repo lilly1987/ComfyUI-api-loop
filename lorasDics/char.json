@@ -2072,6 +2072,16 @@
 		{},
 		"rnd",
 	),
+	"Marianne_Vi_Britannia": (
+		"Marianne_Vi_Britannia",
+		(0.75,1.0),
+		1.0,
+		{
+			"char":"marianne_vi_britannia,   ",
+		},
+		{},
+		#"rnd",
+	),
 	"Linnea": (
 		"Linnea",
 		(0.75,1.0),
@@ -2080,7 +2090,7 @@
 			"char":"Linnea,   ",
 		},
 		{},
-		"rnd",
+		#"rnd",
 	),
     "Riruru": (
         "Riruru",
