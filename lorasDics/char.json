@@ -432,10 +432,10 @@
     "Elly (Tonari no Kyuuketsuki-san)": (
         "Elly (Tonari no Kyuuketsuki-san)",
         (0.825,1.25),
-        1.25,
+        (1.0,1.25,)
         {
-            "char" :" ann_persona5, long hair, blue eyes,takamaki anne, ",
-            "hair":"long hair, blonde hair,twintails ,",
+            "char" :"BREAK ann_persona5, long hair, blue eyes,takamaki anne,long hair, blonde hair,twintails BREAK",
+            "hair":" ,",
             #"dress":"serafuku, sailor collar, neckerchief, black shirt, long sleeves, pleated skirt, white skirt,",
         },
     ),
@@ -1767,6 +1767,16 @@
 			"char" :"kozue,  ",
 			"hair":"  white hair, green eyes,  ",
 			#"dress":",",
+		},
+	),
+	"lufia1.5": (
+		"lufia1.5",
+		(0.5,1.0),
+		1.0,
+		{
+		"char":"BREAK lufia,  long hair, jewelry, earrings, hat, witch hat, witch, blue eyes, blue hair, dress, small breasts, bangs, retro artstyle, braid, long sleeves, BREAK",
+        "hair":", ",
+        "dress": ",",
 		},
 	),
 	"ShiLuHonkai": (
