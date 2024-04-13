@@ -1,7 +1,7 @@
 {
-    "loras":{
-        "char": "YueAyase-v1",
-        "obp-000050": "obp-000050",
+    "loras": {
+        "1": "YueAyase-v1",
+        "2": "obp-000050"
     },
-    "lorasUpdate":false,
+    "lorasUpdate": false
 }

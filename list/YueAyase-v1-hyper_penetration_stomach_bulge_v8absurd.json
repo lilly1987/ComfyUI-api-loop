@@ -1,10 +1,7 @@
 {
-    "loras":{
-        "char": "YueAyase-v1",
-		#"monsterSexActLora79_v10": "monsterSexActLora79_v10",
-		"hyper_penetration_stomach_bulge_v8absurd": "hyper_penetration_stomach_bulge_v8absurd",
-		#"SideFellatio": "SideFellatio",
-		#"Deepthroat": "Deepthroat",
+    "loras": {
+        "1": "YueAyase-v1",
+        "2": "hyper_penetration_stomach_bulge_v8absurd"
     },
-	"lorasUpdate":false,
+    "lorasUpdate": false
 }

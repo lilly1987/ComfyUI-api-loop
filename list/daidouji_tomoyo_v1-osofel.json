@@ -1,7 +1,7 @@
 {
-    "loras":{
-        "char": "daidouji_tomoyo_v1",
-        "1": "osofel",
+    "loras": {
+        "1": "daidouji_tomoyo_v1",
+        "2": "osofel"
     },
-    "lorasUpdate":false,
+    "lorasUpdate": false
 }

@@ -1,7 +1,7 @@
 {
-    "loras":{
-        "char": "YueAyase-v1",
-        "LargeInsertion-v1": "LargeInsertion-v1",
+    "loras": {
+        "1": "YueAyase-v1",
+        "2": "LargeInsertion-v1"
     },
-    "lorasUpdate":false,
+    "lorasUpdate": false
 }

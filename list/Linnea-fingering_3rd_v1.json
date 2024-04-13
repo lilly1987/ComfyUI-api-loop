@@ -1,7 +1,7 @@
 {
-    "loras":{
-        "char": "Linnea",
-		"1": "fingering_3rd_v1",
+    "loras": {
+        "1": "Linnea",
+        "2": "fingering_3rd_v1"
     },
-    "lorasUpdate":false,
+    "lorasUpdate": false
 }

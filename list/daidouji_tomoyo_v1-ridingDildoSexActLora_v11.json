@@ -1,7 +1,7 @@
 {
-    "loras":{
-        "char":"daidouji_tomoyo_v1",
-		"1": "ridingDildoSexActLora_v11",
+    "loras": {
+        "1": "daidouji_tomoyo_v1",
+        "2": "ridingDildoSexActLora_v11"
     },
-    "lorasUpdate":false,
+    "lorasUpdate": false
 }
