@@ -232,7 +232,7 @@
     "takao_v10": (
         "takao_v10",
         (0.825,1.25),
-        1.25,
+        (0.825,1.25),
         {
             "char" :" takao_aoki, ",
             #"hair":"long hair, blonde hair,twintails ,",
@@ -242,7 +242,7 @@
     "kayoko": (
         "kayoko",
         (0.825,1.25),
-        1.25,
+        (0.825,1.25),
         {
             "char" :" kayoko_\(blue_archive\), ",
             #"hair":"long hair, blonde hair,twintails ,",
