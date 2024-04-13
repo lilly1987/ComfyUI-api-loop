@@ -1,7 +1,7 @@
 {
-    "loras":{
-        "char": "MahoukaMiyuki-v1-04-kimono",
-        "1": "osofel",
+    "loras": {
+        "1": "MahoukaMiyuki-v1-04-kimono",
+        "2": "osofel"
     },
-    "lorasUpdate":false,
+    "lorasUpdate": false
 }

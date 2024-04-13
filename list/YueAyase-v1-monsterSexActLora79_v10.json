@@ -1,10 +1,7 @@
 {
-    "loras":{
-        "char": "YueAyase-v1",
-		#"monsterSexActLora79_v10": "monsterSexActLora79_v10",
-		"monsterSexActLora79_v10": "monsterSexActLora79_v10",
-		#"SideFellatio": "SideFellatio",
-		#"Deepthroat": "Deepthroat",
+    "loras": {
+        "1": "YueAyase-v1",
+        "2": "monsterSexActLora79_v10"
     },
-	"lorasUpdate":false,
+    "lorasUpdate": false
 }

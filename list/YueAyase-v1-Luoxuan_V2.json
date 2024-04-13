@@ -1,7 +1,7 @@
 {
-    "loras":{
-        "char": "YueAyase-v1",
-        "Luoxuan_V2": "Luoxuan_V2",
+    "loras": {
+        "1": "YueAyase-v1",
+        "2": "Luoxuan_V2"
     },
-    "lorasUpdate":false,
+    "lorasUpdate": false
 }

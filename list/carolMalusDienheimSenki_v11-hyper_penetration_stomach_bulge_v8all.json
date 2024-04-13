@@ -1,6 +1,7 @@
 {
-    "loras":{
-        "char": "carolMalusDienheimSenki_v11",
-        "hyper_penetration_stomach_bulge_v8all": "hyper_penetration_stomach_bulge_v8all",
+    "loras": {
+        "1": "carolMalusDienheimSenki_v11",
+        "2": "hyper_penetration_stomach_bulge_v8all"
     },
+    "lorasUpdate": false
 }

@@ -1,7 +1,7 @@
 {
-    "loras":{
-        "char":"daidouji_tomoyo_v1",
-		"1": "conceptLargerInsertion_v10",
+    "loras": {
+        "1": "daidouji_tomoyo_v1",
+        "2": "conceptLargerInsertion_v10"
     },
-    "lorasUpdate":false,
+    "lorasUpdate": false
 }

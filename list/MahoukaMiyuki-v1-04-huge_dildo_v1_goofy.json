@@ -1,7 +1,7 @@
 {
-    "loras":{
-        "char": "MahoukaMiyuki-v1-04-kimono",
-        "1": "huge_dildo_v1_goofy",
+    "loras": {
+        "1": "MahoukaMiyuki-v1-04",
+        "2": "huge_dildo_v1_goofy"
     },
-    "lorasUpdate":false,
+    "lorasUpdate": false
 }

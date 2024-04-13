@@ -1,6 +1,5 @@
 {
     "loras": {
-        "char":"daidoujiTomoyo_v01",
-        #"1": "multiple_insertions_v0.2",
-    },
+        "1": "daidoujiTomoyo_v01"
+    }
 }

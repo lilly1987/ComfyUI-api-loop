@@ -1,7 +1,7 @@
 {
-    "loras":{
-        "char": "MahoukaMiyuki-v1-04-kimono",
-		"BondagePoleV1": "BondagePoleV1",
+    "loras": {
+        "1": "MahoukaMiyuki-v1-04-kimono",
+        "2": "BondagePoleV1"
     },
-    "lorasUpdate":false,
+    "lorasUpdate": false
 }

@@ -1,7 +1,7 @@
 {
-    "loras":{
-        "char": "daidouji_tomoyo_v1",
-		"1": "arm_grab_doggy",
+    "loras": {
+        "1": "daidouji_tomoyo_v1",
+        "2": "arm_grab_doggy"
     },
-	"lorasUpdate":false,
+    "lorasUpdate": false
 }

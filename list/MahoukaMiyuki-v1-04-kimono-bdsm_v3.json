@@ -1,7 +1,7 @@
 {
-    "loras":{
-        "char": "MahoukaMiyuki-v1-04-kimono",
-        "1": "bdsm_v3",
+    "loras": {
+        "1": "MahoukaMiyuki-v1-04-kimono",
+        "2": "bdsm_v3"
     },
-    "lorasUpdate":false,
+    "lorasUpdate": false
 }
