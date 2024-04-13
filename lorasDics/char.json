@@ -229,6 +229,16 @@
             #"dress":"serafuku, sailor collar, neckerchief, black shirt, long sleeves, pleated skirt, white skirt,",
         },
     ),
+    "milliaRageGuiltyGear_1": (
+        "milliaRageGuiltyGear_1",
+        (0.825,1.25),
+        (0.825,1.25),
+        {
+            "char" :" milliams, ",
+            #"hair":"long hair, blonde hair,twintails ,",
+            #"dress":"serafuku, sailor collar, neckerchief, black shirt, long sleeves, pleated skirt, white skirt,",
+        },
+    ),
     "takao_v10": (
         "takao_v10",
         (0.825,1.25),
