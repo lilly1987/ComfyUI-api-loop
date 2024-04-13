@@ -41,7 +41,7 @@ def dircmp(p1,p2):
             print(f"remove",p)
             os.remove(p)
         else:
-            print(f"add : ",p1)
+            print(f"add : ",p)
             shutil.copy(p, p1)
             
 print(sys.argv)
