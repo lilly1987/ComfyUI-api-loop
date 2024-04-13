@@ -1,7 +1,7 @@
 {
-    "loras":{
-        "char": "daidouji_tomoyo_v1",
-		"fingering_3rd_v1": "fingering_3rd_v1",
+    "loras": {
+        "1": "daidouji_tomoyo_v1",
+        "2": "fingering_3rd_v1"
     },
-    "lorasUpdate":false,
+    "lorasUpdate": false
 }
