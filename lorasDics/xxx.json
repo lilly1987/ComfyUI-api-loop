@@ -1348,14 +1348,24 @@
 	),
 	"ahegao_v2.5": 
 	(
-	"ahegao_v2.5",
-	(0.25,0.75),
-	1.0,
-	{
-	"face" :"rolling eyes,",
-	},
-	{},
-	"rnd",
+		"ahegao_v2.5",
+		(0.25,0.75),
+		1.0,
+		{
+		"face" :"rolling eyes,",
+		},
+		{},
+		"rnd",
+	),
+	"guided_penetration-beta1": (
+		"guided_penetration-beta1",
+		(0.75,01.25),
+		(0.75,01.25),
+		{
+		"face" :"BREAK pov, straddling, assertive female, hetero, guided penetration, gp1, cowgirl position, 1boy, 1girl, penis, vaginal, BREAK",
+		},
+		{},
+		#"rnd",
 	),
 	"side-deepthroat-v3-wasabiya": (
         "side-deepthroat-v3-wasabiya",
@@ -1364,7 +1374,7 @@
         {
         "boy":"",
         "girl":"",
-        "fellatio":"BREAK 1boy, 1girl,deepthroat, penis, fellatio, kneeling, BREAK",
+        "fellatio":"BREAK 1boy, 1girl, deepthroat, penis, fellatio, kneeling, irrumatio, hetero, tearing up, BREAK",
         "pose":"",
         "looking":",",
         },
@@ -1910,6 +1920,16 @@
 		},
 		{},
 		"rnd",
+	),
+	"Reverseupright2":(
+		"Reverseupright2",
+		(0.75,01.25),
+		1.0,
+		{
+			"Reverseupright2":"BREAK 1girl,1boy, reverse upright straddle, sex, sitting on person, penis, kiss, BREAK",
+		},
+		{},
+		#"rnd",
 	),
 	"haraboko_v3":(
 		"haraboko_v3",
