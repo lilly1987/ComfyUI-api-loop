@@ -239,6 +239,26 @@
             #"dress":"serafuku, sailor collar, neckerchief, black shirt, long sleeves, pleated skirt, white skirt,",
         },
     ),
+    "Nogi_Sonoko-10": (
+        "Nogi_Sonoko-10",
+        (0.5,1.25),
+        (0.5,1.25),
+        {
+            "char" :"BREAk {1girl,solo, gray eyes,long hair, blonde hair,purple dress,wide white sleeves,purple ribbon,purple stockings,hair ornament,bare shoulders,detached sleeves, black gloves, blunt bangs, magical girl,|1girl,solo,blush, blonde hair, brown hair,grey eyes,school uniform, hair ribbon, serafuku, blunt bangs, bowtie, sailor collar, red bow, dres,}, BREAk",
+            #"hair":"long hair, blonde hair,twintails ,",
+            #"dress":"serafuku, sailor collar, neckerchief, black shirt, long sleeves, pleated skirt, white skirt,",
+        },
+    ),
+    "1735772163049885161": (
+        "1735772163049885161",
+        (0.5,1.25),
+        (0.5,1.25),
+        {
+            "char" :" irisu,female, blonde,, ",
+            #"hair":"long hair, blonde hair,twintails ,",
+            #"dress":"serafuku, sailor collar, neckerchief, black shirt, long sleeves, pleated skirt, white skirt,",
+        },
+    ),
     "takao_v10": (
         "takao_v10",
         (0.5,1.25),
