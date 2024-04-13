@@ -1,11 +1,7 @@
 {
-    "loras":{
-        "char":  "MayaYotsuba-10",
-		#"fingering_3rd_v1":"fingering_3rd_v1",
-        #"hang": "hang",
-        "1": "hyper_penetration_stomach_bulge_v8absurd",
-		#"BondagePoleV1": "BondagePoleV1",
+    "loras": {
+        "1": "MayaYotsuba-10",
+        "2": "hyper_penetration_stomach_bulge_v8absurd"
     },
-    "lorasUpdate":false,
+    "lorasUpdate": false
 }
-#Luoxuan_V2-BondagePoleV1
