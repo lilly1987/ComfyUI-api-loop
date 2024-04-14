@@ -439,6 +439,16 @@
             "dress":"long sleeves, purple dress, cleavage,  collarbone, frills, long dress, ",
         },
     ),
+    "Ribbon girl": (
+        "5d7ef548ccc9f103cfc461defb97aa95",
+        (0.825,1.25),
+        1.25,
+        {
+            "char" :" MidzuiVT, yellow eyes,  , ",
+            "hair":"purple hair, {long ponytail|long hair, hair ornament},",
+            #"dress":"serafuku, sailor collar, neckerchief, black shirt, long sleeves, pleated skirt, white skirt,",
+        },
+    ),
     "MidzuiVT-10": (
         "MidzuiVT-10",
         (0.825,1.25),
