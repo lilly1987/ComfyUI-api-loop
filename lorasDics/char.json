@@ -2770,6 +2770,33 @@
                 #"style":"cardcaptor sakura \(style\), ",
             },
         ),
+"Dress NO.21 V1 mh-000006": (
+	"Dress NO.21 V1 mh-000006",
+	(0.75,1.0),
+	(1.0,1.250),
+	{
+		"char":"dress,",
+		#"hair":"long hair,",
+	},
+),
+"buzhihuow": (
+	"buzhihuow",
+	(0.75,1.0),
+	(1.0,1.250),
+	{
+		"char":"huowu,",
+		#"hair":"long hair,",
+	},
+),
+"Avery": (
+	"Avery",
+	(0.75,1.0),
+	(1.0,1.250),
+	{
+		"char":" Avery, short hair,purple hair,hairclip,purple eyes,bangs,",
+		#"hair":"long hair,",
+	},
+),
 "march_DG": (
 	"march_DG",
 	(0.75,1.0),
