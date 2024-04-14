@@ -241,18 +241,38 @@
     ),
     "Nogi_Sonoko-10": (
         "Nogi_Sonoko-10",
-        (0.5,1.25),
-        (0.5,1.25),
+        (0.75,1.25),
+        (0.75,1.25),
         {
             "char" :"BREAk {1girl,solo, gray eyes,long hair, blonde hair,purple dress,wide white sleeves,purple ribbon,purple stockings,hair ornament,bare shoulders,detached sleeves, black gloves, blunt bangs, magical girl,|1girl,solo,blush, blonde hair, brown hair,grey eyes,school uniform, hair ribbon, serafuku, blunt bangs, bowtie, sailor collar, red bow, dres,}, BREAk",
             #"hair":"long hair, blonde hair,twintails ,",
             #"dress":"serafuku, sailor collar, neckerchief, black shirt, long sleeves, pleated skirt, white skirt,",
         },
     ),
+    "Mahouka-08-mayumi": (
+        "Mahouka-08",
+        (0.75,1.25),
+        (0.75,1.25),
+        {
+            "char" :"BREAk saegusa mayumi, hair ribbon,green jacket, white dress, necktie,,BREAk ",
+            #"hair":"long hair, blonde hair,twintails ,",
+            #"dress":"serafuku, sailor collar, neckerchief, black shirt, long sleeves, pleated skirt, white skirt,",
+        },
+    ),
+    "Mahouka-08-miyuki": (
+        "Mahouka-08",
+        (0.75,1.25),
+        (0.75,1.25),
+        {
+            "char" :"BREAk shiba miyuki, hair ornament,green jacket, white dress, necktie, BREAk",
+            #"hair":"long hair, blonde hair,twintails ,",
+            #"dress":"serafuku, sailor collar, neckerchief, black shirt, long sleeves, pleated skirt, white skirt,",
+        },
+    ),
     "1735772163049885161": (
         "1735772163049885161",
-        (0.5,1.25),
-        (0.5,1.25),
+        (0.75,1.25),
+        (0.75,1.25),
         {
             "char" :" irisu,female, blonde,, ",
             #"hair":"long hair, blonde hair,twintails ,",
@@ -2750,13 +2770,40 @@
                 #"style":"cardcaptor sakura \(style\), ",
             },
         ),
+"march_DG": (
+	"march_DG",
+	(0.75,1.0),
+	(1.0,1.250),
+	{
+		"char":" march7th, ",
+		#"hair":"long hair,",
+	},
+),
+"TsubakiMikoto-10": (
+	"TsubakiMikoto-10",
+	(0.75,1.0),
+	(1.0,1.250),
+	{
+		"char":"BREAK TsubakiMikoto, 1girl, solo, long hair, hakama skirt, black hair, hair ornament, red eyes, fingerless gloves, long sleeves, medium breasts, japanese clothes, black gloves, wide sleeves, red kimono, sash, obi, purple hakama, hair over shoulder, low ponytail,,  BREAK",
+		#"hair":"long hair,",
+	},
+),
+"UrsulaLeiden-10": (
+	"UrsulaLeiden-10",
+	(0.75,1.0),
+	(1.0,1.250),
+	{
+		"char":"BREAK UrsulaLeiden, 1girl, solo, short hair, blonde hair, hair ornament, china dress, ribbon, brown eyes, hair flower, chinese clothes, red dress, side slit,  BREAK",
+		#"hair":"long hair,",
+	},
+),
 "shijou_takane_v1": (
-            "shijou_takane_v1",
-            (0.75,1.0),
-            (1.0,1.250),
-            {
-                "char":"aatakane,  hairband,  ",
-                "hair":"long hair,",
-            },
-        ),
+	"shijou_takane_v1",
+	(0.75,1.0),
+	(1.0,1.250),
+	{
+		"char":"aatakane,  hairband,  ",
+		"hair":"long hair,",
+	},
+),
 }
