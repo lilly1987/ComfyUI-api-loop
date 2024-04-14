@@ -1,7 +1,7 @@
 {
-    "loras":{
-        "char": "MikaJougasaki",
-		"aki-000024": "aki-000024",
+    "loras": {
+        "1": "MikaJougasaki",
+        "2": "aki-000024"
     },
-    "lorasUpdate":false,
+    "lorasUpdate": false
 }

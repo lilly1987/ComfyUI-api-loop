@@ -1,7 +1,7 @@
 {
-    "loras":{
-        "char": "ShibaMiyuki",
-        "1": "transformation",
+    "loras": {
+        "1": "ShibaMiyuki",
+        "2": "transformation"
     },
-    "lorasUpdate":false,
+    "lorasUpdate": false
 }

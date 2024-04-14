@@ -1,7 +1,7 @@
 {
-    "loras":{
-        "char":"MikaJougasaki",
-		"1": "BondagePoleV1",
+    "loras": {
+        "1": "MikaJougasaki",
+        "2": "BondagePoleV1"
     },
-    "lorasUpdate":false,
+    "lorasUpdate": false
 }

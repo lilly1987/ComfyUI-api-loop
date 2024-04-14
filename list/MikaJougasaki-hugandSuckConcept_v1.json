@@ -1,7 +1,7 @@
 {
-    "loras":{
-        "char": "MikaJougasaki",
-		"1": "hugandSuckConcept_v1",
+    "loras": {
+        "1": "MikaJougasaki",
+        "2": "hugandSuckConcept_v1"
     },
-	"lorasUpdate":false,
+    "lorasUpdate": false
 }

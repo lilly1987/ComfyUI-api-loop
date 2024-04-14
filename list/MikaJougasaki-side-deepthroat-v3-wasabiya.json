@@ -1,7 +1,7 @@
 {
-    "loras":{
-        "char": "MikaJougasaki",
-        "1": "side-deepthroat-v3-wasabiya",
+    "loras": {
+        "1": "MikaJougasaki",
+        "2": "side-deepthroat-v3-wasabiya"
     },
-    "lorasUpdate":false,
+    "lorasUpdate": false
 }

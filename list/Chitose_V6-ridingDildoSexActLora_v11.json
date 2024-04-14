@@ -1,7 +1,7 @@
 {
-    "loras":{
-        "char": "Chitose_V6",
-        "1": "ridingDildoSexActLora_v11",
+    "loras": {
+        "1": "Chitose_V6",
+        "2": "ridingDildoSexActLora_v11"
     },
-    "lorasUpdate":false,
+    "lorasUpdate": false
 }

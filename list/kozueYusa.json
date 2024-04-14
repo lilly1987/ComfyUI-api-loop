@@ -1,8 +1,5 @@
 {
-    "loras":{
-        "char":"kozueYusa",
-		#"fingering_3rd_v1":"fingering_3rd_v1",
-        #"hang": "hang",
-    },
-    #"lorasUpdate":false,
+    "loras": {
+        "1": "kozueYusa"
+    }
 }

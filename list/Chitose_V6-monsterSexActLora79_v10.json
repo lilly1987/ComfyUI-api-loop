@@ -1,7 +1,7 @@
 {
-    "loras":{
-        "char": "Chitose_V6",
-        "1": "monsterSexActLora79_v10",
+    "loras": {
+        "1": "Chitose_V6",
+        "2": "monsterSexActLora79_v10"
     },
-    "lorasUpdate":false,
+    "lorasUpdate": false
 }

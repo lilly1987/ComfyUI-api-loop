@@ -1,9 +1,7 @@
 {
-    "loras":{
-        "char": "ShibaMiyuki",
-        #"BondagePoleV1": "BondagePoleV1",
-        #"standsex": "standsex",
-        "monsterSexActLora79_v10": "monsterSexActLora79_v10",
+    "loras": {
+        "1": "ShibaMiyuki",
+        "2": "monsterSexActLora79_v10"
     },
-    "lorasUpdate":false,
+    "lorasUpdate": false
 }

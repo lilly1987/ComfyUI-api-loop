@@ -1,7 +1,7 @@
 {
-    "loras":{
-        "char":"MikaJougasaki",
-		"1": "bdsm_v3",
+    "loras": {
+        "1": "MikaJougasaki",
+        "2": "bdsm_v3"
     },
-    "lorasUpdate":false,
+    "lorasUpdate": false
 }

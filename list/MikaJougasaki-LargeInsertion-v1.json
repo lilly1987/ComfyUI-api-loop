@@ -1,7 +1,7 @@
 {
-    "loras":{
-        "char":"MikaJougasaki",
-		"1": "LargeInsertion-v1",
+    "loras": {
+        "1": "MikaJougasaki",
+        "2": "LargeInsertion-v1"
     },
-    "lorasUpdate":false,
+    "lorasUpdate": false
 }

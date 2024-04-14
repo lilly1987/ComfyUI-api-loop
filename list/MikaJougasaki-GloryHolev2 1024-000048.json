@@ -1,7 +1,7 @@
 {
-    "loras":{
-        "char": "MikaJougasaki",
-    	"1": "GloryHolev2 1024-000048",
+    "loras": {
+        "1": "MikaJougasaki",
+        "2": "GloryHolev2 1024-000048"
     },
-	"lorasUpdate":false,
+    "lorasUpdate": false
 }

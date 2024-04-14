@@ -1,10 +1,7 @@
 {
     "loras": {
-        "char":"MikaJougasaki",
-        #"hair":"long hair,",
-        #"dress":"{__Marianne_Vi_Britannia_dress__,|}",
-        #"style":"cardcaptor sakura \(style\), ",
-        "hyper_penetration_stomach_bulge_v8absurd": "hyper_penetration_stomach_bulge_v8absurd",
+        "1": "MikaJougasaki",
+        "2": "hyper_penetration_stomach_bulge_v8absurd"
     },
-    "lorasUpdate":false,
+    "lorasUpdate": false
 }

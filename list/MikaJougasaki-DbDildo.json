@@ -1,7 +1,7 @@
 {
-    "loras":{
-        "char": "MikaJougasaki",
-        "1": "DbDildo",
+    "loras": {
+        "1": "MikaJougasaki",
+        "2": "DbDildo"
     },
-    "lorasUpdate":false,
+    "lorasUpdate": false
 }

@@ -1,7 +1,7 @@
 {
-    "loras":{
-        "char": "kozueYusa",
-        "1": "hyper_penetration_stomach_bulge_v8nice",
+    "loras": {
+        "1": "kozueYusa",
+        "2": "hyper_penetration_stomach_bulge_v8nice"
     },
-    "lorasUpdate":false,
+    "lorasUpdate": false
 }

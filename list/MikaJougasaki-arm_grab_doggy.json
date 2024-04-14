@@ -1,7 +1,7 @@
 {
-    "loras":{
-        "char": "MikaJougasaki",
-		"1": "arm_grab_doggy",
+    "loras": {
+        "1": "MikaJougasaki",
+        "2": "arm_grab_doggy"
     },
-	"lorasUpdate":false,
+    "lorasUpdate": false
 }
