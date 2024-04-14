@@ -1178,10 +1178,10 @@
 	),
 	"onahole_personality_v17":(
 		"onahole_personality_v17",
-		(0.5,01.25),
+		(0.75,01.25),
 		(01.0,01.25),
 		{
-			"onahole":"onahole, {holding onahole,|} {transparent onahole,|} limbless, armless, legsless,",
+			"onahole":"BREAK onahole, {holding onahole,|} {transparent onahole,|} limbless, armless, legsless, BREAK",
 		},
 		{
 			"embedding":"",
@@ -1190,7 +1190,7 @@
 			"rnd",
 			"SD-ALL"    ,
 			#"SD-INS"    ,
-			"SD-INALL"  ,
+			#"SD-INALL"  ,
 			#"SD-IND"    ,
 			"SD-MIDD"   ,
 			#"SD-MIDD1"  ,
@@ -1199,7 +1199,8 @@
 			#"SD-MIDD0.2",
 			"SD-MOUT"   ,
 			"SD-MOUT"   ,
-			"SD-OUTD"   ,
+			#"SD-OUTD"   ,
+			"SD-OUTS"   ,
 			"SD-OUTS"   ,
 			"SD-OUTALL" ,
 			#"SD-ROUT"   ,
