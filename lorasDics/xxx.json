@@ -486,6 +486,16 @@
 	{},
 	"rnd",
 	),
+	"belly_punch-000014": (
+	"belly_punch-000014",
+	(0.5,01.0),
+	1.0,
+	{
+	"BellyPunch":"BellyPunch,",
+	},
+	{},
+	#"rnd",
+	),
 	"lolitaFashionDress_v10": (
 	"lolitaFashionDress_v10",
 	(0.25,0.75),
