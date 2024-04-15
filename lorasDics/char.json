@@ -1811,6 +1811,17 @@
 			"dress":" wide sleeves, pink kimono, blue hakama, hakama skirt,",
 		},
 	),
+	"MisakiSakurada-10": (
+		"MisakiSakurada-10",
+		(0.75,1.25),
+		1.0,
+		{
+			"char" :"BREAK MisakiSakurada, 1girl, solo, skirt, school uniform, green eyes, ponytail, pink hair, serafuku, kneehighs,, BREAK ",
+			#"hair":"  white hair,  ",
+			#"hat":"white witch hat,",
+			#"dress":",",
+		},
+	),
 	"silentMagicianYuGiOh_v10": (
 		"silentMagicianYuGiOh_v10",
 		(0.75,1.25),
@@ -2435,9 +2446,9 @@
 		(0.875,1.0),
 		1.0,
 		{
-			"char" :"mayumi saegusa,",
-			"hair":"long hair,,",
-			"dress":"{school uniform, jacket, necktie,|__dress_set__}",
+			"char" :"BREAK mayumi saegusa,long hair,school uniform, jacket, necktie, BREAK",
+			#"hair":",",
+			#"dress":"{|__dress_set__}",
 		},
         {},
         [
