@@ -683,6 +683,16 @@
 	{},
 	"rnd",
 	),
+	"riding_dildo.v.10":(
+		"riding_dildo.v.10",
+		(0.25,0.75),
+		(1.0,1.25),
+		{
+			"riding a dildo":"riding a dildo,",
+		},
+		{},
+		#"rnd",
+	),
 	"bondage-v11-p20":(
 	"bondage-v11-p20",
 	(0.25,0.75),
