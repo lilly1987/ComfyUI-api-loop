@@ -1874,6 +1874,16 @@
         "dress": ",",
 		},
 	),
+	"hina_(dress)_1.5": (
+		"hina_(dress)_1.5",
+		(0.5,1.0),
+		1.0,
+		{
+		"char":"BREAK hina, parted bangs, sidelocks, ponytail, halo, bare shoulders, earrings, alternate costume, alternate hairstyle, purple gloves, necklace, collarbone, elbow gloves, strapless dress, purple dress, BREAK",
+        #"hair":"blonde hair, short hair, ",
+        #"dress": "",
+		},
+	),
 	"ShiLuHonkai": (
 		"ShiLuHonkai",
 		(0.5,1.0),
