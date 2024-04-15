@@ -269,6 +269,16 @@
             #"dress":"serafuku, sailor collar, neckerchief, black shirt, long sleeves, pleated skirt, white skirt,",
         },
     ),
+    "北境夜雪-Blue dress lolitaV1.4": (
+        "北境夜雪-Blue dress lolitaV1.4",
+        (0.75,1.25),
+        (0.75,1.25),
+        {
+            "char" :" bjyx,, ",
+            #"hair":"long hair, blonde hair,twintails ,",
+            #"dress":"serafuku, sailor collar, neckerchief, black shirt, long sleeves, pleated skirt, white skirt,",
+        },
+    ),
     "1735772163049885161": (
         "1735772163049885161",
         (0.75,1.25),
@@ -2455,7 +2465,7 @@
         "SD-ALL"    ,
         "SD-ALL"    ,
         #"SD-INS"    ,
-        "SD-INALL"  ,
+        #"SD-INALL"  ,
         #"SD-IND"    ,
         "SD-MIDD"   ,
         "SD-MIDD1"  ,

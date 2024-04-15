@@ -663,6 +663,16 @@
 	{},
 	"rnd",
 	),
+	"lolita1-v1":(
+	"lolita1-v1",
+	(0.5,01.0),
+	(1.0,1.25),
+	{
+	"lolita1-v1":"1girl, dress,",
+	},
+	{},
+	#"rnd",
+	),
 	"mermaid":(
 	"mermaid-1_mermaid-2--mermaid-3_mermaid-4--retro_ham_avas_jun_rifl--09-01",
 	(0.25,0.75),
