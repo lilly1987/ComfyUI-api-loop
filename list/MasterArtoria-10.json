@@ -1,7 +1,5 @@
 {
-    "loras":{
-        "char":"MasterArtoria-10",
-        #"hang": "hang",
-    },
-    #"lorasUpdate":false,
+    "loras": {
+        "1": "MasterArtoria-10"
+    }
 }
