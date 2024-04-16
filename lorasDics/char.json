@@ -1874,12 +1874,52 @@
 			#"dress":",",
 		},
 	),
+	"nagisa_scarxzys": (
+		"nagisa_scarxzys",
+		(0.75,1.25),
+		1.0,
+		{
+			"char" :"BREAK nagisa, yellow eyes, light brown hair, long hair, hair between eyes, braid, hair flower, halo, white dress, long sleeves, white capelet, white sailor collar, black neckerchief, harness, angel wings, white wings, BREAK ",
+			#"hair":"  white hair, green eyes,  ",
+			#"dress":",",
+		},
+	),
+	"cecilia_shiro_seijo_locon_v1": (
+		"cecilia_shiro_seijo_locon_v1",
+		(0.75,1.25),
+		1.0,
+		{
+			"char" :"BREAK cecilia \(shiro seijo to kuro bokushi\), very long hair, green hair, sidelocks, asymmetrical hair, hair bun, green eyes, eyebrows visible through hair, hair between eyes, white dress, frilled dress, veil, hood up, white capelet, jewelry, long sleeves, wide sleeves, sleeves past wrists, cross necklace, pleated skirt, black skirt, miniskirt, black legwear, thighhighs, thigh boots, black footwear, high heel boots, BREAK ",
+			#"hair":"  white hair, green eyes,  ",
+			#"dress":",",
+		},
+	),
+	"sister_cleaire_v2": (
+		"sister_cleaire_v2",
+		(0.75,1.25),
+		1.0,
+		{
+			"char" :"BREAK {aasister, long hair, nun, habit, white capelet, neck ribbon, (black dress:1.2), long sleeves, white gloves, full-length zipper,|bbsister, long hair, ponytail, sidelocks, collared dress, grey dress, short sleeves, buttons, black belt|ccsister, long hair, white headwear, earrings, collarbone, necklace, pink sweater, long sleeves, black gloves, plaid skirt, grey skirt, black pantyhose|ddsister, long hair, two side up, wavy hair, crop top, cropped shirt, black shirt, short sleeves, chest harness, suspenders, midriff, miniskirt, black skirt, thigh strap|eesister, long hair, sleep mask, glasses, collarbone, necklace, pajamas, camisole, blue bow, brown cardigan, open clothes, long sleeves, frilled shorts, white shorts, white bloomers} BREAK ",
+			#"hair":"  white hair, green eyes,  ",
+			#"dress":",",
+		},
+	),
 	"tohsaka_scarxzys": (
 		"tohsaka_scarxzys",
 		(0.75,1.25),
 		1.0,
 		{
 			"char" :"BREAK rin, blue eyes, brown hair, long hair, two side up, parted bangs, black hair ribbon, BREAK ",
+			#"hair":"  white hair, green eyes,  ",
+			#"dress":",",
+		},
+	),
+	"LilyKOKOSCHKA-10": (
+		"LilyKOKOSCHKA-10",
+		(0.75,1.25),
+		1.0,
+		{
+			"char" :"BREAK LilyKOKOSCHKA, 1girl, solo, long hair, blonde hair, hair between eyes, uniform, ascot, wavy hair, eyes visible through hair, white ascot,, BREAK ",
 			#"hair":"  white hair, green eyes,  ",
 			#"dress":",",
 		},
