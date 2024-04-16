@@ -1053,12 +1053,12 @@
         ),
     "ShibaMiyuki": (
         "ShibaMiyuki",
-        (0.875,1.0),
+        (0.75,1.0),
         (1.0,1.250),
         {
-            "char":"shibamiyuki,  ",
-            "hair":"long hair,",
-            "dress":"school uniform, black necktie, white dress, green jacket, long sleeves, open jacket, high heels,",
+            "char":"BREAK shibamiyuki, long hair,school uniform, black necktie, white dress, green jacket, long sleeves, open jacket, high heels, BREAK",
+            "hair":"",
+            "dress":"",
         },
     ), 
     "유사 코즈에": (
@@ -1140,8 +1140,8 @@
 	),
     "jougasaki_mika_v1": (
 		"jougasaki_mika_v1",
-		(0.75,01.0),
-		(0.75,01.250),
+		(0.5,01.0),
+		(0.5,01.0),
 		{
 			"char":"BREAK aamika, yellow eyes,  ponytail, hair bow,  pink hair, collarbone, school uniform, striped, bowtie, collared shirt, white shirt, sleeves rolled up, wrist scrunchie, clothes around waist, plaid skirt, purple skirt, BREAK",
 			"hair":"",
