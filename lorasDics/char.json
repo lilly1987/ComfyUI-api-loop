@@ -2264,12 +2264,14 @@
 		(0.75,1.0),
 		1.0,
 		{
-			"char":"Kitagawa_Marin,   ",
-			"hair":"purple_eyes, purple_hair, short_hair, parted_lips,",
-			"dress":"purple_eyes, purple_hair, short_hair, parted_lips, long_sleeves, black_dress, chain_leash, cosplay, gothic_fashion, lolita_fashion, frilled_sleeves, wide_sleeves, frilled_dress, frilled_apron, hair_flower, black_necktie, black_thighhighs, print_legwear, black_collar, black_hairband, cleavage_cutout, frills, garter_straps, necktie_between_breasts,",
+			"char":"BREAK Kitagawa_Marin,  purple_eyes, purple_hair, short_hair, parted_lips, long_sleeves, black_dress, chain_leash, cosplay, gothic_fashion, lolita_fashion, frilled_sleeves, wide_sleeves, frilled_dress, frilled_apron, hair_flower, black_necktie, black_thighhighs, print_legwear, black_collar, black_hairband, cleavage_cutout, frills, garter_straps, necktie_between_breasts, BREAK",
+			#"hair":"purple_eyes, purple_hair, short_hair, parted_lips,",
+			#"dress":"",
 		},
 		{},
 		[
+ "SD-ALL"    ,
+ "SD-ALL"    ,
  "SD-ALL"    ,
  #"SD-INS"    ,
  "SD-INALL"  ,
@@ -2277,8 +2279,8 @@
  "SD-MIDD"   ,
  "SD-MIDD1"  ,
  "SD-MIDD2"  ,
- "SD-MIDD0.8",
- "SD-MIDD0.2",
+ #"SD-MIDD0.8",
+ #"SD-MIDD0.2",
  "SD-MOUT"   ,
  "SD-OUTD"   ,
  "SD-OUTD"   ,
@@ -2288,7 +2290,7 @@
  "SD-AOUT"   ,
  "SD-AOUT"   ,
  "SD-AB" 	,
- "SD-ALL0.5" ,
+ #"SD-ALL0.5" ,
 		]
 	),
 	"aceTrainerXYPokemonXY_v10": (
