@@ -663,6 +663,26 @@
 	{},
 	"rnd",
 	),
+	"weddingPrincessDress_v10":(
+	"weddingPrincessDress_v10",
+	(0.5,01.0),
+	(1.0,1.25),
+	{
+	"weddingPrincessDress_v10":"wedding princess dress, wedding dress,",
+	},
+	{},
+	#"rnd",
+	),
+	"feet off the ground suspension-000009":(
+	"feet off the ground suspension-000009",
+	(0.5,01.0),
+	(1.0,1.25),
+	{
+	"feet off the ground suspension-000009":"suspension, feet off the ground, bangs,",
+	},
+	{},
+	#"rnd",
+	),
 	"little_black_dress":(
 	"little_black_dress",
 	(0.5,01.0),
