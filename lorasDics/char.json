@@ -750,12 +750,32 @@
             #"dress":"{bare shoulders, collarbone, dress, long sleeves, off shoulder, off-shoulder dress, off-shoulder sweater, pantyhose, red sweater, sweater, sweater dress, thighs,|__dress_set__}",
         },
     ),
+    "sharonHolygrailEngage_v10": (
+        "sharonHolygrailEngage_v10",
+        (0.825,1.0),
+        1.0,
+        {
+            "char" :"sharon_holygrail,",
+            #"hair":"long hair,",
+            #"dress":" ",
+        },
+    ),
     "parvatiFate_v10": (
         "parvatiFate_v10",
         (0.825,1.0),
         1.0,
         {
-            "char" :",",
+            "char" :"parvati \(fate\),",
+            #"hair":"long hair,",
+            #"dress":" ",
+        },
+    ),
+    "emiliaReZeroRe_v10": (
+        "emiliaReZeroRe_v10",
+        (0.825,1.0),
+        1.0,
+        {
+            "char" :"emilia,",
             #"hair":"long hair,",
             #"dress":" ",
         },
