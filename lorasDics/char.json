@@ -9,6 +9,26 @@
             "dress":"",
         },
     ),
+    "PKMN_Juniper-DEF": (
+        "PKMN_Juniper-DEF",
+        (0.825,1.25),
+        (0.825,1.25),
+        {
+            "char" :",",
+            "hair":"",
+            "dress":"",
+        },
+    ),
+    "twbabe_9": (
+        "twbabe_9",
+        (0.825,1.25),
+        (0.825,1.25),
+        {
+            "char" :"twbabe_9,",
+            "hair":"",
+            "dress":"",
+        },
+    ),
     "daidouji_tomoyo_v1": (
         "daidouji_tomoyo_v1",
         (0.825,1.25),
@@ -2312,7 +2332,7 @@
 	"Marianne_Vi_Britannia": (
 		"Marianne_Vi_Britannia",
 		(0.75,1.0),
-		1.0,
+		(0.75,1.0),
 		{
 			"char":"marianne_vi_britannia,   ",
 		},
@@ -2596,13 +2616,14 @@
         [
         "SD-ALL"    ,
         "SD-ALL"    ,
+        "SD-ALL"    ,
         #"SD-INS"    ,
         #"SD-INALL"  ,
         #"SD-IND"    ,
         "SD-MIDD"   ,
-        "SD-MIDD1"  ,
+        #"SD-MIDD1"  ,
         "SD-MIDD2"  ,
-        "SD-MIDD0.8",
+        #"SD-MIDD0.8",
         #"SD-MIDD0.2",
         "SD-MOUT"   ,
         "SD-MOUT"   ,
