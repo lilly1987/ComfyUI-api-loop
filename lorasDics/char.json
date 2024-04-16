@@ -750,6 +750,16 @@
             #"dress":"{bare shoulders, collarbone, dress, long sleeves, off shoulder, off-shoulder dress, off-shoulder sweater, pantyhose, red sweater, sweater, sweater dress, thighs,|__dress_set__}",
         },
     ),
+    "parvatiFate_v10": (
+        "parvatiFate_v10",
+        (0.825,1.0),
+        1.0,
+        {
+            "char" :",",
+            #"hair":"long hair,",
+            #"dress":" ",
+        },
+    ),
     "PONY_Lysithea": (
         "PONY_Lysithea",
         (0.825,1.0),
@@ -757,7 +767,7 @@
         {
             "char" :",",
             #"hair":"long hair,",
-            #"dress":"{bare shoulders, collarbone, dress, long sleeves, off shoulder, off-shoulder dress, off-shoulder sweater, pantyhose, red sweater, sweater, sweater dress, thighs,|__dress_set__}",
+            #"dress":" ",
         },
     ),
     "wyndia s3-lora-ivnaqn": (
@@ -1024,12 +1034,14 @@
 		(0.75,1.0),
 		1.0,
 		{
-			"char":" MikaJou,  yellow eyes, ",
-			"hair":"ponytail, pink hair,",
+			"char":"BREAK MikaJou,  yellow eyes, ponytail, pink hair, BREAK",
+			"hair":"",
 			#"dress":"collarbone, school uniform, striped, bowtie, collared shirt, white shirt, sleeves rolled up, wrist scrunchie, clothes around waist, plaid skirt, purple skirt, ",
 		},
 	{},
 	[
+	"SD-ALL"    ,
+	"SD-ALL"    ,
 	"SD-ALL"    ,
 	#"SD-INS"    ,
 	#"SD-INALL"  ,
@@ -1039,7 +1051,7 @@
 	#"SD-MIDD1"  ,
 	"SD-MIDD2"  ,
 	"SD-MIDD2"  ,
-	"SD-MIDD0.8",
+	#"SD-MIDD0.8",
 	#"SD-MIDD0.2",
 	#"SD-MOUT"   ,
 	"SD-OUTD"   ,
