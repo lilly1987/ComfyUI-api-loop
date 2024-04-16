@@ -1854,6 +1854,16 @@
 			"dress":"{default_dress,|__dress_set__}",
 		},
 	),
+	"Saegusa_Mayumi_MagicHighSchool-KK77-V1": (
+		"Saegusa_Mayumi_MagicHighSchool-KK77-V1",
+		(0.75,1.25),
+		1.0,
+		{
+			"char" :"BREAK Red eyes, black hair,bangs,Long hair, green jacket,white shirt,black necktie, hair ribbon, school uniform, long sleeves,  BREAK",
+			#"hair":"  white hair, green eyes,  ",
+			#"dress":",",
+		},
+	),
 	"kozueYusa": (
 		"kozueYusa",
 		(0.75,1.25),
