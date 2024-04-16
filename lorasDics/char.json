@@ -1874,6 +1874,16 @@
 			#"dress":",",
 		},
 	),
+	"tohsaka_scarxzys": (
+		"tohsaka_scarxzys",
+		(0.75,1.25),
+		1.0,
+		{
+			"char" :"BREAK rin, blue eyes, brown hair, long hair, two side up, parted bangs, black hair ribbon, BREAK ",
+			#"hair":"  white hair, green eyes,  ",
+			#"dress":",",
+		},
+	),
 	"lufia1.5": (
 		"lufia1.5",
 		(0.5,1.0),
