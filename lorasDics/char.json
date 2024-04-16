@@ -1,4 +1,14 @@
 {	 
+    "shihoHinomoriPjsekai_v10": (
+        "shihoHinomoriPjsekai_v10",
+        (0.825,1.25),
+        (0.825,1.25),
+        {
+            "char" :"shihohinomoripjsekai,",
+            "hair":"",
+            "dress":"",
+        },
+    ),
     "daidouji_tomoyo_v1": (
         "daidouji_tomoyo_v1",
         (0.825,1.25),
