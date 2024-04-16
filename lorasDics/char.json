@@ -1914,6 +1914,16 @@
 			#"dress":",",
 		},
 	),
+	"sophia-ascart-10": (
+		"sophia-ascart-10",
+		(0.75,1.25),
+		1.0,
+		{
+			"char" :"sophia ascart,",
+			#"hair":"  white hair, green eyes,  ",
+			#"dress":",",
+		},
+	),
 	"Mochizuki Maho(dh)": (
 		"Mochizuki Maho(dh)",
 		(0.75,1.25),
