@@ -663,6 +663,16 @@
 	{},
 	"rnd",
 	),
+	"little_black_dress":(
+	"little_black_dress",
+	(0.5,01.0),
+	(1.0,1.25),
+	{
+	"little_black_dress":"black_little_dress,dress,frills,rose,",
+	},
+	{},
+	#"rnd",
+	),
 	"lolita1-v1":(
 	"lolita1-v1",
 	(0.5,01.0),
