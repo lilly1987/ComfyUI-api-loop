@@ -1914,6 +1914,16 @@
 			#"dress":",",
 		},
 	),
+	"Mochizuki Maho(dh)": (
+		"Mochizuki Maho(dh)",
+		(0.75,1.25),
+		1.0,
+		{
+			"char" :"BREAK Mochizuki Maho, long hair,grey hair,sidelocks,bangs,purple eyes, {|jewelry,brooch,ascot,blazer,light pink jacket,wing collar,yellow sweater vest,red bowtie,plaid bowtie,white shirt,collared shirt,long sleeves,medium breasts,miniskirt,red skirt,pleated skirt,plaid skirt,black socks,loafers} BREAK ",
+			#"hair":"  white hair, green eyes,  ",
+			#"dress":",",
+		},
+	),
 	"LilyKOKOSCHKA-10": (
 		"LilyKOKOSCHKA-10",
 		(0.75,1.25),
