@@ -1760,7 +1760,7 @@
 	),
 	"Eris-10": (
 		"Eris-10",
-		(0.75,1.0),
+		(0.5,1.0),
 		1.0,
 		{
 			"char":"eris, blue eyes, {Ahoge,|} ",
@@ -2025,7 +2025,7 @@
         "SD-ALL"    ,
         #"SD-INS"    ,
         #"SD-INALL"  ,
-        "SD-IND"    ,
+        #"SD-IND"    ,
         "SD-MIDD"   ,
         "SD-MIDD1"  ,
         "SD-MIDD2"  ,
@@ -2033,6 +2033,7 @@
         "SD-MIDD2"  ,
         #"SD-MIDD0.8",
         #"SD-MIDD0.2",
+        "SD-MOUT"   ,
         "SD-MOUT"   ,
         "SD-OUTD"   ,
         #"SD-OUTS"   ,
@@ -2075,6 +2076,17 @@
 			#"dress":",",
 		},
 	),
+	"hornet-10": (
+            "hornet-10",
+            (0.5,1.0),
+            1.0,
+            {
+       # "hat":" hat, witch hat, ",
+        "char":" hornetKC, grey eyes,   ",
+        "hair":" long hair, ",
+        "dress": "{ skirt,  white shirt, pantyhose, necktie,  dress shirt, black belt, {jacket,black jacket,bomber jacket, long sleeves,|}|__dress_set__,} ",
+            },
+        ),
 	"raidenShogunGenshin_raidenv1": (
 		"raidenShogunGenshin_raidenv1",
 		(0.75,1.25),
@@ -2843,7 +2855,7 @@
 		(0.75,1.0),
 		1.0,
 		{
-			"char":"VioletFate,  very long hair, hair ribbon, cleavage, bare shoulders, medium breasts, purple eyes, purple hair, detached sleeves, black bodysuit, skintight, glasses,,",
+			"char":"BREAK VioletFate,  very long hair, hair ribbon, cleavage, bare shoulders, medium breasts, purple eyes, purple hair, detached sleeves, black bodysuit, skintight, glasses,BREAK",
 			"hair" :", ",
 			"dress" :", ",
 		},
