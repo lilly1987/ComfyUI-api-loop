@@ -538,8 +538,8 @@
 	),
 	"daodiao": (
 	"daodiao",
+	(0.25,01.0),
 	(0.75,01.0),
-	1.0,
 	{
 	#"dress":"bride, ",
 	},
@@ -1493,6 +1493,16 @@
 		},
 		{},
 		"rnd",
+	),
+	"hand_on_anothers_head_v0.1": (
+	"hand_on_anothers_head_v0.1",
+		(0.75,01.25),
+		(0.75,01.25),
+		{
+		"hand_on_anothers_head_v0" :"hand on another's head,sex,sex from behind,doggystyle,",
+		},
+		{},
+		#"rnd",
 	),
 	"guided_penetration-beta1": (
 		"guided_penetration-beta1",

@@ -11,8 +11,8 @@
     ),
     "PKMN_Juniper-DEF": (
         "PKMN_Juniper-DEF",
-        (0.825,1.25),
-        (0.825,1.25),
+        (0.5,1.0),
+        (0.5,1.0),
         {
             "char" :"juniper,",
             "hair":"",
@@ -223,7 +223,7 @@
     "mayumi_v1.0": (
         "mayumi_v1.0-000002",
         (0.825,1.25),
-        (01.0,1.25),
+        (0.825,1.25),
         {
             "char" :"BREAK mayumi, long hair, mahouka_uniform, green_jacket, white_sleeveless_dress, necktie, BREAK",
             "hair":" ",
@@ -1682,7 +1682,7 @@
         "SD-OUTD"   ,
         #"SD-OUTS"   ,
         #"SD-OUTALL" ,
-        "SD-ROUT"   ,#
+        #"SD-ROUT"   ,#
         "SD-AOUT"   ,
         "SD-AB" 	,
         #"SD-ALL0.5" ,
