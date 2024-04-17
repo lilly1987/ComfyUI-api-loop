@@ -29,6 +29,16 @@
             "dress":"",
         },
     ),
+    "arknightsUOfficialEureka_vtbV10": (
+        "arknightsUOfficialEureka_vtbV10",
+        (0.825,1.25),
+        (0.825,1.25),
+        {
+            "char" :"uttu,",
+            "hair":"",
+            "dress":"",
+        },
+    ),
     "twbabe_9": (
         "twbabe_9",
         (0.825,1.25),
@@ -1937,9 +1947,9 @@
         "SD-INALL"  ,
         "SD-IND"    ,
         "SD-MIDD"   ,
-        "SD-MIDD1"  ,
+        #"SD-MIDD1"  ,
         "SD-MIDD2"  ,
-        "SD-MIDD0.8",
+        #"SD-MIDD0.8",
         #"SD-MIDD0.2",
         "SD-MOUT"   ,
         "SD-OUTD"   ,
