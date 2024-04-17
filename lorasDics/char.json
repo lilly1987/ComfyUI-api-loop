@@ -2536,9 +2536,9 @@
 		(0.75,1.0),
 		1.0,
 		{
-			"char":"purple eyes,   ",
-			"hair":" pink hair,  hairclip, white headdress,",
-			"dress":"blue dress, white sleeves,",
+			"char":"BREAK purple eyes,  pink hair,  hairclip, white headdress, blue dress, white sleeves,BREAK ",
+			"hair":" ",
+			"dress":"",
 		},
 		{},
         [
@@ -2549,7 +2549,7 @@
         "SD-MIDD"   ,
         "SD-MIDD1"  ,
         "SD-MIDD2"  ,
-        "SD-MIDD0.8",
+        #"SD-MIDD0.8",
         #"SD-MIDD0.2",
         "SD-MOUT"   ,
         "SD-OUTD"   ,
