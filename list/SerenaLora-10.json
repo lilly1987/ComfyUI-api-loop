@@ -1,5 +1,5 @@
 {
-    "loras":{
-        "char": "SerenaLora-10",
-    },
+    "loras": {
+        "1": "SerenaLora-10"
+    }
 }

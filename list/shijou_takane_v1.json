@@ -1,7 +1,5 @@
 {
-    "loras":{
-        "char":"shijou_takane_v1",
-        #"aki-000024": "aki-000024",
-    },
-    #"lorasUpdate":false,
+    "loras": {
+        "1": "shijou_takane_v1"
+    }
 }

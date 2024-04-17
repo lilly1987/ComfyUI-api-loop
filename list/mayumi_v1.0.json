@@ -1,7 +1,5 @@
 {
-    "loras":{
-        "char": "mayumi_v1.0",
-        #"1":"cowgirl-2.0",
-    },
-    #"lorasUpdate":false,
+    "loras": {
+        "1": "mayumi_v1.0"
+    }
 }
