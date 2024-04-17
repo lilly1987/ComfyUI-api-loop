@@ -59,6 +59,17 @@
             "dress":",",
         },
     ),
+    "xishiInHonorOfKings_v10": (
+        "xishiInHonorOfKings_v10",
+        (0.75,1.25),
+        (0.75,1.25),
+        {
+            "photorealistic" :"photorealistic,",
+            #"char" :"under_heroine,",
+            #"hair":",",
+            #"dress":",",
+        },
+    ),
     "under_heorine": (
         "under_heorine",
         (0.825,1.25),

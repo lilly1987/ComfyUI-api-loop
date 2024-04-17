@@ -496,6 +496,16 @@
 	{},
 	"rnd",
 	),
+	"Dress08": (
+	"Dress08",
+	(0.5,01.0),
+	1.0,
+	{
+	"Dress08":" dress,",
+	},
+	{},
+	#"rnd",
+	),
 	"Party_Dress Tiered_Dress-000008": (
 	"Party_Dress Tiered_Dress-000008",
 	(0.5,01.0),
