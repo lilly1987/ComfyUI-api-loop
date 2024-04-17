@@ -1,16 +1,5 @@
 {
-    "loras":{
-        "char": (
-            "Mari-10",
-            (0.25,1.0),
-            1.0,
-            {
-                "char":"Mari_\(Blue_Archive\),  blue_eyes, yellow_halo, animal_ears, animal_ear_fluff ",
-                "hair":"orange_hair, long_hair, bangs, single_braid,",
-                "dress":"{nun, habit, animal_ear_headwear, black_dress, puffy_sleeves, white_sailor_collar, blue_neckerchief,| __dress__,}",
-                #"hat":"witch_hat, ",
-                #"style":"cardcaptor sakura \(style\), ",
-            },
-        ),
-    },
+    "loras": {
+        "1": "Mari-10"
+    }
 }

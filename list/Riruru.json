@@ -1,16 +1,5 @@
 {
-    "loras":{
-        "char": (
-            "Riruru",
-            (0.875,1.0),
-            1.0,
-            {
-        "char":" Riruru,  pointy ears, elf, blue eyes,  ",
-        "hair":"very long hair, green hair,",
-        #"dress": " white dress, cleavage, bare shoulders,",
-            },
-        ),
-        #"hang": "hang",
-    },
-    #"lorasUpdate":false,
+    "loras": {
+        "1": "Riruru"
+    }
 }

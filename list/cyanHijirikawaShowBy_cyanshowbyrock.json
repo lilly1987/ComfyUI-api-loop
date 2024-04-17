@@ -1,7 +1,5 @@
 {
-    "loras":{
-        "char": "cyanHijirikawaShowBy_cyanshowbyrock",
-        #"1": "hyper_penetration_stomach_bulge_v8nice",
-    },
-    #"lorasUpdate":false,
+    "loras": {
+        "1": "cyanHijirikawaShowBy_cyanshowbyrock"
+    }
 }
