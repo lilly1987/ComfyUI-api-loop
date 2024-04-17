@@ -1061,6 +1061,16 @@
             "dress":"",
         },
     ), 
+    "MaiKiyora-10": (
+        "MaiKiyora-10",
+        (0.75,1.0),
+        (1.0,1.250),
+        {
+            "char":"BREAK MaiKiyora, 1girl, solo, short hair, (black hair), red eyes, short sleeves, makeup, lipstick, dress, jewelry, necklace, BREAK",
+            "hair":"",
+            "dress":"",
+        },
+    ), 
     "유사 코즈에": (
         "유사 코즈에",
         (0.875,1.0),
