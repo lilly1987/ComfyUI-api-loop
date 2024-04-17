@@ -258,6 +258,16 @@
 	{},
 	"rnd",
 	),
+	"sandwiched": (
+	"sandwiched",
+	(0.5,01.0),
+	(1.0,1.5),
+	{
+	"Bridal":"BREAK sandwiched,(1girl,2boys),boy and girl sandwich,threesome,hetero,sex, BREAK",
+	},
+	{},
+	#"rnd",
+	),
 	"WhiteBridal-10": (
 	"WhiteBridal-10",
 	(0.25,0.75),

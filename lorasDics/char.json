@@ -1061,6 +1061,16 @@
             "dress":"",
         },
     ), 
+    "JiyeonDaybyDay-10": (
+        "JiyeonDaybyDay-10",
+        (0.75,1.0),
+        (1.0,1.250),
+        {
+            "char":"BREAK JiyeonDaybyDay, 1girl, solo, long hair, blonde hair, long sleeves, jewelry, black jacket, black shorts, hairband, leather jacket, thighhighs, fingerless gloves,, BREAK",
+            "hair":"",
+            "dress":"",
+        },
+    ), 
     "MaiKiyora-10": (
         "MaiKiyora-10",
         (0.75,1.0),
