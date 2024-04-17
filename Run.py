@@ -90,6 +90,11 @@ while True:
                 onlyLoraPer=True
 
                 jitem_name=os.path.splitext(os.path.split(tname)[1])[0]
+            if random.random() < setup.get("noList",0) :
+                print("[red] noList [/red]")
+                onlyLoraPer=False
+                jitem={}
+                jitem_name="noList"
             else:
                 onlyLoraPer=False
 
@@ -283,7 +288,7 @@ while True:
             #print("setup : ",setup)
             #print("prompt : ",prompt)
         
-            dupdate(setup,jitem)
+            #dupdate(setup,jitem)
         # -------------------------------------------------
         prompt["CheckpointLoaderSimple"]["inputs"]["ckpt_name"]= ckpt_path
         

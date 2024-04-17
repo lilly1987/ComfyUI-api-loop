@@ -565,17 +565,41 @@
 	#"SD-ALL0.5" ,
 	],
 	),
-	"doggystyleFromSide_dsv02": (
-	"doggystyleFromSide_dsv02",
-	(0.25,0.75),
+	"deep_penetration-01": (
+	"deep_penetration-01",
+	(0.5,01.0),
+	1.0,
+	{
+	"concept":"sex, sex from behind,",
+	},
+	{},
+	#["rnd",
+	#"SD-MIDD"
+	#],
+	),
+	"pnx_doggyFaceFocus": (
+	"pnx_doggyFaceFocus",
+	(0.5,01.0),
+	1.0,
+	{
+	"pnx_doggyFaceFocus":"doggystyle, sex from behind,",
+	},
+	{},
+	#["rnd",
+	#"SD-MIDD"
+	#],
+	),
+	"DoggystyleFromside1": (
+	"DoggystyleFromside1",
+	(0.5,01.0),
 	1.0,
 	{
 	"concept":"doggystyle, from side, 1girl, 1boy, sex from behind,",
 	},
 	{},
-	["rnd",
-	"SD-MIDD"
-	],
+	#["rnd",
+	#"SD-MIDD"
+	#],
 	),
 	"conceptLargerInsertion_v10": (
 	"conceptLargerInsertion_v10",
@@ -585,9 +609,9 @@
 	"concept":"(large penis:1.1), thick penis, cowgirl position, (large insertion:1.1), vaginal,",
 	},
 	{},
-	["rnd",
-	"1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0",
-	]
+	#["rnd",
+	#"1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0",
+	#]
 	),
 	"tentacles v4": (
 	"tentacles v4",
