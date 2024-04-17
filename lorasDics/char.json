@@ -29,6 +29,16 @@
             "dress":"",
         },
     ),
+    "ilu_fluor_v1": (
+		"ilu_fluor_v1",
+		(0.825,1.25),
+		1.0,
+		{
+			"char" :" ",
+			"hair":"BREAK long hair, braid, multicolored hair, streaked hair, maid headdress, hair ornament, hair over one eye, BREAK ",
+			#"dress":"bowtie, frills, pink dress, clothing cutout, name tag, detached sleeves, long sleeves, white apron, white pantyhose,",
+		},
+	),
     "arknightsUOfficialEureka_vtbV10": (
         "arknightsUOfficialEureka_vtbV10",
         (0.825,1.25),
