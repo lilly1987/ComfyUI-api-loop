@@ -212,8 +212,8 @@
     ),
     "Lailah": (
         "Lailah",
-        (0.825,1.25),
-        (01.0,1.25),
+        (0.75,1.0),
+        (0.75,1.0),
         {
             "char" :"BREAK 1girl,long hair,white hair,green eyes, dress,gloves, BREAK",
             "hair":" ",
