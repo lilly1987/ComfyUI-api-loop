@@ -1,7 +1,5 @@
 {
-    "loras":{
-        "char": "VioletFate-10",
-		#"hyper_penetration_stomach_bulge_v8": "hyper_penetration_stomach_bulge_v8",
-    },
-    #"lorasUpdate":false,
+    "loras": {
+        "1": "VioletFate-10"
+    }
 }

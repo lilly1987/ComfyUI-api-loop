@@ -1,7 +1,5 @@
 {
-    "loras":{
-        "char": "raidenShogunGenshin_raidenv1",
-        #"hang": "hang",
-    },
-    #"lorasUpdate":false,
+    "loras": {
+        "1": "raidenShogunGenshin_raidenv1"
+    }
 }
