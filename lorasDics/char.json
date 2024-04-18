@@ -2054,8 +2054,52 @@
 			"dress":" wide sleeves, pink kimono, blue hakama, hakama skirt,",
 		},
 	),
+	"dejima-syd-01": (
+	"dejima-syd-01",
+		(0.75,1.25),
+		1.0,
+		{
+			"char" :"BREAK dejima sayaka, maid, maid headdress, brooch,  BREAK",
+			#"hair":"  white hair,  ",
+			#"hat":"white witch hat,",
+			#"dress":",",
+		},
+	),
+	"hosome_v200": (
+	"hosome_v200",
+		(0.75,1.25),
+		1.0,
+		{
+			#"char" :"BREAK KItakitagawa marin,1girl, purple hair, medium hair, purple eyes, bonnet, red rose, collar, gothic, frills, black dress, black necktie, cleavage, long sleeves, white apron, thighhigh, BREAK",
+			#"hair":"  white hair,  ",
+			#"hat":"white witch hat,",
+			#"dress":",",
+		},
+	),
+	"Sono Bisque Doll wa Koi wo Suru - Marin Kitagawa V3": (
+	"Sono Bisque Doll wa Koi wo Suru - Marin Kitagawa V3",
+		(0.75,1.25),
+		1.0,
+		{
+			"char" :"BREAK KItakitagawa marin,1girl, purple hair, medium hair, purple eyes, bonnet, red rose, collar, gothic, frills, black dress, black necktie, cleavage, long sleeves, white apron, thighhigh, BREAK",
+			#"hair":"  white hair,  ",
+			#"hat":"white witch hat,",
+			#"dress":",",
+		},
+	),
+	"alicia-ehnleit-10": (
+	"alicia-ehnleit-10",
+		(0.75,1.25),
+		1.0,
+		{
+			"char" :"alicia ehnleit, ",
+			#"hair":"  white hair,  ",
+			#"hat":"white witch hat,",
+			#"dress":",",
+		},
+	),
 	"MisakiSakurada-10": (
-		"MisakiSakurada-10",
+	"MisakiSakurada-10",
 		(0.75,1.25),
 		1.0,
 		{
@@ -2077,16 +2121,16 @@
 		},
 	),
 	"hornet-10": (
-            "hornet-10",
-            (0.5,1.0),
-            1.0,
-            {
-       # "hat":" hat, witch hat, ",
-        "char":" hornetKC, grey eyes,   ",
-        "hair":" long hair, ",
-        "dress": "{ skirt,  white shirt, pantyhose, necktie,  dress shirt, black belt, {jacket,black jacket,bomber jacket, long sleeves,|}|__dress_set__,} ",
-            },
-        ),
+	"hornet-10",
+		(0.5,1.0),
+		1.0,
+		{
+   # "hat":" hat, witch hat, ",
+	"char":" hornetKC, grey eyes,   ",
+	"hair":" long hair, ",
+	"dress": "{ skirt,  white shirt, pantyhose, necktie,  dress shirt, black belt, {jacket,black jacket,bomber jacket, long sleeves,|}|__dress_set__,} ",
+		},
+	),
 	"raidenShogunGenshin_raidenv1": (
 		"raidenShogunGenshin_raidenv1",
 		(0.75,1.25),
