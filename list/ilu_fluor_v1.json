@@ -1,17 +1,5 @@
 {
-    "loras":{
-        "char": (
-            "ilu_fluor_v1",
-            (0.25,0.75),
-            1.0,
-            {
-                "char" :" ",
-                "hair":" long hair, braid, multicolored hair, streaked hair, maid headdress, hair ornament, hair over one eye, , ",
-                #"dress":"bowtie, frills, pink dress, clothing cutout, name tag, detached sleeves, long sleeves, white apron, white pantyhose,",
-            },
-        ),
-		#"fingering_3rd_v1":"fingering_3rd_v1",
-        #"hang": "hang",
-    },
-    #"lorasUpdate":false,
+    "loras": {
+        "1": "ilu_fluor_v1"
+    }
 }
