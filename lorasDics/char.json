@@ -210,8 +210,88 @@
             "dress":" ",
         },
     ),
+    "Yukina Kiritani(rmsiu)": (
+	"Yukina Kiritani(rmsiu)",
+        (0.75,1.0),
+        (0.75,1.0),
+        {
+            "char" :"BREAK very long hair,brown hair,high ponytail,hair ribbon,red ribbon,sidelocks,bangs,pink eyes, blazer,beige jacket,wing collar,buttons,red necktie,collared shirt,white shirt,long sleeves,large breasts,miniskirt,blue skirt,pleated skirt,black socks,loafers BREAK",
+            "hair":" ",
+            "dress":" ",
+        },
+    ),
+    "YamatoxOkita-10": (
+	"YamatoxOkita-10",
+        (0.75,1.0),
+        (0.75,1.0),
+        {
+            "char" :"BREAK YamatoxOkita, 1girl, solo, short hair, hakama skirt, dark blue hair, hair ornament, ribbon, brown eyes, yellow eyes, ponytail, japanese clothes, wide sleeves, dark blue kimono, dark pink hakama, BREAK",
+            "hair":" ",
+            "dress":" ",
+        },
+    ),
+    "robot-10": (
+	"robot-10",
+        (0.75,1.0),
+        (0.75,1.0),
+        {
+            "char" :"robot,",
+            "hair":" ",
+            "dress":" ",
+        },
+    ),
+    "ANMRxSummer-10": (
+	"ANMRxSummer-10",
+        (0.75,1.0),
+        (0.75,1.0),
+        {
+            "char" :"BREAK ANMRxSummer, 1girl, solo, short hair, frilled skirt, black hair, black gloves, black dress, shoulder armor, braid, pantyhose, frills, fingerless gloves, black cape, armor, black eyes, breastplate, medium breasts, crimson rose \(symbol\), BREAK",
+            "hair":" ",
+            "dress":" ",
+        },
+    ),
+    "MaristheDarkWitch-10": (
+	"MaristheDarkWitch-10",
+        (0.75,1.0),
+        (0.75,1.0),
+        {
+            "char" :"BREAK MaristheDarkWitch, 1girl, solo, short hair, black hair, witch hat, black dress, hair over one eye, black eyes, black headwear, medium breasts, BREAK",
+            "hair":" ",
+            "dress":" ",
+        },
+    ),
+    "YafyaxKiriko-10": (
+	"YafyaxKiriko-10",
+        (0.75,1.0),
+        (0.75,1.0),
+        {
+            "char" :"BREAK YafyaxKiriko, 1girl, solo, long hair, blue skirt, brown hair, blue jacket, white shirt, opened jacket, long sleeves, horse ears, brown eyes, brown pantyhose, BREAK",
+            "hair":" ",
+            "dress":" ",
+        },
+    ),
+    "TimidoxKiana-10": (
+	"TimidoxKiana-10",
+        (0.75,1.0),
+        (0.75,1.0),
+        {
+            "char" :"BREAK TimidoxKiana, 1girl, solo, very long hair, blue eyes, thighhighs, gloves, navel, pink jacket, pink hair, shorts, belt,, BREAK",
+            "hair":" ",
+            "dress":" ",
+        },
+    ),
+    "Sono Bisque Doll wa Koi wo Suru - Marin Kitagawa V4T": (
+	"Sono Bisque Doll wa Koi wo Suru - Marin Kitagawa V4T",
+        (0.75,1.0),
+        (0.75,1.0),
+        {
+            "char" :"BREAK KItakitagawa marin,1girl, purple hair, medium hair, purple eyes, bonnet, red rose, collar, gothic, frills, black dress, black necktie, cleavage, long sleeves, white apron, thighhigh, BREAK",
+            "hair":" ",
+            "dress":" ",
+        },
+    ),
     "Lailah": (
-        "Lailah",
+	"Lailah",
         (0.75,1.0),
         (0.75,1.0),
         {

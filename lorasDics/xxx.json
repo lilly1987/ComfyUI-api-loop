@@ -238,6 +238,16 @@
 	{},
 	"rnd",
 	),
+	"victorian_dress-SD-2.0": (
+	"victorian_dress-SD-2.0",
+	(0.5,01.0),
+	(1.0,1.25),
+	{
+	"victorian_dress-SD-2.0":"victorian dress, ",
+	},
+	{},
+	#"rnd",
+	),
 	"RedBridal-10": (
 	"RedBridal-10",
 	(0.5,01.0),
