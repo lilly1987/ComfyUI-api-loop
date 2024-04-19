@@ -290,6 +290,16 @@
             "dress":" ",
         },
     ),
+    "Torah_Novartis_EVE_ZERO": (
+	"Torah_Novartis_EVE_ZERO",
+        (0.75,1.0),
+        (0.75,1.0),
+        {
+            "char" :"BREAK TorahNovartis, 1girl, soro, very long hair, long hair, grey hair, wavy hair, blue eyes, purple eyes, hat,, BREAK",
+            "hair":" ",
+            "dress":" ",
+        },
+    ),
     "Lailah": (
 	"Lailah",
         (0.75,1.0),
