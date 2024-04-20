@@ -58,6 +58,7 @@ jitemMax=0
 tm=time.strftime('%Y%m%d-%H%M%S')
 logFile=f"log/{tm}.html"
 onlyLoraPer=True
+isXl=False
 lora2="LoraLoader"
 while True:
     try:
@@ -78,7 +79,7 @@ while True:
 
         # -------------------------------------------------
         
-        if jitemCnt<=0:
+        if jitemCnt<=0 and isXl==False:
             loraList=getFileList(setup["loraPath"]+"**/*.safetensors")
             print("loraList : ",len(loraList))
             
@@ -87,14 +88,16 @@ while True:
             
 
             if random.random() < setup.get("onlyLoraPer",0) :
+                print("[red] onlyLora [/red]")
                 onlyLoraPer=True
-
                 jitem_name=os.path.splitext(os.path.split(tname)[1])[0]
-            if random.random() < setup.get("noList",0) :
+
+            elif random.random() < setup.get("noList",0) :
                 print("[red] noList [/red]")
                 onlyLoraPer=False
                 jitem={}
                 jitem_name="noList"
+                
             else:
                 onlyLoraPer=False
 
@@ -119,6 +122,8 @@ while True:
                 jchoice=random.choice(jlist)
                 print("jchoice : ",jchoice)
                 jitem=dicFileRead(jchoice)
+                if setup.get("jitem show"):
+                    print("jitem : ",jitem)
                 jitem_name=os.path.splitext(os.path.split(jchoice)[1])[0]
                 
             #print("jitem_name : ",jitem_name)
@@ -137,14 +142,24 @@ while True:
             if  isinstance(ckptList, list) and len(ckptList)>0:
                 ckpt_path=random.choice(ckptList)
             else:
-                print("[res]ckpt_path[/res] : ",ckpt_path)
+                print("[red]ckpt_path[/red] : ",ckpt_path)
                 continue
             ckpt_path=pathRemove(ckpt_path,setup["ckptPathSplit"])
             
             ckptMax=ckptCnt=setup.get("ckptCnt",8)
             
-            print("ckpt_path : ",ckpt_path)
-            ckpt_name=os.path.splitext(os.path.split(ckpt_path)[1])[0]
+            print("[green]ckpt_path[/green] : ",ckpt_path)
+            #print("[green]ckpt_path[/green] : ",os.path.split(ckpt_path))
+            #print("[green]ckpt_path[/green] : ",os.path.splitext(os.path.split(ckpt_path)[1]))
+            ckpt_name=os.path.split(ckpt_path)
+            isXl=False
+            if  ckpt_name[0] == 'pony' or ckpt_name[0] == 'xl':
+                isXl=True
+                onlyLoraPer=False
+                jitem_name=ckpt_name[0]
+
+            print("[red]isXl[/red] : ",isXl)
+            ckpt_name=os.path.splitext(ckpt_name[1])[0]
             
             vaeList=getFileList(setup["vaePath"])
             vae_path=random.choice(vaeList)
@@ -163,128 +178,151 @@ while True:
         else:        
             prompt[lora2]["inputs"]["strength_model"]=0
             prompt[lora2]["inputs"]["strength_clip"]=0
-            dupdate(setup,jitem)
+            if isXl:        
+                dupdate(setup,
+                    {
+                        "loras": {
+                            "Expressive_H-000001": "Expressive_H-000001",
+                            "sdxl_lightning_8step_lora": "sdxl_lightning_8step_lora",
+                        },
+                        "KSampler":{
+                            "steps": 8,
+                        },
+                        "DetailerForEachDebug":{
+                            "steps": 8,
+                        },
+                        "positive" : {
+                            "isXl":"score_9,score_7_up, source_anime,",
+                        },
+                        "negative" : {
+                            "isXl":"score_6, score_5, score_4, ugly face, low res, blurry face, black and white, muscular female ,",
+                        }
+                    }
+                )
+            else:
+                dupdate(setup,jitem)
+                # -------------------------------------------------
+                loras=dicFileRead("loras.json")
+                if setup.get("lorasUpdate",True):
+                    dupdate(setup["loras"],loras)
             # -------------------------------------------------
-            loras=dicFileRead("loras.json")
-            if setup.get("lorasUpdate",True):
-                dupdate(setup["loras"],loras)
             
             #lorasDic=dicFileRead("lorasDic.json")
             lorasDic=dicFilesRead("lorasDics/*.json")
             #print("lorasDics  : ",lorasDic)
             dupdate(setup["lorasDic"],lorasDic)
-            
-            lbw=dicFileRead("lbw.json")
-            # -------------------------------------------------
-            lora1="CheckpointLoaderSimple"
-            for k, v in setup.get("loras",{}).items():
-                #print(f"{k} : ", v)
-                try:
-                    tmp=v
-                    #print(f"loras : tmp : ", tmp)
-                    #-----------------------------
-                    if isinstance(tmp, str) :
-                        tmp=lorasDic.get(tmp)
-                        if isinstance(tmp, list):
-                            tmp=random.choice(tmp)
-                            tmp=lorasDic.get(tmp)
-                        if tmp is None:
-                            print(f"loras :[red] None1 {k} : [/red]", v)
-                            continue
-                    if setup.get("lora show"):
-                        print(f"loras :[cyan] {k} : [/cyan]", v)
-                        #setup["loras"][k]=glora
-                    if isinstance(tmp, tuple) :
-                        if isinstance(tmp[0], numbers.Number) :
-                            if minmaxft(tmp[0]) > random.random() :
-                                tmp=tmp[1]
-                            else:
-                                if setup.get("skip show",False) :
-                                    print(f"loras :[yellow] {k} skip [/yellow]")
-                                continue
-                        #else:
-                        #    print(f"loras :[yellow] {k} not num [/yellow]")
-                    else:
-                        print(f"loras :[red]no tuple  {k} : [/red]", v)
-                        continue
-                    #-----------------------------
-                    tmp2=tmp
-                    if isinstance(tmp2, list):
-                        tmp3=random.choice(tmp2)
-                    else:
-                        tmp3=tmp2
-                    if tmp3 is None:
-                        print(f"loras :[red] None2 {k} : [/red]", v)
-                        print(f"loras :[red] None2 {k} : [/red]", tmp2)
-                        print(f"loras :[red] None2 {k} : [/red]", tmp3)
-                        continue
-                    if isinstance(tmp3, str):
-                        tmp4=lorasDic.get(tmp3)
-                    else:
-                        tmp4=tmp3
-                    if tmp4 is None:
-                        print(f"loras :[red] None3 {k} : [/red]", v)
-                        print(f"loras :[red] None3 {k} : [/red]", tmp3)
-                        print(f"loras :[red] None3 {k} : [/red]", tmp4)
-                        continue
-                    #-----------------------------
-                    tmp=tmp4
-                    #print("tmp4 : ",tmp)
+        
+        # -------------------------------------------------
+        lbw=dicFileRead("lbw.json")
+        lora1="CheckpointLoaderSimple"
+        for k, v in setup.get("loras",{}).items():
+            #print(f"{k} : ", v)
+            try:
+                tmp=v
+                #print(f"loras : tmp : ", tmp)
+                #-----------------------------
+                if isinstance(tmp, str) :
+                    tmp=lorasDic.get(tmp)
                     if isinstance(tmp, list):
-                        tmp5=random.choice(tmp)
-                        tmp=lorasDic.get(tmp5)
-                    if isinstance(tmp[0], list):
-                        vl=random.choice(tmp[0])
-                        print(f"loras :[green] list {k} : [/green]", tmp[0])
-                    elif isinstance(tmp[0], str):
-                        vl=tmp[0]
-                    else:
-                        print(f"loras :[red] unknown {k} : [/red]", vl)
+                        tmp=random.choice(tmp)
+                        tmp=lorasDic.get(tmp)
+                    if tmp is None:
+                        print(f"loras :[red] None1 {k} : [/red]", v)
                         continue
-                        
-                    #print("loraList : ",loraList)
-                    tloraList=[ i for i in loraList if i.match(f"{vl}.safetensors")]
-                    if len(tloraList)==0:
-                        print("[red] no loraList : [/red]",vl)
-                        continue
-                    
-                    tchoice=random.choice(tloraList)
-                    tname=pathRemove(tchoice,setup["loraPath"])
-                    print(f"loras : [green]{tname}[/green]")
-                    
-                    tLora=copy.deepcopy(prompt[lora2])
-                    tLora["inputs"]["lora_name"]=tname
-                    tLora["inputs"]["strength_model"]=minmaxft(tmp[1])
-                    tLora["inputs"]["strength_clip"]=minmaxft(tmp[2])
-                    tLora["inputs"]["model"][0]=lora1
-                    tLora["inputs"]["clip"][0]=lora1
-                    if len(tmp) >5 :
-                        t5=tmp[5]
-                        if isinstance(t5, list):
-                            t5=random.choice(t5)
-                        if  isinstance(t5, str) :
-                            if "rnd" == t5.lower() : 
-                                t5=random.choice(list(lbw.values()))
-                            else:
-                                t5=lbw.get(t5.upper(),t5)
-                            tLora["inputs"]["block_vector"]=t5
-                            print("[green] t5 : [/green]",t5)
+                if setup.get("lora show"):
+                    print(f"loras :[cyan] {k} : [/cyan]", v)
+                    #setup["loras"][k]=glora
+                if isinstance(tmp, tuple) :
+                    if isinstance(tmp[0], numbers.Number) :
+                        if minmaxft(tmp[0]) > random.random() :
+                            tmp=tmp[1]
                         else:
-                            print("[red] no str t5 : [/red]",t5)
+                            if setup.get("skip show",False) :
+                                print(f"loras :[yellow] {k} skip [/yellow]")
+                            continue
+                    #else:
+                    #    print(f"loras :[yellow] {k} not num [/yellow]")
+                else:
+                    print(f"loras :[red]no tuple  {k} : [/red]", v)
+                    continue
+                #-----------------------------
+                tmp2=tmp
+                if isinstance(tmp2, list):
+                    tmp3=random.choice(tmp2)
+                else:
+                    tmp3=tmp2
+                if tmp3 is None:
+                    print(f"loras :[red] None2 {k} : [/red]", v)
+                    print(f"loras :[red] None2 {k} : [/red]", tmp2)
+                    print(f"loras :[red] None2 {k} : [/red]", tmp3)
+                    continue
+                if isinstance(tmp3, str):
+                    tmp4=lorasDic.get(tmp3)
+                else:
+                    tmp4=tmp3
+                if tmp4 is None:
+                    print(f"loras :[red] None3 {k} : [/red]", v)
+                    print(f"loras :[red] None3 {k} : [/red]", tmp3)
+                    print(f"loras :[red] None3 {k} : [/red]", tmp4)
+                    continue
+                #-----------------------------
+                tmp=tmp4
+                #print("tmp4 : ",tmp)
+                if isinstance(tmp, list):
+                    tmp5=random.choice(tmp)
+                    tmp=lorasDic.get(tmp5)
+                if isinstance(tmp[0], list):
+                    vl=random.choice(tmp[0])
+                    print(f"loras :[green] list {k} : [/green]", tmp[0])
+                elif isinstance(tmp[0], str):
+                    vl=tmp[0]
+                else:
+                    print(f"loras :[red] unknown {k} : [/red]", vl)
+                    continue
                     
-                    lora1=f"LoraLoader-{k}"
-                    prompt[lora1]=tLora
-                    prompt[lora2]["inputs"]["model"][0]=lora1
-                    prompt[lora2]["inputs"]["clip"][0]=lora1
-                    
-                    dupdate(setup["positive"],tmp[3])
-                    if len(tmp) >4 :
-                        dupdate(setup["negative"],tmp[4])
-                    
-                except Exception:
-                    #console.print_exception(show_locals=True)
-                    print("tmp : ",tmp)
-                    console.print_exception()
+                #print("loraList : ",loraList)
+                tloraList=[ i for i in loraList if i.match(f"{vl}.safetensors")]
+                if len(tloraList)==0:
+                    print("[red] no loraList : [/red]",vl)
+                    continue
+                
+                tchoice=random.choice(tloraList)
+                tname=pathRemove(tchoice,setup["loraPath"])
+                print(f"loras : [green]{tname}[/green]")
+                
+                tLora=copy.deepcopy(prompt[lora2])
+                tLora["inputs"]["lora_name"]=tname
+                tLora["inputs"]["strength_model"]=minmaxft(tmp[1])
+                tLora["inputs"]["strength_clip"]=minmaxft(tmp[2])
+                tLora["inputs"]["model"][0]=lora1
+                tLora["inputs"]["clip"][0]=lora1
+                if len(tmp) >5 :
+                    t5=tmp[5]
+                    if isinstance(t5, list):
+                        t5=random.choice(t5)
+                    if  isinstance(t5, str) :
+                        if "rnd" == t5.lower() : 
+                            t5=random.choice(list(lbw.values()))
+                        else:
+                            t5=lbw.get(t5.upper(),t5)
+                        tLora["inputs"]["block_vector"]=t5
+                        print("[green] t5 : [/green]",t5)
+                    else:
+                        print("[red] no str t5 : [/red]",t5)
+                
+                lora1=f"LoraLoader-{k}"
+                prompt[lora1]=tLora
+                prompt[lora2]["inputs"]["model"][0]=lora1
+                prompt[lora2]["inputs"]["clip"][0]=lora1
+                
+                dupdate(setup["positive"],tmp[3])
+                if len(tmp) >4 :
+                    dupdate(setup["negative"],tmp[4])
+                
+            except Exception:
+                #console.print_exception(show_locals=True)
+                print("tmp : ",tmp)
+                console.print_exception()
             #print("setup : ",setup)
             #print("prompt : ",prompt)
         
@@ -401,8 +439,7 @@ while True:
         #    ),  prompt["ImpactWildcardEncode1"]["inputs"]["seed"])
         # -------------------------------------------------
         
-        if setup.get("jitem show"):
-            print("jitem : ",jitem)
+
         if setup.get("setup show"):
             print("setup : ",setup)
         if setup.get("prompt show"):
