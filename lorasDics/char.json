@@ -1196,6 +1196,15 @@
             "dress":"skirt, white shirt,",
         },
     ),
+    "Sylpha Langlis": (
+	"Sylpha Langlis",
+        (0.75,1.0),
+        1.0,
+        {
+            "char":" BREAK 1girl,  sylpha, long hair, maid headdress, white crystal hair, large breasts, hair between eyes, ponytail, BREAK",
+            #"hair":" blonde hair,",
+        },
+    ),
     "hoodAzurLane_v10": (
         "hoodAzurLane_v10",
         (0.825,1.0),
@@ -1203,6 +1212,16 @@
         {
             "char":" hood_\(azur_lane\), blue eyes,",
             "hair":" blonde hair,",
+        },
+    ),
+    "ANIME_Judy_CowboyBebop_ownwaifu-15": (
+	"ANIME_Judy_CowboyBebop_ownwaifu-15",
+        (0.75,1.0),
+        (0.75,1.0),
+        {
+            "char" :" BREAK ANIME_Judy_CowboyBebop_ownwaifu, blonde hair, long hair, hat, breasts, earrings, jewelry, blue eyes, medium breasts, cowboy shot, scarf, lipstick, makeup, lips, red lips, red scarf, belt, open clothes, navel, skirt, jacket, cowboy western, no bra, miniskirt, coat, open shirt, cleavage, holster, BREAK ",
+            #"hair":"long hair,",
+            #"dress":"{bare shoulders, collarbone, dress, long sleeves, off shoulder, off-shoulder dress, off-shoulder sweater, pantyhose, red sweater, sweater, sweater dress, thighs,|__dress_set__}",
         },
     ),
     "yurisa chan_v1": (

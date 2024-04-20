@@ -605,12 +605,36 @@
 	#"SD-ALL0.5" ,
 	],
 	),
+	"LoCon_ARTSTYLE_Nixeu_ownwaifu": (
+	"LoCon_ARTSTYLE_Nixeu_ownwaifu",
+	(0.75,01.0),
+	(0.75,01.0),
+	{
+	"LoCon_ARTSTYLE_Nixeu_ownwaifu":"LoCon_ARTSTYLE_Nixeu_ownwaifu,",
+	},
+	{},
+	#["rnd",
+	#"SD-MIDD"
+	#],
+	),
 	"deep_penetration-01": (
 	"deep_penetration-01",
 	(0.5,01.0),
 	1.0,
 	{
 	"concept":"sex, sex from behind,",
+	},
+	{},
+	#["rnd",
+	#"SD-MIDD"
+	#],
+	),
+	"tentacles-004": (
+	"tentacles-004",
+	(0.75,01.0),
+	(0.75,01.0),
+	{
+	"tentacles-004":"tentacle sex, transparent tentacles, glass tentacles,",
 	},
 	{},
 	#["rnd",
@@ -2154,6 +2178,32 @@
 		},
 		{},
 		"rnd",
+	),
+	"Expressive_H-000001":(
+	"Expressive_H-000001",
+		1.0,
+		1.0,
+		{
+			#"boy" :"tentacles,",
+			#"sex" :" pussy cock deep penetration,",
+			#"pose" :" revcowgirl,",
+			"Expressive_H-000001":"Expressiveh,",
+		},
+		{},
+		#"rnd",
+	),
+	"sdxl_lightning_8step_lora":(
+	"sdxl_lightning_8step_lora",
+		1.0,
+		0.0,
+		{
+			#"boy" :"tentacles,",
+			#"sex" :" pussy cock deep penetration,",
+			#"pose" :" revcowgirl,",
+			#"Expressive_H-000001":"Expressiveh,",
+		},
+		{},
+		#"rnd",
 	),
 	"sexmachine":(
 		"sexmachine",
