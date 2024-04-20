@@ -1353,7 +1353,7 @@
 			#"SD-MIDD0.8",
 			#"SD-MIDD0.2",
 			"SD-MOUT"   ,
-			"SD-MOUT"   ,
+			"SD-MOUT"   ,#
 			#"SD-OUTD"   ,
 			"SD-OUTS"   ,
 			"SD-OUTS"   ,
