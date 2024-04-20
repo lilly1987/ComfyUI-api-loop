@@ -57,18 +57,18 @@
         "denoise_max": 0.4,
     },
     "cuda" : {
-        "ckptCnt":32,
+        "ckptCnt":72,
         "itemCnt":4,
         "queue_cnt":1,
 		"KSampler":{
 			#"steps": 30,
 			"steps_min": 30,
-			"steps_max": 45,
+			"steps_max": 60,
 		},
 		"DetailerForEachDebug":{
-            "steps": 20,
-			"steps_min": 20,
-			"steps_max": 30,
+            #"steps": 20,
+			"steps_min": 15,
+			"steps_max": 25,
 		},
 		"EmptyLatentImage":{
 			"width": 360,
@@ -202,7 +202,7 @@
         "boy":"{2boy,|1boy,|}",
         "girl":"1girl,",
         #"gag":"{ball gag,|7:: }",
-        "face":"{ahegao,|}{orgasm ,|}",
+        "face":"{0-3$$ahegao|orgasm|blush|crying|empty eyes|tears|aroused face|charmed face|confused face|despair face|disappointed face|distressed face|drunk face|earnest face|ecstasy face|embarrassed face|expression face|frustrated face|giddy face|gloomy face|lonely face|miserable face|nervous face|scary face|seduced face|shameful face|sorrowful face|suppressed face|unstable face|upset face|with distaste face|worried face},",
         "quality":"masterpiece , best quality , detailed face, ultra-detailed, illustratio, Beautiful body, Beautiful character design, perfect eyes,perfect face,",
         "looking":"looking at viewer,",
         #"view":"{cowboy shot,|} {from side,|9::}",

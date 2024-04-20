@@ -300,6 +300,16 @@
             "dress":" ",
         },
     ),
+    "azki diva2": (
+	"azki diva2",
+        (0.75,1.0),
+        (0.75,1.0),
+        {
+            "char" :"BREAK 1girl,vdiva-2,virtual youtuber,cockhair,penishair,off shoulder,open clothes,see-through, BREAK",
+            "hair":" ",
+            "dress":" ",
+        },
+    ),
     "Lailah": (
 	"Lailah",
         (0.75,1.0),
@@ -800,13 +810,23 @@
             "dress":"",
         },
     ),
+    "momoi_v3": (
+	"momoi_v3",
+        (0.825,1.0),
+        1.0,
+        {
+            "char" :"BREAK 2girls, momoi \(blue archive\), midori (blue archive), necktie,thighhighs,black thighhighs,blue necktie,skirt,shirt,bow,hair bow,pleated skirt,white shirt,jacket,black skirt,red bow,wide sleeves,off shoulder,long sleeves,siblings,sisters,twins,open jacket, BREAK",
+            "hair":"",
+            #"dress":"{bare shoulders, collarbone, dress, long sleeves, off shoulder, off-shoulder dress, off-shoulder sweater, pantyhose, red sweater, sweater, sweater dress, thighs,|__dress_set__}",
+        },
+    ),
     "mousse_arknights": (
         "mousse_arknights",
         (0.825,1.0),
         1.0,
         {
-            "char" :"mousse_arknights,",
-            "hair":"animal ears, cat ears, multicolored hair, green eyes, short hair, white hair, hat, cat girl, two-tone hair, black headwear, tail, cat tail, blonde hair, brown hair, animal ear fluff, mini hat, multiple tails, two tails, orange hair",
+            "char" :"BREAK mousse_arknights,animal ears, cat ears, multicolored hair, green eyes, short hair, white hair, hat, cat girl, two-tone hair, black headwear, tail, cat tail, blonde hair, brown hair, animal ear fluff, mini hat, multiple tails, two tails, orange hair, BREAK",
+            "hair":"",
             #"dress":"{bare shoulders, collarbone, dress, long sleeves, off shoulder, off-shoulder dress, off-shoulder sweater, pantyhose, red sweater, sweater, sweater dress, thighs,|__dress_set__}",
         },
     ),
@@ -1357,6 +1377,7 @@
 	"SD-OUTD"   ,
 	"SD-OUTD"   ,
 	#"SD-OUTS"   ,
+	"SD-OUTALL" ,
 	"SD-OUTALL" ,
 	"SD-OUTALL" ,
 	"SD-ROUT"   ,
