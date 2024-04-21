@@ -59,6 +59,7 @@ tm=time.strftime('%Y%m%d-%H%M%S')
 logFile=f"log/{tm}.html"
 onlyLoraPer=True
 isXl=False
+isPony=False
 lora2="LoraLoader"
 while True:
     try:
@@ -79,64 +80,12 @@ while True:
 
         # -------------------------------------------------
         
-        if isXl:
-            jitemMax=jitemCnt=0
-        elif jitemCnt<=0 :
-            loraList=getFileList(setup["loraPath"]+"**/*.safetensors")
-            print("loraList : ",len(loraList))
-            
-            tchoice=random.choice(loraList)
-            tname=pathRemove(tchoice,setup["loraPath"])
-            
-
-            if random.random() < setup.get("onlyLoraPer",0) :
-                print("[red] onlyLora [/red]")
-                onlyLoraPer=True
-                jitem_name=os.path.splitext(os.path.split(tname)[1])[0]
-
-            elif random.random() < setup.get("noList",0) :
-                print("[red] noList [/red]")
-                onlyLoraPer=False
-                jitem={}
-                jitem_name="noList"
-                
-            else:
-                onlyLoraPer=False
-
-                
-                jlist=getFileList("list/**/*.json")
-                #print("jlist1 : ",jlist)
-                
-                listMatchs=setup.get("listMatch",["*"])
-                if len(listMatchs)==0:
-                    print("[red] no listMatchs : [/red]", listMatchs)
-                    listMatchs=["*"]
-                
-                listMatch=random.choice(listMatchs)
-                #print("listMatch : ",listMatch)
-                
-                jlist=[ i for i in jlist if i.match(f"list/{listMatch}.json")]
-                #print("jlist2 : ",jlist)
-                if len(jlist)==0:
-                    print("[red] no jlist : [/red]", listMatch)
-                    continue
-                
-                jchoice=random.choice(jlist)
-                print("jchoice : ",jchoice)
-                jitem=dicFileRead(jchoice)
-                if setup.get("jitem show"):
-                    print("jitem : ",jitem)
-                jitem_name=os.path.splitext(os.path.split(jchoice)[1])[0]
-                
-            #print("jitem_name : ",jitem_name)
-            
-            jitemMax=jitemCnt=setup.get("itemCnt",8)
-            
-        # -------------------------------------------------
         if ckptCnt<=0:
             
             if random.random() < setup.get("ponyPer",0) :
                 ckpt_path=setup["ponyPath"]
+            elif random.random() < setup.get("xlPer",0) :
+                ckpt_path=setup["xlPath"]
             elif random.random() < setup.get("ckptPer",0) :
                 ckpt_path=setup["ckptPathSplit"]+"**/"+random.choice(dicFileRead("ckpt.json"))+".safetensors"
             else:
@@ -156,12 +105,31 @@ while True:
             #print("[green]ckpt_path[/green] : ",os.path.split(ckpt_path))
             #print("[green]ckpt_path[/green] : ",os.path.splitext(os.path.split(ckpt_path)[1]))
             ckpt_name=os.path.split(ckpt_path)
+            isPony=False
             isXl=False
-            if  ckpt_name[0].lower() == 'pony' or ckpt_name[0].lower() == 'xl':
+            if  ckpt_name[0].lower() == 'pony' :
+                isPony=True
+                #jitem_name=ckpt_name[0]
+                loraPath="loraPonyPath"
+                listPath="list-pony"
+                lorasjsonPath="loras-xl.json"
+            elif  ckpt_name[0].lower() == 'xl':
                 isXl=True
-                onlyLoraPer=False
-                jitem_name=ckpt_name[0]
+                #jitem_name=ckpt_name[0]
+                loraPath="loraXlPath"
+                listPath="list-xl"
+                lorasjsonPath="loras-xl.json"
+            else:
+                loraPath="loraPath"
+                listPath="list"
+                lorasjsonPath="loras.json"
+                
+            if isXl or isPony:
+                workflow=setup.get("workflow-xl","workflow_api-xl.json")
+            else:
+                workflow=setup.get("workflow","workflow_api.json")
 
+            print("[red]isPony[/red] : ",isPony)
             print("[red]isXl[/red] : ",isXl)
             ckpt_name=os.path.splitext(ckpt_name[1])[0]
             
@@ -172,10 +140,65 @@ while True:
             #print("vae_path  : ",vae_path)
             
         # -------------------------------------------------
-        if isXl:
-            prompt=jsonFileRead(setup.get("workflow-xl","workflow_api-xl.json"))  
-        else:
-            prompt=jsonFileRead(setup.get("workflow","workflow_api.json"))  
+        if isXl or isPony:
+            dupdate(setup,dicFileRead("setup-xl.json"))
+        # -------------------------------------------------
+            
+        if jitemCnt<=0 :
+            loraList=getFileList(setup["loraPath"]+"**/*.safetensors")
+            loraList2=getFileList(setup[loraPath]+"**/*.safetensors")
+            print("loraList : ",len(loraList))
+            print("loraList : ",len(loraList2))
+            
+            tchoice=random.choice(loraList2)
+            tname=pathRemove(tchoice,setup["loraPath"])
+            
+
+            if random.random() < setup.get("onlyLoraPer",0) :
+                print("[red] onlyLora [/red]")
+                onlyLoraPer=True
+                jitem_name=os.path.splitext(os.path.split(tname)[1])[0]
+
+            elif random.random() < setup.get("noList",0) :
+                print("[red] noList [/red]")
+                onlyLoraPer=False
+                jitem={}
+                jitem_name="noList"
+                
+            else:
+                onlyLoraPer=False
+
+                
+                jlist=getFileList(f"{listPath}/*.json")
+                #print("jlist1 : ",jlist)
+                
+                listMatchs=setup.get("listMatch",["*"])
+                if len(listMatchs)==0:
+                    print("[red] no listMatchs : [/red]", listMatchs)
+                    listMatchs=["*"]
+                
+                listMatch=random.choice(listMatchs)
+                #print("listMatch : ",listMatch)
+                
+                jlist=[ i for i in jlist if i.match(f"{listPath}/{listMatch}.json")]
+                #print("jlist2 : ",jlist)
+                if len(jlist)==0:
+                    print("[red] no jlist : [/red]", listMatch)
+                    continue
+                
+                jchoice=random.choice(jlist)
+                print("jchoice : ",jchoice)
+                jitem=dicFileRead(jchoice)
+                if setup.get("jitem show"):
+                    print("jitem : ",jitem)
+                jitem_name=os.path.splitext(os.path.split(jchoice)[1])[0]
+                
+            #print("jitem_name : ",jitem_name)
+            
+            jitemMax=jitemCnt=setup.get("itemCnt",8)
+            
+        # -------------------------------------------------
+        prompt=jsonFileRead(workflow)  
         prompt[lora2]["inputs"]["lora_name"]=tname
         # -------------------------------------------------
         if onlyLoraPer:
@@ -185,21 +208,20 @@ while True:
         else:        
             prompt[lora2]["inputs"]["strength_model"]=0
             prompt[lora2]["inputs"]["strength_clip"]=0
-            if isXl:        
-                loras=dicFileRead("loras-xl.json")
-                dupdate(setup,loras)
-            else:
-                dupdate(setup,jitem)
-                # -------------------------------------------------
-                loras=dicFileRead("loras.json")
-                if setup.get("lorasUpdate",True):
-                    dupdate(setup["loras"],loras)
+            #if isXl or isPony:        
+            #    pass
+            #else:
+            dupdate(setup,jitem)
             # -------------------------------------------------
-            
-            #lorasDic=dicFileRead("lorasDic.json")
-            lorasDic=dicFilesRead("lorasDics/*.json")
-            #print("lorasDics  : ",lorasDic)
-            dupdate(setup["lorasDic"],lorasDic)
+            loras=dicFileRead(lorasjsonPath)
+            if setup.get("lorasUpdate",True):
+                dupdate(setup["loras"],loras)
+        # -------------------------------------------------
+        
+        #lorasDic=dicFileRead("lorasDic.json")
+        lorasDic=dicFilesRead("lorasDics/*.json")
+        #print("lorasDics  : ",lorasDic)
+        dupdate(setup["lorasDic"],lorasDic)
         
         # -------------------------------------------------
         lbw=dicFileRead("lbw.json")
@@ -377,9 +399,11 @@ while True:
             sampler_name1=prompt["KSampler"]["inputs"]["sampler_name"]
             scheduler1=prompt["KSampler"]["inputs"]["scheduler"]
             cfg1=int(prompt["KSampler"]["inputs"]["cfg"])
+            steps1=int(prompt["KSampler"]["inputs"]["steps"])
             #tm=time.strftime('%Y%m%d-%H%M%S')
-            prompt["SaveImage1"]["inputs"]["filename_prefix"]= f"{ckpt_name}/{jitem_name}/{ckpt_name}-{sampler_name1}-{scheduler1}-{cfg1}-{jitem_name}-{tm}"
-            print(f"{ckpt_name}-{sampler_name1}-{scheduler1}-{cfg1}-{jitem_name}-{tm}")
+            prompt["SaveImage1"]["inputs"]["filename_prefix"]= f"{ckpt_name}/{jitem_name}/{ckpt_name}-{sampler_name1}-{scheduler1}-{cfg1}-{steps1}-{jitem_name}-{tm}"
+            print(prompt["SaveImage1"]["inputs"]["filename_prefix"])
+            #print(f"{ckpt_name}-{sampler_name1}-{scheduler1}-{cfg1}-{jitem_name}-{tm}")
         else:
             del prompt["SaveImage1"]["inputs"]["images"]
             
@@ -387,10 +411,12 @@ while True:
             sampler_name1=prompt["DetailerForEachDebug"]["inputs"]["sampler_name"]
             scheduler1=prompt["DetailerForEachDebug"]["inputs"]["scheduler"]
             cfg1=int(prompt["DetailerForEachDebug"]["inputs"]["cfg"])
+            steps1=int(prompt["KSampler"]["inputs"]["steps"])
             #prompt["SaveImage2"]["inputs"]["filename_prefix"]= f"{ckpt_name}/{sampler_name1}/{scheduler1}/{cfg1}/{jitem_name}/{ckpt_name}-{sampler_name1}-{scheduler1}-{cfg1}-{jitem_name}-{tm}"
             #tm=time.strftime('%Y%m%d-%H%M%S')
-            prompt["SaveImage2"]["inputs"]["filename_prefix"]= f"{ckpt_name}/{jitem_name}/{ckpt_name}-{sampler_name1}-{scheduler1}-{cfg1}-{jitem_name}-{tm}"
-            print(f"{ckpt_name}-{sampler_name1}-{scheduler1}-{cfg1}-{jitem_name}-{tm}")
+            prompt["SaveImage2"]["inputs"]["filename_prefix"]= f"{ckpt_name}/{jitem_name}/{ckpt_name}-{sampler_name1}-{scheduler1}-{cfg1}-{steps1}-{jitem_name}-{tm}"
+            print(prompt["SaveImage2"]["inputs"]["filename_prefix"])
+            #print(f"{ckpt_name}-{sampler_name1}-{scheduler1}-{cfg1}-{jitem_name}-{tm}")
         else:
             del prompt["DetailerForEachDebug"]["inputs"]["image"]
         
