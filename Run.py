@@ -142,6 +142,7 @@ while True:
         # -------------------------------------------------
         if isXl or isPony:
             dupdate(setup,dicFileRead("setup-xl.json"))
+            #print("setup  : ",setup)
         # -------------------------------------------------
             
         if jitemCnt<=0 :

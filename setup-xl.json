@@ -5,14 +5,13 @@
     },
     "KSampler":{
         #"steps": 8,
-        #"steps_min": 8,
-        #"steps_max": 16,
+		"steps_min": 8,
+		"steps_max": 24,
     },
     "DetailerForEachDebug":{
-        #"steps": 8,
+		"steps_min": 8,
+		"steps_max": 24,
     },
-    "steps_min": 8,
-    "steps_max": 24,
     "cfg_min": 1.0,
     "cfg_max": 7.0,
     "positive" : {
