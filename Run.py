@@ -135,7 +135,9 @@ while True:
         # -------------------------------------------------
         if ckptCnt<=0:
             
-            if random.random() < setup.get("ckptPer",0) :
+            if random.random() < setup.get("ponyPer",0) :
+                ckpt_path=setup["ponyPath"]
+            elif random.random() < setup.get("ckptPer",0) :
                 ckpt_path=setup["ckptPathSplit"]+"**/"+random.choice(dicFileRead("ckpt.json"))+".safetensors"
             else:
                 ckpt_path=setup["ckptPath"]
