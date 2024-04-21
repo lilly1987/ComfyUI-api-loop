@@ -79,7 +79,9 @@ while True:
 
         # -------------------------------------------------
         
-        if jitemCnt<=0 and isXl==False:
+        if isXl:
+            jitemMax=jitemCnt=0
+        elif jitemCnt<=0 :
             loraList=getFileList(setup["loraPath"]+"**/*.safetensors")
             print("loraList : ",len(loraList))
             
@@ -153,7 +155,7 @@ while True:
             #print("[green]ckpt_path[/green] : ",os.path.splitext(os.path.split(ckpt_path)[1]))
             ckpt_name=os.path.split(ckpt_path)
             isXl=False
-            if  ckpt_name[0] == 'pony' or ckpt_name[0] == 'xl':
+            if  ckpt_name[0].lower() == 'pony' or ckpt_name[0].lower() == 'xl':
                 isXl=True
                 onlyLoraPer=False
                 jitem_name=ckpt_name[0]
@@ -168,7 +170,10 @@ while True:
             #print("vae_path  : ",vae_path)
             
         # -------------------------------------------------
-        prompt=jsonFileRead(setup.get("workflow","workflow_api.json"))  
+        if isXl:
+            prompt=jsonFileRead(setup.get("workflow-xl","workflow_api-xl.json"))  
+        else:
+            prompt=jsonFileRead(setup.get("workflow","workflow_api.json"))  
         prompt[lora2]["inputs"]["lora_name"]=tname
         # -------------------------------------------------
         if onlyLoraPer:
@@ -179,26 +184,8 @@ while True:
             prompt[lora2]["inputs"]["strength_model"]=0
             prompt[lora2]["inputs"]["strength_clip"]=0
             if isXl:        
-                dupdate(setup,
-                    {
-                        "loras": {
-                            "Expressive_H-000001": "Expressive_H-000001",
-                            "sdxl_lightning_8step_lora": "sdxl_lightning_8step_lora",
-                        },
-                        "KSampler":{
-                            "steps": 8,
-                        },
-                        "DetailerForEachDebug":{
-                            "steps": 8,
-                        },
-                        "positive" : {
-                            "isXl":"score_9,score_7_up, source_anime,",
-                        },
-                        "negative" : {
-                            "isXl":"score_6, score_5, score_4, ugly face, low res, blurry face, black and white, muscular female ,",
-                        }
-                    }
-                )
+                loras=dicFileRead("loras-xl.json")
+                dupdate(setup,loras)
             else:
                 dupdate(setup,jitem)
                 # -------------------------------------------------
@@ -329,8 +316,8 @@ while True:
             #dupdate(setup,jitem)
         # -------------------------------------------------
         prompt["CheckpointLoaderSimple"]["inputs"]["ckpt_name"]= ckpt_path
-        
-        prompt["VAELoader"]["inputs"]["vae_name"]= vae_path        
+        if "VAELoader" in prompt:
+            prompt["VAELoader"]["inputs"]["vae_name"]= vae_path        
 
         
         # -------------------------------------------------
@@ -392,7 +379,7 @@ while True:
             prompt["SaveImage1"]["inputs"]["filename_prefix"]= f"{ckpt_name}/{jitem_name}/{ckpt_name}-{sampler_name1}-{scheduler1}-{cfg1}-{jitem_name}-{tm}"
             print(f"{ckpt_name}-{sampler_name1}-{scheduler1}-{cfg1}-{jitem_name}-{tm}")
         else:
-            del prompt["SaveImage1"]
+            del prompt["SaveImage1"]["inputs"]["images"]
             
         if setup.get("SaveImage2",True):
             sampler_name1=prompt["DetailerForEachDebug"]["inputs"]["sampler_name"]
@@ -403,7 +390,7 @@ while True:
             prompt["SaveImage2"]["inputs"]["filename_prefix"]= f"{ckpt_name}/{jitem_name}/{ckpt_name}-{sampler_name1}-{scheduler1}-{cfg1}-{jitem_name}-{tm}"
             print(f"{ckpt_name}-{sampler_name1}-{scheduler1}-{cfg1}-{jitem_name}-{tm}")
         else:
-            del prompt["SaveImage2"]
+            del prompt["SaveImage2"]["inputs"]["images"]
         
         # -------------------------------------------------
         s=setup.get("textJoin",", BREAK ")

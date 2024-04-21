@@ -1,0 +1,27 @@
+{
+    "loras": {
+        "Expressive_H-000001": "Expressive_H-000001",
+        "sdxl_lightning_8step_lora": "sdxl_lightning_8step_lora",
+    },
+    "KSampler":{
+        #"steps": 8,
+        "steps_min": 8,
+        "steps_max": 16,
+    },
+    "DetailerForEachDebug":{
+        #"steps": 8,
+        "steps_min": 8,
+        "steps_max": 16,
+    },
+    "positive" : {
+        "isXl":"score_9,score_7_up, source_anime,",
+    },
+    "negative" : {
+        "isXl":"score_6, score_5, score_4, ugly face, low res, blurry face, black and white, muscular female ,",
+        "embedding":"",
+    },
+    "SaveImage2":false,
+    "scheduler": [
+        "normal", "karras",  "simple", "sgm_uniform",
+    ],
+}

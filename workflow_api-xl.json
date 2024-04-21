@@ -1,0 +1,314 @@
+{
+  "LoraLoader": {
+    "inputs": {
+      "lora_name": "00_RioTera_V1b-000005.safetensors",
+      "strength_model": 1,
+      "strength_clip": 1,
+      "model": [
+        "CheckpointLoaderSimple",
+        0
+      ],
+      "clip": [
+        "CheckpointLoaderSimple",
+        1
+      ]
+    },
+    "class_type": "LoraLoader",
+    "_meta": {
+      "title": "Load LoRA"
+    }
+  },
+  "positiveWildcard": {
+    "inputs": {
+      "wildcard_text": "",
+      "populated_text": "",
+      "mode": true,
+      "seed": 539932358333012,
+      "Select to add Wildcard": "Select the Wildcard to add to the text"
+    },
+    "class_type": "ImpactWildcardProcessor",
+    "_meta": {
+      "title": "ImpactWildcardProcessor"
+    }
+  },
+  "negativeWildcard": {
+    "inputs": {
+      "wildcard_text": "",
+      "populated_text": "",
+      "mode": true,
+      "seed": 539932358333012,
+      "Select to add Wildcard": "Select the Wildcard to add to the text"
+    },
+    "class_type": "ImpactWildcardProcessor",
+    "_meta": {
+      "title": "ImpactWildcardProcessor"
+    }
+  },
+  "EmptyLatentImage": {
+    "inputs": {
+      "width": 384,
+      "height": 768,
+      "batch_size": 1
+    },
+    "class_type": "EmptyLatentImage",
+    "_meta": {
+      "title": "Empty Latent Image"
+    }
+  },
+  "UltralyticsDetectorProvider": {
+    "inputs": {
+      "model_name": "bbox/face_yolov8m.pt"
+    },
+    "class_type": "UltralyticsDetectorProvider",
+    "_meta": {
+      "title": "UltralyticsDetectorProvider"
+    }
+  },
+  "CheckpointLoaderSimple": {
+    "inputs": {
+      "ckpt_name": "2d\\lemonmixV2_v30.safetensors"
+    },
+    "class_type": "CheckpointLoaderSimple",
+    "_meta": {
+      "title": "Load Checkpoint"
+    }
+  },
+  "CLIPSetLastLayer": {
+    "inputs": {
+      "stop_at_clip_layer": -1,
+      "clip": [
+        "LoraLoader",
+        1
+      ]
+    },
+    "class_type": "CLIPSetLastLayer",
+    "_meta": {
+      "title": "CLIP Set Last Layer"
+    }
+  },
+  "positive": {
+    "inputs": {
+      "text": [
+        "positiveWildcard",
+        0
+      ],
+      "clip": [
+        "LoraLoader",
+        1
+      ]
+    },
+    "class_type": "CLIPTextEncode",
+    "_meta": {
+      "title": "CLIP Text Encode (Prompt)"
+    }
+  },
+  "negative": {
+    "inputs": {
+      "text": [
+        "negativeWildcard",
+        0
+      ],
+      "clip": [
+        "LoraLoader",
+        1
+      ]
+    },
+    "class_type": "CLIPTextEncode",
+    "_meta": {
+      "title": "CLIP Text Encode (Prompt)"
+    }
+  },
+  "KSampler": {
+    "inputs": {
+      "seed": 450939316198565,
+      "steps": 30,
+      "cfg": 2.99,
+      "sampler_name": "dpmpp_2m",
+      "scheduler": "karras",
+      "denoise": 1,
+      "model": [
+        "LoraLoader",
+        0
+      ],
+      "positive": [
+        "positive",
+        0
+      ],
+      "negative": [
+        "negative",
+        0
+      ],
+      "latent_image": [
+        "EmptyLatentImage",
+        0
+      ]
+    },
+    "class_type": "KSampler",
+    "_meta": {
+      "title": "KSampler"
+    }
+  },
+  "VAEDecode": {
+    "inputs": {
+      "samples": [
+        "KSampler",
+        0
+      ],
+      "vae": [
+        "CheckpointLoaderSimple",
+        2
+      ]
+    },
+    "class_type": "VAEDecode",
+    "_meta": {
+      "title": "VAE Decode"
+    }
+  },
+  "SaveImage1": {
+    "inputs": {
+      "filename_prefix": "osenayanMix_21-dpmpp_2m-karras-yor_briar_spyxfamily-20240223-043029",
+      "images": [
+        "VAEDecode",
+        0
+      ]
+    },
+    "class_type": "SaveImage",
+    "_meta": {
+      "title": "Save Image"
+    }
+  },
+  "BboxDetectorSEGS": {
+    "inputs": {
+      "threshold": 0.38,
+      "dilation": 10,
+      "crop_factor": 3,
+      "drop_size": 10,
+      "labels": "",
+      "bbox_detector": [
+        "UltralyticsDetectorProvider",
+        0
+      ],
+      "image": [
+        "VAEDecode",
+        0
+      ]
+    },
+    "class_type": "BboxDetectorSEGS",
+    "_meta": {
+      "title": "BBOX Detector (SEGS)"
+    }
+  },
+  "DetailerForEachDebug": {
+    "inputs": {
+      "guide_size": 192,
+      "guide_size_for": true,
+      "max_size": 512,
+      "seed": 757590294814225,
+      "steps": 30,
+      "cfg": 3,
+      "sampler_name": "dpmpp_2m",
+      "scheduler": "karras",
+      "denoise": 0.33,
+      "feather": 5,
+      "noise_mask": true,
+      "force_inpaint": true,
+      "wildcard": "",
+      "cycle": 1,
+      "inpaint_model": false,
+      "noise_mask_feather": 0,
+      "image": [
+        "VAEDecode",
+        0
+      ],
+      "segs": [
+        "BboxDetectorSEGS",
+        0
+      ],
+      "model": [
+        "LoraLoader",
+        0
+      ],
+      "clip": [
+        "LoraLoader",
+        1
+      ],
+      "vae": [
+        "CheckpointLoaderSimple",
+        2
+      ],
+      "positive": [
+        "positive",
+        0
+      ],
+      "negative": [
+        "negative",
+        0
+      ]
+    },
+    "class_type": "DetailerForEachDebug",
+    "_meta": {
+      "title": "DetailerDebug (SEGS)"
+    }
+  },
+  "SaveImage2": {
+    "inputs": {
+      "filename_prefix": "osenayanMix_21-dpmpp_2m-karras-yor_briar_spyxfamily-20240223-043029",
+      "images": [
+        "DetailerForEachDebug",
+        0
+      ]
+    },
+    "class_type": "SaveImage",
+    "_meta": {
+      "title": "Save Image"
+    }
+  },
+  "PreviewImage1": {
+    "inputs": {
+      "images": [
+        "DetailerForEachDebug",
+        1
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "Preview Image"
+    }
+  },
+  "PreviewImage2": {
+    "inputs": {
+      "images": [
+        "DetailerForEachDebug",
+        2
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "Preview Image"
+    }
+  },
+  "PreviewImage3": {
+    "inputs": {
+      "images": [
+        "DetailerForEachDebug",
+        3
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "Preview Image"
+    }
+  },
+  "PreviewImage4": {
+    "inputs": {
+      "images": [
+        "DetailerForEachDebug",
+        4
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "Preview Image"
+    }
+  }
+}
