@@ -20,8 +20,8 @@
         "isXl":"score_6, score_5, score_4, ugly face, low res, blurry face, black and white, muscular female ,",
         "embedding":"",
     },
-    "SaveImage2":false,
     "scheduler": [
         "normal", "karras",  "simple", "sgm_uniform",
     ],
+    "SaveImage2":false,
 }
