@@ -2412,6 +2412,16 @@
         "dress": "dress, leg ribbon,  red high heels, long sleeves,",
 		},
 	),
+	"pokemon-serena-ponyxl-lora-nochekaiser": (
+	"pokemon-serena-ponyxl-lora-nochekaiser",
+		(0.75,1.0),
+		1.0,
+		{
+		"char":"serena, long hair, blue eyes, brown hair,  ",
+        #"hair":"blonde hair, short hair, ",
+        "dress": "eyewear on head, hat, skirt, sunglasses, shirt, black shirt, sleeveless, red skirt, pink hat,",
+		},
+	),
 	"hood_XL_pony_bf16_v1": (
 	"hood_XL_pony_bf16_v1",
 		(0.75,1.0),
@@ -2420,6 +2430,16 @@
 		"char":"hood \(azur lane\),  ",
         #"hair":"blonde hair, short hair, ",
         #"dress": "long sleeves, white dress, black jacket, ahoge, black pantyhose, open jacket,",
+		},
+	),
+	"mika-jougasaki-ponyxl-lora-nochekaiser": (
+	"mika-jougasaki-ponyxl-lora-nochekaiser",
+		(0.75,1.0),
+		1.0,
+		{
+		"char":"mika jougasaki, hair bow, long hair, pink hair, yellow eyes, ponytail,  ",
+        #"hair":"blonde hair, short hair, ",
+        "dress": "bow, clothes around waist, plaid, plaid skirt, school uniform, skirt, sweater, sweater around waist,",
 		},
 	),
 	"ShiLuHonkai": (
