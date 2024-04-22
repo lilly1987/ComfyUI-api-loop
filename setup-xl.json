@@ -1,4 +1,16 @@
 {
+    "cuda" : {
+		"KSampler":{
+			#"steps": 8,
+			"steps_min": 8,
+			"steps_max": 16,
+		},
+		"DetailerForEachDebug":{
+            #"steps": 8,
+			"steps_min": 8,
+			"steps_max": 16,
+		},
+    },
     "cpu" : {
 		"KSampler":{
 			"steps": 8,
