@@ -142,6 +142,10 @@ while True:
         # -------------------------------------------------
         if isXl or isPony:
             dupdate(setup,dicFileRead("setup-xl.json"))
+            if cuda and "cuda" in setup:
+                dupdate(setup,setup["cuda"])
+            elif not cuda and "cpu" in setup:
+                dupdate(setup,setup["cpu"])
             #print("setup  : ",setup)
         # -------------------------------------------------
             

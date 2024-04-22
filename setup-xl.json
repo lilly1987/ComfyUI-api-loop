@@ -1,4 +1,16 @@
 {
+    "cpu" : {
+		"KSampler":{
+			"steps": 8,
+			"steps_min": 20,
+			"steps_max": 30,
+		},
+		"DetailerForEachDebug":{
+            "steps": 8,
+			"steps_min": 10,
+			"steps_max": 20,
+		},
+    },
     "loras": {
         #"Expressive_H-000001": "Expressive_H-000001",
         #"sdxl_lightning_8step_lora": "sdxl_lightning_8step_lora",
@@ -6,11 +18,11 @@
     "KSampler":{
         #"steps": 8,
 		"steps_min": 8,
-		"steps_max": 24,
+		"steps_max": 16,
     },
     "DetailerForEachDebug":{
 		"steps_min": 8,
-		"steps_max": 24,
+		"steps_max": 16,
     },
     "cfg_min": 1.0,
     "cfg_max": 7.0,
