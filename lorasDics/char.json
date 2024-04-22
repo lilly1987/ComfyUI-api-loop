@@ -39,6 +39,16 @@
 			#"dress":"bowtie, frills, pink dress, clothing cutout, name tag, detached sleeves, long sleeves, white apron, white pantyhose,",
 		},
 	),
+    "Eris_PONY": (
+	"Eris_PONY",
+        (0.825,1.25),
+        (0.825,1.25),
+        {
+            "char" :"BREAK ,eris,1girl,solo,blue eyes,white hair,hair between eyes, very long hair,Ahoge, collarbone, frills, nun,long sleeves,dress,BREAK",
+            "hair":"",
+            "dress":"",
+        },
+    ),
     "arknightsUOfficialEureka_vtbV10": (
         "arknightsUOfficialEureka_vtbV10",
         (0.825,1.25),
@@ -2383,7 +2393,7 @@
 		},
 	),
 	"hina_(dress)_1.5": (
-		"hina_(dress)_1.5",
+	"hina_(dress)_1.5",
 		(0.5,1.0),
 		1.0,
 		{

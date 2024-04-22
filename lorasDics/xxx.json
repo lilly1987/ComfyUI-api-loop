@@ -1182,7 +1182,7 @@
 	"Hanging": (
 		"Hanging",
 		(0.75,01.0),
-		(1.0,1.5),
+		(1.0,1.25),
 		{
 		"hang":"BREAK AsphyxiationHngng, rope, standing, orgasm, female ejaculation, pussy juice, rolling eyes, trembling, peeing, pee, head tilt, open mouth, tongue out, sweat, nipples, open clothes, ahegao, blush, empty eyes, BREAK",
 		},
@@ -1203,7 +1203,7 @@
         "SD-OUTD"   ,
         "SD-OUTS"   ,
         #"SD-OUTALL" ,
-        "SD-ROUT"   ,
+        #"SD-ROUT"   ,
         "SD-AOUT"   ,
         "SD-AB" 	,
         #"SD-ALL0.5" ,
