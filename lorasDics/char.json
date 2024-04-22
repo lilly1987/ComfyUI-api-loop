@@ -2402,8 +2402,28 @@
         #"dress": "",
 		},
 	),
+	"lailah_autismConfetti_v01": (
+	"lailah_autismConfetti_v01",
+		(0.75,1.0),
+		1.0,
+		{
+		"char":"lailah \(tales\),  silver hair, very long hair, blunt bangs, sidelocks, ponytail, blue eyes,    ",
+        #"hair":"blonde hair, short hair, ",
+        "dress": "dress, leg ribbon,  red high heels, long sleeves,",
+		},
+	),
+	"hood_XL_pony_bf16_v1": (
+	"hood_XL_pony_bf16_v1",
+		(0.75,1.0),
+		1.0,
+		{
+		"char":"hood \(azur lane\),  ",
+        #"hair":"blonde hair, short hair, ",
+        #"dress": "long sleeves, white dress, black jacket, ahoge, black pantyhose, open jacket,",
+		},
+	),
 	"ShiLuHonkai": (
-		"ShiLuHonkai",
+	"ShiLuHonkai",
 		(0.5,1.0),
 		1.0,
 		{
