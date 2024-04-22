@@ -59,6 +59,16 @@
             "dress":"",
         },
     ),
+    "TomoyoDaidoujiXL": (
+	"TomoyoDaidoujiXL",
+        (0.825,1.25),
+        (0.825,1.25),
+        {
+            "char" :"BREAK 1girl, daidouji tomoyo, black hair, long hair, blunt bangs, hairband, long hair, purple eyes, BREAK",
+            "hair":"",
+            "dress":"{black shirt, long sleeves, neckerchief, sailor collar, school uniform, serafuku, white skirt, tomoeda elementary school uniform|white shirt, short sleeves, red neckerchief, sailor collar, school uniform, black skirt},",
+        },
+    ),
     "daidouji_tomoyo_v1": (
         "daidouji_tomoyo_v1",
         (0.825,1.25),
