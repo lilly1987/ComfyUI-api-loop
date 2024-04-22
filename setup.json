@@ -71,7 +71,7 @@
         "denoise_max": 0.4,
     },
     "cuda" : {
-        "ckptCnt":72,
+        "ckptCnt":40,
         "itemCnt":4,
         "queue_cnt":1,
 		"KSampler":{
