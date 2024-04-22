@@ -2422,6 +2422,26 @@
         "dress": "eyewear on head, hat, skirt, sunglasses, shirt, black shirt, sleeveless, red skirt, pink hat,",
 		},
 	),
+	"hina-dress_blue archive_PONY_last": (
+	"hina-dress_blue archive_PONY_last",
+		(0.75,1.250),
+		(0.75,1.250),
+		{
+		"char":"BREAK hina-dress, hina \(blue archive\),purple eyes, white hair,ponytail,(horns:1.2),hair ribbon,low wings,halo,frilled dress,elbow gloves,pantyhose,purple footwear,high heels BREAK ",
+        #"hair":"blonde hair, short hair, ",
+        #"dress": "long sleeves, white dress, black jacket, ahoge, black pantyhose, open jacket,",
+		},
+	),
+	"hina-nosleeves_blue archive_PONY_last": (
+	"hina-nosleeves_blue archive_PONY_last",
+		(0.75,1.0),
+		1.0,
+		{
+		"char":"BREAK hina-nosleeves, hina \(blue archive\),purple eyes, long hair,black horns,halo,white shirt,black skirt,sleeveless,low wings,black thighhighs, BREAK ",
+        #"hair":"blonde hair, short hair, ",
+        #"dress": "long sleeves, white dress, black jacket, ahoge, black pantyhose, open jacket,",
+		},
+	),
 	"hood_XL_pony_bf16_v1": (
 	"hood_XL_pony_bf16_v1",
 		(0.75,1.0),

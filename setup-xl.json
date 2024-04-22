@@ -42,7 +42,7 @@
         "isXl":"score_9,score_7_up, source_anime,",
     },
     "negative" : {
-        "isXl":"score_6, score_5, score_4, ugly face, low res, blurry face, black and white, muscular female ,",
+        "isXl":"score_6, score_5, score_4,",
         "embedding":"",
     },
     "sampler_name": [
