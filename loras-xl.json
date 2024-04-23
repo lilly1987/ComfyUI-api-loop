@@ -1,17 +1,17 @@
 {
-    "sdxl_lightning_lora": (        01.50,
+    "sdxl_lightning_lora": (        0.50,
         [
             "sdxl_lightning_8step_lora",
         ],
     ),
-    "xxx": (        0.50,
+    "xxx": (        01.0,
         [
             "Expressive_H-000001",
             "condomification",
             "human_onahole",
         ],
     ),
-    "hang": (        0.50,
+    "hang": (        0.250,
         [
             "Re-hang-XL-3-000008",
             "XL-Beheadv2-000012",
