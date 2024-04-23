@@ -403,8 +403,8 @@ while True:
         if setup.get("SaveImage1",True):
             sampler_name1=prompt["KSampler"]["inputs"]["sampler_name"]
             scheduler1=prompt["KSampler"]["inputs"]["scheduler"]
-            cfg1=int(prompt["KSampler"]["inputs"]["cfg"])
-            steps1=int(prompt["KSampler"]["inputs"]["steps"])
+            cfg1=round(prompt["KSampler"]["inputs"]["cfg"],2)
+            steps1=(prompt["KSampler"]["inputs"]["steps"])
             #tm=time.strftime('%Y%m%d-%H%M%S')
             prompt["SaveImage1"]["inputs"]["filename_prefix"]= f"{ckpt_name}/{jitem_name}/{ckpt_name}-{sampler_name1}-{scheduler1}-{cfg1}-{steps1}-{jitem_name}-{tm}"
             print(prompt["SaveImage1"]["inputs"]["filename_prefix"])
@@ -415,8 +415,8 @@ while True:
         if setup.get("SaveImage2",True):
             sampler_name1=prompt["DetailerForEachDebug"]["inputs"]["sampler_name"]
             scheduler1=prompt["DetailerForEachDebug"]["inputs"]["scheduler"]
-            cfg1=int(prompt["DetailerForEachDebug"]["inputs"]["cfg"])
-            steps1=int(prompt["KSampler"]["inputs"]["steps"])
+            cfg1=round(prompt["DetailerForEachDebug"]["inputs"]["cfg"],2)
+            steps1=(prompt["KSampler"]["inputs"]["steps"])
             #prompt["SaveImage2"]["inputs"]["filename_prefix"]= f"{ckpt_name}/{sampler_name1}/{scheduler1}/{cfg1}/{jitem_name}/{ckpt_name}-{sampler_name1}-{scheduler1}-{cfg1}-{jitem_name}-{tm}"
             #tm=time.strftime('%Y%m%d-%H%M%S')
             prompt["SaveImage2"]["inputs"]["filename_prefix"]= f"{ckpt_name}/{jitem_name}/{ckpt_name}-{sampler_name1}-{scheduler1}-{cfg1}-{steps1}-{jitem_name}-{tm}"
