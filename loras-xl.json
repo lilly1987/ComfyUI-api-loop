@@ -1,12 +1,21 @@
 {
-    "Expressive_H": (        01.0,
+    "sdxl_lightning_lora": (        01.50,
+        [
+            "sdxl_lightning_8step_lora",
+        ],
+    ),
+    "Expressive_H": (        0.50,
         [
             "Expressive_H-000001",
         ],
     ),
-    "sdxl_lightning_lora": (        01.50,
+    "hang": (        0.50,
         [
-            "sdxl_lightning_8step_lora",
+            "Re-hang-XL-3-000008",
+            "XL-Beheadv2-000012",
+            "XL-hang-board-test-000012",
+            "XL-hangV3-000012",
+            "XL-luoxuan-000012",
         ],
     ),
     

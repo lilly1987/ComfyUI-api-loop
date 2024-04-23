@@ -748,6 +748,83 @@
 	{},
 	"rnd",
 	),
+	"Re-hang-XL-3-000008": (
+	"Re-hang-XL-3-000008",
+		(0.75,01.0),
+		(0.75,01.0),
+		{
+		"isXl":"BREAK score_9, score_8_up, score_7_up, best quality, masterpiece, 4k, uncensored, prefect lighting, rating_explicit, very aesthetic, anime BREAK,",
+		"hang":"BREAK shouting,tongue out,gothic lolita,(blush),sad,open mouth,arms behind back,[[rope on neck]], BREAK,",
+		},
+		{},
+		"0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+	),
+	"XL-Beheadv2-000012": (
+	"XL-Beheadv2-000012",
+		(0.75,01.0),
+		(0.75,01.0),
+		{
+		"isXl":"BREAK score_9, score_8_up, score_7_up, best quality, masterpiece, 4k, uncensored, prefect lighting, rating_explicit, very aesthetic, anime BREAK,",
+		"hang":"BREAK shouting,tongue out,gothic lolita,(blush),sad,open mouth,arms behind back,[[rope on neck]], BREAK,",
+		},
+		{},
+		"0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+	),
+	"XL-hang-board-test-000012": (
+	"XL-hang-board-test-000012",
+		(0.75,01.0),
+		(0.75,01.0),
+		{
+		"isXl":"BREAK score_9, score_8_up, score_7_up, best quality, masterpiece, 4k, uncensored, prefect lighting, rating_explicit, very aesthetic, anime BREAK,",
+		"hang":"BREAK shouting,tongue out, nervous, ((jumping)),((dancing)), full body,(blush),sad,open mouth,arms behind back,from_below, [[rope on neck]], BREAK,",
+		},
+		{},
+		"0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+	),
+	"XL-hangV3-000012": (
+	"XL-hangV3-000012",
+		(0.75,01.0),
+		(0.75,01.0),
+		{
+		"isXl":"BREAK score_9, score_8_up, score_7_up, best quality, masterpiece, 4k, uncensored, prefect lighting, rating_explicit, very aesthetic, anime BREAK,",
+		"hang":"BREAK shouting,tongue out,gothic lolita,(blush),sad,open mouth,arms behind back,[[rope on neck]], BREAK,",
+		},
+		{
+			
+		},
+		"0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+	),
+	"XL-luoxuan-000012": (
+	"XL-luoxuan-000012",
+		(0.75,01.0),
+		(0.75,01.0),
+		{
+		"isXl":"BREAK score_9, score_8_up, score_7_up, best quality, masterpiece, 4k, uncensored, prefect lighting, rating_explicit, very aesthetic, anime BREAK,",
+		"hang":"BREAK shouting,tongue out,gothic lolita,(blush),sad,open mouth,arms behind back,[[rope on neck]], BREAK,",
+		},
+		{},
+		"0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+	),
+	"monsterXgirl_Hell": (
+	"monsterXgirl_Hell",
+		(0.75,01.0),
+		(0.75,01.0),
+		{
+			"monsterXgirl":" monsterXgirl,",
+		},
+		{},
+		
+	),
+	"monsterXgirl_alien": (
+	"monsterXgirl_alien",
+		(0.75,01.0),
+		(0.75,01.0),
+		{
+			"monsterXgirl":" monsterXgirl,",
+		},
+		{},
+	#"rnd",
+	),
 	"bdsm_v3": (
 	"bdsm_v3",
 	(0.5,01.0),

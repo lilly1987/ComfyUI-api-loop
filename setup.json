@@ -249,6 +249,7 @@
         "realistic":"{realistic,|}",
         "smile":"smile,",
         "embedding":"{-4$$embedding:FastNegativeV2.pt|embedding:NGH.safetensors|embedding:bad_prompt_version2-neg.pt|embedding:negative_hand-neg|embedding:nncursedV0-neg.pt|embedding:badquality.pt|embedding:bad-picture-chill-75v.pt|embedding:neg_grapefruit.pt|embedding:ParaNegative.safetensors|embedding:easynegative.safetensors|embedding:EasyNegativeV2.safetensors},",
+
     },
     "loras":{    },
     "lorasDic":{    },
