@@ -4,9 +4,11 @@
             "sdxl_lightning_8step_lora",
         ],
     ),
-    "Expressive_H": (        0.50,
+    "xxx": (        0.50,
         [
             "Expressive_H-000001",
+            "condomification",
+            "human_onahole",
         ],
     ),
     "hang": (        0.50,
