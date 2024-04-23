@@ -314,9 +314,9 @@ while True:
                 tLora["inputs"]["clip"][0]=lora1
                 if len(tmp) >5 :
                     t5=tmp[5]
-                    if isinstance(t5, list):
+                    if isinstance(t5, list) and len(t5) >0 :
                         t5=random.choice(t5)
-                    if  isinstance(t5, str) :
+                    if  isinstance(t5, str) and len(t5) >0 :
                         if "rnd" == t5.lower() : 
                             t5=random.choice(list(lbw.values()))
                         else:
