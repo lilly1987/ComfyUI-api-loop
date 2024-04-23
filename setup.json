@@ -213,7 +213,7 @@
         "dildo":"{3::(dildo in pussy,dildo ,dildo in ass,vaginal object insertion,:1.0),|}",
         "dildo":"{dildo in pussy,dildo ,dildo in ass,vaginal object insertion, dildo masturbation,|}",
         #"deepthroat":"{spitroast, deepthroat,|}",
-        "fellatio":"{-3$${hug and |}suck|fellatio|oral|spitroast|deepthroat},",
+        "fellatio":"{{1-3$${hug and |}suck|fellatio|oral|spitroast|deepthroat},|3::}",
         "boy":"1boy,",
         "boy":"{{2boy,|1boy,}huge penis ,|}",
         "girl":"1girl ,{-2$$petite|size difference} ",
