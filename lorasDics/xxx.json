@@ -2335,6 +2335,35 @@
 		{},
 		"rnd",
 	),
+	"LadyVase_v01":(
+	"LadyVase_v01-Epoch*",
+		(0.5,01.0),
+		1.0,
+		{
+			#"boy" :"tentacles,",
+			#"sex" :" pussy cock deep penetration,",
+			#"pose" :" revcowgirl,",
+			"LadyVase_v01":"ladyvase, handle, elongated neck,",
+		},
+		{},
+		"rnd",
+	),
+	"VG2":(
+	"VG2",
+		(0.5,01.0),
+		1.0,
+		{
+			#"boy" :"tentacles,",
+			#"sex" :" pussy cock deep penetration,",
+			#"pose" :" revcowgirl,",
+			"VG2":"armless,handless, cropped,masterpiece,best quality,realistic,rocher-hd, colorful, shoulder cutout,",
+		},
+		{
+			"VG2":"(low quality, worst quality:1.4), (bad_prompt_version2:0.8), (monochrome:1.1), (lowres:1.1), (loli:1.2), (child:1.2), (teenage:1.2), (aged down:1.2), blurry, censored, (worst quality, low quality:1.2), username, watermark, signature, text,arms,lower body, (((bare shoulders))), hands up, (shoulders), dress, sleeves, ( hands:1.6),figer,figers,open eyes,multiple girls, multiple heads",
+		},
+		#"rnd",
+		"1,0.3,0,0,0,0,0,1.4,0,1.5,0,0,0,0,0,0,0",
+	),
 	"raised-doggystyle-v3-wasabiya":(
 		"raised-doggystyle-v3-wasabiya",
 		(0.5,01.0),
