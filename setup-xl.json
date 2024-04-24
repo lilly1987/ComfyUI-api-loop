@@ -41,7 +41,7 @@
     "positive" : {
         "isXl":"score_9, score_8_up, score_7_up, source_anime,",
         "isXl":"score_9, score_7_up, source_anime,",
-        "isXl":"{score_9, {0-5$$score_8_up|score_7_up|score_6_up|score_5_up|score_4_up}, | score_8, {0-4$$score_7_up|score_6_up|score_5_up|score_4_up}, |} source_anime,",
+        "isXl":"{score_9, {0-5$$score_8_up|score_7_up|score_6_up|score_5_up|score_4_up}, | score_8, {0-4$$score_7_up|score_6_up|score_5_up|score_4_up}, |} {source_anime,|}",
     },
     "negative" : {
         "isXl":"{0-3$$score_6|score_5|score_4},",

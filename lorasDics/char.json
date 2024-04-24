@@ -455,20 +455,30 @@
         (0.75,1.25),
         (0.75,1.25),
         {
+			"isXl":"BREAK, score_9, source anime, BREAK, ",
             "char" :"BREAK saegusa mayumi, hair ribbon,green jacket, white dress, necktie,,BREAK ",
             #"hair":"long hair, blonde hair,twintails ,",
             #"dress":"serafuku, sailor collar, neckerchief, black shirt, long sleeves, pleated skirt, white skirt,",
         },
+		{
+			"isXl":"score_4, score_5, score_6, source_pony, source_comic, photorealistic, comic, western,",
+			"embedding":"",
+		},
     ),
     "Mahouka-08-miyuki": (
         "Mahouka-08",
         (0.75,1.25),
         (0.75,1.25),
         {
+			"isXl":"BREAK, score_9, source anime, BREAK, ",
             "char" :"BREAK shiba miyuki, hair ornament,green jacket, white dress, necktie, BREAK",
             #"hair":"long hair, blonde hair,twintails ,",
             #"dress":"serafuku, sailor collar, neckerchief, black shirt, long sleeves, pleated skirt, white skirt,",
         },
+		{
+			"isXl":"score_4, score_5, score_6, source_pony, source_comic, photorealistic, comic, western,",
+			"embedding":"",
+		},
     ),
     "北境夜雪-Blue dress lolitaV1.4": (
         "北境夜雪-Blue dress lolitaV1.4",
