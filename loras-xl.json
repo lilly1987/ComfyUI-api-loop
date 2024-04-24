@@ -1,14 +1,7 @@
 {
-    "sdxl_lightning_lora": (        01.50,
+    "sdxl_lightning_lora": (        0.50,
         [
             "sdxl_lightning_8step_lora",
-        ],
-    ),
-    "xxx": (        01.0,
-        [
-            "Expressive_H-000001",
-            "condomification",
-            "human_onahole",
         ],
     ),
     "hang": (        0.250,
@@ -18,6 +11,13 @@
             "XL-hang-board-test-000012",
             "XL-hangV3-000012",
             "XL-luoxuan-000012",
+        ],
+    ),
+    "xxx": (        01.0,
+        [
+            "Expressive_H-000001",
+            "condomification",
+            "human_onahole",
         ],
     ),
     
