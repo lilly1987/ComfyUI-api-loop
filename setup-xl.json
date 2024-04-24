@@ -50,11 +50,11 @@
     },
     "sampler_name": [
         "euler", "euler_ancestral", "heun", "heunpp2","dpm_2", "dpm_2_ancestral",
-          "dpm_adaptive", "dpmpp_2s_ancestral", "dpmpp_sde", 
+           "dpmpp_2s_ancestral", "dpmpp_sde", 
         "dpmpp_2m", "dpmpp_2m_sde",    
         "ddpm",  "ddim", 
     ],
-	#"dpmpp_sde_gpu","dpmpp_2m_sde_gpu", "dpmpp_3m_sde_gpu", "dpmpp_3m_sde","lms","uni_pc", "uni_pc_bh2" "lcm", "dpm_fast",
+	#"dpmpp_sde_gpu","dpmpp_2m_sde_gpu", "dpmpp_3m_sde_gpu", "dpmpp_3m_sde","lms","uni_pc", "uni_pc_bh2" "lcm", "dpm_fast","dpm_adaptive",
     "scheduler": [
         "normal", "karras",  "simple", "sgm_uniform",
     ],
