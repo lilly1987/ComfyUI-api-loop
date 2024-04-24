@@ -1267,7 +1267,7 @@
 	"SD-OUTD"   ,
 	"SD-OUTS"   ,
 	#"SD-OUTALL" ,
-	"SD-ROUT"   ,
+	#"SD-ROUT"   ,
 	"SD-AOUT"   ,
 	"SD-AOUT"   ,
 	"SD-AB" 	,
