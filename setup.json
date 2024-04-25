@@ -82,7 +82,7 @@
 		"DetailerForEachDebug":{
             #"steps": 20,
 			"steps_min": 15,
-			"steps_max": 25,
+			"steps_max": 30,
 		},
 		"EmptyLatentImage":{
 			"width": 360,
