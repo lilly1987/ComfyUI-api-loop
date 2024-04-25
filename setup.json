@@ -269,7 +269,7 @@
     "setup show":false,
     "prompt show":true,
     "prompt show":false,
-    "queue_prompt":true,
     "queue_prompt":false,
+    "queue_prompt":true,
     
 }
