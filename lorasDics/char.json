@@ -445,7 +445,7 @@
         (0.75,1.25),
         (0.75,1.25),
         {
-            "char" :"BREAK  {purple_eyes, white_hair, very_long_hair, ahoge, parted_bangs, small_breasts, halo, black_horns, demon_girl, demon_horns, demon_wings|purple_eyes, white_hair, long_hair, ponytail, halo, demon_girl, demon_horns, demon_wings, hair_ribbon, black_ribbon, necklace, purple_dress, purple_pantyhose, sidelocks, wavy_hair, strapless_dress, elbow_gloves, purple_gloves, dangle_earrings, pearl_necklace, official_alternate_hairstyle, official_alternate_costume}, BREAK",
+            "char" :"BREAK  1girl, {purple_eyes, white_hair, very_long_hair, ahoge, parted_bangs, small_breasts, halo, black_horns, demon_girl, demon_horns, demon_wings|purple_eyes, white_hair, long_hair, ponytail, halo, demon_girl, demon_horns, demon_wings, hair_ribbon, black_ribbon, necklace, purple_dress, purple_pantyhose, sidelocks, wavy_hair, strapless_dress, elbow_gloves, purple_gloves, dangle_earrings, pearl_necklace, official_alternate_hairstyle, official_alternate_costume}, BREAK",
             #"hair":"long hair, blonde hair,twintails ,",
             #"dress":"serafuku, sailor collar, neckerchief, black shirt, long sleeves, pleated skirt, white skirt,",
         },
@@ -456,7 +456,7 @@
         (0.75,1.25),
         {
 			"isXl":"BREAK, score_9, source anime, BREAK, ",
-            "char" :"BREAK saegusa mayumi, hair ribbon,green jacket, white dress, necktie,,BREAK ",
+            "char" :"BREAK 1girl, saegusa mayumi, hair ribbon,green jacket, white dress, necktie,,BREAK ",
             #"hair":"long hair, blonde hair,twintails ,",
             #"dress":"serafuku, sailor collar, neckerchief, black shirt, long sleeves, pleated skirt, white skirt,",
         },
@@ -471,7 +471,7 @@
         (0.75,1.25),
         {
 			"isXl":"BREAK, score_9, source anime, BREAK, ",
-            "char" :"BREAK shiba miyuki, hair ornament,green jacket, white dress, necktie, BREAK",
+            "char" :"BREAK 1girl, shiba miyuki, hair ornament,green jacket, white dress, necktie, BREAK",
             #"hair":"long hair, blonde hair,twintails ,",
             #"dress":"serafuku, sailor collar, neckerchief, black shirt, long sleeves, pleated skirt, white skirt,",
         },
@@ -2470,6 +2470,36 @@
 		"char":"hood \(azur lane\),  ",
         #"hair":"blonde hair, short hair, ",
         #"dress": "long sleeves, white dress, black jacket, ahoge, black pantyhose, open jacket,",
+		},
+	),
+	"Madome - Nephelia R3": (
+	"Madome - Nephelia R3",
+		(0.75,1.0),
+		1.0,
+		{
+		"char":"Nephelia,",
+        #"hair":"blonde hair, short hair, ",
+        #"dress": " ,",
+		},
+	),
+	"NefertariFate-10": (
+	"NefertariFate-10",
+		(0.75,1.0),
+		1.0,
+		{
+		"char":"BREAK NefertariFate, 1girl, solo, long hair, brown hair, hair ornament, dress, brown eyes, jewelry, hair flower, dark skin, necklace, bracelet, dark-skinned female,  BREAK",
+        #"hair":"blonde hair, short hair, ",
+        "dress": " ,",
+		},
+	),
+	"RyzaBloomingEnergy-10": (
+	"RyzaBloomingEnergy-10",
+		(0.75,1.0),
+		1.0,
+		{
+		"char":"BREAK RyzaBloomingEnergy, 1girl, solo, short hair, pleated skirt, blonde hair, white shirt, hair ornament, long sleeves, cleavage, jewelry, school uniform, yellow eyes, choker, hairclip, dark skin, miniskirt, open jacket, dark-skinned female, red skirt, beret, white headwear, plaid skirt, blazer, white jacket, red necktie, reisalin stout,  BREAK",
+        #"hair":"blonde hair, short hair, ",
+        "dress": " ,",
 		},
 	),
 	"mika-jougasaki-ponyxl-lora-nochekaiser": (
