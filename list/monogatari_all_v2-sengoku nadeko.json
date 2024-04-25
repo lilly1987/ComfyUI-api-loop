@@ -1,8 +1,5 @@
 {
     "loras": {
-        "char":"monogatari_all_v2-sengoku nadeko",
-        #"hair":"long hair,",
-        #"dress":"{__Marianne_Vi_Britannia_dress__,|}",
-        #"style":"cardcaptor sakura \(style\), ",
-    },
+        "1": "monogatari_all_v2-sengoku nadeko"
+    }
 }
