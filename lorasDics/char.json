@@ -3175,7 +3175,7 @@
 		(0.75,1.0),
 		1.0,
 		{
-			"char":"BREAK, blue eyes, tiara, pink hair, white dress, large breasts, white stockings, very long hair, (parted bangs:1.2), (forehead:1.2), pink panties, gloves, exposed shoulders, cleavage, BREAK ",
+			"char":"BREAK, 1girl, blue eyes, tiara, pink hair, white dress, large breasts, white stockings, very long hair, (parted bangs:1.2), (forehead:1.2), pink panties, gloves, exposed shoulders, cleavage, BREAK ",
 			"dress" :", ",
 		},
 	),
@@ -3193,8 +3193,8 @@
 		(0.75,1.0),
 		1.0,
 		{
-			"char":"prim fiofire, long hair, blue eyes, very long hair, pink hair,, ",
-			"dress" :"thighhighs, gloves, dress, ribbon, navel, cleavage, underwear, panties, hair ribbon, choker, white gloves, crown, pink panties,, ",
+			"char":"BREAK , 1girl, prim fiofire, long hair, blue eyes, very long hair, pink hair,thighhighs, gloves, dress, ribbon, navel, cleavage, underwear, panties, hair ribbon, choker, white gloves, crown, pink panties, BREAK , ",
+			"dress" :", ",
 		},
 	),
 	"JiaranDianaLoraASOUL_v20SingleCostume": (
@@ -3227,12 +3227,22 @@
 			"dress" :"school uniform,pink jacket,cropped jacket,open jacket,wing collar,red bowtie,frilled shirt,center frills,white shirt,collared shirt,dress shirt,long sleeves,large breasts,high-waist skirt,grey skirt,plaid skirt,pleated skirt,white socks,loafers,black footwear, ",
 		},
 	),
-	"VioletFate-10": (
-		"VioletFate-10",
+	"miquellaEldenRing_v01": (
+	"miquellaEldenRing_v01",
 		(0.75,1.0),
 		1.0,
 		{
-			"char":"BREAK VioletFate,  very long hair, hair ribbon, cleavage, bare shoulders, medium breasts, purple eyes, purple hair, detached sleeves, black bodysuit, skintight, glasses,BREAK",
+			"char":"BREAK 1girl, blonde_hair,long_hair,{|very_long_hair,}braid, white_dress, BREAK",
+			"hair" :", ",
+			"dress" :", ",
+		},
+	),
+	"VioletFate-10": (
+	"VioletFate-10",
+		(0.75,1.0),
+		1.0,
+		{
+			"char":"BREAK 1girl, VioletFate,  very long hair, hair ribbon, cleavage, bare shoulders, medium breasts, purple eyes, purple hair, detached sleeves, black bodysuit, skintight, glasses,BREAK",
 			"hair" :", ",
 			"dress" :", ",
 		},

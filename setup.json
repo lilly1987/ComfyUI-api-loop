@@ -244,7 +244,7 @@
         "quality":"lowres, worst quality, low quality,  from torso down, (monochrome:1.1), zombie , (blurry),  low res, ",
         "view":"(multiple views:1.25), (multiple viewer:1.25),  (cropped:1.25), face only,  lower body,  facial,",
         "bad":" bad anatomy, bad hands,   missing fingers, extra digit, fewer digits, speech bubble, ",
-        "nude":"{nude,|}",
+        "nude":"{2::nude,|}",
         "etc":"ugly face, blurry face, black and white, muscular female , text, sinature, stamp, watermark, error, jpeg artifacts, signature,  username,",
         "realistic":"{realistic,|}",
         "smile":"smile,",
@@ -269,7 +269,7 @@
     "setup show":false,
     "prompt show":true,
     "prompt show":false,
-    "queue_prompt":false,
     "queue_prompt":true,
+    "queue_prompt":false,
     
 }

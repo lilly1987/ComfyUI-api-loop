@@ -239,6 +239,16 @@ while True:
                 #-----------------------------
                 if isinstance(tmp, str) :
                     tmp=lorasDic.get(tmp)
+                    if tmp is None:
+                        print(f"loras :[red] no lorasDic {k} : [/red]", v)
+                        tloraList=[ i for i in loraList if i.match(f"{v}.safetensors")]
+                        if len(tloraList)==0:
+                            print("[red] no loraList2 : [/red]",v)
+                            continue
+                        tchoice=random.choice(tloraList)
+                        #tmp=(
+                        #    tchoice,
+                        #)
                     if isinstance(tmp, list):
                         tmp=random.choice(tmp)
                         tmp=lorasDic.get(tmp)
@@ -259,7 +269,7 @@ while True:
                     #else:
                     #    print(f"loras :[yellow] {k} not num [/yellow]")
                 else:
-                    print(f"loras :[red]no tuple  {k} : [/red]", v)
+                    print(f"loras :[red] no tuple {k} : [/red]", v)
                     continue
                 #-----------------------------
                 tmp2=tmp
@@ -287,14 +297,18 @@ while True:
                 if isinstance(tmp, list):
                     tmp5=random.choice(tmp)
                     tmp=lorasDic.get(tmp5)
-                if isinstance(tmp[0], list):
-                    vl=random.choice(tmp[0])
-                    print(f"loras :[green] list {k} : [/green]", tmp[0])
-                elif isinstance(tmp[0], str):
-                    vl=tmp[0]
+                
+                if len(tmp) >0 :
+                    if isinstance(tmp[0], list):# lora list
+                        vl=random.choice(tmp[0])
+                        print(f"loras :[green] list {k} : [/green]", tmp[0])
+                    elif isinstance(tmp[0], str):
+                        vl=tmp[0]
+                    else:
+                        print(f"loras :[red] unknown {k} : [/red]", vl)
+                        continue
                 else:
-                    print(f"loras :[red] unknown {k} : [/red]", vl)
-                    continue
+                    vl=v
                     
                 #print("loraList : ",loraList)
                 tloraList=[ i for i in loraList if i.match(f"{vl}.safetensors")]
@@ -305,11 +319,17 @@ while True:
                 tchoice=random.choice(tloraList)
                 tname=pathRemove(tchoice,setup["loraPath"])
                 print(f"loras : [green]{tname}[/green]")
-                
+                    
                 tLora=copy.deepcopy(prompt[lora2])
                 tLora["inputs"]["lora_name"]=tname
-                tLora["inputs"]["strength_model"]=minmaxft(tmp[1])
-                tLora["inputs"]["strength_clip"]=minmaxft(tmp[2])
+                if len(tmp) >1 :
+                    tLora["inputs"]["strength_model"]=minmaxft(tmp[1])
+                else:
+                    tLora["inputs"]["strength_model"]=1
+                if len(tmp) >2 :
+                    tLora["inputs"]["strength_clip"]=minmaxft(tmp[2])
+                else:
+                    tLora["inputs"]["strength_clip"]=1
                 tLora["inputs"]["model"][0]=lora1
                 tLora["inputs"]["clip"][0]=lora1
                 if len(tmp) >5 :
@@ -331,9 +351,10 @@ while True:
                 prompt[lora2]["inputs"]["model"][0]=lora1
                 prompt[lora2]["inputs"]["clip"][0]=lora1
                 
-                dupdate(setup["positive"],tmp[3])
-                if len(tmp) >4 :
-                    dupdate(setup["negative"],tmp[4])
+                if len(tmp) >3 :
+                    dupdate(setup["positive"],tmp[3])
+                    if len(tmp) >4 :
+                        dupdate(setup["negative"],tmp[4])
                 
             except Exception:
                 #console.print_exception(show_locals=True)
