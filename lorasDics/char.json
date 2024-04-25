@@ -2439,7 +2439,7 @@
 		{
 		"char":"serena, long hair, blue eyes, brown hair,  ",
         #"hair":"blonde hair, short hair, ",
-        "dress": "eyewear on head, hat, skirt, sunglasses, shirt, black shirt, sleeveless, red skirt, pink hat,",
+        "dress": "{eyewear on head, hat, skirt, sunglasses, shirt, black shirt, sleeveless, red skirt, pink hat,|__dress__}",
 		},
 	),
 	"hina-dress_blue archive_PONY_last": (
@@ -2482,9 +2482,19 @@
         "dress": "bow, clothes around waist, plaid, plaid skirt, school uniform, skirt, sweater, sweater around waist,",
 		},
 	),
+	"cure_butterfly": (
+	"cure_butterfly",
+		(0.75,1.0),
+		1.0,
+		{
+		"char":"BREAK cure_butterfly, blonde hair, purple eyes,  very long hair, pink skirt,  navel, pink footwear, jewelry, frills,boots,  braid, pink bow, earrings, swept bangs, hair bow, pink belt, thigh strap, crop top, layered skirt, pink gloves, frilled skirt, gloves,star (symbol), bare shoulders, detached sleeves, single leg pantyhose, pantyhose, stomach, high heels, magical girl, sleeveless, hair ornament, miniskirt, bridal gauntlets, sleeveless shirt, crown braid, BREAK",
+        "hair":",",
+        "dress": ",",
+		},
+	),
 	"ShiLuHonkai": (
 	"ShiLuHonkai",
-		(0.5,1.0),
+		(0.75,1.0),
 		1.0,
 		{
 		"char":"ShiLuHonkai,  grey eyes,",
@@ -3094,8 +3104,71 @@
         #"SD-ALL0.5" ,
         ],
 	),
+	"inori8": (
+	"inori8",
+		(0.6,1.0),
+		1.0,
+		{
+			"char":"BREAK, 1girl,inori, mo8, hairclip, {black sweater, pink shawl, plaid pencil skirt, purple pantyhose, boots, necklace,|black pantyhose, plaid skirt,|vest, white turtleneck, necklace, white sleeves, plaid,|white skirt, ribbon, sleeveless, ponytail,| detached sleeves, bare shoulders,|swimsuit, ponytail, ribbon, navel,| black pantyhose, buttons, plaid skirt,| yellow scarf, plaid,|white long skirt, ponytail, ribbon,|obi,} very long black hair, BREAK ",
+			"dress" :", ",
+		},
+	),
+	"Kuroinu2LukaV1": (
+	"Kuroinu2LukaV1",
+		(0.6,1.0),
+		1.0,
+		{
+			"char":"BREAK, 1girl,Luka ; Black hair,short hair,hair over one eye,yellow eyes,pointy ears,dark skin ; Choker,jewelry,collarbone,short black and white puffy sleeves,underboob,panties,belt,garter straps,white thighhighs,fingerless gloves,boots; BREAK ",
+			"dress" :", ",
+		},
+	),
+	"Kuroinu2AstridV1": (
+	"Kuroinu2AstridV1",
+		(0.6,1.0),
+		1.0,
+		{
+			"char":"BREAK, 1girl,Astrid ; Pink hair,blue eyes,wavy hair,braids ; Witch hat,bare shoulders,cape,dress,bra,corset,clothing cutout,cleavage,navel,sandals BREAK ",
+			"dress" :", ",
+		},
+	),
+	"character_prim_kuroinu_epoch 10": (
+	"character_prim_kuroinu_epoch 10",
+		(0.75,1.0),
+		1.0,
+		{
+			"char":"BREAK, kuroinu_prim,1girl, BREAK ",
+			"dress" :", ",
+		},
+	),
+	"Prim_Fiorire_Kuroinu": (
+	"Prim_Fiorire_Kuroinu",
+		(0.75,1.0),
+		1.0,
+		{
+			"char":"BREAK, blue eyes, tiara, pink hair, white dress, large breasts, white stockings, very long hair, (parted bangs:1.2), (forehead:1.2), pink panties, gloves, exposed shoulders, cleavage, BREAK ",
+			"dress" :", ",
+		},
+	),
+	"kuroinu-ruu-ruu-ova-ponyxl-lora-nochekaiser": (
+	"kuroinu-ruu-ruu-ova-ponyxl-lora-nochekaiser",
+		(0.75,1.0),
+		1.0,
+		{
+			"char":"ruu ruu, orange hair, drill hair, red eyes,, ",
+			"dress" :"thighhighs, hat, navel, cape, white thighhighs, maebari,, ",
+		},
+	),
+	"prim-fiofire-ponyxl-lora-nochekaiser": (
+	"prim-fiofire-ponyxl-lora-nochekaiser",
+		(0.75,1.0),
+		1.0,
+		{
+			"char":"prim fiofire, long hair, blue eyes, very long hair, pink hair,, ",
+			"dress" :"thighhighs, gloves, dress, ribbon, navel, cleavage, underwear, panties, hair ribbon, choker, white gloves, crown, pink panties,, ",
+		},
+	),
 	"JiaranDianaLoraASOUL_v20SingleCostume": (
-		"JiaranDianaLoraASOUL_v20SingleCostume",
+	"JiaranDianaLoraASOUL_v20SingleCostume",
 		(0.75,1.0),
 		1.0,
 		{
@@ -3105,7 +3178,7 @@
 	),
 
 	"monogatari_all_v2-sengoku nadeko": (
-		"monogatari_all_v2",
+	"monogatari_all_v2",
 		(0.75,1.0),
 		1.0,
 		{
