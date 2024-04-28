@@ -3,7 +3,7 @@
     "cfg_max": 5.0,
     "cuda" : {
 		"KSampler":{
-			"steps": 8,
+			#"steps": 8,
 			"steps_min": 8,
 			"steps_max": 24,
 		},

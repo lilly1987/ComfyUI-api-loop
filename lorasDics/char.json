@@ -9,8 +9,18 @@
             "dress":"",
         },
     ),
+    "Kasai_AmaneV1": (
+	"Kasai_AmaneV1",
+        (0.75,1.0),
+        (0.75,1.0),
+        {
+            "char" :"BREAK Kasai Amane, black hair, long hair, blunt bangs, wavy hair, blue eyes, gold hair ornament, BREAK",
+            "hair":"",
+            #"dress":"",
+        },
+    ),
     "PKMN_Juniper-DEF": (
-        "PKMN_Juniper-DEF",
+	"PKMN_Juniper-DEF",
         (0.75,1.0),
         (0.75,1.0),
         {
@@ -912,7 +922,7 @@
         },
     ),
     "morinoRinzeTHEIDOLMSTER_v10": (
-        "morinoRinzeTHEIDOLMSTER_v10",
+	"morinoRinzeTHEIDOLMSTER_v10",
         (0.825,1.0),
         1.0,
         {
@@ -1838,7 +1848,7 @@
             },
         ),
     "tomoyo_v3_locon": (
-        "tomoyo_v3_locon",
+	"tomoyo_v3_locon",
         (0.875,1.250),
         1.0,
         {
@@ -1852,7 +1862,7 @@
         "SD-ALL"    ,
         #"SD-INS"    ,
         "SD-INALL"  ,
-        "SD-IND"    ,
+        #"SD-IND"    ,
         "SD-MIDD"   ,
         #"SD-MIDD1"  ,
         "SD-MIDD2"  ,
@@ -2736,14 +2746,34 @@
 		"rnd",
 	),
 	"SerenaLora-10": (
-		"SerenaLora-10",
+	"SerenaLora-10",
 		(0.75,1.0),
 		1.0,
 		{
 			"char":"serena \(pokemon\),   ",
 		},
 		{},
-		"rnd",
+		[
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		#"SD-INS"    ,
+		#"SD-INALL"  ,
+		#"SD-IND"    ,
+		"SD-MIDD"   ,
+		"SD-MIDD1"  ,
+		"SD-MIDD2"  ,
+		#"SD-MIDD0.8",
+		#"SD-MIDD0.2",
+		"SD-MOUT"   ,
+		"SD-OUTD"   ,
+		#"SD-OUTS"   ,
+		#"SD-OUTALL" ,
+		#"SD-ROUT"   ,
+		"SD-AOUT"   ,
+		"SD-AB" 	,
+		#"SD-ALL0.5" ,
+		],
 	),
 	"Marin-10": (
 		"Marin-10",
