@@ -1,5 +1,5 @@
 {
-    "loras":{
-        "char": "TomoyoDaidoji-128",
-    },
+    "loras": {
+        "1": "TomoyoDaidoji-128"
+    }
 }

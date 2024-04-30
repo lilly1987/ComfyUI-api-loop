@@ -1,7 +1,7 @@
 {
-    "loras":{
-        "char":  "Araragi Tsukihi",
-        "hang": "hang",
+    "loras": {
+        "1": "Araragi Tsukihi",
+        "2": "hang"
     },
-    "lorasUpdate":false,
+    "lorasUpdate": false
 }

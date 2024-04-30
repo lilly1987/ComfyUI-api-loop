@@ -1,7 +1,5 @@
 {
-    "loras":{
-        "char": "diana_cavendish_multimerge",
-        #"aki-000024": "aki-000024",
-    },
-    #"lorasUpdate":false,
+    "loras": {
+        "1": "diana_cavendish_multimerge"
+    }
 }

@@ -1,0 +1,7 @@
+{
+    "loras": {
+        "1": "tomoyo_V1Epoch6",
+        "2": "haraboko_v3"
+    },
+    "lorasUpdate": false
+}

@@ -1,7 +1,7 @@
 {
-    "loras":{
-        "char": "jougasaki_mika_v1",
-		"aki-000024": "aki-000024",
+    "loras": {
+        "1": "jougasaki_mika_v1",
+        "2": "aki-000024"
     },
-    "lorasUpdate":false,
+    "lorasUpdate": false
 }

@@ -1,10 +1,7 @@
 {
-    "loras":{
-        "char": "Araragi Tsukihi",
-        #"BondagePoleV1": "BondagePoleV1",
-        #"standsex": "standsex",
-        #"monsterSexActLora79_v10": "monsterSexActLora79_v10",
-        "ddkb_v1": "ddkb_v1",
+    "loras": {
+        "1": "Araragi Tsukihi",
+        "2": "ddkb_v1"
     },
-    "lorasUpdate":false,
+    "lorasUpdate": false
 }

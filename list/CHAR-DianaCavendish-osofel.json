@@ -1,7 +1,7 @@
 {
-    "loras":{
-        "char": "CHAR-DianaCavendish",
-        "Deepthroat": "osofel",
+    "loras": {
+        "1": "CHAR-DianaCavendish",
+        "2": "osofel"
     },
-    "lorasUpdate":false,
+    "lorasUpdate": false
 }

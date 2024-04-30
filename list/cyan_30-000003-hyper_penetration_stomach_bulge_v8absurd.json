@@ -1,11 +1,7 @@
 {
-    "loras":{
-        "cyan_30-000003": "cyan_30-000003",
-        #"obp-000050": "obp-000050",
-        #"standsex": "standsex",
-        "hyper_penetration_stomach_bulge_v8absurd": "hyper_penetration_stomach_bulge_v8absurd",
-        #"microwaist": "microwaist",
-        #"hang": "hang",
+    "loras": {
+        "1": "cyan_30-000003",
+        "2": "hyper_penetration_stomach_bulge_v8absurd"
     },
-    "lorasUpdate":false,
+    "lorasUpdate": false
 }

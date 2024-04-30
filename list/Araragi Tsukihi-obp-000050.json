@@ -1,8 +1,7 @@
 {
-    "loras":{
-        "char": "Araragi Tsukihi",
-        #"1": "SideFellatio",
-		"2": "obp-000050",
+    "loras": {
+        "1": "Araragi Tsukihi",
+        "2": "obp-000050"
     },
-    "lorasUpdate":false,
+    "lorasUpdate": false
 }

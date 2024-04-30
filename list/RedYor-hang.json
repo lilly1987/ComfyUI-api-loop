@@ -1,8 +1,7 @@
 {
-    "loras":{
-        "char": "RedYor",
-        "hang": "hang",
+    "loras": {
+        "1": "RedYor",
+        "2": "hang"
     },
-    "lorasUpdate":false,
+    "lorasUpdate": false
 }
-#black hair, sidelocks, bangs, long hair, short hair with long locks, red eyes, breasts, large breasts, white hairband, earrings, pantyhose, hairband, sweater, red sweater, sweater dress, black pantyhose, dress, jewelry, off shoulder, collarbone, off-shoulder sweater, long sleeves

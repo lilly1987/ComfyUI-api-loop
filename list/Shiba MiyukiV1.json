@@ -1,7 +1,5 @@
 {
-    "loras":{
-        "char": "Shiba MiyukiV1",
-        #"aki-000024": "aki-000024",
-    },
-    #"lorasUpdate":false,
+    "loras": {
+        "1": "Shiba MiyukiV1"
+    }
 }

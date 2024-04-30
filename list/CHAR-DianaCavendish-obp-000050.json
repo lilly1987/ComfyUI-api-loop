@@ -1,7 +1,7 @@
 {
-    "loras":{
-        "char": "CHAR-DianaCavendish",
-        "obp-000050": "obp-000050",
+    "loras": {
+        "1": "CHAR-DianaCavendish",
+        "2": "obp-000050"
     },
-    "lorasUpdate":false,
+    "lorasUpdate": false
 }

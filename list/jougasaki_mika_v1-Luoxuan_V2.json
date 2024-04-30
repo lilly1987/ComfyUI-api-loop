@@ -1,6 +1,7 @@
 {
-    "loras":{
-        "char": "jougasaki_mika_v1",
-        "Luoxuan_V2": "Luoxuan_V2",
+    "loras": {
+        "1": "jougasaki_mika_v1",
+        "2": "Luoxuan_V2"
     },
+    "lorasUpdate": false
 }

@@ -1,7 +1,7 @@
 {
-    "loras":{
-        "char": "Eris-10",
-		"hyper_penetration_stomach_bulge_v8nice": "hyper_penetration_stomach_bulge_v8nice",
+    "loras": {
+        "1": "Eris-10",
+        "2": "hyper_penetration_stomach_bulge_v8nice"
     },
-    "lorasUpdate":false,
+    "lorasUpdate": false
 }

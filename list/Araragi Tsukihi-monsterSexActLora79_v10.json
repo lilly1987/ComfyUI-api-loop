@@ -1,12 +1,7 @@
 {
-    "loras":{
-        "char": "Araragi Tsukihi",
-        #"obp-000050": "obp-000050",
-        "1": "monsterSexActLora79_v10",
-        #"transformation": "transformation",
-        #"hyper_penetration_stomach_bulge_v8": "hyper_penetration_stomach_bulge_v8",
-        #"microwaist": "microwaist",
-        #"hang": "hang",
+    "loras": {
+        "1": "Araragi Tsukihi",
+        "2": "monsterSexActLora79_v10"
     },
-    "lorasUpdate":false,
+    "lorasUpdate": false
 }

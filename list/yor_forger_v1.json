@@ -1,5 +1,5 @@
 {
-    "loras":{
-        "char": "yor_forger_v1",
-    },
+    "loras": {
+        "1": "yor_forger_v1"
+    }
 }

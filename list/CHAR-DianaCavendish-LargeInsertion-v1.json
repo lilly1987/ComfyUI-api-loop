@@ -1,7 +1,7 @@
 {
-    "loras":{
-        "char": "CHAR-DianaCavendish",
-        "LargeInsertion-v1": "LargeInsertion-v1",
+    "loras": {
+        "1": "CHAR-DianaCavendish",
+        "2": "LargeInsertion-v1"
     },
-    "lorasUpdate":false,
+    "lorasUpdate": false
 }

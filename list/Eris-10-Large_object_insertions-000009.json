@@ -1,7 +1,7 @@
 {
-    "loras":{
-        "char": "Eris-10",
-        "1": "Large_object_insertions-000009",
+    "loras": {
+        "1": "Eris-10",
+        "2": "Large_object_insertions-000009"
     },
-    "lorasUpdate":false,
+    "lorasUpdate": false
 }

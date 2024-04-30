@@ -1,7 +1,7 @@
 {
-    "loras":{
-        "char":"Eris-10",
-		"bdsm_frame": "bdsm_frame",
+    "loras": {
+        "1": "Eris-10",
+        "2": "bdsm_frame"
     },
-    "lorasUpdate":false,
+    "lorasUpdate": false
 }

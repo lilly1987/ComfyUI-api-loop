@@ -1,7 +1,7 @@
 {
-    "loras":{
-        "char":"araragiTsukihiLora_v1",
-		"bdsm_frame": "bdsm_frame",
+    "loras": {
+        "1": "araragiTsukihiLora_v1",
+        "2": "bdsm_frame"
     },
-    "lorasUpdate":false,
+    "lorasUpdate": false
 }

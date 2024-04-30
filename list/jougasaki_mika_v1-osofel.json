@@ -1,7 +1,7 @@
 {
-    "loras":{
-        "char": "jougasaki_mika_v1",
-        "1": "osofel",
+    "loras": {
+        "1": "jougasaki_mika_v1",
+        "2": "osofel"
     },
-    "lorasUpdate":false,
+    "lorasUpdate": false
 }

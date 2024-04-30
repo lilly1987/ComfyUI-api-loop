@@ -1,7 +1,7 @@
 {
-    "loras":{
-        "char":  "cyan_30-000003",
-        "hang": "hang",
+    "loras": {
+        "1": "cyan_30-000003",
+        "2": "hang"
     },
-    "lorasUpdate":false,
+    "lorasUpdate": false
 }

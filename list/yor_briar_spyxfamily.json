@@ -1,5 +1,5 @@
 {
-    "loras":{
-        "char": "yor_briar_spyxfamily",
-    },
+    "loras": {
+        "1": "yor_briar_spyxfamily"
+    }
 }

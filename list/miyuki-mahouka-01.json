@@ -1,7 +1,5 @@
 {
-    "loras":{
-        "char": "miyuki-mahouka-01",
-        #"hang": "hang",
-    },
-    #"lorasUpdate":false,
+    "loras": {
+        "1": "miyuki-mahouka-01"
+    }
 }

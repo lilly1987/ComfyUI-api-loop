@@ -260,6 +260,16 @@
             "dress":" ",
         },
     ),
+    "tsukimiEikoYaBoyKongming_v10x": (
+	"tsukimiEikoYaBoyKongming_v10x",
+        (0.75,1.0),
+        (0.75,1.0),
+        {
+            "char" :"yaboykongming-eiko,",
+            "hair":" ",
+            "dress":" ",
+        },
+    ),
     "robot-10": (
 	"robot-10",
         (0.75,1.0),
@@ -320,6 +330,26 @@
             "dress":" ",
         },
     ),
+    "sb69chuchu_any45_lh": (
+	"sb69chuchu_any45_lh",
+        (0.75,1.0),
+        (0.75,1.0),
+        {
+            "char" :"BREAK sb69chuchu,  1girl,  BREAK",
+            "hair":" ",
+            "dress":" ",
+        },
+    ),
+    "princess_eilonwy_v1": (
+	"princess_eilonwy_v1",
+        (0.75,1.0),
+        (0.75,1.0),
+        {
+            "char" :"BREAK hairband,  princess_eilonwy, bodice, long_sleeves, BREAK",
+            "hair":" ",
+            "dress":" ",
+        },
+    ),
     "Torah_Novartis_EVE_ZERO": (
 	"Torah_Novartis_EVE_ZERO",
         (0.75,1.0),
@@ -371,9 +401,9 @@
         },
     ),
     "1732915898190268077": (
-        "1732915898190268077",
+	"1732915898190268077",
         (0.825,1.25),
-        1.25,
+        (0.825,1.25),
         {
             "char" :" mituha, ",
             #"hair":"long hair, blonde hair,twintails ,",
@@ -383,7 +413,7 @@
     "安洁": (
         "安洁",
         (0.825,1.25),
-        1.25,
+        (0.825,1.25),
         {
             "char" :"BREAK 1girl, pantyhose, wide sleeves,belt, brown footwear, hairclip, long sleeves, capelet, purple hair, Blue hair hair bow, BREAK",
             "hair":"",
@@ -500,8 +530,38 @@
             #"dress":"serafuku, sailor collar, neckerchief, black shirt, long sleeves, pleated skirt, white skirt,",
         },
     ),
+    "himenoRyuguujiGakuenSaimin_v10": (
+    "himenoRyuguujiGakuenSaimin_v10",
+        (0.75,1.25),
+        (0.75,1.25),
+        {
+            "char" :"blonde_hair, drill_hair,long_hair, twin_drills,blue_eyes,",
+            "hair":",",
+            #"dress":"serafuku, sailor collar, neckerchief, black shirt, long sleeves, pleated skirt, white skirt,",
+        },
+    ),
+    "newasta-000007": (
+    "newasta-000007",
+        (0.75,1.25),
+        (0.75,1.25),
+        {
+            "char" :"BREAK 1girl, sr-asta, researcher-outfit, BREAK",
+            #"hair":"long hair, blonde hair,twintails ,",
+            #"dress":"serafuku, sailor collar, neckerchief, black shirt, long sleeves, pleated skirt, white skirt,",
+        },
+    ),
+    "IngridMS": (
+    "IngridMS",
+        (0.75,1.25),
+        (0.75,1.25),
+        {
+            "char" :"BREAK ingridms,1girl, hairpods,pantyhose, gloves, white gloves,skirt, BREAK",
+            #"hair":"long hair, blonde hair,twintails ,",
+            #"dress":"serafuku, sailor collar, neckerchief, black shirt, long sleeves, pleated skirt, white skirt,",
+        },
+    ),
     "1735772163049885161": (
-        "1735772163049885161",
+    "1735772163049885161",
         (0.75,1.25),
         (0.75,1.25),
         {
@@ -952,9 +1012,9 @@
         },
     ),
     "蓝毒-000008": (
-        "蓝毒-000008",
-        (0.825,1.0),
-        1.0,
+	"蓝毒-000008",
+        (0.75,1.0),
+        (0.75,1.0),
         {
             "char" :"BREAK a girl named arklandu,arklandu,1girl,earrings,low twintails,twin braids, BREAK",
             #"hair":"long hair,",
@@ -1295,15 +1355,15 @@
         },
     ),
     "sakagami tomoyo_v1_04": (
-            "sakagami tomoyo_v1_04",
-            (0.75,1.0),
-            1.0,
-            {
-                "char":"sakagami tomoyo, ,",
-                "hair":"long hair,",
-                "dress":" hikarizaka private high school uniform, ",
-            },
-        ),
+	"sakagami tomoyo_v1_04",
+		(0.75,1.0),
+		1.0,
+		{
+			"char":"sakagami tomoyo, ,",
+			"hair":"long hair,",
+			"dress":" hikarizaka private high school uniform, ",
+		},
+	),
     "ShibaMiyuki": (
         "ShibaMiyuki",
         (0.75,1.0),
@@ -1355,8 +1415,8 @@
 		},
 	),
     "furina_v04": (
-        "furina_v04",
-        (0.875,1.0),
+	"furina_v04",
+        (0.75,1.0),
 		1.0,
         {
             #"char":"feiji," ,
@@ -1364,7 +1424,7 @@
         },
     ),
     "shadowverseResplendent_resplendentPhoenixV1": (
-        "shadowverseResplendent_resplendentPhoenixV1",
+	"shadowverseResplendent_resplendentPhoenixV1",
         (0.875,1.0),
 		1.0,
         {
@@ -2041,7 +2101,7 @@
 		},
 	),
 	"Hood": (
-		"Hood",
+	"Hood",
 		(0.75,1.0),
 		1.0,
 		{
@@ -2050,8 +2110,8 @@
 		},
 	),
 	"sharon_holygrail": (
-		"sharon_holygrail",
-		(0.875,1.0),
+	"sharon_holygrail",
+		(0.75,1.0),
 		1.0,
 		{
 			"char":"sharon holygrail, ",
@@ -2060,8 +2120,8 @@
 		},
 	),
 	"yor_forger_v1": (
-		"yor_forger_v1",
-		(0.25,1.0),
+	"yor_forger_v1",
+		(0.75,1.0),
 		1.0,
 		{
 	"char":" {aayorf|bbyorf}, red eyes, ",
@@ -2490,6 +2550,26 @@
 		"char":"Nephelia,",
         #"hair":"blonde hair, short hair, ",
         #"dress": " ,",
+		},
+	),
+	"nako_flowerWitch-05": (
+	"nako_flowerWitch-05",
+		(0.75,1.0),
+		1.0,
+		{
+		"char":"BREAK black dress, animal ear fluff, fox ears, black headwear, strapless, witch hat, , swept bangs, blue bow, hat bow, strapless dress, broom, witch, broom riding, ears through headwear,  white panties, long hair, looking at viewer, blush, black hair, gloves, hat, dress, bow, animal ears, bare shoulders,  BREAK",
+        "hair":", ",
+        "dress": " ,",
+		},
+	),
+	"Dodomeki ": (
+	"Dodomeki ",
+		(0.75,1.0),
+		1.0,
+		{
+		"char":"BREAK Dodomeki, white hair, Japanese dress, tabi socks, black long skirt,  BREAK",
+        "hair":", ",
+        "dress": " ,",
 		},
 	),
 	"NefertariFate-10": (

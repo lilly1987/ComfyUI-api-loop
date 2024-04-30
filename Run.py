@@ -218,8 +218,8 @@ while True:
             #else:
             dupdate(setup,jitem)
             # -------------------------------------------------
-            loras=dicFileRead(lorasjsonPath)
-            if setup.get("lorasUpdate",True):
+            if setup.get("lorasUpdate",True) or setup.get("lorasUpdatePer",0)>random.random():
+                loras=dicFileRead(lorasjsonPath)
                 dupdate(setup["loras"],loras)
         # -------------------------------------------------
         

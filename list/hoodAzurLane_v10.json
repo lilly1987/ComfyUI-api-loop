@@ -1,5 +1,5 @@
 {
-    "loras":{
-        "char": "hoodAzurLane_v10",
-    },
+    "loras": {
+        "1": "hoodAzurLane_v10"
+    }
 }

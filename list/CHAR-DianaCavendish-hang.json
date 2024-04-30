@@ -1,7 +1,7 @@
 {
-    "loras":{
-        "char": "CHAR-DianaCavendish",
-        "hang": "hang",
+    "loras": {
+        "1": "CHAR-DianaCavendish",
+        "2": "hang"
     },
-    "lorasUpdate":false,
+    "lorasUpdate": false
 }

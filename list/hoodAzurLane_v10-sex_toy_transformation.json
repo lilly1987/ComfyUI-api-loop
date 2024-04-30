@@ -1,7 +1,7 @@
 {
-    "loras":{
-        "char": "hoodAzurLane_v10",
-		"sex_toy_transformation": "sex_toy_transformation",
+    "loras": {
+        "1": "hoodAzurLane_v10",
+        "2": "sex_toy_transformation"
     },
-	"lorasUpdate":false,
+    "lorasUpdate": false
 }

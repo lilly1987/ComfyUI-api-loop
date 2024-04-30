@@ -1,7 +1,7 @@
 {
-    "loras":{
-        "char": "diana_cavendish_multimerge",
-        "sex_toy_transformation": "sex_toy_transformation",
+    "loras": {
+        "1": "diana_cavendish_multimerge",
+        "2": "sex_toy_transformation"
     },
-    "lorasUpdate":false,
+    "lorasUpdate": false
 }

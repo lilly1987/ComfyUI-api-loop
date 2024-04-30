@@ -1,11 +1,7 @@
 {
-    "loras":{
-        "char": "Eris0.32-000008",
-        #"obp-000050": "obp-000050",
-        "1": "transformation",
-        #"hyper_penetration_stomach_bulge_v8": "hyper_penetration_stomach_bulge_v8",
-        #"microwaist": "microwaist",
-        #"hang": "hang",
+    "loras": {
+        "1": "Eris0.32-000008",
+        "2": "transformation"
     },
-    "lorasUpdate":false,
+    "lorasUpdate": false
 }

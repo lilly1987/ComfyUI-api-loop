@@ -1,7 +1,5 @@
 {
-    "loras":{
-        "char": "YorLora-10",
-        #"hang": "hang",
-    },
-    #"lorasUpdate":false,
+    "loras": {
+        "1": "YorLora-10"
+    }
 }
