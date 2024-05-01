@@ -431,7 +431,7 @@
         },
     ),
     "KarenLora-10": (
-        "KarenLora-10",
+	"KarenLora-10",
         (0.825,1.25),
         1.25,
         {
@@ -530,6 +530,16 @@
             #"dress":"serafuku, sailor collar, neckerchief, black shirt, long sleeves, pleated skirt, white skirt,",
         },
     ),
+    "aikatsu_kiriya aoi seihuku_v1": (
+    "aikatsu_kiriya aoi seihuku_v1",
+        (0.75,1.25),
+        (0.75,1.25),
+        {
+            "char" :"kiriya aoi,",
+            "hair":",",
+            #"dress":"serafuku, sailor collar, neckerchief, black shirt, long sleeves, pleated skirt, white skirt,",
+        },
+    ),
     "himenoRyuguujiGakuenSaimin_v10": (
     "himenoRyuguujiGakuenSaimin_v10",
         (0.75,1.25),
@@ -538,6 +548,16 @@
             "char" :"blonde_hair, drill_hair,long_hair, twin_drills,blue_eyes,",
             "hair":",",
             #"dress":"serafuku, sailor collar, neckerchief, black shirt, long sleeves, pleated skirt, white skirt,",
+        },
+    ),
+    "ShirakiinRirichiyo": (
+    "ShirakiinRirichiyo",
+        (0.75,1.25),
+        (0.75,1.25),
+        {
+            "char" :"BREAK 1girl, ririchiyo, black hair, long hair, flat chest, {|school uniform, black dress, white shirt, ascot, white coat, garter straps, vertical-striped thighhighs, black thighhighs|horns, hair flower, miko, hakama short skirt, black scarf, black thighhighs, garter straps, hip vent|white blouse, suspenders, black shorts, black thighhighs, vertical-striped thighhighs, black thighhighs|red cardigan, white shirt, black pantyhose, black skirt|suspenders, white shirt, grey dress, black pants|black sweater, turtleneck, white shorts, black pantyhose|single hair bun, pink sweater, white shirt, single hair bun, brown skirt, black thighhighs, short sleeves, long sleeves|grey vest, cropped vest, untucked shirt, brown shorts, black thighhighs|naked shirt, open shirt|hairband, blue dress, strapless, bare legs}, BREAK",
+            "hair" :",",
+            "dress":",",
         },
     ),
     "newasta-000007": (
@@ -1414,6 +1434,16 @@
 	#"dress": " white dress, cleavage, bare shoulders,",
 		},
 	),
+    "Yumir": (
+	"Yumir",
+        (0.75,1.0),
+		1.0,
+        {
+            "char":"Yumir, thighhighs, blue eyes, white panties, pointy ears, puffy sleeves, side-tie panties, gauntlets, boots, drill hair, dress, gloves, white thighhighs, white gloves, ass visible through thighs, puffy short sleeves,small breasts, breasts, short sleeves, bangs, elbow gloves, armor, armored boots, greaves, pink dress, belt, short dress, knee boots," ,
+            "hair":"",
+            "dress":"",
+        },
+    ),
     "furina_v04": (
 	"furina_v04",
         (0.75,1.0),

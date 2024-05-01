@@ -33,5 +33,8 @@ def queue_prompt(prompt,url="http://127.0.0.1:8288/prompt", max=1):
         print(f"send" )
     except Exception as e:     
         console.print_exception()
-
+        return True
+    else:
+        return False
+        
     time.sleep(2)

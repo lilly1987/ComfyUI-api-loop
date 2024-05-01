@@ -504,7 +504,10 @@ while True:
         for i in range(queue_cnt):
             print(f"{ckpt_name} ; {ckptCnt}/{ckptMax} ; {jitemCnt}/{jitemMax} ; {queue_cnt-i}/{queue_cnt} ; {vae_name} ; {cuda} ; {jitem_name} ;")
             if setup.get("queue_prompt"):
-                queue_prompt(prompt,url=url)
+                if queue_prompt(prompt,url=url):
+                    pass
+                    ckptCnt=0
+                    jitemCnt=0
     # -------------------------------------------------
     except KeyboardInterrupt:
         print('Interrupted')
