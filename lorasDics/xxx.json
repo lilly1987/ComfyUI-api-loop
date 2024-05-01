@@ -2557,6 +2557,30 @@
 		{},
 		"rnd",
 	),
+	"dikkosPrefectPussy_v10":(
+	"dikkosPrefectPussy_v10",
+		(0.5,01.0),
+		1.0,
+		{
+		#"boy":"1boy,",
+		#"girl":"1girl,",
+		#"funtoys":"funtoys, sex_toy, uncensored,{|clothing,}dildo,female_masturbation,masturbation,{dildo_riding,|}insertion,object_insertion,{|vaginal_juices,}",
+		},
+		{},
+		#"rnd",
+	),
+	"cowgirl_position_nonpov_xl":(
+	"cowgirl_position_nonpov_xl",
+		(0.5,01.0),
+		1.0,
+		{
+		#"boy":"1boy,",
+		#"girl":"1girl,",
+		"cowgirl_position_nonpov_xl":"1boy, sex, cowgirl position, girl on top, straddling",
+		},
+		{},
+		#"rnd",
+	),
 	"funtoysSexToys_v10":(
 	"funtoysSexToys_v10",
 		(0.5,01.0),

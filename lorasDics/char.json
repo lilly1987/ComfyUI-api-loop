@@ -530,6 +530,66 @@
             #"dress":"serafuku, sailor collar, neckerchief, black shirt, long sleeves, pleated skirt, white skirt,",
         },
     ),
+    "Nunnally Vi Britannia(cg)": (
+    "Nunnally Vi Britannia(cg)",
+        (0.75,1.25),
+        (0.75,1.25),
+        {
+            "char" :"Nunnally Vi Britannia,",
+            "hair":"very long hair,brown hair,wavy hair,hair intakes,sidelocks,parted bangs,purple eyes,",
+            "dress":"ashford academy school uniform,pink vest,red necktie,collared shirt,white shirt,flat chest,buttons,long sleeves,pink skirt,pleated skirt,white socks,loafers,",
+        },
+    ),
+    "Char-Genshin-Furina-v2": (
+    "Char-Genshin-Furina-v2",
+        (0.75,1.25),
+        (0.75,1.25),
+        {
+            "char" :"{furina \(genshin impact\), heterochromia, mismatched gloves, top hat, blue jacket, ascot, waist bow, short shorts, thigh strap, high heels, frilled socks, waist cape,|focalors \(genshin impact\), heterochromia, anklet, evening gown, long dress, juliet sleeves, bridal gauntlets, barefoot}",
+            "hair":",",
+            "dress":",",
+        },
+    ),
+    "Witch-11Dv9": (
+    "Witch-11Dv9",
+        (0.75,1.25),
+        (0.75,1.25),
+        {
+            "char" :"Witch, long pink hair, pointy ears, red eyes ,",
+            "hair":",",
+            "dress":"frills,black dress, white hair ribbon, white hairband, long sleeves, earrings,",
+        },
+    ),
+    "MomokoSHS-10": (
+    "MomokoSHS-10",
+        (0.75,1.25),
+        (0.75,1.25),
+        {
+            "char" :"2ndhairstylesuoumomoko,",
+            "hair":",",
+            "dress":",",
+        },
+    ),
+    "EveHarvestMoon-10": (
+    "EveHarvestMoon-10",
+        (0.75,1.25),
+        (0.75,1.25),
+        {
+            "char" :"EveHarvestMoon, 1girl, solo, long hair, blonde hair, dress, bow, cleavage, bare shoulders, jewelry, purple eyes, hair ribbon, ponytail, bracelet, skirt,,",
+            "hair":",",
+            "dress":",",
+        },
+    ),
+    "EveMaid-10": (
+    "EveMaid-10",
+        (0.75,1.25),
+        (0.75,1.25),
+        {
+            "char" :"EveMaid, 1girl, solo, large breasts, elbow gloves, black dress, cleavage, hair between eyes, bare shoulders, purple eyes, white hair, frills, puffy sleeves, white gloves, hair bun, maid, single hair bun,",
+            "hair":",",
+            "dress":",",
+        },
+    ),
     "aikatsu_kiriya aoi seihuku_v1": (
     "aikatsu_kiriya aoi seihuku_v1",
         (0.75,1.25),
