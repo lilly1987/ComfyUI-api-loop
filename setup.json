@@ -23,14 +23,16 @@
     "noList":0.0,
     "noList":0.125,
     "ponyPer":0.0,
-    "ponyPer":0.125,
     "ponyPer":0.0625,
+    "ponyPer":0.125,
+    "ponyPer":0.25,
+    "ponyPer":0.5,
     "xlPer":0.0,
     "ckptPer":1.0,
     "ckptPer":0.1250,
     "ckptPer":0.0,
     "ckptCnt":16,
-    "lorasUpdatePer":0.50,
+    "lorasUpdatePer":0.750,
     "sampler_name": [
         "euler", "euler_ancestral", "heun", "heunpp2","dpm_2", "dpm_2_ancestral",
          "dpm_fast", "dpm_adaptive", "dpmpp_2s_ancestral", "dpmpp_sde", 
@@ -82,9 +84,9 @@
 			"steps_max": 35,
 		},
 		"DetailerForEachDebug":{
-            "steps": 20,
+            #"steps": 20,
 			"steps_min": 15,
-			"steps_max": 30,
+			"steps_max": 25,
 		},
 		"EmptyLatentImage":{
 			"width": 360,
@@ -220,7 +222,7 @@
         #"gag":"{ball gag,|7:: }",
         "face":"{0-2$$hetero|ahegao|orgasm|blush|crying|empty eyes|tears|aroused face|charmed face|confused face|despair face|disappointed face|distressed face|drunk face|earnest face|ecstasy face|embarrassed face|expression face|frustrated face|giddy face|gloomy face|lonely face|miserable face|nervous face|scary face|seduced face|shameful face|sorrowful face|suppressed face|unstable face|upset face|with distaste face|worried face},",
         "quality":"masterpiece , best quality , detailed face,detailed eyes,perfect eyes,perfect face, {0-3$$ultra-detailed| illustratio| Beautiful body| Beautiful character design|}, ",
-        "looking":"looking at viewer,",
+        "looking":"{looking at viewer,|}",
         #"view":"{cowboy shot,|} {from side,|9::}",
         #"shot":"full body, ",
         "shot":"cowboy shot, ",
@@ -237,7 +239,7 @@
         #"open_dress":"{(open_dress:1.0), (Undressing:1.1), Nipples, (Pussy:1.1), {(navel:1.0),|}|2::}",
         "exposure":"{(exposure:1.0), breasts exposure, breasts out, nipples exposure, pussy exposure,|breast exposed,breasts exposed,  exposed breasts, exposed pussy,| }, {revealing clothes,|} ",
         "exposure":"{-3$$(exposure:1.0)| breasts exposure| breasts out| nipples exposure| pussy exposure|breast exposed|breasts exposed|  exposed breasts| exposed pussy }, {revealing clothes,|} ",
-        "shoulder":"off shoulder, bare shoulder, Droptop, strapless dress, chest open, {See Through,|7::}",
+        "shoulder":"{off shoulder,|} {bare shoulder,|} {Droptop,|} {strapless dress,|} {chest open,|} {See Through,|7::}",
         #"concept":"{3::__concept__,|1::__concept__,__concept__,}  "
         "background":" {simple background ,|} "
     },

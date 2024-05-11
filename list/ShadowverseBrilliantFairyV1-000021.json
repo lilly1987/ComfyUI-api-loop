@@ -1,15 +1,5 @@
 {
-    "loras":{
-        "char": (
-            "ShadowverseBrilliantFairyV1-000021",
-            (0.25,1.0),
-            1.0,
-            {
-                "char":"",
-                "hair":" blonde hair, drill hair, hair flower, parted bangs, forehead,",
-                #"dress":"(shirt:1.4),(white bowtie:1.3),long sleeves,(skirt:1.2),(black pantyhose:1.2),black footwear,",
-                #"style":"cardcaptor sakura \(style\), ",
-            },
-        ),
-    },
+    "loras": {
+        "1": "ShadowverseBrilliantFairyV1-000021"
+    }
 }

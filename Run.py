@@ -217,10 +217,11 @@ while True:
             #    pass
             #else:
             dupdate(setup,jitem)
-            # -------------------------------------------------
-            if setup.get("lorasUpdate",True) or setup.get("lorasUpdatePer",0)>random.random():
-                loras=dicFileRead(lorasjsonPath)
-                dupdate(setup["loras"],loras)
+            
+        # -------------------------------------------------
+        if setup.get("lorasUpdate",True) or setup.get("lorasUpdatePer",0)>random.random():
+            loras=dicFileRead(lorasjsonPath)
+            dupdate(setup["loras"],loras)
         # -------------------------------------------------
         
         #lorasDic=dicFileRead("lorasDic.json")
