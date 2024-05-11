@@ -1640,7 +1640,7 @@
 	],
 	),
 	"Shiba MiyukiV1": (
-		"Shiba MiyukiV1",
+    "Shiba MiyukiV1",
 		(0.75,1.0),
 		(1.0,1.250),
 		{
@@ -2117,6 +2117,46 @@
 		1.0,
 		{
 			"char":"{millieparfait, 1girl, solo, short hair, bangs, aqua eyes, skirt, blonde hair, shirt, hair ornament, hat, bow, jacket, white shirt, pantyhose, off shoulder, sweater, black jacket, black pantyhose, black headwear, bell, witch hat, cat, cardigan, black cat, orange sweater|millieparfait, 1girl, solo, long hair, bangs, blonde hair, hair ornament, dress, ribbon, animal ears, cleavage, hair between eyes, bare shoulders, low twintails, very long hair, aqua eyes, blue hair, hair ribbon, braid, flower, multicolored hair, small breasts, choker, cat ears, hair flower, nail polish, white dress, streaked hair, animal ear fluff, aqua hair, thigh strap, white flower, cat girl, colored inner hair},  ",
+			#"hair":" long hair, white hair,  hair ornament, x hair ornament,",
+			#"dress":"hat, long sleeves, scarf, gloves, jacket, brown boots, fur collar, fur trim, black pantyhose, ",
+		},
+	),
+	"PeniParker-10": (
+    "PeniParker-10",
+		(0.75,1.0),
+		(0.75,1.0),
+		{
+			"char":"PeniParker, 1girl, solo, short hair, blue skirt, white shirt, black hair, long sleeves, school uniform, pantyhose, pleated skirt, black necktie, collared shirt, black sweater, swept bangs, leggings,  ",
+			#"hair":" long hair, white hair,  hair ornament, x hair ornament,",
+			#"dress":"hat, long sleeves, scarf, gloves, jacket, brown boots, fur collar, fur trim, black pantyhose, ",
+		},
+	),
+	"Arusu Marina(dal)": (
+    "Arusu Marina(dal)",
+		(0.75,1.0),
+		1.0,
+		{
+			"char":"Arusu Marina, very long hair,black hair,gradient hair,multicolored hair,hair ribbon,hair bow,white hairband,sidelocks,hair between eyes,bangs,yellow eyes, ",
+			#"hair":" long hair, white hair,  hair ornament, x hair ornament,",
+			#"dress":"hat, long sleeves, scarf, gloves, jacket, brown boots, fur collar, fur trim, black pantyhose, ",
+		},
+	),
+	"kmiyukoV2": (
+    "kmiyukoV2",
+		(0.75,1.0),
+		1.0,
+		{
+			"char":"kmiyuko,  ",
+			#"hair":" long hair, white hair,  hair ornament, x hair ornament,",
+			#"dress":"hat, long sleeves, scarf, gloves, jacket, brown boots, fur collar, fur trim, black pantyhose, ",
+		},
+	),
+	"kmiyuko": (
+    "kmiyuko",
+		(0.75,1.0),
+		1.0,
+		{
+			"char":"kmiyuko,  ",
 			#"hair":" long hair, white hair,  hair ornament, x hair ornament,",
 			#"dress":"hat, long sleeves, scarf, gloves, jacket, brown boots, fur collar, fur trim, black pantyhose, ",
 		},
@@ -3799,8 +3839,8 @@
 	),
 	"cyan_30-000003": (
 	"cyan_30-000003",
-		(0.875,1.0),
-		(0.875,1.0),
+		(0.5,1.0),
+		(0.5,1.0),
 		{
 		"char":" cyan, tail, maid headdress, blue eyes, black hair, curly hair, ",
 		"hair":" ",
@@ -3923,22 +3963,71 @@
 		#"hair":"long hair,",
 	},
 ),
-"UrsulaLeiden-10": (
-	"UrsulaLeiden-10",
-	(0.75,1.0),
-	(1.0,1.250),
-	{
-		"char":"BREAK UrsulaLeiden, 1girl,  short hair, blonde hair, hair ornament, china dress, ribbon, brown eyes, hair flower, chinese clothes, red dress, side slit,  BREAK",
-		#"hair":"long hair,",
-	},
-),
-"shijou_takane_v1": (
-	"shijou_takane_v1",
-	(0.75,1.0),
-	(1.0,1.250),
-	{
-		"char":"aatakane,  hairband,  ",
-		"hair":"long hair,",
-	},
-),
+    "UrsulaLeiden-10": (
+        "UrsulaLeiden-10",
+        (0.75,1.0),
+        (1.0,1.250),
+        {
+            "char":"BREAK UrsulaLeiden, 1girl,  short hair, blonde hair, hair ornament, china dress, ribbon, brown eyes, hair flower, chinese clothes, red dress, side slit,  BREAK",
+            #"hair":"long hair,",
+        },
+    ),
+    "konosuba_eris_ponyXL": (
+    "konosuba_eris_ponyXL",
+        (0.75,1.0),
+        (0.75,1.0),
+        {
+            "char":"kseris, white hair,  ",
+            #"hair":"long hair,",
+            "hair":"habit, blue dress, frilled dress, long sleeves, necklace,",
+        },
+    ),
+    "Mayumi Saegusa-PonyXL-lora-Faxtron": (
+    "Mayumi Saegusa-PonyXL-lora-Faxtron",
+        (0.75,1.0),
+        (0.75,1.0),
+        {
+            "Mayumi":"mayumi saegusa, red eyes, black hair, long hair, medium breasts, striped ribbon, cropped green jacket, long sleeves, white dress, black necktie, pantyhose,,  ",
+            #"hair":"long hair,",
+            #"hair":"habit, blue dress, frilled dress, long sleeves, necklace,",
+        },
+    ),
+    "animahjongv3-style": (
+    "animahjongv3-style",
+        (0.75,1.0),
+        (0.75,1.0),
+        {
+            "4n1m4hj0ngV3_style":"4n1m4hj0ngV3_style,  ",
+            #"hair":"long hair,",
+            #"hair":"habit, blue dress, frilled dress, long sleeves, necklace,",
+        },
+    ),
+    "hoodAL-ponyxl-bshi-v1": (
+    "hoodAL-ponyxl-bshi-v1",
+        (0.75,1.0),
+        (1.0,1.250),
+        {
+            "char":"hair over shoulder, long hair, blue eyes, blonde hair, swept bangs,  ",
+            "hair":"{hoddef, union jack capelet, blue coat, white hat, tilted headwear, long sleeves, white gloves, yellow sash, blue skirt, frills, brown pantyhose, fur collar, white ascot, earrings,|hodwed, wedding dress, cleavage, collarbone, necklace, see-through, long dress, bouquet, bridal veil, bridal gauntlets|hodyuk,blue kimono, white sash, long sleeves, wide sleeves,hair flower, floral print|hodparty, gala dress, strapless white dress, white elbow gloves, cleavage, jewelry, white coat, coat on shoulders, hair ornament, hair flower, white flower, taut dress, buttons, detached collar, drill hair},",
+        },
+    ),
+    "shijou_takane_v1": (
+    "shijou_takane_v1",
+        (0.75,1.0),
+        (1.0,1.250),
+        {
+            "char":"aatakane,  hairband,  ",
+            "hair":"long hair,",
+        },
+    ),
+    "Tokisaki Kurumi(dal)": (
+	"Tokisaki Kurumi(dal)",
+        (0.5,1.0),
+        (0.5,1.0),
+        {
+            "char" :" tokisaki kurumi, ",
+            "hair":" very long hair,black hair,low twintails,red ribbon,hair over one eye,bangs,red eyes,",
+            "dress":" school uniform,black jacket,white shirt,collared shirt,medium breasts,long sleeves,pleated skirt,miniskirt,blue skirt,black pantyhose,loafers,",
+        },
+    ),
 }
