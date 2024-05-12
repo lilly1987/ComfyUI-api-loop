@@ -81,13 +81,13 @@
         "queue_cnt":1,
 		"KSampler":{
 			#"steps": 30,
-			"steps_min": 25,
-			"steps_max": 35,
+			"steps_min": 30,
+			"steps_max": 40,
 		},
 		"DetailerForEachDebug":{
             #"steps": 20,
-			"steps_min": 15,
-			"steps_max": 25,
+			"steps_min": 20,
+			"steps_max": 30,
 		},
 		"EmptyLatentImage":{
 			"width": 360,
@@ -120,7 +120,7 @@
     #"steps_max": 20,
     #"steps": 30,
     "cfg_min": 2.0,
-    "cfg_max": 6.0,
+    "cfg_max": 5.0,
     "listMatch": [
 	"*31tanD8V1_e6*",
 	"*Araragi*",
