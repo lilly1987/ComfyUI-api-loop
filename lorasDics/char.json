@@ -3982,12 +3982,52 @@
             "hair":"habit, blue dress, frilled dress, long sleeves, necklace,",
         },
     ),
+    "Mayumi Saegusa-lora-Faxtron": (
+    "Mayumi Saegusa-lora-Faxtron",
+        (0.75,1.0),
+        (0.75,1.0),
+        {
+            "Mayumi":"mayumi saegusa, red eyes, black hair, long hair, medium breasts, striped ribbon, cropped green jacket, long sleeves, white dress, black necktie, pantyhose, ,  ",
+            "dress":",",
+            #"hair":"habit, blue dress, frilled dress, long sleeves, necklace,",
+        },
+    ),
+    "Saegusa_Mayumi": (
+    "Saegusa_Mayumi",
+        (0.75,1.0),
+        (0.75,1.0),
+        {
+            "char":"saegusa mayumi, long hair,black hair,red eyes ,  ",
+            #"hair":"long hair,",
+            #"hair":"habit, blue dress, frilled dress, long sleeves, necklace,",
+        },
+    ),
     "Mayumi Saegusa-PonyXL-lora-Faxtron": (
     "Mayumi Saegusa-PonyXL-lora-Faxtron",
         (0.75,1.0),
         (0.75,1.0),
         {
-            "Mayumi":"mayumi saegusa, red eyes, black hair, long hair, medium breasts, striped ribbon, cropped green jacket, long sleeves, white dress, black necktie, pantyhose,,  ",
+            "char":"mayumi saegusa, red eyes, black hair, long hair, medium breasts, striped ribbon, cropped green jacket, long sleeves, white dress, black necktie, pantyhose,,  ",
+           "dress":",",
+            #"hair":"habit, blue dress, frilled dress, long sleeves, necklace,",
+        },
+    ),
+    "知更鸟naiv1-000009": (
+    "知更鸟naiv1-000009",
+        (0.75,1.0),
+        (0.75,1.0),
+        {
+            "char":"robin, a girl named robin, 1girl, white dress, bare shoulders, halo, white gloves, earrings, bracelet,head wings,  ",
+            #"hair":"long hair,",
+            #"hair":"habit, blue dress, frilled dress, long sleeves, necklace,",
+        },
+	),
+    "知更鸟pony": (
+    "知更鸟pony",
+        (0.75,1.0),
+        (0.75,1.0),
+        {
+            "char":"robin, a girl named robin, 1girl, white dress, bare shoulders, halo, white gloves, earrings, bracelet,head wings,  ",
             #"hair":"long hair,",
             #"hair":"habit, blue dress, frilled dress, long sleeves, necklace,",
         },
@@ -3997,7 +4037,7 @@
         (0.75,1.0),
         (0.75,1.0),
         {
-            "4n1m4hj0ngV3_style":"4n1m4hj0ngV3_style,  ",
+            "char":"4n1m4hj0ngV3_style,  ",
             #"hair":"long hair,",
             #"hair":"habit, blue dress, frilled dress, long sleeves, necklace,",
         },

@@ -232,7 +232,11 @@ while True:
         # -------------------------------------------------
         lbw=dicFileRead("lbw.json")
         lora1="CheckpointLoaderSimple"
+        lorasCnt=0
         for k, v in setup.get("loras",{}).items():
+            if lorasCnt >= setup.get("lorasMaxCnt",9):
+                print(f"[red]lorasCnt[/red] : ", lorasCnt)
+                break
             #print(f"{k} : ", v)
             try:
                 tmp=v
@@ -356,6 +360,8 @@ while True:
                     dupdate(setup["positive"],tmp[3])
                     if len(tmp) >4 :
                         dupdate(setup["negative"],tmp[4])
+                        
+                lorasCnt+=1
                 
             except Exception:
                 #console.print_exception(show_locals=True)

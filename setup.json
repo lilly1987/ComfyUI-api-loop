@@ -33,6 +33,7 @@
     "ckptPer":0.0,
     "ckptCnt":16,
     "lorasUpdatePer":0.750,
+    "lorasMaxCnt":3,
     "sampler_name": [
         "euler", "euler_ancestral", "heun", "heunpp2","dpm_2", "dpm_2_ancestral",
          "dpm_fast", "dpm_adaptive", "dpmpp_2s_ancestral", "dpmpp_sde", 
