@@ -1,5 +1,5 @@
 {
-    "sdxl_lightning_lora": (        01.50,
+    "sdxl_lightning_lora": (        0.750,
         [
             "sdxl_lightning_8step_lora",
         ],
@@ -17,6 +17,7 @@
         [
             "Expressive_H-000001",
             "condomification",
+            "Consome style (pony)",
             "Proper_Grinding",
             "human_onahole",
             "cowgirl_position_nonpov_xl",

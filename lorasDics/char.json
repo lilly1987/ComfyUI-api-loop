@@ -515,8 +515,8 @@
         (0.5,1.0),
         (0.5,1.0),
         {
-			"isXl":"BREAK, score_9, source anime, BREAK, ",
-            "char" :"BREAK 1girl, saegusa mayumi, hair ribbon,green jacket, white dress, necktie,,BREAK ",
+			"isXl":", score_9, source anime, , ",
+            "char" :" 1girl, saegusa mayumi, hair ribbon,green jacket, white dress, necktie,, ",
             #"hair":"long hair, blonde hair,twintails ,",
             #"dress":"serafuku, sailor collar, neckerchief, black shirt, long sleeves, pleated skirt, white skirt,",
         },
@@ -4012,6 +4012,46 @@
             #"hair":"habit, blue dress, frilled dress, long sleeves, necklace,",
         },
     ),
+    "sdxl-mdm-nephelia-pony": (
+    "sdxl-mdm-nephelia-pony",
+        (0.75,1.0),
+        (0.75,1.0),
+        {
+            "char":"nephelia, elf, blue eyes, pointy ears, white hair, very long hair, bangs, hair red bow, braid, medium breasts, chain, metal collar, ",
+            "hair":"long hair,",
+            "dress":"frilled, indigo blue maid dress, long sleeves, puffy sleeves, long ivory apron, long dress, lace trim, brown long lace-up boots,",
+        },
+	),
+    "regina-10": (
+    "regina-10",
+        (0.75,1.0),
+        (0.75,1.0),
+        {
+            "char":"regina,  ",
+            #"hair":"long hair,",
+            #"hair":"habit, blue dress, frilled dress, long sleeves, necklace,",
+        },
+	),
+    "mutsuki_blue archive_PONY_last": (
+    "mutsuki_blue archive_PONY_last",
+        (0.75,1.0),
+        (0.75,1.0),
+        {
+            "char":"{(mutsuki-default:1.2), mutsuki \(blue archive\),purple eyes,white hair,side ponytail,halo,pointy ears,cropped jacket,short sleeves,high-waist skirt, frilled skirt,black boots,a thigh strap|(mutsuki-kimono:1.2), mutsuki \(blue archive\),purple eyes,white hair,hair bun,hair flower,halo,pointy ears,japanese clothes,white kimono,zouri,tabi,|(mutsuki-dress:1.2),mutsuki \(blue archive\),purple eyes,white hair,long hair,hairband,red dress,fishnets,high heels,|mutsuki-suit, mutsuki \(blue archive\),purple eyes,white hair,low ponytail,halo,pointy ears,red necktie,suit,shorts,white socks,black footwear|mutsuki-jantama,mutsuki \(blue archive\),purple eyes, white hair,long hair,twintails,pointy ears,halo,hair ornament,china dress,pelvic curtain,detached sleeves,thighhighs}, ",
+            #"hair":"long hair,",
+            #"hair":"habit, blue dress, frilled dress, long sleeves, necklace,",
+        },
+	),
+    "Lapis": (
+    "Lapis",
+        (0.75,1.0),
+        (0.75,1.0),
+        {
+            "char":"Lapis Rosenberg,  ",
+            #"hair":"long hair,",
+            #"hair":"habit, blue dress, frilled dress, long sleeves, necklace,",
+        },
+	),
     "知更鸟naiv1-000009": (
     "知更鸟naiv1-000009",
         (0.75,1.0),

@@ -936,7 +936,7 @@
 		(0.25,0.75),
 		(0.25,0.75),
 		{
-			"condomification":" condom-transformation, see-through skin, condom on penis, used condom on penis, {color} skin, cum inflation, hetero,",
+			"condomification":" condom-transformation, {see-through skin,|} cum inflation, hetero,",
 		},
 		{},		
 	),
@@ -2489,6 +2489,15 @@
 		"1,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0",
 		"1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0",
 		],
+	),
+	"Consome style (pony)":(
+    "Consome style (pony)",
+		(0.5,01.0),
+		(0.5,01.0),
+		{
+		"style":"consome,",		
+		},
+		{},
 	),
 	"marunomiv1.5":(
 		"marunomiv1.5",
