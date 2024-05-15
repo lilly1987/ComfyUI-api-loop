@@ -1,6 +1,6 @@
 {
     "cfg_min": 1.0,
-    "cfg_max": 5.0,
+    "cfg_max": 7.0,
     "cuda" : {
 		"KSampler":{
 			#"steps": 8,
@@ -8,7 +8,7 @@
 			"steps_max": 16,
 		},
 		"DetailerForEachDebug":{
-            "steps": 8,
+            #"steps": 8,
 			"steps_min": 8,
 			"steps_max": 16,
 		},
@@ -60,5 +60,5 @@
         "normal", "karras",  "simple", "sgm_uniform",
     ],
 
-    "SaveImage2":false,
+    #"SaveImage2":false,
 }

@@ -362,8 +362,8 @@
     ),
     "princess_eilonwy_v1": (
 	"princess_eilonwy_v1",
-        (0.5,1.0),
-        (0.5,1.0),
+        (0.25,1.0),
+        (0.25,1.0),
         {
             "char" :" hairband,  princess_eilonwy, bodice, long_sleeves, ",
             "hair":" ",
@@ -392,8 +392,8 @@
     ),
     "Lailah": (
 	"Lailah",
-        (0.5,1.0),
-        (0.5,1.0),
+        (0.25,1.0),
+        (0.25,1.0),
         {
             "char" :" 1girl,long hair,white hair,green eyes, dress,gloves, ",
             "hair":" ",
@@ -480,8 +480,18 @@
             #"dress":"serafuku, sailor collar, neckerchief, black shirt, long sleeves, pleated skirt, white skirt,",
         },
     ),
+    "hinomiyaChinatsu_v1": (
+	"hinomiyaChinatsu_v1",
+        (0.5,1.0),
+        (0.5,1.0),
+        {
+            "char" :" chinatsu, ",
+            #"hair":"long hair, blonde hair,twintails ,",
+            #"dress":"serafuku, sailor collar, neckerchief, black shirt, long sleeves, pleated skirt, white skirt,",
+        },
+    ),
     "milliaRageGuiltyGear_1": (
-        "milliaRageGuiltyGear_1",
+	"milliaRageGuiltyGear_1",
         (0.5,1.0),
         (0.5,1.0),
         {
@@ -603,8 +613,8 @@
     ),
     "rukinoSakiValvrave_v10": (
     "rukinoSakiValvrave_v10",
-        (0.75,1.25),
-        (0.75,1.25),
+        (0.5,1.0),
+        (0.5,1.0),
         {
             "char" :", 1girl,  long hair, purple_eyes,bangs,",
             "hair":",",
@@ -3213,9 +3223,9 @@
 		#"rnd",
 	),
 	"Linnea": (
-		"Linnea",
-		(0.75,1.0),
-		1.0,
+	"Linnea",
+		(0.5,1.0),
+		(0.5,1.0),
 		{
 			"char":"Linnea,   ",
 		},
@@ -4019,7 +4029,57 @@
         {
             "char":"nephelia, elf, blue eyes, pointy ears, white hair, very long hair, bangs, hair red bow, braid, medium breasts, chain, metal collar, ",
             "hair":"long hair,",
-            "dress":"frilled, indigo blue maid dress, long sleeves, puffy sleeves, long ivory apron, long dress, lace trim, brown long lace-up boots,",
+            #"dress":"frilled, indigo blue maid dress, long sleeves, puffy sleeves, long ivory apron, long dress, lace trim, brown long lace-up boots,",
+        },
+	),
+    "runashirakawa-10": (
+    "runashirakawa-10",
+        (0.75,1.0),
+        (0.75,1.0),
+        {
+            "char":"Runa Shirakawa,  ",
+            "hair":",",
+            "dress":",",
+        },
+	),
+    "celia claire_PONY_epoch-000016": (
+    "celia claire_PONY_epoch-000016",
+        (0.75,1.0),
+        (0.75,1.0),
+        {
+            "char":"celia-default,  ",
+            "hair":",",
+            "dress":"celia claire,blue eyes,grey hair,two side up,hair ribbon,white capelet,white frilled shirt,long sleeves, blue dress, black pantyhose,blue headwear,purple footwear,",
+        },
+	),
+    "Kyoker DEF3-000009": (
+    "Kyoker DEF3-000009",
+        (0.75,1.0),
+        (0.75,1.0),
+        {
+            "char":"Kyoker, single side braid,  purple eyes,  black gloves, purple jacket, brown necktie, white shirt, purple skirt,  ",
+            "hair":",",
+            "dress":",",
+        },
+	),
+    "kazusa": (
+    "kazusa",
+        (0.75,1.0),
+        (0.75,1.0),
+        {
+            "char":"1girl,cowboy_shot,skirt,white skirt,jacket,pantyhose,pleated skirt,hooded jacket,sailor collar,long sleeves,hood down,pink neckerchief,hoodie,  ",
+            "hair":",",
+            "dress":",",
+        },
+	),
+    "yoruka-10": (
+    "yoruka-10",
+        (0.75,1.0),
+        (0.75,1.0),
+        {
+            "char":"yoruka,  ",
+            #"hair":"long hair,",
+            #"hair":"habit, blue dress, frilled dress, long sleeves, necklace,",
         },
 	),
     "regina-10": (

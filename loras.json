@@ -106,11 +106,6 @@
             "hang",
         ],
     ),
-    "belly_punch": (        0.1,
-        [
-            "belly_punch-000014",
-        ],
-    ),
     "obp": (        0.125,
         [
             "obp-000050",
@@ -174,7 +169,6 @@
     ),
     "concept": (        0.8750,
         [  
-            "belly_punch-000014",
             "deep_penetration-01",
             "tentacles-004",
             "pnx_doggyFaceFocus",

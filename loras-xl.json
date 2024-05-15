@@ -1,5 +1,5 @@
 {
-    "sdxl_lightning_lora": (        0.750,
+    "sdxl_lightning_lora": (        0.8750,
         [
             "sdxl_lightning_8step_lora",
         ],
@@ -13,7 +13,7 @@
             "XL-luoxuan-000012",
         ],
     ),
-    "xxx": (        01.0,
+    "xxx": (        0.750,
         [
             "Expressive_H-000001",
             "condomification",
