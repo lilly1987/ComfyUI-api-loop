@@ -1,17 +1,6 @@
 {
     "loras":{
-        "char": (
-            "FushikawaKokoroXL-000096",
-            (0.25,1.0),
-            1.0,
-            {
-        "char":"fushikawa kokoro, ",
-        "hair":"twintails, braided bun, hair bun, double bun, sidelocks, blunt bangs,",
-        "dress":"japanese clothes, pink kimono, print kimono, floral print, white sash, white obi, ",
-            },
-        ),
-        #"hang": "hang",
-        #"face": "ahegao_v2.5",
+        "1": "FushikawaKokoroXL-000096",
     },
     #"lorasUpdate":false,
 }

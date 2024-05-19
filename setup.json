@@ -33,14 +33,13 @@
     "ckptPer":0.0,
     "ckptCnt":16,
     "lorasUpdatePer":0.750,
-    "lorasMaxCnt":3,
+    "lorasMaxCnt":4,
     "sampler_name": [
-        "euler", "euler_ancestral", "heun", "heunpp2","dpm_2", "dpm_2_ancestral",
-         "dpm_fast", "dpm_adaptive", "dpmpp_2s_ancestral", "dpmpp_sde", 
-        "dpmpp_2m", "dpmpp_2m_sde",    
+        "euler", "euler_ancestral", "heunpp2","dpm_2", "dpm_2_ancestral",
+         "dpm_fast", "dpm_adaptive", "dpmpp_2s_ancestral", "dpmpp_sde",          
         "ddpm",  "ddim", 
     ],
-	#"dpmpp_sde_gpu","dpmpp_2m_sde_gpu", "dpmpp_3m_sde_gpu", "dpmpp_3m_sde","lms","uni_pc", "uni_pc_bh2" "lcm",
+	#"dpmpp_sde_gpu","dpmpp_2m_sde_gpu", "dpmpp_3m_sde_gpu", "dpmpp_3m_sde","lms","uni_pc", "uni_pc_bh2" "lcm",  "dpmpp_2m", "dpmpp_2m_sde",  "heun",
     "scheduler": [
         "normal", "karras", "exponential",  "simple", ],
 		#"sgm_uniform","ddim_uniform"
@@ -81,7 +80,7 @@
         "queue_cnt":1,
 		"KSampler":{
 			#"steps": 30,
-			"steps_min": 30,
+			"steps_min": 20,
 			"steps_max": 30,
 		},
 		"DetailerForEachDebug":{
@@ -192,7 +191,7 @@
 	"*hugandSuckConcept_v1*",
 	"*X-ray Fellatio 1.5_1-000042",
 	"*GloryHolev2 1024-000048**",
-    "*belly_punch*",
+    #"*belly_punch*",
     ],"listMatch": [
     "*",
     "*",
@@ -239,6 +238,7 @@
         "frills":"{frills,|} {frilled dress,|} {frilled skirt,|} {frilled sleeves,|} ",
         "Pantyhose":"{Garter Strap Pantyhose,|}",
         "revealing":"",
+        "ankle cuffs":"{3::|ankle cuffs,}",
         #"open_dress":"{(open_dress:1.0), (Undressing:1.1), Nipples, (Pussy:1.1), {(navel:1.0),|}|2::}",
         "exposure":"{(exposure:1.0), breasts exposure, breasts out, nipples exposure, pussy exposure,|breast exposed,breasts exposed,  exposed breasts, exposed pussy,| }, {revealing clothes,|} ",
         "exposure":"{-3$$(exposure:1.0)| breasts exposure| breasts out| nipples exposure| pussy exposure|breast exposed|breasts exposed|  exposed breasts| exposed pussy }, {revealing clothes,|} ",
@@ -253,9 +253,9 @@
         "nude":"{2::nude,|}",
         "etc":"ugly face, blurry face, black and white, muscular female , text, sinature, stamp, watermark, error, jpeg artifacts, signature,  username,",
         "realistic":"{3::realistic,|}",
-        "smile":"smile,",
+        #"smile":"smile,",
         "embedding":"{-4$$embedding:FastNegativeV2.pt|embedding:NGH.safetensors|embedding:bad_prompt_version2-neg.pt|embedding:negative_hand-neg|embedding:nncursedV0-neg.pt|embedding:badquality.pt|embedding:bad-picture-chill-75v.pt|embedding:neg_grapefruit.pt|embedding:ParaNegative.safetensors|embedding:easynegative.safetensors|embedding:EasyNegativeV2.safetensors},",
-
+		"western":"western,",
     },
     "loras":{    },
     "lorasDic":{    },

@@ -101,8 +101,8 @@
     ),
     "TomoyoDaidoujiXL": (
 	"TomoyoDaidoujiXL",
-        (0.825,1.25),
-        (0.825,1.25),
+        (0.5,1.0),
+        (0.5,1.0),
         {
             "char" :"BREAK 1girl, daidouji tomoyo, black hair, long hair, blunt bangs, hairband, long hair, purple eyes, BREAK",
             "hair":"",
@@ -372,8 +372,8 @@
     ),
     "Torah_Novartis_EVE_ZERO": (
 	"Torah_Novartis_EVE_ZERO",
-        (0.75,1.0),
-        (0.75,1.0),
+        (0.5,1.0),
+        (0.5,1.0),
         {
             "char" :"BREAK TorahNovartis, 1girl, soro, very long hair, long hair, grey hair, wavy hair, blue eyes, purple eyes, hat,, BREAK",
             "hair":" ",
@@ -520,6 +520,21 @@
             #"dress":"serafuku, sailor collar, neckerchief, black shirt, long sleeves, pleated skirt, white skirt,",
         },
     ),
+    "Mahouka-08": (
+        "Mahouka-08",
+        (0.5,1.0),
+        (0.5,1.0),
+        {
+			"isXl":", score_9, source anime, , ",
+            "char" :" 1girl, saegusa mayumi, hair ribbon,",
+            #"hair":"long hair, blonde hair,twintails ,",
+            #"dress":"serafuku, sailor collar, neckerchief, black shirt, long sleeves, pleated skirt, white skirt,",
+        },
+		{
+			"isXl":"score_4, score_5, score_6, source_pony, source_comic, photorealistic, comic, western,",
+			"embedding":"",
+		},
+    ),
     "Mahouka-08-mayumi": (
         "Mahouka-08",
         (0.5,1.0),
@@ -613,8 +628,8 @@
     ),
     "rukinoSakiValvrave_v10": (
     "rukinoSakiValvrave_v10",
-        (0.5,1.0),
-        (0.5,1.0),
+        (0.25,1.0),
+        (0.25,1.0),
         {
             "char" :", 1girl,  long hair, purple_eyes,bangs,",
             "hair":",",
@@ -1022,9 +1037,9 @@
         },
     ),
     "kalliope-000022": (
-        "kalliope-000022",
-        (0.825,1.0),
-        1.0,
+	"kalliope-000022",
+        (0.5,1.0),
+        (0.5,1.0),
         {
             "char" :"blue eyes,bangs,round eyewear,long hair,white hair,holding_quill,quill,bowtie,white shirt,black skirt,high-waist skirt,long sleeves,kneehighs,black footwear,animal on head,owl,,",
             "hair":"",
@@ -1234,8 +1249,8 @@
            #],
         ),
 	"Mari-10": (
-		"Mari-10",
-		(0.75,1.0),
+	"Mari-10",
+		(0.5,1.0),
 		1.0,
 		{
 			"char":"BREAK Mari_\(Blue_Archive\),  blue_eyes, yellow_halo, animal_ears, animal_ear_fluff orange_hair, long_hair, bangs, single_braid,{nun, habit, animal_ear_headwear, black_dress, puffy_sleeves, white_sailor_collar, blue_neckerchief,| __dress__,} BREAK",
@@ -1296,17 +1311,19 @@
         },
     ),
     "araragiTsukihiLora_v1": (
-        "araragiTsukihiLora_v1",
-        (0.75,1.0),
-        (0.75,1.25),
+	"araragiTsukihiLora_v1",
+        (0.5,1.0),
+        (0.5,1.0),
         {
-            "char" :"BREAK araragi tsukihi,  blue eyes,black eyes, egg hair ornament, long hair, hair ornament, food-themed hair ornament, black hair, bangs, fried egg, egg (food), food, kimono, japanese clothes,obi, wide sleeves, long sleeves,  green kimono, yellow sash, blue kimono,sleeves past wrists, short kimono, BREAK",
+            "char" :" araragi tsukihi,  blue eyes,black eyes, egg hair ornament, long hair, hair ornament, food-themed hair ornament, black hair, bangs, fried egg, egg (food), food, kimono, japanese clothes,obi, wide sleeves, long sleeves,  green kimono, yellow sash, blue kimono,sleeves past wrists, short kimono, ",
             "hair":"",
             "dress":"  ",
         },
         {},
         [
-        "SD-ALL"    ,
+        "SD-ALL"      ,
+        "SD-ALL"      ,
+        "SD-ALL"      ,
         #"SD-INS"    ,
         "SD-INALL"  ,
         #"SD-IND"    ,
@@ -2183,8 +2200,8 @@
 	),
 	"blazing_cartesia_the_virtuous_XL-bf16-pony-v1": (
     "blazing_cartesia_the_virtuous_XL-bf16-pony-v1",
-		(0.75,1.0),
-		1.0,
+		(0.5,1.0),
+		(0.5,1.0),
 		{
 			"char":"blazing cartesia the virtuous, sleeveless dress, veil, elbow gloves,  ",
 			#"hair":" long hair, white hair,  hair ornament, x hair ornament,",
@@ -2355,8 +2372,8 @@
 		],
 	),
 	"zs_NagiPQ2": (
-		"zs_NagiPQ2",
-		(0.75,1.0),
+	"zs_NagiPQ2",
+		(0.5,1.0),
 		1.0,
 		{
 			"char":"nagipq2, green eyes, ",
@@ -2365,7 +2382,7 @@
 	),
 	"Hood": (
 	"Hood",
-		(0.75,1.0),
+		(0.5,1.0),
 		1.0,
 		{
 			"char":"blue_eyes,",
@@ -2374,8 +2391,8 @@
 	),
 	"sharon_holygrail": (
 	"sharon_holygrail",
-		(0.75,1.0),
-		1.0,
+		(0.25,1.0),
+		(0.5,1.0),
 		{
 			"char":"sharon holygrail, ",
 			#"hair":"blonde_hair,long_hair,hair_over_shoulder,bangs,",
@@ -2384,7 +2401,7 @@
 	),
 	"yor_forger_v1": (
 	"yor_forger_v1",
-		(0.75,1.0),
+		(0.5,1.0),
 		1.0,
 		{
 	"char":" {aayorf|bbyorf}, red eyes, ",
@@ -2474,19 +2491,100 @@
         #"SD-ALL0.5" ,
         ],
 	),
+    "kirara_blue archive_PONY_epoch-000020": (
+    "kirara_blue archive_PONY_epoch-000020",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :"kirara-default,kirara \(blue archive\),red eyes,pink hair,hair bun,long hair,horn,halo,choker,nail polish,jewelry,white shirt,red neckerchief,high-waist skirt, black skirt,white socks,black footwear,",
+            "hair":",",
+            "dress":"",
+        },
+    ),
+    "YangXin-10": (
+    "YangXin-10",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :"YangXin, 1girl, solo, long hair, large breasts, cleavage, brown eyes, purple hair, hair bun, hair over one eye, black eyes, sash, chinese clothes, single hair bun, robe, long sleeves, hair ribbon, pants, wide sleeves, blue ribbon,",
+            "hair":",",
+            "dress":"",
+        },
+    ),
+    "FushikawaKokoroXL-000096": (
+    "FushikawaKokoroXL-000096",
+        (0.25,1.0),
+        1.0,
+        {
+    "char":"fushikawa kokoro, ",
+    "hair":"twintails, braided bun, hair bun, double bun, sidelocks, blunt bangs,",
+    "dress":"japanese clothes, pink kimono, print kimono, floral print, white sash, white obi, ",
+        },
+    ),
+    "wadanohara-wasabiya": (
+    "wadanohara-wasabiya",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :"{wadanohara,witch hat,hat bow,multicolored bow,blue dress,blue hat,twin braid,long hair,handkerchief,anchor,hat ornament,school uniform,sailor collar,white bow,multicolored ribbon|wadablue,twin braids,long hair,witch hat,blue bow,anchor,star print,hat ornament,blue ribbon,book,holding book,blue skirt,chain,star \(symbol\),crescent,},",
+            "hair":",",
+            "dress":"",
+        },
+    ),
+    "Mana - (Super Real Mahjong) ": (
+    "Mana - (Super Real Mahjong) ",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :"mana, green_eyes, orange_hair, long_hair, high_ponytail, hair_ribbon, red_ribbon,,",
+            "hair":",",
+            #"dress":"",
+        },
+    ),
     "momiji": (
-        "momiji",
-        (0.75,1.0),
+    "momiji",
+        (0.5,1.0),
         1.0,
         {
             #"char" :"EmiKino,  pink eyes,,",
+            #"hair":",",
+            #"dress":"",
+        },
+    ),
+    "TanakaMamimi_pony_v1": (
+    "TanakaMamimi_pony_v1",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :", tnkmmm, purple hair, short twintails, blunt bangs, diagonal bangs, purple eyes, medium breasts,  small breasts,,",
+            "hair":"long hair, brown hair,",
+            #"dress":"{ thighhighs, pantyhose, hood, fingerless gloves,|__dress_set__,}",
+            "isXl":"score_9, score_8_up, score_7_up, source_anime,",
+        },
+    ),
+    "Senkawa_Chihiro-03": (
+    "Senkawa_Chihiro-03",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :"imaschihiro, red eyes,",
+            "hair":"long hair, brown hair,",
+            #"dress":"{ thighhighs, pantyhose, hood, fingerless gloves,|__dress_set__,}",
+        },
+    ),
+    "tanaka mamimi": (
+    "tanaka mamimi",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :"tanaka mamimi,",
             #"hair":"long hair, pink hair,",
             #"dress":"{ thighhighs, pantyhose, hood, fingerless gloves,|__dress_set__,}",
         },
     ),
     "EmiKino-10": (
-        "EmiKino-10",
-        (0.75,1.0),
+    "EmiKino-10",
+        (0.5,1.0),
         1.0,
         {
             "char" :"EmiKino,  pink eyes,,",
@@ -2494,9 +2592,19 @@
             "dress":"{ thighhighs, pantyhose, hood, fingerless gloves,|__dress_set__,}",
         },
     ),
+	"cheria_autismConfetti_v03": (
+    "cheria_autismConfetti_v03",
+		(0.5,1.0),
+		1.0,
+		{
+			"char":"cheria barnes, pink hair, brown eyes, twintails, two side up, medium hair, brooch, long sleeves, puffy sleeves, purple skirt, jewelry, black thighhighs, white footwear, (wide sleeves:0.7), pleated skirt, laces,",
+			"hair":", ",
+			"dress":", ",
+		},
+	),
 	"Toki_V2.0": (
-		"Toki_V2.0",
-		(0.75,1.0),
+    "Toki_V2.0",
+		(0.5,1.0),
 		1.0,
 		{
 			"char":"maid, blue eyes,",
@@ -2505,7 +2613,7 @@
 		},
 	),
 	"Inagaki Sae(sk)": (
-		"Inagaki Sae(sk)",
+    "Inagaki Sae(sk)",
 		(0.75,1.0),
 		1.0,
 		{
@@ -2513,10 +2621,20 @@
 			"hair":"long hair,black hair,white hairband,sidelocks,bangs,blue eyes, ",
 		},
 	),
-	"MahoukaMayumi-v1-06": (
-		"MahoukaMayumi-v1-06",
+	"natalia_autismConfetti_v02": (
+    "natalia_autismConfetti_v02",
 		(0.5,1.0),
-		(0.750,1.25),
+		1.0,
+		{
+			"char":" natalia \(tales\), blonde hair, short hair, green eyes, bangs, hairband, ascot, orange ascot, frills, thigh boots, pantyhose, frilled collar, white gloves, wrist bow,, ",
+			"hair":", ",
+			"dress":", ",
+		},
+	),
+	"MahoukaMayumi-v1-06": (
+    "MahoukaMayumi-v1-06",
+		(0.5,1.0),
+		(0.5,1.0),
 		{
 			"char":" BREAK ChopioMayumi, black hair, long hair, wavy hair, sidelocks, hair ribbon, red eyes, BREAK",
 			"hair":"",
@@ -2817,7 +2935,7 @@
 	),
 	"nako_flowerWitch-05": (
 	"nako_flowerWitch-05",
-		(0.75,1.0),
+		(0.5,1.0),
 		1.0,
 		{
 		"char":"BREAK black dress, animal ear fluff, fox ears, black headwear, strapless, witch hat, , swept bangs, blue bow, hat bow, strapless dress, broom, witch, broom riding, ears through headwear,  white panties, long hair, looking at viewer, blush, black hair, gloves, hat, dress, bow, animal ears, bare shoulders,  BREAK",
@@ -2835,13 +2953,123 @@
         "dress": " ,",
 		},
 	),
+	"rwby_weissschnee_ponyXL": (
+	"rwby_weissschnee_ponyXL",
+		(0.5,1.0),
+		(0.5,1.0),
+		{
+		"char":"weissvale, scar across eye, ponytail, hair ornament, tiara, white jacket, cropped jacket, high collar, long sleeves, short dress, white dress, earrings, necklace,",
+        #"hair":"blonde hair, short hair, ",
+        "dress": ",",
+		},
+	),
+	"shinshuumaru-09": (
+	"shinshuumaru-09",
+		(0.5,1.0),
+		(0.5,1.0),
+		{
+		"char":"shinshuumaruKC, long hair,ahoge,twin braid,large breasts, long sleeves, dress, ribbon, belt, {hood,|} black dress, twin braids, capelet, hood up, black capelet, {hooded capelet,|} black skirt,,",
+        "hair":", ",
+        "dress": ",",
+		},
+	),
+	"Diana_Cavendish-000006": (
+	"Diana_Cavendish-000006",
+		(0.75,1.0),
+		1.0,
+		{
+		"char":"1girl, Diana, multicolored hair, blue eyes,",
+        #"hair":"blonde hair, short hair, ",
+        "dress": " school uniform, socks,{|witch robe, witch hat,}",
+		},
+	),
+	"PookyBooVTXL - by KillerUwU13_AI": (
+	"PookyBooVTXL - by KillerUwU13_AI",
+		(0.75,1.0),
+		(0.75,1.0),
+		{
+		"char":"PookyBooVTXL, pink eyes, white hair, long hair, hair between eyes, ahoge, animal ears, hair ornament, black dress, bare shoulders, sleeveless, skirt, black ribbon, black ribbon on waist,",
+        "hair":", ",
+        "dress": " ,",
+		},
+	),
+	"hare_blue archive_PONY_epoch-000020": (
+	"hare_blue archive_PONY_epoch-000020",
+		(0.75,1.0),
+		1.0,
+		{
+		"char":"hare-default,hare \(blue archive\),green eyes, white hair,ponytail,halo,hairclip,(white jacket:1.2),black hoodie,long sleeves,black footwear,",
+        #"hair":", ",
+        "dress": " ,",
+		},
+	),
+	"fairytail_juvialockser_ponyXL": (
+	"fairytail_juvialockser_ponyXL",
+		(0.75,1.0),
+		1.0,
+		{
+		"char":"juvia lockser, leg tattoo,blue headwear, fur-trimmed headwear, fur hat, fur trim, blue dress, side slit, long sleeves, fur-trimmed sleeves, blue capelet,",
+        "hair":", ",
+        "dress": " ,",
+		},
+	),
+	"miyako-saitou-s1-ponyxl-lora-nochekaiser": (
+	"miyako-saitou-s1-ponyxl-lora-nochekaiser",
+		(0.75,1.0),
+		1.0,
+		{
+		"char":"miyako saitou, long hair, brown hair, brown eyes,,",
+        #"hair":", ",
+        "dress": " ,",
+		},
+	),
+	"yuGiOhTraptrixAtypus_v10": (
+	"yuGiOhTraptrixAtypus_v10",
+		(0.75,1.0),
+		1.0,
+		{
+		"char":"traptrixatypus,",
+        #"hair":", ",
+        "dress": " ,",
+		},
+	),
+	"q1m41d": (
+	"q1m41d",
+		(0.75,1.0),
+		1.0,
+		{
+		"char":"q1m41d,",
+        #"hair":", ",
+        "dress": " ,",
+		},
+	),
+	"batogaerika_pony": (
+	"batogaerika_pony",
+		(0.75,1.0),
+		1.0,
+		{
+		"char":"batogaerika,",
+        #"hair":", ",
+        "dress": " ,",
+		},
+	),
+	"Mutsuki_Pony-10": (
+	"Mutsuki_Pony-10",
+		(0.75,1.0),
+		1.0,
+		{
+		"char":"Mutsuki_\(Blue_Archive\),",
+        #"hair":", ",
+        "dress": " ,",
+		},
+	),
 	"NefertariFate-10": (
 	"NefertariFate-10",
 		(0.75,1.0),
 		1.0,
 		{
 		"char":"BREAK NefertariFate, 1girl,  long hair, brown hair, hair ornament, dress, brown eyes, jewelry, hair flower, dark skin, necklace, bracelet, dark-skinned female,  BREAK",
-        #"hair":"blonde hair, short hair, ",
+        #"hair":", ",
         "dress": " ,",
 		},
 	),
@@ -3019,7 +3247,7 @@
 	"YorLora-10": (
 	"YorLora-10",
 		(0.5,1.0),
-		1.0,
+		(0.5,1.0),
 		{
 		"char":" Yor,  (red eyes, shining red eyes:1.3),",
 		"hair":"(Black hair, Black colored hair, bangs, sidelocks, long flowing hair, long hair with long sidelocks, long sidelocks, headband:1.2), ",
@@ -3550,8 +3778,8 @@
 	),
 	"character_prim_kuroinu_epoch 10": (
 	"character_prim_kuroinu_epoch 10",
-		(0.75,1.0),
-		1.0,
+		(0.5,1.0),
+		(0.5,1.0),
 		{
 			"char":"BREAK, kuroinu_prim,1girl, BREAK ",
 			"dress" :", ",
@@ -3882,41 +4110,39 @@
 		]
 	),
 
-"CHAR-DianaCavendish": (
+	"CHAR-DianaCavendish": (
 	"CHAR-DianaCavendish",
-	(0.875,1.0),
-	1.0,
-	{
-	"char":"DianaCavendish, DianaCavendishBase, ",
-	"hair":"long hair, wavy hair,",
-	"hat":"{{witch |}hat,|}",
-	"dress":"{luna nova school uniform, school uniform, long sleeves, long skirt, pencil skirt,|__dres_set__|}",
-	},
-	{},
-	[#"rnd",
-	#"1,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0",
-	#"1,0,0,0,0,0,1,1,1,1,1,1,1,1,0.5,0,0",
-	#"1,0,0,0,0,0,1,1,1,1,1,1,1,1,0.5,0,0", 
-	#"1,0,0,0,0,0,1,1,1,1,1,1,1,1,0.5,0,0",
-	"SD-ALL"   	,
-	#"SD-INS"   ,
-	##"SD-INALL" ,	
-	#"SD-IND"   ,	
-	#"SD-MIDD"    ,
-	#"SD-MIDD1"   ,
-	#"SD-MIDD2"   ,
-	#"SD-MIDD0.8" ,
-	#"SD-MIDD0.2",
-	#"SD-MOUT"    ,
-	#"SD-OUTD"    ,
-	#"SD-OUTS"   ,
-	#"SD-OUTALL" ,
-	#"SD-ROUT" 	  ,
-	#"SD-AOUT" 	  ,
-	#"SD-AB" 	,
-	##"SD-ALL0.5" ,
-	]
-),
+		(0.75,1.0),
+		1.0,
+		{
+		"char":"DianaCavendish, DianaCavendishBase, ",
+		"hair":"long hair, wavy hair,",
+		"hat":"{{witch |}hat,|}",
+		"dress":"{luna nova school uniform, school uniform, long sleeves, long skirt, pencil skirt,|__dres_set__|}",
+		},
+		{},
+		[
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		#"SD-INS"    ,
+		#"SD-INALL"  ,
+		#"SD-IND"    ,
+		"SD-MIDD"   ,
+		"SD-MIDD1"  ,
+		"SD-MIDD2"  ,
+		#"SD-MIDD0.8",
+		#"SD-MIDD0.2",
+		"SD-MOUT"   ,
+		"SD-OUTD"   ,
+		#"SD-OUTS"   ,
+		#"SD-OUTALL" ,
+		#"SD-ROUT"   ,
+		"SD-AOUT"   ,
+		"SD-AB" 	,
+		#"SD-ALL0.5" ,
+		],
+	),
         "makina69_tzuyu_v1.0": (
             "makina69_tzuyu_v1.0",
             (0.75,1.0),

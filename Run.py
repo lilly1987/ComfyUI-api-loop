@@ -372,6 +372,13 @@ while True:
         
             #dupdate(setup,jitem)
         # -------------------------------------------------
+        
+        ckptDics=dicFileRead("ckptDic.json")
+        ckptDic=ckptDics.get(ckpt_name)
+        if ckptDic is not None:
+            dupdate(setup,ckptDic)
+        
+        # -------------------------------------------------
         prompt["CheckpointLoaderSimple"]["inputs"]["ckpt_name"]= ckpt_path
         if "VAELoader" in prompt:
             prompt["VAELoader"]["inputs"]["vae_name"]= vae_path        
