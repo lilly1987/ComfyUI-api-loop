@@ -231,6 +231,7 @@ while True:
         
         # -------------------------------------------------
         lbw=dicFileRead("lbw.json")
+        #print("lbw : ",lbw)
         lora1="CheckpointLoaderSimple"
         lorasCnt=0
         for k, v in setup.get("loras",{}).items():
@@ -374,7 +375,12 @@ while True:
         # -------------------------------------------------
         
         ckptDics=dicFileRead("ckptDic.json")
+        print("ckptDics : ",ckptDics)
+        #print("ckptDics : ",type(ckptDics))
+        #if type(ckptDics) is tuple:
+        #    ckptDics=ckptDics[0]
         ckptDic=ckptDics.get(ckpt_name)
+        print("ckptDic : ",ckptDic)
         if ckptDic is not None:
             dupdate(setup,ckptDic)
         
