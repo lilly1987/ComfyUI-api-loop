@@ -1,5 +1,116 @@
 {
-	"randomizer89PDXL_v10" : {
-		"cfg" : 2.0,
-    },
+	
+"aquair_v13a" : {
+	"cfg" : 7.0,
+	"negative" : {
+		"embedding":"embedding:easynegative.safetensors,",
+	},
+},
+"mistoonXLCopper_v10Hyper" : {
+	"cfg" : 2.0,
+	"KSampler":{
+		"steps": 5,
+	},
+	"DetailerForEachDebug":{
+		"steps": 5,
+	},
+	"sampler_name": [
+        "dpmpp_sde", 
+    ],
+},
+"randomizer89PDXL_v10" : {
+	"cfg" : 2.0,
+},
+"smoothcutsLightning33STEPS_v01Lightning3steps" : {
+	"cfg" : 2.0,
+	#"stop_at_clip_layer": -2,
+	"KSampler":{
+		"steps": 4,
+	},
+	"DetailerForEachDebug":{
+		"steps": 4,
+	},
+	"positive" : {
+		"isXl":"score_9,score_8_up,score_7_up,score_6_up,source anime,",
+	},
+	"negative" : {
+		"isXl":"score_6, score_5, score_4, ",
+	},
+},
+"smoothcutsSDXLClassic_v10Lightning8steps" : {
+	"cfg" : 2.0,
+	#"stop_at_clip_layer": -2,
+	"KSampler":{
+		"steps": 8,
+	},
+	"DetailerForEachDebug":{
+		"steps": 8,
+	},
+	"positive" : {
+		"isXl":"score_9,score_8_up,score_7_up,score_6_up,source anime,",
+	},
+	"negative" : {
+		"isXl":"score_6, score_5, score_4, ",
+	},
+},
+"4goldxmix_v11" : {
+	"cfg" : 7.0,
+	#"stop_at_clip_layer": -2,
+	"KSampler":{
+		"steps": 20,
+	},
+	"DetailerForEachDebug":{
+		"steps": 20,
+	},
+},
+"masteranime_v45" : {
+	"cfg" : 7.0,
+	#"stop_at_clip_layer": -2,
+	"KSampler":{
+		"steps": 20,
+	},
+	"DetailerForEachDebug":{
+		"steps": 20,
+	},
+},
+"thusordinaryAnimeTaste_v30" : {
+	"cfg" : 2.5,
+	#"stop_at_clip_layer": -2,
+	"KSampler":{
+		"steps": 15,
+	},
+	"DetailerForEachDebug":{
+		"steps": 15,
+	},
+	"sampler_name": [
+		"euler",  "euler_ancestral","lcm",
+	],
+	"SaveImage2":false,
+},
+"lemonmixV2_v30" : {
+	"negative" : {
+		"embedding":"embedding:easynegative.safetensors,",
+	},
+},
+"painGPonyxlBased_v002" : {
+	"cfg" : 5.0,
+	"stop_at_clip_layer": -2,
+	"KSampler":{
+		"steps": 25,
+		"steps_min": 24,
+		"steps_max": 30,
+	},
+	"DetailerForEachDebug":{
+		"steps": 20,
+		"steps_min": 8,
+		"steps_max": 32,
+	},
+	"positive" : {
+		"isXl":"score_9, score_8_up, source_anime,",
+	},
+	"negative" : {
+		"isXl":"source_pony, source_cartoon, source_furry, score_6_up, score_5_up, score_4_up, AissistXLv2-safe, 3d, realistic,",
+	},
+	"SaveImage2":false,
+},
 }

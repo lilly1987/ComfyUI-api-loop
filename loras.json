@@ -25,16 +25,10 @@
             "fingering_3rd_v1",
         ],
     ),
-    "ahys_v2": (        0.0,
+    "ahys_v2": (        0.01,
         [
-            (
-                "ahys_v2",
-                (0.25,0.75),
-                1.0,
-                {
-                    "body" :"ahys, ribs,",
-                },
-            ),
+            "ahys_v2",
+            "LadyVase_v01-Epoch50",
         ],
     ),
     "LR-All the way through(epoch20)": (        0.0,

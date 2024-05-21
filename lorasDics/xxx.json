@@ -2059,6 +2059,26 @@
 		{},
 		#"rnd",
 	),
+	"LadyVase_v01-Epoch50": (
+	"LadyVase_v01-Epoch50",
+		(0.25,01.0),
+		(0.25,01.0),
+		{
+            "body" :"ladyvase,handle,",
+		},
+		{},
+		#"rnd",
+	),
+	"ahys_v2": (
+	"ahys_v2",
+		(0.25,01.0),
+		(0.25,01.0),
+		{
+            "body" :"ahys, ribs,",
+		},
+		{},
+		#"rnd",
+	),
 	"tentaclesX": (
 	"tentaclesX",
 		(0.25,01.0),

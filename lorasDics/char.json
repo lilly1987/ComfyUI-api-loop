@@ -305,7 +305,7 @@
         (0.5,1.0),
         (0.5,1.0),
         {
-            "char" :" ANMRxSummer, 1girl,  short hair, frilled skirt, black hair, black gloves, black dress, shoulder armor, braid, pantyhose, frills, fingerless gloves, black cape, armor, black eyes, breastplate, medium breasts, crimson rose \(symbol\), ",
+            "char" :" ANMRxSummer, 1girl,  short hair, frilled skirt, black hair, black gloves, black dress,  braid, pantyhose, frills, fingerless gloves, black cape,  black eyes, medium breasts, crimson rose \(symbol\),{shoulder armor,armor,breastplate,|} ",
             "hair":" ",
             "dress":" ",
         },
@@ -415,7 +415,7 @@
         (0.5,1.0),
         (0.5,1.0),
         {
-            "char" :" mayumi, long hair, mahouka_uniform, green_jacket, white_sleeveless_dress, necktie, ",
+            "char" :" mayumi, long hair, {mahouka_uniform, green_jacket, white_sleeveless_dress, necktie,|} ",
             "hair":" ",
             "dress":"",
         },
@@ -1108,7 +1108,7 @@
     ),
      
     "OldrinZevon-10": (
-        "OldrinZevon-10",
+	"OldrinZevon-10",
         (0.825,1.0),
         1.0,
         {
@@ -2521,6 +2521,106 @@
     "dress":"japanese clothes, pink kimono, print kimono, floral print, white sash, white obi, ",
         },
     ),
+    "iori_blue archive_PONY_epoch-000020": (
+    "iori_blue archive_PONY_epoch-000020",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :"iori-default,,",
+            "hair":",",
+            "dress":"iori \(blue archive\),red eyes,grey hair,pointy ears,twintail,long hair,hair ribbon,halo,demon tail,white shirt,black necktie,black skirt,black boots,high heels,gloves,",
+        },
+    ),
+    "queen_elizabeth_(meta)_XL-bf16-pony-v1": (
+    "queen_elizabeth_(meta)_XL-bf16-pony-v1",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :"queen_elizabeth_\(meta\)_\(azur_lane\),",
+            "hair":",",
+            #"dress":"cleavage, black capelet, red cape, ascot, fur trim, grey shirt, long sleeves, skirt, black rose, frilled skirt,",
+        },
+    ),
+    "SanyaXL-10": (
+    "SanyaXL-10",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :"ksanya, red eyes, grey hair, long hair, hairband, ear piercing, red nails, vampire,",
+            "hair":",",
+            "dress":"cleavage, black capelet, red cape, ascot, fur trim, grey shirt, long sleeves, skirt, black rose, frilled skirt,",
+        },
+    ),
+    "sdxl-sf-yor_briar-pony": (
+    "sdxl-sf-yor_briar-pony",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :"yor briar, {yor forgfer| jimufuku | ibarahime},",
+            "hair":",",
+            #"dress":"red capelet, red bow, red vest, white shirt, collared shirt, long sleeves, red skirt, long skirt, frilled skirt, frills, white socks, loose socks, red shoes,",
+        },
+    ),
+    "Jyahnar-10": (
+    "Jyahnar-10",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :"Jyahnar, 1girl,  long hair, blue eyes, long sleeves, blue dress, jewelry, blue hair, purple hair, black pantyhose, detached sleeves, veil, medium breasts,",
+            "hair":",",
+            "dress":",",
+        },
+    ),
+    "Koizumi-Yuka-XL-10": (
+    "Koizumi-Yuka-XL-10",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :"koizumiyuka,",
+            "hair":",",
+            #"dress":",",
+        },
+    ),
+    "OrchidXL_Anything": (
+    "OrchidXL_Anything",
+        (0.5,1.0),
+        1.0,
+        {
+            #"char" :",",
+            #"hair":",",
+            #"dress":",",
+        },
+    ),
+    "kizunaakari-10": (
+    "kizunaakari-10",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :"kizunaakariVL, 1girl, long hair, twin braids,hair ornament, long sleeves, dress, jewelry, jacket, ahoge, puffy sleeves, fingerless gloves,bracelet, open jacket, black jacket, vertical stripes, puffy long sleeves, grey dress, striped pantyhose, orange gloves, striped gloves, orange pantyhose, vertical-striped pantyhose,,",
+            "hair":",",
+            "dress":",",
+        },
+    ),
+    "NayutaKaniPony": (
+    "NayutaKaniPony",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :"nayutakani, 1girl,",
+            "hair":",",
+            #"dress":"red capelet, red bow, red vest, white shirt, collared shirt, long sleeves, red skirt, long skirt, frilled skirt, frills, white socks, loose socks, red shoes,",
+        },
+    ),
+    "yumemi_scarxzys": (
+    "yumemi_scarxzys",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :"yumemi, red eyes, red hair, short hair, single braid, long braid,",
+            "hair":",",
+            "dress":"red capelet, red bow, red vest, white shirt, collared shirt, long sleeves, red skirt, long skirt, frilled skirt, frills, white socks, loose socks, red shoes,",
+        },
+    ),
     "wadanohara-wasabiya": (
     "wadanohara-wasabiya",
         (0.5,1.0),
@@ -2975,12 +3075,12 @@
 	),
 	"Diana_Cavendish-000006": (
 	"Diana_Cavendish-000006",
-		(0.75,1.0),
+		(0.5,1.0),
 		1.0,
 		{
-		"char":"1girl, Diana, multicolored hair, blue eyes,",
+		"char":"1girl, Diana, multicolored hair, blue eyes, school uniform, socks,{|witch robe, witch hat,}",
         #"hair":"blonde hair, short hair, ",
-        "dress": " school uniform, socks,{|witch robe, witch hat,}",
+        "dress": " ",
 		},
 	),
 	"PookyBooVTXL - by KillerUwU13_AI": (
@@ -3118,7 +3218,7 @@
 		(0.6,1.0),
 		(0.6,1.0),
 		{
-		"char":"BREAK ChopioMiyuki, blue eyes, black hair, sidelocks, blunt bangs, short hair, single hair bun, hair flower, hair ornament, outfit_3, red kimono, print kimono, wide sleeves, purple obi, purple sash BREAK",
+		"char":" ChopioMiyuki, blue eyes, black hair, sidelocks, blunt bangs, short hair, single hair bun, hair flower, hair ornament, outfit_3, red kimono, print kimono, wide sleeves, purple obi, purple sash,",
         "hair":"",
         "dress": ",",
 		},
@@ -3151,7 +3251,7 @@
 		(0.6,1.0),
 		(0.6,1.0),
 		{
-			"char":"BREAK ChopioMiyuki, blue eyes, black hair, sidelocks, blunt bangs, long hair, hairband, outfit_5, pink dress, frilled dress, juliet sleeves, layered sleeves, layered dress, white tights, BREAK",
+			"char":" ChopioMiyuki, blue eyes, black hair, sidelocks, blunt bangs, long hair, hairband, outfit_5, pink dress, frilled dress, juliet sleeves, layered sleeves, layered dress, white tights, ",
 			"hair":" ",
 			"dress": " ",
 		},
@@ -3186,7 +3286,7 @@
 		(0.6,1.0),
 		(0.6,1.0),
 		{
-			"char":"BREAK ChopioMiyuki, blue eyes, black hair, sidelocks, blunt bangs, BREAK",
+			"char":" ChopioMiyuki, blue eyes, black hair, sidelocks, blunt bangs, ",
 			"hair":" ",
 		},
 		{},
