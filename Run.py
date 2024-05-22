@@ -375,14 +375,11 @@ while True:
         # -------------------------------------------------
         
         ckptDics=dicFileRead("ckptDic.json")
-        print("ckptDics : ",ckptDics)
-        #print("ckptDics : ",type(ckptDics))
-        #if type(ckptDics) is tuple:
-        #    ckptDics=ckptDics[0]
-        ckptDic=ckptDics.get(ckpt_name)
-        print("ckptDic : ",ckpt_name)
+        ckptDic=ckptDics.get(ckpt_name)        
         if ckptDic is not None:
             dupdate(setup,ckptDic)
+        else:
+            print("[red]ckptDic[/red] : ",ckpt_name)
         
         # -------------------------------------------------
         prompt["CheckpointLoaderSimple"]["inputs"]["ckpt_name"]= ckpt_path

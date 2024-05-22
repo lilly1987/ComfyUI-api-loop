@@ -1,5 +1,106 @@
 {
 	
+"netaArtXL_v10DPO" : {
+	"cfg" : 11.0,
+	"KSampler":{
+		"steps": 20,
+	},
+	"DetailerForEachDebug":{
+		"steps": 20,
+	},
+	"sampler_name": [
+		"euler", "euler_ancestral",  
+	],
+	"negative" : {
+		#"isXl":"score_4, score_5, score_6, source_pony, source_furry, monochrome, realistic, rough sketch, fewer digits, extra digits,",
+		"ckpt":" (worst quality:1.3), low quality, lowres, messy, abstract, ugly, disfigured, bad anatomy, draft, deformed hands, fused fingers, signature, text, multi views",
+	},
+},
+"dollymix_v10" : {
+	"cfg" : 7.0,
+	"KSampler":{
+		"steps": 20,
+	},
+	"DetailerForEachDebug":{
+		"steps": 20,
+	},
+	"sampler_name": [
+		"dpmpp_2m_sde",
+		#"dpmpp_sde",  
+		"dpm_2", 
+	],
+    "scheduler": [
+		"karras",  
+        #"normal", 
+		#"simple", 
+		#"sgm_uniform",
+    ],
+	"positive" : {
+		#"isXl":"characters, copyright, style, general tags, rating, score_9, score_8_up, score_7_up,",
+		"ckpt":"(masterpiece, top quality, best quality), (splash art),",
+	},
+	"negative" : {
+		#"isXl":"score_4, score_5, score_6, source_pony, source_furry, monochrome, realistic, rough sketch, fewer digits, extra digits,",
+		"ckpt":"(worst quality, low quality:1.4),",
+	},
+},
+"perfectPonyXL_v10" : {
+	"cfg" : 7.0,
+	"KSampler":{
+		"steps": 20,
+	},
+	"DetailerForEachDebug":{
+		"steps": 20,
+	},
+	"sampler_name": [
+		"euler", 
+		#"dpmpp_2m_sde",
+		#"dpmpp_sde",  
+		#"dpm_2", 
+	],
+    #"scheduler": [
+	#	"karras",  
+    #    #"normal", 
+	#	"simple", 
+	#	"sgm_uniform",
+    #],
+	"positive" : {
+		"isXl":"score_9, score_8_up, score_7_up, score_6_up,",
+		#"ckpt":"(masterpiece, top quality, best quality), (splash art),",
+	},
+	"negative" : {
+		"isXl":"score_4,score_5,score_6,",
+		#"ckpt":"(worst quality, low quality:1.4),",
+	},
+},
+"sdxlBass_v10" : {
+	"cfg" : 5.0,
+	"KSampler":{
+		"steps": 20,
+	},
+	"DetailerForEachDebug":{
+		"steps": 20,
+	},
+	"sampler_name": [
+		"euler", "euler_ancestral",  
+	],
+},
+"pegasusxx_v10Takeoff" : {
+	"cfg" : 5.0,
+	"KSampler":{
+		"steps": 20,
+	},
+	"DetailerForEachDebug":{
+		"steps": 20,
+	},
+	"positive" : {
+		#"isXl":"characters, copyright, style, general tags, rating, score_9, score_8_up, score_7_up,",
+	},
+	"negative" : {
+		#"isXl":"score_4, score_5, score_6, source_pony, source_furry, monochrome, realistic, rough sketch, fewer digits, extra digits,",
+		"ckpt":"five-fingers, sticky fingers,  worst quality, low quality,",
+	},
+},
 "pdForAnime_v20" : {
 	#"cfg" : 7.0,
 	"positive" : {
@@ -8,6 +109,60 @@
 	"negative" : {
 		"isXl":"score_4, score_5, score_6, source_pony, source_furry, monochrome, realistic, rough sketch, fewer digits, extra digits,",
 	},
+},
+"3x3mixxltypec_v01" : {
+	"cfg" : 7.0,
+	"KSampler":{
+		"steps": 20,
+	},
+	"DetailerForEachDebug":{
+		"steps": 20,
+	},
+	"positive" : {
+		"isXl":"score_9, score_8_up, score_7_up , source_anime, masterpiece, best quality, perfect anatomy , very aesthetic , absurdres ,,",
+	},
+	"negative" : {
+		"isXl":"score_6 , score_5 , score_4 , source_furry, source_pony, source_cartoon,,",
+	},
+	"sampler_name": [
+		"euler", "euler_ancestral",  
+	],
+},
+"3x3mixxltypeb_v01" : {
+	"cfg" : 7.0,
+	"KSampler":{
+		"steps": 20,
+	},
+	"DetailerForEachDebug":{
+		"steps": 20,
+	},
+	"positive" : {
+		"isXl":"score_9, score_8_up, score_7_up , source_anime, masterpiece, best quality, perfect anatomy , very aesthetic , absurdres ,,",
+	},
+	"negative" : {
+		"isXl":"score_6 , score_5 , score_4 , source_furry, source_pony, source_cartoon,,",
+	},
+	"sampler_name": [
+		"euler", "euler_ancestral",  
+	],
+},
+"3x3mixxltypea_v01" : {
+	"cfg" : 7.0,
+	"KSampler":{
+		"steps": 20,
+	},
+	"DetailerForEachDebug":{
+		"steps": 20,
+	},
+	"positive" : {
+		"isXl":",",
+	},
+	"negative" : {
+		"isXl":",",
+	},
+	"sampler_name": [
+		"euler_ancestral",  
+	],
 },
 "realDreamAnimeSDXL_sdxlPony3" : {
 	"cfg" : 7.0,
@@ -136,6 +291,25 @@
 		"embedding":"embedding:easynegative.safetensors,",
 	},
 },
+"randomizer89PDXL_v10" : {
+	"cfg" : 2.0,
+	#"stop_at_clip_layer": -2,
+	"KSampler":{
+		"steps":7,
+	},
+	"DetailerForEachDebug":{
+		"steps": 7,
+	},
+	"sampler_name": [
+		"euler_ancestral",
+	],
+	"scheduler": [
+        "karras",
+	],
+	"positive" : {
+		"isXl":"rating_all,",
+	},
+},
 "painGPonyxlBased_v002" : {
 	"cfg" : 5.0,
 	"stop_at_clip_layer": -2,
@@ -157,4 +331,6 @@
 	},
 	"SaveImage2":false,
 },
+
+
 }
