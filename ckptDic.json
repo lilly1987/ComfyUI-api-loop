@@ -1,5 +1,29 @@
 {
 	
+"pdForAnime_v20" : {
+	#"cfg" : 7.0,
+	"positive" : {
+		"isXl":"characters, copyright, style, general tags, rating, score_9, score_8_up, score_7_up,",
+	},
+	"negative" : {
+		"isXl":"score_4, score_5, score_6, source_pony, source_furry, monochrome, realistic, rough sketch, fewer digits, extra digits,",
+	},
+},
+"realDreamAnimeSDXL_sdxlPony3" : {
+	"cfg" : 7.0,
+	"KSampler":{
+		"steps": 20,
+	},
+	"DetailerForEachDebug":{
+		"steps": 20,
+	},
+	"positive" : {
+		"isXl":"score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up,",
+	},
+	"sampler_name": [
+		"euler", "euler_ancestral",  
+	],
+},
 "aquair_v13a" : {
 	"cfg" : 7.0,
 	"negative" : {
@@ -20,6 +44,26 @@
 },
 "randomizer89PDXL_v10" : {
 	"cfg" : 2.0,
+},
+"copaxMelodiesXL_v4" : {
+    "cfg" : 7.0,
+	"sampler_name": [
+		"euler",  
+	],
+},
+"autismmixSDXL_autismmixDPO" : {
+    "cfg_min": 7.0,
+    "cfg_max": 10.0,
+	"positive" : {
+		"isXl":"BREAK score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, source_anime, BREAK",
+	},
+},
+"autismmixSDXL_autismmixConfetti" : {
+    "cfg_min": 7.0,
+    "cfg_max": 8.0,
+	"positive" : {
+		"isXl":"BREAK score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, source_anime, BREAK",
+	},
 },
 "smoothcutsLightning33STEPS_v01Lightning3steps" : {
 	"cfg" : 2.0,

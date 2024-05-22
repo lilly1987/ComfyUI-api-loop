@@ -380,7 +380,7 @@ while True:
         #if type(ckptDics) is tuple:
         #    ckptDics=ckptDics[0]
         ckptDic=ckptDics.get(ckpt_name)
-        print("ckptDic : ",ckptDic)
+        print("ckptDic : ",ckpt_name)
         if ckptDic is not None:
             dupdate(setup,ckptDic)
         

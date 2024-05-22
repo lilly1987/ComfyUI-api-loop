@@ -1513,9 +1513,9 @@
 		},
 	),
     "ShibaMiyuki": (
-        "ShibaMiyuki",
-        (0.75,1.0),
-        (1.0,1.250),
+	"ShibaMiyuki",
+        (0.5,1.0),
+        (0.5,1.0),
         {
             "char":"BREAK shibamiyuki, long hair,school uniform, black necktie, white dress, green jacket, long sleeves, open jacket, high heels, BREAK",
             "hair":"",
@@ -2571,6 +2571,26 @@
             "dress":",",
         },
     ),
+    "Yuugure Tokoyo(kr)": (
+    "Yuugure Tokoyo(kr)",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :"Yuugure Tokoyo,",
+            "hair":"antenna hair,very long hair,purple hair,hair ribbon,twin braids,low twintails,bangs,blue eyes,",
+            "dress":"red bowtie,plaid bowtie,black vest,white shirt,collared shirt,large breasts,underbust,puffy short sleeves,suspender skirt,black skirt,plaid skirt,pleated skirt,zettai ryouiki,black thighhighs,loafers,",
+        },
+    ),
+    "iroha_blue archive_PONY_epoch-000020": (
+    "iroha_blue archive_PONY_epoch-000020",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :"{iroha-default|iroha-shirt|iroha-gym},iroha \(blue archive\),grey eyes,red hair,long hair,halo,",
+            "hair":",",
+            #"dress":",",
+        },
+    ),
     "Koizumi-Yuka-XL-10": (
     "Koizumi-Yuka-XL-10",
         (0.5,1.0),
@@ -2578,6 +2598,26 @@
         {
             "char" :"koizumiyuka,",
             "hair":",",
+            #"dress":",",
+        },
+    ),
+    "Majo_Elaina_XL": (
+    "Majo_Elaina_XL",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :"elaina, blue eyes, white hair, hair between eyes, long hair, bangs, ahoge, braid, single braid, hair bow, pink bow, jewelry,,",
+            "hair":"",
+            #"dress":",",
+        },
+    ),
+    "sumomo_blue archive_PONY_last": (
+    "sumomo_blue archive_PONY_last",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :"{sumomo-default|sumomo-leotard},",
+            "hair":"sumomo \(blue archive\),orange eyes, white hair, long hair, two side up,horn,pointy ears,halo,demon tail, ",
             #"dress":",",
         },
     ),
@@ -2589,6 +2629,59 @@
             #"char" :",",
             #"hair":",",
             #"dress":",",
+        },
+    ),
+    "[P]Ke-ta_v1.0": (
+    "[P]Ke-ta_v1.0",
+        (0.5,1.0),
+        1.0,
+        {
+            #"style" :"photorealistic,",
+            #"char" :"rithe,",
+            #"hair":",",
+            #"dress":"victorian dress,",
+        },
+    ),
+    "baramXL": (
+    "baramXL",
+        (0.5,1.0),
+        1.0,
+        {
+            #"style" :"photorealistic,",
+            #"char" :"rithe,",
+            #"hair":",",
+            #"dress":"victorian dress,",
+        },
+    ),
+    "rithe": (
+    "rithe",
+        (0.5,1.0),
+        1.0,
+        {
+            "style" :"photorealistic,",
+            "char" :"rithe,",
+            "hair":",",
+            #"dress":"victorian dress,",
+        },
+    ),
+    "beatriceSymphogear_beatriceXDU": (
+    "beatriceSymphogear_beatriceXDU",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :",",
+            "hair":",",
+            "dress":"{hairband, wide sleeve blouse, shorts, shoes, xdubeatrice,|mini crown, formal attire, see-through side cape, xdubeatrice, scepter}",
+        },
+    ),
+    "victorian_dress-XL-2.0": (
+    "victorian_dress-XL-2.0",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :",",
+            "hair":",",
+            "dress":"victorian dress,",
         },
     ),
     "kizunaakari-10": (
