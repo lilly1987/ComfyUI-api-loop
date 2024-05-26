@@ -1038,8 +1038,8 @@
     ),
     "kalliope-000022": (
 	"kalliope-000022",
-        (0.5,1.0),
-        (0.5,1.0),
+        (0.25,0.75),
+        (0.25,0.75),
         {
             "char" :"blue eyes,bangs,round eyewear,long hair,white hair,holding_quill,quill,bowtie,white shirt,black skirt,high-waist skirt,long sleeves,kneehighs,black footwear,animal on head,owl,,",
             "hair":"",
@@ -1474,8 +1474,8 @@
     ),
     "ANIME_Judy_CowboyBebop_ownwaifu-15": (
 	"ANIME_Judy_CowboyBebop_ownwaifu-15",
-        (0.75,1.0),
-        (0.75,1.0),
+        (0.25,1.0),
+        (0.25,1.0),
         {
             "char" :" BREAK ANIME_Judy_CowboyBebop_ownwaifu, blonde hair, long hair, hat, breasts, earrings, jewelry, blue eyes, medium breasts, cowboy shot, scarf, lipstick, makeup, lips, red lips, red scarf, belt, open clothes, navel, skirt, jacket, cowboy western, no bra, miniskirt, coat, open shirt, cleavage, holster, BREAK ",
             #"hair":"long hair,",
@@ -2579,6 +2579,46 @@
             "char" :"Yuugure Tokoyo,",
             "hair":"antenna hair,very long hair,purple hair,hair ribbon,twin braids,low twintails,bangs,blue eyes,",
             "dress":"red bowtie,plaid bowtie,black vest,white shirt,collared shirt,large breasts,underbust,puffy short sleeves,suspender skirt,black skirt,plaid skirt,pleated skirt,zettai ryouiki,black thighhighs,loafers,",
+        },
+    ),
+    "luna_kindred_sdxl_v2": (
+    "luna_kindred_sdxl_v2",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :"luna kindred,",
+            "hair":",",
+            #"dress":",",
+        },
+    ),
+    "mki-pony-jade-v4-000050": (
+    "mki-pony-jade-v4-000050",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :"jade, honkai: star rail, hat,",
+            "hair":",",
+            #"dress":",",
+        },
+    ),
+    "ark_royal_XL-bf16-pony-v1": (
+    "ark_royal_XL-bf16-pony-v1",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :"ark royal \(azur lane\),",
+            "hair":",",
+            #"dress":",",
+        },
+    ),
+    "ayesha_altugle_XL-bf16-pony-v1": (
+    "ayesha_altugle_XL-bf16-pony-v1",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :"ayesha altugle,green dress,",
+            "hair":",",
+            "dress":",",
         },
     ),
     "iroha_blue archive_PONY_epoch-000020": (

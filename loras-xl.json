@@ -1,5 +1,5 @@
 {
-    "sdxl_lightning_lora": (        0.250,
+    "sdxl_lightning_lora": (        0.0,
         [
             "sdxl_lightning_8step_lora",
         ],

@@ -36,10 +36,10 @@
     "lorasMaxCnt":4,
     "sampler_name": [
         "euler", "euler_ancestral", "heunpp2","dpm_2", "dpm_2_ancestral",
-         "dpm_fast", "dpm_adaptive", "dpmpp_2s_ancestral", "dpmpp_sde",          
+          "dpm_adaptive", "dpmpp_2s_ancestral", "dpmpp_sde",          
         "ddpm",  "ddim", 
     ],
-	#"dpmpp_sde_gpu","dpmpp_2m_sde_gpu", "dpmpp_3m_sde_gpu", "dpmpp_3m_sde","lms","uni_pc", "uni_pc_bh2" "lcm",  "dpmpp_2m", "dpmpp_2m_sde",  "heun",
+	#"dpmpp_sde_gpu","dpmpp_2m_sde_gpu", "dpmpp_3m_sde_gpu", "dpmpp_3m_sde","lms","uni_pc", "uni_pc_bh2" "lcm",  "dpmpp_2m", "dpmpp_2m_sde",  "heun","dpm_fast",
     "scheduler": [
         "normal", "karras", "exponential",  "simple", ],
 		#"sgm_uniform","ddim_uniform"
