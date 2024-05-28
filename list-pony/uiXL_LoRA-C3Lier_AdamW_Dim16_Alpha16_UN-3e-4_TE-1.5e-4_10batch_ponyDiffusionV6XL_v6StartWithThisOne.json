@@ -1,0 +1,5 @@
+{
+    "loras": {
+        "1": "uiXL_LoRA-C3Lier_AdamW_Dim16_Alpha16_UN-3e-4_TE-1.5e-4_10batch_ponyDiffusionV6XL_v6StartWithThisOne",
+    }
+}

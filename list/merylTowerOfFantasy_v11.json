@@ -1,8 +1,5 @@
 {
-    "positive": {
-        "char":" <lora:merylTowerOfFantasy_v11:__0.75__:1.0>, sakura_\(japan\),",
-        "hair":"long hair, silver_hair, very_long_hair, bangs,",
-        #"dress":"{__Marianne_Vi_Britannia_dress__,|}",
-        #"style":"cardcaptor sakura \(style\), ",
-    },
+    "loras": {
+        "1": "merylTowerOfFantasy_v11",
+    }
 }

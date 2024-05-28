@@ -5,12 +5,12 @@
 		"KSampler":{
 			#"steps": 8,
 			"steps_min": 8,
-			"steps_max": 32,
+			"steps_max": 30,
 		},
 		"DetailerForEachDebug":{
             #"steps": 8,
 			"steps_min": 8,
-			"steps_max": 32,
+			"steps_max": 30,
 		},
     },
     "cpu" : {
@@ -47,6 +47,10 @@
         #"isXl":" source_anime,",
     },
     "negative" : {
+		"quality":"",
+		"bad":"",
+		"etc":"",
+		"embedding":"",
         "isXl":"{0-3$$score_6|score_5|score_4},",
         "isXl":"{(score_4,score_3,score_2,score_1)|source_pony, source_furry,},",
 		"isXl":"score_6,score_5,score_4,score_3,score_2,score_1,",
@@ -58,9 +62,9 @@
         "euler", "euler_ancestral",  "heunpp2","dpm_2", 
            "dpmpp_2s_ancestral", "dpmpp_sde", "dpmpp_3m_sde","dpmpp_2m_sde",     
         
-        "ddpm",  "ddim", 
+        "ddpm",  "ddim", "dpmpp_2m",
     ],
-	#"dpmpp_sde_gpu","dpmpp_2m_sde_gpu", "dpmpp_3m_sde_gpu", "lms","uni_pc", "uni_pc_bh2" "lcm", "dpm_fast","dpm_adaptive","dpmpp_2m_sde","dpmpp_2m",     "heun","dpm_2_ancestral",
+	#"dpmpp_sde_gpu","dpmpp_2m_sde_gpu", "dpmpp_3m_sde_gpu", "lms","uni_pc", "uni_pc_bh2" "lcm", "dpm_fast","dpm_adaptive","dpmpp_2m_sde",     "heun","dpm_2_ancestral",
     "scheduler": [
         "normal", "karras",  "simple", "sgm_uniform",
     ],

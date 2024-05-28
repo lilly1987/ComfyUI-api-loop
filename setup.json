@@ -35,14 +35,17 @@
     "lorasUpdatePer":0.750,
     "lorasMaxCnt":4,
     "sampler_name": [
-        "euler", "euler_ancestral", "heunpp2","dpm_2", "dpm_2_ancestral",
-          "dpm_adaptive", "dpmpp_2s_ancestral", "dpmpp_sde",          
+        "euler", "euler_ancestral", "heunpp2",
+		"dpm_2", "dpm_2_ancestral",
+		"dpm_adaptive", 
+		"dpmpp_2s_ancestral", "dpmpp_sde", "dpmpp_2m", "dpmpp_2m_sde",  "dpmpp_3m_sde",   
         "ddpm",  "ddim", 
     ],
-	#"dpmpp_sde_gpu","dpmpp_2m_sde_gpu", "dpmpp_3m_sde_gpu", "dpmpp_3m_sde","lms","uni_pc", "uni_pc_bh2" "lcm",  "dpmpp_2m", "dpmpp_2m_sde",  "heun","dpm_fast",
+	#"dpmpp_sde_gpu","dpmpp_2m_sde_gpu", "dpmpp_3m_sde_gpu", "lms","uni_pc", "uni_pc_bh2" "lcm",  "heun","dpm_fast",
     "scheduler": [
-        "normal", "karras", "exponential",  "simple", ],
-		#"sgm_uniform","ddim_uniform"
+         "karras", 
+	],
+		#"sgm_uniform","ddim_uniform","exponential",  "simple", "normal",
     "textJoin":", ",
     #"seed": 890115323374972,
     "KSampler":{
@@ -241,7 +244,7 @@
         "ankle cuffs":"{3::|ankle cuffs,}",
         #"open_dress":"{(open_dress:1.0), (Undressing:1.1), Nipples, (Pussy:1.1), {(navel:1.0),|}|2::}",
         "exposure":"{(exposure:1.0), breasts exposure, breasts out, nipples exposure, pussy exposure,|breast exposed,breasts exposed,  exposed breasts, exposed pussy,| }, {revealing clothes,|} ",
-        "exposure":"{-3$$(exposure:1.0)| breasts exposure| breasts out| nipples exposure| pussy exposure|breast exposed|breasts exposed|  exposed breasts| exposed pussy }, {revealing clothes,|} ",
+        "exposure":"{1-3$$(exposure:1.0)| breasts exposure| breasts out| nipples exposure| pussy exposure|breast exposed|breasts exposed|  exposed breasts| exposed pussy }, {revealing clothes,|} ",
         "shoulder":"{off shoulder,|} {bare shoulder,|} {Droptop,|} {strapless dress,|} {chest open,|} {See Through,|7::}",
         #"concept":"{3::__concept__,|1::__concept__,__concept__,}  "
         "background":" {simple background ,|} "
@@ -250,9 +253,9 @@
         "quality":"lowres, worst quality, low quality,  from torso down, (monochrome:1.1), zombie , (blurry),  low res, ",
         "view":"(multiple views:1.25), (multiple viewer:1.25),  (cropped:1.25), face only,  lower body,  facial,",
         "bad":" bad anatomy, bad hands,   missing fingers, extra digit, fewer digits, speech bubble, ",
-        "nude":"{2::nude,|}",
+        #"nude":"{2::nude,|}",
         "etc":"ugly face, blurry face, black and white, muscular female , text, sinature, stamp, watermark, error, jpeg artifacts, signature,  username,",
-        "realistic":"{3::realistic,|}",
+        "realistic":"{2::realistic,|}",
         #"smile":"smile,",
         "embedding":"{-4$$embedding:FastNegativeV2.pt|embedding:NGH.safetensors|embedding:bad_prompt_version2-neg.pt|embedding:negative_hand-neg|embedding:nncursedV0-neg.pt|embedding:badquality.pt|embedding:bad-picture-chill-75v.pt|embedding:neg_grapefruit.pt|embedding:ParaNegative.safetensors|embedding:easynegative.safetensors|embedding:EasyNegativeV2.safetensors},",
 		"western":"western,",

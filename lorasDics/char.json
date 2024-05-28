@@ -2581,6 +2581,36 @@
             "dress":"red bowtie,plaid bowtie,black vest,white shirt,collared shirt,large breasts,underbust,puffy short sleeves,suspender skirt,black skirt,plaid skirt,pleated skirt,zettai ryouiki,black thighhighs,loafers,",
         },
     ),
+    "uiXL_LoRA-C3Lier_AdamW_Dim16_Alpha16_UN-3e-4_TE-1.5e-4_10batch_ponyDiffusionV6XL_v6StartWithThisOne": (
+    "uiXL_LoRA-C3Lier_AdamW_Dim16_Alpha16_UN-3e-4_TE-1.5e-4_10batch_ponyDiffusionV6XL_v6StartWithThisOne",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :"shigure ui \(vtuber\), 1girl, virtual youtuber, light brown hair, short hair, french braid, hair rings, green eyes,",
+            "hair":",",
+            #"dress":"Living Doll Maid,",
+        },
+    ),
+    "LivingDollMaid": (
+    "LivingDollMaid",
+        (0.5,1.0),
+        1.0,
+        {
+            #"char" :"luna kindred,",
+            #"hair":",",
+            "dress":"Living Doll Maid,",
+        },
+    ),
+    "virtuosa-arknights_pxl": (
+    "virtuosa-arknights_pxl",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :"virtuosa-arknights,",
+            "hair":",",
+            "dress":"black hair, black thighhighs, black gloves, black skirt, white shirt, very long hair, mole under eye, elbow gloves, multicolored hair, garter straps, capelet, detached wings, black ascot, pleated skirt, black eyes, blunt bangs,",
+        },
+    ),
     "luna_kindred_sdxl_v2": (
     "luna_kindred_sdxl_v2",
         (0.5,1.0),
@@ -2631,6 +2661,16 @@
             #"dress":",",
         },
     ),
+    "SunnyRanker-10": (
+    "SunnyRanker-10",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :"SunnyRanker, 1girl, short hair, black gloves, cleavage, medium breasts, pink hair, black gloves, belt, pink eyes, brown cloak,,",
+            "hair":",",
+            "dress":",",
+        },
+    ),
     "Koizumi-Yuka-XL-10": (
     "Koizumi-Yuka-XL-10",
         (0.5,1.0),
@@ -2638,6 +2678,16 @@
         {
             "char" :"koizumiyuka,",
             "hair":",",
+            #"dress":",",
+        },
+    ),
+    "merylTowerOfFantasy_v11": (
+    "merylTowerOfFantasy_v11",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :"sakura_\(japan\),",
+            "hair":"long hair, silver_hair, very_long_hair, bangs,",
             #"dress":",",
         },
     ),
@@ -3509,17 +3559,16 @@
         ],
 	),
 	"yor briar s1-lyco-nochekaiser": (
-		"yor briar s1-lyco-nochekaiser",
-		(0.75,1.0),
-		(1.0,1.25),
+	"yor briar s1-lyco-nochekaiser",
+		(0.25,1.0),
+		(0.5,1.0),
 		{
 			"char":"yor briar, (red eyes:1.5), earrings, gold hairband, hairband, ",
 			"hair":"black_hair, long hair, sidelocks, ",
 			"dress":"{bare shoulders, collarbone, dress, long sleeves, off shoulder, off-shoulder dress, off-shoulder sweater, pantyhose, red sweater, sweater, sweater dress, thighs,|__dress_set__}",
 		},
 		{},
-		["rnd",
-
+		[
  "SD-ALL"    ,
  #"SD-INS"    ,
 # "SD-INALL"  ,
@@ -3527,8 +3576,8 @@
  "SD-MIDD"   ,
  "SD-MIDD1"  ,
  "SD-MIDD2"  ,
- "SD-MIDD0.8",
- "SD-MIDD0.2",
+ #"SD-MIDD0.8",
+ #"SD-MIDD0.2",
  "SD-MOUT"   ,
  #"SD-OUTD"   ,
  "SD-OUTS"   ,
@@ -3536,7 +3585,7 @@
  #"SD-ROUT"   ,
  "SD-AOUT"   ,
  "SD-AB" 	,
- "SD-ALL0.5" ,
+ #"SD-ALL0.5" ,
         ],
 	),
 	"Bea-10": (
@@ -4047,7 +4096,7 @@
 	),
 	"JiaranDianaLoraASOUL_v20SingleCostume": (
 	"JiaranDianaLoraASOUL_v20SingleCostume",
-		(0.75,1.0),
+		(0.25,1.0),
 		1.0,
 		{
 			"char":"jiaran,blue eyes, ",
