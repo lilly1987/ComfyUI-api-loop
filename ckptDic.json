@@ -217,6 +217,26 @@
 		],
 		"SaveImage2":true,
 	},
+	"unyverse_v10" : {
+		"cfg" : 7.0,
+		"KSampler":{
+			"steps": 30,
+		},
+		"DetailerForEachDebug":{
+			"steps": 30,
+		},
+		"positive" : {
+			"style":"realistic,",
+		},
+		"negative" : {
+			"style":"",
+		},
+		"sampler_name": [
+			 "euler_ancestral",  
+		],
+		#"SaveImage2":true,
+		"stop_at_clip_layer": -2,
+	},
 	"raenaXL_v10" : {
 		"cfg" : 7.0,
 		"KSampler":{
@@ -236,13 +256,81 @@
 		],
 		#"SaveImage2":true,
 	},
+	"pppAnimix_basic32ti" : {
+		"cfg_min" : 2.0,
+		"cfg_max" : 6.0,
+		"KSampler":{
+			"steps_min": 30,
+			"steps_max": 60,
+		},
+		"DetailerForEachDebug":{
+			"steps_min": 30,
+			"steps_max": 60,
+		},
+	},
+	"classicAnime_v23" : {
+		"KSampler":{
+			"steps_min": 30,
+			"steps_max": 60,
+		},
+		"DetailerForEachDebug":{
+			"steps_min": 30,
+			"steps_max": 60,
+		},
+	},
+	"aquamarineXL_v10" : {
+		"cfg_min" : 6.5,
+		"cfg_max" : 8.5,
+		"KSampler":{
+			"steps_min": 15,
+			"steps_max": 20,
+		},
+		"DetailerForEachDebug":{
+			"steps_min": 15,
+			"steps_max": 20,
+		},
+		"positive" : {
+			#"isXl":"score_9, ,",
+		},
+		"negative" : {
+			#"isXl":" ,",
+		},
+		"sampler_name": [
+			 "dpmpp_2m",  
+		],
+		"SaveImage2":true,
+	},
+	"aniease_v22" : {
+		"cfg_min" : 5.0,
+		"cfg_max" : 7.0,
+		"KSampler":{
+			"steps_min": 25,
+			"steps_max": 30,
+		},
+		"DetailerForEachDebug":{
+			"steps_min": 25,
+			"steps_max": 30,
+		},
+		"positive" : {
+			#"isXl":"score_9, ,",
+		},
+		"negative" : {
+			"isXl":" lowres, (bad), text, error, fewer, extra, missing, worst quality, jpeg artifacts, low quality, watermark, unfinished, displeasing, oldest, early, chromatic aberration, signature, watermark, artistic error, username, scan, [abstract], realistic, 3d,",
+		},
+		"sampler_name": [
+			 "euler_ancestral",  
+		],
+		"SaveImage2":true,
+	},
 	"hassakuXLHentai_v12" : {
 		"cfg" : 7.0,
 		"KSampler":{
-			"steps": 20,
+			"steps_min": 20,
+			"steps_max": 30,
 		},
 		"DetailerForEachDebug":{
-			"steps": 20,
+			"steps_min": 20,
+			"steps_max": 30,
 		},
 		"positive" : {
 			"isXl":"score_9, ,",
@@ -254,6 +342,30 @@
 			 "euler_ancestral",  
 		],
 		"SaveImage2":true,
+	},
+	"pppanimeNSFW_pppanimeNsfw" : {
+		"cfg" : 7.0,
+		"KSampler":{
+			"steps": 30,
+		},
+		"DetailerForEachDebug":{
+			"steps": 30,
+		},
+		"sampler_name": [
+			"dpmpp_2m",
+		],
+	},
+	"coharumix_nsfw" : {
+		"cfg" : 7.0,
+		"KSampler":{
+			"steps": 20,
+		},
+		"DetailerForEachDebug":{
+			"steps": 20,
+		},
+		"sampler_name": [
+			"euler_ancestral",
+		],
 	},
 	"animagineXLV31_v31" : {
 		"cfg" : 7.0,
@@ -290,6 +402,25 @@
 		"sampler_name": [
 			"euler",
 		],
+	},
+	"reweikPonyxl_v011" : {
+		"cfg" : 7.0,
+		"KSampler":{
+			"steps": 30,
+		},
+		"DetailerForEachDebug":{
+			"steps": 30,
+		},
+		"positive" : {
+			"isXl":"score_9, score_8_up, score_7_up,,",
+		},
+		"negative" : {
+			"isXl":"source_pony, source_furry,",
+		},
+		"sampler_name": [
+			 "euler_ancestral",  
+		],
+		"stop_at_clip_layer": -2,
 	},
 	"3x3mixxltypeb_v01" : {
 		"cfg" : 7.0,
@@ -355,6 +486,43 @@
 		"stop_at_clip_layer_max": -1,
 	},
 	"angelbreed_TsurimeV40" : {
+		"cfg" : 7.0,
+		"KSampler":{
+			"steps": 30,
+		},
+		"DetailerForEachDebug":{
+			"steps": 30,
+		},
+		"negative" : {
+			"ckpt":"bad face,",
+		},
+		"sampler_name": [
+			"dpmpp_2m_sde",  "dpmpp_3m_sde",
+		],
+		"scheduler": ["karras", ],
+		"stop_at_clip_layer_min": -2,
+		"stop_at_clip_layer_max": -1,
+	},
+	"fluffybreed_v20" : {
+		"cfg_min" : 7.0,
+		"cfg_max" : 10.0,
+		"KSampler":{
+			"steps": 30,
+		},
+		"DetailerForEachDebug":{
+			"steps": 30,
+		},
+		"negative" : {
+			"ckpt":"bad face,",
+		},
+		"sampler_name": [
+			"dpmpp_2m_sde",  "dpmpp_3m_sde",
+		],
+		"scheduler": ["karras", ],
+		"stop_at_clip_layer_min": -2,
+		"stop_at_clip_layer_max": -1,
+	},
+	"sylphbreed_v11" : {
 		"cfg" : 7.0,
 		"KSampler":{
 			"steps": 30,
@@ -521,6 +689,29 @@
 		],
 		"SaveImage2":true,
 	},
+	"tPonynai3_v4" : {
+		"cfg_min": 6.0,
+		"cfg_max": 8.0,
+		"KSampler":{
+				"steps_min": 20,
+				"steps_max": 30,
+		},
+		"DetailerForEachDebug":{
+				"steps_min": 20,
+				"steps_max": 30,
+		},
+		"positive" : {
+			"isXl":"(score_9,score_8_up,score_7_up,score_6_up,score_5_up,score_4_up),",
+		},
+		"negative" : {
+			"isXl":" (score_4,score_3,score_2,score_1),worst quality, bad hands, bad feet,",
+		},
+		"sampler_name": [
+			 "euler_ancestral",  
+		],
+		"SaveImage2":true,
+		"stop_at_clip_layer": -2,
+	},
 	"raemoraXL_v10" : {
 		"cfg_min": 6.0,
 		"cfg_max": 8.0,
@@ -646,9 +837,22 @@
 	"autismmixSDXL_autismmixConfetti" : {
 		"cfg_min": 7.0,
 		"cfg_max": 8.0,
+		"KSampler":{
+			"steps": 28,
+		},
+		"DetailerForEachDebug":{
+			"steps": 28,
+		},
 		"positive" : {
 			"isXl":"BREAK score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, source_anime, BREAK",
 		},
+		"sampler_name": [
+			"dpmpp_2m_sde",     
+		],
+		"scheduler": [
+			"karras", 
+		],
+		"SaveImage2":true,
 	},
 	"novaAnime_v10" : {
 		"cfg_min": 5.0,
@@ -754,6 +958,25 @@
 			"embedding":"embedding:easynegative.safetensors,",
 		},
 	},
+	"wisteriamix_v10" : {
+		"cfg" : 7.0,
+		#"stop_at_clip_layer": -2,
+		"KSampler":{
+			"steps_min": 20,
+			"steps_max": 20,
+		},
+		"DetailerForEachDebug":{
+			"steps_min": 20,
+			"steps_max": 20,
+		},
+		"sampler_name": [
+			"dpmpp_2m",
+		],
+		"scheduler": [
+			"karras",
+		],
+		"SaveImage2":true,
+	},
 	"animeconfettitunexl_moreconfettialphates" : {
 		"cfg" : 7.0,
 		#"stop_at_clip_layer": -2,
@@ -797,13 +1020,9 @@
 		"stop_at_clip_layer": -2,
 		"KSampler":{
 			"steps": 25,
-			"steps_min": 24,
-			"steps_max": 30,
 		},
 		"DetailerForEachDebug":{
 			"steps": 20,
-			"steps_min": 8,
-			"steps_max": 32,
 		},
 		"positive" : {
 			"isXl":"score_9, score_8_up, source_anime,",
@@ -811,7 +1030,7 @@
 		"negative" : {
 			"isXl":"source_pony, source_cartoon, source_furry, score_6_up, score_5_up, score_4_up, AissistXLv2-safe, 3d, realistic,",
 		},
-		"SaveImage2":false,
+		"SaveImage2":true,
 	},
 
 

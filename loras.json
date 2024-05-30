@@ -1,10 +1,10 @@
 {
-    "Pussy": (        0.10,
+    "Pussy": (        0.010,
         [
             "dikkosPrefectPussy_v10",
         ],
     ),
-    "STYLE": (        0.10,
+    "STYLE": (        0.010,
         [
             "LoCon_ARTSTYLE_Nixeu_ownwaifu",
         ],
@@ -71,7 +71,7 @@
             "ahegao_v2.5",
         ],
     ),
-    "microwaist": (        0.125,
+    "microwaist": (        0.0125,
         [
             "microwaist",
             "microwaistV05",
@@ -79,7 +79,7 @@
             "microwaist 0.3 Anime Lora",
         ],
     ),
-    "transformation": (        0.125,
+    "transformation": (        0.0125,
         [
             #"mermaid",
             "transformation",
@@ -101,7 +101,7 @@
             "hang",
         ],
     ),
-    "obp": (        0.125,
+    "obp": (        0.0125,
         [
             "obp-000050",
         ],
@@ -111,7 +111,7 @@
             "vibrator_in_thighhighs",
         ],
     ),
-    "Insertion": (        0.125,
+    "Insertion": (        0.0125,
         [
             "LargeInsertion-v1",
             "ridingDildoSexActLora_v11",
@@ -149,7 +149,7 @@
             "Armbinder",
         ],
     ),
-    "fellatio": (        0.125,
+    "fellatio": (        0.0125,
         [   
             "GloryHolev2 1024-000048",
             "side-deepthroat-v3-wasabiya",
@@ -173,7 +173,9 @@
             "sandwiched",
             "1734621166247782126",
             "NSFWTentaclesLora_v2Epochs20",
-            "VG2",
+            "1749835231017656542",
+            "haraboko_v4",
+            #"VG2",
             "implied_sex_v1",
             "aki",
             "aki-000012",

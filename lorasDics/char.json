@@ -467,7 +467,7 @@
         {
             "char" :"BREAK emilia_krt_girls, 1girl,  long hair, blonde hair, hair ornament, ribbon, twintails, green eyes, hair ribbon, hairclip, black ribbon, low twintails, BREAK ",
             "hair":",",
-            "dress":"BREAK skirt, shirt, gloves, long sleeves, hat, standing, jacket, pantyhose, necktie, shoes, striped, white gloves, miniskirt, uniform, blue skirt, black pantyhose, blue jacket, armband, blue headwear, pencil skirt, blue necktie, striped necktie, BREAK",
+            "dress":"{BREAK skirt, shirt, gloves, long sleeves, hat, standing, jacket, pantyhose, necktie, shoes, striped, white gloves, miniskirt, uniform, blue skirt, black pantyhose, blue jacket, armband, blue headwear, pencil skirt, blue necktie, striped necktie, BREAK|__dress__}",
         },
     ),
     "Kongou_Aoki": (
@@ -1477,14 +1477,14 @@
         (0.25,1.0),
         (0.25,1.0),
         {
-            "char" :" BREAK ANIME_Judy_CowboyBebop_ownwaifu, blonde hair, long hair, hat, breasts, earrings, jewelry, blue eyes, medium breasts, cowboy shot, scarf, lipstick, makeup, lips, red lips, red scarf, belt, open clothes, navel, skirt, jacket, cowboy western, no bra, miniskirt, coat, open shirt, cleavage, holster, BREAK ",
-            #"hair":"long hair,",
-            #"dress":"{bare shoulders, collarbone, dress, long sleeves, off shoulder, off-shoulder dress, off-shoulder sweater, pantyhose, red sweater, sweater, sweater dress, thighs,|__dress_set__}",
+            "char" :"  ANIME_Judy_CowboyBebop_ownwaifu, blonde hair, long hair, hat, breasts, earrings, jewelry, blue eyes, medium breasts, scarf, lipstick, makeup, lips, red lips, red scarf, belt, open clothes, navel, skirt, jacket, {cowboy western,|} no bra, miniskirt, coat, open shirt, cleavage, ",
+            "hair":"long hair,",
+            "dress":"",
         },
     ),
     "yurisa chan_v1": (
-        "yurisa chan_v1",
-        (0.825,1.0),
+	"yurisa chan_v1",
+        (0.25,1.0),
         1.0,
         {
             "char" :"yurisa_chan,",
@@ -1574,7 +1574,7 @@
     ),
     "shadowverseResplendent_resplendentPhoenixV1": (
 	"shadowverseResplendent_resplendentPhoenixV1",
-        (0.875,1.0),
+        (0.5,1.0),
 		1.0,
         {
             "char":"feiji," ,
@@ -1582,8 +1582,8 @@
         },
     ),
     "유사 코즈에": (
-        "유사 코즈에",
-        (0.875,1.0),
+	"유사 코즈에",
+        (0.5,1.0),
 		1.0,
         {
             "char":"long_hair, blonde_hair, twintails, green_eyes, low_twintails," ,
@@ -1591,8 +1591,8 @@
         },
     ),
     "daidoujiTomoyo_v01": (
-        "daidoujiTomoyo_v01",
-        (0.875,1.0),
+	"daidoujiTomoyo_v01",
+        (0.5,1.0),
 		1.0,
         {
             "char":"daidouji tomoyo,",
@@ -2671,6 +2671,126 @@
             "dress":",",
         },
     ),
+    "debora-pdxl-nvwls-v1": (
+    "debora-pdxl-nvwls-v1",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :"dqdebora, black hair,",
+            "hair":",",
+            #"dress":"hair rose, multiple hair flowers, necklace, pink dress, sleeveless, frills, cleavage, belt, bracelet,",
+        },
+    ),
+    "kotone.pony": (
+    "kotone.pony",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :"kotone,",
+            #"hair":",",
+            #"dress":",",
+        },
+    ),
+    "midori-default_blue archive_PONY_last": (
+    "midori-default_blue archive_PONY_last",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :"midori-default,midori \(blue archive\),green eyes,blonde hair,halo,blue hair ribbon,animal ear headphones, tail,multicolored jacket,wide sleeves,white shirt, blue necktie, shorts,black thighhighs,green footwear,",
+            "hair":",",
+            "dress":",",
+        },
+    ),
+    "midori-maid_blue archive_PONY_epoch-000020": (
+    "midori-maid_blue archive_PONY_epoch-000020",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :"midori-maid, short ponytail,midori \(blue archive\),green eyes,blonde hair,halo,blue hair ribbon,animal ear headphones, tail,headdress, black dress,frilled apron,white pantyhose,black footwear,",
+            "hair":",",
+            "dress":",",
+        },
+    ),
+    "momoi-default_blue archive_PONY_last": (
+    "momoi-default_blue archive_PONY_last",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :"momoi-default,momoi \(blue archive\),pink eyes,blonde hair,halo,animal ear headphones, tail,jacket front red bow,multicolored jacket,wide sleeves,white shirt,blue necktie, pleated skirt,black thighhighs,pink footwear,",
+            "hair":",",
+            "dress":",",
+        },
+    ),
+    "midori-maid_blue archive_PONY_epoch-000020": (
+    "midori-maid_blue archive_PONY_epoch-000020",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :"momoi-shirt,momoi \(blue archive\),pink eyes,blonde hair,halo,animal ear headphones, tail,white shirt,long sleeves,suspenders,blue necktie,pleated skirt,black thighhighs,",
+            "hair":",",
+            "dress":",",
+        },
+    ),
+    "patricia_abelheim_PONY_v1": (
+    "patricia_abelheim_PONY_v1",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :"patricia_abelheim, multicolored hair, twintails, dress, ribbon, bow, black skirt, sailor collar, white thighhighs, pink jacket,,",
+            "hair":",",
+            "dress":",",
+        },
+    ),
+    "amamiya-yuuko-xl-03": (
+    "amamiya-yuuko-xl-03",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :"amamiya yuuko, yuuko hair ribbon,",
+            "hair":",",
+            #"dress":",",
+        },
+    ),
+    "Fake-Nakano-Rena-2-10": (
+    "Fake-Nakano-Rena-2-10",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :"fakenakanorena,pink hair, parted bangs, very long hair, sidelocks, purple eyes,",
+            "hair":",",
+            "dress":"sun hat, hat ribbon, purple ribbon, white headwear, white coat, fur-trimmed coat, fur trim, long sleeves,",
+        },
+    ),
+    "Edel_PONY_from_Sousou_no_Frieren": (
+    "Edel_PONY_from_Sousou_no_Frieren",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :"Edel , light brown hair, bob hair, splashed hair tips, center part bangs, brown eyes, slant eyes, droopy eyes,,",
+            "hair":",",
+            "dress":"white one-piece, white mini skirt one-piece,  white one-piece dress, puffy sleeves, short sleeves, black thighhigh boots,,",
+        },
+    ),
+    "Amor_Caren_Hortensia_XL": (
+    "Amor_Caren_Hortensia_XL",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :"long hair, grey hair, yellow eyes, ,",
+            "hair":",",
+            #"dress":",",
+        },
+    ),
+    "hikiwari-10": (
+    "hikiwari-10",
+        (0.5,1.0),
+        1.0,
+        {
+            #"char" :",",
+            #"hair":",",
+            #"dress":",",
+        },
+    ),
     "Koizumi-Yuka-XL-10": (
     "Koizumi-Yuka-XL-10",
         (0.5,1.0),
@@ -3388,7 +3508,7 @@
 	),
 	"ShiLuHonkai": (
 	"ShiLuHonkai",
-		(0.75,1.0),
+		(0.5,1.0),
 		1.0,
 		{
 		"char":"ShiLuHonkai,  grey eyes,",
@@ -3964,7 +4084,7 @@
         ],
 	),
 	"weiss_schnee-10": (
-		"weiss_schnee-10",
+	"weiss_schnee-10",
 		(0.75,1.0),
 		1.0,
 		{
@@ -3974,6 +4094,8 @@
 		},
         {},
         [
+        "SD-ALL"    ,
+        "SD-ALL"    ,
         "SD-ALL"    ,
         #"SD-INS"    ,
         "SD-INALL"  ,
@@ -4562,12 +4684,12 @@
 	),
     "Kyoker DEF3-000009": (
     "Kyoker DEF3-000009",
-        (0.75,1.0),
-        (0.75,1.0),
+        (0.5,1.0),
+        (0.5,1.0),
         {
-            "char":"Kyoker, single side braid,  purple eyes,  black gloves, purple jacket, brown necktie, white shirt, purple skirt,  ",
+            "char":"Kyoker, single side braid,  purple eyes,   ",
             "hair":",",
-            "dress":",",
+            "dress":"{ black gloves, purple jacket, brown necktie, white shirt, purple skirt,|__dress__},",
         },
 	),
     "kazusa": (
@@ -4612,7 +4734,7 @@
 	),
     "Lapis": (
     "Lapis",
-        (0.75,1.0),
+        (0.5,1.0),
         (0.75,1.0),
         {
             "char":"Lapis Rosenberg,  ",

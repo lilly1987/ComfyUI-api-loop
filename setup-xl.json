@@ -4,13 +4,13 @@
     "cuda" : {
 		"KSampler":{
 			#"steps": 8,
-			"steps_min": 8,
-			"steps_max": 30,
+			"steps_min": 20,
+			"steps_max": 40,
 		},
 		"DetailerForEachDebug":{
             #"steps": 8,
-			"steps_min": 8,
-			"steps_max": 30,
+			"steps_min": 20,
+			"steps_max": 40,
 		},
     },
     "cpu" : {
