@@ -567,8 +567,8 @@
     ),
     "北境夜雪-Blue dress lolitaV1.4": (
         "北境夜雪-Blue dress lolitaV1.4",
-        (0.75,1.25),
-        (0.75,1.25),
+        (0.75,1.0),
+        (0.75,1.0),
         {
             "char" :" bjyx,, ",
             #"hair":"long hair, blonde hair,twintails ,",
@@ -577,8 +577,8 @@
     ),
     "Nunnally Vi Britannia(cg)": (
     "Nunnally Vi Britannia(cg)",
-        (0.75,1.25),
-        (0.75,1.25),
+        (0.75,1.0),
+        (0.75,1.0),
         {
             "char" :"Nunnally Vi Britannia,",
             "hair":"very long hair,brown hair,wavy hair,hair intakes,sidelocks,parted bangs,purple eyes,",
@@ -587,8 +587,8 @@
     ),
     "Char-Genshin-Furina-v2": (
     "Char-Genshin-Furina-v2",
-        (0.75,1.25),
-        (0.75,1.25),
+        (0.75,1.0),
+        (0.75,1.0),
         {
             "char" :"{furina \(genshin impact\), heterochromia, mismatched gloves, top hat, blue jacket, ascot, waist bow, short shorts, thigh strap, high heels, frilled socks, waist cape,|focalors \(genshin impact\), heterochromia, anklet, evening gown, long dress, juliet sleeves, bridal gauntlets, barefoot}",
             "hair":",",
@@ -1862,16 +1862,16 @@
 	#"SD-ALL0.5" ,
 	],
 	),
-        "Chitose_V6": (
-            "Chitose_V6-E10_(SetoYuuki)",
-            (0.5,1.0),
-            1.0,
-            {
-        "char":" chitoseni,  ",
-        "hair":"long hair,",
-        #"dress": " white dress, cleavage, bare shoulders,",
-            },
-        ),
+	"Chitose_V6": (
+	"Chitose_V6-E10_(SetoYuuki)",
+		(0.25,1.0),
+		1.0,
+		{
+			"char":" chitoseni,  ",
+			"hair":"long hair,",
+			#"dress": " white dress, cleavage, bare shoulders,",
+		},
+	),
 	"TokisakiKurumi-10": (
 		"TokisakiKurumi-10",
 		(0.75,1.0),
@@ -2781,6 +2781,102 @@
             #"dress":",",
         },
     ),
+    "Char-Genshin-Sigewinne-V1": (
+    "Char-Genshin-Sigewinne-V1",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :"sigewinne \(genshin impact\),",
+            "hair":"low twintails,,",
+            "dress":" animal ears, white gloves, red bowtie, nurse cap, aqua dress, white apron, heart-shaped bag, black shorts, white pantyhose, fold-over boots,",
+        },
+    ),
+    "ElenaPonrV2": (
+    "ElenaPonrV2",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :"1girl,purple eyes,long hair,hair ornament,silver hair,hairband,bare shoulders,strapless,single knee pad,long sleeves,looking at viewer,bangs,sidelocks,standing,puffy sleeves,skirt,covered navel,very long hair,white boots,leotard,thigh strap,small breasts,armor,pauldrons,single earing,clothing cutout,Forehead,standing,,",
+            "hair":",",
+            "dress":",",
+        },
+    ),
+    "Belano": (
+    "Belano",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :"long hair, purple hair, purple eyes, ahoge, white collar, purple vest, white sleeves, bare shoulders, shoulder cutout, pink pleated skirt,",
+            "hair":",",
+            "dress":",",
+        },
+    ),
+    "PinkHairWitchV1": (
+    "PinkHairWitchV1",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :"1girl,gloves,hat,feathers on the hat,white hat,long hair,pink hair,brown hair,hat,hat ornament,blue eyes,leather gloves,pink necktie,long hair,halterneck,expressionless,detached collar,green dress,,thigh strap,breasts,brown hair,multicolored hair,frills,ribbon,bangs,witch,standing,belt,hair ornament,bare shoulders,,",
+            "hair":",",
+            "dress":",",
+        },
+    ),
+    "kuwayama_chiyuki_pony": (
+    "kuwayama_chiyuki_pony",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :"kuwayama_chiyuki, 1girl,breasts,brown_hair,large_breasts,ahoge,long_hair,brown_eyes,braid,cleavage,collarbone,,",
+            #"hair":",",
+            #"dress":",",
+        },
+    ),
+    "Akko": (
+    "Akko",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :"akko,",
+            "hair":",",
+            "view":",",
+            "isXl":",",
+            "dress":"score_9, score_8_up, source_anime, highly detailed, akko, 1girl, hat, red eyes, witch hat, smile, brown hair, luna nova school uniform, long hair, boots, hand on hip, looking at viewer,",
+            
+        },
+        {
+            "quality":"(3d, photo, hyperrealistic, rough sketch:1.1), muscles, censored, (derpibooru_p_low), multiple hands, girl, girls, source_furry, tan, logo, muscular, source_comic,  dark skin,  (tan, muscular),  monochrome, ((text, signature)) low-res, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, artist name,(deformed, distorted, disfigured:1.3), poorly drawn, bad anatomy, wrong anatomy, extra limb, missing limb, floating limbs, (mutated hands and fingers:1.4), disconnected limbs, mutation, mutated, ugly, disgusting, blurry, amputation, foggy, fog,",
+        }
+    ),
+    "lwa_offset": (
+    "lwa_offset",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :"LWA,",
+            #"hair":",",
+            #"dress":",",
+        },
+    ),
+    "ellen": (
+    "ellen",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :"ellen_baker,",
+            #"hair":",",
+            #"dress":",",
+        },
+    ),
+    "Teresa-chan-10": (
+    "Teresa-chan-10",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :"teresa chan,",
+            #"hair":",",
+            #"dress":",",
+        },
+    ),
     "hikiwari-10": (
     "hikiwari-10",
         (0.5,1.0),
@@ -3366,6 +3462,26 @@
         "dress": ",",
 		},
 	),
+	"Anemone - Eureka Seven-000005": (
+	"Anemone - Eureka Seven-000005",
+		(0.5,1.0),
+		(0.5,1.0),
+		{
+		"char":" AnemoneE7, long hair, pink hair, purple eyes, hair ornament, hairclip, collar, choker, neck ring,",
+        "hair":", ",
+        #"dress": ",",
+		},
+	),
+	"caitlin.pony": (
+	"caitlin.pony",
+		(0.5,1.0),
+		(0.5,1.0),
+		{
+		"char":"caitlin,{ bw,| plat,|cos,},",
+        "hair":", ",
+        "dress": ",",
+		},
+	),
 	"shinshuumaru-09": (
 	"shinshuumaru-09",
 		(0.5,1.0),
@@ -3381,10 +3497,13 @@
 		(0.5,1.0),
 		1.0,
 		{
-		"char":"1girl, Diana, multicolored hair, blue eyes, school uniform, socks,{|witch robe, witch hat,}",
-        #"hair":"blonde hair, short hair, ",
-        "dress": " ",
+            "char":"score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, BREAK, 1girl, Diana, multicolored hair, blue eyes, school uniform, socks,{|witch robe, witch hat,}",
+            "hair":" ",
+            "dress": " ",
 		},
+        {
+            "isXl":"poorly drawn, sketch, score_4, score_5, score_6, simple background, censored, lowres, low detail, blurry, watercolor, muscular female, bad anatomy, bad proportions, deformed, deformed anatomy, deformed fingers, watermark",
+        },
 	),
 	"PookyBooVTXL - by KillerUwU13_AI": (
 	"PookyBooVTXL - by KillerUwU13_AI",

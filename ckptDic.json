@@ -278,6 +278,45 @@
 			"steps_max": 60,
 		},
 	},
+	"seasideMix_v10" : {
+		"cfg_min" : 9.0,
+		"cfg_max" : 9.0,
+		"KSampler":{
+			"steps_min": 36,
+			"steps_max": 40,
+		},
+		"DetailerForEachDebug":{
+			"steps_min": 36,
+			"steps_max": 40,
+		},
+		"sampler_name": [
+			 "dpmpp_2m",  
+		],
+		"stop_at_clip_layer": -2,		
+	},
+	"netaArtXL_v10DPO" : {
+		"cfg_min" : 3.0,
+		"cfg_max" : 21.0,
+		"KSampler":{
+			"steps_min": 28,
+			"steps_max": 30,
+		},
+		"DetailerForEachDebug":{
+			"steps_min": 28,
+			"steps_max": 30,
+		},
+		"positive" : {
+			"isXl":", ,",
+		},
+		"negative" : {
+			"isXl":",",
+			"quality":"(worst quality:1.3), low quality, lowres, messy, abstract, ugly, disfigured, bad anatomy, draft, deformed hands, fused fingers, signature, text, multi views ,",
+		},
+		"sampler_name": [
+			 "euler_ancestral",  
+		],
+		"SaveImage2":true,
+	},
 	"aquamarineXL_v10" : {
 		"cfg_min" : 6.5,
 		"cfg_max" : 8.5,
@@ -313,6 +352,7 @@
 		},
 		"positive" : {
 			#"isXl":"score_9, ,",
+			"quality":"masterpiece, best quality,",
 		},
 		"negative" : {
 			"isXl":" lowres, (bad), text, error, fewer, extra, missing, worst quality, jpeg artifacts, low quality, watermark, unfinished, displeasing, oldest, early, chromatic aberration, signature, watermark, artistic error, username, scan, [abstract], realistic, 3d,",
@@ -441,6 +481,58 @@
 		],
 	},
 
+	"hotarubreedTypeA_v80" : {
+		"cfg" : 7.0,
+		"KSampler":{
+			"steps": 50,
+		},
+		"DetailerForEachDebug":{
+			"steps": 50,
+		},
+		"sampler_name": [
+			"dpmpp_3m_sde", 
+		],
+		"scheduler": ["karras", ],
+	},
+	"hotarubreedTypeB_v80" : {
+		"cfg" : 7.0,
+		"KSampler":{
+			"steps": 50,
+		},
+		"DetailerForEachDebug":{
+			"steps": 50,
+		},
+		"sampler_name": [
+			"dpmpp_3m_sde", 
+		],
+		"scheduler": ["karras", ],
+	},
+	"hotarubreedTypeC_v80" : {
+		"cfg" : 7.0,
+		"KSampler":{
+			"steps": 50,
+		},
+		"DetailerForEachDebug":{
+			"steps": 50,
+		},
+		"sampler_name": [
+			"dpmpp_3m_sde", 
+		],
+		"scheduler": ["karras", ],
+	},
+	"hotarubreedTypeF_v80" : {
+		"cfg" : 7.0,
+		"KSampler":{
+			"steps": 50,
+		},
+		"DetailerForEachDebug":{
+			"steps": 50,
+		},
+		"sampler_name": [
+			"dpmpp_3m_sde", 
+		],
+		"scheduler": ["karras", ],
+	},
 	"artemix_l2" : {
 		"cfg" : 7.0,
 		"KSampler":{
@@ -579,14 +671,35 @@
 		],
 		"SaveImage2":true,
 	},
+	"waiCUTE_v20" : {
+		"cfg" : 7.0,
+		"KSampler":{
+				"steps_min": 30,
+				"steps_max": 30,
+		},
+		"DetailerForEachDebug":{
+				"steps_min": 30,
+				"steps_max": 30,
+		},
+		"positive" : {
+			"isXl":"score_9, score_8_up, score_7_up,",
+		},
+		"negative" : {
+			"isXl":"score_6, score_5, score_4, source_cartoon,3d, (censor),monochrome,blurry, lowres,watermark,,",
+		},
+		"sampler_name": [
+			"euler_ancestral",  
+		],
+		"SaveImage2":true,
+	},
 	"waiCUTE_v10" : {
 		"cfg" : 7.0,
 		"KSampler":{
 				"steps_min": 30,
-				"steps_max": 40,
+				"steps_max": 30,
 		},
 		"DetailerForEachDebug":{
-				"steps_min": 20,
+				"steps_min": 30,
 				"steps_max": 30,
 		},
 		"positive" : {
@@ -626,6 +739,27 @@
 		"sampler_name": [
 			"euler_ancestral",   "ddim", "dpmpp_2m",    
 		],
+	},
+	"SDXLAnimePony_beta" : {
+		"cfg" : 8.0,
+		"KSampler":{
+			"steps_min": 20,
+			"steps_max": 30,
+		},
+		"DetailerForEachDebug":{
+			"steps_min": 20,
+			"steps_max": 30,
+		},
+		"positive" : {
+			"isXl":"score_9,score_8_up,score_7_up,score_6_up,masterpiece,best quality,ultra-detailed,very aesthetic,absurdres,,",
+		},
+		"negative" : {
+			"isXl":"score_6,score_5,score_4,(worst quality:1.2),(low quality:1.2),bad hands,missing fingers,three legs,wrong hand,wrong feet,wrong fingers,deformed leg,abnormal,malformation,(bad neck:1.2),(long neck:1.5),,",
+		},
+		"sampler_name": [
+			"euler_ancestral",  
+		],
+		"SaveImage2":true,
 	},
 	"3x3mixxltypea_v01" : {
 		"cfg" : 7.0,
@@ -668,14 +802,32 @@
 		],
 		"stop_at_clip_layer": -2,
 	},
+	"fiamixHNSFW_v50" : {
+		"cfg" : 7.0,
+		"KSampler":{
+			"steps_min": 30,
+			"steps_max": 40,
+		},
+		"DetailerForEachDebug":{
+			"steps_min": 30,
+			"steps_max": 40,
+		},
+		"sampler_name": [
+			"euler",
+		],
+		"scheduler": [
+			"karras", 
+		],
+	},
+	
 	"mklanNSFWANIMEHentai_mklan223hentai" : {
 		#"cfg" : 7.0,
 		"KSampler":{
-			"steps_min": 20,
+			"steps_min": 10,
 			"steps_max": 30,
 		},
 		"DetailerForEachDebug":{
-			"steps_min": 20,
+			"steps_min": 10,
 			"steps_max": 30,
 		},
 		"positive" : {
@@ -686,6 +838,34 @@
 		},
 		"sampler_name": [
 			"dpmpp_2s_ancestral", 
+		],
+		"scheduler": [
+			"karras", 
+		],
+		"SaveImage2":true,
+	},
+
+	"mklanNSFWANIMEHentai_mklan223" : {
+		#"cfg" : 6.0,
+		"KSampler":{
+			"steps_min": 10,
+			"steps_max": 30,
+		},
+		"DetailerForEachDebug":{
+			"steps_min": 10,
+			"steps_max": 30,
+		},
+		"positive" : {
+			"isXl":"score_9,score_8_up,score_7_up,score_6_up,",
+		},
+		"negative" : {
+			"isXl":"(watermark:1.5), (text:1.5),",
+		},
+		"sampler_name": [
+			"dpmpp_2s_ancestral",
+		],
+		"scheduler": [
+			"karras", 
 		],
 		"SaveImage2":true,
 	},
@@ -711,6 +891,52 @@
 		],
 		"SaveImage2":true,
 		"stop_at_clip_layer": -2,
+	},
+	"adamahMixXL_v15" : {
+		"cfg_min": 6.0,
+		"cfg_max": 8.0,
+		"stop_at_clip_layer": -2,
+		"KSampler":{
+				"steps_min": 38,
+				"steps_max": 40,
+		},
+		"DetailerForEachDebug":{
+				"steps_min": 38,
+				"steps_max": 40,
+		},
+		"positive" : {
+			"isXl":"(score_9, score_8_up, score_7_up, score_6_up, source_anime), ",
+		},
+		"negative" : {
+			"isXl":"Photorealistic, monochrome, realistic, simple background,censor,mosaic censoring,(score_3_up, source_furry, source_pony, source_cartoon),",
+			"style":"",
+		},
+		"sampler_name": [
+			 "euler_ancestral",  
+		],
+		"SaveImage2":true,
+	},
+	"raemoraXL_v20" : {
+		"cfg_min": 6.0,
+		"cfg_max": 8.0,
+		"KSampler":{
+				"steps_min": 20,
+				"steps_max": 30,
+		},
+		"DetailerForEachDebug":{
+				"steps_min": 20,
+				"steps_max": 30,
+		},
+		"positive" : {
+			"isXl":"score_9, score_8_up, score_7_up, intricate details,",
+		},
+		"negative" : {
+			"isXl":"score_4_up, score_5_up, score_6_up, lowres, messy drawing, amateur drawing, ugly face, bad face, bad teeth, (interlocked fingers, badly drawn hands and fingers, anatomically incorrect hands, bad anatomy), watermark,",
+		},
+		"sampler_name": [
+			 "euler_ancestral",  
+		],
+		"SaveImage2":true,
 	},
 	"raemoraXL_v10" : {
 		"cfg_min": 6.0,
@@ -771,22 +997,7 @@
 		],
 		"SaveImage2":true,
 	},
-	"mklanNSFWANIMEHentai_mklan223" : {
-		#"cfg" : 6.0,
-		"KSampler":{
-			"steps": 10,
-		},
-		"DetailerForEachDebug":{
-			"steps": 10,
-		},
-		"sampler_name": [
-			"dpmpp_2s_ancestral", "euler", "euler_ancestral", 
-		],
-		"scheduler": [
-			"karras", 
-		],
-		"SaveImage2":true,
-	},
+
 	"omegaPonyXLAnime_v20" : {
 		"cfg" : 6.0,
 		"KSampler":{

@@ -228,7 +228,14 @@ while True:
         lorasDic=dicFilesRead("lorasDics/*.json")
         #print("lorasDics  : ",lorasDic)
         dupdate(setup["lorasDic"],lorasDic)
+        # -------------------------------------------------
         
+        ckptDics=dicFileRead("ckptDic.json")
+        ckptDic=ckptDics.get(ckpt_name)        
+        if ckptDic is not None:
+            dupdate(setup,ckptDic)
+        else:
+            print("[red]ckptDic[/red] : ",ckpt_name)
         # -------------------------------------------------
         lbw=dicFileRead("lbw.json")
         #print("lbw : ",lbw)
@@ -372,14 +379,7 @@ while True:
             #print("prompt : ",prompt)
         
             #dupdate(setup,jitem)
-        # -------------------------------------------------
-        
-        ckptDics=dicFileRead("ckptDic.json")
-        ckptDic=ckptDics.get(ckpt_name)        
-        if ckptDic is not None:
-            dupdate(setup,ckptDic)
-        else:
-            print("[red]ckptDic[/red] : ",ckpt_name)
+
         
         # -------------------------------------------------
         prompt["CheckpointLoaderSimple"]["inputs"]["ckpt_name"]= ckpt_path
@@ -454,7 +454,7 @@ while True:
             sampler_name1=prompt["DetailerForEachDebug"]["inputs"]["sampler_name"]
             scheduler1=prompt["DetailerForEachDebug"]["inputs"]["scheduler"]
             cfg1=round(prompt["DetailerForEachDebug"]["inputs"]["cfg"],2)
-            steps1=(prompt["KSampler"]["inputs"]["steps"])
+            steps1=(prompt["DetailerForEachDebug"]["inputs"]["steps"])
             #prompt["SaveImage2"]["inputs"]["filename_prefix"]= f"{ckpt_name}/{sampler_name1}/{scheduler1}/{cfg1}/{jitem_name}/{ckpt_name}-{sampler_name1}-{scheduler1}-{cfg1}-{jitem_name}-{tm}"
             #tm=time.strftime('%Y%m%d-%H%M%S')
             prompt["SaveImage2"]["inputs"]["filename_prefix"]= f"{ckpt_name}/{jitem_name}/{ckpt_name}-{sampler_name1}-{scheduler1}-{cfg1}-{steps1}-{jitem_name}-{tm}"
@@ -467,20 +467,20 @@ while True:
         s=setup.get("textJoin",", BREAK ")
         type="positiveWildcard"
         promptSetInt(prompt,setup,type,"seed",random.randint(0, 0xffffffffffffffff ))
-        prompt[type]["inputs"]["wildcard_text"]= textJoin(
+        prompt[type]["inputs"]["wildcard_text"]=setup.get("positiveOnly" ,textJoin(
                 setup["positive"],
                 shuffle=setup.get("shufflepositive",setup.get("shuffle",False)),
                 s=s
-        )
+        ))
 
         # -------------------------------------------------
         type="negativeWildcard"
         promptSetInt(prompt,setup,type,"seed",random.randint(0, 0xffffffffffffffff ))
-        prompt[type]["inputs"]["wildcard_text"]= textJoin(
+        prompt[type]["inputs"]["wildcard_text"]= setup.get("negativeOnly" ,textJoin(
                 setup["negative"],
                 shuffle=setup.get("shufflenegative",setup.get("shuffle",False)),
                 s=s
-        )
+        ))
         
         
         # -------------------------------------------------

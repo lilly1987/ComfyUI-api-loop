@@ -951,6 +951,26 @@
 		{},
 		"0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
 	),
+	"extrem insertion_Pony_V1.0": (
+	"extrem insertion_Pony_V1.0",
+		(0.25,0.75),
+		(0.25,0.75),
+		{
+			"insertion_Pony_V1":" extrem insertion, vaginal, stomach bulge,",
+			#"pose":" {from above, kneeling|sitting,|head out of frame, squatting|},",
+		},
+		{},		
+	),
+	"hong_doo": (
+	"hong_doo",
+		(0.25,0.75),
+		(0.25,0.75),
+		{
+			#"Blowjob":" fellatio,",
+			#"pose":" {from above, kneeling|sitting,|head out of frame, squatting|},",
+		},
+		{},		
+	),
 	"Blowjob": (
 	"Blowjob",
 		(0.25,0.75),
@@ -1833,8 +1853,8 @@
 	
 	"sex_toy_transformation":(
 		"sex_toy_transformation",
-		(0.75,01.250),
-		(01.0,1.5),
+		(0.5,01.0),
+		(0.5,01.0),
 		{
 			"body":"BREAK transformation, limbless, armless, legsless, BREAK",
 		},
