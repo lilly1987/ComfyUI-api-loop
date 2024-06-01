@@ -386,145 +386,160 @@ while True:
         if "VAELoader" in prompt:
             prompt["VAELoader"]["inputs"]["vae_name"]= vae_path        
 
-        
-        # -------------------------------------------------
-        scheduler=None
-        if setup.get("scheduler"):
-            scheduler=randList(setup["scheduler"])
-            
-        sampler_name=None
-        if setup.get("sampler_name"):
-            sampler_name=randList(setup["sampler_name"])            
-        
-        #steps=None
-        #if setup.get("steps"):
-        steps=minmax(setup,"steps")
-            
-        #cfg=None
-        #if setup.get("cfg"):
-        cfg=minmaxf(setup,"cfg")
-
-        # -------------------------------------------------
-        type="EmptyLatentImage"
-
-        promptSetInt(prompt,setup,type,"width")
-        promptSetInt(prompt,setup,type,"height")
-        # -------------------------------------------------
-        type="CLIPSetLastLayer"
-
-        promptSetInt(prompt,setup,type,"stop_at_clip_layer")
-        # -------------------------------------------------
-        type="KSampler"
-
-        promptSetInt(prompt,setup,type,"seed",random.randint(0, 0xffffffffffffffff ))
-        promptSetInt(prompt,setup,type,"steps",steps)
-        promptSetUniform(prompt,setup,type,"cfg",cfg)
-        promptSetList(prompt,setup,type,"sampler_name",sampler_name)
-        promptSetList(prompt,setup,type,"scheduler",scheduler)
-
-        
-        # -------------------------------------------------
-        type="DetailerForEachDebug"
-
-        promptSetInt(prompt,setup,type,"seed",random.randint(0, 0xffffffffffffffff ))
-        promptSetInt(prompt,setup,type,"steps",steps)
-        promptSetUniform(prompt,setup,type,"cfg",cfg)
-        promptSetUniform(prompt,setup,type,"denoise")
-        promptSetList(prompt,setup,type,"sampler_name",sampler_name)
-        promptSetList(prompt,setup,type,"scheduler",scheduler)
-
-        
-
-        # -------------------------------------------------
-        # Save_name=f"{ckpt_name}-{time.strftime('%Y%m%d-%H%M%S')}"
-        tm=time.strftime('%Y%m%d-%H%M%S')
-        if setup.get("SaveImage1",True):
-            sampler_name1=prompt["KSampler"]["inputs"]["sampler_name"]
-            scheduler1=prompt["KSampler"]["inputs"]["scheduler"]
-            cfg1=round(prompt["KSampler"]["inputs"]["cfg"],2)
-            steps1=(prompt["KSampler"]["inputs"]["steps"])
-            #tm=time.strftime('%Y%m%d-%H%M%S')
-            prompt["SaveImage1"]["inputs"]["filename_prefix"]= f"{ckpt_name}/{jitem_name}/{ckpt_name}-{sampler_name1}-{scheduler1}-{cfg1}-{steps1}-{jitem_name}-{tm}"
-            print(prompt["SaveImage1"]["inputs"]["filename_prefix"])
-            #print(f"{ckpt_name}-{sampler_name1}-{scheduler1}-{cfg1}-{jitem_name}-{tm}")
-        else:
-            del prompt["SaveImage1"]["inputs"]["images"]
-            
-        if setup.get("SaveImage2",True):
-            sampler_name1=prompt["DetailerForEachDebug"]["inputs"]["sampler_name"]
-            scheduler1=prompt["DetailerForEachDebug"]["inputs"]["scheduler"]
-            cfg1=round(prompt["DetailerForEachDebug"]["inputs"]["cfg"],2)
-            steps1=(prompt["DetailerForEachDebug"]["inputs"]["steps"])
-            #prompt["SaveImage2"]["inputs"]["filename_prefix"]= f"{ckpt_name}/{sampler_name1}/{scheduler1}/{cfg1}/{jitem_name}/{ckpt_name}-{sampler_name1}-{scheduler1}-{cfg1}-{jitem_name}-{tm}"
-            #tm=time.strftime('%Y%m%d-%H%M%S')
-            prompt["SaveImage2"]["inputs"]["filename_prefix"]= f"{ckpt_name}/{jitem_name}/{ckpt_name}-{sampler_name1}-{scheduler1}-{cfg1}-{steps1}-{jitem_name}-{tm}"
-            print(prompt["SaveImage2"]["inputs"]["filename_prefix"])
-            #print(f"{ckpt_name}-{sampler_name1}-{scheduler1}-{cfg1}-{jitem_name}-{tm}")
-        else:
-            del prompt["DetailerForEachDebug"]["inputs"]["image"]
-        
-        # -------------------------------------------------
-        s=setup.get("textJoin",", BREAK ")
-        type="positiveWildcard"
-        promptSetInt(prompt,setup,type,"seed",random.randint(0, 0xffffffffffffffff ))
-        prompt[type]["inputs"]["wildcard_text"]=setup.get("positiveOnly" ,textJoin(
-                setup["positive"],
-                shuffle=setup.get("shufflepositive",setup.get("shuffle",False)),
-                s=s
-        ))
-
-        # -------------------------------------------------
-        type="negativeWildcard"
-        promptSetInt(prompt,setup,type,"seed",random.randint(0, 0xffffffffffffffff ))
-        prompt[type]["inputs"]["wildcard_text"]= setup.get("negativeOnly" ,textJoin(
-                setup["negative"],
-                shuffle=setup.get("shufflenegative",setup.get("shuffle",False)),
-                s=s
-        ))
-        
-        
-        # -------------------------------------------------
-       
-        
-        #prompt["ImpactWildcardEncode2"]["inputs"]["wildcard_text"]= wildcards.process(textJoin(
-        #        setup["negative"],
-        #        shuffle=setup.get("shufflenegative",setup.get("shuffle",False))
-        #    ), prompt["ImpactWildcardEncode2"]["inputs"]["seed"])
-        #    
-        #prompt["ImpactWildcardEncode1"]["inputs"]["wildcard_text"]= wildcards.process(textJoin(
-        #        setup["positive"],
-        #        shuffle=setup.get("shufflepositive",setup.get("shuffle",False))
-        #    ),  prompt["ImpactWildcardEncode1"]["inputs"]["seed"])
-        # -------------------------------------------------
-        
-
-        if setup.get("setup show"):
-            print("setup : ",setup)
-        if setup.get("prompt show"):
-            print("prompt : ",prompt)
-        #print( prompt["ImpactWildcardEncode1"]["inputs"]["seed"])
-        #print( prompt["ImpactWildcardEncode2"]["inputs"]["seed"])
-        #print( prompt["KSampler"]["inputs"]["seed"])
-        #print( prompt["DetailerForEachDebug"]["inputs"]["seed"])
-        #print( prompt["KSampler"]["inputs"]["steps"])
-        #print( prompt["DetailerForEachDebug"]["inputs"]["steps"])
-        #print( prompt["KSampler"]["inputs"]["cfg"])
-        #print( prompt["DetailerForEachDebug"]["inputs"]["cfg"])
-        #print( prompt["KSampler"]["inputs"]["sampler_name"])
-        #print( prompt["DetailerForEachDebug"]["inputs"]["sampler_name"])
-        #print( prompt["KSampler"]["inputs"]["scheduler"])
-        #print( prompt["DetailerForEachDebug"]["inputs"]["scheduler"])
-        
-        # -------------------------------------------------s
         url=setup["url"]
         queue_cnt=setup.get("queue_cnt",1)
+        
+        imagesSaveImage1=prompt["SaveImage1"]["inputs"]["images"]
+        imageDetailerForEachDebug=prompt["DetailerForEachDebug"]["inputs"]["image"]
         for i in range(queue_cnt):
+        
+            # -------------------------------------------------
+            s=setup.get("textJoin",", BREAK ")
+            shuffle=setup.get("shuffle",False)
+            type="positiveWildcard"
+            promptSetInt(prompt,setup,type,"seed",random.randint(0, 0xffffffffffffffff ))
+            prompt[type]["inputs"]["wildcard_text"]=setup.get("positiveOnly" ,textJoin(
+                    setup["positive"],
+                    shuffle=setup.get("shufflepositive",shuffle),
+                    s=s
+            ))
+
+            # -------------------------------------------------
+            type="negativeWildcard"
+            promptSetInt(prompt,setup,type,"seed",random.randint(0, 0xffffffffffffffff ))
+            prompt[type]["inputs"]["wildcard_text"]= setup.get("negativeOnly" ,textJoin(
+                    setup["negative"],
+                    shuffle=setup.get("shufflenegative",shuffle),
+                    s=s
+            ))
+            # -------------------------------------------------
+            scheduler=None
+            if setup.get("scheduler"):
+                scheduler=randList(setup["scheduler"])
+                
+            sampler_name=None
+            if setup.get("sampler_name"):
+                sampler_name=randList(setup["sampler_name"])            
+            
+            #steps=None
+            #if setup.get("steps"):
+            steps=minmax(setup,"steps")
+                
+            #cfg=None
+            #if setup.get("cfg"):
+            cfg=minmaxf(setup,"cfg")
+
+            # -------------------------------------------------
+            type="EmptyLatentImage"
+
+            promptSetInt(prompt,setup,type,"width")
+            promptSetInt(prompt,setup,type,"height")
+            # -------------------------------------------------
+            type="CLIPSetLastLayer"
+
+            promptSetInt(prompt,setup,type,"stop_at_clip_layer")
+            # -------------------------------------------------
+            type="KSampler"
+
+            promptSetInt(prompt,setup,type,"seed",random.randint(0, 0xffffffffffffffff ))
+            promptSetInt(prompt,setup,type,"steps",steps)
+            promptSetUniform(prompt,setup,type,"cfg",cfg)
+            promptSetList(prompt,setup,type,"sampler_name",sampler_name)
+            promptSetList(prompt,setup,type,"scheduler",scheduler)
+
+            
+            # -------------------------------------------------
+            type="DetailerForEachDebug"
+
+            promptSetInt(prompt,setup,type,"seed",random.randint(0, 0xffffffffffffffff ))
+            promptSetInt(prompt,setup,type,"steps",steps)
+            promptSetUniform(prompt,setup,type,"cfg",cfg)
+            promptSetUniform(prompt,setup,type,"denoise")
+            promptSetList(prompt,setup,type,"sampler_name",sampler_name)
+            promptSetList(prompt,setup,type,"scheduler",scheduler)
+
+            if setup.get("setup show"):
+                print("setup : ",setup)
+            if setup.get("prompt show"):
+                print("prompt : ",prompt)
+
+            # -------------------------------------------------
+            # Save_name=f"{ckpt_name}-{time.strftime('%Y%m%d-%H%M%S')}"
+            tm=time.strftime('%Y%m%d-%H%M%S')
+            prompt["SaveImage1"]["inputs"]["images"]=imagesSaveImage1
+            if setup.get("SaveImage1",True):
+                sampler_name1=prompt["KSampler"]["inputs"]["sampler_name"]
+                scheduler1=prompt["KSampler"]["inputs"]["scheduler"]
+                cfg1=round(prompt["KSampler"]["inputs"]["cfg"],2)
+                steps1=(prompt["KSampler"]["inputs"]["steps"])
+                #tm=time.strftime('%Y%m%d-%H%M%S')
+                prompt["SaveImage1"]["inputs"]["filename_prefix"]= f"{ckpt_name}/{jitem_name}/{ckpt_name}-{jitem_name}-{tm}-1-{sampler_name1}-{scheduler1}-{cfg1}-{steps1}"
+                print(prompt["SaveImage1"]["inputs"]["filename_prefix"])
+                #print(f"{ckpt_name}-{sampler_name1}-{scheduler1}-{cfg1}-{jitem_name}-{tm}")                
+            else:
+                del prompt["SaveImage1"]["inputs"]["images"]
+                
+            prompt["DetailerForEachDebug"]["inputs"]["image"]=imageDetailerForEachDebug
+            if setup.get("SaveImage2",True):
+                sampler_name1=prompt["DetailerForEachDebug"]["inputs"]["sampler_name"]
+                scheduler1=prompt["DetailerForEachDebug"]["inputs"]["scheduler"]
+                cfg1=round(prompt["DetailerForEachDebug"]["inputs"]["cfg"],2)
+                steps1=(prompt["DetailerForEachDebug"]["inputs"]["steps"])
+                #prompt["SaveImage2"]["inputs"]["filename_prefix"]= f"{ckpt_name}/{sampler_name1}/{scheduler1}/{cfg1}/{jitem_name}/{ckpt_name}-{sampler_name1}-{scheduler1}-{cfg1}-{jitem_name}-{tm}"
+                #tm=time.strftime('%Y%m%d-%H%M%S')
+                prompt["SaveImage2"]["inputs"]["filename_prefix"]= f"{ckpt_name}/{jitem_name}/{ckpt_name}-{jitem_name}-{tm}-2-{sampler_name1}-{scheduler1}-{cfg1}-{steps1}"
+                print(prompt["SaveImage2"]["inputs"]["filename_prefix"])
+                #print(f"{ckpt_name}-{sampler_name1}-{scheduler1}-{cfg1}-{jitem_name}-{tm}")                
+            else:
+                del prompt["DetailerForEachDebug"]["inputs"]["image"]
+            
+
+            
+            
+            # -------------------------------------------------
+           
+            
+            #prompt["ImpactWildcardEncode2"]["inputs"]["wildcard_text"]= wildcards.process(textJoin(
+            #        setup["negative"],
+            #        shuffle=setup.get("shufflenegative",setup.get("shuffle",False))
+            #    ), prompt["ImpactWildcardEncode2"]["inputs"]["seed"])
+            #    
+            #prompt["ImpactWildcardEncode1"]["inputs"]["wildcard_text"]= wildcards.process(textJoin(
+            #        setup["positive"],
+            #        shuffle=setup.get("shufflepositive",setup.get("shuffle",False))
+            #    ),  prompt["ImpactWildcardEncode1"]["inputs"]["seed"])
+            # -------------------------------------------------
+            
+
+ 
+            #print( prompt["ImpactWildcardEncode1"]["inputs"]["seed"])
+            #print( prompt["ImpactWildcardEncode2"]["inputs"]["seed"])
+            #print( prompt["KSampler"]["inputs"]["seed"])
+            #print( prompt["DetailerForEachDebug"]["inputs"]["seed"])
+            #print( prompt["KSampler"]["inputs"]["steps"])
+            #print( prompt["DetailerForEachDebug"]["inputs"]["steps"])
+            #print( prompt["KSampler"]["inputs"]["cfg"])
+            #print( prompt["DetailerForEachDebug"]["inputs"]["cfg"])
+            #print( prompt["KSampler"]["inputs"]["sampler_name"])
+            #print( prompt["DetailerForEachDebug"]["inputs"]["sampler_name"])
+            #print( prompt["KSampler"]["inputs"]["scheduler"])
+            #print( prompt["DetailerForEachDebug"]["inputs"]["scheduler"])
+            
+            # -------------------------------------------------s
+
+                #promptSetInt(prompt,setup,"KSampler","seed",random.randint(0, 0xffffffffffffffff ))
+                #promptSetInt(prompt,setup,"DetailerForEachDebug","seed",random.randint(0, 0xffffffffffffffff ))
+                #promptSetInt(prompt,setup,"positiveWildcard","seed",random.randint(0, 0xffffffffffffffff ))
+                #promptSetInt(prompt,setup,"negativeWildcard","seed",random.randint(0, 0xffffffffffffffff ))
+                
             print(f"{ckpt_name} ; {ckptCnt}/{ckptMax} ; {jitemCnt}/{jitemMax} ; {queue_cnt-i}/{queue_cnt} ; {vae_name} ; {cuda} ; {jitem_name} ;")
             if setup.get("queue_prompt"):
                 if queue_prompt(prompt,url=url):
                     pass
                     ckptCnt=0
                     jitemCnt=0
+            else:
+                print(f"queue_prompt ;")
     # -------------------------------------------------
     except KeyboardInterrupt:
         print('Interrupted')

@@ -4,13 +4,13 @@
     "cuda" : {
 		"KSampler":{
 			#"steps": 8,
-			"steps_min": 20,
-			"steps_max": 40,
+			"steps_min": 10,
+			"steps_max": 30,
 		},
 		"DetailerForEachDebug":{
             #"steps": 8,
-			"steps_min": 20,
-			"steps_max": 40,
+			"steps_min": 10,
+			"steps_max": 30,
 		},
     },
     "cpu" : {
@@ -37,10 +37,12 @@
     "DetailerForEachDebug":{
 		"steps_min": 8,
 		"steps_max": 16,
+        "denoise_min": 0.40,
+        "denoise_max": 0.6,
     },
     "positive" : {
         "isXl":"score_9, score_7_up, source_anime, anime,",
-		"isXl":"BREAK, score_9, source anime, BREAK, ",
+		"isXl":"{BREAK|3::}, score_9, source anime, {BREAK|3::}, ",
         "isXl":"{score_9, {0-5$$score_8_up|score_7_up|score_6_up|score_5_up|score_4_up}, | score_8, {0-4$$score_7_up|score_6_up|score_5_up|score_4_up}, |} {source_anime,|}",
         "isXl":"score_9, score_8_up, score_7_up, ",
         "style":"source_anime,",
@@ -68,6 +70,10 @@
     "scheduler": [
         "normal", "karras",  "simple", "sgm_uniform",
     ],
-
+	"listMatch": [
+		#"*Cavendish*",
+		"*",
+    ],
+    "SaveImage2":true,
     "SaveImage2":false,
 }

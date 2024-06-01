@@ -2,7 +2,7 @@
     "loras":{
         "char": (
             "celine_(fire_emblem)_v1",
-            (0.75,1.0),
+            (0.5,1.0),
             1.0,
             {
                 "char":"aaceline,  green eyes, ,",

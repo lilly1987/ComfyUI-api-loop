@@ -1,35 +1,5 @@
 {
     "loras":{
-        "char": (
-            "Weiss_RWBY_AnyLora",
-            (0.75,1.0),
-            1.0,
-            {
-                "char":"Weiss_RWBY,  ",
-                "hair":"long hair, white hair, ",
-                #"style":"cardcaptor sakura \(style\), ",
-            },
-	{},
-	[
-	"SD-ALL"    ,
-	#"SD-INS"    ,
-	"SD-INALL"  ,
-	"SD-IND"    ,
-	"SD-MIDD"   ,
-	"SD-MIDD1"  ,
-	"SD-MIDD2"  ,
-	"SD-MIDD0.8",
-	"SD-MIDD0.2",
-	"SD-MOUT"   ,
-	"SD-OUTD"   ,
-	"SD-OUTD"   ,
-	#"SD-OUTS"   ,
-	"SD-OUTALL" ,
-	"SD-ROUT"   ,
-	"SD-AOUT"   ,
-	"SD-AB" 	,
-	"SD-ALL0.5" ,
-	],
-        ),
+        "char": "Weiss_RWBY_AnyLora",
     },
 }
