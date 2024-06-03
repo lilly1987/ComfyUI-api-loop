@@ -463,77 +463,41 @@ while True:
             if setup.get("prompt show"):
                 print("prompt : ",prompt)
 
-            # -------------------------------------------------
-            # Save_name=f"{ckpt_name}-{time.strftime('%Y%m%d-%H%M%S')}"
-            tm=time.strftime('%Y%m%d-%H%M%S')
-            prompt["SaveImage1"]["inputs"]["images"]=imagesSaveImage1
-            if setup.get("SaveImage1",True):
-                sampler_name1=prompt["KSampler"]["inputs"]["sampler_name"]
-                scheduler1=prompt["KSampler"]["inputs"]["scheduler"]
-                cfg1=round(prompt["KSampler"]["inputs"]["cfg"],2)
-                steps1=(prompt["KSampler"]["inputs"]["steps"])
-                #tm=time.strftime('%Y%m%d-%H%M%S')
-                prompt["SaveImage1"]["inputs"]["filename_prefix"]= f"{ckpt_name}/{jitem_name}/{ckpt_name}-{jitem_name}-{tm}-1-{sampler_name1}-{scheduler1}-{cfg1}-{steps1}"
-                print(prompt["SaveImage1"]["inputs"]["filename_prefix"])
-                #print(f"{ckpt_name}-{sampler_name1}-{scheduler1}-{cfg1}-{jitem_name}-{tm}")                
-            else:
-                del prompt["SaveImage1"]["inputs"]["images"]
-                
-            prompt["DetailerForEachDebug"]["inputs"]["image"]=imageDetailerForEachDebug
-            if setup.get("SaveImage2",True):
-                sampler_name1=prompt["DetailerForEachDebug"]["inputs"]["sampler_name"]
-                scheduler1=prompt["DetailerForEachDebug"]["inputs"]["scheduler"]
-                cfg1=round(prompt["DetailerForEachDebug"]["inputs"]["cfg"],2)
-                steps1=(prompt["DetailerForEachDebug"]["inputs"]["steps"])
-                #prompt["SaveImage2"]["inputs"]["filename_prefix"]= f"{ckpt_name}/{sampler_name1}/{scheduler1}/{cfg1}/{jitem_name}/{ckpt_name}-{sampler_name1}-{scheduler1}-{cfg1}-{jitem_name}-{tm}"
-                #tm=time.strftime('%Y%m%d-%H%M%S')
-                prompt["SaveImage2"]["inputs"]["filename_prefix"]= f"{ckpt_name}/{jitem_name}/{ckpt_name}-{jitem_name}-{tm}-2-{sampler_name1}-{scheduler1}-{cfg1}-{steps1}"
-                print(prompt["SaveImage2"]["inputs"]["filename_prefix"])
-                #print(f"{ckpt_name}-{sampler_name1}-{scheduler1}-{cfg1}-{jitem_name}-{tm}")                
-            else:
-                del prompt["DetailerForEachDebug"]["inputs"]["image"]
-            
 
-            
-            
-            # -------------------------------------------------
-           
-            
-            #prompt["ImpactWildcardEncode2"]["inputs"]["wildcard_text"]= wildcards.process(textJoin(
-            #        setup["negative"],
-            #        shuffle=setup.get("shufflenegative",setup.get("shuffle",False))
-            #    ), prompt["ImpactWildcardEncode2"]["inputs"]["seed"])
-            #    
-            #prompt["ImpactWildcardEncode1"]["inputs"]["wildcard_text"]= wildcards.process(textJoin(
-            #        setup["positive"],
-            #        shuffle=setup.get("shufflepositive",setup.get("shuffle",False))
-            #    ),  prompt["ImpactWildcardEncode1"]["inputs"]["seed"])
-            # -------------------------------------------------
-            
-
- 
-            #print( prompt["ImpactWildcardEncode1"]["inputs"]["seed"])
-            #print( prompt["ImpactWildcardEncode2"]["inputs"]["seed"])
-            #print( prompt["KSampler"]["inputs"]["seed"])
-            #print( prompt["DetailerForEachDebug"]["inputs"]["seed"])
-            #print( prompt["KSampler"]["inputs"]["steps"])
-            #print( prompt["DetailerForEachDebug"]["inputs"]["steps"])
-            #print( prompt["KSampler"]["inputs"]["cfg"])
-            #print( prompt["DetailerForEachDebug"]["inputs"]["cfg"])
-            #print( prompt["KSampler"]["inputs"]["sampler_name"])
-            #print( prompt["DetailerForEachDebug"]["inputs"]["sampler_name"])
-            #print( prompt["KSampler"]["inputs"]["scheduler"])
-            #print( prompt["DetailerForEachDebug"]["inputs"]["scheduler"])
-            
-            # -------------------------------------------------s
-
-                #promptSetInt(prompt,setup,"KSampler","seed",random.randint(0, 0xffffffffffffffff ))
-                #promptSetInt(prompt,setup,"DetailerForEachDebug","seed",random.randint(0, 0xffffffffffffffff ))
-                #promptSetInt(prompt,setup,"positiveWildcard","seed",random.randint(0, 0xffffffffffffffff ))
-                #promptSetInt(prompt,setup,"negativeWildcard","seed",random.randint(0, 0xffffffffffffffff ))
-                
+            # -------------------------------------------------                
             print(f"{ckpt_name} ; {ckptCnt}/{ckptMax} ; {jitemCnt}/{jitemMax} ; {queue_cnt-i}/{queue_cnt} ; {vae_name} ; {cuda} ; {jitem_name} ;")
             if setup.get("queue_prompt"):
+                queue_prompt_wait(url=url)
+                
+                # -------------------------------------------------
+                # Save_name=f"{ckpt_name}-{time.strftime('%Y%m%d-%H%M%S')}"
+                tm=time.strftime('%Y%m%d-%H%M%S')
+                prompt["SaveImage1"]["inputs"]["images"]=imagesSaveImage1
+                if setup.get("SaveImage1",True):
+                    sampler_name1=prompt["KSampler"]["inputs"]["sampler_name"]
+                    scheduler1=prompt["KSampler"]["inputs"]["scheduler"]
+                    cfg1=round(prompt["KSampler"]["inputs"]["cfg"],2)
+                    steps1=(prompt["KSampler"]["inputs"]["steps"])
+                    #tm=time.strftime('%Y%m%d-%H%M%S')
+                    prompt["SaveImage1"]["inputs"]["filename_prefix"]= f"{ckpt_name}/{jitem_name}/{ckpt_name}-{jitem_name}-{tm}-1-{sampler_name1}-{scheduler1}-{cfg1}-{steps1}"
+                    print(prompt["SaveImage1"]["inputs"]["filename_prefix"])                    #print(f"{ckpt_name}-{sampler_name1}-{scheduler1}-{cfg1}-{jitem_name}-{tm}")                
+                else:
+                    del prompt["SaveImage1"]["inputs"]["images"]
+                    
+                prompt["DetailerForEachDebug"]["inputs"]["image"]=imageDetailerForEachDebug
+                if setup.get("SaveImage2",True):
+                    sampler_name1=prompt["DetailerForEachDebug"]["inputs"]["sampler_name"]
+                    scheduler1=prompt["DetailerForEachDebug"]["inputs"]["scheduler"]
+                    cfg1=round(prompt["DetailerForEachDebug"]["inputs"]["cfg"],2)
+                    steps1=(prompt["DetailerForEachDebug"]["inputs"]["steps"])
+                    #prompt["SaveImage2"]["inputs"]["filename_prefix"]= f"{ckpt_name}/{sampler_name1}/{scheduler1}/{cfg1}/{jitem_name}/{ckpt_name}-{sampler_name1}-{scheduler1}-{cfg1}-{jitem_name}-{tm}"
+                    #tm=time.strftime('%Y%m%d-%H%M%S')
+                    prompt["SaveImage2"]["inputs"]["filename_prefix"]= f"{ckpt_name}/{jitem_name}/{ckpt_name}-{jitem_name}-{tm}-2-{sampler_name1}-{scheduler1}-{cfg1}-{steps1}"
+                    print(prompt["SaveImage2"]["inputs"]["filename_prefix"])                    #print(f"{ckpt_name}-{sampler_name1}-{scheduler1}-{cfg1}-{jitem_name}-{tm}")               
+                else:
+                    del prompt["DetailerForEachDebug"]["inputs"]["image"]
+                    
+                # -------------------------------------------------                
                 if queue_prompt(prompt,url=url):
                     pass
                     ckptCnt=0

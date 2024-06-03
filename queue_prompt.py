@@ -4,7 +4,7 @@ from ConsoleColor import print, console
 from rich.progress import Progress
 from urllib import request
 
-def queue_prompt(prompt,url="http://127.0.0.1:8288/prompt", max=1):
+def queue_prompt_wait(url="http://127.0.0.1:8288/prompt", max=1):
     try:
         with Progress() as progress:
             
@@ -25,12 +25,23 @@ def queue_prompt(prompt,url="http://127.0.0.1:8288/prompt", max=1):
                 progress.update(task, advance=1)
                 time.sleep(1)
                 
-            p = {"prompt": prompt}
-            data = json.dumps(p).encode('utf-8')
-            req =  request.Request(url, data=data)
+    except Exception as e:     
+        console.print_exception()
+        return True
+    else:
+        return False
+        
+    time.sleep(2)
+    
+def queue_prompt(prompt,url="http://127.0.0.1:8288/prompt", max=1):
+    try:
+        p = {"prompt": prompt}
+        data = json.dumps(p).encode('utf-8')
+        req =  request.Request(url, data=data)
 
         request.urlopen(req)
         print(f"send" )
+        
     except Exception as e:     
         console.print_exception()
         return True

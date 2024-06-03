@@ -337,8 +337,11 @@
 			"steps_max": 60,
 		},
 	},
+	"fluffybreed_DollV30" : {
+	
+	},
 	"seasideMix_v10" : {
-		"cfg_min" : 9.0,
+		"cfg_min" : 3.0,
 		"cfg_max" : 9.0,
 		"KSampler":{
 			"steps_min": 36,
@@ -499,7 +502,8 @@
 		],
 	},
 	"coharumix_nsfw" : {
-		"cfg" : 7.0,
+		"cfg_min": 4.0,
+		"cfg_max": 7.0,
 		"KSampler":{
 			"steps": 20,
 		},
@@ -546,6 +550,25 @@
 			"euler",
 		],
 	},
+	"raemuXL_v35Lightning" : {
+		"cfg" : 2.0,
+		"KSampler":{
+			"steps": 8,
+		},
+		"DetailerForEachDebug":{
+			"steps": 8,
+		},
+		"positive" : {
+			"isXl":"(masterpiece, best quality, very aesthetic, ultra detailed), intricate details ,",
+		},
+		"negative" : {
+			"isXl":"(worst quality, low quality, very displeasing, lowres), (interlocked fingers, badly drawn hands and fingers, anatomically incorrect hands), blurry, watermark,,",
+		},
+		"sampler_name": [
+			 "euler_ancestral",  
+		],
+		#"stop_at_clip_layer": -2,
+	},
 	"reweikPonyxl_v011" : {
 		"cfg" : 7.0,
 		"KSampler":{
@@ -564,6 +587,7 @@
 			 "euler_ancestral",  
 		],
 		"stop_at_clip_layer": -2,
+		"SaveImage2":true,
 	},
 	"3x3mixxltypeb_v01" : {
 		"cfg" : 7.0,
@@ -584,13 +608,56 @@
 		],
 	},
 
-	"hotarubreedTypeA_v80" : {
-		"cfg" : 7.0,
+	"suyuhaOrangeHentai_v10" : {
+		"cfg_min": 5.0,
+		"cfg_max": 7.0,
 		"KSampler":{
-			"steps": 50,
+			#"steps": 50,
+			"steps_min": 25,
+			"steps_max": 30,
 		},
 		"DetailerForEachDebug":{
-			"steps": 50,
+			#"steps": 50,
+			"steps_min": 25,
+			"steps_max": 30,
+		},
+		"sampler_name": [
+			"dpmpp_2m", "euler_ancestral", 
+		],
+		"scheduler": ["karras", ],
+		"stop_at_clip_layer": -2,
+	},
+	"huxian_v1ReplaceClip" : {
+		"cfg_min": 5.0,
+		"cfg_max": 7.0,
+		"KSampler":{
+			#"steps": 50,
+			"steps_min": 20,
+			"steps_max": 30,
+		},
+		"DetailerForEachDebug":{
+			#"steps": 50,
+			"steps_min": 20,
+			"steps_max": 30,
+		},
+		"sampler_name": [
+			"dpmpp_2m", "euler_ancestral", 
+		],
+		"scheduler": ["karras", ],
+		"stop_at_clip_layer": -2,
+	},
+	"hotarubreedTypeA_v80" : {
+		"cfg_min": 2.0,
+		"cfg_max": 7.0,
+		"KSampler":{
+			#"steps": 50,
+			"steps_min": 20,
+			"steps_max": 50,
+		},
+		"DetailerForEachDebug":{
+			#"steps": 50,
+			"steps_min": 20,
+			"steps_max": 50,
 		},
 		"sampler_name": [
 			"dpmpp_3m_sde", 
@@ -598,12 +665,18 @@
 		"scheduler": ["karras", ],
 	},
 	"hotarubreedTypeB_v80" : {
-		"cfg" : 7.0,
+		"cfg_min": 2.0,
+		"cfg_max": 7.0,
+
 		"KSampler":{
-			"steps": 50,
+			#"steps": 50,
+			"steps_min": 20,
+			"steps_max": 50,
 		},
 		"DetailerForEachDebug":{
-			"steps": 50,
+			#"steps": 50,
+			"steps_min": 20,
+			"steps_max": 50,
 		},
 		"sampler_name": [
 			"dpmpp_3m_sde", 
@@ -611,12 +684,18 @@
 		"scheduler": ["karras", ],
 	},
 	"hotarubreedTypeC_v80" : {
-		"cfg" : 7.0,
+		"cfg_min": 2.0,
+		"cfg_max": 7.0,
+
 		"KSampler":{
-			"steps": 50,
+			#"steps": 50,
+			"steps_min": 20,
+			"steps_max": 50,
 		},
 		"DetailerForEachDebug":{
-			"steps": 50,
+			#"steps": 50,
+			"steps_min": 20,
+			"steps_max": 50,
 		},
 		"sampler_name": [
 			"dpmpp_3m_sde", 
@@ -624,12 +703,18 @@
 		"scheduler": ["karras", ],
 	},
 	"hotarubreedTypeF_v80" : {
-		"cfg" : 7.0,
+		"cfg_min": 2.0,
+		"cfg_max": 7.0,
+
 		"KSampler":{
-			"steps": 50,
+			#"steps": 50,
+			"steps_min": 20,
+			"steps_max": 50,
 		},
 		"DetailerForEachDebug":{
-			"steps": 50,
+			#"steps": 50,
+			"steps_min": 20,
+			"steps_max": 50,
 		},
 		"sampler_name": [
 			"dpmpp_3m_sde", 
@@ -700,8 +785,30 @@
 		"stop_at_clip_layer_max": -1,
 	},
 	"fluffybreed_v20" : {
-		"cfg_min" : 7.0,
+		"cfg_min" : 3.0,
 		"cfg_max" : 10.0,
+		"KSampler":{
+			"steps_min": 20,
+			"steps_max": 30,
+		},
+		"DetailerForEachDebug":{
+			"steps_min": 20,
+			"steps_max": 30,
+		},
+		"negative" : {
+			"ckpt":"bad face,",
+		},
+		"sampler_name": [
+			"dpmpp_2m_sde", 
+			#"dpmpp_3m_sde",
+		],
+		"scheduler": ["karras", ],
+		"stop_at_clip_layer_min": -2,
+		"stop_at_clip_layer_max": -1,
+		#"SaveImage2":false,
+	},
+	"deliciousOrange_v10" : {
+		"cfg" : 7.0,
 		"KSampler":{
 			"steps": 30,
 		},
@@ -709,14 +816,14 @@
 			"steps": 30,
 		},
 		"negative" : {
-			"ckpt":"bad face,",
+			"ckpt":"(low quality, worst quality, bad quality), jpeg artifacts, text, logo, furry, signature, username, multiple views, extra mouth, extra tongue, extra teeth, extra ears, extra breasts, extra arms, extra hands, extra legs, extra digits, fewer digits, cropped head, cropped torso, cropped shoulders, cropped arms, cropped legs, mutation, deformed, disfigured, wrong hand, wrong feet, missing limb, missing eye, missing tooth, missing ear, missing finger,",
 		},
 		"sampler_name": [
-			"dpmpp_2m_sde",  "dpmpp_3m_sde",
+			"euler_ancestral", 
 		],
 		"scheduler": ["karras", ],
 		"stop_at_clip_layer_min": -2,
-		"stop_at_clip_layer_max": -1,
+		"stop_at_clip_layer_max": -2,
 	},
 	"sylphbreed_v11" : {
 		"cfg" : 7.0,
@@ -903,7 +1010,8 @@
 		"SaveImage2":true,
 	},
 	"lustermix2d_v10" : {
-		"cfg" : 7.0,
+		"cfg_min": 2.0,
+		"cfg_max": 7.0,
 		"KSampler":{
 				"steps_min": 30,
 				"steps_max": 30,
@@ -1139,6 +1247,29 @@
 			"karras", 
 		],
 		"SaveImage2":true,
+	},
+	"momoiropony_v14" : {
+		"cfg_min": 6.0,
+		"cfg_max": 8.0,
+		"KSampler":{
+				"steps_min": 25,
+				"steps_max": 25,
+		},
+		"DetailerForEachDebug":{
+				"steps_min": 25,
+				"steps_max": 25,
+		},
+		"positive" : {
+			"isXl":"score_9, score_8_up, score_7_up, source_anime, ",
+		},
+		"negative" : {
+			"isXl":"deformed anatomy, deformed fingers, realistic, source_furry, censored, @_@, heart-shaped pupils, abs,",
+		},
+		"sampler_name": [
+			 "euler_ancestral",  
+		],
+		"SaveImage2":true,
+		#"stop_at_clip_layer": -2,
 	},
 	"tPonynai3_v4" : {
 		"cfg_min": 6.0,
@@ -1487,6 +1618,24 @@
 			"karras", 
 		],
 		"SaveImage2":true,
+	},
+	"nobanimemixS2_v10" : {
+		"cfg_min": 6.0,
+		"cfg_max": 8.0,
+		#"stop_at_clip_layer_min": -2,
+		#"stop_at_clip_layer_max": -1,
+		"KSampler":{
+			"steps": 20,
+		},
+		"DetailerForEachDebug":{
+			"steps": 20,
+		},
+		"sampler_name": [
+			"dpmpp_2m",    
+		],
+		"scheduler": [
+			"karras", 
+		],
 	},
 	"novaAnime_v10" : {
 		"cfg_min": 5.0,

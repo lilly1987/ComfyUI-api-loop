@@ -3313,8 +3313,8 @@
 		},
 	),
 	"tohsaka_scarxzys": (
-		"tohsaka_scarxzys",
-		(0.75,1.25),
+	"tohsaka_scarxzys",
+		(0.5,1.0),
 		1.0,
 		{
 			"char" :"{BREAK|3::} rin, blue eyes, brown hair, long hair, two side up, parted bangs, black hair ribbon, {BREAK|3::} ",
@@ -3494,7 +3494,7 @@
 	),
 	"kudeliaLYCORIStest": (
 	"kudeliaLYCORIStest",
-		(0.5,1.0),
+		(0.25,1.0),
 		(0.75,1.0),
 		{
 		"char":"{BREAK|3::}, kudelia aina bernstein, (purple eyes:1.1), long hair, blonde hair, bangs, blunt bangs,ponytail, {BREAK|3::},",
@@ -3504,7 +3504,7 @@
 	),
 	"kudeliaainabernstein-lora-nochekaiser": (
 	"kudeliaainabernstein-lora-nochekaiser",
-		(0.5,1.0),
+		(0.25,1.0),
 		(0.75,1.0),
 		{
 		"char":"{BREAK|3::}, kudelia aina bernstein, (purple eyes:1.1), long hair, blonde hair, bangs, blunt bangs,ponytail, {BREAK|3::},",
@@ -3532,6 +3532,110 @@
         "dress": ",",
 		},
 	),
+	"Yurisa_chan": (
+	"piaolianga",
+		(0.5,1.0),
+		1.0,
+		{
+			#"char":"yurisa,  ",
+			#"hair":"long hair,",
+		},
+		{},
+		[
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		#"SD-INS"    ,
+		#"SD-INALL"  ,
+		#"SD-IND"    ,
+		"SD-MIDD"   ,
+		"SD-MIDD1"  ,
+		"SD-MIDD2"  ,
+		#"SD-MIDD0.8",
+		#"SD-MIDD0.2",
+		"SD-MOUT"   ,
+		"SD-OUTD"   ,
+		#"SD-OUTS"   ,
+		#"SD-OUTALL" ,
+		#"SD-ROUT"   ,
+		"SD-AOUT"   ,
+		"SD-AB" 	,
+		#"SD-ALL0.5" ,
+		],
+	),
+	"Shirobako-Rinko_Ogasawara-PDXL": (
+	"Shirobako-Rinko_Ogasawara-PDXL",
+		(0.5,1.0),
+		1.0,
+		{
+			"char":"Rinko Ogasawara,   ",
+			"hair":"long hair,",
+		},
+	),
+	"Regina": (
+	"Regina",
+		(0.5,1.0),
+		1.0,
+		{
+			"char":"Regina,   ",
+			"hair":"long hair,",
+		},
+	),
+	"性感碧蓝航线能代女仆+美女-000006": (
+	"性感碧蓝航线能代女仆+美女-000006",
+		(0.5,1.0),
+		1.0,
+		{
+			#"char":"yurisa,  ",
+			#"hair":"long hair,",
+			"dress":"black thighhighs,dress,killer,maid,maid headdress,thighhighs,,",
+		},
+	),
+	"Yor_Forger": (
+	"Yor_Forger",
+		(0.5,1.0),
+		1.0,
+		{
+            "char":"{Yor Forger|yor briar},  ",
+			"hair":",",
+		},
+	),
+	"miyou": (
+	"miyou",
+		(0.5,1.0),
+		1.0,
+		{
+			#"char":"yurisa,  ",
+			#"hair":"long hair,",
+		},
+	),
+	"tuanbaocosplay-02": (
+	"tuanbaocosplay-02",
+		(0.5,1.0),
+		1.0,
+		{
+			#"char":"yurisa,  ",
+			#"hair":"long hair,",
+		},
+	),
+	"Fuyukimika": (
+	"Fuyukimika",
+		(0.5,1.0),
+		1.0,
+		{
+			#"char":"yurisa,  ",
+			#"hair":"long hair,",
+		},
+	),
+	"yurisa": (
+	"last (5)",
+		(0.5,1.0),
+		1.0,
+		{
+			"char":"yurisa,  ",
+			"hair":"long hair,",
+		},
+	),
 	"Diana_Cavendish_2": (
 	"Diana_Cavendish_2",
 		(0.5,1.0),
@@ -3554,10 +3658,43 @@
             "isXl":"poorly drawn, sketch, score_4, score_5, score_6, simple background, censored, lowres, low detail, blurry, watercolor, muscular female, bad anatomy, bad proportions, deformed, deformed anatomy, deformed fingers, watermark",
         },
 	),
+	"CHAR-DianaCavendish-char": (
+	"CHAR-DianaCavendish",
+		(0.5,1.0),
+		(01.0,1.0),
+		{
+		"char":"{BREAK|3::}, DianaCavendish, DianaCavendishBase, long hair, wavy hair, {BREAK|3::},",
+		"hair":"",
+		"hat":"witch hat,",
+		#"dress":"{BREAK|3::}, witch hat, luna nova school uniform, school uniform, witch dress, long sleeves, {long skirt, pencil skirt,|} {BREAK|3::},",
+		},
+		{},
+		[
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		#"SD-INS"    ,
+		#"SD-INALL"  ,
+		#"SD-IND"    ,
+		#"SD-MIDD"   ,
+		#"SD-MIDD1"  ,
+		#"SD-MIDD2"  ,
+		#"SD-MIDD0.8",
+		#"SD-MIDD0.2",
+		#"SD-MOUT"   ,
+		#"SD-OUTD"   ,
+		#"SD-OUTS"   ,
+		#"SD-OUTALL" ,
+		#"SD-ROUT"   ,
+		#"SD-AOUT"   ,
+		#"SD-AB" 	,
+		#"SD-ALL0.5" ,
+		],
+	),
 	"CHAR-DianaCavendish-witch": (
 	"CHAR-DianaCavendish",
-		(0.75,1.25),
-		(0.75,1.25),
+		(0.5,1.0),
+		(01.0,1.0),
 		{
 		"char":"{BREAK|3::}, DianaCavendish, DianaCavendishBase, long hair, wavy hair, {BREAK|3::},",
 		"hair":"",
@@ -3589,8 +3726,8 @@
 	),
 	"CHAR-DianaCavendish": (
 	"CHAR-DianaCavendish",
-		(0.25,1.25),
-		(0.75,1.25),
+		(0.5,1.0),
+		(01.0,1.0),
 		{
 		"char":"{BREAK|3::}, DianaCavendish, DianaCavendishBase, long hair, wavy hair, {witch hat,|} {luna nova school uniform, school uniform,  witch dress, long sleeves,{long skirt, pencil skirt,|}|__dres_set__|} {BREAK|3::},",
 		"hair":"",

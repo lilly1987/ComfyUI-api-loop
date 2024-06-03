@@ -961,6 +961,26 @@
 		},
 		{},		
 	),
+	"Pov_cowgirl_amazon_1.0": (
+	"Pov_cowgirl_amazon_1.0",
+		(0.25,0.75),
+		(0.5,01.0),
+		{
+			"Pov_cowgirl_amazon_1.0-10":" Pov cowgirl amazon, leaning backwards,,",
+			#"pose":" {from above, kneeling|sitting,|head out of frame, squatting|},",
+		},
+		{},		
+	),
+	"boundwristsupponyxl-10": (
+	"boundwristsupponyxl-10",
+		(0.25,0.75),
+		(0.5,01.0),
+		{
+			"boundwristsupponyxl-10":" bound wrists, arms up,",
+			#"pose":" {from above, kneeling|sitting,|head out of frame, squatting|},",
+		},
+		{},		
+	),
 	"pussybursterX": (
 	"pussybursterX",
 		(0.25,0.75),
@@ -1164,23 +1184,23 @@
 		"SD-OUTS"   ,
 		#"SD-OUTALL" ,
 		#"SD-ROUT"   ,
-		"SD-AOUT"   ,
-		"SD-AOUT"   ,
+		#"SD-AOUT"   ,
+		#"SD-AOUT"   ,
 		#"SD-AB" 	,
 		#"SD-ALL0.5" ,
 		],
 	),
 	"bdsm_frame":            (
 	"bdsm_frame",
-	(0.25,01.0),
-	(0.25,01.0),
+	(0.0,01.0),
+	(0.0,01.0),
 	{
 	"bdsm_frame":" bdsm frame , bondage,",
 	},
 	{},
-	[
-		"rnd",
-	],
+	#[
+	#	"rnd",
+	#],
 	),
 	"X-ray Fellatio 1.5_1-000042":            (
 	"X-ray Fellatio 1.5_1-000042",
@@ -1500,8 +1520,8 @@
 	),
 	"aki-000018":(
 	"aki-000018",
-	(0.25,0.75),
-	(0.75,01.0),
+	(0.0,01.0),
+	(01.0,01.0),
 	{
 	"hang":"hunged_girl, {noose,|} {asphyxiation,|} {rolling eyes,|} {open mouth,{tongue,|3::}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
 	"hang":"hanging, (hunged_girl:1.25),rope on neck, noose, asphyxiation, rolling eyes, {open mouth,{tongue,|3::}|} {gore,|} {guro,|} {arms_behind_back, bound_arms, arms bound,|} {hang in the air,|} bdsm, bound,",
@@ -1536,8 +1556,8 @@
 	),
 	"aki-000024":(
 	"aki-000024",
-	(0.25,0.75),
-	(0.75,01.0),
+	(0.0,01.0),
+	(01.0,01.0),
 	{
 	"hang":"hunged_girl, {noose,|} {asphyxiation,|} {rolling eyes,|} {open mouth,{tongue,|3::}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
 	"hang":"hanging, (hunged_girl:1.25),rope on neck, noose, asphyxiation, rolling eyes, {open mouth,{tongue,|3::}|} {gore,|} {guro,|} {arms_behind_back, bound_arms, arms bound,|} {hang in the air,|} bdsm, bound,",
@@ -1572,8 +1592,8 @@
 	),
 	"aki-000014":(
 	"aki-000014",
-	(0.25,0.75),
-	(0.75,01.0),
+	(0.0,01.0),
+	(01.0,01.0),
 	{
 	"hang":"hunged_girl, {noose,|} {asphyxiation,|} {rolling eyes,|} {open mouth,{tongue,|3::}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
 	"hang":"hanging, (hunged_girl:1.0),rope on neck, noose, asphyxiation, rolling eyes, {open mouth,{tongue,|3::}|} {gore,|} {guro,|} {arms_behind_back, bound_arms, arms bound,|} {hang in the air,|} bdsm, bound,",
@@ -1608,8 +1628,8 @@
 	),
 	"aki-000020":(
 	"aki-000020",
-	(0.25,0.75),
-	(0.75,01.0),
+	(0.0,01.0),
+	(01.0,01.0),
 	{
 	"hang":"hunged_girl, {noose,|} {asphyxiation,|} {rolling eyes,|} {open mouth,{tongue,|3::}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
 	"hang":"hanging, (hunged_girl:1.0),rope on neck, noose, asphyxiation, rolling eyes, {open mouth,{tongue,|3::}|} {gore,|} {guro,|} {arms_behind_back, bound_arms, arms bound,|} {hang in the air,|} bdsm, bound,",
@@ -1644,8 +1664,8 @@
 	),
 	"aki-000012":(
 	"aki-000012",
-	(0.25,0.75),
-	(0.75,01.0),
+	(0.0,01.0),
+	(01.0,01.0),
 	{
 	"hang":"hunged_girl, {noose,|} {asphyxiation,|} {rolling eyes,|} {open mouth,{tongue,|3::}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
 	"hang":"hanging, (hunged_girl:1.0),rope on neck, noose, asphyxiation, rolling eyes, {open mouth,{tongue,|3::}|} {gore,|} {guro,|} {arms_behind_back, bound_arms, arms bound,|} {hang in the air,|} bdsm, bound,",
@@ -1680,8 +1700,8 @@
 	),
 	"aki":(
 	"aki-*",
-	(0.25,0.75),
-	(0.75,01.0),
+	(0.0,01.0),
+	(01.0,01.0),
 	{
 	"hang":"hunged_girl, {noose,|} {asphyxiation,|} {rolling eyes,|} {open mouth,{tongue,|3::}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
 	"hang":"hanging, (hunged_girl:1.0),rope on neck, noose, asphyxiation, rolling eyes, {open mouth,{tongue,|3::}|} {gore,|} {guro,|} {arms_behind_back, bound_arms, arms bound,|} {hang in the air,|} bdsm, bound,",
@@ -1716,8 +1736,8 @@
 	),
 	"execution_on_gallows":(
 	"execution_on_gallows*",
-        (0.25,0.75),
-		(0.75,01.0),
+	(0.0,01.0),
+	(01.0,01.0),
         {
             "hang":"(execution_on_gallows:1.25), noose, asphyxiation, rolling eyes, open mouth,{tongue,|3::} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
             "hang":"(execution_on_gallows:1.25),rope on neck, {noose,|} {asphyxiation,|} rolling eyes, {open mouth,{tongue,|3::}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
@@ -1748,8 +1768,8 @@
 	),
 	"Hanging": (
 	"Hanging",
-		(0.25,0.75),
-		(0.75,01.0),
+	(0.0,01.0),
+	(01.0,01.0),
 		{
 		"hang":"{BREAK|3::} AsphyxiationHngng, rope, standing, orgasm, female ejaculation, pussy juice, rolling eyes, trembling, peeing, pee, head tilt, open mouth, tongue out, sweat, nipples, open clothes, ahegao, blush, empty eyes, {BREAK|3::}",
 		},
@@ -1786,8 +1806,8 @@
 	),
 	"hunged_girl": (
 	"hunged_girl",
-		(0.25,0.75),
-		(0.75,01.0),
+	(0.0,01.0),
+	(01.0,01.0),
 		{
 		"hang":"hunged_girl, {noose,|} {asphyxiation,|} {rolling eyes,|} {open mouth,{tongue,|3::}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
 		"hang":"{BREAK|3::} (hunged_girl:1.0),rope on neck, noose, asphyxiation, rolling eyes, {open mouth,{tongue,|3::}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|} {BREAK|3::}",
@@ -1828,8 +1848,8 @@
 	),
 	"leheng_re": (
 	"leheng_re",
-	(0.25,0.75),
-	(0.75,01.0),
+	(0.0,01.0),
+	(01.0,01.0),
 	{
 	"hang":"(hunged_girl:1.25), rope on neck, noose, asphyxiation, rolling eyes, {open mouth,{tongue,|3::}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|} ",
 	},
@@ -2395,7 +2415,7 @@
 	"side-deepthroat-v3-wasabiya": (
 	"side-deepthroat-v3-wasabiya",
 		(0.25,01.0),
-		(0.25,01.0),
+		(0.75,01.0),
         {
         "boy":"",
         "girl":"",
@@ -2574,7 +2594,7 @@
 	),
 	"GloryHolev2 1024-000048": (
 	"GloryHolev2 1024-000048",
-		(0.75,01.0),
+		(0.5,01.0),
 		1.0,
 		{
 		"GloryHolev2 1024-000048":"glory hole, fellatio, penis,1boy,,",
@@ -2673,7 +2693,7 @@
 	"koonagoConcept_v1": (
 	"koonagoConcept_v1",
 	(0.25,01.0),
-	(0.25,01.250),
+	(0.75,01.0),
 	{
 	"koonagoConcept_v1":"koonago, minigirl, large insertion, sex,",
 	},
@@ -2682,32 +2702,34 @@
 	),
 	"hyper_penetration_stomach_bulge_v8pectoral":(
 	"hyper_penetration_stomach_bulge_v8pectoral-000006",
-	(0.5,01.0),
-	1.0,
-	{
-	"hyper_penetration_stomach_bulge_v8pectoral":" vaginal, stomach bulge, pectoral bulge, vaginal object insertion, (impossible object insertion:1.2), (absurd stomach bulge:1.1), gaping pussy,",
-	},
-	{},
-	[
-	"SD-ALL"    ,
-	"SD-INS"    ,
-	#"SD-INALL"  ,
-	"SD-IND"    ,
-	"SD-MIDD"   ,
-	"SD-MIDD1"  ,
-	"SD-MIDD2"  ,
-	"SD-MIDD0.8",
-	#"SD-MIDD0.2",
-	"SD-MOUT"   ,
-	"SD-OUTD"   ,
-	#"SD-OUTS"   ,
-	"SD-OUTALL" ,
-	#"SD-ROUT"   ,
-	"SD-AOUT"   ,
-	#"SD-AB" 	,
-	#"SD-ALL0.5" ,
-	"A,1,1,1,1,1,1,1,1,1,1,1,A,A,A,A,A",
-	]
+		(0.5,01.0),
+		1.0,
+		{
+		"hyper_penetration_stomach_bulge_v8pectoral":" vaginal, stomach bulge, pectoral bulge, vaginal object insertion, (impossible object insertion:1.2), (absurd stomach bulge:1.1), gaping pussy,",
+		},
+		{},
+		[
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		"SD-INS"    ,
+		#"SD-INALL"  ,
+		"SD-IND"    ,
+		"SD-MIDD"   ,
+		"SD-MIDD1"  ,
+		"SD-MIDD2"  ,
+		"SD-MIDD0.8",
+		#"SD-MIDD0.2",
+		"SD-MOUT"   ,
+		"SD-OUTD"   ,
+		#"SD-OUTS"   ,
+		"SD-OUTALL" ,
+		#"SD-ROUT"   ,
+		"SD-AOUT"   ,
+		"SD-AOUT"   ,
+		#"SD-AB" 	,
+		#"SD-ALL0.5" ,
+		]
 	),
 	"hyper_penetration_stomach_bulge_v8absurd":(
 	"hyper_penetration_stomach_bulge_v8absurd-000006",
@@ -2745,39 +2767,42 @@
 	),
 	"hyper_penetration_stomach_bulge_v8nice":(
 	"hyper_penetration_stomach_bulge_v8nice-000006",
-	(0.25,01.25),
-	(1.0,1.5),
-	{
-	"hyper_penetration_stomach_bulge_v8nice":" vaginal, stomach bulge, pectoral bulge, vaginal object insertion, (impossible object insertion:1.2), (absurd stomach bulge:1.1), gaping pussy,",
-	},
-	{},
-	[
-	"SD-ALL"    ,
-	#"SD-INS"    ,
-	#"SD-INALL"  ,
-	"SD-IND"    ,
-	"SD-MIDD"   ,
-	"SD-MIDD1"  ,
-	"SD-MIDD2"  ,
-	"SD-MIDD0.8",
-	#"SD-MIDD0.2",
-	"SD-MOUT"   ,
-	"SD-OUTD"   ,
-	#"SD-OUTS"   ,
-	"SD-OUTALL" ,
-	#"SD-ROUT"   ,
-	"SD-AOUT"   ,
-	#"SD-AB" 	,
-	#"SD-ALL0.5" ,
-	"1,1,1,1,1,1,1,1,R,R,R,R,R,R,R,R,R",
-	"A,1,1,1,1,1,1,1,1,1,1,1,A,A,A,A,A",
-	"A,1,1,1,1,1,1,1,1,1,1,1,A,A,A,A,A",
-	]
+		(0.25,01.0),
+		(1.0,1.0),
+		{
+		"hyper_penetration_stomach_bulge_v8nice":" vaginal, stomach bulge, pectoral bulge, vaginal object insertion, (impossible object insertion:1.2), (absurd stomach bulge:1.1), gaping pussy,",
+		},
+		{},
+		[
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		#"SD-INS"    ,
+		#"SD-INALL"  ,
+		"SD-IND"    ,
+		"SD-MIDD"   ,
+		"SD-MIDD1"  ,
+		"SD-MIDD2"  ,
+		"SD-MIDD2"  ,
+		"SD-MIDD0.8",
+		#"SD-MIDD0.2",
+		"SD-MOUT"   ,
+		"SD-OUTD"   ,
+		#"SD-OUTS"   ,
+		"SD-OUTALL" ,
+		"SD-ROUT"   ,
+		"SD-ROUT"   ,
+		"SD-AOUT"   ,
+		"SD-AOUT"   ,
+		"SD-AOUT"   ,
+		#"SD-AB" 	,
+		#"SD-ALL0.5" ,
+		]
 	),
 	"hyper_penetration_stomach_bulge_v8all":(
 	"hyper_penetration_stomach_bulge_v8all-000004",
-	(0.5,01.0),
-	(0.5,01.0),
+	(0.25,01.0),
+	(0.75,01.0),
 	{
 	"hyper_penetration_stomach_bulge_v8all":"vaginal, stomach bulge, pectoral bulge, vaginal object insertion, (impossible object insertion:1.2), (absurd stomach bulge:1.1), gaping pussy,",
 	},
