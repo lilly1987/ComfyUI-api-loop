@@ -292,6 +292,7 @@
 			#"isXl":"score_4, score_5, score_6, source_pony, source_furry, monochrome, realistic, rough sketch, fewer digits, extra digits,",
 			"ckpt":"five-fingers, sticky fingers,  worst quality, low quality,",
 		},
+		"SaveImage2":true,
 	},
 	"kaywaii_v85" : {
 		"stop_at_clip_layer": -2,
@@ -387,6 +388,110 @@
 			 "euler_ancestral",  
 		],
 		"SaveImage2":true,
+	},
+	"archangelbreed_CheerfulV60" : {
+		"cfg_min": 7.0,
+		"cfg_max": 10.0,
+		"KSampler":{
+			"steps_min": 30,
+			"steps_max": 50,
+		},
+		"DetailerForEachDebug":{
+			"steps_min": 30,
+			"steps_max": 50,
+		},
+		"positive" : {
+			"style":"bad face,",
+		},
+		"negative" : {
+			#"style":"",
+			"embedding":"{embedding:SimpleNegativeV3.safetensors|embedding:easynegative.safetensors|embedding:EasyNegativeV2.safetensors|embedding:SimpleNegative_AnimeV1.safetensors},",
+		},
+		"sampler_name": [
+			 "dpmpp_2m_sde",   
+			 "dpmpp_3m_sde",   
+		],
+		#"SaveImage2":true,
+		"stop_at_clip_layer_min": -2,
+		"stop_at_clip_layer_max": -1,
+	},
+	"archangelbreed_MatureV60" : {
+		"cfg_min": 7.0,
+		"cfg_max": 10.0,
+		"KSampler":{
+			"steps_min": 30,
+			"steps_max": 50,
+		},
+		"DetailerForEachDebug":{
+			"steps_min": 30,
+			"steps_max": 50,
+		},
+		"positive" : {
+			"style":"bad face,",
+		},
+		"negative" : {
+			#"style":"",
+			"embedding":"{embedding:SimpleNegativeV3.safetensors|embedding:easynegative.safetensors|embedding:EasyNegativeV2.safetensors|embedding:SimpleNegative_AnimeV1.safetensors},",
+		},
+		"sampler_name": [
+			 "dpmpp_2m_sde",   
+			 "dpmpp_3m_sde",   
+		],
+		#"SaveImage2":true,
+		"stop_at_clip_layer_min": -2,
+		"stop_at_clip_layer_max": -1,
+	},
+	"archangelbreed_TenderV60" : {
+		"cfg_min": 7.0,
+		"cfg_max": 10.0,
+		"KSampler":{
+			"steps_min": 30,
+			"steps_max": 50,
+		},
+		"DetailerForEachDebug":{
+			"steps_min": 30,
+			"steps_max": 50,
+		},
+		"positive" : {
+			"style":"bad face,",
+		},
+		"negative" : {
+			#"style":"",
+			"embedding":"{embedding:SimpleNegativeV3.safetensors|embedding:easynegative.safetensors|embedding:EasyNegativeV2.safetensors|embedding:SimpleNegative_AnimeV1.safetensors},",
+		},
+		"sampler_name": [
+			 "dpmpp_2m_sde",   
+			 "dpmpp_3m_sde",   
+		],
+		#"SaveImage2":true,
+		"stop_at_clip_layer_min": -2,
+		"stop_at_clip_layer_max": -1,
+	},
+	"archangelbreed_v60" : {
+		"cfg_min": 7.0,
+		"cfg_max": 10.0,
+		"KSampler":{
+			"steps_min": 30,
+			"steps_max": 50,
+		},
+		"DetailerForEachDebug":{
+			"steps_min": 30,
+			"steps_max": 50,
+		},
+		"positive" : {
+			"style":"bad face,",
+		},
+		"negative" : {
+			#"style":"",
+			"embedding":"{embedding:SimpleNegativeV3.safetensors|embedding:easynegative.safetensors|embedding:EasyNegativeV2.safetensors|embedding:SimpleNegative_AnimeV1.safetensors},",
+		},
+		"sampler_name": [
+			 "dpmpp_2m_sde",   
+			 "dpmpp_3m_sde",   
+		],
+		#"SaveImage2":true,
+		"stop_at_clip_layer_min": -2,
+		"stop_at_clip_layer_max": -1,
 	},
 	"unyverse_v10" : {
 		"cfg" : 7.0,
@@ -1614,6 +1719,31 @@
 		"SaveImage2":true,
 		"stop_at_clip_layer": -2,
 	},
+	"mklanNSFWANIMEHentai_mklan233hentai" : {
+		#"cfg" : 7.0,
+		"KSampler":{
+			"steps_min": 10,
+			"steps_max": 30,
+		},
+		"DetailerForEachDebug":{
+			"steps_min": 10,
+			"steps_max": 30,
+		},
+		"positive" : {
+			"isXl":"score_9,score_8_up,score_7_up,score_6_up,",
+		},
+		"negative" : {
+			"isXl":"(watermark:1.5), (text:1.5),",
+		},
+		"sampler_name": [
+			"dpmpp_2s_ancestral", 
+		],
+		"scheduler": [
+			"karras", 
+		],
+		"SaveImage2":true,
+	},
+
 	"mklanNSFWANIMEHentai_mklan223hentai" : {
 		#"cfg" : 7.0,
 		"KSampler":{
@@ -2112,6 +2242,35 @@
 		},
 		"negative" : {
 			"isXl":"(worst quality, low quality:1.4),negative_hand-neg,",
+		},
+	},
+	"compassionmix_v61" : {
+		"cfg_min": 5.0,
+		"cfg_max": 9.0,
+		"stop_at_clip_layer": -2,
+		"KSampler":{
+			"steps_min": 15,
+			"steps_max": 25,
+		},
+		"DetailerForEachDebug":{
+			"steps_min": 15,
+			"steps_max": 25,
+		},
+		"sampler_name": [
+			"dpmpp_sde",  
+			"dpmpp_2m_sde",  
+			"euler_ancestral", 
+		],
+		"scheduler": [
+			"karras", 
+		],
+		"positive" : {
+			"quality":"(best quality:1.4), ultra detailed ",
+			"style":"",
+			"isXl":" ,",
+		},
+		"negative" : {
+			"quality":"(worst quality, low quality, monochrome:1.5)",
 		},
 	},
 	"ugaritMERGE_v10" : {

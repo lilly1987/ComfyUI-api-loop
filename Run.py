@@ -241,8 +241,9 @@ while True:
         #print("lbw : ",lbw)
         lora1="CheckpointLoaderSimple"
         lorasCnt=0
+        lorasMaxCnt=minmax(setup,"lorasMaxCnt",9)
         for k, v in setup.get("loras",{}).items():
-            if lorasCnt >= setup.get("lorasMaxCnt",9):
+            if lorasCnt >= lorasMaxCnt:
                 print(f"[red]lorasCnt[/red] : ", lorasCnt)
                 break
             #print(f"{k} : ", v)

@@ -1,9 +1,7 @@
 {
 	"my": (        0.750,
         [  
-            "1731579037439156565",
-            "ridingDildoSexActLora_v11",
-			
+
             "limblessv03-1",
             "onahole_personality_v17",
             "sex_toy_transformation",
@@ -26,10 +24,21 @@
             "sex_from_behind",
             "sex from behind",
             "qqq-spitroast-v2",
-            
+			"Reversesuspended1-000011",
+            "DbDildo",
+            "MGCG",
+            "monsterSexActLora79_v10",
+            "conceptLargerInsertion_v10",
+            "koonagoConcept_v1",
+            "guided_penetration-beta1",
+            "wantun-tentacles-beta1",
+            "LargeInsertion-v1",
+            "1731579037439156565",
+            "ridingDildoSexActLora_v11",
             "multiple_insertions_v0.2",
             "boundsittinglegstogether-03",
-            "bdsm_v3",
+			
+            #"bdsm_v3",
             #"bdsm_frame",
             #"bdsm_pissoir-000002",
             "BondagePoleV1",
@@ -47,7 +56,6 @@
             "tentacles v4",
 			"qqq-tentacle_sex-v1",
 
-            "LargeInsertion-v1",
             "hyper_penetration_stomach_bulge_v8nice",
             "hyper_penetration_stomach_bulge_v8all",
             "hyper_penetration_stomach_bulge_v8absurd",
@@ -64,10 +72,9 @@
             "hunged_girl",
             "leheng_re",
             "hang",
-            "conceptLargerInsertion_v10",
-            "koonagoConcept_v1",
-            "guided_penetration-beta1",
-            "wantun-tentacles-beta1",
+			
+
+			
         ],
     ),
     "concept": (        0.750,
@@ -191,17 +198,7 @@
                     "pose":"hentai sex pose, spread legs,",
                 },
             ),
-            (
-                "strappado ratio p30",
-                (0.25,0.75),
-                1.0,
-                {
-                    #"boy" :"tentacles,",
-                    #"sex" :" pussy cock deep penetration,",
-                    #"pose" :" revcowgirl,",
-                    "concept":"strappado",
-                },
-            ),
+            "strappado ratio p30",
             "qqq-tentacle_sex-v1",
 
         ],
