@@ -148,6 +148,34 @@
 		],
 		"SaveImage2":true,		
 	},
+	"cocoartNSFW_v20b" : {
+		"positive" : {
+			#"isXl":"score_9, score_8_up, score_7_up, score_6_up,",
+			"ckpt":"nipple,(low quality:1.5),(normal quality:1.5),(worst quality:1.5),,",
+		},
+		"negative" : {
+			#"isXl":"score_9, score_8_up, score_7_up, score_6_up,",
+			"ckpt":"outfit,kigurumi,cat,paws,bedroom,(woman),",
+		},
+		"stop_at_clip_layer": -2,
+		"cfg_min": 6.0,
+		"cfg_max": 8.0,
+		"KSampler":{
+			"steps_min": 20,
+			"steps_max": 30,		
+		},
+		"DetailerForEachDebug":{
+			"steps_min": 20,
+			"steps_max": 30,	
+		},
+		"sampler_name": [
+			#"euler_ancestral",  
+			#"dpmpp_3m_sde",
+			"dpmpp_2m",
+			#"dpmpp_2s_ancestral",
+		],
+		"SaveImage2":true,		
+	},
 	"kakarot28D_v2024" : {
 		"positive" : {
 			#"isXl":"score_9, score_8_up, score_7_up, score_6_up,",
@@ -513,9 +541,9 @@
 		#"SaveImage2":true,
 		"stop_at_clip_layer": -2,
 	},
-	"hardcoreHentai13_v13Baked" : {
-		"cfg_min": 3.0,
-		"cfg_max": 15.0,
+	"minima_v3b" : {
+		"cfg_min": 7.0,
+		"cfg_max": 10.0,
 		"KSampler":{
 			"steps": 25,
 		},
@@ -523,13 +551,41 @@
 			"steps": 25,
 		},
 		"positive" : {
+			"quality":"masterpiece, best quality,",
+		},
+		"negative" : {
+			"quality":" (worst quality, low quality:1.4), interlocked fingers, bad anatomy, disfigured,",
+		},
+		"sampler_name": [
+			"euler_ancestral",  
+			"dpmpp_2m",
+			"dpmpp_sde",  
+			#"dpmpp_2s_ancestral", 
+		],
+		#"SaveImage2":true,
+	},
+	"hardcoreHentai13_v13Baked" : {
+		"cfg_min": 3.0,
+		"cfg_max": 15.0,
+		"KSampler":{
+			"steps_min": 25,
+			"steps_max": 50,
+		},
+		"DetailerForEachDebug":{
+			"steps_min": 25,
+			"steps_max": 50,
+		},
+		"positive" : {
 			#"ckpt":"(masterpiece, best quality, very aesthetic, ultra detailed), intricate details, Multi Aspect Resolution ,",
 		},
 		"negative" : {
-			"ckpt":"worst quality, low quality, bad quality, normal quality, bad anatomy, monochrome,",
+			"quality":"worst quality, low quality, bad quality, normal quality, bad anatomy, monochrome,",
 		},
 		"sampler_name": [
-			 "euler_ancestral",  "dpmpp_2m","ddim", 
+			"euler_ancestral",  
+			"dpmpp_2m","ddim", 
+			"dpmpp_sde",  
+			"dpmpp_2s_ancestral", 
 		],
 		#"SaveImage2":true,
 	},
@@ -660,6 +716,29 @@
 			 "euler_ancestral",  
 		],
 		"SaveImage2":true,
+	},
+	"qchanAnimeMix_v21" : {
+		"cfg" : 7.0,
+		"KSampler":{
+			"steps_min": 40,
+			"steps_max": 40,
+		},
+		"DetailerForEachDebug":{
+			"steps_min": 40,
+			"steps_max": 40,
+		},
+		"positive" : {
+			"quality":"(((masterpiece))), (((best quality))), anime style, 2d,",
+		},
+		"negative" : {
+			#"quality":"score_4, {|score_5,} censored,,",
+			"embedding":"embedding:bad-hands-5.pt,embedding:FastNegativeV2.pt,",
+		},
+		"sampler_name": [
+			 "euler_ancestral",  
+		],
+		"SaveImage2":true,
+		"stop_at_clip_layer": -1,
 	},
 	"theNeuroEvolution_v20" : {
 		"cfg" : 7.0,
@@ -866,16 +945,16 @@
 		"stop_at_clip_layer": -2,
 	},
 	"koolSuiteOfModels_kingmix" : {
-		"cfg_min": 20.0,
-		"cfg_max": 30.0,
+		"cfg_min": 10.0,
+		"cfg_max": 20.0,
 		"KSampler":{
 			#"steps": 50,
-			"steps_min": 30,
+			"steps_min": 20,
 			"steps_max": 40,
 		},
 		"DetailerForEachDebug":{
 			#"steps": 50,
-			"steps_min": 30,
+			"steps_min": 20,
 			"steps_max": 40,
 		},
 		"sampler_name": [
@@ -886,16 +965,16 @@
 		"stop_at_clip_layer": -2,
 	},
 	"koolSuiteOfModels_koolnkakey" : {
-		"cfg_min": 26.0,
-		"cfg_max": 30.0,
+		"cfg_min": 10.0,
+		"cfg_max": 17.0,
 		"KSampler":{
 			#"steps": 50,
-			"steps_min": 30,
+			"steps_min": 20,
 			"steps_max": 40,
 		},
 		"DetailerForEachDebug":{
 			#"steps": 50,
-			"steps_min": 30,
+			"steps_min": 20,
 			"steps_max": 40,
 		},
 		"sampler_name": [
@@ -1885,6 +1964,30 @@
 		],
 		"SaveImage2":true,
 	},
+	"mistoonXLCopper_v10Fast" : {
+		"cfg_min": 3.0,
+		"cfg_max": 5.0,
+		"KSampler":{
+				#"steps": 20,
+				"steps_min": 8,
+				"steps_max": 8,
+		},
+		"DetailerForEachDebug":{
+				#"steps": 20,
+				"steps_min": 8,
+				"steps_max": 8,
+		},
+		"positive" : {
+			"isXl":"score_9, score_8_up, score_7_up,score_6_up,",
+		},
+		"negative" : {
+			"isXl":" ,",
+		},
+		"sampler_name": [
+			 "euler_ancestral",  
+		],
+		"SaveImage2":true,
+	},
 	"raemoraXL_v10" : {
 		"cfg_min": 7.0,
 		"cfg_max": 8.0,
@@ -2058,7 +2161,7 @@
 		"stop_at_clip_layer_min": -2,
 		"stop_at_clip_layer_max": -2,
 		"negative" : {
-			"embedding":"embedding:easynegative.safetensors,",
+			"embedding":"embedding:easynegative.safetensors,embedding:BadDream.pt,",
 		},
 		"sampler_name": [
 			"dpmpp_2m_sde","dpmpp_2s_ancestral", 

@@ -1,5 +1,5 @@
 {
-	"my": (        0.750,
+	"my": (        0.250,
         [  
 
             "limblessv03-1",
@@ -31,7 +31,7 @@
             "conceptLargerInsertion_v10",
             "koonagoConcept_v1",
             "guided_penetration-beta1",
-            "wantun-tentacles-beta1",
+            "wantun-tentacles",
             "LargeInsertion-v1",
             "1731579037439156565",
             "ridingDildoSexActLora_v11",
@@ -50,6 +50,7 @@
             #"armbinder",
 			"obp-000050",
 			
+			"chushou",
 			"tentacles",
             "tentacles-004",
             "tentacles-003",
@@ -72,6 +73,7 @@
             "hunged_girl",
             "leheng_re",
             "hang",
+            "garrote_2-000012",
 			
 
 			
@@ -91,6 +93,8 @@
             "1734621166247782126",
             "NSFWTentaclesLora_v2Epochs20",
             "1749835231017656542",
+            "SpitroastFin_1-000062",
+            "double penetration-from front",
             "haraboko_v4",
             #"VG2",
             "implied_sex_v1",
@@ -187,20 +191,18 @@
             "X-ray Fellatio 1.5_1-000042",
             "[hikari]back_holding_wrist_v1",
             "[hikari]masturbation_v1",
-            (
-                "chushou",
-                (0.25,0.75),
-                1.0,
-                {
-                    "boy" :"tentacles,",
-                    "sex" :"tentacle sex,",
-                    "concept":"Suspension, {sex from behind,|} ",
-                    "pose":"hentai sex pose, spread legs,",
-                },
-            ),
+            "chushou",
             "strappado ratio p30",
             "qqq-tentacle_sex-v1",
-
+			"garrote_2-000012",
+        ],
+    ),
+    "face": (        0.750,
+        [
+            "ahegao_v2.5",
+            "ahegao_v0.3",
+            "constricted_pupils_v0.2a",
+            "ArsEmbarrassed-t5-000016",
         ],
     ),
     "Pussy": (        0.0,
@@ -270,11 +272,7 @@
             "WhiteBridal-10",
         ],
     ),
-    "face": (        0.0,
-        [
-            "ahegao_v2.5",
-        ],
-    ),
+
     "Insertion": (        0.12500,
         [
             "LargeInsertion-v1",
@@ -331,6 +329,7 @@
             "hunged_girl",
             "leheng_re",
             "hang",
+			"garrote_2-000012",
         ],
     ),
     "obp": (        0.0,

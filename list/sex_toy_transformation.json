@@ -1,7 +1,5 @@
 {
-    "loras":{
-        #"char":"MasterArtoria-10",
-        "1": "sex_toy_transformation",
-    },
-    "lorasUpdate":false,
+	"loras":{
+		"char": "sex_toy_transformation",
+	},
 }

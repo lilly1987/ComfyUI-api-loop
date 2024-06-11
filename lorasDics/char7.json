@@ -1,0 +1,246 @@
+{
+
+    "Majo_Elaina_XL": (
+    "Majo_Elaina_XL",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :"elaina, blue eyes, white hair, hair between eyes, long hair, bangs, ahoge, braid, single braid, hair bow, pink bow, jewelry,,",
+            "hair":"",
+            #"dress":",",
+        },
+    ),
+    "sumomo_blue archive_PONY_last": (
+    "sumomo_blue archive_PONY_last",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :"{sumomo-default|sumomo-leotard},",
+            "hair":"sumomo \(blue archive\),orange eyes, white hair, long hair, two side up,horn,pointy ears,halo,demon tail, ",
+            #"dress":",",
+        },
+    ),
+    "OrchidXL_Anything": (
+    "OrchidXL_Anything",
+        (0.5,1.0),
+        1.0,
+        {
+            #"char" :",",
+            #"hair":",",
+            #"dress":",",
+        },
+    ),
+    "[P]Ke-ta_v1.0": (
+    "[P]Ke-ta_v1.0",
+        (0.5,1.0),
+        1.0,
+        {
+            #"style" :"photorealistic,",
+            #"char" :"rithe,",
+            #"hair":",",
+            #"dress":"victorian dress,",
+        },
+    ),
+    "baramXL": (
+    "baramXL",
+        (0.5,1.0),
+        1.0,
+        {
+            #"style" :"photorealistic,",
+            #"char" :"rithe,",
+            #"hair":",",
+            #"dress":"victorian dress,",
+        },
+    ),
+    "rithe": (
+    "rithe",
+        (0.5,1.0),
+        1.0,
+        {
+            "style" :"photorealistic,",
+            "char" :"rithe,",
+            "hair":",",
+            #"dress":"victorian dress,",
+        },
+    ),
+    "beatriceSymphogear_beatriceXDU": (
+    "beatriceSymphogear_beatriceXDU",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :",",
+            "hair":",",
+            "dress":"{hairband, wide sleeve blouse, shorts, shoes, xdubeatrice,|mini crown, formal attire, see-through side cape, xdubeatrice, scepter}",
+        },
+    ),
+    "victorian_dress-XL-2.0": (
+    "victorian_dress-XL-2.0",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :",",
+            "hair":",",
+            "dress":"victorian dress,",
+        },
+    ),
+    "serizawa asahi_Loha": (
+    "serizawa asahi_Loha",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :"serizawa asahi,",
+            "hair":",",
+            #"dress":",",
+        },
+    ),
+    "KizunaAkari": (
+    "KizunaAkari",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :"Kizuna Akari, orange pantyhose, long hair, braid, blue eyes, pantyhose, white hair, dress, hair ornament, ahoge, jacket, twin braids, shoes, striped, black jacket, star (symbol), very long hair, gradient, long sleeves, striped pantyhose, blush, bangs,  orange gloves,  vertical-striped pantyhose,",
+            "hair":",",
+            "dress":",",
+        },
+    ),
+    "kizunaakari-10": (
+    "kizunaakari-10",
+        (0.0,1.0),
+        1.0,
+        {
+            "char" :"kizunaakariVL, 1girl, long hair, twin braids,hair ornament,{ long sleeves, dress, jewelry, jacket, ahoge, puffy sleeves, fingerless gloves,bracelet, open jacket, black jacket, vertical stripes, puffy long sleeves, grey dress, striped pantyhose, orange gloves, striped gloves, orange pantyhose, vertical-striped pantyhose,|__dress_set__},",
+            "hair":",",
+            "dress":",",
+        },
+    ),
+    "NayutaKaniPony": (
+    "NayutaKaniPony",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :"nayutakani, 1girl,",
+            "hair":",",
+            #"dress":"red capelet, red bow, red vest, white shirt, collared shirt, long sleeves, red skirt, long skirt, frilled skirt, frills, white socks, loose socks, red shoes,",
+        },
+    ),
+    "yumemi_scarxzys": (
+    "yumemi_scarxzys",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :"yumemi, red eyes, red hair, short hair, single braid, long braid,",
+            "hair":",",
+            "dress":"red capelet, red bow, red vest, white shirt, collared shirt, long sleeves, red skirt, long skirt, frilled skirt, frills, white socks, loose socks, red shoes,",
+        },
+    ),
+    "wadanohara-wasabiya": (
+    "wadanohara-wasabiya",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :"{wadanohara,witch hat,hat bow,multicolored bow,blue dress,blue hat,twin braid,long hair,handkerchief,anchor,hat ornament,school uniform,sailor collar,white bow,multicolored ribbon|wadablue,twin braids,long hair,witch hat,blue bow,anchor,star print,hat ornament,blue ribbon,book,holding book,blue skirt,chain,star \(symbol\),crescent,},",
+            "hair":",",
+            "dress":"",
+        },
+    ),
+    "Mana - (Super Real Mahjong) ": (
+    "Mana - (Super Real Mahjong) ",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :"mana, green_eyes, orange_hair, long_hair, high_ponytail, hair_ribbon, red_ribbon,,",
+            "hair":",",
+            #"dress":"",
+        },
+    ),
+    "momiji": (
+    "momiji",
+        (0.5,1.0),
+        1.0,
+        {
+            #"char" :"EmiKino,  pink eyes,,",
+            #"hair":",",
+            #"dress":"",
+        },
+    ),
+    "TanakaMamimi_pony_v1": (
+    "TanakaMamimi_pony_v1",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :", tnkmmm, purple hair, short twintails, blunt bangs, diagonal bangs, purple eyes, medium breasts,  small breasts,,",
+            "hair":"long hair, brown hair,",
+            #"dress":"{ thighhighs, pantyhose, hood, fingerless gloves,|__dress_set__,}",
+            "isXl":"score_9, score_8_up, score_7_up, source_anime,",
+        },
+    ),
+    "Senkawa_Chihiro-03": (
+    "Senkawa_Chihiro-03",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :"imaschihiro, red eyes,",
+            "hair":"long hair, brown hair,",
+            #"dress":"{ thighhighs, pantyhose, hood, fingerless gloves,|__dress_set__,}",
+        },
+    ),
+    "tanaka mamimi": (
+    "tanaka mamimi",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :"tanaka mamimi,",
+            #"hair":"long hair, pink hair,",
+            #"dress":"{ thighhighs, pantyhose, hood, fingerless gloves,|__dress_set__,}",
+        },
+    ),
+    "EmiKino-10": (
+    "EmiKino-10",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :"EmiKino,  pink eyes,,",
+            "hair":"long hair, pink hair,",
+            "dress":"{ thighhighs, pantyhose, hood, fingerless gloves,|__dress_set__,}",
+        },
+    ),
+	"cheria_autismConfetti_v03": (
+    "cheria_autismConfetti_v03",
+		(0.5,1.0),
+		1.0,
+		{
+			"char":"cheria barnes, pink hair, brown eyes, twintails, two side up, medium hair, brooch, long sleeves, puffy sleeves, purple skirt, jewelry, black thighhighs, white footwear, (wide sleeves:0.7), pleated skirt, laces,",
+			"hair":", ",
+			"dress":", ",
+		},
+	),
+	"Toki_V2.0": (
+    "Toki_V2.0",
+		(0.5,1.0),
+		1.0,
+		{
+			"char":"maid, blue eyes,",
+			"hair":"blonde hair, maid headdress, ",
+			"dress":"maid apron, long sleeves, pantyhose, ",
+		},
+	),
+	"Inagaki Sae(sk)": (
+    "Inagaki Sae(sk)",
+		(0.75,1.0),
+		1.0,
+		{
+			"char":" Inagaki Sae, ",
+			"hair":"long hair,black hair,white hairband,sidelocks,bangs,blue eyes, ",
+		},
+	),
+	"natalia_autismConfetti_v02": (
+    "natalia_autismConfetti_v02",
+		(0.5,1.0),
+		1.0,
+		{
+			"char":" natalia \(tales\), blonde hair, short hair, green eyes, bangs, hairband, ascot, orange ascot, frills, thigh boots, pantyhose, frilled collar, white gloves, wrist bow,, ",
+			"hair":", ",
+			"dress":", ",
+		},
+	),
+}
