@@ -1,4 +1,12 @@
 {
+    "transformation": (        0.5,
+        [
+            #"mermaid",
+            "transformation",
+            "sex_toy_transformation",
+            "onahole_personality_v17",
+        ],
+    ),
 	"my": (        0.250,
         [  
 
@@ -301,14 +309,7 @@
 			"qqq-tentacle_sex-v1",
         ],
     ),
-    "transformation": (        0.12500,
-        [
-            #"mermaid",
-            "transformation",
-            "sex_toy_transformation",
-            "onahole_personality_v17",
-        ],
-    ),
+
     "microwaist": (        0.1250,
         [
             "microwaist",

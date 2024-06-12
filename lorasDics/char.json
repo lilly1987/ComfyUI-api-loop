@@ -2301,15 +2301,17 @@
 		},
 	),
 	"TokisakiKurumi-10": (
-		"TokisakiKurumi-10",
-		(0.75,1.0),
+	"TokisakiKurumi-10",
+		(0.25,1.0),
 		1.0,
 		{
 			"char":" KurumiTokisaki,  ",
-			#"hair":"long hair,brown hair, ",
+			"hair":"long hair,",
 			#"dress":"pleated skirt,  thighhighs, fingerless gloves, navel, short sleeves, midriff, puffy sleeves, belt, miniskirt, bowtie,  crop top, fur trim, blue bow, brown gloves, cropped jacket, goggles on head,",
 		},
-        {},
+        {
+			"hair":"twintails, ",
+		},
         [
         "SD-ALL"    ,
         #"SD-INS"    ,

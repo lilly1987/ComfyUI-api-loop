@@ -214,6 +214,22 @@
 		],
 		"SaveImage2":true,		
 	},
+	"pppanimeEndOfUpdate_v11BK" : {
+		"cfg_min" : 6.0,
+		"cfg_max" : 8.0,
+		"KSampler":{
+			"steps_min": 20,
+			"steps_max": 40,
+		},
+		"DetailerForEachDebug":{
+			"steps_min": 20,
+			"steps_max": 40,
+		},
+		"sampler_name": [
+			"dpmpp_3m_sde",  
+		],
+		"SaveImage2":true,
+	},
 	"hadrianDelicexl_v10" : {
 		"cfg" : 7.0,
 		"KSampler":{
@@ -1063,6 +1079,7 @@
 		"stop_at_clip_layer_max": -1,
 		"negative" : {
 			"ckpt":"bad face,",
+			"embedding":"{embedding:SimpleNegativeV3.safetensors|embedding:easynegative.safetensors|embedding:EasyNegativeV2.safetensors|embedding:SimpleNegative_AnimeV1.safetensors},",
 		},
 	},
 	"hotarubreedTypeA_v80" : {
@@ -1425,10 +1442,11 @@
 			"steps": 30,
 		},
 		"positive" : {
-			"ckpt":" {BREAK|3::}, insanely detailed, absurdres, ultra-highres, ultra-detailed, best quality, {BREAK|3::}, slender, kawaii, perfect symmetrical face, ultra cute girl, ultra cute face, ultra detailed eyes, ultra detailed hair, ultra cute, ultra beautiful,",
+			"ckpt":" {BREAK|3::}, insanely detailed, absurdres, ultra-highres, ultra-detailed, best quality, {BREAK|3::}, {slender,|} {kawaii,|} perfect {symmetrical face,|} {ultra cute girl,|} {ultra cute face,|} ultra detailed eyes, ultra detailed hair, {ultra cute,|} ultra beautiful,",
 		},
 		"negative" : {
 			"ckpt":"bad face,",
+			"embedding":"{embedding:SimpleNegativeV3.safetensors|embedding:easynegative.safetensors|embedding:EasyNegativeV2.safetensors|embedding:SimpleNegative_AnimeV1.safetensors},",
 		},
 		"sampler_name": [
 			"dpmpp_2m_sde",  "dpmpp_3m_sde",
@@ -1488,16 +1506,19 @@
 		"cfg_min": 6.0,
 		"cfg_max": 11.0,
 		"KSampler":{
-			"steps": 30,
+			"steps_min": 20,
+			"steps_max": 30,
 		},
 		"DetailerForEachDebug":{
-			"steps": 30,
+			"steps_min": 20,
+			"steps_max": 30,
 		},
 		"positive" : {
-			"ckpt":" {BREAK|3::}, insanely detailed, absurdres, ultra-highres, ultra-detailed, best quality, {BREAK|3::}, slender, kawaii, perfect symmetrical face, ultra cute girl, ultra cute face, ultra detailed eyes, ultra detailed hair, ultra cute, ultra beautiful,",
+			"ckpt":" {BREAK|3::}, insanely detailed, absurdres, ultra-highres, ultra-detailed, best quality, {BREAK|3::}, {slender,|} {kawaii,|} perfect {symmetrical face,|} {ultra cute girl,|} {ultra cute face,|} ultra detailed eyes, ultra detailed hair, {ultra cute,|} ultra beautiful,",
 		},
 		"negative" : {
 			"ckpt":"bad face,",
+			"embedding":"{embedding:SimpleNegativeV3.safetensors|embedding:easynegative.safetensors|embedding:EasyNegativeV2.safetensors|embedding:SimpleNegative_AnimeV1.safetensors},",
 		},
 		"sampler_name": [
 			"dpmpp_2m_sde",  "dpmpp_3m_sde",
@@ -1507,7 +1528,7 @@
 		"stop_at_clip_layer_max": -1,
 	},
 	"hotarubreedRealmix_v80" : {
-		"cfg_min": 6.0,
+		"cfg_min": 3.0,
 		"cfg_max": 11.0,
 		"KSampler":{
 			"steps": 30,
@@ -1516,10 +1537,11 @@
 			"steps": 30,
 		},
 		"positive" : {
-			"ckpt":" {BREAK|3::}, insanely detailed, absurdres, ultra-highres, ultra-detailed, best quality, {BREAK|3::}, slender, kawaii, perfect symmetrical face, ultra cute girl, ultra cute face, ultra detailed eyes, ultra detailed hair, ultra cute, ultra beautiful,",
+			"ckpt":" {BREAK|3::}, insanely detailed, absurdres, ultra-highres, ultra-detailed, best quality, {BREAK|3::}, {slender,|} {kawaii,|} perfect {symmetrical face,|} {ultra cute girl,|} {ultra cute face,|} ultra detailed eyes, ultra detailed hair, {ultra cute,|} ultra beautiful,",
 		},
 		"negative" : {
 			"ckpt":"bad face,",
+			"embedding":"{embedding:SimpleNegativeV3.safetensors|embedding:easynegative.safetensors|embedding:EasyNegativeV2.safetensors|embedding:SimpleNegative_AnimeV1.safetensors},",
 		},
 		"sampler_name": [
 			"dpmpp_2m_sde",  "dpmpp_3m_sde",
@@ -1718,14 +1740,15 @@
 		],
 	},
 	"modernretromix_base" : {
-		"cfg" : 6.0,
+		"cfg_min" : 5.0,
+		"cfg_max" : 7.0,
 		"KSampler":{
-			"steps": 24,
+			#"steps": 24,
 			"steps_min": 20,
 			"steps_max": 30,
 		},
 		"DetailerForEachDebug":{
-			"steps": 24,
+			#"steps": 24,
 			"steps_min": 20,
 			"steps_max": 30,
 		},
@@ -2352,12 +2375,12 @@
 		"cfg_max": 9.0,
 		"stop_at_clip_layer": -2,
 		"KSampler":{
-			"steps_min": 15,
-			"steps_max": 25,
+			"steps_min": 20,
+			"steps_max": 30,
 		},
 		"DetailerForEachDebug":{
-			"steps_min": 15,
-			"steps_max": 25,
+			"steps_min": 20,
+			"steps_max": 30,
 		},
 		"sampler_name": [
 			"dpmpp_sde",  

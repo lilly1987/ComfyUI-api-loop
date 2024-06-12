@@ -1,8 +1,5 @@
 {
-    "positive": {
-        "char":" <lora:queenElizabethAzur_queenElizabethV1:__0.75__:1.0>, eqlc, blue eyes, ",
-        "hair":"long hair,  blonde hair, bangs, crown, hairband,",
-        #"dress":"{__Marianne_Vi_Britannia_dress__,|}",
-        #"style":"cardcaptor sakura \(style\), ",
-    },
+	"loras":{
+		"char": "queenElizabethAzur_queenElizabethV1",
+	},
 }

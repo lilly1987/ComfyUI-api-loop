@@ -1,7 +1,17 @@
 {
+	"queenElizabethAzur_queenElizabethV1": (
+	"queenElizabethAzur_queenElizabethV1",
+		(0.5,01.0),
+		1.0,
+		{
+			"char" :" eqlc, blue eyes,",
+			"hair":"long hair,  blonde hair, bangs, crown, hairband,",
+			#"dress":"dress, layered sleeves, long sleeves, bow, puffy sleeves, short over long sleeves, short sleeves, black dress, sleeves past wrists, frills, purple bow,",
+		},
+	),
 	"Frederica Bernkastel anything45pruned46r75r-000006": (
-		"Frederica Bernkastel anything45pruned46r75r-000006",
-		(0.75,01.0),
+	"Frederica Bernkastel anything45pruned46r75r-000006",
+		(0.5,01.0),
 		1.0,
 		{
 			"char" :" frederica bernkastel,  purple eyes,",
