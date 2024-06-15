@@ -1,0 +1,10 @@
+{
+    "loras":{
+        "char":"momoi_v4",
+        "1":"qqq-spitroast-v2",
+    },
+	#"positiveOnly":""
+	"positiveOnly":" , ,, , NSFW,, 1girl,, , masterpiece , best quality , detailed face, detailed eyes, perfect eyes,  perfect face, , ,,  , fellatio,, flat chest,, ,    Droptop,  chest open,  ,, long hair,,  sex from behind,, ,  , anime,,  midori \\(blue archive\\), , breasts out,pussy,  exposed pussy   pussy exposure, {revealing clothes,| },  , , , dildo in pussy,dildo ,dildo in ass,vaginal object insertion, dildo masturbation, , ",
+	"negativeOnly":  "(multiple views:1.25), (multiple viewer:1.25),  (cropped:1.25), face only,  lower body,  facial,, ugly face, blurry face, black and white, muscular female , text, sinature, stamp, watermark, error, jpeg artifacts, signature,  username,, realistic,photorealistic,,  bad anatomy, bad hands,   missing fingers, extra digit, fewer digits, speech bubble, bad face,, western,, lowres, worst quality, low quality,  from torso down, (monochrome:1.1), zombie , (blurry),  low res, , embedding:bad-hands-5.pt,",
+	"lorasUpdate":false,
+}

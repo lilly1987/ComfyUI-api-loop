@@ -66,14 +66,18 @@
         "embedding":"",
     },
     "sampler_name": [
-        "euler", "euler_ancestral",  "heunpp2","dpm_2", 
-           "dpmpp_2s_ancestral", "dpmpp_sde", "dpmpp_2m_sde",     
+        #"euler", 
+		"euler_ancestral",  
+		#"heunpp2","dpm_2", 
+	    #"dpmpp_2s_ancestral", "dpmpp_sde", "dpmpp_2m_sde",     
         #"dpmpp_3m_sde",
-        "ddpm",  "ddim", "dpmpp_2m",
+        #"ddpm",  "ddim", "dpmpp_2m",
     ],
 	#"dpmpp_sde_gpu","dpmpp_2m_sde_gpu", "dpmpp_3m_sde_gpu", "lms","uni_pc", "uni_pc_bh2" "lcm", "dpm_fast","dpm_adaptive","dpmpp_2m_sde",     "heun","dpm_2_ancestral",
     "scheduler": [
-        "normal", "karras",  "simple", "sgm_uniform",
+        #"normal", 
+		"karras",  
+		#"simple", "sgm_uniform",
     ],
 	"listMatch": [
 		#"*Cavendish*",

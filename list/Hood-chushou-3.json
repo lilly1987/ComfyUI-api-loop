@@ -1,0 +1,10 @@
+{
+    "loras":{
+        "char":"Hood",
+        "1":"chushou",
+    },
+	#"positiveOnly":""
+	"positiveOnly":  "hentai sex pose, spread legs,, breasts out,pussy,   exposed breasts,  , tentacles,, flat chest,, ahegao, , blonde_hair,long_hair,hair_over_shoulder,bangs,, ,  ,, blue_eyes,, 1girl ,petite, size difference , best quality, masterpiece, ,  , spitroast  deepthroat ,, , __dress_set__, , NSFW,,  , Suspension, sex from behind, , tentacle sex,,  , ,  ,  ",
+	"negativeOnly": "(worst quality, low quality:1.4),negative_hand-neg,, , western,, ugly face, blurry face, black and white, muscular female , text, sinature, stamp, watermark, error, jpeg artifacts, signature,  username,, lowres, worst quality, low quality,  from torso down, (monochrome:1.1), zombie , (blurry),  low res, , embedding:ParaNegative.safetensors,,  bad anatomy, bad hands,   missing fingers, extra digit, fewer digits, speech bubble, bad face,, (multiple views:1.25), (multiple viewer:1.25),  (cropped:1.25), face only,  lower body,  facial,",
+	"lorasUpdate":false,
+}

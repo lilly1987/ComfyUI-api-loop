@@ -1,0 +1,10 @@
+{
+    "loras":{
+        "char":"mechanicalRestraints_20230228",
+        "1":"Luoxuan_V2-000036",
+    },
+	#"positiveOnly":""
+	"positiveOnly":"luoxuan,, Eye-rolling,, mechanical_restraints,, hanged, hanging, hang, suicide, asphyxiation, hangman's noose around neck, hangman's noose, hangman's noose attached to the ceiling,, , dildo in pussy,dildo ,dildo in ass,vaginal object insertion, dildo masturbation, , , , masterpiece , best quality , detailed face, detailed eyes,   perfect face, ultra-detailed , ,, anime style anime,, , 1girl ,size difference petite, ,  , breasts out,pussy,  pussy exposure,  ,  witch outfit, corset, , , ,  off shoulder, bare shoulder, Droptop,  chest open,  BREAK,, ,, , flat chest,, NSFW,,,",
+	"negativeOnly": "western,, embedding:nncursedV0-neg.pt,, realistic,photorealistic,, lowres, worst quality, low quality,  from torso down, (monochrome:1.1), zombie , (blurry),  low res, ,  bad anatomy, bad hands,   missing fingers, extra digit, fewer digits, speech bubble, bad face,, (multiple views:1.25), (multiple viewer:1.25),  (cropped:1.25), face only,  lower body,  facial,, ugly face, blurry face, black and white, muscular female , text, sinature, stamp, watermark, error, jpeg artifacts, signature,  username,",
+	"lorasUpdate":false,
+}

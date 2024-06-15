@@ -1,0 +1,10 @@
+{
+    "loras":{
+        "char":"yor_briar_spyxfamily",
+        "1":"microwaist 0.2b Lora",
+    },
+	#"positiveOnly":""
+	"positiveOnly": "sex,   dynamic sexy pose,   eager moaning ,, ,, 1girl ,petite   , masterpiece , best quality , detailed face, detailed eyes, perfect eyes,  perfect face,  illustratio ultra-detailed  Beautiful body, ,, ,1boy,huge penis ,,, anime 2D,,  , ,   bare shoulder, Droptop, strapless dress, chest open,   small chest, flat chest,,flat chest, thin waist,, breasts out,pussy,  exposed pussy  breasts exposed,  ,  , small chest, flat chest,, thin waist, ,  wearing  maid dress, , NSFW,,  yor_briar_spyxfamily, red_eyes, black hair, hairband, sidelocks,  white_hairband, earrings, bangs,  ,  , BREAK, dildo in pussy,dildo ,dildo in ass,vaginal object insertion, dildo masturbation, BREAK, , (rolling eyes:1.0),",
+	"negativeOnly": "(multiple views:1.25), (multiple viewer:1.25),  (cropped:1.25), face only,  lower body,  facial,, ,  bad anatomy, bad hands,   missing fingers, extra digit, fewer digits, speech bubble, bad face,, lowres, worst quality, low quality,  from torso down, (monochrome:1.1), zombie , (blurry),  low res, , western,, ugly face, blurry face, black and white, muscular female , text, sinature, stamp, watermark, error, jpeg artifacts, signature,  username,, embedding:NGH.safetensors,",
+	"lorasUpdate":false,
+}

@@ -1,0 +1,10 @@
+{
+    "loras":{
+        "char":"Caitlin_PK-10",
+        "1":"aki-000018",
+    },
+	#"positiveOnly":""
+	"positiveOnly": ", masterpiece , best quality ,     perfect face,  illustratio, ,, small chest, flat chest,,flat chest, thin waist,, anime 2D,, , caitlin_pk, long hair,  white hat, white dress,  very long hair, , ,, hanging, (hunged_girl:1.25),rope on neck, noose, asphyxiation, rolling eyes,  gore, guro, arms_behind_back, bound_arms, arms bound,  bdsm, bound,, sex rough sex epic sex,   posing cute dynamic sexy pose,   eager moaning ,, cowboy shot, , , , ,, 1girl ,petite ,size difference , BREAK, (multiple insertions, large insertion,  object insertion, impossible object insertion, object insertion:1.25), BREAK, , NSFW,,  , (rolling eyes:1.0),, (asphyxiation:1.0),, ,  off shoulder,   strapless dress,   ,, breasts out,pussy,   exposed breasts , breasts exposure, revealing clothes, ",
+	"negativeOnly":" bad anatomy, bad hands,   missing fingers, extra digit, fewer digits, speech bubble, bad face,, ugly face, blurry face, black and white, muscular female , text, sinature, stamp, watermark, error, jpeg artifacts, signature,  username,, lowres, worst quality, low quality,  from torso down, (monochrome:1.1), zombie , (blurry),  low res, , embedding:neg_grapefruit.pt,, western,, realistic,, (multiple views:1.25), (multiple viewer:1.25),  (cropped:1.25), face only,  lower body,  facial,", 
+	"lorasUpdate":false,
+}
