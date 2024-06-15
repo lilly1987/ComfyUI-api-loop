@@ -1,0 +1,10 @@
+{
+    "loras":{
+        "char":"LeexRosemary-10",
+        "1":"sex_toy_transformation",
+    },
+	#"positiveOnly":""
+	"positiveOnly":",, , ,  transformation, limbless, armless, legsless, , LeexRosemary, 1girl, long hair, blue eyes, black skirt, blonde hair, brown hair, grey shirt, purple gloves, purple eyes, black pantyhose, hairband, hair over one eye, black coat, blue rose, rita rossweisse,  , , frills, frilled dress,  , , flat chest,, , breasts out,pussy,  breasts exposure  pussy exposure   exposed breasts, revealing clothes, , , (multiple insertions, large insertion, anal object insertion, impossible object insertion, object insertion:1.25), , , ,, , masterpiece , best quality ,  detailed eyes, perfect eyes,  perfect face, ultra-detailed, ,, 2D anime,, 1girl ,size difference, ,   , NSFW,", 
+	"negativeOnly":  "(multiple views:1.25), (multiple viewer:1.25),  (cropped:1.25), face only,  lower body,  facial,, western,, , realistic,, lowres, worst quality, low quality,  from torso down, (monochrome:1.1), zombie , (blurry),  low res, , ugly face, blurry face, black and white, muscular female , text, sinature, stamp, watermark, error, jpeg artifacts, signature,  username,,  bad anatomy, bad hands,   missing fingers, extra digit, fewer digits, speech bubble, bad face,",
+	"lorasUpdate":false,
+}

@@ -1,0 +1,10 @@
+{
+    "loras":{
+        "char":"MayaYotsuba-10",
+        #"1":"sex_toy_transformation",
+    },
+	#"positiveOnly":""
+	"positiveOnly":", 1girl ,petite size difference, , anime style 2D anime,, breasts out,pussy,  breasts exposure ,  nipples exposure , exposed pussy , revealing clothes, , , , , , dildo in pussy,dildo ,dildo in ass,vaginal object insertion, dildo masturbation, , , , , masterpiece , best quality , detailed face,    , ,,  frilled dress,  ,   purple hair, long hair, drill hair, , hanged, hanging, hang, suicide, asphyxiation, hangman's noose around neck, hangman's noose, hangman's noose attached to the ceiling,, long sleeves, purple dress, cleavage,  collarbone, frills, long dress, ,  , NSFW,, , flat chest,,  MayaYotsuba,  purple eyes,braid,,,  , ,",
+	"negativeOnly": "embedding:ParaNegative.safetensors,, lowres, worst quality, low quality,  from torso down, (monochrome:1.1), zombie , (blurry),  low res, , realistic,, ugly face, blurry face, black and white, muscular female , text, sinature, stamp, watermark, error, jpeg artifacts, signature,  username,,  bad anatomy, bad hands,   missing fingers, extra digit, fewer digits, speech bubble, bad face,, western,, (multiple views:1.25), (multiple viewer:1.25),  (cropped:1.25), face only,  lower body,  facial,",
+	"lorasUpdate":false,
+}

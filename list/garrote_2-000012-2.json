@@ -1,0 +1,10 @@
+{
+    "loras":{
+        #"char":"reimuEndou_main",
+        "1":"garrote_2-000012",
+    },
+	#"positiveOnly":""
+	"positiveOnly": "cowboy shot, , ,,  , , hanged, hanging, hang, suicide, asphyxiation, hangman's noose around neck, hangman's noose, hangman's noose attached to the ceiling,, , afraid,(surprised), shouting,sitting,((sad)),open mouth,cry, one boy standing behind,arms behind back,,  ,  capelet, ,  , , flat chest,, ,  , , anime style anime 2D,, breasts out,pussy, , revealing clothes, , 1girl ,petite, , NSFW,, BREAK, masterpiece , best quality ,   perfect eyes,  , ,",
+	"negativeOnly": "western,, realistic,, embedding:EasyNegativeV2.safetensors embedding:SimpleNegative_AnimeV1.safetensors,, (multiple views:1.25), (multiple viewer:1.25),  (cropped:1.25), face only,  lower body,  facial,, lowres, worst quality, low quality,  from torso down, (monochrome:1.1), zombie , (blurry),  low res, , ugly face, blurry face, black and white, muscular female , text, sinature, stamp, watermark, error, jpeg artifacts, signature,  username,,  bad anatomy, bad hands,   missing fingers, extra digit, fewer digits, speech bubble, bad face,",
+	"lorasUpdate":false,
+}

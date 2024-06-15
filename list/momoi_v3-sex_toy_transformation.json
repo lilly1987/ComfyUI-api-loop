@@ -1,0 +1,10 @@
+{
+    "loras":{
+        "char":"momoi_v3",
+        "1":"sex_toy_transformation",
+    },
+	#"positiveOnly":""
+	"positiveOnly":"sit, transformation, limbless, armless, legsless, {BREAK,|} thin waist,, ,  , breasts out,pussy, , revealing clothes, ,  midori \\(blue archive\\), BREAK, , NSFW,, 2D anime style, {BREAK,|} 2boy, (multiple insertions, large insertion, anal object insertion, impossible object insertion, object insertion:1.25), long hair,, 1girl ,size difference petite , masterpiece , best quality , detailed face, illustratio, ",
+	"negativeOnly": "(multiple views:1.25), (multiple viewer:1.25),  (cropped:1.25), face only,  lower body,  facial,, realistic,,  bad anatomy, bad hands,   missing fingers, extra digit, fewer digits, speech bubble, bad face,, lowres, worst quality, low quality,  from torso down, (monochrome:1.1), zombie , (blurry),  low res, , , ugly face, blurry face, black and white, muscular female , text, sinature, stamp, watermark, error, jpeg artifacts, signature,  username,, western,",
+	"lorasUpdate":false,
+}

@@ -1,0 +1,10 @@
+{
+    "loras":{
+        "char":"reimuEndou_main",
+        "1":"aki-000012",
+    },
+	#"positiveOnly":""
+	"positiveOnly": ", 2D anime style,, BREAK, masterpiece , best quality ,  detailed eyes,   perfect face,  ultra-detailed, ,, sex,   dynamic sexy pose posing cute,   , breasts out,pussy, (exposure:1.0)  pussy exposure   exposed breasts, revealing clothes, , hanging, (hunged_girl:1.0),rope on neck, noose, asphyxiation, rolling eyes,  gore, guro,  hang in the air, bdsm, bound,, 1girl ,size difference petite, , small chest,, reimu,, NSFW,,  ,  , Eye-rolling,, frills, frilled dress, frilled skirt, , ,  wearing witch dress, corset, , , ,, long hair, ,  , ,   bare shoulder,  strapless dress, chest open,  ,",
+	"negativeOnly": "lowres, worst quality, low quality,  from torso down, (monochrome:1.1), zombie , (blurry),  low res, , (multiple views:1.25), (multiple viewer:1.25),  (cropped:1.25), face only,  lower body,  facial,,  bad anatomy, bad hands,   missing fingers, extra digit, fewer digits, speech bubble, bad face,, embedding:nncursedV0-neg.pt,, realistic,photorealistic,, ugly face, blurry face, black and white, muscular female , text, sinature, stamp, watermark, error, jpeg artifacts, signature,  username,, western,",
+	"lorasUpdate":false,
+}

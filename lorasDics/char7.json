@@ -57,11 +57,14 @@
         (0.5,1.0),
         1.0,
         {
-            "style" :"photorealistic,",
+            "style" :"{photorealistic,|}",
             "char" :"rithe,",
             "hair":",",
             #"dress":"victorian dress,",
         },
+		{
+			"style":"",
+		},
     ),
     "beatriceSymphogear_beatriceXDU": (
     "beatriceSymphogear_beatriceXDU",
@@ -214,6 +217,70 @@
 			"dress":", ",
 		},
 	),
+	"kaedetakagaki-nvwls-v1": (
+    "kaedetakagaki-nvwls-v1",
+		(0.5,1.0),
+		1.0,
+		{
+			"char":"heterochromia, green eyes, blue eyes, {defKaede,  black dress, off-shoulder, short dress, short shorts, black shorts|abyssKaede,  lotus hair ornament, black leotard, cleavage cutout, navel cutout, black gloves, black skirt, single thighhigh|lifeKaede,  hair flower, victorian dress, bare shoulders, green and white dress, white gloves, elbow gloves|catKaede, cat ears, gothic dress, ascot, short sleeves, black thighhighs, cat tail|dancKaede,hairpin, bikini top, black jacket, white shorts, gloves},",
+			"hair":"",
+			"dress":" ",
+		},
+	),
+	"araragi-tsukihi-v1": (
+    "araragi-tsukihi-v1",
+		(0.5,1.0),
+		1.0,
+		{
+			"char":"araragitsukihi,",
+			#"hair":"blonde hair, maid headdress, ",
+			#"dress":"maid apron, long sleeves, pantyhose, ",
+		},
+	),
+	"an94GirlsFrontline_10": (
+	"an94GirlsFrontline_10",
+		(0.5,01.0),
+		1.0,
+		{
+			"char" :"{AN94|AN94Dress|AN94Magical},  ",
+			"hair":"  ,  ",
+			#"dress":"{priest clothes|onsen clothes},",
+		},
+		{},
+	),
+	"monv_v2.4_lbw": (
+    "monv_v2.4_lbw",
+		(0.5,1.0),
+		1.0,
+		{
+			#"char":"maid, blue eyes,",
+			"hair":"{long hair,|} {blunt hair,|bang hair,|}",
+			"dress":"black dress,layered dress,frills,pink bow,wide sleeves,witch hat,frilled sleeves,cross pendant,, ",
+
+		},
+	),
+	"jk uniform": (
+    "jk uniform",
+		(0.5,1.0),
+		1.0,
+		{
+			#"char":"maid, blue eyes,",
+			#"hair":"blonde hair, maid headdress, ",
+			"dress":"JK_style,short-sleeved JK_shirt, JK_skirt, ",
+
+		},
+	),
+	"lo_dress_floral_style2_v2": (
+    "lo_dress_floral_style2_v2",
+		(0.5,1.0),
+		1.0,
+		{
+			#"char":"maid, blue eyes,",
+			#"hair":"blonde hair, maid headdress, ",
+			"dress":"lo_dress, ",
+
+		},
+	),
 	"Toki_V2.0": (
     "Toki_V2.0",
 		(0.5,1.0),
@@ -222,6 +289,17 @@
 			"char":"maid, blue eyes,",
 			"hair":"blonde hair, maid headdress, ",
 			"dress":"maid apron, long sleeves, pantyhose, ",
+
+		},
+	),
+	"NatalieEBF-10": (
+    "NatalieEBF-10",
+		(0.5,1.0),
+		1.0,
+		{
+			"char":" NatalieEBF, 1girl,  long hair, blue eyes, hair ornament, long sleeves, red dress, cleavage, bare shoulders, medium breasts, collarbone, ahoge, black pantyhose, red hair, detached sleeves, hair flower, orange hair, strapless, red flower, corset, twintails, ",
+			"hair":" ",
+			"dress":""
 		},
 	),
 	"Inagaki Sae(sk)": (

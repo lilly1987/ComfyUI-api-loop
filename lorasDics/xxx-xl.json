@@ -1,0 +1,74 @@
+{
+	"BBQ_pony_v1_guillotine_merge": (
+	"BBQ_pony_v1_guillotine_merge",
+		(0.5,01.0),
+		1.0,
+		{
+		"BBQ_pony_v1":"cooked,cooking,cannibalism,bondage,insertion, ",
+		},
+		{},
+		#["rnd",
+		#"SD-MIDD"
+		#],
+	),
+	"BBQ_pony_v1": (
+	"BBQ_pony_v1",
+		(0.5,01.0),
+		1.0,
+		{
+		"BBQ_pony_v1":"cooked,cooking,cannibalism,bondage,insertion, ",
+		},
+		{},
+		#["rnd",
+		#"SD-MIDD"
+		#],
+	),
+	"execution_hanged_pony_v2": (
+	"execution_hanged_pony_v2",
+		(0.5,01.0),
+		1.0,
+		{
+		"execution_hanged_pony_v2":"{1-3$$hanged, |hanging,| hanging executed,} {-2$$asphyxiation, |tongue out},arm behind back, {vibrator,|}",
+		},
+		{},
+		#["rnd",
+		#"SD-MIDD"
+		#],
+	),
+	"hanging_preparing_pony": (
+	"hanging_preparing_pony",
+		(0.5,01.0),
+		1.0,
+		{
+		"hanging_preparing_pony":"{1-3$$hanged, |hanging,| hanging executed,} {-2$$asphyxiation, |tongue out},arm behind back, {vibrator,|}",
+		},
+		{},
+		#["rnd",
+		#"SD-MIDD"
+		#],
+	),
+	"armstr_anV31-000097": (
+	"armstr_anV31-000097",
+		(0.5,01.0),
+		1.0,
+		{
+		"armstr_anV31-000097":"1boy, 1girl, arm strangling, solo focus,{rear naked choke, |breast grab from behind, |}",
+		},
+		{},
+		#["rnd",
+		#"SD-MIDD"
+		#],
+	),
+	"dildo_motion_blur": (
+	"dildo_motion_blur",
+	(0.5,01.0),
+	1.0,
+	{
+	"dildo_motion_blur":"dildo, motion blur,",
+	},
+	{},
+	#["rnd",
+	#"SD-MIDD"
+	#],
+	),
+}
