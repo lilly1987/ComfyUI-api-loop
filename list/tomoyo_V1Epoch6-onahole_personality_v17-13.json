@@ -1,0 +1,10 @@
+{
+    "loras":{
+        "char":"tomoyo_V1Epoch6",
+        "1":"onahole_personality_v17",
+    },
+	#"positiveOnly":""
+	"positiveOnly": "NSFW,, , (rolling eyes:1.0),, Heart-shaped lace bralette with a matching ruffled skirted panty, , rough sex epic sex,   dynamic sexy pose posing cute,   , black long hair, blunt bangs,,  onahole, holding onahole, transparent onahole, limbless, armless, legsless, ,  , ,  off shoulder, bare shoulder,     ,,  , , (multiple insertions, large insertion,  object insertion, impossible object insertion, object insertion, penis insertion:1.25), , ,  , , small chest,, , masterpiece , best quality ,   perfect eyes,  perfect face,  Beautiful character design , Beautiful body , ,, ,, breasts out,pussy, , revealing clothes, , daidouji_tomoyo, tomoyo,,huge penis ,,, , 1girl ,size difference, petite, ",
+	"negativeOnly":"realistic,, lowres, worst quality, low quality,  from torso down, (monochrome:1.1), zombie , (blurry),  low res, , twin tail hair,, ugly face, blurry face, black and white, muscular female , text, sinature, stamp, watermark, error, jpeg artifacts, signature,  username,, western,, ,  bad anatomy, bad hands,   missing fingers, extra digit, fewer digits, speech bubble, bad face,, (multiple views:1.25), (multiple viewer:1.25),  (cropped:1.25), face only,  lower body,  facial,",
+	"lorasUpdate":false,
+}

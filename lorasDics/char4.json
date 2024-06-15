@@ -9,6 +9,26 @@
 			#"dress":"dress, layered sleeves, long sleeves, bow, puffy sleeves, short over long sleeves, short sleeves, black dress, sleeves past wrists, frills, purple bow,",
 		},
 	),
+	"oyari_ashito_style_v01": (
+	"oyari_ashito_style_v01",
+		(0.5,01.0),
+		1.0,
+		{
+			#"char" :" frederica bernkastel,  purple eyes,",
+			#"hair":" long hair, blue hair, ",
+			#"dress":"dress, layered sleeves, long sleeves, bow, puffy sleeves, short over long sleeves, short sleeves, black dress, sleeves past wrists, frills, purple bow,",
+		},
+	),
+	"oyari_ashito_v0.1a": (
+	"oyari_ashito_v0.1a",
+		(0.5,01.0),
+		1.0,
+		{
+			#"char" :" frederica bernkastel,  purple eyes,",
+			#"hair":" long hair, blue hair, ",
+			#"dress":"dress, layered sleeves, long sleeves, bow, puffy sleeves, short over long sleeves, short sleeves, black dress, sleeves past wrists, frills, purple bow,",
+		},
+	),
 	"Frederica Bernkastel anything45pruned46r75r-000006": (
 	"Frederica Bernkastel anything45pruned46r75r-000006",
 		(0.5,01.0),

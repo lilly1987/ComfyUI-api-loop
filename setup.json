@@ -248,7 +248,7 @@
 	"shuffle":False,
     "shuffle":true,
 	"positive": {
-        "quality":"{BREAK|3::}, masterpiece , best quality , {detailed face,|} {detailed eyes,|} {perfect eyes,|} { perfect face,|} {0-3$$ultra-detailed,| illustration,| Beautiful body,| Beautiful character design|}, {BREAK|3::},",
+        "quality":"{BREAK|3::}, masterpiece , best quality , {detailed face,|} {detailed eyes,|} {perfect eyes,|} { perfect face,|} {0-3$$ultra-detailed,| illustration,| Beautiful body,| Beautiful character design,|}, {BREAK|3::},",
 		"pose":"",
         "pose":"{kneeling,kneeling pose,|sit,|man behind girl,|7::}",
         "NSFW":"NSFW,",

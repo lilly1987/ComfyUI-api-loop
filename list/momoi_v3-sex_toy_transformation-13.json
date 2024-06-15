@@ -1,0 +1,10 @@
+{
+    "loras":{
+        "char":"momoi_v3",
+        "1":"sex_toy_transformation",
+    },
+	#"positiveOnly":""
+	"positiveOnly": " , deepthroat  hug and suck  spitroast ,, , masterpiece , best quality ,  detailed eyes,   perfect face, , BREAK,, sex,   posing cute,   eager moaning ,, breasts out,pussy, breasts exposed (exposure:1.0), revealing clothes, ,  momoi \\(blue archive\\), BREAK, , anime style 2D,, NSFW,, cowboy shot, , BREAK,        ,, 1girl ,petite size difference , small chest,,  , (rolling eyes:1.0),, ,, long hair,, , ,2boy,huge penis ,,, {BREAK,|} transformation, limbless, armless, legsless, ,  ",
+	"negativeOnly": ", , lowres, worst quality, low quality,  from torso down, (monochrome:1.1), zombie , (blurry),  low res, , western,, (multiple views:1.25), (multiple viewer:1.25),  (cropped:1.25), face only,  lower body,  facial,, ugly face, blurry face, black and white, muscular female , text, sinature, stamp, watermark, error, jpeg artifacts, signature,  username,,  bad anatomy, bad hands,   missing fingers, extra digit, fewer digits, speech bubble, bad face,",
+	"lorasUpdate":false,
+}

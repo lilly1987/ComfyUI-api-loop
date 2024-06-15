@@ -1,0 +1,10 @@
+{
+    "loras":{
+        "char":"Caitlin_PK-10",
+        "1":"sex_toy_transformation",
+    },
+	#"positiveOnly":""
+	"positiveOnly":  "frills, frilled dress,  ,  transformation, limbless, armless, legsless, , 1girl ,petite size difference , , ,, breasts out,pussy,  breasts exposure,  , rolling eyes,, ,  , rough sex epic sex,   dynamic sexy pose posing cute,   eager moaning , , masterpiece , best quality , detailed face,  perfect eyes,   Beautiful character design, BREAK,,  , anime ,2D,, caitlin_pk, long hair,  white hat, white dress,  very long hair, ,  , flat chest,, , , fellatio ,, BREAK, (multiple insertions, large insertion, vaginal object insertion, impossible object insertion, object insertion:1.25), , , NSFW,",
+	"negativeOnly": "ugly face, blurry face, black and white, muscular female , text, sinature, stamp, watermark, error, jpeg artifacts, signature,  username,,  bad anatomy, bad hands,   missing fingers, extra digit, fewer digits, speech bubble, bad face,, , western,, lowres, worst quality, low quality,  from torso down, (monochrome:1.1), zombie , (blurry),  low res, , , (multiple views:1.25), (multiple viewer:1.25),  (cropped:1.25), face only,  lower body,  facial,",
+	"lorasUpdate":false,
+}

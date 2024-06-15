@@ -203,6 +203,17 @@
 		},
 		{},
 	),
+	"pokemonCogita_v10": (
+	"pokemonCogita_v10",
+		(0.5,01.0),
+		1.0,
+		{
+			"char":"Cogita /(pokemon/), ",
+			"hair":"Cogita /(pokemon/), ",
+			"dress":"Cogita /(pokemon/), ",
+		},
+		{},
+	),
 	"润色希-000010": (
 	"润色希-000010",
 		(0.5,01.0),

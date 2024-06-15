@@ -429,6 +429,26 @@
 		},
 		"SaveImage2":true,
 	},
+	"kaywaii_v90" : {
+		"stop_at_clip_layer": -2,
+		"cfg" : 7.0,
+		"KSampler":{
+			"steps": 30,
+		},
+		"DetailerForEachDebug":{
+			"steps": 30,
+		},
+		"positive" : {
+			#"isXl":"  score_9, score_8_up, score_7_up,",
+		},
+		"negative" : {
+			"embedding":"embedding:easynegative.safetensors,",
+		},
+		"sampler_name": [
+			 "dpmpp_2m_sde",  
+		],
+		"SaveImage2":true,
+	},
 	"kaywaii_v85" : {
 		"stop_at_clip_layer": -2,
 		"cfg" : 7.0,
@@ -487,6 +507,24 @@
 		],
 		"SaveImage2":true,
 	},
+	"3x3mixxltyped_v01" : {
+		"cfg" : 7.0,
+		"KSampler":{
+			"steps": 20,
+		},
+		"DetailerForEachDebug":{
+			"steps": 20,
+		},
+		"positive" : {
+			"isXl":"score_9, score_8_up, score_7_up , source_anime, masterpiece, best quality, perfect anatomy , very aesthetic , absurdres ,,",
+		},
+		"negative" : {
+			"isXl":"score_6 , score_5 , score_4 , source_furry, source_pony, source_cartoon,,",
+		},
+		"sampler_name": [
+			"euler", "euler_ancestral",  
+		],
+	},
 	"3x3mixxltypec_v01" : {
 		"cfg" : 7.0,
 		"KSampler":{
@@ -544,7 +582,7 @@
 		},
 		"sampler_name": [
 			 "dpmpp_2m_sde",   
-			 "dpmpp_3m_sde",   
+			 #"dpmpp_3m_sde",   
 		],
 		#"SaveImage2":true,
 		"stop_at_clip_layer_min": -2,
@@ -570,7 +608,7 @@
 		},
 		"sampler_name": [
 			 "dpmpp_2m_sde",   
-			 "dpmpp_3m_sde",   
+			 #"dpmpp_3m_sde",   
 		],
 		#"SaveImage2":true,
 		"stop_at_clip_layer_min": -2,
@@ -595,8 +633,8 @@
 			"embedding":"{embedding:SimpleNegativeV3.safetensors|embedding:easynegative.safetensors|embedding:EasyNegativeV2.safetensors|embedding:SimpleNegative_AnimeV1.safetensors},",
 		},
 		"sampler_name": [
-			 "dpmpp_2m_sde",   
-			 "dpmpp_3m_sde",   
+			"dpmpp_2m_sde",   
+			#"dpmpp_3m_sde",   
 		],
 		#"SaveImage2":true,
 		"stop_at_clip_layer_min": -2,
@@ -622,7 +660,7 @@
 		},
 		"sampler_name": [
 			 "dpmpp_2m_sde",   
-			 "dpmpp_3m_sde",   
+			 #"dpmpp_3m_sde",   
 		],
 		#"SaveImage2":true,
 		"stop_at_clip_layer_min": -2,
@@ -822,7 +860,8 @@
 		],
 	},
 	"pppAnimix_basic50" : {
-		"cfg" : 7.5,
+		"cfg_min": 6.0,
+		"cfg_max": 8.0,
 		"KSampler":{
 			"steps": 40,
 		},
@@ -835,7 +874,7 @@
 			#"embedding":"embedding:easynegative.safetensors,",
 		},
 		"sampler_name": [
-			"dpmpp_2m", 
+			"dpmpp_3m_sde", 
 		],
 		"scheduler": [
 			"karras", 
@@ -1171,6 +1210,20 @@
 		"scheduler": ["karras", ],
 		"stop_at_clip_layer": -2,
 	},
+	"coharumix_v7" : {
+		"cfg_min": 4.0,
+		"cfg_max": 9.0,
+		"KSampler":{
+			"steps": 20,
+		},
+		"DetailerForEachDebug":{
+			"steps": 20,
+		},
+		"sampler_name": [
+			"euler_ancestral",
+			"ddim", 
+		],
+	},
 	"coharumix_nsfw" : {
 		"cfg_min": 4.0,
 		"cfg_max": 7.0,
@@ -1421,8 +1474,34 @@
 			"embedding":"{embedding:easynegative.safetensors|embedding:EasyNegativeV2.safetensors},",
 		},
 	},
+	"melonSkinMix_08" : {
+		"cfg_min": 4.0,
+		"cfg_max": 12.0,
+		"KSampler":{
+			#"steps": 50,
+			"steps_min": 40,
+			"steps_max": 60,
+		},
+		"DetailerForEachDebug":{
+			#"steps": 50,
+			"steps_min": 40,
+			"steps_max": 60,
+		},
+		"sampler_name": [
+			#"dpmpp_2m_sde", 
+			#"dpmpp_3m", 
+			"dpmpp_2s_ancestral", 
+		],
+		"scheduler": ["karras", ],
+		"stop_at_clip_layer_min": -2,
+		"stop_at_clip_layer_max": -1,
+		"negative" : {
+			"quality":"lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry,",
+			"embedding":"{embedding:SimpleNegativeV3.safetensors|embedding:easynegative.safetensors|embedding:EasyNegativeV2.safetensors|embedding:SimpleNegative_AnimeV1.safetensors},",
+		},
+	},
 	"hotarubreedRealmix_v40" : {
-		"cfg_min": 7.0,
+		"cfg_min": 4.0,
 		"cfg_max": 10.0,
 		"KSampler":{
 			#"steps": 50,
@@ -1436,7 +1515,7 @@
 		},
 		"sampler_name": [
 			"dpmpp_2m_sde", 
-			"dpmpp_3m_sde", 
+			#"dpmpp_3m_sde", 
 		],
 		"scheduler": ["karras", ],
 		"stop_at_clip_layer_min": -2,
@@ -1990,6 +2069,8 @@
 		"DetailerForEachDebug":{
 			"steps": 30,
 		},
+		"stop_at_clip_layer_min": -2,
+		"stop_at_clip_layer_max": -2,
 		"positive" : {
 			#"ckpt":" {BREAK|3::}, insanely detailed, absurdres, ultra-highres, ultra-detailed, best quality, {BREAK|3::}, slender, kawaii, perfect symmetrical face, ultra cute girl, ultra cute face, ultra detailed eyes, ultra detailed hair, ultra cute, ultra beautiful,",
 		},
@@ -2001,8 +2082,6 @@
 			#"dpmpp_3m_sde",
 		],
 		"scheduler": ["karras", ],
-		"stop_at_clip_layer_min": -2,
-		"stop_at_clip_layer_max": -2,
 	},
 	"hotarubreedRealmix_v70" : {
 		"cfg_min": 3.0,
