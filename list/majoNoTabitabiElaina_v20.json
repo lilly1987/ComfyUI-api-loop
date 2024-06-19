@@ -2,7 +2,7 @@
     "loras":{
         "char": (
             "majoNoTabitabiElaina_v20",
-            (0.25,1.0),
+            (0.0,0.750),
             1.0,
             {
                 "char":"elaina,",

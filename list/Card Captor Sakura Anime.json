@@ -2,7 +2,7 @@
     "loras":{
         "char": (
             "Card Captor Sakura Anime",
-            (0.75,1.0),
+            (0.5,1.0),
             1.0,
             {
         "char":"daidouji tomoyo, ",

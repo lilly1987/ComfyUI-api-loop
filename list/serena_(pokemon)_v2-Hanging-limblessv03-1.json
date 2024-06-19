@@ -1,0 +1,11 @@
+{
+    "loras":{
+        "char":"serena_(pokemon)_v2",
+        "1":"Hanging",
+        "1":"limblessv03-1",
+    },
+	#"positiveOnly":""
+	"positiveOnly":  ", anime, anime style,,  , (rolling eyes:1.0),, 1girl ,petite, size difference, ,  , , breasts out,pussy,  pussy exposure, breasts exposed,  , limbless,, flat chest,  AsphyxiationHngng, rope, standing,  orgasm,  female ejaculation,  pussy juice,  rolling eyes, trembling, peeing, pee,  head tilt,    sweat,  nipples,     blush,   ,  ,  capelet, , rough sex, epic sex, sex,   dynamic sexy pose,   , NSFW,, BREAK, (multiple insertions, large insertion, anal object insertion, impossible object insertion, object insertion:1.25), , , aaserena,  long hair, eyewear on headwear, pink headwear, eyelashes, blue eyes, {sleeveless shirt, black shirt, bracelet, high-waist skirt, red skirt, black thighhighs,|__dress__,} masterpiece , best quality ,   perfect eyes,  perfect face,  Beautiful character design ,  Beautiful body,, ,",
+	"negativeOnly":", (multiple views:1.25), (multiple viewer:1.25),  (cropped:1.25), face only,  lower body,  facial,, ugly face, blurry face, black and white, muscular female , text, sinature, stamp, watermark, error, jpeg artifacts, signature,  username,, realistic,photorealistic,,  bad anatomy, bad hands,   missing fingers, extra digit, fewer digits, speech bubble, bad face,, western,, embedding:neg_grapefruit.pt embedding:BadDream.pt,, lowres, worst quality, low quality,  from torso down, (monochrome:1.1), zombie , (blurry),  low res, ",
+	"lorasUpdate":false,
+}

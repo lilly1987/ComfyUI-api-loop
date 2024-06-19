@@ -1,0 +1,11 @@
+{
+    "loras":{
+        "char":"lemrina",
+        "1":"hunged_girl",
+        #"1":"limblessv03-1",
+    },
+	#"positiveOnly":""
+	"positiveOnly":  ", masterpiece , best quality , detailed face, detailed eyes,    ultra-detailed,  Beautiful character design,, ,, , , , 1girl ,size difference, petite, , epic sex,   posing cute, dynamic sexy pose,   , , ,  , NSFW,, , ,  , anime style, 2D,,  (hunged_girl:1.0),rope on neck, noose, asphyxiation, rolling eyes, open mouth,   arms bound, hang in the air, ,   frilled skirt, frilled sleeves,, hairband,pink hair,short hair,blunt bangs, bob cut,blue eyes,dress,long sleeves,puffy sleeves,,, cowboy shot, , breasts out,pussy,   exposed breasts,  breasts exposure, breasts exposed, revealing clothes, , Eye-rolling,, small chest,, BREAK,     strapless dress, chest open,  ,, ,1boy,huge penis ,,",
+	"negativeOnly" :  "western,,  bad anatomy, bad hands,   missing fingers, extra digit, fewer digits, speech bubble, bad face,, lowres, worst quality, low quality,  from torso down, (monochrome:1.1), zombie , (blurry),  low res, , ugly face, blurry face, black and white, muscular female , text, sinature, stamp, watermark, error, jpeg artifacts, signature,  username,, (multiple views:1.25), (multiple viewer:1.25),  (cropped:1.25), face only,  lower body,  facial,, realistic,photorealistic,, embedding:neg_grapefruit.pt embedding:bad_prompt_version2-neg.pt,",
+	"lorasUpdate":false,
+}

@@ -1,0 +1,11 @@
+{
+    "loras":{
+        "char":"shijou_takane_v1",
+        "1":"guided_penetration-beta1",
+        #"2":"bulgesuperXLPony",
+    },
+	#"positiveOnly":""
+	"positiveOnly":  "NSFW,, epic sex,   dynamic sexy pose, posing cute,   , anime style,,  , ,1boy, dildo in pussy,dildo ,dildo in ass,vaginal object insertion, dildo masturbation, , , , , breasts out,pussy, (exposure:1.0),   nipples exposure,  , Eye-rolling, long hair,, 1girl ,petite, size difference, ,  pov, straddling, assertive female, hetero, guided penetration, gp1, cowgirl position, 1boy, 1girl, penis, vaginal, , , flat breasts,,  ,  , , masterpiece , best quality ,     , ,, , cowboy shot, , aatakane,  hairband,  , flat chest, __dress__,", 
+	"negativeOnly" :  "realistic,photorealistic,, (multiple views:1.25), (multiple viewer:1.25),  (cropped:1.25), face only,  lower body,  facial,, embedding:NGH.safetensors, embedding:negative_hand-neg.pt,,, ugly face, blurry face, black and white, muscular female , text, sinature, stamp, watermark, error, jpeg artifacts, signature,  username, extra digit, fewer digits, speech bubble,  bad face,,  bad anatomy, bad hands, missing fingers,, lowres, worst quality, low quality,  from torso down, (monochrome:1.1), zombie , (blurry),  low res, , , western,", 
+	"lorasUpdate":false,
+}

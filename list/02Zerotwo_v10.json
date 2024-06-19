@@ -2,7 +2,7 @@
     "loras":{
         "char": (
             "02Zerotwo_v10",
-            (0.25,1.0),
+            (0.0,1.0),
             1.0,
             {
                 #"char" :" rioterav1, ",

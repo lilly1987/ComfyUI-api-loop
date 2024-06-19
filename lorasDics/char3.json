@@ -33,12 +33,12 @@
     ),
     "Amagi Ryou(bjsn)": (
     "Amagi Ryou(bjsn)",
-        (0.5,1.0),
+        (0.25,1.0),
         1.0,
         {
             "char" :"Amagi Ryou,",
             "hair":"long hair,black hair,shiny hair,sidelocks,swept bangs,brown eyes,",
-            "dress":"{collarbone,cleavage,pumps,labcoat,wing collar,breast pocket,open clothes,white shirt,collared shirt,dress shirt,large breasts,long sleeves,sleeves rolled up,hands in pockets,miniskirt,black skirt,pencil skirt,brown pantyhose,high heels,blue footwear,|__dress_set__}",
+            "dress":"{collarbone,cleavage,pumps,labcoat,wing collar,breast pocket,open clothes,white shirt,collared shirt,dress shirt,long sleeves,sleeves rolled up,hands in pockets,miniskirt,black skirt,pencil skirt,brown pantyhose,high heels,blue footwear,|__dress__}",
         },
 		{},
 		[
@@ -143,7 +143,7 @@
         (0.5,1.0),
         1.0,
         {
-            "char" :"brown hair, forehead, sidelocks, medium breasts, long hair, hairband, bow,",
+            "char" :"brown hair, forehead, sidelocks,  long hair, hairband, bow,",
             "hair":",",
             #"dress":",",
         },
@@ -207,7 +207,7 @@
         (0.5,1.0),
         1.0,
         {
-            "char" :"kuwayama_chiyuki, 1girl,breasts,brown_hair,large_breasts,ahoge,long_hair,brown_eyes,braid,cleavage,collarbone,,",
+            "char" :"kuwayama_chiyuki, 1girl,breasts,brown_hair,ahoge,long_hair,brown_eyes,braid,cleavage,collarbone,,",
             #"hair":",",
             #"dress":",",
         },

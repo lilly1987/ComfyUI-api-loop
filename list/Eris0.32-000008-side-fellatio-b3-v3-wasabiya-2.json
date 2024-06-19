@@ -1,0 +1,11 @@
+{
+    "loras":{
+        "char":"Eris0.32-000008",
+        "1":"side-fellatio-b3-v3-wasabiya",
+        #"1":"limblessv03-1",
+    },
+	#"positiveOnly":""
+	"positiveOnly":  "breasts out,pussy,   exposed breasts,   nipples exposure,  exposed pussy,  revealing clothes, , fellatio,deepthroat, cum in mouth,irrumatio, penis,multiple penises,veiny penis,cum, , ,, NSFW,,  , hood, veil, nun,frills, , large insertion, missionary,, cowboy shot, ,   [blue eyes:purple eyes:0.5],  , small chest,, epic sex,   dynamic sexy pose, posing cute,   eager moaning ,, 1boy,,  capelet, , flat breasts,,  , , masterpiece , best quality ,  detailed eyes, perfect eyes,  perfect face,  Beautiful body,, ,, 1girl,, anime style, 2D,,  , frills, frilled dress,  , long hair, [purple hair: silver hair:0.5],, , , kneeling,", 
+	"negativeOnly" :   "ugly face, blurry face, black and white, muscular female , text, sinature, stamp, watermark, error, jpeg artifacts, signature,  username, extra digit, fewer digits, speech bubble,  bad face,, lowres, worst quality, low quality,  from torso down, (monochrome:1.1), zombie , (blurry),  low res, , realistic,photorealistic,,  bad anatomy, bad hands, missing fingers,, nude,, embedding:FastNegativeV2.pt,,, (multiple views:1.25), (multiple viewer:1.25),  (cropped:1.25), face only,  lower body,  facial,, western,",
+	"lorasUpdate":false,
+}

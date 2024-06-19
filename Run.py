@@ -150,19 +150,21 @@ while True:
         # -------------------------------------------------
             
         if jitemCnt<=0 :
+            jitemMax=jitemCnt=setup.get("itemCnt",8)
             loraList=getFileList(setup["loraPath"]+"**/*.safetensors")
             loraList2=getFileList(setup[loraPath]+"**/*.safetensors")
             print("loraList : ",len(loraList))
             print("loraList : ",len(loraList2))
             
             tchoice=random.choice(loraList2)
-            tname=pathRemove(tchoice,setup["loraPath"])
+            tname1=pathRemove(tchoice,setup["loraPath"])
             
 
             if random.random() < setup.get("onlyLoraPer",0) :
                 print("[red] onlyLora [/red]")
                 onlyLoraPer=True
-                jitem_name=os.path.splitext(os.path.split(tname)[1])[0]
+                jitem={}
+                jitem_name=os.path.splitext(os.path.split(tname1)[1])[0]
 
             elif random.random() < setup.get("noList",0) :
                 print("[red] noList [/red]")
@@ -200,14 +202,14 @@ while True:
                 
             #print("jitem_name : ",jitem_name)
             
-            jitemMax=jitemCnt=setup.get("itemCnt",8)
+            
             
         # -------------------------------------------------
         prompt=jsonFileRead(workflow)  
-        prompt[lora2]["inputs"]["lora_name"]=tname
+        prompt[lora2]["inputs"]["lora_name"]=tname1
         # -------------------------------------------------
         if onlyLoraPer:
-            print("[green]onlyLoraPer [/green]: ",tname)
+            print("[green]onlyLoraPer [/green]: ",tname1)
             prompt[lora2]["inputs"]["strength_model"]=1
             prompt[lora2]["inputs"]["strength_clip"]=1
         else:        
@@ -218,10 +220,6 @@ while True:
             #else:
             dupdate(setup,jitem)
             
-        # -------------------------------------------------
-        if setup.get("lorasUpdate",True) or setup.get("lorasUpdatePer",0)>random.random():
-            loras=dicFileRead(lorasjsonPath)
-            dupdate(setup["loras"],loras)
         # -------------------------------------------------
         
         #lorasDic=dicFileRead("lorasDic.json")
@@ -239,9 +237,16 @@ while True:
         # -------------------------------------------------
         lbw=dicFileRead("lbw.json")
         #print("lbw : ",lbw)
+        # -------------------------------------------------
+        if setup.get("lorasUpdate",True) or setup.get("lorasUpdatePer",0)>random.random():
+            loras=dicFileRead(lorasjsonPath)
+            dupdate(setup["loras"],loras)
+            lorasMaxCnt=minmax(setup,"lorasMaxCnt",9)
+        else:
+            lorasMaxCnt=9
+        # -------------------------------------------------
         lora1="CheckpointLoaderSimple"
-        lorasCnt=0
-        lorasMaxCnt=minmax(setup,"lorasMaxCnt",9)
+        lorasCnt=0        
         for k, v in setup.get("loras",{}).items():
             if lorasCnt >= lorasMaxCnt:
                 print(f"[red]lorasCnt[/red] : ", lorasCnt)
@@ -331,11 +336,11 @@ while True:
                     continue
                 
                 tchoice=random.choice(tloraList)
-                tname=pathRemove(tchoice,setup["loraPath"])
-                print(f"loras : [green]{tname}[/green]")
+                tname2=pathRemove(tchoice,setup["loraPath"])
+                print(f"loras : [green]{tname2}[/green]")
                     
                 tLora=copy.deepcopy(prompt[lora2])
-                tLora["inputs"]["lora_name"]=tname
+                tLora["inputs"]["lora_name"]=tname2
                 if len(tmp) >1 :
                     tLora["inputs"]["strength_model"]=minmaxft(tmp[1])
                 else:

@@ -1,11 +1,11 @@
 {
 	"back_chooking-000001": (
 	"back_chooking-000001",
-        (0.5,01.0),
+        (0.25,01.0),
         (01.0,01.0),
         {
-			#"boy":"1boy,",
-			#"girl":"1girl,",
+			"boy":"1boy,",
+			"girl":"1girl,",
 			"back_chooking-000001" :"Strangling,",
 			#"insertion":"",
 			#"sex":"",
@@ -38,7 +38,7 @@
 	),
 	"abb-000015": (
 	"abb-000015",
-        (0.5,01.0),
+        (0.0,01.0),
         (01.0,01.0),
         {
 			#"boy":"1boy,",
@@ -75,49 +75,12 @@
 	),
 	"anal_beads_v0.2a": (
 	"anal_beads_v0.2a",
-        (0.5,01.0),
+        (0.0,01.0),
         (01.0,01.0),
         {
 			#"boy":"1boy,",
 			#"girl":"1girl,",
-			"AnalBeadsLyco3-000011" :"anal beads, anal, anal object insertion, 1girl, sex toy,,",
-			#"insertion":"",
-			#"sex":"",
-			#"pose":"",
-			#"fellatio":"",
-        },
-		{},
-		[
-		"SD-ALL"    ,
-		"SD-ALL"    ,
-		"SD-ALL"    ,
-		##"SD-INS"    ,
-		#"SD-INALL"  ,
-		"SD-IND"    ,
-		"SD-MIDD"   ,
-		"SD-MIDD1"  ,
-		#"SD-MIDD2"  ,
-		#"SD-MIDD0.8",
-		#"SD-MIDD0.2",
-		"SD-MOUT"   ,
-		#"SD-OUTD"   ,
-		"SD-OUTS"   ,
-		##"SD-OUTALL" ,
-		###"SD-ROUT"   ,
-		#"SD-AOUT"   ,
-		#"SD-AOUT"   ,
-		#"SD-AB" 	,
-		#"SD-ALL0.5" ,
-		],
-	),
-	"anal_beads_v0.2a": (
-	"anal_beads_v0.2a",
-        (0.5,01.0),
-        (01.0,01.0),
-        {
-			#"boy":"1boy,",
-			#"girl":"1girl,",
-			"anal_beads_v0.2a" :"anal beads,",
+			"anal_beads_v0.2a" :"anal beads, anal, anal object insertion, 1girl, sex toy,,",
 			#"insertion":"",
 			#"sex":"",
 			#"pose":"",
@@ -223,7 +186,7 @@
 	),
 	"frenchkiss_v1-5": (
 	"frenchkiss_v1-5",
-        (0.5,01.0),
+        (0.25,01.0),
         (01.0,01.0),
         {
 			"boy":"1boy,",
@@ -360,7 +323,7 @@
 	),
 	"arms up,outstretched arms-000006": (
 	"arms up,outstretched arms-000006",
-        (0.5,01.0),
+        (0.0,01.0),
         (01.0,01.0),
         {
 			"arms up" :"arms up, outstretched arms,",
@@ -425,8 +388,8 @@
 	),
 	"ahegao_v0.3": (
 	"ahegao_v0.3",
-        (0.5,01.0),
-        (01.0,01.0),
+        (0.0,01.0),
+        (0.0,01.0),
         {
             "face":"ahegao, ",
         },
@@ -538,7 +501,8 @@
 		#"SD-MIDD0.2",
 		"SD-MOUT"   ,
 		#"SD-OUTD"   ,
-		"SD-OUTS"   ,
+		"SD-OUTS"    ,
+		"SD-OUTS"    ,
 		##"SD-OUTALL" ,
 		###"SD-ROUT"   ,
 		#"SD-AOUT"   ,
@@ -647,7 +611,8 @@
 		(0.6,01.0),
 		(0.6,01.0),
 		{
-		"upright_straddle_20":"{BREAK|3::} 1boy, sex, (hetero:1.3), from side, sitting, (girl on top, upright straddle), vaginal, {(hand on another's head), hand on another's face,|(hand on another's shoulder:1.1),|(hand on another's chest),|} {eye contact,|} {BREAK|3::}",
+		"upright_straddle_20":"{BREAK,|3::} 1boy, sex, (hetero:1.3), from side, sitting, (girl on top, upright straddle), vaginal, {(hand on another's head), hand on another's face,|(hand on another's shoulder:1.1),|(hand on another's chest),|} {eye contact,|} {BREAK,|3::}",
+		"pose":"",
 		},
 		{},
 		#"rnd",
@@ -657,7 +622,8 @@
 		(0.6,01.0),
 		(0.6,01.0),
 		{
-		"upright_side_2":"{BREAK|3::} (1boy), sex, girl on top, hetero, straddling, upright straddle, {BREAK|3::}",
+			"upright_side_2":"{BREAK,|3::} (1boy), sex, girl on top, hetero, straddling, upright straddle, {BREAK,|3::}",
+			"pose":"",
 		},
 		{},
 		#"rnd",
@@ -687,7 +653,7 @@
 		(0.6,01.0),
 		(0.6,01.0),
 		{
-		"tiptoesStandingDoggy_ttfV3":"{BREAK|3::} (bent over:1.3), (bentover:1.3), (female on tiptoes:1.3), from side, full body, man behind woman, 1boy, standing sex, standing doggystyle, hetero, {BREAK|3::}",
+		"tiptoesStandingDoggy_ttfV3":"{BREAK,|3::} (bent over:1.3), (bentover:1.3), (female on tiptoes:1.3), from side, full body, man behind woman, 1boy, standing sex, standing doggystyle, hetero, {BREAK,|3::}",
 		},
 		{},
 		#"rnd",
@@ -781,7 +747,7 @@
 		(0.25,0.750),
 		1.0,
 		{
-		"1734621166247782126":"{BREAK|3::} (nsfw-10),solo focus, spread legs, sex, on back, vaginal, pillow, completely nude, bed, bed sheet, pov, on bed, grabbing, breast grab, missionary, pillow grab, {BREAK|3::}",
+		"1734621166247782126":"{BREAK,|3::} (nsfw-10),solo focus, spread legs, sex, on back, vaginal, pillow, completely nude, bed, bed sheet, pov, on bed, grabbing, breast grab, missionary, pillow grab, {BREAK,|3::}",
 		},
 		{},
 		#"rnd",
@@ -854,6 +820,7 @@
 		1.0,
 		{
 		"mechanicalRestraints_20230228":"mechanical_restraints,",
+		"pose":",",
 		},
 		{},
 		[
@@ -1130,11 +1097,44 @@
 	),
 	"hugandSuckConcept_v1": (
 	"hugandSuckConcept_v1",
-		(0.5,01.0),
+		(0.0,0.750),
 		1.0,
 		{
 		"boy" :"1boy, large penis , thick penis,",
-		"fellatio":"hug , suck , fellatio, ",
+		"fellatio":"suck , fellatio, ",
+		"pose":"hug , ",
+		},
+		{},
+		[
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		#"SD-INS"    ,
+		#"SD-INALL"  ,
+		#"SD-IND"    ,
+		"SD-MIDD"   ,
+		"SD-MIDD1"  ,
+		"SD-MIDD2"  ,
+		#"SD-MIDD0.8",
+		#"SD-MIDD0.2",
+		"SD-MOUT"   ,
+		"SD-OUTD"   ,
+		#"SD-OUTS"   ,
+		#"SD-OUTALL" ,
+		##"SD-ROUT"   ,
+		#"SD-AOUT"   ,
+		#"SD-AB" 	,
+		#"SD-ALL0.5" ,
+		],
+	),
+	"CrossY-3200": (
+	"CrossY-3200",
+		(0.25,01.0),
+		1.0,
+		{
+		#"boy" :"1boy, large penis , thick penis,",
+		#"fellatio":"suck , fellatio, ",
+		"pose":" Crucifixion Pose Y,{lift both hands,|} {|foot in air,}",
 		},
 		{},
 		[
@@ -1206,7 +1206,7 @@
 		(0.0,01.0),
 		1.0,
 		{
-		"DbDildo":"{BREAK|3::} DbDildo,dildo in pussy,dildo in ass,{spread legs,|} vaginal, stomach bulge, pectoral bulge, vaginal object insertion, (impossible object insertion:1.2), (absurd stomach bulge:1.1), gaping pussy, {BREAK|3::}",
+		"DbDildo":"{BREAK,|3::} DbDildo,dildo in pussy,dildo in ass,{spread legs,|} vaginal, stomach bulge, pectoral bulge, vaginal object insertion, (impossible object insertion:1.2), (absurd stomach bulge:1.1), gaping pussy, {BREAK,|3::}",
 		},
 		{},
 		 [
@@ -1381,7 +1381,9 @@
 	(0.0,01.0),
 	(1.0,1.0),
 	{
-	"Bridal":" sandwiched,(1girl,2boys),boy and girl sandwich,threesome,hetero,sex, ",
+		"sandwiched":" sandwiched,(1girl,2boys),boy and girl sandwich,threesome,hetero,sex, ",
+		"boy":" , ",
+		"pose":" , ",
 	},
 	{},
 	[
@@ -2272,8 +2274,8 @@
 		(0.75,01.0),
 		(0.75,01.250),
 		{
-		"isXl":"{BREAK|3::}, score_9, score_8_up, score_7_up, best quality, masterpiece, 4k, uncensored, prefect lighting, rating_explicit, very aesthetic, anime {BREAK|3::},",
-		"hang":"{BREAK|3::}, shouting,{tongue out,|}gothic lolita,(blush),sad,open mouth,arms behind back,[[rope on neck]], {BREAK|3::},",
+		"isXl":"{BREAK,|3::}, score_9, score_8_up, score_7_up, best quality, masterpiece, 4k, uncensored, prefect lighting, rating_explicit, very aesthetic, anime {BREAK,|3::},",
+		"hang":"{BREAK,|3::}, shouting,{tongue out,|3::}gothic lolita,(blush),{sad,|}{open mouth,|3::}arms behind back,[[rope on neck]], {BREAK,|3::},",
 		},
 		{},
 		"0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
@@ -2283,8 +2285,8 @@
 		(0.75,01.0),
 		(0.75,01.0),
 		{
-		"isXl":"{BREAK|3::}, score_9, score_8_up, score_7_up, best quality, masterpiece, 4k, uncensored, prefect lighting, rating_explicit, very aesthetic, anime {BREAK|3::},",
-		"hang":"{BREAK|3::}, shouting,{tongue out,|}gothic lolita,(blush),sad,open mouth,arms behind back,[[rope on neck]], {BREAK|3::},",
+		"isXl":"{BREAK,|3::}, score_9, score_8_up, score_7_up, best quality, masterpiece, 4k, uncensored, prefect lighting, rating_explicit, very aesthetic, anime {BREAK,|3::},",
+		"hang":"{BREAK,|3::}, shouting,{tongue out,|3::}gothic lolita,(blush),{sad,|}{open mouth,|3::}arms behind back,[[rope on neck]], {BREAK,|3::},",
 		},
 		{},
 		"0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
@@ -2294,8 +2296,8 @@
 		(0.75,01.0),
 		(0.75,01.0),
 		{
-		"isXl":"{BREAK|3::}, score_9, score_8_up, score_7_up, best quality, masterpiece, 4k, uncensored, prefect lighting, rating_explicit, very aesthetic, anime {BREAK|3::},",
-		"hang":"{BREAK|3::}, shouting,{tongue out,|} nervous, ((jumping)),((dancing)), full body,(blush),sad,open mouth,arms behind back,from_below, [[rope on neck]], {BREAK|3::},",
+		"isXl":"{BREAK,|3::}, score_9, score_8_up, score_7_up, best quality, masterpiece, 4k, uncensored, prefect lighting, rating_explicit, very aesthetic, anime {BREAK,|3::},",
+		"hang":"{BREAK,|3::}, shouting,{tongue out,|3::} nervous, ((jumping)),((dancing)), full body,(blush),{sad,|}{open mouth,|3::}arms behind back,from_below, [[rope on neck]], {BREAK,|3::},",
 		},
 		{},
 		"0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
@@ -2305,8 +2307,8 @@
 		(0.75,01.0),
 		(0.75,01.0),
 		{
-		"isXl":"{BREAK|3::}, score_9, score_8_up, score_7_up, best quality, masterpiece, 4k, uncensored, prefect lighting, rating_explicit, very aesthetic, anime, {BREAK|3::},",
-		"hang":"{BREAK|3::}, shouting,{tongue out,|}gothic lolita,(blush),sad,open mouth,arms behind back,[[rope on neck]], {BREAK|3::},",
+		"isXl":"{BREAK,|3::}, score_9, score_8_up, score_7_up, best quality, masterpiece, 4k, uncensored, prefect lighting, rating_explicit, very aesthetic, anime, {BREAK,|3::},",
+		"hang":"{BREAK,|3::}, shouting,{tongue out,|3::}gothic lolita,(blush),{sad,|}{open mouth,|3::}arms behind back,[[rope on neck]], {BREAK,|3::},",
 		},
 		{
 			
@@ -2319,8 +2321,8 @@
 		(0.75,01.0),
 		(0.75,01.0),
 		{
-		"isXl":"{BREAK|3::}, score_9, score_8_up, score_7_up, best quality, masterpiece, 4k, uncensored, prefect lighting, rating_explicit, very aesthetic, anime {BREAK|3::},",
-		"hang":"{BREAK|3::}, shouting,{tongue out,|}gothic lolita,(blush),sad,open mouth,arms behind back,[[rope on neck]], {BREAK|3::},",
+		"isXl":"{BREAK,|3::}, score_9, score_8_up, score_7_up, best quality, masterpiece, 4k, uncensored, prefect lighting, rating_explicit, very aesthetic, anime {BREAK,|3::},",
+		"hang":"{BREAK,|3::}, shouting,{tongue out,|3::}gothic lolita,(blush),{sad,|}{open mouth,|3::}arms behind back,[[rope on neck]], {BREAK,|3::},",
 		},
 		{},
 		"0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
@@ -3114,13 +3116,24 @@
 		#"SD-ALL0.5" ,
 		],
 	),
+	"concept-implied_sex-see-through_silhouette-v1":(
+	"concept-implied_sex-see-through_silhouette-v1",
+        (0.5,01.0),
+        1.0,
+        {
+            "concept-implied_sex-see-through_silhouette-v1" :"implied sex, see-through silhouette,",
+            "pose" :"works best, sitting, kneeling, squatting, all work,,",
+        },
+        {},
+        #"rnd",
+	),
 	"implied_sex_v1":(
 	"implied_sex_v1",
         (0.5,01.0),
         1.0,
         {
             "implied_sex_v1" :"implied sex, see-through silhouette, cowgirl position,",
-            #"fingering" :"fingering,",
+            "pose" :",",
         },
         {},
         #"rnd",
@@ -3303,7 +3316,8 @@
 	),
 	"aki-000014":(
 	"aki-000014",
-	(0.0,01.0),
+	#(0.0,01.0),
+	(0.0,0.750),
 	(01.0,01.0),
 	{
 	"hang":"hunged_girl, {noose,|} {asphyxiation,|} {rolling eyes,|} {open mouth,{tongue,|3::}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
@@ -3340,40 +3354,41 @@
 	),
 	"aki-000016":(
 	"aki-000016",
-	(0.0,01.0),
-	(01.0,01.0),
-	{
-	"hang":"hunged_girl, {noose,|} {asphyxiation,|} {rolling eyes,|} {open mouth,{tongue,|3::}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
-	"hang":"hanging, (hunged_girl:1.0),rope on neck, noose, asphyxiation, rolling eyes, {open mouth,{tongue,|3::}|} {gore,|} {guro,|} {arms_behind_back, bound_arms, arms bound,|} {hang in the air,|} bdsm, bound,",
-	"pose":"",
-	},
-	{},
-	[	
-	"SD-ALL"    ,
-	"SD-ALL"    ,
-	"SD-ALL"    ,
-	##"SD-INS"    ,
-	#"SD-INALL"  ,
-	"SD-IND"    ,
-	"SD-MIDD"   ,
-	"SD-MIDD1"  ,
-	"SD-MIDD1"  ,
-	##"SD-MIDD2"  ,
-	#"SD-MIDD0.8",
-	#"SD-MIDD0.8",
-	#"SD-MIDD0.8",
-	#"SD-MIDD0.2",
-	"SD-MOUT"   ,
-	#"SD-OUTD"   ,
-	#"SD-OUTD"   ,
-	"SD-OUTS"   ,
-	##"SD-OUTALL" ,
-	###"SD-ROUT"   ,
-	##"SD-AOUT"   ,
-	##"SD-AOUT"   ,
-	#"SD-AB" 	,
-	#"SD-ALL0.5" ,
-	],
+		#(0.0,01.0),
+		(0.0,00.750),
+		(01.0,01.0),
+		{
+		"hang":"hunged_girl, {noose,|} {asphyxiation,|} {rolling eyes,|} {open mouth,{tongue,|3::}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
+		"hang":"hanging, (hunged_girl:1.0),rope on neck, noose, asphyxiation, rolling eyes, {open mouth,{tongue,|3::}|} {gore,|} {guro,|} {arms_behind_back, bound_arms, arms bound,|} {hang in the air,|} bdsm, bound,",
+		"pose":"",
+		},
+		{},
+		[	
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		##"SD-INS"    ,
+		#"SD-INALL"  ,
+		"SD-IND"    ,
+		"SD-MIDD"   ,
+		"SD-MIDD1"  ,
+		"SD-MIDD1"  ,
+		##"SD-MIDD2"  ,
+		#"SD-MIDD0.8",
+		#"SD-MIDD0.8",
+		#"SD-MIDD0.8",
+		#"SD-MIDD0.2",
+		"SD-MOUT"   ,
+		#"SD-OUTD"   ,
+		#"SD-OUTD"   ,
+		#"SD-OUTS"   ,#
+		##"SD-OUTALL" ,
+		###"SD-ROUT"   ,
+		##"SD-AOUT"   ,
+		##"SD-AOUT"   ,
+		#"SD-AB" 	,
+		#"SD-ALL0.5" ,
+		],
 	),
 	"aki-000018":(
 	"aki-000018",
@@ -3677,7 +3692,7 @@
 	(0.250,01.0),
 	(01.0,01.0),
 		{
-		"hang":"{BREAK|3::} AsphyxiationHngng, rope,{ standing,|} { orgasm,|} { female ejaculation, |} {pussy juice, |} {rolling eyes,|} trembling, peeing, pee,  {head tilt, |} {open mouth,|} {tongue out,|} {sweat,|} { nipples,|}  {open clothes,|} {ahegao,|} { blush,|} { empty eyes,|}  {BREAK|3::}",
+		"hang":"{BREAK,|3::} AsphyxiationHngng, rope,{ standing,|} { orgasm,|} { female ejaculation, |} {pussy juice, |} {rolling eyes,|} trembling, peeing, pee,  {head tilt, |} {open mouth,|3::} {tongue out,|3::} {sweat,|} { nipples,|}  {open clothes,|} {ahegao,|} { blush,|} { empty eyes,|}  {BREAK,|3::}",
 		"pose":"",
 		},
 		{},
@@ -3698,7 +3713,7 @@
 		#"SD-OUTD"   ,#
 		"SD-OUTS"   ,
 		#"SD-OUTALL" ,
-		"SD-ROUT"   ,#
+		#"SD-ROUT"   ,#
 		#"SD-AOUT"   ,
 		#"SD-AOUT"   ,
 		#"SD-AB" 	,
@@ -3711,7 +3726,7 @@
 	(01.0,01.0),
 		{
 		"hang":"hunged_girl, {noose,|} {asphyxiation,|} {rolling eyes,|} {open mouth,{tongue,|3::}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
-		"hang":"{BREAK|3::} (hunged_girl:1.0),rope on neck, noose, asphyxiation, rolling eyes, {open mouth,{tongue,|3::}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|} {BREAK|3::}",
+		"hang":"{BREAK,|3::} (hunged_girl:1.0),rope on neck, noose, asphyxiation, rolling eyes, {open mouth,{tongue,|3::}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|} {BREAK,|3::}",
 		"pose":"",
 		},
 		{},
@@ -3843,11 +3858,14 @@
 		(0.5,01.0),
 		(01.0,01.0),
 		{
-			"body":"{BREAK|3::} transformation, limbless, armless, legsless, {BREAK|3::}",
+			"body":"{BREAK,|3::} transformation, limbless, armless, legsless, {BREAK,|3::}",
+			"bad":"",
+			"pose":"",
+			
 		},
 		{
-			"pose":"",
-			"embedding":"",
+			#"pose":"",
+			#"embedding":"",
 		},
 		[
 			"SD-ALL"    ,
@@ -3889,6 +3907,7 @@
             "boy":"{1boy|2boys},",
             "cowgirl-2.0" :" pussy cock deep penetration,",
 			"revcowgirl":" revcowgirl, sex,",
+			"pose":"",
 		},
 		{
 			#"embedding":"",
@@ -3924,10 +3943,10 @@
 		(1.0,01.0),
 		{
 			"onahole":" onahole, {4::holding onahole,|transparent onahole,|} limbless, armless, legsless, ",
+			"pose":"",
 		},
 		{
 			"embedding":"",
-			"pose":"",
 		},
 		[
 			#"rnd",
@@ -4258,6 +4277,7 @@
 		(0.25,01.0),
 		{
 		"ibalance" :"ibalance, standing on, one leg, leg_lift, standing_split leg, Holding leg,",
+		"pose":"",
 		},
 		{},
 		#"rnd",
@@ -4274,10 +4294,11 @@
 	),
 	"ladypot-anxl31-000100": (
 	"ladypot-anxl31-000100",
-		(0.25,01.0),
-		(0.25,01.0),
+		(0.0,01.0),
+		(01.0,01.0),
 		{
 		"ladypot-anxl31-000100" :"1girl, lady pot， xxxx pot, pot handle, breasts, pussy, anus, jewelry,",
+		"pose":"",
 		},
 		{},
 		#"rnd",
@@ -4287,7 +4308,7 @@
 		(0.0,01.0),
 		(01.0,01.0),
 		{
-            "garrote_2" :"afraid,(surprised), shouting,{tongue out,|}sitting,((sad)),open mouth,cry, one boy standing behind,arms behind back,",
+            "garrote_2" :"afraid,(surprised), shouting,{tongue out,|3::}sitting,((sad)),open mouth,cry, one boy standing behind,arms behind back,",
 			"pose":"",
 		},
 		{},
@@ -4430,7 +4451,7 @@
 		(0.25,01.0),
 		(01.0,01.0),
 		{
-		"face" :"{BREAK|3::} pov, straddling, assertive female, hetero, guided penetration, gp1, cowgirl position, 1boy, 1girl, penis, vaginal, {BREAK|3::}",
+		"face" :"{BREAK,|3::} pov, straddling, assertive female, hetero, guided penetration, gp1, cowgirl position, 1boy, 1girl, penis, vaginal, {BREAK,|3::}",
 		},
 		{},
 		#"rnd",
@@ -4692,7 +4713,7 @@
 	1.0,
 	{
 	"monster" :" monster,",
-	"monster":"hilichurl, blush, held up, nipples, {open mouth,|} pussy, pussy juice, {spread legs,|} sweat, tears, huge penis, medium breasts, large insertion, monster sex, uncensored, monster,",
+	"monster":"hilichurl, blush, held up, nipples, {open mouth,|3::} pussy, pussy juice, {spread legs,|} sweat, tears, huge penis,  large insertion, monster sex, uncensored, monster,",
 	},
 	{},
     [
@@ -4750,7 +4771,7 @@
 	"hyper_penetration_stomach_bulge_v8pectoral":(
 	"hyper_penetration_stomach_bulge_v8pectoral-000006",
 		(0.0,01.0),
-		(01.0,01.0),
+		(0.50,01.0),
 		{
 		"hyper_penetration_stomach_bulge_v8pectoral":" vaginal, stomach bulge, pectoral bulge, vaginal object insertion, (impossible object insertion:1.2), (absurd stomach bulge:1.1), gaping pussy,",
 		},
@@ -5284,6 +5305,8 @@
 		1.0,
 		{
 			"yuri_sex_from_behind_v3":"sex from behind,",
+			"boy":" ,",
+			"girl":"2girl ,",
 		},
 		{},
 	),
@@ -5395,7 +5418,7 @@
 		(0.5,1.0),
 		1.0,
 		{
-			"inmouth":"{BREAK|3::} 1girl, penis in mouth  , irrumatio,fellatio, deep in, :3,{BREAK|3::}",
+			"inmouth":"{BREAK,|3::} 1girl, penis in mouth  , irrumatio,fellatio, deep in, :3,{BREAK,|3::}",
 		},
 		{},
 	[
@@ -5457,7 +5480,7 @@
 		(0.25,1.0),
 		1.0,
 		{
-			"Reverseupright2":"{BREAK|3::} 1girl,1boy, reverse upright straddle, sex, sitting on person, penis, kiss, {BREAK|3::}",
+			"Reverseupright2":"{BREAK,|3::} 1girl,1boy, reverse upright straddle, sex, sitting on person, penis, kiss, {BREAK,|3::}",
 		},
 		{},
 		[
@@ -5703,7 +5726,7 @@
 	),
 	"crucified":(
 	"crucified",
-		(0.5,01.0),
+		(0.0,01.0),
 		1.0,
 		{
 			"crucified":"crucified,",
@@ -5735,23 +5758,67 @@
 	),
 	"thecross":(
 	"thecross",
-		(0.5,01.0),
+		(0.0,01.0),
 		1.0,
 		{
 			"thecross":"thecross,full body,cuffs,,",
 		},
 		{},
-		#"rnd",
+		[
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		#"SD-INS"    ,
+		"SD-INALL"  ,
+		"SD-IND"    ,
+		"SD-MIDD"   ,
+		"SD-MIDD"   ,
+		"SD-MIDD1"  ,
+		#"SD-MIDD2"  ,#
+		#"SD-MIDD0.8",
+		#"SD-MIDD0.2",
+		"SD-MOUT"   ,
+		#"SD-OUTD"   ,#
+		"SD-OUTS"   ,
+		#"SD-OUTALL" ,
+		"SD-ROUT"   ,#
+		#"SD-AOUT"   ,
+		#"SD-AOUT"   ,
+		#"SD-AB" 	,
+		#"SD-ALL0.5" ,
+		],
 	),
 	"绪儿-十字架 xuer the cross":(
 	"绪儿-十字架 xuer the cross",
-		(0.5,01.0),
+		(0.0,01.0),
 		1.0,
 		{
 			"绪儿-十字架 xuer the cross":"xuer the cross,",
 		},
 		{},
-		#"rnd",
+		[
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		#"SD-INS"    ,
+		"SD-INALL"  ,
+		"SD-IND"    ,
+		"SD-MIDD"   ,
+		"SD-MIDD"   ,
+		"SD-MIDD1"  ,
+		#"SD-MIDD2"  ,#
+		#"SD-MIDD0.8",
+		#"SD-MIDD0.2",
+		"SD-MOUT"   ,
+		#"SD-OUTD"   ,#
+		"SD-OUTS"   ,
+		#"SD-OUTALL" ,
+		"SD-ROUT"   ,#
+		#"SD-AOUT"   ,
+		#"SD-AOUT"   ,
+		#"SD-AB" 	,
+		#"SD-ALL0.5" ,
+		],
 	),
 	"funtoysSexToys_v10":(
 	"funtoysSexToys_v10",
@@ -5763,7 +5830,29 @@
 		"funtoys":"funtoys, sex_toy, uncensored,{|clothing,}dildo,female_masturbation,masturbation,{dildo_riding,|}insertion,object_insertion,{|vaginal_juices,}",
 		},
 		{},
-		#"rnd",
+		[
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		#"SD-INS"    ,
+		"SD-INALL"  ,
+		"SD-IND"    ,
+		"SD-MIDD"   ,
+		"SD-MIDD"   ,
+		"SD-MIDD1"  ,
+		#"SD-MIDD2"  ,#
+		#"SD-MIDD0.8",
+		#"SD-MIDD0.2",
+		"SD-MOUT"   ,
+		#"SD-OUTD"   ,#
+		"SD-OUTS"   ,
+		#"SD-OUTALL" ,
+		"SD-ROUT"   ,#
+		#"SD-AOUT"   ,
+		#"SD-AOUT"   ,
+		#"SD-AB" 	,
+		#"SD-ALL0.5" ,
+		],
 	),
 	"hyper_penetration_stomach_bulge_v8": 
 	[

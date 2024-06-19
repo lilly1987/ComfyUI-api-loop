@@ -1,0 +1,11 @@
+{
+	"loras":{
+		"1": "SB",
+        "2":"microwaist 0.2b Lora",
+        #"3":"bulgesuperXLPony",
+    },
+	#"positiveOnly":""
+	"positiveOnly":  "1girl,, (rolling eyes:1.0),, flat breasts,, , NSFW,,  , insanely detailed, absurdres, ultra-highres, ultra-detailed, best quality, ,  ultra detailed eyes, ultra detailed hair, ultra cute, ultra beautiful,, ,  , 1boy,,  ,  , , SB, stomach bulge, belly bulge, deep penetration,,  , , breasts out,pussy,  breasts exposure, revealing clothes, , small chest,, Tiered bohemian maxi dress with bell sleeves, , , small chest, flat chest,, thin waist, , 2D, anime style, anime,, , , masterpiece , best quality ,  detailed eyes,    Beautiful character design,  illustration,, ,",
+	"negativeOnly" :  "bad face,, western,, lowres, worst quality, low quality,  from torso down, (monochrome:1.1), zombie , (blurry),  low res, , (multiple views:1.25), (multiple viewer:1.25),  (cropped:1.25), face only,  lower body,  facial,, realistic,photorealistic,, ,  bad anatomy, bad hands, missing fingers,, embedding:easynegative.safetensors,, ugly face, blurry face, black and white, muscular female , text, sinature, stamp, watermark, error, jpeg artifacts, signature,  username, extra digit, fewer digits, speech bubble,  bad face,",
+	"lorasUpdate":false,
+}

@@ -1,0 +1,11 @@
+{
+    "loras":{
+        "char":"ZaraKotobuki-10",
+        "1":"aki-000026",
+        #"1":"limblessv03-1",
+    },
+	#"positiveOnly":""
+	"positiveOnly":  "BREAK,, ZaraKotobuki,  brown eyes, long hair,brown hair, BREAK,,, pleated skirt,  thighhighs, fingerless gloves, navel, short sleeves, midriff, puffy sleeves, belt, miniskirt, bowtie,  crop top, fur trim, blue bow, brown gloves, cropped jacket, goggles on head,, , masterpiece , best quality , detailed face,  perfect eyes,  perfect face,  ultra-detailed,  Beautiful character design,, ,, anime style, anime, 2D,, 1girl ,petite, size difference, , small chest,, , NSFW,, ,  , , small breasts,, hanging, (hunged_girl:1.25),rope on neck, noose, asphyxiation, rolling eyes, open mouth, gore,    bdsm, bound,,  , (rolling eyes:1.0),, ,  , (Pregnant:0.875),, , breasts out,pussy, (exposure:1.0), breasts exposed,  ,  ",
+	"negativeOnly" :   "embedding:easynegative.safetensors,, (multiple views:1.25), (multiple viewer:1.25),  (cropped:1.25), face only,  lower body,  facial,, lowres, worst quality, low quality,  from torso down, (monochrome:1.1), zombie , (blurry),  low res, , , realistic,photorealistic,, ugly face, blurry face, black and white, muscular female , text, sinature, stamp, watermark, error, jpeg artifacts, signature,  username, extra digit, fewer digits, speech bubble,  bad face,,  bad anatomy, bad hands, missing fingers,, western,",
+	"lorasUpdate":false,
+}

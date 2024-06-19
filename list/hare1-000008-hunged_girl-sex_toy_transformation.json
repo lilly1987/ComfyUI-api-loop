@@ -1,0 +1,12 @@
+{	#hare1-000008-hunged_girl-sex_toy_transformation
+    "loras":{
+        "char":"hare1-000008",
+        "1":"hunged_girl",
+        "2":"sex_toy_transformation",
+    },
+	#populated_text
+	#"positiveOnly":""
+	"positiveOnly": "small breasts,,  , NSFW,, ,  (hunged_girl:1.0),rope on neck, noose, asphyxiation, rolling eyes, {open mouth, |}   hang in the air, , breasts out,pussy,   nipples exposure, revealing clothes, , , , masterpiece , best quality ,     perfect face, , ,,  , 1girl ,petite, size difference, , cowboy shot, , ,  transformation, limbless, armless, legsless, , , anime style,, , , , (multiple insertions, large insertion, vaginal object insertion, impossible object insertion, object insertion:1.25), , , (rolling eyes:1.0),, epic sex, sex, rough sex,   {posing cute,|} {dynamic sexy pose,|}   {eager moaning ,|}, , small chest,, haredef, long hair,",
+	"negativeOnly" :  " bad anatomy, bad hands, missing fingers,, western,, embedding:nncursedV0-neg.pt,,, realistic,photorealistic,, , (multiple views:1.25), (multiple viewer:1.25),  (cropped:1.25), face only,  lower body,  facial,, ugly face, blurry face, black and white, muscular female , text, sinature, stamp, watermark, error, jpeg artifacts, signature,  username, extra digit, fewer digits, speech bubble,  bad face,, lowres, worst quality, low quality,  from torso down, (monochrome:1.1), zombie , (blurry),  low res, ",
+	"lorasUpdate":false,
+}

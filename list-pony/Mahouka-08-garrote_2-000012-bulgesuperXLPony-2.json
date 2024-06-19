@@ -1,0 +1,11 @@
+{
+    "loras":{
+        "char":"Mahouka-08",
+        "1":"garrote_2-000012",
+        "2":"bulgesuperXLPony",
+    },
+	#"positiveOnly":""
+	"positiveOnly": ", cowboy shot, , , ,2boy, (multiple insertions, large insertion, vaginal object insertion, impossible object insertion, object insertion:1.25), , , , score_9, source anime, , , , epic sex, rough sex, sex,   posing cute, dynamic sexy pose,   eager moaning ,, ,  1girl, saegusa mayumi, hair ribbon,green jacket, white dress, necktie,, , 1girl ,petite, , , breasts out,pussy, (exposure:1.0),  ,  wearing skimpy  outfit, corset, , source_anime,, small breasts,, ,  , ,2boy,huge penis ,,, NSFW,, flat chest,, hanged, hanging, hang, suicide, asphyxiation, hangman's noose around neck, hangman's noose, hangman's noose attached to the ceiling,,  , , ,  absurd stomach bulge, stomach bulge,, afraid,(surprised), shouting,tongue out,sitting,((sad)),open mouth,cry, one boy standing behind,arms behind back,",
+	"negativeOnly" :   ", , , western,, , score_4, score_5, score_6, source_pony, source_comic, photorealistic, comic, western,, source_pony, source_furry,, , (multiple views:1.25), (multiple viewer:1.25),  (cropped:1.25), face only,  lower body,  facial,",
+	"lorasUpdate":false,
+}

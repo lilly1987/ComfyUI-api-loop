@@ -2,11 +2,11 @@
     "loras":{
         "char": (
             "hasumin",
-            (0.25,0.75),
+            (0.0,0.75),
             1.0,
             {
                 "char" :"hasumi nagatomi,  brown eyes,  ",
-                "hair":" short hair, brown hair, ",
+                "hair":" {short|long} hair, brown hair, ",
                 #"dress":",",
             },
         ),

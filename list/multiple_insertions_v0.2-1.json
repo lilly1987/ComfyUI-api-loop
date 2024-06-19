@@ -1,0 +1,12 @@
+{	# sex from behind-onahole_personality_v17
+    "loras":{
+        #"2":"koxia20Virtuareal_v10",
+        "3":"sex from behind",
+        "1":"onahole_personality_v17",
+    },
+	#populated_text
+	#"positiveOnly":""
+	"positiveOnly": "1girl,, sex from behind, double penetration, spitroast,, breasts out,pussy, (exposure:1.0),  exposed pussy,    exposed breasts, revealing clothes, ,  capelet, ,  , NSFW,,  , long hair,, small breasts,,  ,  onahole, holding onahole, limbless, armless, legsless, , frills, frilled dress,  frilled sleeves,__dress_, mmf threesome,,  , anime style, anime,, flat chest,, 2boys,, , hanged, hanging, hang, suicide, asphyxiation, hangman's noose around neck, hangman's noose, hangman's noose attached to the ceiling,, , masterpiece , best quality , detailed face,    ultra-detailed,  illustration, , ,, , ",
+	"negativeOnly" : "realistic,photorealistic,, , ugly face, blurry face, black and white, muscular female , text, sinature, stamp, watermark, error, jpeg artifacts, signature,  username, extra digit, fewer digits, speech bubble,  bad face,, , western,, lowres, worst quality, low quality,  from torso down, (monochrome:1.1), zombie , (blurry),  low res, , (multiple views:1.25), (multiple viewer:1.25),  (cropped:1.25), face only,  lower body,  facial,,  bad anatomy, bad hands, missing fingers,",
+	"lorasUpdate":false,
+}

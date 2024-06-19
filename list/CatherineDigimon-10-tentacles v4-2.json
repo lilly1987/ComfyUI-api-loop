@@ -1,0 +1,11 @@
+{
+    "loras":{
+        "char":"CatherineDigimon-10",
+        "1":"tentacles v4",
+        #"2":"bulgesuperXLPony",
+    },
+	#"positiveOnly":""
+	"positiveOnly": "small breasts,, frills, frilled dress,  frilled sleeves,,  , ,2boy,huge penis ,BREAK,,,  ,  , Eye-rolling,, anime style,, shokusyu, tentacle sex, tentacles pit, vaginal, restrained, fellatio,cum,, spitroast,  fellatio,  deepthroat, , CatherineDigimon, 1girl, long hair, blonde hair, long sleeves, red dress, red hairband, blunt bangs, fur trim, redcapelet, drill hair, blue eyes, green ribbon, fur-trimmed capelet,  , BREAK, (hunged_girl:1.0),rope on neck, noose, asphyxiation, rolling eyes,  gore,   hang in the air, ,  , breasts out,pussy,  exposed pussy,   breasts exposure, breast exposed, revealing clothes, , NSFW,, small chest,, , , dildo in pussy,dildo ,dildo in ass,vaginal object insertion, dildo masturbation, , , ,  capelet, , 1girl ,size difference, , , masterpiece , best quality ,  detailed eyes,   perfect face,   Beautiful character design, ultra-detailed,, ,",
+	"negativeOnly" :  "western,, nude,, lowres, worst quality, low quality,  from torso down, (monochrome:1.1), zombie , (blurry),  low res, , embedding:badquality.pt, embedding:FastNegativeV2.pt,,,  bad anatomy, bad hands, missing fingers,, realistic,photorealistic,, (multiple views:1.25), (multiple viewer:1.25),  (cropped:1.25), face only,  lower body,  facial,, ugly face, blurry face, black and white, muscular female , text, sinature, stamp, watermark, error, jpeg artifacts, signature,  username, extra digit, fewer digits, speech bubble,  bad face,",
+	"lorasUpdate":false,
+}

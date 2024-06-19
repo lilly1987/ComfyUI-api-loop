@@ -1,0 +1,11 @@
+{
+    "loras":{
+        "char":"Hanging",
+        "1":"ropeWalking-000015",
+        #"1":"limblessv03-1",
+    },
+	#"positiveOnly":""
+	"positiveOnly":  ", frills, frilled dress, frilled skirt, , 1girl,, crotch rope walking, beads, knot,, ,  , , ,  off shoulder, bare shoulder,  strapless dress,  See Through, BREAK,,,  , anime style, anime,, ,, , flat chest,, , masterpiece , best quality , detailed face,  perfect eyes,  perfect face,  Beautiful character design,  Beautiful body,, BREAK,,,  AsphyxiationHngng, rope, standing,   pussy juice,   trembling, peeing, pee,         ahegao,  blush,  empty eyes,  , ,  , small breasts,, NSFW,, breasts out,pussy,   exposed breasts, (exposure:1.0),  pussy exposure,  , ",
+	"negativeOnly" :   "embedding:NGH.safetensors,,, western,, realistic,photorealistic,, ugly face, blurry face, black and white, muscular female , text, sinature, stamp, watermark, error, jpeg artifacts, signature,  username, extra digit, fewer digits, speech bubble,  bad face,,  bad anatomy, bad hands, missing fingers,, (multiple views:1.25), (multiple viewer:1.25),  (cropped:1.25), face only,  lower body,  facial,, lowres, worst quality, low quality,  from torso down, (monochrome:1.1), zombie , (blurry),  low res, , nude,",
+	"lorasUpdate":false,
+}

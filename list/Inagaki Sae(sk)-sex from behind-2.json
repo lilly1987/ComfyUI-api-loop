@@ -1,0 +1,11 @@
+{
+    "loras":{
+        "char":"Inagaki Sae(sk)",
+        "1":"sex from behind",
+        #"1":"limblessv03-1",
+    },
+	#"positiveOnly":""
+	"positiveOnly":  " , breasts out,pussy, breasts exposed,   exposed breasts,  breasts exposure,  , 1girl,, long hair,black hair,white hairband,sidelocks,bangs,blue eyes, ,  , flat breasts,,  , (rolling eyes:1.0),, 2D, anime, anime style,,  wearing skimpy frilled outfit, corset, , small chest,, sex from behind, double penetration, spitroast,, , masterpiece , best quality , detailed face, detailed eyes,   ultra-detailed,, ,, 1boy,, mmf threesome,, , NSFW,,  Inagaki Sae, , , hanged, hanging, hang, suicide, asphyxiation, hangman's noose around neck, hangman's noose, hangman's noose attached to the ceiling,, , cowboy shot, ",
+	"negativeOnly" :   "realistic,photorealistic,,  bad anatomy, bad hands, missing fingers,, western,, lowres, worst quality, low quality,  from torso down, (monochrome:1.1), zombie , (blurry),  low res, , ugly face, blurry face, black and white, muscular female , text, sinature, stamp, watermark, error, jpeg artifacts, signature,  username, extra digit, fewer digits, speech bubble,  bad face,, , (multiple views:1.25), (multiple viewer:1.25),  (cropped:1.25), face only,  lower body,  facial,, embedding:easynegative.safetensors,,",
+	"lorasUpdate":false,
+}

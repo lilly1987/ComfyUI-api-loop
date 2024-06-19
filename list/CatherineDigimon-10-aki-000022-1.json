@@ -1,0 +1,11 @@
+{
+    "loras":{
+        "char":"CatherineDigimon-10",
+        "1":"aki-000022",
+        #"1":"limblessv03-1",
+    },
+	#"positiveOnly":""
+	"positiveOnly":  " , breasts out,pussy,   nipples exposure,  , NSFW,, , {posing cute,|}   eager moaning ,, BREAK, dildo in pussy,dildo ,dildo in ass,vaginal object insertion, dildo masturbation, BREAK, ,  ,sex,sex from behind,doggystyle,, CatherineDigimon, 1girl, long hair, blonde hair, long sleeves, red dress, red hairband, blunt bangs, fur trim, redcapelet, drill hair, blue eyes, green ribbon, fur-trimmed capelet,  , 2D,, , , , 1girl ,size difference, petite, , hanging, (hunged_girl:1.25),rope on neck, noose, asphyxiation, rolling eyes, open mouth, gore,   hang in the air, bdsm, bound,, small chest,,  ,  , , masterpiece , best quality ,     perfect face, , ,,  ",
+	"negativeOnly" : "ugly face, blurry face, black and white, muscular female , text, sinature, stamp, watermark, error, jpeg artifacts, signature,  username, extra digit, fewer digits, speech bubble,  bad face,, embedding:easynegative.safetensors embedding:bad-picture-chill-75v.pt,, western,, (multiple views:1.25), (multiple viewer:1.25),  (cropped:1.25), face only,  lower body,  facial,, lowres, worst quality, low quality,  from torso down, (monochrome:1.1), zombie , (blurry),  low res, , realistic,photorealistic,,  bad anatomy, bad hands, missing fingers,",
+	"lorasUpdate":false,
+}

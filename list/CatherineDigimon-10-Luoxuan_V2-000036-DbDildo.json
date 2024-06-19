@@ -1,0 +1,11 @@
+{
+    "loras":{
+        "char":"CatherineDigimon-10",
+        "1":"Luoxuan_V2-000036",
+        "2":"DbDildo",
+    },
+	#"positiveOnly":""
+	"positiveOnly": ", luoxuan,, , (multiple insertions, large insertion, anal object insertion, impossible object insertion, object insertion:1.25), , , ,  ,  , NSFW,, , hanged, hanging, hang, suicide, asphyxiation, hangman's noose around neck, hangman's noose, hangman's noose attached to the ceiling,, small breasts,, flat chest,, CatherineDigimon, 1girl, long hair, blonde hair, long sleeves, red dress, red hairband, blunt bangs, fur trim, redcapelet, drill hair, blue eyes, green ribbon, fur-trimmed capelet,  ,  , , , masterpiece , best quality ,  detailed eyes, perfect eyes,  perfect face, , ,, breasts out,pussy, (exposure:1.0),  exposed pussy,  revealing clothes, , , , anime style, anime,, cowboy shot, , size difference, petite, ,  DbDildo,dildo in pussy,dildo in ass, vaginal, stomach bulge, pectoral bulge, vaginal object insertion, (impossible object insertion:1.2), (absurd stomach bulge:1.1), gaping pussy, ,  ",
+	"negativeOnly" :  "lowres, worst quality, low quality,  from torso down, (monochrome:1.1), zombie , (blurry),  low res, , (multiple views:1.25), (multiple viewer:1.25),  (cropped:1.25), face only,  lower body,  facial,, embedding:EasyNegativeV2.safetensors,,, realistic,photorealistic,,  bad anatomy, bad hands, missing fingers,, ugly face, blurry face, black and white, muscular female , text, sinature, stamp, watermark, error, jpeg artifacts, signature,  username, extra digit, fewer digits, speech bubble,  bad face,, , western,",
+	"lorasUpdate":false,
+}

@@ -11,7 +11,7 @@
 	),
 	"oyari_ashito_style_v01": (
 	"oyari_ashito_style_v01",
-		(0.5,01.0),
+		(0.75,01.0),
 		1.0,
 		{
 			#"char" :" frederica bernkastel,  purple eyes,",
@@ -88,7 +88,7 @@
         (0.5,1.0),
         1.0,
         {
-            "char" :"YangXin, 1girl, solo, long hair, large breasts, cleavage, brown eyes, purple hair, hair bun, hair over one eye, black eyes, sash, chinese clothes, single hair bun, robe, long sleeves, hair ribbon, pants, wide sleeves, blue ribbon,",
+            "char" :"YangXin, 1girl, solo, long hair, cleavage, brown eyes, purple hair, hair bun, hair over one eye, black eyes, sash, chinese clothes, single hair bun, robe, long sleeves, hair ribbon, pants, wide sleeves, blue ribbon,",
             "hair":",",
             "dress":"",
         },
@@ -148,7 +148,7 @@
         (0.5,1.0),
         1.0,
         {
-            "char" :"Jyahnar, 1girl,  long hair, blue eyes, long sleeves, blue dress, jewelry, blue hair, purple hair, black pantyhose, detached sleeves, veil, medium breasts,",
+            "char" :"Jyahnar, 1girl,  long hair, blue eyes, long sleeves, blue dress, jewelry, blue hair, purple hair, black pantyhose, detached sleeves, veil, ",
             "hair":",",
             "dress":",",
         },
@@ -160,7 +160,7 @@
         {
             "char" :"Yuugure Tokoyo,",
             "hair":"antenna hair,very long hair,purple hair,hair ribbon,twin braids,low twintails,bangs,blue eyes,",
-            "dress":"red bowtie,plaid bowtie,black vest,white shirt,collared shirt,large breasts,underbust,puffy short sleeves,suspender skirt,black skirt,plaid skirt,pleated skirt,zettai ryouiki,black thighhighs,loafers,",
+            "dress":"red bowtie,plaid bowtie,black vest,white shirt,collared shirt,underbust,puffy short sleeves,suspender skirt,black skirt,plaid skirt,pleated skirt,zettai ryouiki,black thighhighs,loafers,",
         },
     ),
     "uiXL_LoRA-C3Lier_AdamW_Dim16_Alpha16_UN-3e-4_TE-1.5e-4_10batch_ponyDiffusionV6XL_v6StartWithThisOne": (
@@ -248,7 +248,7 @@
         (0.5,1.0),
         1.0,
         {
-            "char" :"SunnyRanker, 1girl, short hair, black gloves, cleavage, medium breasts, pink hair, black gloves, belt, pink eyes, brown cloak,,",
+            "char" :"SunnyRanker, 1girl, short hair, black gloves, cleavage,  pink hair, black gloves, belt, pink eyes, brown cloak,,",
             "hair":",",
             "dress":",",
         },

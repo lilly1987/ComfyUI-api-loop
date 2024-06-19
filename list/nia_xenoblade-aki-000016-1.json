@@ -1,0 +1,12 @@
+{	# nia_xenoblade-aki-000016
+    "loras":{
+        #"2":"koxia20Virtuareal_v10",
+        "3":"nia_xenoblade",
+        "1":"aki-000016",
+    },
+	# populated_text
+	#"positiveOnly":""
+	"positiveOnly": " , small breasts,, , High-neck sports bra and compression shorts, , NSFW,, , masterpiece , best quality , detailed face, detailed eyes, perfect eyes,  perfect face,  illustration,, ,, (rolling eyes:1.0),, , queen_nia,  , small chest,,  , hanging, (hunged_girl:1.0),rope on neck, noose, asphyxiation, rolling eyes, open mouth,  guro, arms_behind_back, bound_arms, arms bound,  bdsm, bound,, epic sex, sex,   posing cute,   ,  , , anime style,, , breasts out,pussy, breasts exposed,  exposed pussy,    exposed breasts,  ,  , 1girl ,size difference, petite, , ",
+	"negativeOnly" :  " bad anatomy, bad hands, missing fingers,, ugly face, blurry face, black and white, muscular female , text, sinature, stamp, watermark, error, jpeg artifacts, signature,  username, extra digit, fewer digits, speech bubble,  bad face,, lowres, worst quality, low quality,  from torso down, (monochrome:1.1), zombie , (blurry),  low res, , realistic,photorealistic,, embedding:negative_hand-neg.pt, embedding:NGH.safetensors,,, nude,, (multiple views:1.25), (multiple viewer:1.25),  (cropped:1.25), face only,  lower body,  facial,, western,",
+	"lorasUpdate":false,
+}

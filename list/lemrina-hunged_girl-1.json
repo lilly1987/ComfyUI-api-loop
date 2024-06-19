@@ -1,0 +1,11 @@
+{
+    "loras":{
+        "char":"lemrina",
+        "1":"hunged_girl",
+        #"1":"limblessv03-1",
+    },
+	#"positiveOnly":""
+	"positiveOnly":  "sex,   posing cute,   ,  , breasts out,pussy,  breasts exposure,  exposed pussy,  revealing clothes, ,  (hunged_girl:1.0),rope on neck, noose, asphyxiation, rolling eyes,      BREAK, ,  off shoulder,    chest open,  BREAK,, , masterpiece , best quality , detailed face, detailed eyes, perfect eyes,  perfect face,  Beautiful character design,  Beautiful body,, ,, , , 1girl ,petite, size difference, ,  , NSFW,, , dildo in pussy,dildo ,dildo in ass,vaginal object insertion, dildo masturbation, BREAK, , , , , , , , small chest,, anime style, anime, 2D,, cowboy shot, , , hairband,pink hair,short hair,blunt bangs, bob cut,blue eyes,dress,long sleeves,puffy sleeves,,",
+	"negativeOnly" :  "lowres, worst quality, low quality,  from torso down, (monochrome:1.1), zombie , (blurry),  low res, , realistic,photorealistic,, ugly face, blurry face, black and white, muscular female , text, sinature, stamp, watermark, error, jpeg artifacts, signature,  username,, western,, (multiple views:1.25), (multiple viewer:1.25),  (cropped:1.25), face only,  lower body,  facial,, embedding:EasyNegativeV2.safetensors embedding:SimpleNegativeV3.safetensors,,  bad anatomy, bad hands,   missing fingers, extra digit, fewer digits, speech bubble, bad face,",
+	"lorasUpdate":false,
+}

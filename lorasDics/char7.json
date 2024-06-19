@@ -111,7 +111,7 @@
         (0.0,1.0),
         1.0,
         {
-            "char" :"kizunaakariVL, 1girl, long hair, twin braids,hair ornament,{ long sleeves, dress, jewelry, jacket, ahoge, puffy sleeves, fingerless gloves,bracelet, open jacket, black jacket, vertical stripes, puffy long sleeves, grey dress, striped pantyhose, orange gloves, striped gloves, orange pantyhose, vertical-striped pantyhose,|__dress_set__},",
+            "char" :"kizunaakariVL, 1girl, long hair, twin braids,hair ornament,{ long sleeves, dress, jewelry, jacket, ahoge, puffy sleeves, fingerless gloves,bracelet, open jacket, black jacket, vertical stripes, puffy long sleeves, grey dress, striped pantyhose, orange gloves, striped gloves, orange pantyhose, vertical-striped pantyhose,|__dress__},",
             "hair":",",
             "dress":",",
         },
@@ -146,8 +146,8 @@
             "dress":"",
         },
     ),
-    "Mana - (Super Real Mahjong) ": (
-    "Mana - (Super Real Mahjong) ",
+    "Mana - (Super Real Mahjong)": (
+    "Mana - (Super Real Mahjong)",
         (0.5,1.0),
         1.0,
         {
@@ -171,9 +171,9 @@
         (0.5,1.0),
         1.0,
         {
-            "char" :", tnkmmm, purple hair, short twintails, blunt bangs, diagonal bangs, purple eyes, medium breasts,  small breasts,,",
+            "char" :", tnkmmm, purple hair, short twintails, blunt bangs, diagonal bangs, purple eyes,   small breasts,,",
             "hair":"long hair, brown hair,",
-            #"dress":"{ thighhighs, pantyhose, hood, fingerless gloves,|__dress_set__,}",
+            #"dress":"{ thighhighs, pantyhose, hood, fingerless gloves,|__dress__,}",
             "isXl":"score_9, score_8_up, score_7_up, source_anime,",
         },
     ),
@@ -184,7 +184,7 @@
         {
             "char" :"imaschihiro, red eyes,",
             "hair":"long hair, brown hair,",
-            #"dress":"{ thighhighs, pantyhose, hood, fingerless gloves,|__dress_set__,}",
+            #"dress":"{ thighhighs, pantyhose, hood, fingerless gloves,|__dress__,}",
         },
     ),
     "tanaka mamimi": (
@@ -194,7 +194,7 @@
         {
             "char" :"tanaka mamimi,",
             #"hair":"long hair, pink hair,",
-            #"dress":"{ thighhighs, pantyhose, hood, fingerless gloves,|__dress_set__,}",
+            #"dress":"{ thighhighs, pantyhose, hood, fingerless gloves,|__dress__,}",
         },
     ),
     "EmiKino-10": (
@@ -204,7 +204,7 @@
         {
             "char" :"EmiKino,  pink eyes,,",
             "hair":"long hair, pink hair,",
-            "dress":"{ thighhighs, pantyhose, hood, fingerless gloves,|__dress_set__,}",
+            "dress":"{ thighhighs, pantyhose, hood, fingerless gloves,|__dress__,}",
         },
     ),
 	"cheria_autismConfetti_v03": (
@@ -259,6 +259,16 @@
 
 		},
 	),
+	"mahjongsoul_fuji": (
+	"mahjongsoul_fuji",
+		(0.25,1.0),
+		1.0,
+		{
+			"char":"Fuji, yellow eyes,",
+			"hair":"short hair,silver hair,white hair,",
+			#"dress": " white dress, cleavage, bare shoulders,",
+		},
+	),
 	"jk uniform": (
     "jk uniform",
 		(0.5,1.0),
@@ -297,7 +307,7 @@
 		(0.5,1.0),
 		1.0,
 		{
-			"char":" NatalieEBF, 1girl,  long hair, blue eyes, hair ornament, long sleeves, red dress, cleavage, bare shoulders, medium breasts, collarbone, ahoge, black pantyhose, red hair, detached sleeves, hair flower, orange hair, strapless, red flower, corset, twintails, ",
+			"char":" NatalieEBF, 1girl,  long hair, blue eyes, hair ornament, long sleeves, red dress, cleavage, bare shoulders,  collarbone, ahoge, black pantyhose, red hair, detached sleeves, hair flower, orange hair, strapless, red flower, corset, twintails, ",
 			"hair":" ",
 			"dress":""
 		},

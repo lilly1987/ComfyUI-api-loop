@@ -2,7 +2,7 @@
     "loras":{
         "char": (
             "millia_rage",
-            (0.875,1.0),
+            (0.0,1.0),
             1.0,
             {
                 "char":" millia rage, ",
