@@ -1,0 +1,12 @@
+{	# jougasaki_mika_v1-aki-000016-leheng_re
+    "loras":{
+        "2":"jougasaki_mika_v1",
+        "3":"aki-000016",
+        "1":"leheng_re",
+    },
+	# populated_text
+	#"positiveOnly":""
+	"positiveOnly": "breasts out,pussy,   , ,   bare shoulder, Droptop, strapless dress, chest open, See Through, ,, , ,  aamika, yellow eyes,  ponytail, hair bow,  pink hair, chinese dress , ,    frilled sleeves,, NSFW,, ,1boy, dildo in pussy,dildo ,dildo in ass,vaginal object insertion, dildo masturbation, , , , anime style, 2D, anime,,  , , BREAK,, masterpiece , best quality , detailed face, detailed eyes, perfect eyes,  perfect face,  illustration, ultra-detailed, , ,, small chest,, 1girl ,petite, size difference, , (hunged_girl:1.25), rope on neck, noose, asphyxiation, rolling eyes,      , ,  , flat breasts,, ",
+	"negativeOnly" :  "ugly face, blurry face, black and white, muscular female , text, sinature, stamp, watermark, error, jpeg artifacts, signature,  username, extra digit, fewer digits, speech bubble,  bad face,, lowres, worst quality, low quality,  from torso down, (monochrome:1.1), zombie , (blurry),  low res, ,  bad anatomy, bad hands, missing fingers,, realistic,photorealistic,, western,, (multiple views:1.25), (multiple viewer:1.25),  (cropped:1.25), face only,  lower body,  facial,, embedding:BadDream.pt,,, nude,",
+	"lorasUpdate":false,
+}

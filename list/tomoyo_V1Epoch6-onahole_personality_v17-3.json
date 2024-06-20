@@ -4,7 +4,7 @@
         "1":"onahole_personality_v17",
     },
 	#"positiveOnly":""
-	"positiveOnly": " ,  , man behind girl,, BREAK, masterpiece , best quality ,  detailed eyes,   , ,,  , ,  , 1girl ,size difference ,  onahole, holding onahole,  limbless, armless, legsless, , black long hair, blunt bangs,, , flat chest,, cowboy shot, , daidouji_tomoyo, tomoyo,, , , epic sex rough sex sex,   posing cute ,BREAK,, NSFW,, breasts out,pussy, , revealing clothes, ,  wearing  witch outfit, ",
+	"positiveOnly": " ,  , man behind girl,, BREAK, masterpiece , best quality ,  detailed eyes,   , ,,  , ,  , 1girl ,size difference ,  onahole, holding onahole,  limbless, armless, legsless, , black long hair, blunt bangs,, , flat chest,, cowboy shot, , daidouji_tomoyo, tomoyo,, , , epic sex rough sex sex,   posing cute ,BREAK,, NSFW,, breasts out,pussy, , revealing clothes, ,  __dress__, ",
 	"negativeOnly": "twin tail hair,, (multiple views:1.25), (multiple viewer:1.25),  (cropped:1.25), face only,  lower body,  facial,,  bad anatomy, bad hands,   missing fingers, extra digit, fewer digits, speech bubble, bad face,, realistic,, lowres, worst quality, low quality,  from torso down, (monochrome:1.1), zombie , (blurry),  low res, , , western,, ugly face, blurry face, black and white, muscular female , text, sinature, stamp, watermark, error, jpeg artifacts, signature,  username,",
 	"lorasUpdate":false,
 }

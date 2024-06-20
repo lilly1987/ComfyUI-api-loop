@@ -275,14 +275,36 @@
         },
     ),
     "lailahTalesOfZestiria_v11": (
-        "lailahTalesOfZestiria_v11",
-        (0.825,1.25),
-        (01.0,1.25),
+	"lailahTalesOfZestiria_v11",
+        (0.0,1.0),
+        (0.0,1.0),
         {
-            "char" :"{BREAK,|3::} lailah \(tales\), (white hair:1.4), long hair, ponytail, bangs, (blue eyes:1.2), blunt bangs, hairband, sidelocks, hair ornament, narrow waist, slim waist, red dress, {BREAK,|3::}",
+            "char" :"{BREAK,|3::} lailah \(tales\), (white hair:1.4), long hair, ponytail, bangs, (blue eyes:1.2), blunt bangs, hairband, sidelocks, hair ornament, narrow waist, slim waist, {BREAK,|3::}",
             "hair":" ",
-            "dress":" ",
+            "dress":"{ red dress,|__dress__,} ",
         },
+		{},
+		[
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		#"SD-INS"    ,
+		#"SD-INALL"  ,
+		#"SD-IND"    ,
+		"SD-MIDD"   ,
+		"SD-MIDD1"  ,#
+		"SD-MIDD2"  ,
+		#"SD-MIDD0.8",
+		#"SD-MIDD0.2",
+		"SD-MOUT"   ,
+		"SD-OUTD"   ,
+		#"SD-OUTS"   ,
+		#"SD-OUTALL" ,
+		#"SD-ROUT"   ,
+		"SD-AOUT"   ,
+		"SD-AB" 	,
+		#"SD-ALL0.5" ,
+		],
     ),
     "Imoo Nanami(omsks)": (
 	"Imoo Nanami(omsks)",
@@ -562,12 +584,12 @@
     ),
     "mayumi_v1.0": (
 	"mayumi_v1.0-000002",
-        (0.25,1.0),
+        (0.0,1.0),
         (0.75,1.0),
         {
-            "char" :" mayumi, long hair, {mahouka_uniform, green_jacket, white_sleeveless_dress, necktie,|} ",
+            "char" :" mayumi, long hair, ",
             "hair":" ",
-            "dress":"",
+            "dress":"{mahouka_uniform, green_jacket, white_sleeveless_dress, necktie,|__dress__,} ",
         },
     ),
     "Yamada Elf(es)": (
@@ -672,7 +694,7 @@
     ),
     "hinomiyaChinatsu_v1": (
 	"hinomiyaChinatsu_v1",
-        (0.25,1.0),
+        (0.0,1.0),
         (01.0,1.0),
         {
             "char" :" chinatsu, ",
@@ -1328,7 +1350,7 @@
     "kalliope-000022": (
 	"kalliope-000022",
         (0.0,0.50),
-        (1.0,01.0),
+        (0.0,01.0),
         {
             "char" :"blue eyes,bangs,round eyewear,long hair,white hair,holding_quill,quill,bowtie,white shirt,black skirt,high-waist skirt,long sleeves,kneehighs,black footwear,animal on head,owl,,",
             "hair":"",
@@ -1338,7 +1360,7 @@
     "PrincessConnect_Karyl": (
     "PrincessConnect_Karyl",
         (0.25,1.0),
-        1.0,
+        (0.75,1.0),
         {
             "char" :"Karyl,",
             "hair":"black hair, streaked hair, white hair, low twintails, very long hair, green eyes, cat ears, cat tail,",
@@ -1772,7 +1794,7 @@
     ),
     "Yor Briar(sf)": (
 	"Yor Briar(sf)",
-        (0.5,1.0),
+        (0.25,1.0),
         1.0,
         {
             "char" :"{BREAK,|3::} long hair,black hair,short hair with long locks,straight hair,white hairband,jewelry,earrings,sidelocks,hair between eyes,bangs,red eyes,upper teeth only, {BREAK,|3::} ",
@@ -2140,8 +2162,8 @@
 	],
     ),
     "MikaJougasaki": (
-		"MikaJougasaki",
-		(0.75,1.0),
+	"MikaJougasaki",
+		(0.0,1.0),
 		1.0,
 		{
 			"char":"{BREAK,|3::} MikaJou,  yellow eyes, ponytail, pink hair, {BREAK,|3::}",
@@ -2215,9 +2237,9 @@
 		(0.0,01.0),
 		(0.750,01.0),
 		{
-			"char":" aamika, yellow eyes,  ponytail, hair bow,  pink hair, {collarbone, school uniform, striped, bowtie, collared shirt, white shirt, sleeves rolled up, wrist scrunchie, clothes around waist, plaid skirt, purple skirt,|__dress__} ",
+			"char":" aamika, yellow eyes,  ponytail, hair bow,  pink hair,  ",
 			"hair":"",
-			"dress":"",
+			"dress":"{collarbone, school uniform, striped, bowtie, collared shirt, white shirt, sleeves rolled up, wrist scrunchie, clothes around waist, plaid skirt, purple skirt,|__dress__,}",
 		},
 	{},
 	[
@@ -2737,8 +2759,8 @@
 	),
 	"nia_xenoblade": (
     "nia_xenoblade",
-		(0.25,1.0),
-		(01.0,1.0),
+		(0.0,1.0),
+		(0.50,1.0),
 		{
 			"char":"{classic_nia|blade_nia|hero_nia|queen_nia},  ",
 			"hair":"",

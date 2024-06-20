@@ -100,7 +100,7 @@
 	),
 	"hosome_v200": (
 	"hosome_v200",
-		(0.5,1.0),
+		(0.25,1.0),
 		1.0,
 		{
 			#"char" :"{BREAK,|3::} KItakitagawa marin,1girl, purple hair, medium hair, purple eyes, bonnet, red rose, collar, gothic, frills, black dress, black necktie, cleavage, long sleeves, white apron, thighhigh, {BREAK,|3::}",
@@ -486,6 +486,28 @@
         "hair":", ",
         "dress": "{BREAK,|3::},{gloves, dress, red dress, white gloves, capelet, gown, red gown, apricot, black apricot,,|__dres_set__|},{BREAK,|3::},",
 		},
+		{},
+		[
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		#"SD-INS"    ,
+		#"SD-INALL"  ,
+		#"SD-IND"    ,
+		"SD-MIDD"   ,
+		"SD-MIDD1"  ,#
+		"SD-MIDD2"  ,
+		#"SD-MIDD0.8",
+		#"SD-MIDD0.2",
+		"SD-MOUT"   ,
+		"SD-OUTD"   ,
+		#"SD-OUTS"   ,
+		#"SD-OUTALL" ,
+		#"SD-ROUT"   ,
+		"SD-AOUT"   ,
+		"SD-AB" 	,
+		#"SD-ALL0.5" ,
+		],
 	),
 	"kudeliaainabernstein-lora-nochekaiser": (
 	"kudeliaainabernstein-lora-nochekaiser",
@@ -1193,9 +1215,9 @@
 		],
 	),
 	"Marin-10": (
-		"Marin-10",
+	"Marin-10",
+		(0.25,1.0),
 		(0.75,1.0),
-		1.0,
 		{
 			"char":"{BREAK,|3::} Kitagawa_Marin,  purple_eyes, purple_hair, short_hair, parted_lips, long_sleeves, black_dress, chain_leash, cosplay, gothic_fashion, lolita_fashion, frilled_sleeves, wide_sleeves, frilled_dress, frilled_apron, hair_flower, black_necktie, black_thighhighs, print_legwear, black_collar, black_hairband, cleavage_cutout, frills, garter_straps, necktie_between_breasts, {BREAK,|3::}",
 			#"hair":"purple_eyes, purple_hair, short_hair, parted_lips,",
@@ -1287,12 +1309,33 @@
 	"Marianne_Vi_Britannia": (
 	"Marianne_Vi_Britannia",
 		(0.25,1.0),
-		(01.0,1.0),
+		(0.750,1.0),
 		{
 			"char":"marianne_vi_britannia,   ",
 		},
 		{},
-		#"rnd",
+		{},
+		[
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		#"SD-INS"    ,
+		#"SD-INALL"  ,
+		#"SD-IND"    ,
+		"SD-MIDD"   ,
+		"SD-MIDD1"  ,#
+		"SD-MIDD2"  ,
+		#"SD-MIDD0.8",
+		#"SD-MIDD0.2",
+		"SD-MOUT"   ,
+		"SD-OUTD"   ,
+		#"SD-OUTS"   ,
+		#"SD-OUTALL" ,
+		#"SD-ROUT"   ,
+		"SD-AOUT"   ,
+		"SD-AB" 	,
+		#"SD-ALL0.5" ,
+		],
 	),
 	"Linnea": (
 	"Linnea",
@@ -1385,8 +1428,8 @@
     ),
 	"Laura Latour": (
 	"Laura Latour",
-		(0.5,1.0),
-		1.0,
+		(0.25,1.0),
+		(0.75,1.0),
 		{
 			"char":" blue eyes, ",
 			"hair":" purple hair, single braid,",
@@ -1686,6 +1729,28 @@
 			"char":"jiaran,blue eyes, ",
 			"hair" :"brown hair, long hair, red hair bow, ",
 		},
+		{},
+		[
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		#"SD-INS"    ,
+		#"SD-INALL"  ,
+		#"SD-IND"    ,
+		"SD-MIDD"   ,
+		"SD-MIDD1"  ,#
+		"SD-MIDD2"  ,
+		#"SD-MIDD0.8",
+		#"SD-MIDD0.2",
+		"SD-MOUT"   ,
+		"SD-OUTD"   ,
+		#"SD-OUTS"   ,
+		#"SD-OUTALL" ,
+		#"SD-ROUT"   ,
+		"SD-AOUT"   ,
+		"SD-AB" 	,
+		#"SD-ALL0.5" ,
+		],
 	),
 
 	"monogatari_all_v2-sengoku nadeko": (
@@ -1989,7 +2054,7 @@
 	),
 	"tomoyo_V1Epoch6": (
 	"tomoyo_V1Epoch6",
-	(0.0,1.0),
+	(0.0,0.750),
 	(0.750,1.0),
 	{
         "char":"daidouji_tomoyo, tomoyo,",

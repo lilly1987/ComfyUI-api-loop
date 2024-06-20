@@ -1,0 +1,12 @@
+{	# morino_rinze_v1-execution_on_gallows
+    "loras":{
+        "2":"morino_rinze_v1",
+        "3":"execution_on_gallows",
+        #"1":"hunged_girl",
+    },
+	# populated_text
+	#"positiveOnly":""
+	"positiveOnly": ",, NSFW,, anime, 2D,,  , breasts out,pussy,  revealing clothes, ,  ,  , , Eye-rolling,, (execution_on_gallows:1.25),rope on neck,   rolling eyes, open mouth,  guro,  , 1girl ,petite, , , small chest,, , (masterpiece),,  , , aarinze, short hair, single hair bun, hair flower, japanese clothes, blue kimono, print kimono, floral print, long sleeves, wide sleeves, sash, obi, ,, ,, flat breasts,, , masterpiece , best quality , detailed face, detailed eyes, perfect eyes,  perfect face,  illustration,  ultra-detailed,, ,,  , ,   girl, multiple insertions, large insertion,  (multiple vaginal insertions:1.0), (vaginal insertion:1.3),",
+	"negativeOnly" : "nude,,  bad anatomy, bad hands, missing fingers,, realistic,photorealistic,, (multiple views:1.25), (multiple viewer:1.25),  (cropped:1.25), face only,  lower body,  facial,,  (low quality, worst quality:1.2),, western,, embedding:nncursedV0-neg.pt,,, ugly face, blurry face, black and white, muscular female , text, sinature, stamp, watermark, error, jpeg artifacts, signature,  username, extra digit, fewer digits, speech bubble,  bad face,, lowres, worst quality, low quality,  from torso down, (monochrome:1.1), zombie , (blurry),  low res, ",
+	"lorasUpdate":false,
+}

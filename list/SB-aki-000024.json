@@ -1,0 +1,12 @@
+{	# SB-aki-000024
+    "loras":{
+        "2":"SB",
+        "3":"aki-000024",
+        #"1":"hunged_girl",
+    },
+	# populated_text
+	#"positiveOnly":""
+	"positiveOnly":", breasts out,pussy,  breasts exposure, revealing clothes, , , NSFW,, __dress__ , off shoulder,   strapless dress, chest open,  ,, small chest,, SB, stomach bulge, belly bulge, deep penetration,, Eye-rolling,, ,  , 1girl,, , hanging, (hunged_girl:1.25),rope on neck, noose, asphyxiation, rolling eyes,  gore,  arms_behind_back, bound_arms, arms bound, hang in the air, bdsm, bound,, , masterpiece , best quality ,  detailed eyes,   perfect face, ultra-detailed,, BREAK,,, flat breasts,,  , cowboy shot, , , anime, 2D,, long hair,", 
+	"negativeOnly" : "realistic,photorealistic,,  bad anatomy, bad hands, missing fingers,, ugly face, blurry face, black and white, muscular female , text, sinature, stamp, watermark, error, jpeg artifacts, signature,  username, extra digit, fewer digits, speech bubble,  bad face,, embedding:easynegative.safetensors,, western,, (multiple views:1.25), (multiple viewer:1.25),  (cropped:1.25), face only,  lower body,  facial,, , bad face,, lowres, worst quality, low quality,  from torso down, (monochrome:1.1), zombie , (blurry),  low res, ",
+	"lorasUpdate":false,
+}

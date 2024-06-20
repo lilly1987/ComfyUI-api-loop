@@ -1374,7 +1374,7 @@
 	"Bridal":"Bridal, ",
 	},
 	{},
-	"rnd",
+	#"rnd",
 	),
 	"sandwiched": (
 	"sandwiched",
@@ -1382,6 +1382,7 @@
 	(1.0,1.0),
 	{
 		"sandwiched":" sandwiched,(1girl,2boys),boy and girl sandwich,threesome,hetero,sex, ",
+		"girl":" , ",
 		"boy":" , ",
 		"pose":" , ",
 	},
@@ -2092,6 +2093,7 @@
 		1.0,
 		{
 		"pnx_doggyFaceFocus":"doggystyle, sex from behind,",
+		"pose":" ",
 		},
 		{},
 		#["rnd",
@@ -2104,6 +2106,7 @@
 		1.0,
 		{
 		"DoggystyleFromside1":" doggystyle, from side, 1girl, 1boy, sex from behind, ",
+		"pose":" ",
 		},
 		{},
 		[
@@ -2135,6 +2138,7 @@
 		1.0,
 		{
 		"conceptLargerInsertion_v10":"(large penis:1.1), thick penis, cowgirl position, (large insertion:1.1), vaginal,",
+		"pose":" ",
 		},
 		{},
 		[
@@ -3205,7 +3209,7 @@
 	"aki-":(
 	"aki-",
 	(0.0,01.0),
-	(01.0,01.0),
+	(0.750,01.0),
 	{
 	"hang":"hunged_girl, {noose,|} {asphyxiation,|} {rolling eyes,|} {open mouth,{tongue,|3::}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
 	"hang":"hanging, (hunged_girl:1.25),rope on neck, noose, asphyxiation, rolling eyes, {open mouth,{tongue,|3::}|} {gore,|} {guro,|} {arms_behind_back, bound_arms, arms bound,|} {hang in the air,|} bdsm, bound,",
@@ -3242,7 +3246,7 @@
 	"aki-000010":(
 	"aki-000010",
 	(0.0,01.0),
-	(01.0,01.0),
+	(0.750,01.0),
 	{
 	"hang":"hunged_girl, {noose,|} {asphyxiation,|} {rolling eyes,|} {open mouth,{tongue,|3::}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
 	"hang":"hanging, (hunged_girl:1.25),rope on neck, noose, asphyxiation, rolling eyes, {open mouth,{tongue,|3::}|} {gore,|} {guro,|} {arms_behind_back, bound_arms, arms bound,|} {hang in the air,|} bdsm, bound,",
@@ -3279,7 +3283,7 @@
 	"aki-000012":(
 	"aki-000012",
 		(0.0,0.75),
-		(01.0,01.0),
+		(0.750,01.0),
 		{
 		"hang":"hunged_girl, {noose,|} {asphyxiation,|} {rolling eyes,|} {open mouth,{tongue,|3::}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
 		"hang":"hanging, (hunged_girl:1.0),rope on neck, noose, asphyxiation, rolling eyes, {open mouth,{tongue,|3::}|} {gore,|} {guro,|} {arms_behind_back, bound_arms, arms bound,|} {hang in the air,|} bdsm, bound,",
@@ -3318,7 +3322,7 @@
 	"aki-000014",
 	#(0.0,01.0),
 	(0.0,0.750),
-	(01.0,01.0),
+	(0.750,01.0),
 	{
 	"hang":"hunged_girl, {noose,|} {asphyxiation,|} {rolling eyes,|} {open mouth,{tongue,|3::}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
 	"hang":"hanging, (hunged_girl:1.0),rope on neck, noose, asphyxiation, rolling eyes, {open mouth,{tongue,|3::}|} {gore,|} {guro,|} {arms_behind_back, bound_arms, arms bound,|} {hang in the air,|} bdsm, bound,",
@@ -3356,10 +3360,10 @@
 	"aki-000016",
 		#(0.0,01.0),
 		(0.0,00.750),
-		(01.0,01.0),
+		(0.750,01.0),
 		{
 		"hang":"hunged_girl, {noose,|} {asphyxiation,|} {rolling eyes,|} {open mouth,{tongue,|3::}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
-		"hang":"hanging, (hunged_girl:1.0),rope on neck, noose, asphyxiation, rolling eyes, {open mouth,{tongue,|3::}|} {gore,|} {guro,|} {arms_behind_back, bound_arms, arms bound,|} {hang in the air,|} bdsm, bound,",
+		"hang":"hanging, (hunged_girl:1.0),rope on neck, noose, asphyxiation, rolling eyes, {open mouth,{tongue,|7::}|} {gore,|} {guro,|} {arms_behind_back, bound_arms, arms bound,|} {hang in the air,|} bdsm, bound,",
 		"pose":"",
 		},
 		{},
@@ -3393,7 +3397,7 @@
 	"aki-000018":(
 	"aki-000018",
 	(0.0,01.0),
-	(01.0,01.0),
+	(0.750,01.0),
 	{
 	"hang":"hunged_girl, {noose,|} {asphyxiation,|} {rolling eyes,|} {open mouth,{tongue,|3::}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
 	"hang":"hanging, (hunged_girl:1.25),rope on neck, noose, asphyxiation, rolling eyes, {open mouth,{tongue,|3::}|} {gore,|} {guro,|} {arms_behind_back, bound_arms, arms bound,|} {hang in the air,|} bdsm, bound,",
@@ -3430,7 +3434,7 @@
 	"aki-000020":(
 	"aki-000020",
 	(0.0,01.0),
-	(01.0,01.0),
+	(0.750,01.0),
 	{
 	"hang":"hunged_girl, {noose,|} {asphyxiation,|} {rolling eyes,|} {open mouth,{tongue,|3::}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
 	"hang":"hanging, (hunged_girl:1.0),rope on neck, noose, asphyxiation, rolling eyes, {open mouth,{tongue,|3::}|} {gore,|} {guro,|} {arms_behind_back, bound_arms, arms bound,|} {hang in the air,|} bdsm, bound,",
@@ -3467,7 +3471,7 @@
 	"aki-000022":(
 	"aki-000022",
 	(0.0,01.0),
-	(01.0,01.0),
+	(0.750,01.0),
 	{
 	"hang":"hunged_girl, {noose,|} {asphyxiation,|} {rolling eyes,|} {open mouth,{tongue,|3::}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
 	"hang":"hanging, (hunged_girl:1.25),rope on neck, noose, asphyxiation, rolling eyes, {open mouth,{tongue,|3::}|} {gore,|} {guro,|} {arms_behind_back, bound_arms, arms bound,|} {hang in the air,|} bdsm, bound,",
@@ -3505,7 +3509,7 @@
 	"aki-000024":(
 	"aki-000024",
 	(0.0,01.0),
-	(01.0,01.0),
+	(0.750,01.0),
 	{
 	"hang":"hunged_girl, {noose,|} {asphyxiation,|} {rolling eyes,|} {open mouth,{tongue,|3::}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
 	"hang":"hanging, (hunged_girl:1.25),rope on neck, noose, asphyxiation, rolling eyes, {open mouth,{tongue,|3::}|} {gore,|} {guro,|} {arms_behind_back, bound_arms, arms bound,|} {hang in the air,|} bdsm, bound,",
@@ -3543,7 +3547,7 @@
 	"aki-000026":(
 	"aki-000026",
 	(0.0,01.0),
-	(01.0,01.0),
+	(0.750,01.0),
 	{
 	"hang":"hunged_girl, {noose,|} {asphyxiation,|} {rolling eyes,|} {open mouth,{tongue,|3::}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
 	"hang":"hanging, (hunged_girl:1.25),rope on neck, noose, asphyxiation, rolling eyes, {open mouth,{tongue,|3::}|} {gore,|} {guro,|} {arms_behind_back, bound_arms, arms bound,|} {hang in the air,|} bdsm, bound,",
@@ -3581,7 +3585,7 @@
 	"aki-000028":(
 	"aki-000028",
 	(0.0,01.0),
-	(01.0,01.0),
+	(0.750,01.0),
 	{
 	"hang":"hunged_girl, {noose,|} {asphyxiation,|} {rolling eyes,|} {open mouth,{tongue,|3::}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
 	"hang":"hanging, (hunged_girl:1.25),rope on neck, noose, asphyxiation, rolling eyes, {open mouth,{tongue,|3::}|} {gore,|} {guro,|} {arms_behind_back, bound_arms, arms bound,|} {hang in the air,|} bdsm, bound,",
@@ -3619,7 +3623,7 @@
 	"aki":(
 	"aki-*",
 	(0.0,01.0),
-	(01.0,01.0),
+	(0.750,01.0),
 	{
 	"hang":"hunged_girl, {noose,|} {asphyxiation,|} {rolling eyes,|} {open mouth,{tongue,|3::}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
 	"hang":"hanging, (hunged_girl:1.0),rope on neck, noose, asphyxiation, rolling eyes, {open mouth,{tongue,|3::}|} {gore,|} {guro,|} {arms_behind_back, bound_arms, arms bound,|} {hang in the air,|} bdsm, bound,",
@@ -3656,7 +3660,7 @@
 	"execution_on_gallows":(
 	"execution_on_gallows*",
 	(0.0,01.0),
-	(01.0,01.0),
+	(0.750,01.0),
         {
             "hang":"(execution_on_gallows:1.25), noose, asphyxiation, rolling eyes, open mouth,{tongue,|3::} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
             "hang":"(execution_on_gallows:1.25),rope on neck, {noose,|} {asphyxiation,|} rolling eyes, {open mouth,{tongue,|3::}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
@@ -3690,7 +3694,7 @@
 	"Hanging": (
 	"Hanging",
 	(0.250,01.0),
-	(01.0,01.0),
+	(0.750,01.0),
 		{
 		"hang":"{BREAK,|3::} AsphyxiationHngng, rope,{ standing,|} { orgasm,|} { female ejaculation, |} {pussy juice, |} {rolling eyes,|} trembling, peeing, pee,  {head tilt, |} {open mouth,|3::} {tongue out,|3::} {sweat,|} { nipples,|}  {open clothes,|} {ahegao,|} { blush,|} { empty eyes,|}  {BREAK,|3::}",
 		"pose":"",
@@ -3723,7 +3727,7 @@
 	"hunged_girl": (
 	"hunged_girl",
 	(0.0,01.0),
-	(01.0,01.0),
+	(0.750,01.0),
 		{
 		"hang":"hunged_girl, {noose,|} {asphyxiation,|} {rolling eyes,|} {open mouth,{tongue,|3::}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|}",
 		"hang":"{BREAK,|3::} (hunged_girl:1.0),rope on neck, noose, asphyxiation, rolling eyes, {open mouth,{tongue,|3::}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|} {BREAK,|3::}",
@@ -3767,7 +3771,7 @@
 	"leheng_re": (
 	"leheng_re",
 		(0.0,01.0),
-		(01.0,01.0),
+		(0.750,01.0),
 		{
 		"hang":"(hunged_girl:1.25), rope on neck, noose, asphyxiation, rolling eyes, {open mouth,{tongue,|3::}|} {gore,|} {guro,|} {arms bound,|} {hang in the air,|} ",
 		"pose":"",
@@ -3981,8 +3985,8 @@
 		#(0.5,01.0),
 		#(0.5,0.875),
 		#(0.25,01.25),
-		(0.0,01.00),
-		(0.0,01.00),
+		(0.250,01.00),
+		(0.750,01.00),
 		{
 		"body":"__chest__, thin waist, ",
 		},
@@ -4015,8 +4019,8 @@
 		#(0.5,01.0),
 		#(0.5,0.875),
 		#(0.25,01.25),
-		(0.0,01.00),
-		(0.0,01.00),
+		(0.250,01.00),
+		(0.750,01.00),
 		{
 		"body":"__chest__, thin waist, ",
 		},
@@ -4049,8 +4053,8 @@
 		#(0.5,01.0),
 		#(0.5,0.875),
 		#(0.25,01.25),
-		(0.0,01.0),
-		(0.0,01.0),
+		(0.250,01.0),
+		(0.750,01.0),
 		{
 		"body":"__chest__, thin waist, ",
 		},
@@ -4306,9 +4310,9 @@
 	"garrote_2-000012": (
 	"garrote_2-000012",
 		(0.0,01.0),
-		(01.0,01.0),
+		(0.750,01.0),
 		{
-            "garrote_2" :"afraid,(surprised), shouting,{tongue out,|3::}sitting,((sad)),open mouth,cry, one boy standing behind,arms behind back,",
+            "garrote_2" :"afraid,(surprised), {tongue out,|3::}sitting,((sad)),{shouting,open mouth,cry,|3::} one boy standing behind,arms behind back,",
 			"pose":"",
 		},
 		{},
@@ -4640,7 +4644,7 @@
 	),
 	"GloryHolev2 1024-000048": (
 	"GloryHolev2 1024-000048",
-		(0.5,01.0),
+		(0.0,0.750),
 		1.0,
 		{
 		"GloryHolev2 1024-000048":"glory hole, fellatio, penis,1boy,,",
@@ -5305,6 +5309,7 @@
 		1.0,
 		{
 			"yuri_sex_from_behind_v3":"sex from behind,",
+			"pose":" ,",
 			"boy":" ,",
 			"girl":"2girl ,",
 		},
@@ -5316,6 +5321,7 @@
 		1.0,
 		{
 			"sex_from_behind":"1girl,1boy,hetero,standing,sex from behind,",
+			"pose":" ,",
 		},
 		{},
 	),
@@ -5325,6 +5331,7 @@
 		1.0,
 		{
 			"Proper_Grinding":"grindsex, cowgirl position, penis, pussy, kneeling,",
+			"pose":" ,",
 		},
 		{},
 		[

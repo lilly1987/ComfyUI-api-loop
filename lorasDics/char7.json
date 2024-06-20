@@ -179,8 +179,8 @@
     ),
     "Senkawa_Chihiro-03": (
     "Senkawa_Chihiro-03",
-        (0.5,1.0),
-        1.0,
+        (0.0,1.0),
+        (0.750,1.0),
         {
             "char" :"imaschihiro, red eyes,",
             "hair":"long hair, brown hair,",
