@@ -1,0 +1,12 @@
+{	# kudeliaainabernstein-lora-nochekaiser-vibrator_in_thighhighs
+    "loras":{
+        "2":"kudeliaainabernstein-lora-nochekaiser",
+        "3":"vibrator_in_thighhighs",
+        #"1":"hunged_girl",
+    },
+	# populated_text
+	#"positiveOnly":""
+	"positiveOnly":"vibrator on nipple, vibrator under clothes, vibrator in thighhighs, vibrator cord, egg vibrator,, ,  , , , ,,,,, NSFW,, hanged, hanging, hang, suicide, asphyxiation, hangman's noose around neck, hangman's noose, hangman's noose attached to the ceiling,, BREAK,,1boy, dildo in pussy,dildo ,dildo in ass,vaginal object insertion, dildo masturbation, BREAK,, , hug and suck, , epic sex, sex,   dynamic sexy pose, posing cute,   eager moaning ,,  , , breasts out, pussy,exposure, breasts exposure,  nipples exposure, pussy exposure,breast exposed,breasts exposed,  exposed breasts, exposed pussy,  , flat chest,, anime, anime style,, , masterpiece , best quality , detailed face, detailed eyes,    Beautiful character design,  illustration,  Beautiful body,, ,, , flat breasts,, 1girl ,petite, size difference, , , kudelia aina bernstein, (purple eyes:1.1), long hair, blonde hair, bangs, blunt bangs,ponytail, ,, (rolling eyes:1.0),, frills,  frilled skirt, frilled sleeves,gloves, dress, red dress, white gloves, capelet, gown, red gown, apricot, black apricot,", 
+	"negativeOnly" :  "lowres, worst quality, low quality,  from torso down, (monochrome:1.1), zombie , (blurry),  low res, , ,  bad anatomy, bad hands, missing fingers,, western,, (multiple views:1.25), (multiple viewer:1.25),  (cropped:1.25), face only,  lower body,  facial,, embedding:EasyNegativeV2.safetensors,, ugly face, blurry face, black and white, muscular female , text, sinature, stamp, watermark, error, jpeg artifacts, signature,  username, extra digit, fewer digits, speech bubble,  bad face,, realistic,photorealistic,",
+	"lorasUpdate":false,
+}

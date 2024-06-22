@@ -3,11 +3,11 @@
         "char": (
             "Marina_Fear__Hunger_2_Termina",
             (0.0,1.0),
-            1.0,
+            (0.750,1.0),
             {
                 "char":" mary janes, purple eyes,, ",
                 "hair":"long hair, blunt bangs, grey hair, ",
-                "dress":" long sleeves, collared shirt, neck ribbon, socks, long skirt, ",
+                "dress":" {long sleeves, collared shirt, neck ribbon, socks, long skirt,|__dress__,} ",
                 #"style":"cardcaptor sakura \(style\), ",
             },
         ),

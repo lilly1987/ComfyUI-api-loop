@@ -1,10 +1,13 @@
 {
     "microwaist": (        0.75,
         [
-            "microwaist",
+            #"microwaist",
             "microwaistV05",
             "microwaist 0.2b Lora",
             "microwaist 0.3 Anime Lora",
+            "microwaistV05-1",
+            "microwaist 0.2b Lora-1",
+            "microwaist 0.3 Anime Lora-1",
         ],
     ),
     "concept": (        0.750,
@@ -12,6 +15,7 @@
 			"cowgirl_with_hands_on_knees_v1.0",
 			"arms up,outstretched arms-000006",
             "concept-implied_sex-see-through_silhouette-v1",
+            "haraboko_final",
             "Hanging",
             "CrossY-3200",
             "cuff2collar",
@@ -283,13 +287,13 @@
             "LoCon_ARTSTYLE_Nixeu_ownwaifu",
         ],
     ),
-    "sex from behind": (        0.0,
+    "sex from behind": (        0.250,
         [
             "sex from behind",
             "qqq-spitroast-v2",
         ],
     ),
-    "Luoxuan_V2": (        0.0,
+    "Luoxuan_V2": (        0.250,
         [
             "Luoxuan_V2",
         ],

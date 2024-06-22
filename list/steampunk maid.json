@@ -1,0 +1,12 @@
+{
+	"loras":{
+		#"1": "SayakaMibu-10",
+		#"2": "microwaistV05",
+    },
+	"positive": {
+		"steampunk maid":" steampunk maid, ",
+	},
+	"negative" : {
+		"hair":"twintails,  ",
+	},
+}

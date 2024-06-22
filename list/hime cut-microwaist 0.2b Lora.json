@@ -1,0 +1,12 @@
+{
+	"loras":{
+		#"1": "SayakaMibu-10",
+		"2": "microwaist 0.2b Lora",
+    },
+	"positive": {
+		"hime":" long hair, straight hair,hime cut, ",
+	},
+	"negative" : {
+		"hair":"twintails,  ",
+	},
+}
