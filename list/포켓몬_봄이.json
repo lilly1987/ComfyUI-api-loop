@@ -7,7 +7,7 @@
             {
                 "char" :"selene_\(pokemon\), blue_eyes,",
                 "hair":"bangs, black_hair,",
-                #"dress":"{ thighhighs, pantyhose, hood, fingerless gloves,|__dress_set__,}",
+                #"dress":"{ thighhighs, pantyhose, hood, fingerless gloves,|__dress__,}",
             },
         ),
 		#"fingering_3rd_v1":"fingering_3rd_v1",

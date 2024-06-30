@@ -4,7 +4,7 @@
             "sdxl_lightning_8step_lora",
         ],
     ),
-    "hang": (        0.50,
+    "hang": (        0.250,
         [
             "Re-hang-XL-3-000008",
             "XL-Beheadv2-000012",
@@ -34,6 +34,7 @@
     ),
     "xxx": (        0.8750,
         [
+			"tentaclesX",
 			"hanging_preparing_pony",
 			"garrote_2-000012",
             "Re-hang-XL-3-000008",

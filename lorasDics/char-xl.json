@@ -1,0 +1,21 @@
+{
+    "hoodAL-ponyxl-bshi-v1": (
+    "hoodAL-ponyxl-bshi-v1",
+        (0.25,1.0),
+        (0.75,1.0),
+        {
+            "char":"hair over shoulder, long hair, blue eyes, blonde hair, swept bangs,  ",
+            "hair":"{hoddef, union jack capelet, blue coat, white hat, tilted headwear, long sleeves, white gloves, yellow sash, blue skirt, frills, brown pantyhose, fur collar, white ascot, earrings,|hodwed, wedding dress, cleavage, collarbone, necklace, see-through, long dress, bouquet, bridal veil, bridal gauntlets|hodyuk,blue kimono, white sash, long sleeves, wide sleeves,hair flower, floral print|hodparty, gala dress, strapless white dress, white elbow gloves, cleavage, jewelry, white coat, coat on shoulders, hair ornament, hair flower, white flower, taut dress, buttons, detached collar, drill hair|__dress__},",
+        },
+    ),
+    "知更鸟pony": (
+    "知更鸟pony",
+        (0.75,1.0),
+        (0.75,1.0),
+        {
+            "char":"robin, a girl named robin, 1girl, white dress, bare shoulders, halo, white gloves, earrings, bracelet,head wings,  ",
+            #"hair":"long hair,",
+            #"hair":"habit, blue dress, frilled dress, long sleeves, necklace,",
+        },
+    ),
+}

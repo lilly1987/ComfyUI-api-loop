@@ -1,0 +1,13 @@
+{	# mayumi-mahouka-01-sex_toy_transformation-microwaist 0.3 Anime Lora-koonagoConcept_v1
+    "loras":{
+        "2":"mayumi-mahouka-01",
+        "3":"sex_toy_transformation",
+        "1":"microwaist 0.3 Anime Lora",
+        "1":"koonagoConcept_v1",
+    },
+	# populated_text
+	#"positiveOnly":""
+	"positiveOnly" : "(rolling eyes:1.0),, , masterpiece , best quality ,     , BREAK,,,  mayumi saegusa,long hair,school uniform, jacket, necktie, BREAK,, koonago, minigirl, large insertion, sex,, , ,1boy,huge penis ,,, , ,  , small breasts,, sleek and fitted bodycon dress in a solid black color with a high neckline,, , frills, frilled dress,  , ,  transformation, limbless, armless, legsless, , anime,, NSFW,, small chest,,  , breasts out, pussy,exposure, breasts exposure,  nipples exposure, pussy exposure,breast exposed,breasts exposed,  exposed breasts, exposed pussy, revealing clothes, , 1girl ,size difference, , cowboy shot, , , , dildo in pussy,dildo ,dildo in ass,vaginal object insertion, dildo masturbation, , , ",
+	"negativeOnly" :   "embedding:bad_prompt_version2-neg.pt,,, western,,  bad anatomy, bad hands, missing fingers,, ugly face, blurry face, black and white, muscular female , text, sinature, stamp, watermark, error, jpeg artifacts, signature,  username, extra digit, fewer digits, speech bubble,  bad face,, nude,, realistic,photorealistic,, lowres, worst quality, low quality,  from torso down, (monochrome:1.1), zombie , (blurry),  low res, , (multiple views:1.25), (multiple viewer:1.25),  (cropped:1.25), face only,  lower body,  facial,",
+	"lorasUpdate":false,
+}

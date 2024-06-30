@@ -30,7 +30,7 @@
 		(0.5,01.0),
 		1.0,
 		{
-		"execution_hanged_pony_v2":"{1-3$$hanged, |hanging,| hanging executed,} {-2$$asphyxiation, |tongue out},arm behind back, {vibrator,|}",
+		"execution_hanged_pony_v2":"{1-3$$hanged, |hanging,| hanging executed,} {asphyxiation,| },arm behind back, {vibrator,|}",
 		"pose":"",
 		},
 		{},
@@ -43,7 +43,7 @@
 		(0.5,01.0),
 		1.0,
 		{
-		"hanging_preparing_pony":"{1-3$$hanged, |hanging,| hanging executed,} {-2$$asphyxiation, |tongue out},arm behind back, {vibrator,|}",
+		"hanging_preparing_pony":"{1-3$$hanged, |hanging,| hanging executed,} {asphyxiation,|},arm behind back, {vibrator,|}",
 		"pose":"",
 		},
 		{},
@@ -51,10 +51,20 @@
 		#"SD-MIDD"
 		#],
 	),
+	"tentaclesX": (
+	"tentaclesX",
+		(0.25,01.0),
+		(0.25,01.0),
+		{
+		"tentaclesX" :"1girl and monster, uncensored, tentaclesX, sex with a huge monster,",
+		},
+		{},
+		#"rnd",
+	),
 	"armstr_anV31-000097": (
 	"armstr_anV31-000097",
-		(0.5,01.0),
-		1.0,
+		(0.0,01.0),
+		(0.750,01.0),
 		{
 		"armstr_anV31-000097":"1boy, 1girl, arm strangling, solo focus,{rear naked choke, |breast grab from behind, |}",
 		},
@@ -62,6 +72,115 @@
 		#["rnd",
 		#"SD-MIDD"
 		#],
+	),
+	"Re-hang-XL-3-000008": (
+	"Re-hang-XL-3-000008",
+		(0.75,01.0),
+		(0.75,01.250),
+		{
+		"isXl":"{BREAK,|3::}, score_9, score_8_up, score_7_up, best quality, masterpiece, 4k, uncensored, prefect lighting, rating_explicit, very aesthetic, anime {BREAK,|3::},",
+		"hang":"{BREAK,|3::}, {shouting,|3::}gothic lolita,(blush),{sad,|}{open mouth,|3::}arms behind back,[[rope on neck]], {BREAK,|3::},",
+		},
+		{},
+		"0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+	),
+	"garrote_2-000012": (
+	"garrote_2-000012",
+		(0.0,01.0),
+		(0.750,01.0),
+		{
+            "garrote_2" :"afraid,(surprised), sitting,((sad)),{{shouting,|3::},open mouth,cry,|3::} one boy standing behind,arms behind back,",
+			"pose":"",
+		},
+		{},
+		#"rnd",
+	),
+	"handcuffs": (
+	"handcuffs",
+		(0.25,01.0),
+		(0.25,01.0),
+		{
+		"onarmor" :"handcuffs,bound,bound wrists,looking at viewer,bound,bondage,bdsm,,",
+		},
+		{},
+		#"rnd",
+	),
+	"condomification": (
+	"condomification",
+		(0.25,0.75),
+		(0.25,0.75),
+		{
+			"condomification":" condom-transformation, {see-through skin,|} cum inflation, hetero,",
+		},
+		{},		
+	),
+	"XL-Beheadv2-000012": (
+	"XL-Beheadv2-000012",
+		(0.75,01.0),
+		(0.75,01.0),
+		{
+		"isXl":"{BREAK,|3::}, score_9, score_8_up, score_7_up, best quality, masterpiece, 4k, uncensored, prefect lighting, rating_explicit, very aesthetic, anime {BREAK,|3::},",
+		"hang":"{BREAK,|3::}, {shouting,|3::}gothic lolita,(blush),{sad,|}{open mouth,|3::}arms behind back,[[rope on neck]], {BREAK,|3::},",
+		},
+		{},
+		"0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+	),
+	"XL-hangV3-000012": (
+	"XL-hangV3-000012",
+		(0.75,01.0),
+		(0.75,01.0),
+		{
+		"isXl":"{BREAK,|3::}, score_9, score_8_up, score_7_up, best quality, masterpiece, 4k, uncensored, prefect lighting, rating_explicit, very aesthetic, anime, {BREAK,|3::},",
+		"hang":"{BREAK,|3::}, {shouting,|3::}gothic lolita,(blush),{sad,|}{open mouth,|3::}arms behind back,[[rope on neck]], {BREAK,|3::},",
+		},
+		{
+			
+		},
+		"0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+		
+	),
+	"MS_PDX_Spitroast_Lite": (
+	"MS_PDX_Spitroast_Lite",
+		(0.25,01.0),
+		(0.25,01.0),
+		{
+		"MS_PDX_Spitroast_Lite" :"1girl, 2boys, threesome, spitroast,fellatio, sex from behind,  mmf threesome, suspended in midair,",
+		"Pose":"",
+		},
+		{},
+		#"rnd",
+	),
+	"XL-luoxuan-000012": (
+	"XL-luoxuan-000012",
+		(0.75,01.0),
+		(0.75,01.0),
+		{
+		"isXl":"{BREAK,|3::}, score_9, score_8_up, score_7_up, best quality, masterpiece, 4k, uncensored, prefect lighting, rating_explicit, very aesthetic, anime {BREAK,|3::},",
+		"hang":"{BREAK,|3::}, {shouting,|3::}gothic lolita,(blush),{sad,|}{open mouth,|3::}arms behind back,[[rope on neck]], {BREAK,|3::},",
+		},
+		{},
+		"0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+	),
+	"extrem insertion_Pony_V1.0": (
+	"extrem insertion_Pony_V1.0",
+		(0.25,0.75),
+		(0.25,0.75),
+		{
+			"insertion_Pony_V1":" extrem insertion, vaginal, stomach bulge,",
+			#"pose":" {from above, kneeling|sitting,|head out of frame, squatting|},",
+		},
+		{},		
+	),
+	"XL-hang-board-test-000012": (
+	"XL-hang-board-test-000012",
+		(0.25,01.0),
+		(0.75,01.0),
+		{
+		"isXl":"{BREAK,|3::}, score_9, score_8_up, score_7_up, best quality, masterpiece, 4k, uncensored, prefect lighting, rating_explicit, very aesthetic, anime {BREAK,|3::},",
+		"hang":"{BREAK,|3::}, {shouting,|3::} nervous, ((jumping)),((dancing)), full body,{(blush),|3::},{sad,|}{open mouth,|3::}arms behind back,from_below, [[rope on neck]], {BREAK,|3::},",
+		},
+		{},
+		"0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
 	),
 	"dildo_motion_blur": (
 	"dildo_motion_blur",

@@ -1,15 +1,5 @@
 {
     "loras":{
-        "char": (
-            "elysia_",
-            (0.75,1.0),
-            1.0,
-            {
-                "char":"{elysia \(herrscher of human:ego\) \(honkai impact\)|elysia-swimsuit|elysia-maid},",
-                #"hair":"blue hair, very long hair, ",
-                #"dress":"{hair ribbon, white coat, long sleeves, black dress, black thighhighs, white boots,|__dress__,}",
-                #"style":"cardcaptor sakura \(style\), ",
-            },
-        ),
+        "char": "elysia_",
     },
 }

@@ -7,7 +7,7 @@
             {
                 "char" :"green_eyes,",
                 "hair":"long_hair, blonde_hair, twintails, low_twintails,",
-                #"dress":"{ thighhighs, pantyhose, hood, fingerless gloves,|__dress_set__,}",
+                #"dress":"{ thighhighs, pantyhose, hood, fingerless gloves,|__dress__,}",
             },
         ),
 		#"fingering_3rd_v1":"fingering_3rd_v1",

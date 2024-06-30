@@ -3,11 +3,11 @@
         "char": (
             "Myrrh_fe_v1",
             (0.25,1.0),
-            1.0,
+            (0.75,1.0),
             {
-                "char" :"myrrh_fe, red eyes, ",
-                "hair":" multi-tied hair, ",
-                #"dress":"{  (plaid dress:1.2), frills, bracelet, capelet, collarbone, pendant, purple waistband, scrunchie, necklace, jewelry,,|__dress_set__,}",
+                "char" :"myrrh_fe, red eyes,  multi-tied hair,",
+                #"hair":" ",
+                #"dress":"{  (plaid dress:1.2), frills, bracelet, capelet, collarbone, pendant, purple waistband, scrunchie, necklace, jewelry,,|__dress__,}",
             },
         ),
 		#"fingering_3rd_v1":"fingering_3rd_v1",

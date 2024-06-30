@@ -1,0 +1,12 @@
+{	# momoi_v4-hyper_penetration_stomach_bulge_v8nice
+    "loras":{
+        "2":"momoi_v4",
+        "3":"hyper_penetration_stomach_bulge_v8nice",
+        #"1":"hunged_girl",
+    },
+	# populated_text
+	#"positiveOnly":""
+	"positiveOnly" : "small chest, flat chest,, thin waist, ,  capelet, , ,2boy, (multiple insertions, large insertion,  object insertion, impossible object insertion, object insertion:1.25), BREAK,, , 2D,, 1girl ,petite, , hanged, hanging, hang, suicide, asphyxiation, hangman's noose around neck, hangman's noose, hangman's noose attached to the ceiling,, frills, frilled dress, frilled skirt, frilled sleeves,, , ,  vaginal, stomach bulge, pectoral bulge, vaginal object insertion, (impossible object insertion:1.2), (absurd stomach bulge:1.1), gaping pussy,, ,  , NSFW,, epic sex, rough sex,   dynamic sexy pose,   eager moaning ,, , masterpiece , best quality ,  detailed eyes, perfect eyes,  , BREAK,,, long hair,, small chest, flat chest,,  momoi \\(blue archive\\), ,  , breasts out, pussy,exposure, breasts exposure,  nipples exposure, pussy exposure,breast exposed,breasts exposed,  exposed breasts, exposed pussy, revealing clothes, , , , flat breasts,",
+	"negativeOnly" :  "nude,, realistic,photorealistic,,  bad anatomy, bad hands, missing fingers,, lowres, worst quality, low quality,  from torso down, (monochrome:1.1), zombie , (blurry),  low res, , ugly face, blurry face, black and white, muscular female , text, sinature, stamp, watermark, error, jpeg artifacts, signature,  username, extra digit, fewer digits, speech bubble,  bad face,, (multiple views:1.25), (multiple viewer:1.25),  (cropped:1.25), face only,  lower body,  facial,, western,, embedding:nncursedV0-neg.pt, embedding:negative_hand-neg.pt,,",
+	"lorasUpdate":false,
+}

@@ -1,0 +1,12 @@
+{	# rosalina-lyco-nochekaiser-aki-000020
+    "loras":{
+        "2":"rosalina-lyco-nochekaiser",
+        "3":"aki-000020",
+        #"1":"hunged_girl",
+    },
+	# populated_text
+	#"positiveOnly":""
+	"positiveOnly" : ",1boy, (multiple insertions, large insertion,  object insertion, impossible object insertion, object insertion:1.25), BREAK,, , sex from behind, double penetration, spitroast,,  capelet, , flat chest, small chest,,  , small breasts, flat breasts,, 2D, anime style, anime,,  , , masterpiece , best quality ,  detailed eyes, perfect eyes,   Beautiful body,  illustration,, ,, hanging, (hunged_girl:1.0),rope on neck, noose, asphyxiation, rolling eyes,  gore,  arms_behind_back, bound_arms, arms bound, hang in the air, bdsm, bound,, 2boys,, 1girl,, , (rolling eyes:1.0),, frills, frilled dress,  frilled sleeves,, NSFW,, breasts out, pussy,exposure, breasts exposure,  nipples exposure, pussy exposure,breast exposed,breasts exposed,  exposed breasts, exposed pussy,  , small chest, flat chest,, thin waist, , ,  , mmf threesome,, suck, ",
+	"negativeOnly" :  "embedding:ParaNegative.safetensors, embedding:NGH.safetensors,,, nude,, western,,  bad anatomy, bad hands, missing fingers,, ugly face, blurry face, black and white, muscular female , text, sinature, stamp, watermark, error, jpeg artifacts, signature,  username, extra digit, fewer digits, speech bubble,  bad face,, lowres, worst quality, low quality,  from torso down, (monochrome:1.1), zombie , (blurry),  low res, , realistic,photorealistic,, (multiple views:1.25), (multiple viewer:1.25),  (cropped:1.25), face only,  lower body,  facial,",
+	"lorasUpdate":false,
+}

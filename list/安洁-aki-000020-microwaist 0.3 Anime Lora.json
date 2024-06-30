@@ -1,0 +1,13 @@
+{	# 安洁-aki-000020-microwaist 0.3 Anime Lora
+    "loras":{
+        "2":"安洁",
+        "3":"aki-000020",
+        "1":"microwaist 0.3 Anime Lora",
+        "1":"DildoRiding",
+    },
+	# populated_text
+	#"positiveOnly":""
+	"positiveOnly" : "rough sex, epic sex, sex,   posing cute,   eager moaning ,, 1girl ,size difference, petite, ,  1girl,  hairclip,  purple hair, Blue hair hair bow, , NSFW,, , anime style, 2D,,  , , kneeling, anal, anal object insertion,  pussy juice, pussy, clit, drooling, rolling eyes, motion lines, ahegao, naughty face, clothes lift, skirt lift, clothing aside, clothed masturbation, heavy breathing), dildo_riding, object_insertion, dildo, vaginal_object_insertion, sex_toy, vaginal, large_insertion, uncensored, masturbation, female_masturbation,, flat chest,, small breasts,, , masterpiece , best quality ,   perfect eyes,  perfect face,  Beautiful body, ultra-detailed,, ,, ,2boy,huge penis ,,, , , dildo in pussy,dildo ,dildo in ass,vaginal object insertion, dildo masturbation, , , hanging, (hunged_girl:1.0),rope on neck, noose, asphyxiation, rolling eyes, open mouth, gore,  arms_behind_back, bound_arms, arms bound, hang in the air, bdsm, bound,, small chest, flat chest,, thin waist, , breasts out, pussy,exposure, breasts exposure,  nipples exposure, pussy exposure,breast exposed,breasts exposed,  exposed breasts, exposed pussy,  , , cowboy shot, , long sleeves, capelet,  wide sleeves,belt, , frills,  frilled skirt, frilled sleeves,, ",
+	"negativeOnly" :   "embedding:badquality.pt, embedding:bad_prompt_version2-neg.pt,,,  bad anatomy, bad hands, missing fingers,, (multiple views:1.25), (multiple viewer:1.25),  (cropped:1.25), face only,  lower body,  facial,, western,, lowres, worst quality, low quality,  from torso down, (monochrome:1.1), zombie , (blurry),  low res, , ugly face, blurry face, black and white, muscular female , text, sinature, stamp, watermark, error, jpeg artifacts, signature,  username, extra digit, fewer digits, speech bubble,  bad face,, realistic,photorealistic,, ", 
+	"lorasUpdate":false,
+}

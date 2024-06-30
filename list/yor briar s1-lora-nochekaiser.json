@@ -7,7 +7,7 @@
             {
                 "char":"yor briar, (red eyes:1.5), earrings, gold hairband, hairband, ",
                 "hair":"black_hair, long hair, sidelocks, ",
-                "dress":"{bare shoulders, collarbone, dress, long sleeves, off shoulder, off-shoulder dress, off-shoulder sweater, pantyhose, red sweater, sweater, sweater dress, thighs,|__dress_set__}",
+                "dress":"{bare shoulders, collarbone, dress, long sleeves, off shoulder, off-shoulder dress, off-shoulder sweater, pantyhose, red sweater, sweater, sweater dress, thighs,|__dress__}",
             },
         ),
         #"hang": "hang",

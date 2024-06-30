@@ -606,6 +606,130 @@
 		#"SD-ALL0.5" ,
 		],
 	),
+	"fuckingAmazingTentacle_v15": (
+	"fuckingAmazingTentacle_v15",
+		(0.25,0.750),
+		(01.0,01.0),
+		{
+		"fuckingAmazingTentacle_v15":"tentacles,tentacles sex,",
+		},
+		{},
+		[
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		##"SD-INS"    ,
+		"SD-INALL"  ,
+		"SD-IND"    ,
+		"SD-MIDD"   ,
+		"SD-MIDD1"  ,
+		#"SD-MIDD2"  ,#
+		#"SD-MIDD0.8",
+		#"SD-MIDD0.2",
+		"SD-MOUT"   ,
+		#"SD-OUTD"   ,#
+		"SD-OUTS"   ,
+		#"SD-OUTALL" ,
+		##"SD-ROUT"   ,#
+		##"SD-AOUT"   ,
+		##"SD-AOUT"   ,
+		#"SD-AB" 	,
+		#"SD-ALL0.5" ,
+		],
+	),
+	"horosukeSTentacle_v10": (
+	"horosukeSTentacle_v10",
+		(0.25,0.750),
+		(01.0,01.0),
+		{
+		"horosukeSTentacle_v10":"tentacles,tentacles sex,",
+		},
+		{},
+		[
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		##"SD-INS"    ,
+		"SD-INALL"  ,
+		"SD-IND"    ,
+		"SD-MIDD"   ,
+		"SD-MIDD1"  ,
+		#"SD-MIDD2"  ,#
+		#"SD-MIDD0.8",
+		#"SD-MIDD0.2",
+		"SD-MOUT"   ,
+		#"SD-OUTD"   ,#
+		"SD-OUTS"   ,
+		#"SD-OUTALL" ,
+		##"SD-ROUT"   ,#
+		##"SD-AOUT"   ,
+		##"SD-AOUT"   ,
+		#"SD-AB" 	,
+		#"SD-ALL0.5" ,
+		],
+	),
+	"MS_Real_Tentacle_Lite": (
+	"MS_Real_Tentacle_Lite",
+		(0.25,0.750),
+		(01.0,01.0),
+		{
+		"MS_Real_Tentacle_Lite":"tentacles,tentacles sex,",
+		},
+		{},
+		[
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		##"SD-INS"    ,
+		"SD-INALL"  ,
+		"SD-IND"    ,
+		"SD-MIDD"   ,
+		"SD-MIDD1"  ,
+		#"SD-MIDD2"  ,#
+		#"SD-MIDD0.8",
+		#"SD-MIDD0.2",
+		"SD-MOUT"   ,
+		#"SD-OUTD"   ,#
+		"SD-OUTS"   ,
+		#"SD-OUTALL" ,
+		##"SD-ROUT"   ,#
+		##"SD-AOUT"   ,
+		##"SD-AOUT"   ,
+		#"SD-AB" 	,
+		#"SD-ALL0.5" ,
+		],
+	),
+	"NSFWTentaclesLora_epochs85": (
+	"NSFWTentaclesLora_epochs85",
+		(0.25,0.750),
+		(01.0,01.0),
+		{
+		"NSFWTentaclesLora_epochs85":"tentacles,tentacles sex,",
+		},
+		{},
+		[
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		##"SD-INS"    ,
+		"SD-INALL"  ,
+		"SD-IND"    ,
+		"SD-MIDD"   ,
+		"SD-MIDD1"  ,
+		#"SD-MIDD2"  ,#
+		#"SD-MIDD0.8",
+		#"SD-MIDD0.2",
+		"SD-MOUT"   ,
+		#"SD-OUTD"   ,#
+		"SD-OUTS"   ,
+		#"SD-OUTALL" ,
+		##"SD-ROUT"   ,#
+		##"SD-AOUT"   ,
+		##"SD-AOUT"   ,
+		#"SD-AB" 	,
+		#"SD-ALL0.5" ,
+		],
+	),
 	"NSFWTentaclesLora_v2Epochs20": (
 	"NSFWTentaclesLora_v2Epochs20",
 		(0.25,0.750),
@@ -1245,7 +1369,7 @@
 		 "SD-ALL"    ,
 		 "SD-ALL"    ,
 		 ##"SD-INS"    ,
-		 "SD-INALL"  ,
+		 #"SD-INALL"  ,
 		 "SD-IND"    ,
 		 "SD-MIDD"   ,
 		 "SD-MIDD1"  ,
@@ -2195,6 +2319,102 @@
 		#"SD-ALL0.5" ,
 		],
 	),
+	"Tentacle-15": (
+	"Tentacle-15",
+		(0.0,01.0),
+		1.0,
+		{
+		"Tentacle-15":" tentacle sex, tentacles , ",
+		},
+		{},
+		[
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		##"SD-INS"    ,
+		"SD-INALL"  ,
+		"SD-IND"    ,
+		"SD-MIDD"   ,
+		"SD-MIDD1"  ,
+		#"SD-MIDD2"  ,#
+		#"SD-MIDD0.8",
+		#"SD-MIDD0.2",
+		"SD-MOUT"   ,
+		#"SD-OUTD"   ,#
+		"SD-OUTS"   ,
+		"SD-OUTS"   ,
+		##"SD-OUTALL" ,
+		##"SD-ROUT"   ,#
+		##"SD-AOUT"   ,
+		##"SD-AOUT"   ,
+		#"SD-AB" 	,
+		#"SD-ALL0.5" ,
+		],
+	),
+	"pose tentaclesex": (
+	"pose tentaclesex",
+		(0.0,01.0),
+		1.0,
+		{
+		"tentacle sex":" tentacle sex, tentacles , hentai tantacle sex,",
+		},
+		{},
+		[
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		##"SD-INS"    ,
+		"SD-INALL"  ,
+		"SD-IND"    ,
+		"SD-MIDD"   ,
+		"SD-MIDD1"  ,
+		#"SD-MIDD2"  ,#
+		#"SD-MIDD0.8",
+		#"SD-MIDD0.2",
+		"SD-MOUT"   ,
+		#"SD-OUTD"   ,#
+		"SD-OUTS"   ,
+		"SD-OUTS"   ,
+		##"SD-OUTALL" ,
+		##"SD-ROUT"   ,#
+		##"SD-AOUT"   ,
+		##"SD-AOUT"   ,
+		#"SD-AB" 	,
+		#"SD-ALL0.5" ,
+		],
+	),
+	"Tentacled_V2": (
+	"Tentacled_V2",
+		(0.0,01.0),
+		1.0,
+		{
+		"tentacle sex":" tentacle sex, tentacles , ",
+		},
+		{},
+		[
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		##"SD-INS"    ,
+		"SD-INALL"  ,
+		"SD-IND"    ,
+		"SD-MIDD"   ,
+		"SD-MIDD1"  ,
+		#"SD-MIDD2"  ,#
+		#"SD-MIDD0.8",
+		#"SD-MIDD0.2",
+		"SD-MOUT"   ,
+		#"SD-OUTD"   ,#
+		"SD-OUTS"   ,
+		"SD-OUTS"   ,
+		##"SD-OUTALL" ,
+		##"SD-ROUT"   ,#
+		##"SD-AOUT"   ,
+		##"SD-AOUT"   ,
+		#"SD-AB" 	,
+		#"SD-ALL0.5" ,
+		],
+	),
 	"tentacles v4": (
 	"tentacles v4",
 		(0.250,01.0),
@@ -2303,74 +2523,6 @@
 		#"SD-AB" 	,
 		#"SD-ALL0.5" ,
 		],
-	),
-	"Re-hang-XL-3-000008": (
-	"Re-hang-XL-3-000008",
-		(0.75,01.0),
-		(0.75,01.250),
-		{
-		"isXl":"{BREAK,|3::}, score_9, score_8_up, score_7_up, best quality, masterpiece, 4k, uncensored, prefect lighting, rating_explicit, very aesthetic, anime {BREAK,|3::},",
-		"hang":"{BREAK,|3::}, shouting,{tongue out,|3::}gothic lolita,(blush),{sad,|}{open mouth,|3::}arms behind back,[[rope on neck]], {BREAK,|3::},",
-		},
-		{},
-		"0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
-	),
-	"XL-Beheadv2-000012": (
-	"XL-Beheadv2-000012",
-		(0.75,01.0),
-		(0.75,01.0),
-		{
-		"isXl":"{BREAK,|3::}, score_9, score_8_up, score_7_up, best quality, masterpiece, 4k, uncensored, prefect lighting, rating_explicit, very aesthetic, anime {BREAK,|3::},",
-		"hang":"{BREAK,|3::}, shouting,{tongue out,|3::}gothic lolita,(blush),{sad,|}{open mouth,|3::}arms behind back,[[rope on neck]], {BREAK,|3::},",
-		},
-		{},
-		"0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
-	),
-	"XL-hang-board-test-000012": (
-	"XL-hang-board-test-000012",
-		(0.75,01.0),
-		(0.75,01.0),
-		{
-		"isXl":"{BREAK,|3::}, score_9, score_8_up, score_7_up, best quality, masterpiece, 4k, uncensored, prefect lighting, rating_explicit, very aesthetic, anime {BREAK,|3::},",
-		"hang":"{BREAK,|3::}, shouting,{tongue out,|3::} nervous, ((jumping)),((dancing)), full body,(blush),{sad,|}{open mouth,|3::}arms behind back,from_below, [[rope on neck]], {BREAK,|3::},",
-		},
-		{},
-		"0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
-	),
-	"XL-hangV3-000012": (
-	"XL-hangV3-000012",
-		(0.75,01.0),
-		(0.75,01.0),
-		{
-		"isXl":"{BREAK,|3::}, score_9, score_8_up, score_7_up, best quality, masterpiece, 4k, uncensored, prefect lighting, rating_explicit, very aesthetic, anime, {BREAK,|3::},",
-		"hang":"{BREAK,|3::}, shouting,{tongue out,|3::}gothic lolita,(blush),{sad,|}{open mouth,|3::}arms behind back,[[rope on neck]], {BREAK,|3::},",
-		},
-		{
-			
-		},
-		"0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
-		
-	),
-	"XL-luoxuan-000012": (
-	"XL-luoxuan-000012",
-		(0.75,01.0),
-		(0.75,01.0),
-		{
-		"isXl":"{BREAK,|3::}, score_9, score_8_up, score_7_up, best quality, masterpiece, 4k, uncensored, prefect lighting, rating_explicit, very aesthetic, anime {BREAK,|3::},",
-		"hang":"{BREAK,|3::}, shouting,{tongue out,|3::}gothic lolita,(blush),{sad,|}{open mouth,|3::}arms behind back,[[rope on neck]], {BREAK,|3::},",
-		},
-		{},
-		"0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
-	),
-	"extrem insertion_Pony_V1.0": (
-	"extrem insertion_Pony_V1.0",
-		(0.25,0.75),
-		(0.25,0.75),
-		{
-			"insertion_Pony_V1":" extrem insertion, vaginal, stomach bulge,",
-			#"pose":" {from above, kneeling|sitting,|head out of frame, squatting|},",
-		},
-		{},		
 	),
 	"Pov_cowgirl_amazon_1.0": (
 	"Pov_cowgirl_amazon_1.0",
@@ -2557,15 +2709,6 @@
 		#"SD-AB" 	,
 		#"SD-ALL0.5" ,
 		],
-	),
-	"condomification": (
-	"condomification",
-		(0.25,0.75),
-		(0.25,0.75),
-		{
-			"condomification":" condom-transformation, {see-through skin,|} cum inflation, hetero,",
-		},
-		{},		
 	),
 	"human_onahole": (
 	"human_onahole",
@@ -3071,7 +3214,7 @@
 		#"SD-OUTD"   ,#
 		"SD-OUTS"   ,
 		#"SD-OUTALL" ,
-		"SD-ROUT"   ,#
+		#"SD-ROUT"   ,#
 		##"SD-AOUT"   ,
 		##"SD-AOUT"   ,
 		#"SD-AB" 	,
@@ -3727,7 +3870,7 @@
 	(0.250,01.0),
 	(0.750,01.0),
 		{
-		"hang":"{BREAK,|3::} AsphyxiationHngng, rope,{ standing,|} { orgasm,|} { female ejaculation, |} {pussy juice, |} {rolling eyes,|} trembling, peeing, pee,  {head tilt, |} {open mouth,|3::} {tongue out,|3::} {sweat,|} { nipples,|}  {open clothes,|} {ahegao,|} { blush,|} { empty eyes,|}  {BREAK,|3::}",
+		"hang":"{BREAK,|3::} AsphyxiationHngng, rope,{ standing,|} { orgasm,|} { female ejaculation, |} {pussy juice, |} {rolling eyes,|} trembling, peeing, pee,  {head tilt, |} {open mouth,|3::}  {sweat,|} { nipples,|}  {open clothes,|} {ahegao,|} { blush,|3::} { empty eyes,|}  {BREAK,|3::}",
 		"pose":"",
 		},
 		{},
@@ -4217,8 +4360,8 @@
 	),
 	"Luoxuan_V2-000024": (
 	"Luoxuan_V2-000024",
-		(0.25,0.75),
-		1.0,
+		(0.0,0.75),
+		(0.75,01.0),
 		{
 		"luoxuan" :"luoxuan,",
 		},
@@ -4250,8 +4393,8 @@
 	),
 	"Luoxuan_V2-000020": (
 	"Luoxuan_V2-000020",
-		(0.25,0.75),
-		1.0,
+		(0.0,0.75),
+		(0.75,01.0),
 		{
 		"luoxuan" :"luoxuan,",
 		},
@@ -4283,8 +4426,8 @@
 	),
 	"Luoxuan_V2-000032": 	(
 	"Luoxuan_V2-000032",
-		(0.25,0.75),
-		1.0,
+		(0.0,0.75),
+		(0.75,01.0),
 		{
 		"luoxuan" :"luoxuan,",
 		},
@@ -4300,8 +4443,8 @@
 	),
 	"Luoxuan_V2-000036": 	(
 	"Luoxuan_V2-000036",
-		(0.25,0.75),
-		1.0,
+		(0.0,0.75),
+		(0.75,01.0),
 		{
 		"luoxuan" :"luoxuan,",
 		},
@@ -4324,8 +4467,8 @@
 	),
 	"Luoxuan_V2-000028": 	(
 	"Luoxuan_V2-000028",
-		(0.25,0.75),
-		(01.0,01.0),
+		(0.0,0.75),
+		(0.75,01.0),
 		{
 		"luoxuan" :"luoxuan,",
 		},
@@ -4346,8 +4489,8 @@
 	),
 	"Luoxuan_V2": 	(
 	"Luoxuan_V2*",
-		(0.25,0.75),
-		1.0,
+		(0.0,0.75),
+		(0.75,01.0),
 		{
 		"luoxuan" :"luoxuan,",
 		},
@@ -4440,17 +4583,6 @@
 		{},
 		#"rnd",
 	),
-	"garrote_2-000012": (
-	"garrote_2-000012",
-		(0.0,01.0),
-		(0.750,01.0),
-		{
-            "garrote_2" :"afraid,(surprised), {tongue out,|3::}sitting,((sad)),{shouting,open mouth,cry,|3::} one boy standing behind,arms behind back,",
-			"pose":"",
-		},
-		{},
-		#"rnd",
-	),
 	"LadyVase_v01-Epoch50": (
 	"LadyVase_v01-Epoch50",
 		(0.0,01.0),
@@ -4469,26 +4601,6 @@
 		{
             "body" :"ahys, ribs,",
 			"pose":"",
-		},
-		{},
-		#"rnd",
-	),
-	"tentaclesX": (
-	"tentaclesX",
-		(0.25,01.0),
-		(0.25,01.0),
-		{
-		"tentaclesX" :"1girl and monster, uncensored, tentaclesX, sex with a huge monster,",
-		},
-		{},
-		#"rnd",
-	),
-	"handcuffs": (
-	"handcuffs",
-		(0.25,01.0),
-		(0.25,01.0),
-		{
-		"onarmor" :"handcuffs,bound,bound wrists,looking at viewer,bound,bondage,bdsm,,",
 		},
 		{},
 		#"rnd",
@@ -4539,16 +4651,6 @@
 		(0.5,01.0),
 		{
 		"BadDildo" :"masturbation,vaginal,dildo,sex toy,pussy,baddildo,object insertion,squatting,extra large sex toy,dildo riding,thighhighs,strap-on,holding,tail,,",
-		},
-		{},
-		#"rnd",
-	),
-	"MS_PDX_Spitroast_Lite": (
-	"MS_PDX_Spitroast_Lite",
-		(0.25,01.0),
-		(0.25,01.0),
-		{
-		"MS_PDX_Spitroast_Lite" :"1girl, 2boys, threesome, spitroast,fellatio, sex from behind,  mmf threesome, suspended in midair,",
 		},
 		{},
 		#"rnd",
@@ -4850,7 +4952,7 @@
 	1.0,
 	{
 	"monster" :" monster,",
-	"monster":"hilichurl, blush, held up, nipples, {open mouth,|3::} pussy, pussy juice, {spread legs,|} sweat, tears, huge penis,  large insertion, monster sex, uncensored, monster,",
+	"monster":"hilichurl, { blush,|3::} held up, nipples, {open mouth,|3::} pussy, pussy juice, {spread legs,|} sweat, tears, huge penis,  large insertion, monster sex, uncensored, monster,",
 	},
 	{},
     [
@@ -4873,6 +4975,37 @@
     #"SD-ALL0.5" ,
 	"1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0",
 	],
+	),
+	"nipplePiercing_v10": (
+	"nipplePiercing_v10",
+		(0.0,00.750),
+		(01.0,01.0),
+		{
+		"nipplePiercing_v10":"nipplepiercing,",
+		},
+		{},
+		[
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		##"SD-INS"    ,
+		"SD-INALL"  ,
+		"SD-IND"    ,
+		"SD-MIDD"   ,
+		"SD-MIDD1"  ,
+		##"SD-MIDD2"  ,
+		#"SD-MIDD0.8",
+		#"SD-MIDD0.2",
+		"SD-MOUT"   ,
+		#"SD-OUTD"   ,#
+		"SD-OUTS"   ,
+		##"SD-OUTALL" ,
+		##"SD-ROUT"   ,#
+		##"SD-AOUT"   ,
+		##"SD-AOUT"   ,
+		#"SD-AB" 	,
+		#"SD-ALL0.5" ,
+		],
 	),
 	"koonagoConcept_v1": (
 	"koonagoConcept_v1",
@@ -5864,6 +5997,134 @@
 		{},
 		#"rnd",
 	),
+	"tentacles_v10":(
+	"tentacles_v10",
+		(0.0,01.0),
+		1.0,
+		{
+			"tentacles_v0.4":"tentacles, tentacle sex,",
+		},
+		{},
+		[
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		#"SD-INS"    ,
+		"SD-INALL"  ,
+		"SD-IND"    ,
+		"SD-MIDD"   ,
+		"SD-MIDD"   ,
+		"SD-MIDD1"  ,
+		#"SD-MIDD2"  ,#
+		#"SD-MIDD0.8",
+		#"SD-MIDD0.2",
+		"SD-MOUT"   ,
+		#"SD-OUTD"   ,#
+		"SD-OUTS"   ,
+		#"SD-OUTALL" ,
+		#"SD-ROUT"   ,#
+		#"SD-AOUT"   ,
+		#"SD-AOUT"   ,
+		#"SD-AB" 	,
+		#"SD-ALL0.5" ,
+		],
+	),
+	"tentacles_v0.4":(
+	"tentacles_v0.4",
+		(0.0,01.0),
+		1.0,
+		{
+			"tentacles_v0.4":"tentacles, tentacle sex,",
+		},
+		{},
+		[
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		#"SD-INS"    ,
+		"SD-INALL"  ,
+		"SD-IND"    ,
+		"SD-MIDD"   ,
+		"SD-MIDD"   ,
+		"SD-MIDD1"  ,
+		#"SD-MIDD2"  ,#
+		#"SD-MIDD0.8",
+		#"SD-MIDD0.2",
+		"SD-MOUT"   ,
+		#"SD-OUTD"   ,#
+		"SD-OUTS"   ,
+		#"SD-OUTALL" ,
+		#"SD-ROUT"   ,#
+		#"SD-AOUT"   ,
+		#"SD-AOUT"   ,
+		#"SD-AB" 	,
+		#"SD-ALL0.5" ,
+		],
+	),
+	"1662086320759008068":(
+	"1662086320759008068",
+		(0.0,01.0),
+		1.0,
+		{
+			"1662086320759008068":"multiple tentacles and their cocks, tentacle nursery, intercourse with multiple tentacles, missionary position,",
+		},
+		{},
+		[
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		#"SD-INS"    ,
+		"SD-INALL"  ,
+		"SD-IND"    ,
+		"SD-MIDD"   ,
+		"SD-MIDD"   ,
+		"SD-MIDD1"  ,
+		#"SD-MIDD2"  ,#
+		#"SD-MIDD0.8",
+		#"SD-MIDD0.2",
+		"SD-MOUT"   ,
+		#"SD-OUTD"   ,#
+		"SD-OUTS"   ,
+		#"SD-OUTALL" ,
+		#"SD-ROUT"   ,#
+		#"SD-AOUT"   ,
+		#"SD-AOUT"   ,
+		#"SD-AB" 	,
+		#"SD-ALL0.5" ,
+		],
+	),
+	"Nipple Toolbox V3":(
+	"Nipple Toolbox V3",
+		(0.0,01.0),
+		1.0,
+		{
+			"Nipple Toolbox V3":"gaping nipples, tentacles in nipples,",
+		},
+		{},
+		[
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		#"SD-INS"    ,
+		"SD-INALL"  ,
+		"SD-IND"    ,
+		"SD-MIDD"   ,
+		"SD-MIDD"   ,
+		"SD-MIDD1"  ,
+		#"SD-MIDD2"  ,#
+		#"SD-MIDD0.8",
+		#"SD-MIDD0.2",
+		"SD-MOUT"   ,
+		#"SD-OUTD"   ,#
+		"SD-OUTS"   ,
+		#"SD-OUTALL" ,
+		#"SD-ROUT"   ,#
+		#"SD-AOUT"   ,
+		#"SD-AOUT"   ,
+		#"SD-AB" 	,
+		#"SD-ALL0.5" ,
+		],
+	),
 	"crucified":(
 	"crucified",
 		(0.0,01.0),
@@ -5889,7 +6150,7 @@
 		#"SD-OUTD"   ,#
 		"SD-OUTS"   ,
 		#"SD-OUTALL" ,
-		"SD-ROUT"   ,#
+		#"SD-ROUT"   ,#
 		#"SD-AOUT"   ,
 		#"SD-AOUT"   ,
 		#"SD-AB" 	,

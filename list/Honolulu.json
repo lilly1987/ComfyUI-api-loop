@@ -7,7 +7,7 @@
             {
                 "char" :"honolulu \(kancolle\),  ",
                 #"hair":" (blonde hair, blue hair:1.2, gradient hair:1.2), (low twintails:1.2), multicolored hair, flower hair ornament,",
-                #"dress":"{  (plaid dress:1.2), frills, bracelet, capelet, collarbone, pendant, purple waistband, scrunchie, necklace, jewelry,,|__dress_set__,}",
+                #"dress":"{  (plaid dress:1.2), frills, bracelet, capelet, collarbone, pendant, purple waistband, scrunchie, necklace, jewelry,,|__dress__,}",
             },
         ),
 		#"fingering_3rd_v1":"fingering_3rd_v1",
