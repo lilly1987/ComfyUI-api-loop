@@ -1,0 +1,12 @@
+{
+	"loras":{
+		"1": "pa-san-ponyxl-lora-nochekaiser",
+		#"2": "microwaistV05",
+    },
+	#"positive": {
+	#	"single braid":" single braid, ",
+	#},
+	#"negative" : {
+	#	"hair":"twintails,  ",
+	#},
+}

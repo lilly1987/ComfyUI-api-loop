@@ -1,0 +1,12 @@
+{
+	"loras":{
+		"1": "bocchi_pa-san-11",
+		#"2": "microwaistV05",
+    },
+	#"positive": {
+	#	"single braid":" single braid, ",
+	#},
+	#"negative" : {
+	#	"hair":"twintails,  ",
+	#},
+}

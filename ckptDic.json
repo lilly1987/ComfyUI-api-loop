@@ -1371,7 +1371,7 @@
 		"SaveImage2":true,
 	},
 	"reLAXATION_extra25" : {
-		"cfg" : 7.0,
+		#"cfg" : 7.0,
 		"KSampler":{
 			"steps_min": 30,
 			"steps_max": 30,

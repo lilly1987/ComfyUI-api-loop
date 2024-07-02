@@ -606,6 +606,99 @@
 		#"SD-ALL0.5" ,
 		],
 	),
+	"stationary restraints,outstretched arms,spread arms": (
+	"stationary restraints,outstretched arms,spread arms",
+		(0.0,0.750),
+		(01.0,01.0),
+		{
+		"spread arms":"stationary restraints,outstretched arms,spread arms,",
+		},
+		{},
+		[
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		##"SD-INS"    ,
+		"SD-INALL"  ,
+		"SD-IND"    ,
+		"SD-MIDD"   ,
+		"SD-MIDD1"  ,
+		#"SD-MIDD2"  ,#
+		#"SD-MIDD0.8",
+		#"SD-MIDD0.2",
+		"SD-MOUT"   ,
+		#"SD-OUTD"   ,#
+		"SD-OUTS"   ,
+		#"SD-OUTALL" ,
+		##"SD-ROUT"   ,#
+		##"SD-AOUT"   ,
+		##"SD-AOUT"   ,
+		#"SD-AB" 	,
+		#"SD-ALL0.5" ,
+		],
+	),
+	"arms up-000008": (
+	"arms up-000008",
+		(0.0,0.750),
+		(01.0,01.0),
+		{
+		"spread arms2":"spread arms, arms up,",
+		},
+		{},
+		[
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		##"SD-INS"    ,
+		"SD-INALL"  ,
+		"SD-IND"    ,
+		"SD-MIDD"   ,
+		"SD-MIDD1"  ,
+		#"SD-MIDD2"  ,#
+		#"SD-MIDD0.8",
+		#"SD-MIDD0.2",
+		"SD-MOUT"   ,
+		#"SD-OUTD"   ,#
+		"SD-OUTS"   ,
+		#"SD-OUTALL" ,
+		##"SD-ROUT"   ,#
+		##"SD-AOUT"   ,
+		##"SD-AOUT"   ,
+		#"SD-AB" 	,
+		#"SD-ALL0.5" ,
+		],
+	),
+	"spread arms,outstretched arms-000007": (
+	"spread arms,outstretched arms-000007",
+		(0.0,0.750),
+		(01.0,01.0),
+		{
+		"spread arms2":"spread arms, outstretched arms,",
+		},
+		{},
+		[
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		##"SD-INS"    ,
+		"SD-INALL"  ,
+		"SD-IND"    ,
+		"SD-MIDD"   ,
+		"SD-MIDD1"  ,
+		#"SD-MIDD2"  ,#
+		#"SD-MIDD0.8",
+		#"SD-MIDD0.2",
+		"SD-MOUT"   ,
+		#"SD-OUTD"   ,#
+		"SD-OUTS"   ,
+		#"SD-OUTALL" ,
+		##"SD-ROUT"   ,#
+		##"SD-AOUT"   ,
+		##"SD-AOUT"   ,
+		#"SD-AB" 	,
+		#"SD-ALL0.5" ,
+		],
+	),
 	"fuckingAmazingTentacle_v15": (
 	"fuckingAmazingTentacle_v15",
 		(0.25,0.750),

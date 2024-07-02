@@ -1,0 +1,12 @@
+{
+	"loras":{
+		"1": "poporon-jashinchan-01",
+		#"2": "microwaistV05",
+    },
+	#"positive": {
+	#	"single braid":" single braid, ",
+	#},
+	#"negative" : {
+	#	"hair":"twintails,  ",
+	#},
+}

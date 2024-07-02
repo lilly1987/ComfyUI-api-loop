@@ -1,0 +1,13 @@
+{	# sharon_holygrail-side-deepthroat-v3-wasabiya
+    "loras":{
+        "2":"sharon_holygrail",
+        "3":"side-deepthroat-v3-wasabiya",
+        #"1":"microwaist 0.3 Anime Lora",
+        #"4":"koonagoConcept_v1",
+    },
+	# populated_text
+	#"positiveOnly":""
+	"positiveOnly" : ",, frilled gothic lolita fashion dress, frilled skirt,  frills, , sharon holygrail, , small chest,, (rolling eyes:1.0),, ,  1boy, 1girl, deepthroat, penis, fellatio, kneeling, irrumatio, hetero, tearing up, , ,  , hanged, hanging, hang, suicide, asphyxiation, hangman's noose around neck, hangman's noose, hangman's noose attached to the ceiling,, long hair,, nun capelet blue dress long sleeves long skirt blue skirt necklace earrings purple bowtie,,  , , masterpiece , best quality ,  detailed eyes,   perfect face, ultra-detailed,  Beautiful body,, ,, from side,, ,  , , NSFW,, anime, anime style,, , small breasts,, breasts out, pussy,exposure, breasts exposure,  nipples exposure, pussy exposure,breast exposed,breasts exposed,  exposed breasts, exposed pussy, revealing clothes, ",
+	"negativeOnly" :  "embedding:verybadimagenegative_v1.3.pt, embedding:neg_grapefruit.pt,,, realistic,photorealistic,, (multiple views:1.25), (multiple viewer:1.25),  (cropped:1.25), face only,  lower body,  facial,, nude,, western,, lowres, worst quality, low quality,  from torso down, (monochrome:1.1), zombie , (blurry),  low res, ,  bad anatomy, bad hands, missing fingers,, ugly face, blurry face, black and white, muscular female , text, sinature, stamp, watermark, error, jpeg artifacts, signature,  username, extra digit, fewer digits, speech bubble,  bad face,",
+	"lorasUpdate":false,
+}

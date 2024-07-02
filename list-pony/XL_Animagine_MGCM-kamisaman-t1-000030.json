@@ -1,0 +1,12 @@
+{
+	"loras":{
+		"1": "XL_Animagine_MGCM-kamisaman-t1-000030",
+		#"2": "microwaistV05",
+    },
+	#"positive": {
+	#	"single braid":" single braid, ",
+	#},
+	#"negative" : {
+	#	"hair":"twintails,  ",
+	#},
+}

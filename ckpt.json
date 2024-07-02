@@ -35,7 +35,8 @@
     #"coharumix_v6",#g-
     "melonSkinMix_08",
     "cynthiaA1_1124",
-    "acmarGMixAmateurDeep_gRichyMixV15", #=
+    #"tempest_v10VAE", #=
+    #"acmarGMixAmateurDeep_gRichyMixV15", #=
     #"fiamixRebootHNSFW_v10",
     #"fiamixRebootHNSFW_v63",
     #"fiamixRebootHNSFW_v70",
@@ -134,10 +135,11 @@
     "sakushimixHentai_v11Fp16NoEmaPruned",
     #"pppanimeNSFW_pppanimeNsfwV2",#=
     "raemumix_v100",
+    "pppAnimix_basic60",
     "supermix_v1",
     "theWondermix_v40",
     "ultraControlSupper_anythingVer",
-    "lilimix_v10",#=
+    #"lilimix_v10",#==
     #"yetAnotherAnimeModel_v2Rc2",#=
     #"yetanotheranimemodel_v2Rc1",#=-
     #"zidie_v10",

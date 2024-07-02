@@ -6,16 +6,109 @@
         {
             "char":"hair over shoulder, long hair, blue eyes, blonde hair, swept bangs,  ",
             "hair":"{hoddef, union jack capelet, blue coat, white hat, tilted headwear, long sleeves, white gloves, yellow sash, blue skirt, frills, brown pantyhose, fur collar, white ascot, earrings,|hodwed, wedding dress, cleavage, collarbone, necklace, see-through, long dress, bouquet, bridal veil, bridal gauntlets|hodyuk,blue kimono, white sash, long sleeves, wide sleeves,hair flower, floral print|hodparty, gala dress, strapless white dress, white elbow gloves, cleavage, jewelry, white coat, coat on shoulders, hair ornament, hair flower, white flower, taut dress, buttons, detached collar, drill hair|__dress__},",
+			"dress":",",
+        },
+    ),
+
+    "luna_kindred_sdxl_v2": (
+    "luna_kindred_sdxl_v2",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :"luna kindred,",
+            "hair":",",
+            #"dress":",",
+        },
+    ),
+    "konosuba_eris_ponyXL": (
+    "konosuba_eris_ponyXL",
+		(0.5,1.0),
+		(1.0,1.0),
+        {
+            "char":"kseris, white hair,  ",
+            #"hair":"long hair,",
+            "hair":"habit, blue dress, frilled dress, long sleeves, necklace,",
+        },
+    ),
+    "mki-pony-jade-v4-000050": (
+    "mki-pony-jade-v4-000050",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :"jade, honkai: star rail, hat,",
+            "hair":",",
+            #"dress":",",
+        },
+    ),
+    "ark_royal_XL-bf16-pony-v1": (
+    "ark_royal_XL-bf16-pony-v1",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :"ark royal \(azur lane\),",
+            "hair":",",
+            #"dress":",",
+        },
+    ),
+    "ayesha_altugle_XL-bf16-pony-v1": (
+    "ayesha_altugle_XL-bf16-pony-v1",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :"ayesha altugle,green dress,",
+            "hair":",",
+            "dress":",",
+        },
+    ),
+    "iroha_blue archive_PONY_epoch-000020": (
+    "iroha_blue archive_PONY_epoch-000020",
+        (0.5,1.0),
+        1.0,
+        {
+            "char" :"{iroha-default|iroha-shirt|iroha-gym},iroha \(blue archive\),grey eyes,red hair,long hair,halo,",
+            "hair":",",
+            #"dress":",",
+        },
+    ),
+	"XL_Animagine_MGCM-kamisaman-t1-000030": (
+	"XL_Animagine_MGCM-kamisaman-t1-000030",
+		(0.250,01.0),
+		(0.750,01.0),
+		{
+            "char" :"kamisaman, ahoge, black hair, small breasts,,",
+			"hair":",",
+			"dress":"{aran sweater, cable knit, long sleeves, white sweater, sweater dress, black pantyhose, no shoes,|__dress__},",
+		},
+	),
+    "pa-san-ponyxl-lora-nochekaiser": (
+    "pa-san-ponyxl-lora-nochekaiser",
+        (0.25,1.0),
+        (0.75,1.0),
+        {
+            "char":"pasan, black hair, blunt bangs, blunt ends, chin piercing, colored inner hair, ear piercing, grey eyes, hime cut, long hair, medium bangs, multicolored hair, piercing, purple hair,,  ",
+            "hair":",",
+          
+            "dress":"{bare shoulders, black choker, black dress, black sleeves, choker, clothing cutout, detached sleeves, dress, gothic, shoulder cutout, sleeves past fingers, sleeves past wrists, very long sleeves,,|__dress__},",
+        },
+    ),
+    "Hoseki_BocchiTheRock_Pasan_PDXL_v2": (
+    "Hoseki_BocchiTheRock_Pasan_PDXL_v2",
+        (0.25,1.0),
+        (0.75,1.0),
+        {
+            "char":"pasan, colored inner hair, large breasts, ear piercing, chin piercing, hime cut,  ",
+            "hair":",",
+            "dress":"{choker, black dress, long dress, shoulder cutout, sleeves past fingers,|__dress__},",
         },
     ),
     "知更鸟pony": (
     "知更鸟pony",
-        (0.75,1.0),
+        (0.25,1.0),
         (0.75,1.0),
         {
             "char":"robin, a girl named robin, 1girl, white dress, bare shoulders, halo, white gloves, earrings, bracelet,head wings,  ",
             #"hair":"long hair,",
-            #"hair":"habit, blue dress, frilled dress, long sleeves, necklace,",
+            #"dress":"habit, blue dress, frilled dress, long sleeves, necklace,",
         },
     ),
 }
