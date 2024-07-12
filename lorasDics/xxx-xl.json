@@ -89,8 +89,9 @@
 		(0.0,01.0),
 		(0.750,01.0),
 		{
-            "garrote_2" :"afraid,(surprised), sitting,((sad)),{{shouting,|3::},open mouth,cry,|3::} one boy standing behind,arms behind back,",
+            "garrote_2" :"afraid,(surprised), sitting, one boy standing behind,arms behind back,",
 			"pose":"",
+			#{{shouting,|3::},open mouth,cry,sad,|7::}
 		},
 		{},
 		#"rnd",
@@ -156,7 +157,8 @@
 		(0.75,01.0),
 		{
 		"isXl":"{BREAK,|3::}, score_9, score_8_up, score_7_up, best quality, masterpiece, 4k, uncensored, prefect lighting, rating_explicit, very aesthetic, anime {BREAK,|3::},",
-		"hang":"{BREAK,|3::}, {shouting,|3::}gothic lolita,(blush),{sad,|}{open mouth,|3::}arms behind back,[[rope on neck]], {BREAK,|3::},",
+		"hang":"{BREAK,|3::}, {shouting,|3::}gothic lolita,(blush),arms behind back,[[rope on neck]], {BREAK,|3::},",
+		#{sad,|}{open mouth,|3::}
 		},
 		{},
 		"0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1",

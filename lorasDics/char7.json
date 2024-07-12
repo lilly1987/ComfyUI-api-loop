@@ -603,15 +603,15 @@
 		#"hair":"long hair,",
 	},
 ),
-"march_DG": (
+	"march_DG": (
 	"march_DG",
-		(0.5,1.0),
-		(1.0,1.0),
-	{
-		"char":" march7th, ",
-		#"hair":"long hair,",
-	},
-),
+		(0.25,1.0),
+		(0.75,1.0),
+		{
+			"char":" march7th, ",
+			#"hair":"long hair,",
+		},
+	),
 "TsubakiMikoto-10": (
 	"TsubakiMikoto-10",
 		(0.5,1.0),
@@ -1497,7 +1497,7 @@
 	),
 	"monv_v2.4_lbw": (
     "monv_v2.4_lbw",
-		(0.25,1.0),
+		(0.0,1.0),
 		(0.75,1.0),
 		{
 			#"char":"maid, blue eyes,",

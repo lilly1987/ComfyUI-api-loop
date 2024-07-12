@@ -1,0 +1,7 @@
+{	#	microwaist 0.3 Anime Lora-crucified
+	"loras":{
+		"1": "CHAR-DianaCavendish",
+		"2": "crucified",
+		#"3": "PleaserClearHeels",
+    },
+}

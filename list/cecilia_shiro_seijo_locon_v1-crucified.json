@@ -1,0 +1,7 @@
+{	#	microwaist 0.3 Anime Lora-crucified
+	"loras":{
+		"1": "cecilia_shiro_seijo_locon_v1",
+		"2": "crucified",
+		#"3": "PleaserClearHeels",
+    },
+}

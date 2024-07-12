@@ -610,8 +610,8 @@
 	),
 	"girllikeslytherin": (
 	"girllikeslytherin",
-		(0.5,01.0),
-		1.0,
+		(0.25,01.0),
+		(0.75,01.0),
 		{
 			"char":"slytherin, {avada kedavra,|} {winding current,|} {holding wand,|} wide sleeves, striped necktie, thighhighs, sweater, skirt, robe,   hogwarts school uniform, 1girl, gray hair,  scared, shy, blush, slim figure, ",
 			"hair":" , ",
@@ -737,7 +737,7 @@
     "31tanD8V1_e6": (
 	"31tanD8V1_e6",
 		(0.0,0.75),
-		(0.75,01.0),
+		(0.5,01.0),
 		{
 			"char":"31tanDefault, ",
 			"hair":"long hair,   hair_bow,",
@@ -897,7 +897,7 @@
     ),
     "mahjongsoul_mikami": (
 	"mahjongsoul_mikami",
-        (0.25,1.0),
+        (0.0,0.75),
         (0.75,1.0),
         {
             "char" :"ChioriMikami, ",
@@ -970,12 +970,12 @@
     ),
     "hare1-000008": (
 	"hare1-000008",
-        (0.5,1.0),
-        (01.0,1.0),
+        (0.25,1.0),
+        (0.75,1.0),
         {
             "char" :"haredef, long hair,",
             "hair":"",
-            "dress":"",
+            #"dress":"",
         },
 		{},
 		[
@@ -1032,7 +1032,7 @@
     ),
     "mayumi_v1.0": (
 	"mayumi_v1.0-000002",
-        (0.0,0.75),
+        (0.25,0.75),
         (0.75,1.0),
         {
             "char" :" mayumi, long hair, ",
@@ -1201,7 +1201,7 @@
     "mahjongsoul_eliisa": (
 	"mahjongsoul_eliisa",
         (0.0,1.0),
-        (0.75,1.0),
+        (0.5,1.0),
         {
             "char" :"Eliisa, ",
             #"hair":"long hair, blonde hair,twintails ,",
@@ -1686,8 +1686,8 @@
     ),
     "PrincessConnect_Karyl": ( #--
     "PrincessConnect_Karyl",
-        (0.0,0.75),
-        (0.25,1.0),
+        (0.250,0.75),
+        (0.5,1.0),
         {
             "char" :"Karyl,",
             "hair":"black hair, streaked hair, white hair, low twintails, very long hair, green eyes, cat ears, cat tail,",

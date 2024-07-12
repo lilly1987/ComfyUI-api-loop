@@ -2,8 +2,8 @@
     "loras":{
         "char": (
             "Miroku_Renge-10",
-            (0.25,1.0),
-            1.0,
+            (0.0,0.75),
+            (0.5,1.0),
             {
                 "char":"",
                 "hair":"black hair, hair ornament, long hair, blue eyes,bangs, hair flower, ",

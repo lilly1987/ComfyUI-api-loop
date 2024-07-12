@@ -213,9 +213,9 @@
 		],
     ),
     "azki diva1": (
-        "azki diva1",
-        (0.825,1.0),
-        1.0,
+	"azki diva1",
+        (0.25,1.0),
+        (0.75,1.0),
         {
             "char" :"lysithea,",
             #"hair":"long hair,",
@@ -451,7 +451,7 @@
         {
             "char" :" araragi tsukihi,  blue eyes,black eyes, egg hair ornament, long hair, hair ornament, food-themed hair ornament, black hair, bangs, fried egg, egg (food), food,  ",
             "hair":"",
-            "dress":"kimono, japanese clothes,obi, wide sleeves, long sleeves,  green kimono, yellow sash, blue kimono,sleeves past wrists, short kimono,  ",
+            "dress":"{kimono, japanese clothes,obi, wide sleeves, long sleeves,  green kimono, yellow sash, blue kimono,sleeves past wrists, short kimono, |__dress__,} ",
         },
         {},
         [
@@ -480,13 +480,13 @@
         ],
     ),
     "Araragi Tsukihi": (
-        "Araragi Tsukihi",
-        (0.825,1.0),
-        1.0,
+	"Araragi Tsukihi",
+        (0.25,0.75),
+        (0.75,1.0),
         {
-            "char" :"{BREAK,|3::} Araragi Tsukihi, long hair, kimono, japanese clothes, {BREAK,|3::}",
+            "char" :"{BREAK,|3::} Araragi Tsukihi, long hair,  {BREAK,|3::}",
             "hair":"",
-            "dress":"",
+            "dress":"{__dress__|kimono, japanese clothes,},",
         },
         {},
         [
@@ -630,8 +630,8 @@
     ),
     "ANIME_Judy_CowboyBebop_ownwaifu-15": (
 	"ANIME_Judy_CowboyBebop_ownwaifu-15",
-        (0.25,1.0),
-        (0.25,1.0),
+        (0.0,0.75),
+        (0.0,1.0),
         {
             "char" :"  ANIME_Judy_CowboyBebop_ownwaifu, blonde hair, long hair, hat, breasts, earrings, jewelry, blue eyes,  lipstick, makeup, lips, red lips,  ",
             "hair":"long hair,",
@@ -1405,16 +1405,16 @@
         ],
         ),
 	"hood_azurlane": (
-            "hood_azurlane",
-            (0.75,1.0),
-            1.0,
-            {
-                "char":"hood_azurlane, blue_eyes,",
-                "hair":"blonde_hair,long_hair,hair_over_shoulder,bangs,",
-                #"dress":"necklace, bare shoulders, dress, gloves, sorasaki hina (dress), elbow gloves, sidelocks,",
-                #"style":"cardcaptor sakura \(style\), ",
-            },
-        ),
+	"hood_azurlane",
+		(0.25,1.0),
+		(0.75,1.0),
+		{
+			"char":"hood_azurlane, blue_eyes,",
+			"hair":"blonde_hair,long_hair,hair_over_shoulder,bangs,",
+			#"dress":"necklace, bare shoulders, dress, gloves, sorasaki hina (dress), elbow gloves, sidelocks,",
+			#"style":"cardcaptor sakura \(style\), ",
+		},
+	),
     "tomoyo_v3_locon": (
 	"tomoyo_v3_locon",
         (0.25,1.0),
@@ -1458,8 +1458,8 @@
 	),
 	"Erispheria": (
     "Erispheria",
-		(0.25,1.0),
-		(0.75,1.0),
+		(0.0,0.75),
+		(0.5,0.75),
 		{
 			"char":"erispheria,  red eyes, ",
 			"hair":" long hair, white hair,  hair ornament, x hair ornament,",
@@ -1500,7 +1500,7 @@
 	),
 	"CatherineDigimon-10": (
     "CatherineDigimon-10",
-		(0.0,0.750),
+		(0.0,0.50),
 		(0.50,01.0),
 		{
 			"char":"CatherineDigimon, 1girl, long hair, blonde hair,  blunt bangs,  drill hair, red hairband, blue eyes, green ribbon, ",
@@ -1553,7 +1553,7 @@
 	"nia_xenoblade": (
     "nia_xenoblade",
 		(0.0,0.750),
-		(0.250,1.0),
+		(0.0,1.0),
 		{
 			"char":"{classic_nia|blade_nia|hero_nia|queen_nia},  ",
 			#"hair":"",
@@ -1656,8 +1656,8 @@
 	),
 	"Arusu Marina(dal)": (
     "Arusu Marina(dal)",
-		(0.25,1.0),
-		(0.75,1.0),
+		(0.0,1.0),
+		(0.5,1.0),
 		{
 			"char":"Arusu Marina, very long hair,black hair,gradient hair,multicolored hair,hair ribbon,hair bow,white hairband,sidelocks,hair between eyes,bangs,yellow eyes, ",
 			#"hair":" long hair, white hair,  hair ornament, x hair ornament,",

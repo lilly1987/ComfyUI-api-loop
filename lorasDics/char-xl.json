@@ -20,6 +20,17 @@
             #"dress":",",
         },
     ),
+    "Teresa_Lineres_pony_ct": (
+    "Teresa_Lineres_pony_ct",
+		(0.5,1.0),
+		(1.0,1.0),
+        {
+            "char":"ctiant3r3sa,,  ",
+            #"hair":"long hair,",
+            "hair":",",
+            "dress":"dress, long sleeves, frilled sleeves, earring, white gloves, blue ribbon, hand up, pelvic curtain, short skirt, white pantyhose,,",
+        },
+    ),
     "konosuba_eris_ponyXL": (
     "konosuba_eris_ponyXL",
 		(0.5,1.0),
@@ -28,6 +39,16 @@
             "char":"kseris, white hair,  ",
             #"hair":"long hair,",
             "hair":"habit, blue dress, frilled dress, long sleeves, necklace,",
+        },
+    ),
+    "virtuosa-arknights_pxl": (
+    "virtuosa-arknights_pxl",
+        (0.25,1.0),
+        (0.75,1.0),
+        {
+            "char" :"virtuosa-arknights,",
+            "hair":",",
+            "dress":"black hair, black thighhighs, black gloves, black skirt, white shirt, very long hair, mole under eye, elbow gloves, multicolored hair, garter straps, capelet, detached wings, black ascot, pleated skirt, black eyes, blunt bangs,",
         },
     ),
     "mki-pony-jade-v4-000050": (

@@ -1,8 +1,9 @@
 {
 	"queenElizabethAzur_queenElizabethV1": (
 	"queenElizabethAzur_queenElizabethV1",
-		(0.5,01.0),
-		1.0,
+		(0.25,01.0),
+		(0.75,01.0),
+
 		{
 			"char" :" eqlc, blue eyes,",
 			"hair":"long hair,  blonde hair, bangs, crown, hairband,",
@@ -103,6 +104,16 @@
     "dress":"japanese clothes, pink kimono, print kimono, floral print, white sash, white obi, ",
         },
     ),
+    "AnnytfV0.5": (
+    "AnnytfV0.5",
+        (0.25,1.0),
+        (0.75,1.0),
+        {
+            "char" :"{anny_casual|anny_bikini|anytfvt},,",
+            "hair":",",
+            #"dress":"iori \(blue archive\),red eyes,grey hair,pointy ears,twintail,long hair,hair ribbon,halo,demon tail,white shirt,black necktie,black skirt,black boots,high heels,gloves,",
+        },
+    ),
     "iori_blue archive_PONY_epoch-000020": (
     "iori_blue archive_PONY_epoch-000020",
         (0.5,1.0),
@@ -183,19 +194,42 @@
             "dress":"Living Doll Maid,",
         },
     ),
-    "virtuosa-arknights_pxl": (
-    "virtuosa-arknights_pxl",
-        (0.5,1.0),
-        1.0,
+    "colleiGenshinImpact_v10": (
+    "colleiGenshinImpact_v10",
+        (0.75,1.0),
+        (0.75,1.0),
         {
-            "char" :"virtuosa-arknights,",
-            "hair":",",
-            "dress":"black hair, black thighhighs, black gloves, black skirt, white shirt, very long hair, mole under eye, elbow gloves, multicolored hair, garter straps, capelet, detached wings, black ascot, pleated skirt, black eyes, blunt bangs,",
+            "char" :"colleirnd,colleidef,",
+            #"hair":"long hair,black hair,curly hair,twin drills,ringlets,hair ribbon,white ribbon,bangs,purple eyes,",
+            #"dress":"{military uniform,white cape,white ascot,cleavage cutout,white dress,short dress,blue corset,long sleeves,medium breasts,white skirt,pleated dress,white thighhighs,thighhighs under boots,zettai ryouiki,high heel boots,thigh boots,black boots,|__dress__},",
+			#"style":"",
         },
+		{},
+		[
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		#"SD-INS"    ,
+		#"SD-INALL"  ,
+		#"SD-IND"    ,
+		"SD-MIDD"   ,
+		"SD-MIDD1"  ,#
+		"SD-MIDD2"  ,
+		#"SD-MIDD0.8",
+		#"SD-MIDD0.2",
+		"SD-MOUT"   ,
+		"SD-OUTD"   ,
+		#"SD-OUTS"   ,
+		#"SD-OUTALL" ,
+		#"SD-ROUT"   ,
+		"SD-AOUT"   ,
+		"SD-AB" 	,
+		#"SD-ALL0.5" ,
+		],
     ),
     "kokuhui": (
     "kokuhui",
-        (0.75,1.0),
+        (0.0,1.0),
         (0.75,1.0),
         {
             "char" :"1girl, realistic, photorealistic, bangs, lips,,",
@@ -450,8 +484,8 @@
     ),
     "rosalina-lora-nochekaiser": (
 	"rosalina-lora-nochekaiser",
-        (0.5,1.0),
-        1.0,
+        (0.25,1.0),
+        (0.75,1.0),
         {
             "char" :"{BREAK,|3::} rosalina, blonde hair, blue eyes, hair over one eye, long hair, blue dress, crown, dress, earrings, jewelry, princess, robe, star earrings, {BREAK,|3::}",
             "hair":",",
@@ -700,13 +734,35 @@
     ),
     "anisphia": (
 	"anisphia",
-        (0.25,1.0),
-        (0.750,1.0),
+        (0.0,1.0),
+        (0.5,1.0),
         {
             "char" :"1girl anisphia ahoge hair ribbon,",
             "hair":" ",
             "dress":"{ pink skirt frilled skirt white jacket cropped jacket white shirt white thighhighs frills black bow neck ribbon black ribbon wide sleeves,|__dress__|} ",
         },
+		{},
+		[
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		#"SD-INS"    ,
+		#"SD-INALL"  ,
+		#"SD-IND"    ,
+		"SD-MIDD"   ,
+		"SD-MIDD1"  ,#
+		"SD-MIDD2"  ,
+		#"SD-MIDD0.8",
+		#"SD-MIDD0.2",
+		"SD-MOUT"   ,
+		"SD-OUTD"   ,
+		#"SD-OUTS"   ,
+		#"SD-OUTALL" ,
+		#"SD-ROUT"   ,
+		"SD-AOUT"   ,
+		"SD-AB" 	,
+		#"SD-ALL0.5" ,
+		],
     ),
     "hiori_kazano_v1": (
 	"hiori_kazano_v1",
@@ -752,8 +808,8 @@
     ),
     "ANMRxSummer-10": (
 	"ANMRxSummer-10",
-        (0.5,1.0),
-        (0.5,1.0),
+        (0.25,1.0),
+        (0.75,1.0),
         {
             "char" :" ANMRxSummer, 1girl,  short hair, frilled skirt, black hair, black gloves, black dress,  braid, pantyhose, frills, fingerless gloves, black cape,  black eyes,  crimson rose \(symbol\),{shoulder armor,armor,breastplate,|} ",
             "hair":" ",
@@ -916,6 +972,38 @@
 		#"SD-ALL0.5" ,
 		],
     ),
+    "Cereza-09": (
+    "Cereza-09",
+        (0.0,0.75),
+        (0.75,1.0),
+        {
+            "char" :"glasses, red ribbon, hair bun, hair ribbon, streaked hair, jewelry, earrings, braid, vertical-striped thighhighs, striped dress, black ballet slippers, stuffed toy,",
+            #"hair":"long hair,black hair,curly hair,twin drills,ringlets,hair ribbon,white ribbon,bangs,purple eyes,",
+            #"dress":"{military uniform,white cape,white ascot,cleavage cutout,white dress,short dress,blue corset,long sleeves,medium breasts,white skirt,pleated dress,white thighhighs,thighhighs under boots,zettai ryouiki,high heel boots,thigh boots,black boots,|__dress__},",
+        },
+		{},
+		[
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		#"SD-INS"    ,
+		#"SD-INALL"  ,
+		#"SD-IND"    ,
+		"SD-MIDD"   ,
+		"SD-MIDD1"  ,#
+		"SD-MIDD2"  ,
+		#"SD-MIDD0.8",
+		#"SD-MIDD0.2",
+		"SD-MOUT"   ,
+		"SD-OUTD"   ,
+		#"SD-OUTS"   ,
+		#"SD-OUTALL" ,
+		#"SD-ROUT"   ,
+		"SD-AOUT"   ,
+		"SD-AB" 	,
+		#"SD-ALL0.5" ,
+		],
+    ),
     "poporon-jashinchan-01": (
     "poporon-jashinchan-01",
         (0.25,1.0),
@@ -980,6 +1068,38 @@
 		#"SD-ALL0.5" ,
 		],
     ),
+    "coopa01": (
+    "coopa01",
+        (0.25,1.0),
+        (0.75,1.0),
+        {
+            #"char" :"Rio,",
+            #"hair":"long hair,blonde hair,wavy hair,curly hair,blue hairband,sidelocks,blunt bangs,blue eyes,",
+            #"dress":"{white cape,neck ribbon,blue ribbon,red dress,long sleeves,jewelry,medium breasts,miniskirt,blue skirt,frilled skirt,frilled thighhighs,white thighhighs,high heel boots,,|__dress__},",
+        },
+		{},
+		[
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		#"SD-INS"    ,
+		#"SD-INALL"  ,
+		#"SD-IND"    ,
+		"SD-MIDD"   ,
+		"SD-MIDD1"  ,#
+		"SD-MIDD2"  ,
+		#"SD-MIDD0.8",
+		#"SD-MIDD0.2",
+		"SD-MOUT"   ,
+		"SD-OUTD"   ,
+		#"SD-OUTS"   ,
+		#"SD-OUTALL" ,
+		#"SD-ROUT"   ,
+		"SD-AOUT"   ,
+		"SD-AB" 	,
+		#"SD-ALL0.5" ,
+		],
+    ),
     "Rio(ms)": (
     "Rio(ms)",
         (0.25,1.0),
@@ -1014,8 +1134,8 @@
     ),
     "pasan-lyco-nochekaiser": (
     "pasan-lyco-nochekaiser",
-        (0.25,1.0),
-        (0.75,1.0),
+        (0.0,1.0),
+        (0.5,1.0),
         {
             "char" :"pasan, black hair, blunt bangs, blunt ends, chin piercing, colored inner hair, ear piercing, (green eyes:1.5), hime cut, long hair, medium bangs, multicolored hair, piercing, purple hair,,",
             "hair":",",
@@ -1142,7 +1262,7 @@
     ),
     "pasan-lora-nochekaiser": (
     "pasan-lora-nochekaiser",
-        (0.25,1.0),
+        (0.0,1.0),
         (0.75,1.0),
         {
             "char" :"pasan, black hair, blunt bangs, blunt ends, chin piercing, colored inner hair, ear piercing, (green eyes:1.5), hime cut, long hair, medium bangs, multicolored hair, piercing, purple hair, ,",

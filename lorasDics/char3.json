@@ -33,10 +33,10 @@
     ),
 	"MariWatanabe-10": (
 	"MariWatanabe-10",
-		(0.0,1.0),
-		(0.750,1.0),
+		(0.0,0.75),
+		(0.50,0.75),
 		{
-			"char":"MariWatanabe, 1girl, {solo,|} short hair, black hair, blue hair,hair between eyes, brown eyes,     ",
+			"char":"MariWatanabe, 1girl, {solo,|}  black hair, blue hair,hair between eyes, brown eyes,     ",
 			#"hair":"ponytail, hair bow, ",
 			"dress":"{long sleeves, white dress,  green jacket, grey pantyhose, black necktie,,|__dress__},",
 		},
@@ -98,7 +98,7 @@
 	"SayakaMibu-10": (
 	"SayakaMibu-10",
 		(0.0,1.0),
-		(0.750,1.0),
+		(0.50,1.0),
 		{
 			"char":"SayakaMibu, 1girl, {solo,|} long hair, brown hair, black hair, green eyes,,    ",
 			#"hair":"ponytail, hair bow, ",
@@ -399,7 +399,7 @@
     "1732915898190268077": (
 	"1732915898190268077",
         (0.0,1.0),
-        (0.75,1.0),
+        (0.5,1.0),
         {
             "char" :" mituha, ",
             #"hair":"long hair, blonde hair,twintails ,",
@@ -463,7 +463,7 @@
     "PrincessConnect_Ameth": (
 	"PrincessConnect_Ameth",
         (0.0,1.0),
-        (0.0,1.0),
+        (0.250,1.0),
         {
             "char" :"{BREAK,|3::} Ameth, long hair, multicolored hair, blue eyes, hair ornament, hair flower, blunt bangs, pointy ears, drill sidelocks, {BREAK,|3::}",
             "hair":"",
@@ -972,15 +972,69 @@
 			"dress":"{default_dress,|__dress__}",
 		},
 	),
+	"saravalestein-10": (
+	"saravalestein-10",
+		(0.25,1.0),
+		(0.75,1.0),
+		{
+			"char" :"saravalestein ,",
+			#"hair":"  white hair, green eyes,  ",
+			#"dress":"{__dress__|green jacket,white shirt,black necktie, hair ribbon, school uniform, long sleeves,},",
+		},
+		{},
+		[
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		#"SD-INS"    ,
+		#"SD-INALL"  ,
+		#"SD-IND"    ,
+		"SD-MIDD"   ,
+		"SD-MIDD1"  ,#
+		"SD-MIDD2"  ,
+		#"SD-MIDD0.8",
+		#"SD-MIDD0.2",
+		"SD-MOUT"   ,
+		"SD-OUTD"   ,
+		#"SD-OUTS"   ,
+		#"SD-OUTALL" ,
+		#"SD-ROUT"   ,
+		"SD-AOUT"   ,
+		"SD-AB" 	,
+		#"SD-ALL0.5" ,
+		],
+	),
 	"Saegusa_Mayumi_MagicHighSchool-KK77-V1": (
 	"Saegusa_Mayumi_MagicHighSchool-KK77-V1",
 		(0.25,1.0),
-		1.0,
+		(0.75,1.0),
 		{
 			"char" :"{BREAK,|3::} Red eyes, black hair,bangs,Long hair,   {BREAK,|3::}",
 			#"hair":"  white hair, green eyes,  ",
 			"dress":"{__dress__|green jacket,white shirt,black necktie, hair ribbon, school uniform, long sleeves,},",
 		},
+		{},
+		[
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		#"SD-INS"    ,
+		#"SD-INALL"  ,
+		#"SD-IND"    ,
+		"SD-MIDD"   ,
+		"SD-MIDD1"  ,#
+		"SD-MIDD2"  ,
+		#"SD-MIDD0.8",
+		#"SD-MIDD0.2",
+		"SD-MOUT"   ,
+		"SD-OUTD"   ,
+		#"SD-OUTS"   ,
+		#"SD-OUTALL" ,
+		#"SD-ROUT"   ,
+		"SD-AOUT"   ,
+		"SD-AB" 	,
+		#"SD-ALL0.5" ,
+		],
 	),
 	"kozueYusa": (
 	"kozueYusa",
@@ -1037,7 +1091,7 @@
 	),
 	"cecilia_shiro_seijo_locon_v1": (
 	"cecilia_shiro_seijo_locon_v1",
-		(0.25,1.0),
+		(0.0,1.0),
 		(0.75,1.0),
 		{
 			"char" :"{BREAK,|3::} cecilia \(shiro seijo to kuro bokushi\), green eyes, eyebrows visible through hair, ",
@@ -1047,8 +1101,8 @@
 	),
 	"sister_cleaire_v2": (
 	"sister_cleaire_v2",
-		(0.5,1.0),
-		1.0,
+		(0.25,1.0),
+		(0.75,1.0),
 		{
 			"char" :"{BREAK,|3::} {aasister, long hair, nun, habit, white capelet, neck ribbon, (black dress:1.2), long sleeves, white gloves, full-length zipper,|bbsister, long hair, ponytail, sidelocks, collared dress, grey dress, short sleeves, buttons, black belt|ccsister, long hair, white headwear, earrings, collarbone, necklace, pink sweater, long sleeves, black gloves, plaid skirt, grey skirt, black pantyhose|ddsister, long hair, two side up, wavy hair, crop top, cropped shirt, black shirt, short sleeves, chest harness, suspenders, midriff, miniskirt, black skirt, thigh strap|eesister, long hair, sleep mask, glasses, collarbone, necklace, pajamas, camisole, blue bow, brown cardigan, open clothes, long sleeves, frilled shorts, white shorts, white bloomers} {BREAK,|3::} ",
 			"hair":"   ",
@@ -1118,9 +1172,9 @@
 		},
 	),
 	"lufia1.5": (
-		"lufia1.5",
-		(0.5,1.0),
-		1.0,
+	"lufia1.5",
+		(0.25,1.0),
+		(0.75,1.0),
 		{
 		"char":"{BREAK,|3::} lufia,  long hair, jewelry, earrings, hat, witch hat, witch, blue eyes, blue hair, dress, small breasts, bangs, retro artstyle, braid, long sleeves, {BREAK,|3::}",
         "hair":", ",

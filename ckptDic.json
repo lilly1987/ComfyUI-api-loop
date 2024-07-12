@@ -1,7 +1,7 @@
 {
 		
 	"spiritforeseermix_spiritforeseerO" : {
-		"cfg" : 7.0,
+		#"cfg" : 7.0,
 		"KSampler":{
 			"steps": 20,
 		},
@@ -1442,7 +1442,8 @@
 		"SaveImage2":true,
 	},
 	"hassakuXLHentai_v12" : {
-		"cfg" : 7.0,
+		"cfg_min" : 6.0,
+		"cfg_max" : 8.0,
 		"KSampler":{
 			"steps_min": 20,
 			"steps_max": 30,
@@ -1996,12 +1997,15 @@
 		},
 	},
 	"artemix_l2" : {
-		"cfg" : 7.0,
+		"cfg_min": 6.0,
+		"cfg_max": 8.0,
 		"KSampler":{
-			"steps": 30,
+			"steps_min": 20,
+			"steps_max": 30,
 		},
 		"DetailerForEachDebug":{
-			"steps": 30,
+			"steps_min": 20,
+			"steps_max": 30,
 		},
 		"sampler_name": [
 			"dpmpp_2m", 
@@ -3109,7 +3113,8 @@
 		"stop_at_clip_layer": -2,
 	},
 	"carbonmix_v4" : {
-		"cfg" : 7.0,
+		"cfg_min": 6.0,
+		"cfg_max": 8.0,
 		"KSampler":{
 			"steps_min": 10,
 			"steps_max": 30,
@@ -4289,6 +4294,9 @@
 			#"dpmpp_2m_sde",   
 			#"dpmpp_3m_sde",   
 		],
+		"SaveImage2":true,
+	},
+	"evaclausmixPonyXL_v10" : {
 		"SaveImage2":true,
 	},
 	"raemuXL_v30" : {

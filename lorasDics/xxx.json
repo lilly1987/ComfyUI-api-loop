@@ -149,7 +149,7 @@
 	),
 	"ropeWalking-000015": (
 	"ropeWalking-000015",
-        (0.5,01.0),
+        (0.0,01.0),
         (01.0,01.0),
         {
 			"boy":",",
@@ -1313,8 +1313,8 @@
 	),
 	"tentacles-003": (
 	"tentacles-003",
-		(0.5,01.0),
-		1.0,
+		(0.25,01.0),
+		(0.75,01.0),
 		{
 		"concept":"tentacle sex, transparent tentacles, girl, multiple insertions, large insertion, (fucked by many tentacles:1,4), (tentacle sex:1.0), (multiple vaginal insertions:1.0), (vaginal insertion:1.3),",
 		"boy":"tentacles, ",
@@ -1575,8 +1575,8 @@
 	),
 	"victorian_dress-SD-2.0": (
 	"victorian_dress-SD-2.0",
-	(0.5,01.0),
-	(01.0,01.0),
+	(0.25,01.0),
+	(0.750,01.0),
 	{
 	"victorian_dress-SD-2.0":"victorian dress, ",
 	},
@@ -1720,14 +1720,146 @@
 		 #"SD-ALL0.5" ,
 		 ],
 	),
+	"balletboots_v1": (
+	"balletboots_v1",
+	(0.25,01.0),
+	(0.75,1.0),
+	{
+	"balletboots_v1":"ballet boots, ",
+	#"shot":"full body, ",
+	#"pose":"",
+	},
+	{},
+		 [
+		 "SD-ALL"    ,
+		 "SD-ALL"    ,
+		 "SD-ALL"    ,
+		 ##"SD-INS"    ,
+		 "SD-INALL"  ,
+		 "SD-IND"    ,
+		 "SD-MIDD"   ,
+		 "SD-MIDD1"  ,
+		 #"SD-MIDD2"  ,#
+		 #"SD-MIDD0.8",
+		 #"SD-MIDD0.2",
+		 "SD-MOUT"   ,
+		 #"SD-OUTD"   ,#
+		 "SD-OUTS"   ,
+		 ##"SD-OUTALL" ,
+		 ##"SD-ROUT"   ,#
+		 ##"SD-AOUT"   ,
+		 ##"SD-AOUT"   ,
+		 #"SD-AB" 	,
+		 #"SD-ALL0.5" ,
+		 ],
+	),
+	"BalletBoots": (
+	"BalletBoots",
+	(0.25,01.0),
+	(0.75,1.0),
+	{
+	"BalletBoots":"ballet boots, ",
+	#"shot":"full body, ",
+	#"pose":"",
+	},
+	{},
+		 [
+		 "SD-ALL"    ,
+		 "SD-ALL"    ,
+		 "SD-ALL"    ,
+		 ##"SD-INS"    ,
+		 "SD-INALL"  ,
+		 "SD-IND"    ,
+		 "SD-MIDD"   ,
+		 "SD-MIDD1"  ,
+		 #"SD-MIDD2"  ,#
+		 #"SD-MIDD0.8",
+		 #"SD-MIDD0.2",
+		 "SD-MOUT"   ,
+		 #"SD-OUTD"   ,#
+		 "SD-OUTS"   ,
+		 ##"SD-OUTALL" ,
+		 ##"SD-ROUT"   ,#
+		 ##"SD-AOUT"   ,
+		 ##"SD-AOUT"   ,
+		 #"SD-AB" 	,
+		 #"SD-ALL0.5" ,
+		 ],
+	),
+	"hkb1-000006": (
+	"hkb1-000006",
+	(0.25,01.0),
+	(0.75,1.0),
+	{
+	"hkb1":"thigh boots, high heel boots,black footwear, ",
+	#"shot":"full body, ",
+	#"pose":"",
+	},
+	{},
+		 [
+		 "SD-ALL"    ,
+		 "SD-ALL"    ,
+		 "SD-ALL"    ,
+		 ##"SD-INS"    ,
+		 "SD-INALL"  ,
+		 "SD-IND"    ,
+		 "SD-MIDD"   ,
+		 "SD-MIDD1"  ,
+		 #"SD-MIDD2"  ,#
+		 #"SD-MIDD0.8",
+		 #"SD-MIDD0.2",
+		 "SD-MOUT"   ,
+		 #"SD-OUTD"   ,#
+		 "SD-OUTS"   ,
+		 ##"SD-OUTALL" ,
+		 ##"SD-ROUT"   ,#
+		 ##"SD-AOUT"   ,
+		 ##"SD-AOUT"   ,
+		 #"SD-AB" 	,
+		 #"SD-ALL0.5" ,
+		 ],
+	),
+	"ball3th33ls": (
+	"ball3th33ls",
+	(0.25,01.0),
+	(0.75,1.0),
+	{
+	"ball3th33ls":"ball3th33ls, high heels,{ thigh boots, | ankle boots,} ",
+	#"shot":"full body, ",
+	#"pose":"",
+	},
+	{},
+		 [
+		 "SD-ALL"    ,
+		 "SD-ALL"    ,
+		 "SD-ALL"    ,
+		 ##"SD-INS"    ,
+		 "SD-INALL"  ,
+		 "SD-IND"    ,
+		 "SD-MIDD"   ,
+		 "SD-MIDD1"  ,
+		 #"SD-MIDD2"  ,#
+		 #"SD-MIDD0.8",
+		 #"SD-MIDD0.2",
+		 "SD-MOUT"   ,
+		 #"SD-OUTD"   ,#
+		 "SD-OUTS"   ,
+		 ##"SD-OUTALL" ,
+		 ##"SD-ROUT"   ,#
+		 ##"SD-AOUT"   ,
+		 ##"SD-AOUT"   ,
+		 #"SD-AB" 	,
+		 #"SD-ALL0.5" ,
+		 ],
+	),
 	"b4ll3th33ls": (
 	"b4ll3th33ls",
-	(0.5,01.0),
-	(1.0,1.5),
+	(0.0,0.750),
+	(0.75,1.0),
 	{
-	"heels":"(b4ll3th33ls), high heels, ",
+	"b4ll3th33ls":"b4ll3th33ls, high heels,{ thigh boots, | ankle boots,} ",
 	#"shot":"full body, ",
-	"pose":"{{sit holding both knees|Bring both knees together},|}",
+	#"pose":"",
 	},
 	{},
 		 [
@@ -1755,12 +1887,12 @@
 	),
 	"k1tt3nh33ls": (
 	"k1tt3nh33ls",
-	(0.5,01.0),
-	(1.0,1.5),
+	(0.25,01.0),
+	(0.75,01.0),
 	{
-	"heels":"(k1tt3nh33ls), bow, shoes, high heels,,",
+	"k1tt3nh33ls":"(k1tt3nh33ls), bow, shoes, high heels,,",
 	#"shot":"full body, ",
-	"pose":"{{sit holding both knees|Bring both knees together},|}",
+	#"pose":"{{sit holding both knees|Bring both knees together},|}",
 	},
 	{},
 		 [
@@ -2957,6 +3089,37 @@
 	{},
 	#"rnd",
 	),
+	"hang_fullbody_v2-000030":(
+	"hang_fullbody_v2-000030",
+	(0.5,01.0),
+	(0.5,01.0),
+	{
+	"hang_fullbody_v2-000030":"{upperbody|fullbody},rope,depth_of_field,",
+	},
+	{},
+    [
+    "SD-ALL"    ,
+    "SD-ALL"    ,
+    "SD-ALL"    ,
+    ##"SD-INS"    ,
+    #"SD-INALL"  ,
+    "SD-IND"    ,
+    "SD-MIDD"   ,
+    "SD-MIDD1"  ,
+    #"SD-MIDD2"  ,
+    #"SD-MIDD0.8",
+    #"SD-MIDD0.2",
+    "SD-MOUT"   ,
+    #"SD-OUTD"   ,
+    "SD-OUTS"   ,
+    ##"SD-OUTALL" ,
+    ###"SD-ROUT"   ,
+    #"SD-AOUT"   ,
+    #"SD-AOUT"   ,
+    #"SD-AB" 	,
+    #"SD-ALL0.5" ,
+    ],
+	),
 	"hanged_v1":(
 	"hanged_v1",
 	(0.5,01.0),
@@ -3455,8 +3618,8 @@
 	),
 	"PleaserClearHeels":(
 	"PleaserClearHeels",
-	(0.5,01.0),
-	1.0,
+	(0.25,01.0),
+	(0.75,01.0),
 	{
 	"pleaserclearheels" :"pleaserclearheels,",
 	},
@@ -4807,7 +4970,7 @@
      "SD-ALL"    ,
      #"SD-INS"    ,
      #"SD-INALL"  ,
-     "SD-IND"    ,
+     #"SD-IND"    ,
      #"SD-MIDD"   ,
      "SD-MIDD1"  ,
      #"SD-MIDD2"  ,
@@ -5264,8 +5427,8 @@
 	),
 	"huge_dildo_v1_goofy":(
 	"huge_dildo_v1_goofy",
-	(0.5,01.0),
-	1.0,
+	(0.25,01.0),
+	(0.75,01.0),
 	{
 	"Insertion":"huge dildo, sex toy,large insertion, vaginal, stomach bulge, pectoral bulge, vaginal object insertion, (impossible object insertion:1.2), (absurd stomach bulge:1.1), gaping pussy,",
 	},
@@ -5905,7 +6068,7 @@
 	),
 	"haraboko_v3":(
 	"haraboko_v3",
-		(0.5,01.0),
+		(0.0,01.0),
 		1.0,
 		{
 			"haraboko_v3":"haraboko, penis, stomach bulge,",
@@ -6220,8 +6383,8 @@
 	),
 	"crucified":(
 	"crucified",
-		(0.0,01.0),
-		1.0,
+		(0.0,0.75),
+		(0.50,01.0),
 		{
 			"crucified":"crucified,",
 		},

@@ -1,0 +1,7 @@
+{	#	mayumi_v1.0-000002-PleaserClearHeels
+	"loras":{
+		"1": "mayumi_v1.0-000002",
+		#"2": "BalletBoots",
+		"3": "PleaserClearHeels",
+    },
+}

@@ -1,0 +1,13 @@
+{	# microwaist 0.2b Lora-chushou
+    "loras":{
+        "2":"microwaist 0.2b Lora",
+        "3":"chushou",
+        #"1":"microwaist 0.3 Anime Lora",
+        #"4":"koonagoConcept_v1",
+    },
+	# populated_text
+	#"positiveOnly":""
+	"positiveOnly" : "  frilled lolita fashion dress,   frills, , flat breasts, small breasts,, , small chest, flat chest,, thin waist, , BREAK,, (multiple insertions, large insertion,  object insertion, impossible object insertion, object insertion:1.25),   1girl ,size difference, ,  capelet, , breasts out, pussy,exposure, breasts exposure,  nipples exposure, pussy exposure,breast exposed,breasts exposed,  exposed breasts, exposed pussy,  , tentacles,, hentai sex pose, spread legs,, Suspension, sex from behind,   long hair,, tentacle sex,, BREAK, masterpiece , best quality , detailed face,  perfect eyes,  perfect face,  illustration,  Beautiful body,  flat chest, NSFW,, anime style, anime, 2D, ",
+	"negativeOnly" :  "embedding:SimpleNegative_AnimeV1.safetensors, embedding:nncursedV0-neg.pt,,,  bad anatomy, bad hands, missing fingers,, , lowres, worst quality, low quality,  from torso down, (monochrome:1.1), zombie , (blurry),  low res, , (multiple views:1.25), (multiple viewer:1.25),  (cropped:1.25), face only,  lower body,  facial,, western,, ugly face, blurry face, black and white, muscular female , text, sinature, stamp, watermark, error, jpeg artifacts, signature,  username, extra digit, fewer digits, speech bubble,  bad face,, realistic,photorealistic,",
+	"lorasUpdate":false,
+}

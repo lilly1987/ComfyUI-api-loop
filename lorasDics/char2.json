@@ -549,8 +549,8 @@
 	),
 	"yuGiOhTraptrixAtypus_v10": (
 	"yuGiOhTraptrixAtypus_v10",
-		(0.5,1.0),
-		1.0,
+		(0.25,1.0),
+		(0.75,1.0),
 		{
 		"char":"traptrixatypus,",
         #"hair":", ",
@@ -988,8 +988,8 @@
 	),
 	"Kisaki-05": (
 	"Kisaki-05",
-		(0.5,1.0),
-		(01.0,1.0),
+		(0.25,1.0),
+		(0.75,1.0),
 		{
 			#"char":"marianne_vi_britannia,   ",
 		},
@@ -998,8 +998,8 @@
 	),
 	"Marianne_Vi_Britannia": (
 	"Marianne_Vi_Britannia",
-		(0.0,1.0),
-		(0.750,1.0),
+		(0.0,0.75),
+		(0.50,0.75),
 		{
 			"char":"marianne_vi_britannia,   ",
 		},
@@ -1337,12 +1337,12 @@
 	),
 	"mayumi-mahouka-01": (
 	"mayumi-mahouka-01",
-		(0.75,1.0),
+		(0.25,1.0),
 		(0.75,1.0),
 		{
-			"char" :"{BREAK,|3::} mayumi saegusa,long hair,school uniform, jacket, necktie, {BREAK,|3::}",
+			"char" :"{BREAK,|3::} mayumi saegusa,long hair, {BREAK,|3::}",
 			#"hair":",",
-			#"dress":"{|__dress__}",
+			"dress":"{school uniform, jacket, necktie,|__dress__},",
 		},
         {},
         [
@@ -1687,10 +1687,42 @@
 		#"SD-ALL0.5" ,
 		],
 	),
-	"serena_(yu-gi-oh!)_v1": (
-		"serena_(yu-gi-oh!)_v1",
+	"LoRA_Sera": (
+	"LoRA_Sera",
+		(0.25,1.0),
 		(0.75,1.0),
-		1.0,
+		{
+			"char":"SeraDef, brown eyes, brown hair, bangs,  long hair,  hairband,  dark skin, dark-skinned female, hair tubes, bangle,,",
+			"hair" :", ",
+			"dress" :"{long sleeves,dress, bare shoulders, jewelry, collarbone,choker, red dress, wide sleeves, necklace, off shoulder, bracelet, egyptian, ankh|__dress__,} ,",
+		},
+		{},
+		[
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		#"SD-INS"    ,
+		#"SD-INALL"  ,
+		#"SD-IND"    ,
+		"SD-MIDD"   ,
+		"SD-MIDD1"  ,#
+		"SD-MIDD2"  ,
+		#"SD-MIDD0.8",
+		#"SD-MIDD0.2",
+		"SD-MOUT"   ,
+		"SD-OUTD"   ,
+		#"SD-OUTS"   ,
+		#"SD-OUTALL" ,
+		#"SD-ROUT"   ,
+		"SD-AOUT"   ,
+		"SD-AB" 	,
+		#"SD-ALL0.5" ,
+		],
+	),
+	"serena_(yu-gi-oh!)_v1": (
+	"serena_(yu-gi-oh!)_v1",
+		(0.25,1.0),
+		(0.75,1.0),
 		{
 			"char":"aaserena, ponytail, multicolored hair,",
 			"hair" :", ",

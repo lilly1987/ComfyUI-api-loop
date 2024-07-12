@@ -1,0 +1,7 @@
+{	#	araragiTsukihiLora_v1-chushou
+	"loras":{
+		"1": "araragiTsukihiLora_v1",
+		"2": "chushou",
+		#"3": "leheng_re",
+    },
+}
