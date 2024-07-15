@@ -1,0 +1,12 @@
+{	# mahjongsoul_eliisa-hunged_girl
+	"loras":{
+		"1": "mahjongsoul_eliisa",
+		"2": "hunged_girl",
+    },
+	#"positive": {
+	#	"single braid":" single braid, ",
+	#},
+	#"negative" : {
+	#	"hair":"twintails,  ",
+	#},
+}

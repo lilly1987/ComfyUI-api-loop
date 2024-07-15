@@ -108,7 +108,7 @@
 	),
 	"nyammyv3": (
 	"nyammyv3",
-		(0.5,1.0),
+		(0.25,1.0),
 		(0.75,1.0),
 		{
 		"char":"{BREAK,|3::}, cure nyammy, blue eyes, white hair, side locks ,long hair, bangs,  crown earrings, neon blue crown, {BREAK,|3::},",
@@ -150,12 +150,12 @@
 	),
 	"kudeliaainabernstein-lora-nochekaiser": (
 	"kudeliaainabernstein-lora-nochekaiser",
-		(0.25,1.0),
+		(0.0,0.75),
 		(0.75,1.0),
 		{
 		"char":"{BREAK,|3::}, kudelia aina bernstein, (purple eyes:1.0), long hair, blonde hair, bangs, blunt bangs,ponytail, {BREAK,|3::},",
         "hair":", ",
-        "dress": "{BREAK,|3::},{gloves, dress, red dress, white gloves, capelet, gown, red gown, apricot, black apricot,,|__dress__},{BREAK,|3::},",
+        "dress": "{BREAK,|3::},{gloves, dress, {red| }dress, white gloves, capelet, gown, {red|} gown, apricot, black apricot,,|__dress__},{BREAK,|3::},",
 		},
 		{},
 		[
@@ -202,8 +202,8 @@
 	),
 	"Yurisa_chan": (
 	"piaolianga",
-		(0.5,1.0),
-		1.0,
+		(0.75,1.0),
+		(0.75,1.0),
 		{
 			#"char":"yurisa,  ",
 			#"hair":"long hair,",
@@ -234,15 +234,7 @@
 		#"SD-ALL0.5" ,
 		],
 	),
-	"Shirobako-Rinko_Ogasawara-PDXL": (
-	"Shirobako-Rinko_Ogasawara-PDXL",
-		(0.5,1.0),
-		1.0,
-		{
-			"char":"Rinko Ogasawara,   ",
-			"hair":"long hair,",
-		},
-	),
+
 	"Regina": (
 	"Regina",
 		(0.0,1.0),
@@ -345,8 +337,8 @@
 	),
 	"LeexRosemary-10": (
 	"LeexRosemary-10",
-		(0.5,1.0),
-		1.0,
+		(0.25,1.0),
+		(0.75,1.0),
 		{
 			"char":"LeexRosemary, 1girl, long hair, blue eyes,  blonde hair, brown hair,  purple eyes,  hairband, hair over one eye,  ",
 			"hair":",",
@@ -374,7 +366,7 @@
 	),
 	"yurisa": (
 	"last (5)",
-		(0.5,1.0),
+		(0.75,1.0),
 		1.0,
 		{
 			"char":"yurisa,  ",
@@ -1099,7 +1091,7 @@
 	),
     "Puddingcess_YGO-10": (
 	"Puddingcess_YGO-10",
-        (0.25,1.0),
+        (0.0,1.0),
         (0.75,1.0),
         {
             "char":"puddingcess_ygo, ",

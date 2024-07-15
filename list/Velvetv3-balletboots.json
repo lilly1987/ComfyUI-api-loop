@@ -1,0 +1,8 @@
+{	#	monv_v2.4_lbw-crucified-BalletBoots
+	"loras":{
+		"1": "Velvetv3",
+		"3": "balletboots",
+		#"2": "crucified",
+		#"4": "microwaist 0.2b Lora",
+    },
+}

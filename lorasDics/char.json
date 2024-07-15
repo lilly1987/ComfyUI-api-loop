@@ -1213,7 +1213,7 @@
 	),
 	"ZaraKotobuki-10": (
 	"ZaraKotobuki-10",
-		(0.25,1.0),
+		(0.0,0.75),
 		(0.75,1.0),
 		{
 			"char":"{BREAK,|3::}, ZaraKotobuki,  brown eyes, long hair,brown hair, {BREAK,|3::},",
@@ -1446,20 +1446,30 @@
         #"SD-ALL0.5" ,
         ],
     ),
-	"reines_v2": (
-    "reines_v2",
+	"koxiaVR_all_cleaned": (
+    "koxiaVR_all_cleaned",
+		(0.25,1.0),
 		(0.75,1.0),
-		1.0,
 		{
-			"char":" reines\(normal\), ",
-			"hair":" headwear,  hair flower, ",
-			"dress":"hat, long sleeves, scarf, gloves, jacket, brown boots, fur collar, fur trim, black pantyhose, ",
+			"char":"koxia, ",
+			#"hair":" headwear,  hair flower, ",
+			#"dress":"hat, long sleeves, scarf, gloves, jacket, brown boots, fur collar, fur trim, black pantyhose, ",
+		},
+	),
+	"koxia20Virtuareal_v2Noflip": (
+    "koxia20Virtuareal_v2Noflip",
+		(0.25,1.0),
+		(0.75,1.0),
+		{
+			"char":"koxia, ",
+			#"hair":" headwear,  hair flower, ",
+			#"dress":"hat, long sleeves, scarf, gloves, jacket, brown boots, fur collar, fur trim, black pantyhose, ",
 		},
 	),
 	"Erispheria": (
     "Erispheria",
 		(0.0,0.75),
-		(0.5,0.75),
+		(0.25,0.75),
 		{
 			"char":"erispheria,  red eyes, ",
 			"hair":" long hair, white hair,  hair ornament, x hair ornament,",
@@ -1718,11 +1728,11 @@
 	),
 	"blazing_cartesia_the_virtuous": (
     "blazing_cartesia_the_virtuous",
-		(0.5,1.0),
-		(01.0,1.0),
+		(0.25,1.0),
+		(0.75,1.0),
 		{
-			"char":"blazingcartesia,pale skin, white hair, chest is covered with black silk,  Hair ornaments, gauntlets, red dress, detached sleeves, bare shoulders,black veil ",
-			"dress":" ",
+			"char":"blazingcartesia,pale skin, white hair, chest is covered with black silk,  Hair ornaments, gauntlets,  ",
+			"dress":"{{red|} dress, detached sleeves, bare shoulders,black veil,|__dress__}, ",
 		},
 	),
 	"blazing_cartesia_the_virtuous_XL-bf16-pony-v1": (

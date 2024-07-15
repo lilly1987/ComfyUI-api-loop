@@ -46,7 +46,7 @@
     #"acmarGMixAmateurDeep_gRichyMixV15", #=
     #"fiamixRebootHNSFW_v10",
     #"fiamixRebootHNSFW_v63",
-    #"fiamixRebootHNSFW_v70",
+    "fiamixRebootHNSFW_v70",#=
     "fluffybreed_v20",#ggg-
     "fluffybreed_v20",#ggg-
     "fluffybreed_v20",#ggg-
@@ -107,7 +107,7 @@
     "hotarubreedRealmix_v70",
     "hotarubreedTypeF_v80",#gg
     #"calicomix_v60",#--
-    #"artemix_l2",#=
+    #"artemix_l2",#==
     #"lemonmixV2_v30",#-
     "angelbreed_TsurimeV40",#gg-
     "hotarubreedTypeA_v80",#g
@@ -120,18 +120,21 @@
     "maimixsr_PunkVAEBaked",
     "CheckpointYesmix_v40",
     "maplemix_v10",
+    "001hkMix_v10",
     "meinahentai_v21",
     "duelgamecharmix_deliceredanime",
     "mklanNSFWANIMEHentai_mklan223",
     "mklanNSFWANIMEHentai_mklan223hentai",
     "oneFORALLAnime_v35DPOVAE",
-    "pppanimeNSFW_pppanimeNsfw",
+    "lightAnimeStylePony_v1",#+
+    "xermix_v10",#+
+    "pppanimeNSFW_pppanimeNsfw",#+
     "waiANINSFWPONYXL_v40",
     #"pppAnimix_basic32ti",
     "pdForAnime_v20",
-    "hadrianDelicexl_v10",#g
+    "hadrianDelicexl_v10",#gg
     #"ugaritMERGE_v6Vultureen",#-
-    #"pppAnimix_basic50",#-
+    #"pppAnimix_basic50",#-=
     "pppAnimix_basic40",
     "painGPonyxlBased_v002",
     #"realDreamAnimeSDXL_sdxlPony3",
@@ -140,18 +143,20 @@
     "ricemixR_blackV1",#==
     #"ricemixR_v10",#-
     #"99mix_99MixV29",#-
+    "waiCUTE_v10",
     "rimoconfusion_v32",
     "sakushimixHentai_v11Fp16NoEmaPruned",
-    #"pppanimeNSFW_pppanimeNsfwV2",#=
+    #"pppanimeNSFW_pppanimeNsfwV2",#==
     "raemumix_v100",
     "pppAnimix_basic60",
     "supermix_v1",
     "ryomix_v20",
+    "raemuXL_v35Lightning",
     "theWondermix_v40",
     "ultraControlSupper_anythingVer",
     #"hotarubreedTypeC_v80",#=
     #"lilimix_v10",#==
-    #"koolSuiteOfModels_kingmix",#-
+    #"koolSuiteOfModels_kingmix",#--
     #"yetAnotherAnimeModel_v2Rc2",#=-
     #"yetanotheranimemodel_v2Rc1",#=-
     #"zidie_v10",

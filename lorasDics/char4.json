@@ -389,8 +389,8 @@
     ),
     "morino_rinze_v1": (
 	"morino_rinze_v1",
-        (0.5,1.0),
-        (0.875,1.0),
+        (0.25,1.0),
+        (0.75,1.0),
         {
             "char" :"{BREAK,|3::}, aarinze, short hair, single hair bun, hair flower,  {BREAK,|3::},",
             "hair":",",
@@ -452,12 +452,12 @@
     ),
     "rosalina-lyco-nochekaiser": (
 	"rosalina-lyco-nochekaiser",
-        (0.0,1.0),
+        (0.0,0.75),
         (0.0,1.0),
         {
-            "char" :"{BREAK,|3::} rosalina, blonde hair, blue eyes, hair over one eye, long hair, blue dress, crown, dress, earrings, jewelry, princess, robe, star earrings, {BREAK,|3::}",
+            "char" :"{BREAK,|3::} rosalina, blonde hair, blue eyes, hair over one eye, long hair, earrings, jewelry, princess,  star earrings, {BREAK,|3::}",
             "hair":",",
-            "dress":",",
+            "dress":"{robe,|__dress__},",
         },
 		{},
 		[
@@ -811,10 +811,32 @@
         (0.25,1.0),
         (0.75,1.0),
         {
-            "char" :" ANMRxSummer, 1girl,  short hair, frilled skirt, black hair, black gloves, black dress,  braid, pantyhose, frills, fingerless gloves, black cape,  black eyes,  crimson rose \(symbol\),{shoulder armor,armor,breastplate,|} ",
-            "hair":" ",
-            "dress":" ",
+            "char" :" ANMRxSummer, 1girl,  short hair,  black hair,  braid,   black eyes,  crimson rose \(symbol\), ",
+            #"hair":" ",
+            "dress":" {__dress__|frilled skirt, black gloves, black dress,pantyhose, frills, fingerless gloves, black cape,},",#{shoulder armor,armor,breastplate,|}
         },
+		{},
+		[
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		#"SD-INS"    ,
+		#"SD-INALL"  ,
+		#"SD-IND"    ,
+		"SD-MIDD"   ,
+		"SD-MIDD1"  ,#
+		"SD-MIDD2"  ,
+		#"SD-MIDD0.8",
+		#"SD-MIDD0.2",
+		"SD-MOUT"   ,
+		"SD-OUTD"   ,
+		#"SD-OUTS"   ,
+		#"SD-OUTALL" ,
+		#"SD-ROUT"   ,
+		"SD-AOUT"   ,
+		"SD-AB" 	,
+		#"SD-ALL0.5" ,
+		],
     ),
     "MaristheDarkWitch-10": (
 	"MaristheDarkWitch-10",
@@ -891,11 +913,11 @@
     "princess_eilonwy_v1": (
 	"princess_eilonwy_v1",
         (0.25,1.0),
-        (0.25,1.0),
+        (0.75,1.0),
         {
             "char" :" hairband,  princess_eilonwy, bodice, long_sleeves, ",
             "hair":" ",
-            "dress":" ",
+            #"dress":" ",
         },
     ),
     "Torah_Novartis_EVE_ZERO": (
@@ -1102,7 +1124,7 @@
     ),
     "Rio(ms)": (
     "Rio(ms)",
-        (0.25,1.0),
+        (0.0,0.75),
         (0.75,1.0),
         {
             "char" :"Rio,",
@@ -1169,8 +1191,8 @@
         (0.25,1.0),
         (0.75,1.0),
         {
-            "char" :"pa-san, blunt bangs,",
-            "hair":"colored inner hair, black hair, purple hair,",
+            "char" :"pa-san, blunt bangs, colored inner hair, black hair, purple hair,",
+            #"hair":"",
             "dress":"{black dress, clothing cutout, shoulder cutout, sleeves past wrists, choker,|__dress__},",
         },
 		{},

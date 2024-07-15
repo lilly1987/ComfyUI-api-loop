@@ -1,0 +1,12 @@
+{	# pasantest-side-deepthroat-v3-wasabiya
+	"loras":{
+		"1": "koxia20Virtuareal_v2Noflip",
+		#"2": "side-deepthroat-v3-wasabiya",
+    },
+	#"positive": {
+	#	"single braid":" single braid, ",
+	#},
+	#"negative" : {
+	#	"hair":"twintails,  ",
+	#},
+}

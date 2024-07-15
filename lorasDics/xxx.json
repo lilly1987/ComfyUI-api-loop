@@ -223,8 +223,8 @@
 	),
 	"Ejaculating_Cum_v2.3": (
 	"Ejaculating_Cum_v2.3",
-        (0.5,01.0),
-        (01.0,01.0),
+        (0.25,01.0),
+        (0.75,01.0),
         {
 			"Ejaculating_Cum_v2.3" :"EjaculatingCum, (male masturbation,ejaculation,arms behind back:1.3),motion lines,1boy,penis,multiple boys,multiple penis,facial,bukkake,cum in mouth,cum on tongue,hetero,",
 			"insertion":"",
@@ -6383,7 +6383,7 @@
 	),
 	"crucified":(
 	"crucified",
-		(0.0,0.75),
+		(0.0,0.5),
 		(0.50,01.0),
 		{
 			"crucified":"crucified,",
@@ -6407,6 +6407,42 @@
 		"SD-OUTS"   ,
 		#"SD-OUTALL" ,
 		#"SD-ROUT"   ,#
+		#"SD-AOUT"   ,
+		#"SD-AOUT"   ,
+		#"SD-AB" 	,
+		#"SD-ALL0.5" ,
+		],
+	),
+	"yuriKiss_v01Beta":(
+	"yuriKiss_v01Beta",
+		(0.0,01.0),
+		1.0,
+		{
+			"yuriKiss_v01Beta":"kiss,yuri,,",
+			"boy":",",
+			"girl":"2girls ,",
+		},
+		{
+			"girl":"1girl ,",
+		},
+		[
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		"SD-ALL"    ,
+		#"SD-INS"    ,
+		"SD-INALL"  ,
+		"SD-IND"    ,
+		"SD-MIDD"   ,
+		"SD-MIDD"   ,
+		"SD-MIDD1"  ,
+		#"SD-MIDD2"  ,#
+		#"SD-MIDD0.8",
+		#"SD-MIDD0.2",
+		"SD-MOUT"   ,
+		#"SD-OUTD"   ,#
+		"SD-OUTS"   ,
+		#"SD-OUTALL" ,
+		"SD-ROUT"   ,#
 		#"SD-AOUT"   ,
 		#"SD-AOUT"   ,
 		#"SD-AB" 	,

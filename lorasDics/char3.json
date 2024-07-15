@@ -290,8 +290,8 @@
 	),
 	"kuon_saya_lora_ver1": (
 	"kuon_saya_lora_ver1",
-		(0.0,01.0),
-		(0.6,01.0),
+		(0.0,0.75),
+		(0.5,01.0),
 
 		{
 			"char" :"kuon_saya, brown eyes, blue hair, long hair, mole under mouth, ,  ",
@@ -353,9 +353,19 @@
 		#"SD-ALL0.5" ,
 		],
 	),
+	"SougetsuEli_v10": (
+	"SougetsuEli_v10",
+		(0.0,0.75),
+		(0.75,01.0),
+		{
+			"char" :"purple eyes ,pointy ears,",
+			"hair":"   long hair,white hair, bangs,",
+			#"dress":"long sleeves, purple dress, cleavage,  collarbone, frills, long dress, ",
+		},
+	),
     "minaseIori_minaseIori": (
     "minaseIori_minaseIori",
-        (0.0,1.0),
+        (0.0,0.75),
         (0.75,1.0),
         {
             "char" :"brown hair, forehead, sidelocks,  long hair, hairband, bow,",
@@ -526,8 +536,8 @@
     ),
     "YorForger-10": (
 	"YorForger-10",
-        (0.25,1.0),
-        (01.0,1.0),
+        (0.0,0.75),
+        (0.5,1.0),
         {
             "char" :"YorForger, ",
             "hair":"{long hair,|}",
@@ -536,8 +546,8 @@
     ),
     "Thousand_Arms_-_Mil_Wind": (
 	"Thousand_Arms_-_Mil_Wind",
-        (0.25,1.0),
-        (01.0,1.0),
+        (0.0,0.75),
+        (0.75,1.0),
         {
             "char" :" tamilwind, brown hair, twintails, braided twintails, brown eyes, ",
             "hair":"long hair,",
@@ -942,7 +952,7 @@
 	"silentMagicianYuGiOh_v10": (
 	"silentMagicianYuGiOh_v10",
 		(0.25,1.0),
-		1.0,
+		(0.75,1.0),
 		{
 			"char" :",white hair,   ",
 			#"hair":"   ",
@@ -1101,7 +1111,7 @@
 	),
 	"sister_cleaire_v2": (
 	"sister_cleaire_v2",
-		(0.25,1.0),
+		(0.0,0.75),
 		(0.75,1.0),
 		{
 			"char" :"{BREAK,|3::} {aasister, long hair, nun, habit, white capelet, neck ribbon, (black dress:1.2), long sleeves, white gloves, full-length zipper,|bbsister, long hair, ponytail, sidelocks, collared dress, grey dress, short sleeves, buttons, black belt|ccsister, long hair, white headwear, earrings, collarbone, necklace, pink sweater, long sleeves, black gloves, plaid skirt, grey skirt, black pantyhose|ddsister, long hair, two side up, wavy hair, crop top, cropped shirt, black shirt, short sleeves, chest harness, suspenders, midriff, miniskirt, black skirt, thigh strap|eesister, long hair, sleep mask, glasses, collarbone, necklace, pajamas, camisole, blue bow, brown cardigan, open clothes, long sleeves, frilled shorts, white shorts, white bloomers} {BREAK,|3::} ",

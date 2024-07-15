@@ -1,0 +1,8 @@
+{	#	monv_v2.4_lbw-crucified-BalletBoots
+	"loras":{
+		"1": "pokemonCogita_v10",
+		"2": "crucified",
+		"3": "balletboots_v1",
+		#"4": "microwaist 0.2b Lora",
+    },
+}

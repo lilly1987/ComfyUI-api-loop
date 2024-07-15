@@ -1642,8 +1642,8 @@
 		"stop_at_clip_layer": -2,
 	},
 	"koolSuiteOfModels_kingmix" : {
-		"cfg_min": 10.0,
-		"cfg_max": 20.0,
+		"cfg_min": 4.0,
+		"cfg_max": 16.0,
 		"KSampler":{
 			#"steps": 50,
 			"steps_min": 20,
@@ -1726,12 +1726,12 @@
 		"cfg_max": 8.0,
 		"KSampler":{
 			#"steps": 50,
-			"steps_min": 30,
+			"steps_min": 20,
 			"steps_max": 30,
 		},
 		"DetailerForEachDebug":{
 			#"steps": 50,
-			"steps_min": 30,
+			"steps_min": 20,
 			"steps_max": 30,
 		},
 		"sampler_name": [
@@ -2923,7 +2923,7 @@
 		],
 		"SaveImage2":true,
 	},
-	"waiCUTE_v10" : {
+	"waiCUTE_v10" : {#+
 		"cfg" : 7.0,
 		"KSampler":{
 				"steps_min": 20,
@@ -3942,9 +3942,25 @@
 		},
 		"SaveImage2":true,
 	},
+	"lightAnimeStylePony_v1" : {
+		"cfg_min": 4.0,
+		"cfg_max": 8.0,
+		"KSampler":{
+			"steps_min": 12,
+			"steps_max": 20,
+		},
+		"SaveImage2":true,
+	},
+	"xermix_v10" : {
+		"KSampler":{
+			"steps_min": 12,
+			"steps_max": 20,
+		},
+		"SaveImage2":true,
+	},
 	"ebaramfcgponymix_v11" : {
-		"cfg_min": 5.0,
-		"cfg_max": 9.0,
+		"cfg_min": 6.0,
+		"cfg_max": 9.5,
 		"stop_at_clip_layer": -2,
 		"KSampler":{
 			"steps": 20,
@@ -3954,13 +3970,14 @@
 		},
 		"sampler_name": [
 			 "dpmpp_3m_sde",
+			 "euler_ancestral",
 		],
 		"positive" : {
 			#"quality":" ",
+			"isXl":"score_9, score_8_up, score_7_up, ",
 		},
 		"negative" : {
 			#"quality":", ",
-			"isXl":"score_9, score_8_up, score_7_up, ",
 		},
 		"SaveImage2":true,
 	},
@@ -4294,7 +4311,7 @@
 			#"dpmpp_2m_sde",   
 			#"dpmpp_3m_sde",   
 		],
-		"SaveImage2":true,
+		#"SaveImage2":true,
 	},
 	"evaclausmixPonyXL_v10" : {
 		"SaveImage2":true,

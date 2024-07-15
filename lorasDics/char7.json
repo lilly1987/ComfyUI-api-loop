@@ -64,7 +64,7 @@
     ),
     "Sara(bdd)": (
     "Sara(bdd)",
-        (0.25,1.0),
+        (0.0,1.0),
         (0.75,1.0),
         {
             "char" :"Sara,",
@@ -96,7 +96,7 @@
     ),
     "EriIbusaki-10": (
     "EriIbusaki-10",
-        (0.25,1.0),
+        (0.0,1.0),
         (0.75,1.0),
         {
             "char" :"EriIbusaki, 1girl, long hair, blue eyes,  black hair, blue hair,     ",
@@ -1531,7 +1531,7 @@
 	"mahjongsoul_fuji": (
 	"mahjongsoul_fuji",
 		(0.25,1.0),
-		1.0,
+		(0.25,1.0),
 		{
 			"char":"Fuji, yellow eyes,",
 			"hair":"short hair,silver hair,white hair,",
@@ -1583,8 +1583,8 @@
 	),
 	"Inagaki Sae(sk)": (
     "Inagaki Sae(sk)",
+		(0.25,1.0),
 		(0.75,1.0),
-		1.0,
 		{
 			"char":" Inagaki Sae, ",
 			"hair":"long hair,black hair,white hairband,sidelocks,bangs,blue eyes, ",

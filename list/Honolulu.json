@@ -2,8 +2,8 @@
     "loras":{
         "char": (
             "Honolulu",
-            (0.25,1.0),
-            1.0,
+            (0.0,1.0),
+            (0.5,1.0),
             {
                 "char" :"honolulu \(kancolle\),  ",
                 #"hair":" (blonde hair, blue hair:1.2, gradient hair:1.2), (low twintails:1.2), multicolored hair, flower hair ornament,",

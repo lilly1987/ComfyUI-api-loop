@@ -2,12 +2,12 @@
 
     "Edel_PONY_from_Sousou_no_Frieren": (
     "Edel_PONY_from_Sousou_no_Frieren",
-        (0.5,1.0),
-        1.0,
+        (0.25,1.0),
+        (0.75,1.0),
         {
             "char" :"Edel , light brown hair, bob hair, splashed hair tips, center part bangs, brown eyes, slant eyes, droopy eyes,,",
             "hair":",",
-            "dress":"white one-piece, white mini skirt one-piece,  white one-piece dress, puffy sleeves, short sleeves, black thighhigh boots,,",
+            "dress":"{white one-piece, white mini skirt one-piece,  white one-piece dress, puffy sleeves, short sleeves, black thighhigh boots,|__dress__},",
         },
 		{},
 		[
@@ -34,7 +34,7 @@
     ),
 	"yurisaLora_v10": (
 	"yurisaLora_v10",
-		(0.25,1.0),
+		(0.75,1.0),
 		(0.75,1.0),
 		{
 			"char":"yurisa,",
@@ -70,7 +70,7 @@
 	),
 	"yurisaLora_v20": (
 	"yurisaLora_v20",
-		(0.25,1.0),
+		(0.75,1.0),
 		(0.75,1.0),
 		{
 			"char":"yurisa,",
@@ -106,7 +106,7 @@
 	),
 	"yurisaLora_v30": (
 	"yurisaLora_v30",
-		(0.25,1.0),
+		(0.75,1.0),
 		(0.75,1.0),
 		{
 			"char":"yurisa,",
@@ -142,7 +142,7 @@
 	),
 	"yurisaLora_v40": (
 	"yurisaLora_v40",
-		(0.25,1.0),
+		(0.75,1.0),
 		(0.75,1.0),
 		{
 			"char":"yurisa,",
@@ -332,7 +332,7 @@
     ),
     "Velvetv3": (
     "Velvetv3",
-        (0.0,1.0),
+        (0.250,1.0),
         (0.750,1.0),
         {
             "char" :"Velvet, ",
@@ -621,12 +621,12 @@
 	),
 	"luna-20": (
 	"luna-20",
-		(0.25,01.0),
+		(0.25,0.75),
 		(0.75,01.0),
 		{
 			"char":"luna, ",
 			"hair":" long hair, straight hair,hime cut, ",
-			"dress":", ",
+			#"dress":", ",
 		},
 		{},
 		[
@@ -1686,8 +1686,8 @@
     ),
     "PrincessConnect_Karyl": ( #--
     "PrincessConnect_Karyl",
-        (0.250,0.75),
-        (0.5,1.0),
+        (0.0,0.75),
+        (0.0,0.75),
         {
             "char" :"Karyl,",
             "hair":"black hair, streaked hair, white hair, low twintails, very long hair, green eyes, cat ears, cat tail,",
@@ -1760,8 +1760,8 @@
     ),
 	"pokemonCogita_v10": (
 	"pokemonCogita_v10",
-		(0.25,01.0),
-		(0.75,01.0),
+		(0.0,0.75),
+		(0.5,0.75),
 		{
 			"char":"Cogita /(pokemon/), ",
 			"hair":"Cogita /(pokemon/), ",

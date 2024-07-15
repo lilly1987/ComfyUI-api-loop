@@ -1,16 +1,16 @@
 {
     "cfg_min": 4.0,
-    "cfg_max": 10.0,
+    "cfg_max": 8.0,
     "cuda" : {
 		"KSampler":{
 			#"steps": 8,
-			"steps_min": 10,
-			"steps_max": 30,
+			"steps_min": 12,
+			"steps_max": 52,
 		},
 		"DetailerForEachDebug":{
             #"steps": 8,
-			"steps_min": 10,
-			"steps_max": 30,
+			"steps_min": 12,
+			"steps_max": 52,
 		},
     },
     "cpu" : {

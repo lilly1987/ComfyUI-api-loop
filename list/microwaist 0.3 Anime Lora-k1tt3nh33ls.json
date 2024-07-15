@@ -1,0 +1,13 @@
+{	# microwaist 0.3 Anime Lora-k1tt3nh33ls
+    "loras":{
+        "2":"microwaist 0.3 Anime Lora",
+        "3":"k1tt3nh33ls",
+        #"1":"microwaist 0.3 Anime Lora",
+        #"4":"koonagoConcept_v1",
+    },
+	# populated_text
+	#"positiveOnly":""
+	"positiveOnly" : "small chest, flat chest,, epic sex,    capelet, , small chest, flat chest,, thin waist, , small breasts, flat breasts,, Padlocks Ballet Boots ,Padlocks Ballet heels ,High Heel Ballet Boots,Ballet heels ,,  __dress__,  , (rolling eyes:1.0),, BREAK,,1boy,huge penis ,,, NSFW,, , anime, anime style,, frilled lolita fashion dress,  frilled sleeves, frills, , (k1tt3nh33ls), bow, shoes, high heels,,, breasts out, pussy,exposure, breasts exposure,  nipples exposure, pussy exposure,breast exposed,breasts exposed,  exposed breasts, exposed pussy,  , BREAK,, masterpiece , best quality , detailed face, detailed eyes,    illustration, ultra-detailed,  Beautiful character design,, ,, 1girl ,size difference, , hanged, hanging, hang, suicide, asphyxiation, hangman's noose around neck, hangman's noose, hangman's noose attached to the ceiling,,  ,  Blunt bangs, long hair, straight hair,hime cut, , deepthroat,  spitroast, ,  , ,  ",
+	"negativeOnly" :  "ugly face, blurry face, black and white, muscular female , text, sinature, stamp, watermark, error, jpeg artifacts, signature,  username, extra digit, fewer digits, speech bubble,  bad face,, lowres, worst quality, low quality,  from torso down, (monochrome:1.1), zombie , (blurry),  low res, , twintails,  , censored,, western,, , embedding:EasyNegativeV2.safetensors,,, mask,, realistic,photorealistic,,  bad anatomy, bad hands, missing fingers,, (multiple views:1.25), (multiple viewer:1.25),  (cropped:1.25), face only,  lower body,  facial,",
+	"lorasUpdate":false,
+}

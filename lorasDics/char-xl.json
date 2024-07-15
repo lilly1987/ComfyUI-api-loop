@@ -28,9 +28,18 @@
             "char":"ctiant3r3sa,,  ",
             #"hair":"long hair,",
             "hair":",",
-            "dress":"dress, long sleeves, frilled sleeves, earring, white gloves, blue ribbon, hand up, pelvic curtain, short skirt, white pantyhose,,",
+            "dress":"{dress, long sleeves, frilled sleeves, earring, white gloves, blue ribbon, hand up, pelvic curtain, short skirt, white pantyhose,|__dress__},",
         },
     ),
+	"Shirobako-Rinko_Ogasawara-PDXL": (
+	"Shirobako-Rinko_Ogasawara-PDXL",
+		(0.25,1.0),
+		(0.75,1.0),
+		{
+			"char":"Rinko Ogasawara,   ",
+			"hair":"long hair,",
+		},
+	),
     "konosuba_eris_ponyXL": (
     "konosuba_eris_ponyXL",
 		(0.5,1.0),

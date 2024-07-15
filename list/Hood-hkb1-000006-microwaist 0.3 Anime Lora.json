@@ -1,0 +1,14 @@
+{	# Hood-hkb1-000006-microwaist 0.3 Anime Lora
+    "loras":{
+        "2":"Hood",
+        "3":"hkb1-000006",
+        "1":"microwaist 0.2b Lora",
+        #"5":"microwaist 0.3 Anime Lora",
+        #"4":"koonagoConcept_v1",
+    },
+	# populated_text
+	#"positiveOnly":""
+	"positiveOnly" :   "small breasts,, , masterpiece , best quality , detailed face, detailed eyes, perfect eyes,  , ,,  , , (Pregnant:0.375),, Padlocks Ballet Boots ,Padlocks Ballet heels ,High Heel Ballet Boots,Ballet heels ,, 1girl ,size difference, , ,  , china frilled gothic lolita fashion dress, frilled skirt,  frills, , rough sex,   dynamic sexy pose, posing cute,   , anime,, ,  off shoulder, bare shoulder,   chest open,  ,, ,1boy,huge penis ,,, small chest, flat chest,, thigh boots, high heel boots,black footwear, , , small chest, flat chest,, thin waist, , breasts out, pussy,exposure, breasts exposure,  nipples exposure, pussy exposure,breast exposed,breasts exposed,  exposed breasts, exposed pussy, revealing clothes, , blue_eyes,, hanged, hanging, hang, suicide, asphyxiation, hangman's noose around neck, hangman's noose, hangman's noose attached to the ceiling,, blonde_hair,long_hair,hair_over_shoulder,bangs,, wrap-style frilled shirt worn with a flowing silk long skirt and strappy sandals, , , (multiple insertions, large insertion, vaginal object insertion, impossible object insertion, object insertion:1.25), , , NSFW,",
+	"negativeOnly" : "ugly face, blurry face, black and white, muscular female , text, sinature, stamp, watermark, error, jpeg artifacts, signature,  username, extra digit, fewer digits, speech bubble,  bad face,, , lowres, worst quality, low quality,  from torso down, (monochrome:1.1), zombie , (blurry),  low res, , mask,,  bad anatomy, bad hands, missing fingers,, censored,, embedding:ParaNegative.safetensors, embedding:easynegative.safetensors,,, realistic,photorealistic,, (multiple views:1.25), (multiple viewer:1.25),  (cropped:1.25), face only,  lower body,  facial,, western,",
+	"lorasUpdate":false,
+}
